@@ -52,7 +52,7 @@ BillGroup:
 ; ================================
 
 ProfElmGroup:
-	db "ELM@"
+	db "ORME@"
 	db (1 << TRAINERTYPE_MOVES) | (1 << TRAINERTYPE_ITEM) | (1 << TRAINERTYPE_MAXXP)
 
 	; party
@@ -96,7 +96,7 @@ ProfElmGroup:
 
 
 
-	db "ELM@"
+	db "ORME@"
 	db (1 << TRAINERTYPE_MOVES) | (1 << TRAINERTYPE_ITEM) | (1 << TRAINERTYPE_MAXXP)
 
 	; party
@@ -140,7 +140,7 @@ ProfElmGroup:
 
 
 
-	db "ELM@"
+	db "ORME@"
 	db (1 << TRAINERTYPE_MOVES) | (1 << TRAINERTYPE_ITEM) | (1 << TRAINERTYPE_MAXXP)
 
 	; party
@@ -289,13 +289,13 @@ CoolSiblingsGroup:
 	db 90, PORYGON2
 	db $ff
 
-	db "ARA&BELLA@"
+	db "ARA&BELLE@"
 	db 0 ; normal
 	db 91, STANTLER
 	db 91, TAUROS
 	db $ff
 
-	db "ARA&BELLA@"
+	db "ARA&BELLE@"
 	db 0 ; normal
 	db 91, TAUROS
 	db 91, STANTLER
@@ -683,7 +683,7 @@ RivalRBGroup:
 	db $ff
 BrockRBGroup:
 ; BROCK (1)
-	db "BROCK@"
+	db "PIERRE@"
 	db (1 << TRAINERTYPE_MOVES)
 
 	; party
@@ -703,7 +703,7 @@ BrockRBGroup:
 
 MistyRBGroup:
 	; MISTY (1)
-	db "MISTY@"
+	db "ONDINE@"
 	db (1 << TRAINERTYPE_MOVES)
 
 	; party
@@ -768,7 +768,7 @@ ExecutiveEgkGroup:
 ; ================
 	; EXECUTIVEEGK (1)
 	
-	db "EXECUTIVE@" ; 1
+	db "EXECUTIF@" ; 1
 	db (1 << TRAINERTYPE_NICKNAME) | (1 << TRAINERTYPE_ITEM)
 	db 15, RATICATE, GOLD_BERRY, "GILGAMESH@"
 	

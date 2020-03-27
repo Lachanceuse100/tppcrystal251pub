@@ -27,7 +27,7 @@ FalknerGroup:
 ; ================
 
 	; FALKNER (1)
-	db "FALKNER@"
+	db "ALBERT@"
 	db (1 << TRAINERTYPE_MOVES) | ( 1 << TRAINERTYPE_ITEM)
 
 	; party
@@ -53,7 +53,7 @@ FalknerGroup:
 	db $ff ; end
 
 	; FALKNER (2)
-	db "FALKNER@"
+	db "ALBERT@"
 	db (1 << TRAINERTYPE_MOVES) | ( 1 << TRAINERTYPE_ITEM) | (1 << TRAINERTYPE_MAXXP)
 
 	; party
@@ -105,7 +105,7 @@ WhitneyGroup:
 ; ================
 
 	; WHITNEY (1)
-	db "WHITNEY@"
+	db "BLANCHE@"
 	db (1 << TRAINERTYPE_MOVES) | ( 1 << TRAINERTYPE_ITEM)
 
 	; party
@@ -137,7 +137,7 @@ WhitneyGroup:
 	db $ff ; end
 
 	; WHITNEY (2)
-	db "WHITNEY@"
+	db "BLANCHE@"
 	db (1 << TRAINERTYPE_MOVES) | ( 1 << TRAINERTYPE_ITEM) | (1 << TRAINERTYPE_MAXXP)
 
 	; party
@@ -191,7 +191,7 @@ BugsyGroup:
 ; ================
 
 	; BUGSY (1)
-	db "BUGSY@"
+	db "HECTOR@"
 	db (1 << TRAINERTYPE_MOVES) | ( 1 << TRAINERTYPE_ITEM)
 
 	; party
@@ -217,7 +217,7 @@ BugsyGroup:
 	db $ff ; end
 
 	; BUGSY (2)
-	db "BUGSY@"
+	db "HECTOR@"
 	db (1 << TRAINERTYPE_MOVES) | ( 1 << TRAINERTYPE_ITEM) | (1 << TRAINERTYPE_MAXXP)
 
 	; party
@@ -269,7 +269,7 @@ MortyGroup:
 ; ================
 
 	; MORTY (1)
-	db "MORTY@"
+	db "MORTIMER@"
 	db (1 << TRAINERTYPE_MOVES)  | ( 1 << TRAINERTYPE_ITEM)
 
 	; party
@@ -301,7 +301,7 @@ MortyGroup:
 	db $ff ; end
 
 	; MORTY (2)
-	db "MORTY@"
+	db "MORTIMER@"
 	db (1 << TRAINERTYPE_MOVES) | ( 1 << TRAINERTYPE_ITEM) | (1 << TRAINERTYPE_MAXXP)
 
 	; party
@@ -353,7 +353,7 @@ PryceGroup:
 ; ================
 
 	; PRYCE (1)
-	db "PRYCE@"
+	db "FREDO@"
 	db (1 << TRAINERTYPE_MOVES) | ( 1 << TRAINERTYPE_ITEM)
 
 	; party
@@ -391,7 +391,7 @@ PryceGroup:
 	db $ff ; end
 
 	; PRYCE (2)
-	db "PRYCE@"
+	db "FREDO@"
 	db (1 << TRAINERTYPE_MOVES) | ( 1 << TRAINERTYPE_ITEM) | (1 << TRAINERTYPE_MAXXP)
 
 	; party
@@ -623,7 +623,7 @@ ClairGroup:
 ; ================
 
 	; CLAIR (1)
-	db "CLAIR@"
+	db "SANDRA@"
 	db (1 << TRAINERTYPE_MOVES) | ( 1 << TRAINERTYPE_ITEM)
 
 	; party
@@ -661,7 +661,7 @@ ClairGroup:
 	db $ff ; end
 
 	; CLAIR (2)
-	db "CLAIR@"
+	db "SANDRA@"
 	db (1 << TRAINERTYPE_MOVES) | ( 1 << TRAINERTYPE_ITEM) | (1 << TRAINERTYPE_MAXXP)
 
 	; party
@@ -1022,7 +1022,7 @@ PokemonProfGroup:
 ; ================
 
 	; PROFESSOR (1)
-	db "OAK@"
+	db "CHEN@"
 	db (1 << TRAINERTYPE_MOVES) | ( 1 << TRAINERTYPE_ITEM) | (1 << TRAINERTYPE_MAXXP)
 
 	; party
@@ -1066,7 +1066,7 @@ PokemonProfGroup:
 
 
 	; PROFESSOR (2)
-	db "OAK@"
+	db "CHEN@"
 	db (1 << TRAINERTYPE_MOVES) | ( 1 << TRAINERTYPE_ITEM) | (1 << TRAINERTYPE_MAXXP)
 
 	; party
@@ -1110,7 +1110,7 @@ PokemonProfGroup:
 
 
 	; PROFESSOR (3)
-	db "OAK@"
+	db "CHEN@"
 	db (1 << TRAINERTYPE_MOVES) | ( 1 << TRAINERTYPE_ITEM) | (1 << TRAINERTYPE_MAXXP)
 
 	; party
@@ -1158,7 +1158,7 @@ WillGroup:
 ; ================
 
 	; WILL (1)
-	db "WILL@"
+	db "CLEMENT@"
 	db (1 << TRAINERTYPE_MOVES)
 
 	; party
@@ -1196,7 +1196,7 @@ WillGroup:
 	db $ff ; end
 
 	; WILL (2)
-	db "WILL@"
+	db "CLEMENT@"
 	db (1 << TRAINERTYPE_MOVES)
 
 	; party
@@ -1248,7 +1248,7 @@ PKMNTrainerGroup:
 ; ================
 
 	; CAL (1)
-	db "CAL@"
+	db "JULOT@"
 	db 0 ; normal
 
 	; party
@@ -1261,7 +1261,7 @@ PKMNTrainerGroup:
 ; ================
 
 	; CAL (2)
-	db "CAL@"
+	db "JULOT@"
 	db 0 ; normal
 
 	; party
@@ -1274,7 +1274,7 @@ PKMNTrainerGroup:
 ; ================
 
 	; CAL (3)
-	db "CAL@"
+	db "JULOT@"
 	db 0 ; normal
 
 	; party
@@ -1332,7 +1332,7 @@ BrunoGroup:
 ; ================
 
 	; BRUNO (1)
-	db "BRUNO@"
+	db "ALDO@"
 	db (1 << TRAINERTYPE_MOVES)
 
 	; party
@@ -1370,7 +1370,7 @@ BrunoGroup:
 	db $ff ; end
 
 	; BRUNO (2)
-	db "BRUNO@"
+	db "ALDO@"
 	db (1 << TRAINERTYPE_MOVES)
 
 	; party
@@ -1423,7 +1423,7 @@ KarenGroup:
 ; ================
 
 	; KAREN (1)
-	db "KAREN@"
+	db "MARION@"
 	db (1 << TRAINERTYPE_MOVES)
 
 	; party
@@ -1461,7 +1461,7 @@ KarenGroup:
 	db $ff ; end
 
 	; KAREN (2)
-	db "KAREN@"
+	db "MARION@"
 	db (1 << TRAINERTYPE_MOVES)
 
 	; party
@@ -1602,7 +1602,7 @@ ChampionGroup:
 ; ================
 
 	; CHAMPION (1)
-	db "LANCE@"
+	db "PETER@"
 	db (1 << TRAINERTYPE_MOVES)
 
 	; party
@@ -1646,7 +1646,7 @@ ChampionGroup:
 	db $ff ; end
 
 	; CHAMPION (2)
-	db "LANCE@"
+	db "PETER@"
 	db (1 << TRAINERTYPE_MOVES)
 
 	; party
@@ -1698,7 +1698,7 @@ BrockGroup:
 ; ================
 
 	; BROCK (1)
-	db "BROCK@"
+	db "PIERRE@"
 	db (1 << TRAINERTYPE_MOVES) | ( 1 << TRAINERTYPE_ITEM)
 
 	; party
@@ -1744,7 +1744,7 @@ BrockGroup:
 ; ================
 
 	; BROCK (1)
-	db "BROCK@"
+	db "PIERRE@"
 	db (1 << TRAINERTYPE_MOVES) | ( 1 << TRAINERTYPE_ITEM) | (1 << TRAINERTYPE_MAXXP)
 
 	; party
@@ -1796,7 +1796,7 @@ MistyGroup:
 ; ================
 
 	; MISTY (1)
-	db "MISTY@"
+	db "ONDINE@"
 	db (1 << TRAINERTYPE_MOVES) | ( 1 << TRAINERTYPE_ITEM)
 
 	; party
@@ -1841,7 +1841,7 @@ MistyGroup:
 	db $ff ; end
 
 	; MISTY (2)
-	db "MISTY@"
+	db "ONDINE@"
 	db (1 << TRAINERTYPE_MOVES) | ( 1 << TRAINERTYPE_ITEM) | (1 << TRAINERTYPE_MAXXP)
 
 	; party
@@ -1895,7 +1895,7 @@ LtSurgeGroup:
 ; ================
 
 	; LT_SURGE (1)
-	db "LT.SURGE@"
+	db "MAJOR BOB@"
 	db (1 << TRAINERTYPE_MOVES) | ( 1 << TRAINERTYPE_ITEM)
 
 	; party
@@ -1940,7 +1940,7 @@ LtSurgeGroup:
 
 
 		; LT_SURGE (2)
-	db "LT.SURGE@"
+	db "MAJOR BOB@"
 	db (1 << TRAINERTYPE_MOVES) | ( 1 << TRAINERTYPE_ITEM) | (1 << TRAINERTYPE_MAXXP)
 
 	;party
@@ -2260,7 +2260,7 @@ YoungsterGroup:
 ; ================
 
 	; YOUNGSTER (6)
-	db "IAN@"
+	db "YAN@"
 	db (1 << TRAINERTYPE_ITEM)
 
 	; party
@@ -3475,7 +3475,7 @@ JanineGroup:
 ; ================
 
 	; JANINE (1)
-	db "JANINE@"
+	db "JEANNINE@"
 	db (1 << TRAINERTYPE_MOVES) | (1 << TRAINERTYPE_ITEM)
 
 	; party
@@ -3519,7 +3519,7 @@ JanineGroup:
 	db $ff ; end
 
 	; JANINE (2)
-	db "JANINE@"
+	db "JEANNINE@"
 	db (1 << TRAINERTYPE_MOVES) | ( 1 << TRAINERTYPE_ITEM) | (1 << TRAINERTYPE_MAXXP)
 
 	; party
@@ -4636,7 +4636,7 @@ GruntMGroup:
 ; ================
 
 	; GRUNTM (1)
-	db "GRUNT@"
+	db "SBIRE@"
 	db (1 << TRAINERTYPE_ITEM)
 
 	; party
@@ -4651,7 +4651,7 @@ GruntMGroup:
 ; ================
 
 	; GRUNTM (2)
-	db "GRUNT@"
+	db "SBIRE@"
 	db 0 ; normal
 
 	; party
@@ -4664,7 +4664,7 @@ GruntMGroup:
 ; ================
 
 	; GRUNTM (3)
-	db "GRUNT@"
+	db "SBIRE@"
 	db 0 ; normal
 
 	; party
@@ -4677,7 +4677,7 @@ GruntMGroup:
 ; ================
 
 	; GRUNTM (4)
-	db "GRUNT@"
+	db "SBIRE@"
 	db 0 ; normal
 
 	; party
@@ -4690,7 +4690,7 @@ GruntMGroup:
 ; ================
 
 	; GRUNTM (5)
-	db "GRUNT@"
+	db "SBIRE@"
 	db 0 ; normal
 
 	; party
@@ -4704,7 +4704,7 @@ GruntMGroup:
 ; ================
 
 	; GRUNTM (6)
-	db "GRUNT@"
+	db "SBIRE@"
 	db (1 << TRAINERTYPE_ITEM)
 
 	; party
@@ -4717,7 +4717,7 @@ GruntMGroup:
 ; ================
 
 	; GRUNTM (7)
-	db "GRUNT@"
+	db "SBIRE@"
 	db 0 ; normal
 
 	; party
@@ -4732,7 +4732,7 @@ GruntMGroup:
 ; ================
 
 	; GRUNTM (8)
-	db "GRUNT@"
+	db "SBIRE@"
 	db 0 ; normal
 
 	; party
@@ -4745,7 +4745,7 @@ GruntMGroup:
 ; ================
 
 	; GRUNTM (9)
-	db "GRUNT@"
+	db "SBIRE@"
 	db (1 << TRAINERTYPE_ITEM)
 
 	; party
@@ -4758,7 +4758,7 @@ GruntMGroup:
 ; ================
 
 	; GRUNTM (10)
-	db "GRUNT@"
+	db "SBIRE@"
 	db (1 << TRAINERTYPE_ITEM)
 
 	; party
@@ -4771,7 +4771,7 @@ GruntMGroup:
 ; ================
 
 	; GRUNTM (11)
-	db "GRUNT@"
+	db "SBIRE@"
 	db 0 ; normal
 
 	; party
@@ -4783,7 +4783,7 @@ GruntMGroup:
 ; ================
 
 	; GRUNTM (12)
-	db "EXECUTIVE@"
+	db "EXECUTIF@"
 	db 0 ; normal
 
 	; party
@@ -4794,7 +4794,7 @@ GruntMGroup:
 ; ================
 
 	; GRUNTM (13)
-	db "GRUNT@"
+	db "SBIRE@"
 	db 0 ; normal
 
 	; party
@@ -4806,7 +4806,7 @@ GruntMGroup:
 ; ================
 
 	; GRUNTM (14)
-	db "GRUNT@"
+	db "SBIRE@"
 	db 0 ; normal
 
 	; party
@@ -4820,7 +4820,7 @@ GruntMGroup:
 ; ================
 
 	; GRUNTM (15)
-	db "GRUNT@"
+	db "SBIRE@"
 	db (1 << TRAINERTYPE_ITEM)
 
 	; party
@@ -4832,7 +4832,7 @@ GruntMGroup:
 ; ================
 
 	; GRUNTM (16)
-	db "GRUNT@"
+	db "SBIRE@"
 	db 0 ; normal
 
 	; party
@@ -4846,7 +4846,7 @@ GruntMGroup:
 ; ================
 
 	; GRUNTM (17)
-	db "GRUNT@"
+	db "SBIRE@"
 	db 0 ; normal
 
 	; party
@@ -4859,7 +4859,7 @@ GruntMGroup:
 ; ================
 
 	; GRUNTM (18)
-	db "GRUNT@"
+	db "SBIRE@"
 	db 0 ; normal
 
 	; party
@@ -4871,7 +4871,7 @@ GruntMGroup:
 ; ================
 
 	; GRUNTM (19)
-	db "GRUNT@"
+	db "SBIRE@"
 	db 0 ; normal
 
 	; party
@@ -4885,7 +4885,7 @@ GruntMGroup:
 ; ================
 
 	; GRUNTM (20)
-	db "GRUNT@"
+	db "SBIRE@"
 	db (1 << TRAINERTYPE_ITEM)
 
 	; party
@@ -4897,7 +4897,7 @@ GruntMGroup:
 ; ================
 
 	; GRUNTM (21)
-	db "GRUNT@"
+	db "SBIRE@"
 	db (1 << TRAINERTYPE_ITEM)
 
 	; party
@@ -4909,7 +4909,7 @@ GruntMGroup:
 ; ================
 
 	; GRUNTM (22)
-	db "EXECUTIVE@"
+	db "EXECUTIF@"
 	db 0 ; normal
 
 	; party
@@ -4920,7 +4920,7 @@ GruntMGroup:
 ; ================
 
 	; GRUNTM (23)
-	db "EXECUTIVE@"
+	db "EXECUTIF@"
 	db 0 ; normal
 
 	; party
@@ -4931,7 +4931,7 @@ GruntMGroup:
 ; ================
 
 	; GRUNTM (24)
-	db "GRUNT@"
+	db "SBIRE@"
 	db (1 << TRAINERTYPE_ITEM)
 
 	; party
@@ -4944,7 +4944,7 @@ GruntMGroup:
 ; ================
 
 	; GRUNTM (25)
-	db "GRUNT@"
+	db "SBIRE@"
 	db 0 ; normal
 
 	; party
@@ -4957,7 +4957,7 @@ GruntMGroup:
 ; ================
 
 	; GRUNTM (26)
-	db "GRUNT@"
+	db "SBIRE@"
 	db 0 ; normal
 
 	; party
@@ -4969,7 +4969,7 @@ GruntMGroup:
 ; ================
 
 	; GRUNTM (27)
-	db "EXECUTIVE@"
+	db "EXECUTIF@"
 	db 0 ; normal
 
 	; party
@@ -4980,7 +4980,7 @@ GruntMGroup:
 ; ================
 
 	; GRUNTM (28)
-	db "GRUNT@"
+	db "SBIRE@"
 	db (1 << TRAINERTYPE_ITEM)
 
 	; party
@@ -4992,7 +4992,7 @@ GruntMGroup:
 ; ================
 
 	; GRUNTM (29)
-	db "GRUNT@"
+	db "SBIRE@"
 	db 0 ; normal
 
 	; party
@@ -5005,7 +5005,7 @@ GruntMGroup:
 ; ================
 
 	; GRUNTM (30)
-	db "GRUNT@"
+	db "SBIRE@"
 	db 0 ; normal
 
 	; party
@@ -5018,7 +5018,7 @@ GruntMGroup:
 ; ================
 
 	; GRUNTM (31)
-	db "GRUNT@"
+	db "SBIRE@"
 	db 0 ; normal
 
 	; party
@@ -5032,14 +5032,14 @@ GruntMGroup:
 ; ================
 
 ; 32
-	db "GRUNT@"
+	db "SBIRE@"
 	db 0
 	db 12, RATTATA
 	db 12, KOFFING
 	db $ff
 
 ; 33
-	db "GRUNT@"
+	db "SBIRE@"
 	db 0
 	db 12, ZUBAT
 	db 14, GRIMER
@@ -5047,28 +5047,28 @@ GruntMGroup:
 	db $ff
 
 ; 34
-	db "GRUNT@"
+	db "SBIRE@"
 	db 0
 	db 12, ZUBAT
 	db 12, EKANS
 	db $ff
 
 ; 35
-	db "GRUNT@"
+	db "SBIRE@"
 	db 0
 	db 13, RATTATA
 	db 13, ZUBAT
 	db $ff
 
 ; 36
-	db "GRUNT@"
+	db "SBIRE@"
 	db 0
 	db 15, EKANS
 	db 15, ZUBAT
 	db $ff
 
 ; 37
-	db "GRUNT@"
+	db "SBIRE@"
 	db 0
 	db 17, MACHOP
 	db 17, DROWZEE
@@ -5298,7 +5298,7 @@ SabrinaGroup:
 ; ================
 
 	; SABRINA (1)
-	db "SABRINA@"
+	db "MORGANE@"
 	db (1 << TRAINERTYPE_MOVES) | (1 << TRAINERTYPE_ITEM)
 
 	; party
@@ -5342,7 +5342,7 @@ SabrinaGroup:
 	db $ff ; end
 
 	; SABRINA (2)
-	db "SABRINA@"
+	db "MORGANE@"
 	db (1 << TRAINERTYPE_MOVES) | ( 1 << TRAINERTYPE_ITEM) | (1 << TRAINERTYPE_MAXXP)
 
 	; party
@@ -7854,7 +7854,7 @@ BlaineGroup:
 ; ================
 
 	; BLAINE (1)
-	db "BLAINE@"
+	db "AUGUSTE@"
 	db (1 << TRAINERTYPE_MOVES) | (1 << TRAINERTYPE_ITEM)
 
 	; party
@@ -7898,7 +7898,7 @@ BlaineGroup:
 	db $ff ; end
 
 		; BLAINE (2)
-	db "BLAINE@"
+	db "AUGUSTE@"
 	db (1 << TRAINERTYPE_MOVES) | ( 1 << TRAINERTYPE_ITEM) | (1 << TRAINERTYPE_MAXXP)
 
 	; party
@@ -8461,7 +8461,7 @@ ExecutiveMGroup:
 ; ================
 
 	; EXECUTIVEM (1)
-	db "EXECUTIVE@"
+	db "EXECUTIF@"
 	db (1 << TRAINERTYPE_ITEM)
 
 	; party
@@ -8476,7 +8476,7 @@ ExecutiveMGroup:
 ; ================
 
 	; EXECUTIVEM (2)
-	db "EXECUTIVE@"
+	db "EXECUTIF@"
 	db (1 << TRAINERTYPE_ITEM)
 
 	; party
@@ -8491,7 +8491,7 @@ ExecutiveMGroup:
 ; ================
 
 	; EXECUTIVEM (3)
-	db "EXECUTIVE@"
+	db "EXECUTIF@"
 	db (1 << TRAINERTYPE_ITEM)
 
 	; party
@@ -8506,7 +8506,7 @@ ExecutiveMGroup:
 ; ================
 
 	; EXECUTIVEM (4)
-	db "EXECUTIVE@"
+	db "EXECUTIF@"
 	db (1 << TRAINERTYPE_ITEM)
 
 	; party
@@ -8819,7 +8819,7 @@ PicnickerGroup:
 ; ================
 
 	; PICNICKER (12)
-	db "LIZ@"
+	db "LISE@"
 	db 0 ; normal
 
 	; party
@@ -10528,7 +10528,7 @@ GruntFGroup:
 ; ================
 
 	; GRUNTF (1)
-	db "GRUNT@"
+	db "SBIRE@"
 	db 0 ; normal
 
 	; party
@@ -10541,7 +10541,7 @@ GruntFGroup:
 ; ================
 
 	; GRUNTF (2)
-	db "GRUNT@"
+	db "SBIRE@"
 	db (1 << TRAINERTYPE_ITEM)
 
 	; party
@@ -10554,7 +10554,7 @@ GruntFGroup:
 ; ================
 
 	; GRUNTF (3)
-	db "GRUNT@"
+	db "SBIRE@"
 	db (1 << TRAINERTYPE_MOVES) | (1 << TRAINERTYPE_ITEM)
 
 	; party
@@ -10569,7 +10569,7 @@ GruntFGroup:
 ; ================
 
 	; GRUNTF (4)
-	db "GRUNT@"
+	db "SBIRE@"
 	db (1 << TRAINERTYPE_MOVES) | (1 << TRAINERTYPE_ITEM)
 
 	; party
@@ -10590,7 +10590,7 @@ GruntFGroup:
 ; ================
 
 	; GRUNTF (5)
-	db "GRUNT@"
+	db "SBIRE@"
 	db (1 << TRAINERTYPE_ITEM)
 
 	; party
