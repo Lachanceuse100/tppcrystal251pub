@@ -5,7 +5,7 @@ BillGroup:
 ; ================
 
 	; BILL_TC (1)
-	db "BILL@"
+	db "LEO@"
 	db (1 << TRAINERTYPE_MOVES) | (1 << TRAINERTYPE_ITEM)
 
 	; party
