@@ -486,19 +486,19 @@ JasmineGroup:
 
 	; party
 
-	db 100, FORRETRESS, GOLD_BERRY, "SHELLNUT@"
+	db 100, FORRETRESS, GOLD_BERRY, "CARANOIX@"
 		db PIN_MISSILE
 		db SANDSTORM
 		db EXPLOSION
 		db SPIKES
 
-	db 100, AMPHAROS, LEFTOVERS, "AMPHY@"
+	db 100, AMPHAROS, LEFTOVERS, "PHARY@"
 		db THUNDERBOLT
 		db DRAGON_PULSE
 		db THUNDER_WAVE
 		db HEAL_BELL
 
-	db 100, SKARMORY, SHARP_BEAK, "SKARLET@"
+	db 100, SKARMORY, SHARP_BEAK, "AIRELLE@"
 		db DRILL_PECK
 		db WHIRLWIND
 		db REST
@@ -510,13 +510,13 @@ JasmineGroup:
 		db TOXIC
 		db REST
 
-	db 100, STEELIX, SOFT_SAND, "RUSTY@"
+	db 100, STEELIX, SOFT_SAND, "METALLO@"
 		db EARTHQUAKE
 		db IRON_HEAD
 		db REST
 		db SLEEP_TALK
 
-	db 100, SCIZOR, METAL_COAT, "SNIPS@"
+	db 100, SCIZOR, METAL_COAT, "CISO@"
 		db X_SCISSOR
 		db BATON_PASS
 		db IRON_HEAD
@@ -3413,7 +3413,7 @@ LassGroup:
 
 	db "ROBIN@"
 	db (1 << TRAINERTYPE_NICKNAME)
-	db 14, JIGGLYPUFF, "JIGGLES@"
+	db 14, JIGGLYPUFF, "DOUDOU@"
 	db $ff
 
 	db "MIRIAM@"
@@ -3424,7 +3424,7 @@ LassGroup:
 
 	db "IRIS@"
 	db (1 << TRAINERTYPE_NICKNAME)
-	db 14, CLEFAIRY, "CLEFFLES@"
+	db 14, CLEFAIRY, "LOLO@"
 	db $ff
 
 	db "CRISSY@"
@@ -3708,7 +3708,7 @@ CooltrainerMGroup:
 ; ================
 
 	; COOLTRAINERM (11)
-	db "BLAKE@"
+	db "ESTEBAN@"
 	db 0 ; normal
 
 	; party
@@ -7806,8 +7806,8 @@ BikerGroup:
 	db (1 << TRAINERTYPE_NICKNAME)
 
 	; party
-	db 75, MAGMAR, "SMOKER@"
-	db 75, SNORLAX, "BELLYFAT@"
+	db 75, MAGMAR, "FUMEUR@"
+	db 75, SNORLAX, "GROVENTRE@"
 
 	db $ff ; end
 
@@ -7818,7 +7818,7 @@ BikerGroup:
 	db (1 << TRAINERTYPE_NICKNAME)
 
 	; party
-	db 75, BEEDRILL, "STINGER@"
+	db 75, BEEDRILL, "MISSILE@"
 
 	db $ff ; end
 
@@ -7829,8 +7829,8 @@ BikerGroup:
 	db (1 << TRAINERTYPE_NICKNAME)
 
 	; party
-	db 75, GRANBULL, "HARDTEETH@"
-	db 75, TAUROS, "BULLRIDE@"
+	db 75, GRANBULL, "GRANDENT@"
+	db 75, TAUROS, "TORERO@"
 
 	db $ff ; end
 
@@ -7841,7 +7841,7 @@ BikerGroup:
 	db (1 << TRAINERTYPE_NICKNAME)
 
 	; party
-	db 75, RATICATE, "SHARPFANG@"
+	db 75, RATICATE, "DENTFINE@"
 
 	db $ff ; end
 
@@ -9012,8 +9012,8 @@ PicnickerGroup:
 
 	db "KELSEY@"
 	db (1 << TRAINERTYPE_NICKNAME)
-	db 15, NIDORAN_M, "NEEDLES@"
-	db 15, NIDORAN_F, "PRINCESS@"
+	db 15, NIDORAN_M, "AIGUILLES@"
+	db 15, NIDORAN_F, "PRINCESSE@"
 	db $ff
 ; ================
 	db "NANCY@"
@@ -9024,9 +9024,9 @@ PicnickerGroup:
 
 	db "IZZY@"
 	db (1 << TRAINERTYPE_NICKNAME)
-	db 16, PIDGEY, "HOPSY@"
-	db 16, PIDGEY, "PECKSY@"
-	db 16, PIDGEY, "FLAPSY@"
+	db 16, PIDGEY, "HOPHOP@"
+	db 16, PIDGEY, "PICPIC@"
+	db 16, PIDGEY, "FLAPFLAP@"
 	db $ff
 ; ================================
 
