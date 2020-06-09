@@ -44,3 +44,4 @@ TinTower8F_MapEventHeader: ; 0x185b3b
 	person_event SPRITE_POKE_BALL, 5, 7, $1, 0, 0, -1, -1, 0, 1, 0, ItemFragment_0x185b39, EVENT_ITEM_TIN_TOWER_8F_FULL_RESTORE
 ; 0x185b86
 
+

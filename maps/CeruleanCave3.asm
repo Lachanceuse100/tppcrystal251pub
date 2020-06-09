@@ -62,3 +62,4 @@ CeruleanCave3_MapEventHeader:
 	person_event SPRITE_POKE_BALL, 4, 14, $1, 0, 0, -1, -1, 0, 1, 0, CeruleanCave3_Item2, EVENT_ITEM_CERULEANCAVE3_MAX_REVIVE
 	person_event SPRITE_POKE_BALL, 13, 10, $1, 0, 0, -1, -1, 0, 1, 0, CeruleanCave3_Item3, EVENT_ITEM_CERULEANCAVE3_MAX_ELIXER
 
+

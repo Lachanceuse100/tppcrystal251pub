@@ -349,227 +349,231 @@ MovementData_0x1851fe: ; 0x1851fe
 ; 0x185203
 
 UnknownText_0x185203: ; 0x185203
-	text "EUSINE: Awesome!"
-	line "Too awesome, even!"
+	text "EUSINE: Bravo!"
+	line "Incroyable même!"
 
-	para "I've never seen a"
-	line "battle that great."
+	para "Je n'ai jamais vu"
+	line "un tel combat."
 
-	para "That was truly"
-	line "inspiring to see."
+	para "Je suis sans voix."
 
-	para "SUICUNE was tough,"
-	line "but you were even"
+	para "SUICUNE est fort,"
+	line "mais tu l'es"
 
-	para "more incredible,"
+	para "encore plus,"
 	line "<PLAYER>."
 
-	para "I heard SUICUNE's"
-	line "mystic power"
+	para "On dit que SUICUNE"
+	line "a le pouvoir d'in-"
 
-	para "summons a rainbow-"
-	line "colored #MON."
+	para "voquer un #MON"
+	line "aux couleurs de"
+	cont "l'arc-en-ciel."
 
-	para "Maybe, just maybe,"
-	line "what went on today"
+	para "Peut-être, on ne"
+	line "sait jamais, ce"
 
-	para "will cause that"
-	line "#MON to appear."
+	para "qu'il vient de se"
+	line "passer le fera"
+	cont "apparaître<...>"
 
-	para "I'm going to study"
-	line "the legends more."
+	para "Je vais continuer"
+	line "d'étudier les"
+	cont "légendes."
 
-	para "Thanks for showing"
-	line "me that fantastic"
-	cont "battle."
+	para "Merci de m'avoir"
+	line "montré ce combat"
+	cont "fantastique."
 
-	para "Later, <PLAYER>!"
+	para "A bientôt,"
+	line "<PLAYER>!"
 	done
 ; 0x185386
 
 UnknownText_0x185386: ; 0x185386
-	text "According to"
-	line "legend<...>"
+	text "Selon la"
+	line "légende<...>"
 
-	para "When the souls of"
-	line "#MON and humans"
+	para "Lorsque les âmes"
+	line "des #MON et des"
 
-	para "commune, from the"
-	line "heavens descends a"
+	para "humains se réunis-"
+	line "sent, un #MON"
 
-	para "#MON of rainbow"
-	line "colors<...>"
+	para "aux couleurs de"
+	line "l'arc-en-ciel des-"
+	cont "cend des cieux<...>"
 
-	para "Could it mean the"
-	line "legendary #MON"
+	para "Est-il possible"
+	line "que les #MON"
 
-	para "are testing us"
-	line "humans?"
+	para "légendaires met-"
+	line "tent les humains"
+	cont "à l'épreuve?"
 	done
 ; 0x185433
 
 UnknownText_0x185433: ; 0x185433
-	text "When the BRASS"
-	line "TOWER burned down,"
+	text "Lorsque la TOUR de"
+	line "CUIVRE brûla,"
 
-	para "three nameless"
-	line "#MON were said"
+	para "trois #MON sans"
+	line "nom ont tragique-"
 
-	para "to have perished."
-	line "It was tragic."
+	para "ment péri dans"
+	line "les flammes<...>"
 
-	para "However<...>"
+	para "Toutefois<...>"
 
-	para "A rainbow-colored"
-	line "#MON<...>"
+	para "Un #MON aux"
+	line "ailes arc-en-ciel,"
 
-	para "In other words<...>"
+	para "HO-OH, descendit"
+	line "du ciel et redonna"
 
-	para "HO-OH descended"
-	line "from the sky and"
+	para "la vie aux trois"
+	line "#MON."
 
-	para "gave new life to"
-	line "the three #MON."
+	para "Ils se nomment<...>"
 
-	para "They are<...>"
-
-	para "SUICUNE, ENTEI and"
+	para "SUICUNE, ENTEI et"
 	line "RAIKOU."
 
-	para "That is what they"
-	line "say."
+	para "Et voilà ce qu'on"
+	line "raconte."
 	done
 ; 0x185544
 
 UnknownText_0x185544: ; 0x185544
-	text "The two TOWERS are"
-	line "said to have been"
+	text "On dit que les"
+	line "deux TOURS furent"
 
-	para "built to foster"
-	line "friendship and"
+	para "construites pour"
+	line "sceller l'amitié"
 
-	para "hope between #-"
-	line "MON and people."
+	para "entre #MON et"
+	line "humains."
 
-	para "That was 700 years"
-	line "ago, but the ideal"
+	para "C'était il y a"
+	line "700 ans, mais"
 
-	para "still remains"
-	line "important today."
+	para "l'idée reste la"
+	line "même aujourd'hui."
 	done
 ; 0x1855ee
 
 UnknownText_0x1855ee: ; 0x1855ee
-	text "HO-OH appears to"
-	line "have descended"
-
-	para "upon this, the TIN"
-	line "TOWER!"
+	text "HO-OH a dû arriver"
+	line "ici, à la TOUR"
+	cont "FERRAILLE!"
 	done
 ; 0x185629
 
 UnknownText_0x185629: ; 0x185629
-	text "This will protect"
-	line "you. Take it."
+	text "Ceci te protégera."
 	done
 ; 0x18564a
 
 UnknownText_0x18564a: ; 0x18564a
-	text "Now, go."
+	text "Allez."
 	done
 ; 0x185654
 
 UnknownText_0x185654: ; 0x185654
-	text "I believe you are"
-	line "being tested."
+	text "Je crois que l'on"
+	line "te met à"
+	cont "l'épreuve."
 
-	para "Free your mind"
-	line "from uncertainty,"
-	cont "and advance."
+	para "Vide ton esprit"
+	line "de tes doutes et"
+	cont "avance."
 	done
 ; 0x1856a3
 
 UnknownText_0x1856a3: ; 0x1856a3
-	text "I knew it."
+	text "Je le savais."
 
-	para "I knew you'd get"
-	line "to see the #MON"
+	para "Je savais que tu"
+	line "verrais le #MON"
 
-	para "of rainbow colors,"
+	para "arc-en-ciel,"
 	line "<PLAYER>."
 
-	para "It happened just"
-	line "as I envisioned."
+	para "C'était évident."
 
-	para "My research isn't"
-	line "bad, I might say."
+	para "Mes recherches"
+	line "n'étaient pas"
+	cont "mauvaises."
 
-	para "I'm going to keep"
-	line "studying #MON"
-
-	para "to become a famous"
-	line "#MANIAC!"
+	para "Je continuerais"
+	line "d'étudier pour de-"
+	cont "venir un célèbre"
+	cont "#MANIAC!"
 	done
 ; 0x185765
 
 UnknownText_0x185765: ; 0x185765
-	text "The legendary"
-	line "#MON are said"
+	text "Les #MON légen-"
+	line "daires sont censés"
 
-	para "to embody three"
-	line "powers<...>"
+	para "représenter trois"
+	line "pouvoirs<...>"
 
-	para "The lightning that"
-	line "struck the TOWER."
+	para "La foudre qui"
+	line "frappa la TOUR."
 
-	para "The fire that"
-	line "burned the TOWER."
+	para "Le feu qui la"
+	line "brûla."
 
-	para "And the rain that"
-	line "put out the fire<...>"
+	para "Et la pluie"
+	line "l'ayant éteint<...>"
 	done
 ; 0x185803
 
 UnknownText_0x185803: ; 0x185803
-	text "When the legendary"
-	line "#MON appeared<...>"
+	text "Lorsque les #-"
+	line "MON légendaires"
+	cont "sont apparus<...>"
 
-	para "They struck terror"
-	line "in those who saw"
-	cont "their rise."
+	para "Ils pétrifièrent"
+	line "de terreur les"
+	cont "témoins de leur"
+	cont "réveil<...>"
 
-	para "And<...>"
+	para "Et<...>"
 
-	para "Some even took to"
-	line "futile attacks."
+	para "Certains ont même"
+	line "cru bon de les"
+	cont "attaquer<...>"
 
-	para "The legendary"
-	line "#MON, knowing"
+	para "Les #MON légen-"
+	line "daires, conscients"
 
-	para "their own power,"
-	line "fled, ignoring the"
-	cont "frightened people."
+	para "de leur puissance,"
+	line "ont préféré fuir."
 	done
 ; 0x1858d0
 
 UnknownText_0x1858d0: ; 0x1858d0
-	text "Of the legendary"
-	line "#MON, SUICUNE"
+	text "De tous les #-"
+	line "MON légendaires,"
 
-	para "is said to be the"
-	line "closest to HO-OH."
+	para "SUICUNE est consi-"
+	line "déré comme le plus"
+	cont "proche de HO-OH."
 
-	para "I hear there may"
-	line "also be a link to"
+	para "Il y aurait aussi"
+	line "un lien avec les"
 
-	para "#MON known as"
-	line "UNOWN."
+	para "#MON connus"
+	line "sous le nom de"
+	cont "ZARBI<...>"
 
-	para "The #MON UNOWN"
-	line "must be sharing a"
+	para "Les ZARBI et"
+	line "SUICUNE doivent"
 
-	para "cooperative bond"
-	line "with SUICUNE."
+	para "être liés en un"
+	line "sens<...>"
 	done
 ; 0x18598c
 

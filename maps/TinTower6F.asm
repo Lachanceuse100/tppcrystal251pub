@@ -30,3 +30,4 @@ TinTower6F_MapEventHeader: ; 0x185ae6
 	person_event SPRITE_POKE_BALL, 12, 12, $1, 0, 0, -1, -1, 0, 1, 0, ItemFragment_0x185ae4, EVENT_ITEM_TIN_TOWER_6F_MAX_POTION
 ; 0x185b03
 
+

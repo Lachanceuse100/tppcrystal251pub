@@ -237,208 +237,211 @@ MapRadioTower3FSignpost1Script: ; 0x5e61e
 ; 0x5e621
 
 UnknownText_0x5e621: ; 0x5e621
-	text "We have recordings"
-	line "of the cries of"
+	text "Nous avons les"
+	line "enregistrements de"
 
-	para "all #MON that"
-	line "have been found."
+	para "tous les cris de"
+	line "#MON connus."
 
-	para "We must have about"
-	line "200 kinds."
+	para "Nous en avons près"
+	line "de 200 différents."
 	done
 ; 0x5e682
 
 UnknownText_0x5e682: ; 0x5e682
-	text "To trainers, #-"
-	line "MON are their"
-	cont "beloved partners."
+	text "Les #MON sont"
+	line "les amis adorés"
+	cont "des dresseurs."
 
-	para "It's terrible how"
-	line "TEAM ROCKET is"
+	para "La TEAM ROCKET"
+	line "tente de les con-"
 
-	para "trying to control"
-	line "#MON."
+	para "trôler<...> Quels"
+	line "affreux bandits!"
 	done
 ; 0x5e6eb
 
 UnknownText_0x5e6eb: ; 0x5e6eb
-	text "We run 24 hours a"
-	line "day to broadcast"
+	text "Nous diffusons des"
+	line "émissions distray-"
 
-	para "entertaining pro-"
-	line "grams."
+	para "antes 24 heures"
+	line "sur 24!"
 
-	para "I'll do my best to"
-	line "run around the"
-	cont "clock too!"
+	para "Je fais de mon"
+	line "mieux pour garder"
+	cont "le micro."
 	done
 ; 0x5e754
 
 UnknownText_0x5e754: ; 0x5e754
-	text "The TEAM ROCKET"
-	line "boss has locked"
-	cont "himself in."
+	text "Le chef de la TEAM"
+	line "ROCKET s'est en-"
+	cont "fermé."
 
-	para "But the DIRECTOR"
-	line "can open it."
+	para "Mais le DIRECTEUR"
+	line "peut ouvrir."
 
-	para "He's up on the"
-	line "fifth floor."
+	para "Il est au"
+	line "quatrième."
 
-	para "Please save him!"
+	para "Sauve-le! Pitié!"
 	done
 ; 0x5e7cb
 
 UnknownText_0x5e7cb: ; 0x5e7cb
-	text "Is the DIRECTOR"
-	line "safe?"
+	text "Le DIRECTEUR est-"
+	line "il en sécurité?"
 	done
 ; 0x5e7e2
 
 UnknownText_0x5e7e2: ; 0x5e7e2
-	text "Thank you!"
-	line "You're my hero!"
+	text "Oh, mon héros! Tu"
+	line "en as du courage!"
 
-	para "This is a token of"
-	line "my appreciation."
+	para "Prends ceci en"
+	line "récompense."
 	done
 ; 0x5e821
 
 UnknownText_0x5e821: ; 0x5e821
-	text "It's RETURN."
+	text "C'est RETOUR."
 
-	para "The more the user"
-	line "likes its trainer"
-	cont "the more it hurts."
+	para "Elle est plus"
+	line "puissante si ton"
+	cont "#MON t'aime."
 
-	para "Unleash your"
-	line "annihilation of"
-	cont "LOOOVE!!"
+	para "Ecrase-les avec"
+	line "le pouvoir de"
+	cont "l'amitié!"
 	done
 ; 0x5e85c
 
 UnknownText_0x5e85c: ; 0x5e85c
-	text "You were simply"
-	line "marvelous!"
+	text "Tu étais vraiment"
+	line "trop cool!"
 	done
 ; 0x5e878
 
 GruntM7SeenText: ; 0x5e878
-	text "I've been given"
-	line "strict orders."
+	text "On m'a donné un"
+	line "ordre précis."
 
-	para "I'm to crush any-"
-	line "one who challenges"
-	cont "TEAM ROCKET!"
+	para "Ecraser tous ceux"
+	line "qui s'opposent à"
+	cont "la TEAM ROCKET!"
 	done
 ; 0x5e8c8
 
 GruntM7BeatenText: ; 0x5e8c8
-	text "What?!"
+	text "Quoi?!"
 	done
 ; 0x5e8d0
 
 UnknownText_0x5e8d0: ; 0x5e8d0
-	text "I failed in my"
-	line "duties<...>"
+	text "J'ai échoué<...>"
 
-	para "I'll be docked pay"
-	line "for this<...>"
+	para "Mon salaire va en"
+	line "prendre un coup<...>"
 	done
 ; 0x5e904
 
 GruntM8SeenText: ; 0x5e904
-	text "It feels great"
-	line "ordering #MON"
-	cont "to commit crimes."
+	text "Commander les"
+	line "#MON pour le"
+	cont "crime, c'est cool."
 	done
 ; 0x5e934
 
 GruntM8BeatenText: ; 0x5e934
-	text "You're kidding!"
+	text "Tu plaisantes?"
 	done
 ; 0x5e944
 
 UnknownText_0x5e944: ; 0x5e944
-	text "I feel lousy over"
-	line "losing!"
+	text "Pfff<...> Je me sens"
+	line "super inutile!"
 
-	para "Darn it! I hate"
-	line "useless #MON!"
+	para "Mes #MON sont"
+	line "nuls et moches!"
 	done
 ; 0x5e97d
 
 GruntM9SeenText: ; 0x5e97d
-	text "Why did the shut-"
-	line "ter open? Did you"
+	text "Pourquoi c'est"
+	line "ouvert?"
 
-	para "have something to"
-	line "do with this?"
+	para "C'est toi qui as"
+	line "fait ça?"
 	done
 ; 0x5e9c2
 
 GruntM9BeatenText: ; 0x5e9c2
-	text "I'm done for!"
+	text "Je suis fichu!"
 	done
 ; 0x5e9d0
 
 UnknownText_0x5e9d0: ; 0x5e9d0
-	text "What?! You made it"
-	line "past our men in"
-	cont "the UNDERGROUND?"
+	text "Tu as échappé à"
+	line "nos hommes du"
+	cont "SOUTERRAIN?"
 
-	para "How could you<...>"
+	para "Comment t'as fait?"
 	done
 ; 0x5ea14
 
 ScientistMarcSeenText: ; 0x5ea14
-	text "#MON isn't"
-	line "all about levels!"
+	text "Il n'y a pas que"
+	line "les niveaux qui"
+	cont "comptent dans un"
+	cont "combat #MON."
 
-	para "I will show you"
-	line "how important"
-	cont "strategies are!"
+	para "Je vais te montrer"
+	line "que la stratégie"
+	cont "est importante!"
 	done
 ; 0x5ea43
 
 ScientistMarcBeatenText: ; 0x5ea43
-	text "How is this"
+	text "Comment est-ce"
 	line "possible!?"
 	done
 ; 0x5ea61
 
 UnknownText_0x5ea61: ; 0x5ea61
-	text "Tactics is a big"
-	line "part of #MON."
+	text "Les tactiques sont"
+	line "une grande partie"
+	cont "des combats"
+	cont "#MON."
 
-	para "For me it all"
-	line "started with using"
-
-	para "SMOG on a Grass-"
-	line "type #MON."
+	para "Pour moi, tout est"
+	line "parti d'une"
+	cont "attaque PUREDPOIS"
+	cont "sur un #MON de"
+	cont "type plante."
 	done
 ; 0x5eaa4
 
 UnknownText_0x5eaa4: ; 0x5eaa4
-	text "It's the CARD KEY"
-	line "slot."
+	text "Un lecteur de"
+	line "CARTE MAGN."
 	done
 ; 0x5eabc
 
 UnknownText_0x5eabc: ; 0x5eabc
-	text "<PLAYER> inserted"
-	line "the CARD KEY."
+	text "<PLAYER> insère"
+	line "la CARTE MAGN."
 	done
 ; 0x5ead6
 
 UnknownText_0x5ead6: ; 0x5ead6
-	text "3F PERSONNEL"
+	text "2EME PERSONNEL"
 	done
 ; 0x5eae4
 
 UnknownText_0x5eae4: ; 0x5eae4
-	text "#MON MUSIC with"
-	line "Host DJ BEN"
+	text "MUSIQUE #MON"
+	line "avec DJ BEN"
 	done
 ; 0x5eb01
 

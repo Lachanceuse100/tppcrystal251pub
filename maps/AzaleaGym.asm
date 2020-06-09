@@ -355,352 +355,362 @@ BugsyPostgameRematchScript:
 AzaleaGym_BurglarSimonText1:
 	text $56, " ", $56, " ", $56
 
-	para $56, " I'm looking for"
-	line "my partner."
+	para $56, " Je cherche mon"
+	line "partenaire."
 
-	para "Have you seen him?"
+	para "Tu l'as vu?"
 	done
 
 AzaleaGym_BurglarSimonTextLoss:
-	text "Yowch!"
+	text "Aïe!"
 	done
 
 AzaleaGym_BurglarSimonText2:
-	text "My partner and I"
-	line "were separated"
+	text "Mon partenaire et"
+	line "moi avons été sé-"
 
-	para "while exploring"
-	line "an abandoned buil-"
+	para "parés en explorant"
+	line "un bâtiment aban-"
 
-	para "ding over in"
-	line "KANTO."
+	para "donné à KANTO."
 
-	para "I meant to give"
-	line "him this."
+	para "Je voulais lui"
+	line "donner ça."
 	done
 
 AzaleaGym_BurglarSimonText3:
-	text "I really wonder"
-	line "where he went<...>"
+	text "Je me demande où"
+	line "il est<...>"
 	done
 
 UnknownText_0x18ed0b: ; 0x18ed0b
-	text "I'm BUGSY!"
-	line "I never lose when"
+	text "Je suis HECTOR!"
+	line "Je ne perds jamais"
 
-	para "it comes to bug"
-	line "#MON."
+	para "lorsqu'il s'agit"
+	line "de #MON"
+	cont "INSECTE."
 
-	para "My research is"
-	line "going to make me"
+	para "Mes recherches me"
+	line "permettront d'être"
 
-	para "the authority on"
-	line "bug #MON!"
+	para "le super expert"
+	line "des #MON"
+	cont "INSECTE!"
 
-	para "Let me demonstrate"
-	line "what I've learned"
-	cont "from my studies."
+	para "Laisse moi te"
+	line "montrer tout ce"
+	cont "que je sais!"
 	done
 ; 0x18edae
 
 BugsyRematchTextBefore:
-	text "Nice to see you"
-	line "again!"
+	text "Ah! C'est toi"
+	line "<PLAYER>!"
 
-	para "I heard! You won"
-	line "the BUG CATCHING"
-	cont "CONTEST!"
+	para "Tu as fais parler"
+	line "de toi au Concours"
+	cont "de Capture!"
 
-	para "I've been honing"
-	line "my knowledge of"
+	para "J'ai aiguisé mes"
+	line "connaissances en"
 
-	para "bug #MON in the"
-	line "meantime."
+	para "#MON INSECTE en"
+	line "attendant."
 
-	para "Let me demonstrate"
-	line "what I've learned!"
+	para "Je vais te montrer"
+	line "ce que j'ai"
+	cont "appris!"
 	done
 
 BugsyRematchBeatenText:
-	text "Aw, that's the"
-	line "end of it<...>"
+	text "Ohhh. Bon et bien"
+	line "voilà<...>"
 	done
 
 BugsyAfterRematchText:
-	text "I lost to your"
-	line "passion for"
-	cont "training."
+	text "J'ai perdu face à"
+	line "ta passion pour"
+	cont "l'entraînement."
 
-	para "Do I need to do"
-	line "more research?"
+	para "Aurais-je besoin"
+	line "de plus de"
+	cont "recherches ?"
 	done
 
 BugsyRejectText:
-	text "Hi, <PLAY_G>!"
-	line "Did you know?"
+	text "Salut, <PLAY_G>!"
+	line "Tu savais?"
 
-	para "BUG CATCHING"
-	line "CONTESTS are held"
+	para "Il y a un Concours"
+	line "de Capture tous"
 
-	para "every day at the"
-	line "NATIONAL PARK."
+	para "les jours au"
+	line "PARC NATUREL."
 
-	para "Of course, I'm a"
-	line "natural at that"
-	cont "kind of thing."
+	para "Moi je suis telle-"
+	line "ment bon qu'ils"
+	cont "m'ont demandé"
 
-	para "I've won so many"
-	line "times that the"
+	para "d'arrêter de"
+	line "participer."
 
-	para "CONTEST OFFICIAL"
-	line "asked me to stop!"
+	para "Mais tu devrais"
+	line "essayer."
 
-	para "But you should"
-	line "try it."
-
-	para "I'm sure you"
-	line "can win!"
+	para "Je suis certain"
+	line "que tu peux"
+	cont "gagner."
 
 	done
 
-
-
 UnknownText_0x18edae: ; 0x18edae
-	text "Whoa, amazing!"
-	line "You're an expert"
-	cont "on #MON!"
+	text "Whaou, dingue!"
+	line "Tu connais bien"
+	cont "les #MON!"
 
-	para "My research isn't"
-	line "complete yet."
+	para "Mes recherches ne"
+	line "sont pas finies."
 
-	para "OK, you win. Take"
-	line "this BADGE."
+	para "OK, tu as gagné."
+	line "Prends ce BADGE."
 	done
 ; 0x18ee14
 
 UnknownText_0x18ee14: ; 0x18ee14
-	text "<PLAYER> received"
-	line "HIVEBADGE."
+	text "<PLAYER> reçoit"
+	line "le BADGE ESSAIM."
 	done
 ; 0x18ee2b
 
 UnknownText_0x18ee2b: ; 0x18ee2b
-	text "Do you know the"
-	line "benefits of HIVE-"
-	cont "BADGE?"
+	text "Connais-tu les"
+	line "pouvoirs du"
+	cont "BADGE ESSAIM?"
 
-	para "#MON that know"
-	line "CUT will be able"
+	para "Il permet à tes"
+	line "#MON d'utiliser"
 
-	para "to use it outside"
-	line "of battle too."
+	para "COUPE en dehors"
+	line "des combats."
 
-	para "Here, I also want"
-	line "you to have this."
+	para "Tiens, je veux que"
+	line "tu prennes ceci."
 	done
 ; 0x18eefa
 
 UnknownText_0x18eefa: ; 0x18eefa
-	text "TM49 contains"
-	line "FURY CUTTER."
+	text "La CT49 contient"
+	line "TAILLADE."
 
-	para "If you don't miss,"
-	line "it gets stronger"
-	cont "every turn."
+	para "Si tu ne manques"
+	line "pas ton coup, la"
+	cont "puissance augmente"
+	cont "à chaque tour."
 
-	para "The longer your"
-	line "battle goes, the"
-	cont "better it gets."
+	para "Plus le combat est"
+	line "long, plus le coup"
+	cont "est puissant."
 
-	para "Isn't that great?"
-	line "I discovered it!"
+	para "C'est génial, non?"
+	line "Et c'est moi qui"
+	cont "l'ai trouvée!"
 	done
 ; 0x18ef98
 
 UnknownText_0x18ef98: ; 0x18ef98
-	text "Bug #MON are"
-	line "deep. There are"
+	text "Les #MON"
+	line "INSECTE ont des"
 
-	para "many mysteries to"
-	line "be explored."
+	para "talents cachés. Il"
+	line "faudra encore du"
+	cont "temps pour tous"
+	cont "les découvrir."
 
-	para "Study your favor-"
-	line "ites thoroughly."
+	para "Etudie-les"
+	line "minutieusement."
 	done
 ; 0x18eff8
 
 Bug_catcherBug_catcher_bennySeenText: ; 0x18eff8
-	text "Bug #MON evolve"
-	line "young. So they get"
+	text "Les #MON"
+	line "INSECTE évoluent"
 
-	para "stronger that much"
-	line "faster."
+	para "rapidement. Ils"
+	line "deviennent forts"
+	cont "plus vite."
 	done
 ; 0x18f037
 
 Bug_catcherBug_catcher_bennyBeatenText: ; 0x18f037
-	text "Just evolving"
-	line "isn't enough!"
+	text "Faire évoluer les"
+	line "#MON n'est pas"
+	cont "suffisant!"
 	done
 ; 0x18f053
 
 UnknownText_0x18f053: ; 0x18f053
-	text "#MON become"
-	line "stronger if they"
-	cont "evolve. Really!"
+	text "Les #MON"
+	line "deviennent plus"
+	cont "forts en évoluant!"
 	done
 ; 0x18f081
 
 Bug_catcherAlSeenText: ; 0x18f081
-	text "Bug #MON are"
-	line "cool and tough!"
+	text "Les #MON"
+	line "INSECTE sont trop"
+	cont "cool et trop"
+	cont "forts!"
 
-	para "I'll prove it to"
-	line "you!"
+	para "Je vais te le"
+	line "prouver!"
 	done
 ; 0x18f0b4
 
 Bug_catcherAlBeatenText: ; 0x18f0b4
-	text "You proved how"
-	line "tough you are<...>"
+	text "T'es balèze toi"
+	line "aussi<...>"
 	done
 ; 0x18f0d3
 
 UnknownText_0x18f0d3: ; 0x18f0d3
-	text "They're so cool,"
-	line "but most girls"
+	text "Ils sont cool mais"
+	line "la plupart des"
 
-	para "don't like bug"
-	line "#MON."
+	para "filles n'aiment"
+	line "pas les #MON"
+	cont "INSECTE."
 
-	para "I don't know why<...>"
+	para "Je ne sais pas"
+	line "pourquoi<...>"
 	done
 ; 0x18f118
 
 Bug_catcherJoshSeenText: ; 0x18f118
-	text "You saved all the"
-	line "SLOWPOKE? Whew,"
-	cont "you're mighty!"
+	text "Tu as sauvé tous"
+	line "les RAMOLOSS? T'es"
+	cont "balèze toi!"
 
-	para "But my grown-up"
-	line "#MON are pretty"
-	cont "tough too!"
+	para "Mais mes #MON"
+	line "adultes sont aussi"
+	cont "costaud!"
 	done
 ; 0x18f174
 
 Bug_catcherJoshBeatenText: ; 0x18f174
-	text "Urrgggh!"
+	text "Arrgggh!"
 	done
 ; 0x18f17e
 
 UnknownText_0x18f17e: ; 0x18f17e
-	text "I guess I should"
-	line "teach them better"
-	cont "moves<...>"
+	text "J'ai du oublié de"
+	line "leur apprendre"
+	cont "un truc<...>"
 	done
 ; 0x18f1a9
 
 TwinsAmyandmay1SeenText: ; 0x18f1a9
-	text "AMY: Hi! Are you"
-	line "challenging the"
-	cont "LEADER? No way!"
+	text "AMY: Salut:"
+	line "Tu veux combattre"
+	cont "le CHAMPION?"
+	cont "Pas question!"
 	done
 ; 0x18f1db
 
 TwinsAmyandmay1BeatenText: ; 0x18f1db
 	text "AMY & MAY: Oh,"
-	line "double goodness!"
+	line "mince et re-mince!"
 	done
 ; 0x18f1fc
 
 UnknownText_0x18f1fc: ; 0x18f1fc
-	text "AMY: You're"
-	line "really strong!"
+	text "AMY: T'es trop"
+	line "fort!"
 	done
 ; 0x18f217
 
 TwinsAmyandmay2SeenText: ; 0x18f217
-	text "MAY: You want to"
-	line "see the LEADER?"
-	cont "We come first!"
+	text "MAY: Tu veux voir"
+	line "le CHAMPION?"
+	cont "Nous d'abord!"
 	done
 ; 0x18f248
 
 TwinsAmyandmay2BeatenText: ; 0x18f248
 	text "AMY & MAY: Oh,"
-	line "double goodness!"
+	line "mince et re-mince!"
 	done
 ; 0x18f269
 
 UnknownText_0x18f269: ; 0x18f269
-	text "MAY: Our bug #-"
-	line "MON lost! Oh, what"
-	cont "a shame."
+	text "MAY: Nos #MON"
+	line "INSECTE ont perdu<...>"
+	cont "Quelle honte!"
 	done
 ; 0x18f296
 
 AzaleaGymGuyText: ; 0x18f296
-	text "Yo, challenger!"
+	text "Yo, toi!"
 
-	para "BUGSY's young, but"
-	line "his knowledge of"
+	para "HECTOR est jeune"
+	line "mais ses connais-"
 
-	para "bug #MON is for"
-	line "real."
+	para "sances en matière"
+	line "de #MON sont"
+	cont "vastes."
 
-	para "It's going to be"
-	line "tough without my"
-	cont "advice."
+	para "Ca sera difficile"
+	line "sans mes conseils."
 
-	para "Let's see<...> Bug"
-	line "#MON don't like"
-	cont "fire."
+	para "Voyons voir<...> Les"
+	line "#MON INSECTE sont"
+	cont "vulnérables au"
+	cont "feu."
 
-	para "Flying-type moves"
-	line "are super-effec-"
-	cont "tive too."
+	para "Les attaques de"
+	line "type VOL sont"
+	cont "aussi très"
+	cont "efficaces."
 	done
 ; 0x18f359
 
 AzaleaGymGuyWinText: ; 0x18f359
-	text "Well done! That"
-	line "was a great clash"
+	text "Bien joué! C'était"
+	line "un beau combat!"
 
-	para "of talented young"
-	line "trainers."
-
-	para "With people like"
-	line "you, the future of"
-	cont "#MON is bright!"
+	para "Avec des gens"
+	line "comme toi, l'ave-"
+	cont "nir des #MON"
+	cont "sera brillant!"
 	done
 ; 0x18f3cc
 
 BugsyPostgameRematchText:
-	text "Hi there!"
+	text "Salut!"
 
-	para "I've been studying"
-	line "more bug tactics!"
+	para "J'ai élaboré des"
+	line "nouvelles"
+	cont "stratégies!"
 	
-	para "Want to battle"
-	line "each other again?"
+	para "Est-ce que tu veux"
+	line "un nouveau combat?"
 
 	done
 	
 BugsyPostgameBeatenText:
-	text "Awe man!"
+	text "Rohlala!"
 	
-	para "I must have been"
-	line "studying wrong<...>"
+	para "J'ai du manqué"
+	line "quelque chose<...>"
 	done
 	
 BugsyPostgameAfterText:
-
-	text "You still know"
-	line "so much more<...>"
+	text "Tu en sais"
+	line "tellement<...>"
 	
-	para "Some day, you"
-	line "should teach me!"
-
+	para "Un jour, je veux"
+	line "que tu"
+	cont "m'enseignes!"
 	done
 
 AzaleaGym_MapEventHeader: ; 0x18f3cc

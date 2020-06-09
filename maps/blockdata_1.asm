@@ -336,3 +336,4 @@ Route22RB_BlockData: ; 0xabef7
 	INCBIN "maps/Route22.blk"
 ; 0xabfab
 
+

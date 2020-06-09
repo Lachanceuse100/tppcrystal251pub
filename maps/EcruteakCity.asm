@@ -133,164 +133,177 @@ MapEcruteakCitySignpostItem7: ; 0x1a4055
 	;done
 
 UnknownText_0x1a4105: ; 0x1a4105
-	text "ECRUTEAK used to"
-	line "have two towers:"
+	text "ROSALIA avait"
+	line "deux tours:"
 
-	para "one each in the"
-	line "east and west."
+	para "une à l'Est,"
+	line "l'atre à l'Ouest."
 	done
 ; 0x1a4147
 
 UnknownText_0x1a4147: ; 0x1a4147
-	text "Ah, child."
-	line "Have you learned"
+	text "Ah<...>"
+	line "As-tu appris à"
 
-	para "to dance like the"
-	line "KIMONO GIRLS?"
+	para "danser comme les"
+	line "KIMONO?"
 
-	para "If you go to their"
-	line "DANCE THEATER, an"
+	para "Si tu vas dans"
+	line "leur SALLE de"
 
-	para "odd old man will"
-	line "give you something"
-	cont "nice, I hear."
+	para "DANSE, un vieil"
+	line "homme bizarre te"
+	cont "donnera un cadeau."
 	done
 ; 0x1a41db
 
 UnknownText_0x1a41db: ; 0x1a41db
-	text "I'm going to prac-"
-	line "tice at the DANCE"
+	text "Je vais m'entraî-"
+	line "ner à la SALLE de"
 
-	para "THEATER. Care to"
-	line "join me?"
+	para "DANSE, tu veux"
+	line "m'accompagner?"
 	done
 ; 0x1a421a
 
 UnknownText_0x1a421a: ; 0x1a421a
-	text "The tower that"
-	line "used to be here<...>"
+	text "La tour qu'il y"
+	line "avait ici<...>"
 
-	para "My grandma told me"
-	line "it used to be much"
-	cont "taller."
+	para "Ma grand-mère me"
+	line "disait qu'elle"
+	cont "était bien plus"
+	cont "grande."
 	done
 ; 0x1a4269
 
 UnknownText_0x1a4269: ; 0x1a4269
-	text "Three big #MON"
-	line "ran off in differ-"
-	cont "ent directions."
-	cont "What were they?"
+	text "Trois gros #MON"
+	line "se sont enfuis"
+	cont "dans des direc-"
+	cont "tions différentes."
+
+	para "Qu'est-ce qu'il"
+	line "se passe?"
 	done
 ; 0x1a42ac
 
 UnknownText_0x1a42ac: ; 0x1a42ac
-	text "I heard a rumor"
-	line "about OLIVINE"
-	cont "LIGHTHOUSE."
+	text "Il y a une rumeur"
+	line "qui court sur le"
+	cont "PHARE D'OLIVILLE."
 
-	para "The #MON that"
-	line "serves as the"
+	para "Le #MON qui"
+	line "était au PHARE"
 
-	para "beacon fell ill."
-	line "Sounds like they"
-	cont "are in trouble."
+	para "est tombé malade."
+	line "Tout ça c'est pas"
+	cont "bon signe.."
 	done
 ; 0x1a4325
 
 UnknownText_0x1a4325: ; 0x1a4325
-	text "The #MON at"
-	line "OLIVINE LIGHTHOUSE"
-	cont "has been cured."
+	text "Le #MON du"
+	line "PHARE D'OLIVILLE a"
+	cont "été soigné."
 
-	para "Boats can safely"
-	line "sail out to sea at"
-	cont "night again."
+	para "Les bateaux peu-"
+	line "vent de nouveau"
+	cont "naviguer de nuit"
+	cont "sans soucis."
 	done
 ; 0x1a4386
 
 UnknownText_0x1a4386: ; 0x1a4386
-	text "I hear #MON are"
-	line "rampaging at the"
+	text "On dit que les"
+	line "#MON sont"
+	cont "déchaînés au LAC"
+	cont "COLERE."
 
-	para "LAKE OF RAGE. I'd"
-	line "like to see that."
+	para "J'aimerais bien"
+	line "voir ça."
 	done
 ; 0x1a43cb
 
 UnknownText_0x1a43cb: ; 0x1a43cb
-	text "In the distant"
-	line "past<...>"
+	text "Il y a bien"
+	line "longtemps<...>"
 
-	para "This tower burned"
-	line "in a fire. Three"
+	para "La tour prit feu."
+	line "3 #MON inconnus"
 
-	para "nameless #MON"
-	line "perished in it."
+	para "périrent alors"
+	line "dans les flammes."
 
-	para "A rainbow-colored"
-	line "#MON descended"
+	para "Un #MON aux"
+	line "couleurs de l'arc-"
 
-	para "from the sky and"
-	line "resurrected them<...>"
+	para "en-ciel descendit"
+	line "du ciel et les"
+	cont "ressucita<...>"
 
-	para "It's a legend that"
-	line "has been passed"
+	para "Cette légende est"
+	line "connue de tous les"
 
-	para "down by ECRUTEAK"
-	line "GYM LEADERS."
+	para "CHAMPIONS de"
+	line "ROSALIA."
 
-	para "Me?"
+	para "Moi?"
 
-	para "I was a trainer"
-	line "way back when."
+	para "J'étais dresseur"
+	line "à l'époque."
 	cont "Hohoho!"
 	done
 ; 0x1a44d1
 
 UnknownText_0x1a44d1: ; 0x1a44d1
-	text "ECRUTEAK CITY"
-	line "A Historical City"
+	text "ROSALIA"
 
-	para "Where the Past"
-	line "Meets the Present"
+	para "Une ville bien hi-"
+	line "storique où le pa-"
+	cont "ssé et le présent"
+	cont "se rencontrent."
 	done
 ; 0x1a4513
 
 UnknownText_0x1a4513: ; 0x1a4513
-	text "TIN TOWER"
+	text "TOUR FERRAILLE"
 
-	para "A legendary #-"
-	line "MON is said to"
-	cont "roost here."
+	para "On racontre qu'un"
+	line "#MON légendaire"
+	cont "vient se reposer"
+	cont "ici."
 	done
 ; 0x1a4548
 
 UnknownText_0x1a4548: ; 0x1a4548
-	text "ECRUTEAK CITY"
-	line "#MON GYM"
-	cont "LEADER: MORTY"
+	text "ARENE de ROSALIA"
 
-	para "The Mystic Seer of"
-	line "the Future"
+	para "CHAMPION:"
+	line "MORTIMER"
+
+	para "Le mystérieux"
+	line "voyant."
 	done
 ; 0x1a458c
 
 UnknownText_0x1a458c: ; 0x1a458c
-	text "ECRUTEAK DANCE"
-	line "THEATER"
+	text "SALLE de DANSE"
+	line "de ROSALIA"
 	done
 ; 0x1a45a4
 
 UnknownText_0x1a45a4: ; 0x1a45a4
-	text "BURNED TOWER"
+	text "TOUR CENDREE"
 
-	para "It was destroyed"
-	line "by a mysterious"
-	cont "fire."
+	para "Elle a été détrui-"
+	line "te par un feu"
+	cont "d'origine encore"
+	cont "inconnue."
 
-	para "Please stay away,"
-	line "as it is unsafe."
+	para "Pour votre propre"
+	line "sécurité, restez"
+	cont "à l'écart."
 	done
 ; 0x1a45fc
 

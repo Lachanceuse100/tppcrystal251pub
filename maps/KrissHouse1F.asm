@@ -72,7 +72,7 @@ MomElatedToSeeYouAlive:
 	jumpstd receiveitem
 
 .phonecardname
-	db "PHONE CARD@"
+	db "TELEPHONE@"
 
 MomScript_0x7a582: ; 0x7a582
 	faceplayer
@@ -182,221 +182,226 @@ ResetMomKrissHouse1F:
 	step_end
 
 UnknownText_0x7a8b5: ; 0x7a8b5
-	text "PROF.ELM is wait-"
-	line "ing for you."
+	text "Le PROF.ORME"
+	line "t'attends."
 
-	para "Hurry up, baby!"
+	para "Dépêche toi,"
+	line "chouchou."
 	done
 ; 0x7a8e5
 
 UnknownText_0x7a8e5: ; 0x7a8e5
-	text "So, what was PROF."
-	line "ELM's errand?"
+	text "Alors, que tu vou-"
+	line "lais le PROF.ORME?"
 
 	para "<...>"
 
-	para "That does sound"
-	line "challenging."
+	para "Ca semble être un"
+	line "sacré défi."
 
-	para "But, you should be"
-	line "proud that people"
-	cont "rely on you."
+	para "Mais soit fier que"
+	line "les gens comptent"
+	cont "sur toi."
 	done
 ; 0x7a957
 
 UnknownText_0x7a957: ; 0x7a957
-	text "<PLAYER>, do it!"
+	text "<PLAYER>, courage!"
 
-	para "I'm behind you all"
-	line "the way!"
+	para "Je suis de toute"
+	line "coeur avec toi!"
 	done
 ; 0x7a97d
 
 UnknownText_0x7a97d: ; 0x7a97d
-	text "Good morning,"
+	text "Bonjour,"
 	line "<PLAY_G>!"
 
-	para "I'm visiting!"
+	para "Je visite!"
 	done
 ; 0x7a99c
 
 UnknownText_0x7a99c: ; 0x7a99c
-	text "Hello, <PLAY_G>!"
-	line "I'm visiting!"
+	text "Bonjour,"
+	line "<PLAY_G>!"
+
+	para "Je visite!"
 	done
 ; 0x7a9b4
 
 UnknownText_0x7a9b4: ; 0x7a9b4
-	text "Good evening,"
+	text "Bonsoir,"
 	line "<PLAY_G>!"
 
-	para "I'm visiting!"
+	para "Je visite!"
 	done
 ; 0x7a9d3
 
 UnknownText_0x7a9d3: ; 0x7a9d3
-	text "<PLAY_G>, have you"
-	line "heard?"
+	text "<PLAY_G>, tu"
+	line "savais?"
 
-	para "My daughter is"
-	line "adamant about"
+	para "Ma fille veux de-"
+	line "venir l'assistante"
 
-	para "becoming PROF."
-	line "ELM's assistant."
+	para "du PROF.ORME."
 
-	para "She really loves"
+	para "Elle aime les"
 	line "#MON!"
 	done
 ; 0x7aa3a
 
 UnknownText_0x7aa3a: ; 0x7aa3a
-	text "Mom's specialty!"
+	text "La spécialité de"
+	line "MAMAN."
 
-	para "CINNABAR VOLCANO"
-	line "BURGER!"
+	para "Le HAMBURGER"
+	line "CRAMOISI!"
 	done
 ; 0x7aa64
 
 UnknownText_0x7aa64: ; 0x7aa64
-	text "The sink is spot-"
-	line "less. Mom likes it"
-	cont "clean."
+	text "C'est tout propre!"
+	para "MAMAN aime le"
+	line "nettoyer."
 	done
 ; 0x7aa91
 
 UnknownText_0x7aa91: ; 0x7aa91
-	text "Let's see what's"
-	line "in the fridge<...>"
+	text "Voyons ce qu'il y"
+	line "a dans le frigo<...>"
 
-	para "FRESH WATER and"
-	line "tasty LEMONADE!"
+	para "De l'EAU FRAICHE"
+	line "et une LIMONADE!"
 	done
 ; 0x7aad0
 
 UnknownText_0x7aad0: ; 0x7aad0
-	text "There's a movie on"
-	line "TV: Stars dot the"
+	text "Il y a un film à"
+	line "la télé: Des"
 
-	para "sky as two boys"
-	line "ride on a train<...>"
+	para "étoiles pendant"
+	line "que deux garçons"
+	cont "prennent le train."
 
-	para "I'd better get"
-	line "rolling too!"
+	para "Je devrais y aller"
+	line "aussi!"
 	done
 ; 0x7ab31
 
 MomText1_Johto:
-	text "<PLAY_G>? Is that"
-	line "really you, honey?"
+	text "<PLAY_G>? C'est,"
+	line "c'est vraiment toi"
+	cont "chouchou?"
 
-	para "All this time I"
-	line "thought<...>"
+	para "Tout ce temps,"
+	line "j'ai<...>"
 
-	para "It doesn't matter."
-	line "What's important"
-	cont "is, you're safe."
+	para "Peu importe, tu"
+	line "vas bien, c'est"
+	cont "l'important."
 
 	para "Oh, <PLAY_G><...>"
 
-	para "I was worried sick"
-	line "about you!"
+	para "J'étais tellement"
+	line "inquiète!"
 
-	para "When I heard the"
-	line "news<...>"
+	para "Quand j'ai enten-"
+	line "du la nouvelle<...>"
 
-	para "Don't you ever"
-	line "scare me like that"
-	cont "again!"
+	para "Ne me fais plus"
+	line "jamais peur comme"
+	cont "ça!"
 
-	para "I should have in-"
-	line "stalled this the"
-	cont "moment your #-"
-	cont "GEAR came back!"
+	para "J'aurais du insta-"
+	line "ller ça le moment"
+	cont "ou ton #MATOS"
+	cont "est revenu!"
 	done
 
 MomText4_Johto:
-	text "I already regis-"
-	line "tered my number on"
-	cont "it."
+	text "J'ai déjà enregi-"
+	line "stré mon numéro."
 
-	para "Please, check in"
-	line "every once in a"
-	cont "while, okay honey?"
+	para "Appelle moi de"
+	line "temps en temps,"
+	cont "d'accord?"
 
-	para "I never want to go"
-	line "through that worry"
-	cont "ever again."
+	para "Je ne veux plus"
+	line "avoir à me soucier"
+	cont "comme ça<...>"
 
-	para "By the way, do you"
-	line "know how to use"
-	cont "the PHONE?"
+	para "Au fait, tu sais"
+	line "utiliser le"
+	cont "TELEPHONE?"
 	done
 ; 0x7a7cb
 
 MomText5: ; 0x7a7cb
-	text "Don't you just"
-	line "turn the #GEAR"
+	text "Il faut allumer"
+	line "le #MATOS et"
 
-	para "on and select the"
-	line "PHONE icon?"
+	para "sélectionner l'i-"
+	line "cône du TELEPHONE"
 	done
 ; 0x7a807
 
 MomText6: ; 0x7a807
-	text "I'll read the"
+	text "Je vais lire les"
 	line "instructions."
 
-	para "Turn the #GEAR"
-	line "on and select the"
-	cont "PHONE icon."
+	para "Allume le #-"
+	line "MATOS et sélec-"
+	cont "tionne l'icône du"
+	cont "TELEPHONE."
 	done
 ; 0x7a850
 
 MomText7: ; 0x7a850
-	text "Phone numbers are"
-	line "stored in memory."
+	text "Les numéros de té-"
+	line "léphone sont sto-"
+	cont "ckés dans la"
+	cont "mémoire."
 
-	para "Just choose a name"
-	line "you want to call."
+	para "Choisis un nom que"
+	line "tu veux appeler."
 
-	para "Gee, isn't that"
-	line "convenient?"
+	para "C'est pratique,"
+	line "non?"
 
 	para $56, " ", $56, " ", $56
 	line "<PLAY_G><...>"
 
-	para "Don't ever forget"
-	line "that I love you."
+	para "N'oublie jamais"
+	line "que je t'aime."
 	done
 
 NBTLadyText_KrisHouse1F:
-	text "I have to get"
-	line "going."
+	text "Je dois y aller."
 
-	para "It was a pleasure"
-	line "meeting you,"
+	para "Ravie de t'avoir"
+	line "rencontré,"
 	cont "<PLAY_G>!"
 	done
 
 MomText8:
-	text "Oh! I almost"
-	line "forgot!"
+	text "Oh! J'ai presque"
+	line "oublié!"
 
-	para "One of PROF.OAK's"
-	line "colleagues lives"
-	cont "nearby."
+	para "Un des collègues"
+	line "du PROF.CHEN"
+	cont "vit ici."
 
-	para "His name is PROF."
-	line "ELM. His lab is"
-	cont "right next door."
+	para "Son nom est PROF."
+	line "ORME. Son LABO est"
+	cont "à côté."
 
-	para "You should go over"
-	line "and introduce"
-	cont "yourself to him."
+	para "Tu devrais te"
+	line "présenter à lui."
 
-	para "I'll call ahead to"
-	line "let him know you're"
-	cont "coming."
+	para "Je l'appelle pour"
+	line "lui faire savoir"
+	cont "que tu arrives."
 	done
 
 KrissHouse1F_MapEventHeader: ; 0x7ab31

@@ -133,156 +133,160 @@ MapGoldenrodBillsHouseSignpost2Script: ; 0x54c71
 ; 0x54c74
 
 UnknownText_0x54c74: ; 0x54c74
-	text "BILL: Hi, <PLAYER>!"
-	line "Do us a favor and"
-	cont "take this EEVEE."
+	text "LEO: Salut, <PLAYER>!"
+	line "Tu pourrais t'"
+	cont "occuper de cet"
+	cont "EVOLI?"
 
-	para "It came over when"
-	line "I was adjusting"
-	cont "the TIME CAPSULE."
+	para "Il est arrivé"
+	line "lorsque j'étais en"
+	cont "train de régler le"
+	cont "BLOC TEMPOREL."
 
-	para "Someone has to"
-	line "take care of it,"
+	para "Quelqu'un doit"
+	line "s'en occuper mais"
 
-	para "but I don't like"
-	line "being outside."
+	para "moi je suis trop"
+	line "pressé."
 
-	para "Can I count on you"
-	line "to play with it,"
-	cont "<PLAYER>?"
+	para "Puis-je compter"
+	line "sur toi pour jouer"
+	cont "avec lui, <PLAYER>?"
 	done
 ; 0x54d3f
 
 UnknownText_0x54d3f: ; 0x54d3f
-	text "BILL: I knew you'd"
-	line "come through!"
+	text "LEO: Je le savais!"
+	line "T'es trop top!"
 
-	para "Way to go! You're"
-	line "the real deal!"
-
-	para "OK, I'm counting"
-	line "on you."
-
-	para "Take good care of"
-	line "it!"
+	para "OK, je compte sur"
+	line "toi. Prends-en"
+	cont "bien soin."
 	done
 ; 0x54dae
 
 UnknownText_0x54dae: ; 0x54dae
-	text "<PLAYER> received"
-	line "EEVEE!"
+	text "<PLAYER> reçoit"
+	line "EVOLI!"
 	done
 ; 0x54dc1
 
 BillsEeveePCText: ; 0x54dae
-	text "Full party? I'll"
-	line "put it in the"
-	cont "PC then."
+	text "Ton équipe est"
+	line "pleine?"
+
+	para "Je te l'envoi dans"
+	line "le PC alors."
 	done
 
 UnknownText_0x54dc1: ; 0x54dc1
-	text "BILL: PROF.ELM"
-	line "claims EEVEE may"
+	text "LEO : Le PROF.ORME"
+	line "affirme que les"
 
-	para "evolve in new and"
-	line "unknown ways."
+	para "EVOLI pourraient"
+	line "évoluer en des"
+	cont "formes encore"
+	cont "inconnues."
 	done
 ; 0x54e02
 
 UnknownText_0x54e02: ; 0x54e02
-	text "Whoa, wait. You"
-	line "can't carry any"
-	cont "more #MON."
+	text "Hé, attends, tu"
+	line "ne peux plus"
+	cont "transporter de"
+	cont "#MON!"
 	done
 ; 0x54e2d
 
 UnknownText_0x54e2d: ; 0x54e2d
-	text "Oh<...> Now what to"
-	line "do?"
+	text "Oh<...> Que devrais-je"
+	line "faire?"
 	done
 ; 0x54e42
 
 UnknownText_0x54e42: ; 0x54e42
-	text "BILL: My pop, he"
-	line "won't work. All he"
+	text "LEO: Mon papa, il"
+	line "ne travaille pas."
 
-	para "does is goof off"
-	line "all day long."
+	para "Tout ce qu'il fait"
+	line "c'est se prélasser"
+	cont "toute la journée."
 
-	para "He's getting to be"
-	line "a real headache<...>"
+	para "Il devient un vrai"
+	line "casse-tête<...>"
 	done
 ; 0x54ea8
 
 UnknownText_0x54ea8: ; 0x54ea8
-	text "Oh, you collect"
-	line "#MON? My son"
-	cont "BILL is an expert."
+	text "Tu collectionnes"
+	line "les #MON? Mon"
+	cont "fils LEO est un"
+	cont "expert."
 
-	para "He just got called"
-	line "to the #MON"
+	para "Il est allé au"
+	line "CENTRE #MON"
+	cont "de ROSALIA."
 
-	para "CENTER in ECRUTEAK"
-	line "CITY."
+	para "Mon mari en revan-"
+	line "che est au CASINO<...>"
 
-	para "My husband went"
-	line "off to the GAME"
-
-	para "CORNER without"
-	line "being called<...>"
+	para "Je ne cherche pas"
+	line "à comprendre<...>"
 	done
 ; 0x54f4e
 
 UnknownText_0x54f4e: ; 0x54f4e
-	text "My husband was"
-	line "once known as a"
+	text "Mon mari était"
+	line "un #MANIAC"
+	cont "autrefois."
 
-	para "#MANIAC."
-	line "BILL must have"
-
-	para "taken after his"
-	line "father."
+	para "LEO doit tenir"
+	line "de son père."
 	done
 ; 0x54f9e
 
 UnknownText_0x54f9e: ; 0x54f9e
-	text "Are you a trainer?"
+	text "Es-tu dresseur?"
 
-	para "I've got a useful"
-	line "phone number for"
-	cont "you."
+	para "J'ai un numéro de"
+	line "téléphone utile"
+	cont "pour toi."
 	done
 ; 0x54fd9
 
 UnknownText_0x54fd9: ; 0x54fd9
-	text "<PLAYER> recorded"
-	line "BILL's number."
+	text "<PLAYER> enregistre"
+	line "le numéro de télé-"
+	cont "phone de LEO."
 	done
 ; 0x54ff3
 
 UnknownText_0x54ff3: ; 0x54ff3
-	text "My brother made"
-	line "the PC #MON"
-	cont "storage system."
+	text "Mon frère à crée"
+	line "un système de"
+	cont "stockage pour les"
+	cont "#MON par PC."
 
-	para "I was going to"
-	line "give you BILL's"
-	cont "number<...>"
+	para "J'allais te donner"
+	line "son numéro de"
+	cont "téléphone<...>"
 	done
 ; 0x55046
 
 UnknownText_0x55046: ; 0x55046
-	text "You can't record"
-	line "any more numbers."
+	text "Tu ne peux plus"
+	line "enregistrer de"
+	cont "numéros."
 	done
 ; 0x55069
 
 UnknownText_0x55069: ; 0x55069
-	text "My big brother"
-	line "BILL made the PC"
+	text "Mon grand frère"
+	line "LEO a fait un"
 
-	para "#MON storage"
-	line "system."
+	para "super système de"
+	line "stockage de #-"
+	cont "MON."
 	done
 ; 0x5509f
 

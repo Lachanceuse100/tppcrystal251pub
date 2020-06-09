@@ -48,3 +48,4 @@ OlivineLighthouseElevator_MapEventHeader: ; OlivineLighthouse_0x566fe
 	db 0
 ; OlivineLighthouse_0x56713
 
+

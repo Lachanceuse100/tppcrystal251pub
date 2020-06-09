@@ -624,3 +624,4 @@ MapGroup35:
 	map_header SSAnne8, $2a, 6, S_S_ANNE, $80 | MUSIC_S_S_ANNE, 1, 1, 1
 	map_header SSAnne9, $2a, 6, S_S_ANNE, $80 | MUSIC_S_S_ANNE, 1, 1, 1
 	map_header SSAnne10, $2a, 6, S_S_ANNE, $80 | MUSIC_S_S_ANNE, 1, 1, 1
+

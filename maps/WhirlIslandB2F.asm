@@ -42,3 +42,4 @@ WhirlIslandB2F_MapEventHeader: ; 0x18c4be
 	person_event SPRITE_POKE_BALL, 16, 9, $1, 0, 0, -1, -1, 0, 1, 0, ItemFragment_0x18c4bc, EVENT_ITEM_WHIRL_ISLAND_B2F_MAX_ELIXER
 ; 0x18c4ff
 
+

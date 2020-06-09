@@ -398,3 +398,4 @@ SeafoamIslandsB3F_BlockData:
 	INCBIN "maps/SeafoamIslandsB3F.blk"
 OlivineLighthouseElevator_BlockData:
 	INCBIN "maps/OlivineLighthouseElevator.blk"
+

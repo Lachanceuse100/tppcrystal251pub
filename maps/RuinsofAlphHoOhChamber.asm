@@ -131,42 +131,42 @@ MovementData_0x58610: ; 0x58610
 ; 0x58612
 
 UnknownText_0x58612: ; 0x58612
-	text "Patterns appeared"
-	line "on the walls<...>"
+	text "Il y a des figures"
+	line "sur le mur<...>"
 	done
 ; 0x58633
 
 ; possibly unused
 UnknownText_0x58633: ; 0x58633
-	text "It's UNOWN text!"
+	text "Du texte ZARBI!"
 	done
 ; 0x58644
 
 UnknownText_0x58644: ; 0x58644
-	text "Patterns appeared"
-	line "on the walls<...>"
+	text "Il y a des figures"
+	line "sur le mur<...>"
 	done
 ; 0x58665
 
 UnknownText_0x58665: ; 0x58665
-	text "There's a big hole"
-	line "in the wall!"
+	text "Il y a un gros"
+	line "trou dans le mur!"
 	done
 ; 0x58685
 
 UnknownText_0x58685: ; 0x58685
-	text "It's a replica of"
-	line "an ancient #-"
+	text "C'est une réplique"
+	line "d'un ancien #-"
 	cont "MON."
 	done
 ; 0x586aa
 
 UnknownText_0x586aa: ; 0x586aa
-	text "A #MON that"
-	line "flew gracefully on"
+	text "Un #MON qui"
+	line "vole gracieusement"
 
-	para "rainbow-colored"
-	line "wings."
+	para "de ses ailes"
+	line "arc-en-ciel."
 	done
 ; 0x586e1
 

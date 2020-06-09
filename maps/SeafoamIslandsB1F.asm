@@ -28,3 +28,4 @@ SeafoamIslandsB1F_MapEventHeader:
 	person_event SPRITE_BOULDER, 29, 11, $19, 0, 0, -1, -1, 0, 0, 0, BoulderScript_SeafoamIslandB1F, -1
 	person_event SPRITE_BOULDER, 29, 10, $19, 0, 0, -1, -1, 0, 0, 0, BoulderScript_SeafoamIslandB1F, -1
 	person_event SPRITE_BOULDER, 8, 26, $19, 0, 0, -1, -1, 0, 0, 0, BoulderScript_SeafoamIslandB1F, -1
+

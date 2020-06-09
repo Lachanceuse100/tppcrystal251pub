@@ -293,8 +293,8 @@ UnknownScript_0x1a55c7: ; 0x1a55c7
 	end
 
 ReceivedSpearowMailText: ; 0x1a55cd
-	db   "DARK CAVE leads"
-	next "to another road@"
+	db   "L'ANTRE NOIR mène"
+	next "à une autre route@"
 
 YoungsterScript_0x1a55ed: ; 0x1a55ed
 	jumptextfaceplayer UnknownText_0x1a59d5
@@ -325,175 +325,175 @@ ItemFragment_0x1a55fd: ; 0x1a55fd
 ; 0x1a55ff
 
 UnknownText_0x1a55ff: ; 0x1a55ff
-	text "DARK CAVE<...>"
+	text "L'ANTRE NOIR<...>"
 
-	para "If #MON could"
-	line "light it up, I'd"
-	cont "explore it."
+	para "Si un #MON pou-"
+	line "vait l'éclairer,"
+	cont "je pourrais"
+	cont "l'explorer."
 	done
 ; 0x1a5635
 
 Bug_catcherWade1SeenText: ; 0x1a5635
-	text "I caught a bunch"
-	line "of #MON. Let me"
-	cont "battle with you!"
+	text "J'ai capturer"
+	line "plein de #MON."
+	cont "Battons-nous!"
 	done
 ; 0x1a5668
 
 Bug_catcherWade1BeatenText: ; 0x1a5668
-	text "Awwwww<...>"
+	text "Ohhhhh<...>"
 	done
 ; 0x1a5671
 
 UnknownText_0x1a5671: ; 0x1a5671
-	text "You can catch"
-	line "#MON even if"
+	text "Tu peux capturer"
+	line "des #MON même"
 
-	para "you have six with"
-	line "you."
+	para "si tu en as déjà"
+	line "six."
 
-	para "If you catch one,"
-	line "it'll go to your"
-	cont "BOX automatically."
+	para "Le nouveau #MON"
+	line "sera envoyé dans"
+	cont "la boîte."
 	done
 ; 0x1a56d9
 
 UnknownText_0x1a56d9: ; 0x1a56d9
-	text "<...> Hnuurg<...> Huh?"
+	text "<...> Hnuurg<...> Hein?"
 
-	para "I walked too far"
-	line "today looking for"
+	para "J'ai trop marché"
+	line "pour trouver des"
 	cont "#MON."
 
-	para "My feet hurt and"
-	line "I'm sleepy<...>"
+	para "J'ai mal aux pieds"
+	line "et j'ai sommeil<...>"
 
-	para "If I were a wild"
-	line "#MON, I'd be"
-	cont "easy to catch<...>"
+	para "Si j'étais un"
+	line "#MON, je serais"
+	cont "facile à capturer<...>"
 
-	para "Can't someone else"
-	line "do it?"
+	para "<...><...><...>Zzzzz<...><...><...>"
 	done
 ; 0x1a5761
 
 UnknownText_0x1a5761: ; 0x1a5761
-	text "Huh?"
+	text "<...>Zzzz<...> Hein?"
 
-	para "What's that? You"
-	line "have MAIL for me?"
+	para "C'est quoi? Une"
+	line "LETTRE pour moi?"
 	done
 ; 0x1a5790
 
 UnknownText_0x1a5790: ; 0x1a5790
-	text "<PLAYER> handed"
-	line "over the #MON"
-	cont "holding the MAIL."
+	text "<PLAYER> remet le"
+	line "#MON tenant"
+	cont "la LETTRE."
 	done
 ; 0x1a57ba
 
 UnknownText_0x1a57ba: ; 0x1a57ba
-	text "Let's see<...>"
+	text "Voyons<...>"
 
-	para "<...>DARK CAVE leads"
-	line "to another road<...>"
+	para "L'ANTRE NOIR mène"
+	line "à une autre route>...>"
 
-	para "That's good to"
-	line "know."
+	para "C'est bon à"
+	line "savoir."
 
-	para "Thanks for bring-"
-	line "ing this to me."
+	para "Merci de l'avoir"
+	line "apporté."
 
-	para "My friend's a good"
-	line "guy, and you're"
-	cont "swell too!"
+	para "Mon ami est un"
+	line "gars cool et t'es"
+	cont "chic aussi!"
 
-	para "I'd like to do"
-	line "something good in"
-	cont "return too!"
+	para "J'aimerais te"
+	line "donner quelque"
+	cont "chose en retour."
 
-	para "I know! I want you"
-	line "to have this!"
+	para "Je sais! Tu peux"
+	line "prendre ça!"
 	done
 ; 0x1a5896
 
 UnknownText_0x1a5896: ; 0x1a5896
-	text "TM50 is"
-	line "SUBSTITUTE."
+	text "CT50 est CLONAGE."
 
-	para "It lets a doll"
-	line "fight for a"
-	para "#MON, stopping"
-	line "it from being hit"
-	para "by status or"
-	line "being KO'd."
+	para "Ca laisse une"
+	line "poupée combattre"
+	para "un #MON et l'"
+	line "empêche d'être K.O"
+	para "ou de subir un"
+	line "statut."
 
-	para "It's nice to have"
-	line "others do the work"
-	cont "for you."
+	para "C'est sympa qu'il"
+	line "y ait des gens"
+	cont "pour faire mon"
+	cont "travail."
 	done
 ; 0x1a5921
 
 UnknownText_0x1a5921: ; 0x1a5921
-	text "This MAIL isn't"
-	line "for me."
+	text "Cette LETTRE n'est"
+	line "pas pour moi."
 	done
 ; 0x1a5939
 
 UnknownText_0x1a5939: ; 0x1a5939
-	text "Why is this #-"
-	line "MON so special?"
+	text "Pourquoi ce #-"
+	line "MON est spécial?"
 
-	para "It doesn't have"
-	line "any MAIL."
+	para "Il n'a pas de"
+	line "LETTRE."
 	done
 ; 0x1a5972
 
 UnknownText_0x1a5972: ; 0x1a5972
-	text "What? You don't"
-	line "want anything?"
+	text "Quoi? Tu ne veux"
+	line "rien?"
 	done
 ; 0x1a5991
 
 UnknownText_0x1a5991: ; 0x1a5991
-	text "If I take that"
-	line "#MON from you,"
+	text "Si je te prends"
+	line "ce #MON,"
 
-	para "what are you going"
-	line "to use in battle?"
+	para "tu vas utiliser"
+	line "quoi en combat?"
 	done
 ; 0x1a59d5
 
 NotKenyaText:
-	text "That doesn't look"
-	line "like the right"
-	cont "#MON."
+	text "On ne dirait pas"
+	line "le bon #MON."
 	done
 
 UnknownText_0x1a59d5: ; 0x1a59d5
-	text "I found a good"
-	line "#MON in DARK"
-	cont "CAVE."
+	text "J'ai trouvé un bon"
+	line "#MON dans"
+	cont "l'ANTRE NOIR."
 
-	para "I'm going to raise"
-	line "it to take on"
-	cont "FALKNER."
+	para "Je vais l'élever"
+	line "pour battre"
+	cont "ALBERT."
 
-	para "He's the leader of"
-	line "VIOLET CITY's GYM."
+	para "C'est le CHAMPION"
+	line "de l'ARENE de"
+	cont "MAUVILLE."
 	done
 ; 0x1a5a45
 
 UnknownText_0x1a5a45: ; 0x1a5a45
 	text "ROUTE 31"
 
-	para "VIOLET CITY -"
-	line "CHERRYGROVE CITY"
+	para "MAUVILLE -"
+	line "VILLE GRIOTTE"
 	done
 ; 0x1a5a6e
 
 UnknownText_0x1a5a6e: ; 0x1a5a6e
-	text "DARK CAVE"
+	text "ANTRE NOIR"
 	done
 ; 0x1a5a79
 

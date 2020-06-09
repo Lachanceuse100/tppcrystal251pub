@@ -27,19 +27,22 @@ MapCherrygroveEvolutionSpeechHouseSignpost1Script: ; 0x196cc0
 ; 0x196cc3
 
 UnknownText_0x196cc3: ; 0x196cc3
-	text "#MON gain expe-"
-	line "rience in battle"
+	text "Les #MON"
+	line "gagnent de l'expé-"
+	cont "rience en combat"
 
-	para "and change their"
-	line "form."
+	para "et changent de"
+	line "forme."
 	done
 ; 0x196cfc
 
 UnknownText_0x196cfc: ; 0x196cfc
-	text "#MON change?"
+	text "Les #MON"
+	line "changent?"
 
-	para "I would be shocked"
-	line "if one did that!"
+	para "Je serais choquée"
+	line "si l'un des miens"
+	cont "faisait ça."
 	done
 ; 0x196d2e
 

@@ -42,3 +42,4 @@ Route28_MapEventHeader: ; 0x1a541d
 	db 0
 ; 0x1a5437
 
+

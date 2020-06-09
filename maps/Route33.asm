@@ -176,56 +176,49 @@ FruitTreeScript_0x1ac0ea: ; 0x1ac0ea
 ; 0x1ac0ec
 
 HikerAnthony2SeenText: ; 0x1ac0ec
-	text "My #MON"
-	line "are the best!"
+	text "Mes #MON sont"
+	line "les meilleurs!"
 	done
 ; 0x1ac130
 
 HikerAnthony2BeatenText: ; 0x1ac130
-	text "Now I feel like"
-	line "a MAGIKARP<...>"
+	text "Maintenant je me"
+	line "sens comme un"
+	cont "MAGICARPE<...>"
 	done
 ; 0x1ac153
 
 UnknownText_0x1ac153: ; 0x1ac153
-	text "I will be even"
-	line "better next time!"
+	text "Je ferais mieux la"
+	line "prochaine fois!"
 	done
 ; 0x1ac180
 
 UnknownText_0x1ac180: ; 0x1ac180
-	text "Hey, did you get a"
-	line "DUNSPARCE?"
+	text "Tu as eu un"
+	line "INSOLOURDO dans"
+	cont "l'ANTRE NOIRE?"
 
-	para "In DARK CAVE?"
+	para "Ils y prolifèrent"
+	line "de temps en temps."
 
-	para "They're known to"
-	line "swarm there from"
-	cont "time to time."
-
-	para "When they do, it"
-	line "creates a host of"
-
-	para "problems for near-"
-	line "by BLACKTHORN"
-	cont "CITY<...>"
+	para "A chaque fois, ça"
+	line "crée des problèmes"
+	cont "à EBENELLE<...>"
 	done
 ; 0x1ac1e7
 
 UnknownText_0x1ac1e7: ; 0x1ac1e7
-	text "Pant, pant<...>"
+	text "Pff, pff<...>"
 
-	para "I finally got"
-	line "through that cave."
+	para "Enfin, je suis"
+	line "sortie de là."
 
-	para "It was much bigger"
-	line "than I'd expected."
+	para "C'est tellement"
+	line "grand dis-donc."
 
-	para "I got too tired to"
-	line "explore the whole"
-
-	para "thing, so I came"
-	line "outside."
+	para "C'est épuisant de"
+	line "tout explorer!"
 	done
 ; 0x1ac279
 

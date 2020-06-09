@@ -317,19 +317,19 @@ CopyDouble:
 	ret
 
 BetBoyString:
-	db   "A fatal exception"
+	db   "Erreur critique"
 	next " "
 	next "BET-BOY"
 	next " "
-	next "has occurred."
+	next "survenue."
 	next " "
 	next "AF:       BC:"
 	next "DE:       HL:"
 	next "SP:     (        )"
 	next " "
-	next "Please restart the"
+	next "Redémarrez le jeu"
 	next " "
-	next "game to continue.@"
+	next "pour continuer.@"
 
 BetBoyGFX:
 INCBIN "gfx/misc/betboy_banner.w96.1bpp"

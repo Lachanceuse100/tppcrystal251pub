@@ -41,49 +41,53 @@ MapGoldenrodDeptStore4FSignpost1Script: ; 0x55f05
 ; 0x55f08
 
 UnknownText_0x55f08: ; 0x55f08
-	text "Hey. I love strong"
-	line "#MON."
+	text "J'adore les #-"
+	line "MON forts!"
 
-	para "I feed them PRO-"
-	line "TEIN to crank up"
-	cont "their ATTACK."
+	para "Je leur donne des"
+	line "PROTEINE pour"
+	cont "augmenter leur"
+	cont "ATTAQUE."
 
-	para "The new recipe"
-	line "can crank it up"
-	cont "TO THE MAX!!!"
+	para "La nouvelle re-"
+	line "cette les dopent"
+	cont "AU MAXIMUM!!!"
 	done
 ; 0x55f52
 
 UnknownText_0x55f52: ; 0x55f52
-	text "They started"
-	line "selling ways to"
-	cont "evolve your"
-	cont "#MON just"
-	cont "recently."
+	text "Ils ont commencé"
+	line "récemment à vendre"
+	cont "des objets pour"
+	cont "évoluer des"
+	cont "#MON"
 	done
 ; 0x55f74
 
 UnknownText_0x55f74: ; 0x55f74
-	text "Some #MON can"
-	line "evolve by being"
-	cont "traded via a Game"
-	cont "Link cable."
+	text "Certains #MON"
+	line "peuvent être évo-"
+	cont "lués en les échan-"
+	cont "geant par CABLE"
+	cont "LINK."
 
-	para "I know of four:"
-	line "MACHOKE, KADABRA,"
-	cont "HAUNTER and, um,"
-	cont "GRAVELER."
+	para "J'en connais"
+	line "quatre: MACHOPEUR,"
+	cont "KADABRA, SPECTRUM"
+	cont "et<...> GRAVALANCH"
 
-	para "I heard there are"
-	line "others too."
+	para "Il paraît qu'il y"
+	line "en a d'autres."
 	done
 ; 0x5600d
 
 UnknownText_0x5600d: ; 0x5600d
-	text "Let Us Pump Up"
-	line "Your #MON!"
+	text "Laissez nous"
+	line "renforcer vos"
+	cont "#MON!"
 
-	para "4F POWER PALACE"
+	para "3EME: PALAIS DE LA"
+	line "      PUISSANCE"
 	done
 ; 0x56038
 

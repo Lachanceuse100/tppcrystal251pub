@@ -22,27 +22,27 @@ LassScript_0x9cad1: ; 0x9cad1
 ; 0x9cad4
 
 UnknownText_0x9cad4: ; 0x9cad4
-	text "Do your #MON"
-	line "already know the"
+	text "Tes #MON"
+	line "connaissent-ils la"
 
-	para "move for carrying"
-	line "people on water?"
+	para "capacité pour por-"
+	line "ter les gens sur"
+	cont "l'eau?"
 	done
 ; 0x9cb16
 
 UnknownText_0x9cb16: ; 0x9cb16
-	text "My BUTTERFREE came"
-	line "from my boyfriend"
-	cont "overseas."
+	text "Mon PAPILUSION est"
+	line "revenu de chez mon"
+	cont "copain."
 
-	para "It carried some"
-	line "MAIL from him."
+	para "Il avait une"
+	line "lettre avec lui."
 
-	para "Want to know what"
-	line "it says?"
+	para "Alors voyons voir<...>"
 
-	para "Let's see<...> Nope!"
-	line "It's a secret!"
+	para "Ah! Non! C'est un"
+	line "secret!"
 	done
 ; 0x9cb9e
 

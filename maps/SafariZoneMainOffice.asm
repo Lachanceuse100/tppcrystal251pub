@@ -25,3 +25,4 @@ SafariZoneMainOffice_MapEventHeader: ; 0x195da7
 	db 0
 ; 0x195db7
 
+

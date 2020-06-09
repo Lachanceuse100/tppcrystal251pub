@@ -19,32 +19,32 @@ YoungsterScript_0x69a33: ; 0x69a33
 ; 0x69a36
 
 UnknownText_0x69a36: ; 0x69a36
-	text "RUINS OF ALPH"
+	text "RUINES D'ALPHA"
 
-	para "A Look-and-Touch"
-	line "Tourist Site"
+	para "Un site touristi-"
+	line "que interactif."
 
-	para "Try the sliding"
-	line "stone panels!"
+	para "Essayez les pan-"
+	line "neaux coulissants!"
 	done
 ; 0x69a81
 
 UnknownText_0x69a81: ; 0x69a81
-	text "You're studying"
-	line "the RUINS?"
+	text "Tu étudies les"
+	line "RUINES?"
 
-	para "I see a scientist"
-	line "in the making."
+	para "Tu veux être un"
+	line "scientifique?"
 	done
 ; 0x69abd
 
 UnknownText_0x69abd: ; 0x69abd
-	text "There are drawings"
-	line "on stone panels."
+	text "Il y a des dessins"
+	line "sur les panneaux."
 
-	para "I tried moving"
-	line "them. I wonder"
-	cont "what they are."
+	para "J'ai essayé de les"
+	line "déplacer. A quoi"
+	cont "ça sert?"
 	done
 ; 0x69b0f
 

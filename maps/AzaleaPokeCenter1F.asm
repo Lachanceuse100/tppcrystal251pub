@@ -30,55 +30,58 @@ PokefanFScript_0x18db31: ; 0x18db31
 ; 0x18db34
 
 UnknownText_0x18db34: ; 0x18db34
-	text "Do your #MON"
-	line "know HM moves?"
+	text "Est-ce que tes"
+	line "#MON ont appris"
+	cont "des CS?"
 
-	para "Those moves can"
-	line "be used even if"
-
-	para "your #MON has"
-	line "fainted."
+	para "Tu peux les uti-"
+	line "liser même si tes"
+	cont "#MON sont K.O."
 	done
 ; 0x18db88
 
 UnknownText_0x18db88: ; 0x18db88
-	text "This BILL guy"
-	line "created the system"
+	text "C'est LEO qui à"
+	line "crée le système"
 
-	para "for storing"
-	line "#MON in a PC."
+	para "pour stocker des"
+	line "#MON dans"
+	cont "un PC."
 
-	para "BILL's PC can"
-	line "store up to 20"
-	cont "#MON per BOX."
+	para "Le PC de LEO peut"
+	line "garder jusqu'à 20"
+	cont "#MON par boîte."
 	done
 ; 0x18dbee
 
 UnknownText_0x18dbee: ; 0x18dbee
-	text "BILL's PC can"
-	line "store up to 20"
-	cont "#MON per BOX."
+	text "Le PC de LEO peut"
+	line "garder jusqu'à 20"
+	cont "#MON par boîte."
 	done
 ; 0x18dc19
 
 UnknownText_0x18dc19: ; 0x18dc19
-	text "Do you know about"
-	line "APRICORNS?"
+	text "Connais-tu les"
+	line "NOIGRUMES?"
 
-	para "Crack one open,"
-	line "hollow it out and"
+	para "Ouvres-en un,"
+	line "vide-le et"
 
-	para "fit it with a"
-	line "special device."
+	para "remplis-le avec un"
+	line "appareil spécial."
 
-	para "Then you can catch"
-	line "#MON with it."
+	para "Tu pourras alors"
+	line "t'en servir pour"
+	cont "attraper des"
+	cont "#MON."
 
-	para "Before # BALLS"
-	line "were invented,"
+	para "Avant que les #"
+	line "BALLS ne soient"
 
-	para "everyone used"
-	line "APRICORNS."
+	para "inventées, tout le"
+	line "monde utilisait"
+	cont "les NOIGRUMES."
 	done
 ; 0x18dccf
 

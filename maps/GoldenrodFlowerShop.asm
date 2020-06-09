@@ -135,82 +135,79 @@ UnknownScript_0x553d1: ; 0x553d1
 ; 0x553d4
 
 UnknownText_0x553d4: ; 0x553d4
-	text "Have you seen that"
-	line "wiggly tree that's"
+	text "As-tu vu l'arbre"
+	line "qui gigote sur la"
+	cont "ROUTE 36?"
 
-	para "growing on ROUTE"
-	line "36?"
+	para "Ma petite soeur a"
+	line "absolument tenu à"
+	cont "aller le voir<...>"
 
-	para "My little sister"
-	line "got all excited"
-
-	para "and went to see"
-	line "it<...>"
-
-	para "I'm worried<...> Isn't"
-	line "it dangerous?"
+	para "Ca m'inquiète<...>"
+	line "N'est-ce pas"
+	cont "dangereux?"
 	done
 ; 0x55463
 
 UnknownText_0x55463: ; 0x55463
-	text "Do you want to"
-	line "borrow the water"
+	text "Tu veux emprunter"
+	line "la bouteille"
+	cont "d'eau?"
 
-	para "bottle too?"
-	line "I don't want you"
-
-	para "doing anything"
-	line "dangerous with it."
+	para "Je ne veux pas que"
+	line "tu fasses de"
+	cont "bêtises avec."
 	done
 ; 0x554c2
 
 UnknownText_0x554c2: ; 0x554c2
-	text "Oh, you're better"
-	line "than WHITNEY<...>"
+	text "Oh, tu as battu"
+	line "BLANCHE<...>"
 
-	para "You'll be OK,"
-	line "then. Here's the"
-	cont "SQUIRTBOTTLE!"
+	para "D'accord, tu peux"
+	line "avoir le"
+	cont "CARAPUCE'A'O!"
 	done
 ; 0x5550d
 
 UnknownText_0x5550d: ; 0x5550d
-	text "Don't do anything"
-	line "too dangerous!"
+	text "Ne fais pas de"
+	line "bêtises!"
 	done
 ; 0x5552e
 
 UnknownText_0x5552e: ; 0x5552e
 	text "Lalala lalalala."
-	line "Have plenty of"
-	cont "water, my lovely!"
+	line "L'eau ça mouille!"
 	done
 ; 0x55561
 
 UnknownText_0x55561: ; 0x55561
-	text "When I told my sis"
-	line "about the jiggly"
+	text "Quand j'ai parlé"
+	line "de l'arbre qui"
 
-	para "tree, she told me"
-	line "it's dangerous."
+	para "gigote à ma soeur,"
+	line "elle a dit que c'"
+	cont "était dangeureux."
 
-	para "If I beat WHITNEY,"
-	line "I wonder if she'll"
-
-	para "lend me her water"
-	line "bottle<...>"
+	para "Si je bats"
+	line "BLANCHE, elle me"
+	cont "prêtera sa bou-"
+	cont "teille!"
+	cont "C'est sûr!"
 	done
 ; 0x555e6
 
 UnknownText_0x555e6: ; 0x555e6
-	text "Wow, you beat"
-	line "WHITNEY? Cool!"
+	text "Tu as battu"
+	line "BLANCHE? Cool!"
 	done
 ; 0x55604
 
 UnknownText_0x55604: ; 0x55604
-	text "So it really was a"
-	line "#MON!"
+	text "Alors c'était"
+	line "vraiment un"
+	cont "#MON!"
 	done
 ; 0x5561e
 

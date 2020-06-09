@@ -64,80 +64,87 @@ MapSproutTower1FSignpost1Script: ; 0x184520
 ; 0x184523
 
 SageChowSeenText: ; 0x184523
-	text "We stand guard in"
-	line "this tower."
+	text "Nous surveillons"
+	line "cette tour."
 
-	para "Here, we express"
-	line "our gratitude to"
-	cont "honor all #MON."
+	para "Ici, nous expri-"
+	line "mons notre grati-"
+	cont "tude envers les"
+	cont "#MON."
 	done
 ; 0x184574
 
 SageChowBeatenText: ; 0x184574
-	text "Th-Thank you!"
+	text "M-Merci!"
 	done
 ; 0x184583
 
 UnknownText_0x184583: ; 0x184583
-	text "All living beings"
-	line "coexist through"
-	cont "cooperation."
+	text "Les êtres vivants"
+	line "coexistent grâce à"
+	cont "la coopération."
 
-	para "We must always be"
-	line "thankful for this."
+	para "Nous devons être"
+	line "reconnaissant pour"
+	cont "ça."
 	done
 ; 0x1845d8
 
 UnknownText_0x1845d8: ; 0x1845d8
-	text "Only if you reach"
-	line "the top will you"
-	cont "obtain an HM."
+	text "Seuls ceux qui"
+	line "atteignent le"
+	cont "sommet obtiennent"
+	cont "une CS."
 	done
 ; 0x18460a
 
 UnknownText_0x18460a: ; 0x18460a
-	text "SPROUT TOWER was"
-	line "built long ago"
+	text "La TOUR CHETIFLOR"
+	line "a été construite"
 
-	para "as a place for"
-	line "#MON training."
+	para "pour entraîner les"
+	line "#MON il y a"
+	cont "longtemps."
 	done
 ; 0x184649
 
 UnknownText_0x184649: ; 0x184649
-	text "A BELLSPROUT over"
-	line "100 feet tall<...>"
+	text "Un CHETIFLOR de"
+	line "plus de 100 pieds<...>"
 
-	para "People say that it"
-	line "became the center"
-	cont "pillar here."
+	para "Les gens disent"
+	line "qu'il est le"
+	cont "pilier central du"
+	cont "bâtiment."
 	done
 ; 0x18469d
 
 UnknownText_0x184649_Metric: ; 0x184649
-	text "A BELLSPROUT over"
-	line "30 meters tall<...>"
+	text "Un CHETIFLOR de"
+	line "plus de 30 mètres<...>"
 
-	para "People say that it"
-	line "became the center"
-	cont "pillar here."
+	para "Les gens disent"
+	line "qu'il est le"
+	cont "pilier central du"
+	cont "bâtiment."
 	done
 ; 0x18469d
 
 UnknownText_0x18469d: ; 0x18469d
-	text "See the pillar"
-	line "shaking?"
+	text "Tu vois ce pilier"
+	line "qui tremble?"
 
-	para "People are train-"
-	line "ing upstairs."
+	para "Les gens s'en-"
+	line "traînent là-haut."
 	done
 ; 0x1846d6
 
 UnknownText_0x1846d6: ; 0x1846d6
-	text "A #MON statue<...>"
+	text "Une statue"
+	line "#MON<...>"
 
-	para "It looks very"
-	line "distinguished."
+	para "Elle semble très"
+	line "distinguée."
 	done
 ; 0x184703
 

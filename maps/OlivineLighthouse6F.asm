@@ -180,110 +180,109 @@ MovementData_0x60c79: ; 0x60c79
 ; 0x60c81
 
 UnknownText_0x60c81: ; 0x60c81
-	text "JASMINE: <...> This"
-	line "#MON always"
+	text "JASMINE: <...> Ce"
+	line "#MON gardait la"
 
-	para "kept the sea lit"
-	line "at night."
+	para "mer éclairée toute"
+	line "la nuit."
 
-	para "<...>But it suddenly"
-	line "got sick<...> It's"
-	cont "gasping for air<...>"
+	para "<...>Mais il est"
+	line "tombé malade<...> Il"
+	cont "manque d'air<...>"
 
-	para "<...>I understand"
-	line "that there is a"
+	para "<...>Je sais qu'il y a"
+	line "une bonne PHARA-"
+	cont "CIE à IRISIA"
 
-	para "wonderful PHARMACY"
-	line "in CIANWOOD<...>"
+	para "Mais c'est à l'au-"
+	line "tre bout des mers!"
 
-	para "But that's across"
-	line "the sea<...>"
-
-	para "And I can't leave"
-	line "AMPHY unattended<...>"
+	para "Et je dois m'occu-"
+	line "per de PHARY<...>"
 	done
 ; 0x60d64
 
 UnknownText_0x60d64: ; 0x60d64
-	text "<...>May I ask you to"
-	line "get some medicine"
-	cont "for me? Please?"
+	text "<...>Puis-je te"
+	line "demander d'aller"
+	cont "chercher des médi-"
+	cont "caments? Pitié?"
 	done
 ; 0x60d99
 
 UnknownText_0x60d99: ; 0x60d99
-	text "JASMINE: <...>Will"
-	line "that medicine cure"
-	cont "AMPHY?"
+	text "JASMINE: <...>Ce"
+	line "médicament va-t-il"
+	cont "soigner PHARY?"
 	done
 ; 0x60dc3
 
 UnknownText_0x60dc3: ; 0x60dc3
-	text "<PLAYER> handed the"
-	line "SECRETPOTION to"
+	text "<PLAYER> donne la"
+	line "POTIONSECRET à"
 	cont "JASMINE."
 	done
 ; 0x60dea
 
 UnknownText_0x60dea: ; 0x60dea
-	text "JASMINE: <...>Um,"
-	line "please don't be"
-	cont "offended<...>"
+	text "JASMINE: <...>Heu,"
+	line "le prends pas mal"
+	cont "mais<...>"
 
-	para "<...>AMPHY will not"
-	line "take anything from"
-	cont "anyone but me<...>"
+	para "<...>PHARY n'accepte"
+	line "que ce qui vient"
+	cont "de moi<...>"
 	done
 ; 0x60e44
 
 UnknownText_0x60e44: ; 0x60e44
 	text "JASMINE: <...>"
 
-	para "AMPHY, how are you"
-	line "feeling?"
+	para "PHARY, comment te"
+	line "sens-tu?"
 	done
 ; 0x60e6c
 
 UnknownText_0x60e6c: ; 0x60e6c
-	text "JASMINE: <...>Oh, I'm"
-	line "so relieved<...>"
+	text "JASMINE: <...>Oh, je"
+	line "suis si soulagée!"
 
-	para "This is just so"
-	line "wonderful<...>"
+	para "C'est<...> C'est"
+	line "fantastique<...>"
 
-	para "Thank you so very,"
-	line "very much."
+	para "Merci, merci"
+	line "beaucoup!"
 
-	para "<...>I will return to"
-	line "the GYM<...>"
+	para "<...>Je vais retourner"
+	line "a l'ARENE<...>"
 	done
 ; 0x60edf
 
 UnknownText_0x60edf: ; 0x60edf
-	text "JASMINE: <...>I see<...>"
+	text "JASMINE: <...>Ah bon<...>"
 	done
 ; 0x60ef1
 
 UnknownText_0x60ef1: ; 0x60ef1
-	text "<...>AMPHY, hang on!"
+	text "Courage, PHARY!"
 	done
 ; 0x60f03
 
 UnknownText_0x60f03: ; 0x60f03
-	text "AMPHY: <...>"
-	line "<...>Pa<...> paloo<...>"
+	text "PHARY: <...>"
+	line "<...>Pha!<...> Phaa<...>"
 	done
 ; 0x60f19
 
 UnknownText_0x60f19: ; 0x60f19
-	text "Its breathing is"
-	line "terribly labored<...>"
+	text "Il respire très"
+	line "difficilement<...>"
 	done
 ; 0x60f3d
 
 UnknownText_0x60f3d: ; 0x60f3d
-	text "AMPHY: Palu!"
-	line "Palulu!"
+	text "PHARY: Phapha!"
+	line "Phaaaaaa!"
 	done
 ; 0x60f53
 

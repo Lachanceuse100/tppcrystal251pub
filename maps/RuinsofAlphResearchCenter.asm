@@ -302,130 +302,126 @@ MovementData_0x59276: ; 0x59276
 ; 0x59278
 
 UnknownText_0x59278: ; 0x59278
-	text "Done!"
+	text "Et voilà!"
 
-	para "I modified your"
+	para "J'ai modifié ton"
 	line "#DEX."
 
-	para "I added an"
-	line "optional #DEX"
+	para "Il a maintenant"
+	line "une option pour"
 
-	para "to store UNOWN"
-	line "data."
+	para "stocker les"
+	line "données des ZARBI."
 
-	para "It records them in"
-	line "the sequence that"
-	cont "they were caught."
+	para "Ils sont enregi-"
+	line "stré dans l'ordre"
+	cont "de capture."
 	done
 ; 0x592fa
 
 UnknownText_0x592fa: ; 0x592fa
-	text "<PLAYER>'s #DEX"
-	line "was upgraded."
+	text "Le #DEX de"
+	line "<PLAYER> est"
+	cont "amélioré."
 	done
 ; 0x59311
 
 UnknownText_0x59311: ; 0x59311
-	text "The UNOWN you"
-	line "catch will all be"
-	cont "recorded."
+	text "Les ZARBI que tu"
+	line "capture seront"
+	cont "tous enregistrés."
 
-	para "Check to see how"
-	line "many kinds exist."
+	para "Regarde combien il"
+	line "en existe."
 	done
 ; 0x5935f
 
 UnknownText_0x5935f: ; 0x5935f
-	text "You caught all the"
-	line "UNOWN variations?"
+	text "Tu as capturé tous"
+	line "les ZARBI?"
 
-	para "That's a great"
-	line "achievement!"
+	para "Félicitations!"
 
-	para "I've set up the"
-	line "printer here for"
-	cont "handling UNOWN."
+	para "L'imprimante là-"
+	line "bas peux imprimer"
+	cont "les données de"
+	cont "ZARBI."
 
-	para "Feel free to use"
-	line "it anytime."
+	para "Tu peux l'utiliser"
+	line "quand tu veux"
 	done
 ; 0x593ed
 
 UnknownText_0x593ed: ; 0x593ed
-	text "The RUINS are"
-	line "about 1500 years"
-	cont "old."
+	text "Les RUINES ont"
+	line "plus de 1500 ans."
 
-	para "But it's not known"
-	line "why they were"
-	cont "built--or by whom."
+	para "On ne sait pas qui"
+	line "les a construit ou"
+	cont "pourquoi."
 	done
 ; 0x59445
 
 UnknownText_0x59445: ; 0x59445
-	text "I wonder how many"
-	line "kinds of #MON"
-	cont "are in the RUINS?"
+	text "Je me demande"
+	line "combien de sortes"
+	cont "de #MON il y a"
+	cont "dans les RUINES."
 	done
 ; 0x59478
 
 UnknownText_0x59478: ; 0x59478
-	text "#MON appeared"
-	line "in the RUINS?"
+	text "Des #MON sont"
+	line "apparus dans les"
+	cont "RUINES?"
 
-	para "That's incredible"
-	line "news!"
+	para "C'est une incroya-"
+	line "ble nouvelle!"
 
-	para "We'll need to"
-	line "investigate this."
+	para "Nous allons devoir"
+	line "enquêter!"
 	done
 ; 0x594cb
 
 UnknownText_0x594cb: ; 0x594cb
-	text "Our investigation,"
-	line "with your help, is"
+	text "Grâce à ton aide,"
+	line "nos recherches sur"
 
-	para "giving us insight"
-	line "into the RUINS."
+	para "les RUINES portent"
+	line "enfin leurs fruits!"
 
-	para "The RUINS appear"
-	line "to have been built"
-
-	para "as a habitat for"
-	line "#MON."
+	para "Les RUINES sem-"
+	line "blent être un re-"
+	cont "fuge pour #MON."
 	done
 ; 0x5954f
 
 UnknownText_0x5954f: ; 0x5954f
-	text "There are odd pat-"
-	line "terns drawn on the"
+	text "Ces étranges figu-"
+	line "res sur les murs"
+	cont "des RUINES<...>"
 
-	para "walls of the"
-	line "RUINS."
-
-	para "They must be the"
-	line "keys for unravel-"
-	cont "ing the mystery"
-	cont "of the RUINS."
+	para "Ca doit être la"
+	line "clé pour dévoiler"
+	cont "les mystères des"
+	cont "RUINES."
 	done
 ; 0x595cb
 
 UnknownText_0x595cb: ; 0x595cb
-	text "The strange #-"
-	line "MON you saw in the"
-	cont "RUINS?"
+	text "Ce #MON étrange"
+	line "que tu as vu dans"
+	cont "les RUINES<...>"
 
-	para "They appear to be"
-	line "very much like the"
+	para "Il ressemble aux"
+	line "dessins sur les"
+	cont "murs."
 
-	para "drawings on the"
-	line "walls there."
+	para "Hum<...>"
 
-	para "Hmm<...>"
-
-	para "That must mean"
-	line "there are many"
-	cont "kinds of them<...>"
+	para "Il doit y avoir"
+	line "tellement de for-"
+	cont "mes différentes<...>"
 	done
 ; 0x59669
 
@@ -462,140 +458,140 @@ UnknownText_0x595cb: ; 0x595cb
 ; 0x59769
 
 UnknownText_0x59769: ; 0x59769
-	text "Why did those"
-	line "ancient patterns"
+	text "Pourquoi ces an-"
+	line "ciennent figures"
 
-	para "appear on the wall"
-	line "now?"
+	para "n'apparaissent sur"
+	line "le mur qu'au-"
+	cont "jourd'hui?"
 
-	para "The mystery"
-	line "deepens<...>"
+	para "Le mystère"
+	line "s'épaissit<...>"
 	done
 ; 0x597b6
 
 UnknownText_0x597b6: ; 0x597b6
-	text "RUINS OF ALPH"
+	text "RUINES ALPHA"
 
-	para "Exploration"
-	line "Year 10"
+	para "10ème année"
+	line "d'exploration."
 	done
 ; 0x597d9
 
 UnknownText_0x597d9: ; 0x597d9
-	text "Mystery #MON"
-	line "Name: UNOWN"
+	text "#MON mystère:"
+	line "Nom: ZARBI"
 
-	para "A total of 26"
-	line "kinds found."
+	para "Un total de 26"
+	line "formes sont"
+	cont "référencées."
 	done
 ; 0x5980e
 
 UnknownText_0x5980e: ; 0x5980e
-	text "This doesn't seem"
-	line "to work yet."
+	text "Ca n'a pas l'air"
+	line "de fonctionner<...>"
 	done
 ; 0x5982d
 
 UnknownText_0x5982d: ; 0x5982d
-	text "UNOWN may be"
-	line "printed out."
+	text "ZARBI peut être"
+	line "imprimé."
 	done
 ; 0x59848
 
 ; possibly unused
 UnknownText_0x59848: ; 0x59848
-	text "It's a photo of"
-	line "the RESEARCH"
+	text "Une photo du fon-"
+	line "dateur du CENTRE"
 
-	para "CENTER'S founder,"
-	line "PROF.SILKTREE."
+	para "de RECHERCHE,"
+	line "PROF.SOIE."
 	done
 ; 0x59886
 
 UnknownText_0x59886: ; 0x59886
-	text "There are many"
-	line "academic books."
+	text "Il y a plein de"
+	line "livres de science."
 
-	para "Ancient Ruins<...>"
-	line "Mysteries of the"
-	cont "Ancients<...>"
+	para "Anciennes ruines<...>"
+	line "Antiques mystères<...>"
 	done
 ; 0x598d0
 
 Text_IntroFossilGuy:
-	text "Hello, I am a very"
-	line "important resear-"
-	cont "cher."
+	text "Bonjour, je suis"
+	line "un scientifique"
+	cont "important."
 
-	para "I've developed a"
-	line "technology that"
+	para "J'ai développé une"
+	line "technologie qui"
 
-	para "revives #MON"
-	line "from FOSSILs!"
+	para "réssuscitent les"
+	line "FOSSILES #MON."
 	done
 
 Text_TakeAWalk:
-	text "It'll take me some"
-	line "time to revive"
-	cont "this."
+	text "Ca me prendra du"
+	line "temps pour le ré-"
+	cont "ssuciter."
 
-	para "Why don't you go"
-	line "take a walk?"
+	para "Pourquoi tu ne vas"
+	line "pas faire un tour?"
 
-	para "It should be done"
-	line "by the time you"
-	cont "get back."
+	para "Ca devrait être"
+	line "fini quand tu"
+	cont "reviendras."
 	done
 
 Text_WhereHaveYouBeen:
-	text "There you are!"
-	line "Where have you"
-	cont "been?"
+	text "Te voilà!"
+	line "Ou étais-tu?"
 
-	para "The experiment was"
-	line "a success!"
+	para "L'expérience"
+	line "a réussi!"
 	done
 
 Text_ReceiveRevivedPokemon:
-	text "We resurrected the"
-	line "ancient #MON,"
+	text "Nous avons réssu-"
+	line "sciter le #MON"
+	cont "antique:"
 	cont "@"
 	TX_RAM StringBuffer3
 	text "!"
 
-	para "<PLAYER> received"
+	para "<PLAYER> reçoit"
 	line "@"
 	TX_RAM StringBuffer3
 	text "!"
 	done
 
 Text_StillBusy:
-	text "Don't bother me!"
-	line "I'm busy with the"
+	text "Laisse-moi!"
+	line "Je suis occupé"
 
-	para "FOSSIL you gave"
-	line "me!"
+	para "avec ton FOSSILE!"
 	done
 
 Text_ComeBackAgain:
-	text "I did a good job,"
-	line "didn't I?"
+	text "J'ai fait du bon"
+	line "travail, hein?"
 
-	para "Come back again if"
-	line "you find another"
-	cont "FOSSIL."
+	para "Reviens si tu"
+	line "trouves un autre"
+	cont "FOSSILE."
 	done
 
 Text_ComeBackWithAFossil:
-	text "If you find a"
-	line "FOSSIL, bring it"
+	text "Si tu trouves un"
+	line "FOSSILE, ramène le"
 
-	para "here, and I'll"
-	line "revive it for you."
+	para "ici et je le"
+	line "réssusciterais."
 	done
 Text_NoRoomForFossilMon:
-	text "You've no room for"
-	line "this."
+	text "Tu n'as plus de"
+	line "place."
 	done
 
 RuinsofAlphResearchCenter_MapEventHeader: ; 0x598d0

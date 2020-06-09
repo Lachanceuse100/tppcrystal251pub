@@ -431,413 +431,413 @@ MovementData_0x5d921: ; 0x5d921
 ; 0x5d924
 
 UnknownText_0x5d924: ; 0x5d924
-	text "You can listen to"
-	line "the radio any-"
-	cont "where. Tune in!"
+	text "Ecoutez la radio"
+	line "n'importe où!"
+	cont "A bientôt!"
 	done
 ; 0x5d956
 
 UnknownText_0x5d956: ; 0x5d956
-	text "Lullabies on the"
-	line "radio may make"
-	cont "#MON sleep."
+	text "Les berceuses de"
+	line "la radio peuvent"
+	cont "endormir les"
+	cont "#MON."
 	done
 ; 0x5d983
 
 UnknownText_0x5d983: ; 0x5d983
-	text "Why would they"
-	line "want to take over"
-	cont "the RADIO TOWER?"
+	text "Pourquoi veulent-"
+	line "ils contrôler la"
+	cont "TOUR RADIO?"
 	done
 ; 0x5d9b6
 
 UnknownText_0x5d9b6: ; 0x5d9b6
-	text "JIGGLYPUFF:"
-	line "Jiggly<...>"
+	text "RONDOUDOU::"
+	line "Douuu<...>"
 	done
 ; 0x5d9cb
 
 UnknownText_0x5d9cb: ; 0x5d9cb
-	text "Sorry. Authorized"
-	line "personnel only"
-	cont "beyond this point."
+	text "Cet accès est ré-"
+	line "servé au personnel"
+	cont "autorisé."
 
-	para "It wasn't that way"
-	line "before."
-
-	para "There's something"
-	line "wrong with the"
-	cont "DIRECTOR<...>"
+	para "Ce n'était pas"
+	line "comme ça avant."
+	cont "mais le DIRECTEUR"
+	cont "ne va pas bien<...>"
 	done
 ; 0x5da44
 
 UnknownText_0x5da44: ; 0x5da44
-	text "Feel free to look"
-	line "around anywhere."
+	text "Vous pouvez vous"
+	line "balader."
 
-	para "The DIRECTOR is"
-	line "nice again, just"
-	cont "as he was before."
+	para "Le DIRECTEUR est"
+	line "redevenu aussi"
+	cont "agréable qu'avant!"
 	done
 ; 0x5da9b
 
 GruntM4SeenText: ; 0x5da9b
-	text "Three months ago,"
-	line "TEAM ROCKET was"
-	cont "forced to disband."
+	text "Il y a trois mois,"
+	line "la TEAM ROCKET a"
+	cont "été obligée de se"
+	cont "dissoudre."
 
-	para "But we're making a"
-	line "comeback here!"
+	para "Mais nous revenons"
+	line "en force!"
 	done
 ; 0x5daf1
 
 GruntM4BeatenText: ; 0x5daf1
-	text "Gwah! Don't get"
-	line "cute!"
+	text "Gueuh! Te vante"
+	line "pas trop, toi!"
 	done
 ; 0x5db07
 
 UnknownText_0x5db07: ; 0x5db07
-	text "We won't let you"
-	line "ruin our plans"
-	cont "for our comeback!"
+	text "On te laissera pas"
+	line "mettre nos plans"
+	cont "en péril!"
 	done
 ; 0x5db39
 
 GruntM5SeenText: ; 0x5db39
-	text "We're TEAM ROCKET,"
-	line "the exploiters of"
+	text "On est la TEAM"
+	line "ROCKET, on est les"
+	cont "exploiteurs de"
 	cont "#MON!"
 
-	para "We love being"
-	line "evil! Scared?"
+	para "On aime être"
+	line "méchant et faire"
+	cont "peur! Grrr."
+
+	para "T'as peur, là?"
 	done
 ; 0x5db80
 
 GruntM5BeatenText: ; 0x5db80
-	text "You think you are"
-	line "some kind of hero?"
+	text "Tu te prends pour"
+	line "un héros?"
 	done
 ; 0x5db99
 
 UnknownText_0x5db99: ; 0x5db99
-	text "You may be strong,"
-	line "but we are too"
-	cont "many for you!"
+	text "Tu es fort, mais"
+	line "on est trop nom-"
+	cont "breux pour toi!"
 	done
 ; 0x5dbcd
 
 GruntM6SeenText: ; 0x5dbcd
-	text "We have a secret"
-	line "weapon for taking"
-	cont "over this tower!"
+	text "Nous avons une"
+	line "arme secrète pour"
+	cont "envahir la tour!"
 	done
 ; 0x5dbed
 
 GruntM6BeatenText: ; 0x5dbed
-	text "I still lose!?"
+	text "Je perds quand"
+	line "même!?"
 	done
 ; 0x5dc00
 
 UnknownText_0x5dc00: ; 0x5dc00
-	text "The BERSERK GENE"
-	line "is our ultimate"
-	cont "creation!"
+	text "L'ADN BERZERK est"
+	line "notre création"
+	cont "ultime!"
 
-	para "It has some bad"
-	line "side effects"
-	cont "though<...>"
+	para "Mais il y a encore"
+	line "des effets"
+	cont "secondaires<...>"
 	done
 ; 0x5dc64
 
 GruntF2SeenText: ; 0x5dc64
 	text "Hahaha!"
 
-	para "How boring."
-	line "It was far too"
+	para "Quel ennui."
+	line "C'était trop fa-"
 
-	para "easy to take over"
-	line "this place!"
+	para "cile d'envahir cet"
+	line "endroit!"
 
-	para "Come on, keep me"
-	line "amused!"
+	para "Allez, fais moi"
+	line "un peu rire!"
 	done
 ; 0x5dcbf
 
 GruntF2BeatenText: ; 0x5dcbf
-	text "Wh-who are you?"
+	text "Qu-qui t'es toi?"
 	done
 ; 0x5dcd0
 
 UnknownText_0x5dcd0: ; 0x5dcd0
-	text "You beat me, and"
-	line "I won't forget it!"
+	text "Tu as gagné. Je ne"
+	line "l'oublierai pas!"
 	done
 ; 0x5dcf4
 
 UnknownText_0x5dcf4: ; 0x5dcf4
-	text "BUENA: Hi! I'm"
-	line "BUENA!"
+	text "BUENA: Salut!"
+	line "Je suis BUENA!"
 
-	para "Do you know about"
-	line "a radio program"
-	cont "called PASSWORD?"
+	para "Connais-tu l'émis-"
+	line "sion LE MOT DE"
+	cont "PASSE?"
 
-	para "If you can tell me"
-	line "the password from"
+	para "Si tu peux me"
+	line "donner le mot de"
 
-	para "the program, you"
-	line "will earn points."
+	para "passe de l'émis-"
+	line "sion, tu remportes"
+	cont "des points."
 
-	para "Save up those"
-	line "points and trade"
+	para "Gagne plein de"
+	line "points et échange-"
 
-	para "them to that sweet"
-	line "young lady over"
+	para "les à la jolie"
+	line "fille à côté con-"
 
-	para "there for some"
-	line "choice prizes!"
+	para "tre de fabuleux"
+	line "prix!"
 
-	para "Here you go!"
+	para "Voilà!"
 
-	para "It's your very own"
-	line "point card!"
+	para "Ta carte à points"
+	line "personnelle!"
 	done
 ; 0x5de10
 
 UnknownText_0x5de10: ; 0x5de10
-	text "BUENA: Tune in to"
-	line "my PASSWORD SHOW!"
+	text "BUENA: Branche-toi"
+	line "à l'émission du"
+	cont "MOT DE PASSE!"
 	done
 ; 0x5de35
 
 UnknownText_0x5de35: ; 0x5de35
-	text "BUENA: Hi!"
-	line "Did you tune in to"
-	cont "my radio show?"
+	text "BUENA: Bonjour!"
+	line "As-tu écouté mon"
+	cont "émission?"
 
-	para "Do you remember"
-	line "today's password?"
+	para "Te souviens-tu du"
+	line "mot de passe d'au-"
+	cont "jourd'hui?"
 	done
 ; 0x5de84
 
 UnknownText_0x5de84: ; 0x5de84
-	text "BUENA: Oh, wow!"
-	line "Thank you!"
+	text "BUENA: Oh!"
+	line "Merci!"
 
-	para "What was your name"
-	line "again?"
+	para "Quel est ton nom,"
+	line "déjà?"
 
 	para "<...><PLAY_G>, OK!"
 
-	para "Come on, <PLAY_G>."
-	line "Join the show."
+	para "Viens, <PLAY_G>."
+	line "Tu es en direct."
 	done
 ; 0x5dedd
 
 UnknownText_0x5dedd: ; 0x5dedd
-	text "BUENA: Everyone"
-	line "ready?"
+	text "BUENA: Tout le"
+	line "monde est prêt?"
 
-	para "I want to hear you"
-	line "shout out today's"
-
-	para "password for"
+	para "Venez crier le mot"
+	line "de passe d'au"
+	para "jourd'hui pour"
 	line "<PLAY_G>!"
 	done
 ; 0x5df29
 
 UnknownText_0x5df29: ; 0x5df29
-	text "BUENA: Come back"
-	line "after you listen"
+	text "BUENA: Reviens"
+	line "après avoir écouté"
 
-	para "to my show, OK?"
-	line "Catch ya later!"
+	para "mon émission, OK?"
+	line "A plus tard!"
 	done
 ; 0x5df6c
 
 UnknownText_0x5df6c: ; 0x5df6c
-	text "BUENA: Sorry<...>"
+	text "BUENA: Désolée<...>"
 
-	para "You get just one"
-	line "chance each day."
+	para "Tu n'as qu'un"
+	line "essai par jour."
 
-	para "Come back tomorrow"
-	line "for another try!"
+	para "Reviens demain!"
 	done
 ; 0x5dfc1
 
 UnknownText_0x5dfc1: ; 0x5dfc1
-	text "BUENA: YIPPEE!"
-	line "That's right!"
+	text "BUENA: OUAIIIS!"
+	line "C'est exact!"
 
-	para "You did tune in!"
-	line "I'm so happy!"
+	para "Tu as bien écouté"
+	line "mon émission!"
 
-	para "You earned one"
-	line "point! Congrats!"
+	para "Tu remportes un"
+	line "point! Bravo!"
 	done
 ; 0x5e01c
 
 UnknownText_0x5e01c: ; 0x5e01c
-	text "BUENA: Aww<...>"
-	line "That's not it<...>"
+	text "BUENA: Ohh<...>"
+	line "Ce n'est pas ça<...>"
 
-	para "Did you forget the"
-	line "password?"
+	para "Tu as oublié le"
+	line "mot de passe?"
 	done
 ; 0x5e054
 
 UnknownText_0x5e054: ; 0x5e054
-	text "BUENA: Yup! Our"
-	line "contestant was"
+	text "BUENA: Notre"
+	line "candidat était"
 
 	para "<PLAY_G>."
-	line "Thanks for coming!"
+	line "Merci d'être venu!"
 
-	para "I hope all you"
-	line "listeners will"
-
-	para "come too!"
-	line "I'll be waiting!"
+	para "Suivez tous mon"
+	line "émission!"
 	done
 ; 0x5e0c2
 
 UnknownText_0x5e0c2: ; 0x5e0c2
-	text "BUENA: Huh?"
-	line "Today's password?"
+	text "BUENA: Hein?"
+	line "Le mot de passe?"
 
-	para "HELP, of course!"
+	para "AU SECOURS!"
 	done
 ; 0x5e0f1
 
 UnknownText_0x5e0f1: ; 0x5e0f1
-	text "BUENA: Your BLUE"
-	line "CARD's full."
+	text "BUENA: Ta CARTE"
+	line "BLEUE est pleine."
 
-	para "Trade it in for a"
-	line "fabulous prize!"
+	para "Echange tes points"
+	line "contre de fabuleux"
+	cont "prix."
 	done
 ; 0x5e131
 
 UnknownText_0x5e131: ; 0x5e131
-	text "BUENA: Tune in to"
-	line "PASSWORD every"
+	text "BUENA: Ecoutez le"
+	line "MOT DE PASSE tous"
 
-	para "night from six to"
-	line "midnight!"
+	para "les soirs de 18"
+	line "heures à minuit!"
 
-	para "Tune in, then drop"
-	line "in for a visit!"
+	para "Ecoutez et venez!"
 	done
 ; 0x5e192
 
 UnknownText_0x5e192: ; 0x5e192
-	text "BUENA: Oh? You"
-	line "forgot to bring"
-	cont "your BLUE CARD?"
+	text "BUENA: Tu as"
+	line "oublié ta CARTE"
+	cont "BLEUE?"
 
-	para "I can't give you"
-	line "points if you"
-	cont "don't have it."
+	para "Je ne peux pas te"
+	line "créditer de"
+	cont "points!"
 	done
 ; 0x5e1ee
 
 UnknownText_0x5e1ee: ; 0x5e1ee
-	text "BUENA: Oh! Your"
-	line "BLUE CARD reached"
+	text "BUENA: Ta CARTE"
+	line "BLEUE a atteint"
 
-	para "30 points today!"
-	line "That's so wild!"
+	para "30 points aujour-"
+	line "d'hui! Dingue!"
 
-	para "Hmm<...> There isn't a"
-	line "prize for hitting"
-	cont "30 points, but<...>"
+	para "Euh<...> Il n'y a pas"
+	line "de récompense pour"
+	cont "ça, mais<...>"
 
-	para "You came by so"
-	line "often, <PLAY_G>."
+	para "Tu viens souvent"
+	line "ici, <PLAY_G>."
 
-	para "I'll make you a"
-	line "special deal!"
+	para "J'ai une idée!"
 
-	para "How would you like"
-	line "my phone number?"
+	para "Est-ce que tu veux"
+	line "mon numéro?"
 	done
 ; 0x5e2bf
 
 UnknownText_0x5e2bf: ; 0x5e2bf
 	text "BUENA: <PLAY_G>,"
-	line "do you want to"
-
-	para "register my phone"
-	line "number?"
+	line "est-ce que tu veux"
+	cont "mon numéro?"
 	done
 ; 0x5e2f3
 
 UnknownText_0x5e2f3: ; 0x5e2f3
-	text "<PLAYER> registered"
-	line "BUENA's number."
+	text "<PLAYER> enregistre"
+	line "le numéro de"
+	cont "BUENA."
 	done
 ; 0x5e310
 
 UnknownText_0x5e310: ; 0x5e310
-	text "BUENA: I look"
-	line "forward to hearing"
-	cont "from you!"
+	text "BUENA: J'ai hâte"
+	line "de discuter avec"
+	cont "toi!"
 	done
 ; 0x5e33c
 
 UnknownText_0x5e33c: ; 0x5e33c
-	text "BUENA: Aww<...> It's a"
-	line "special prize<...>"
+	text "BUENA: Ohh<...> Mais<...>"
+	line "Dommage<...>"
 	done
 ; 0x5e35e
 
 UnknownText_0x5e35e: ; 0x5e35e
 	text "BUENA: <PLAY_G>,"
-	line "your phone list"
+	line "ton téléphone n'a"
 
-	para "has no room left"
-	line "for me<...>"
+	para "plus de place pour"
+	line "moi<...>"
 	done
 ; 0x5e392
 
 UnknownText_0x5e392: ; 0x5e392
-	text "You can cash in"
-	line "your saved points"
-
-	para "for a lovely prize"
-	line "of your choice!"
+	text "Tu peux échanger"
+	line "tes points contre"
+	cont "un super prix!"
 	done
 ; 0x5e3d8
 
 UnknownText_0x5e3d8: ; 0x5e3d8
-	text "You can't trade in"
-	line "points without"
-	cont "your BLUE CARD."
+	text "Tu ne peux pas"
+	line "échanger tes"
+	cont "points sans ta"
+	cont "CARTE BLEUE."
 
-	para "Don't forget your"
-	line "BLUE CARD!"
+	para "Ne l'oublie pas!"
 	done
 ; 0x5e426
 
 UnknownText_0x5e426: ; 0x5e426
-	text "2F SALES"
+	text "1ER  VENTES"
 	done
 ; 0x5e430
 
 UnknownText_0x5e430: ; 0x5e430
-	text "PROF.OAK'S #MON"
-	line "TALK"
+	text "CHRONIQUE #MON"
+	line "DU PROF.CHEN"
 
-	para "The Hottest Show"
-	line "on the Air!"
+	para "L'émission star"
+	line "à l'antenne!"
 	done
 ; 0x5e463
 
 UnknownText_0x5e463: ; 0x5e463
-	text "Anywhere, Anytime"
-	line "#MON Radio"
+	text "La RADIO #MON!"
+	line "A l'antenne à tout"
+	cont "heure!"
 	done
 ; 0x5e481
 

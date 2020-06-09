@@ -41,3 +41,4 @@ BlackthornDodrioTradeHouse_MapEventHeader: ; 0x195a34
 	person_event SPRITE_LASS, 7, 6, $3, 0, 0, -1, -1, 8 + PAL_OW_GREEN, 0, 0, LassScript_0x195a2a, -1
 ; 0x195a5b
 
+

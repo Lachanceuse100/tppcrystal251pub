@@ -73,55 +73,60 @@ ItemFragment_0x1847a7: ; 0x1847a7
 ; 0x1847a9
 
 SageNicoSeenText: ; 0x1847a9
-	text "However hard we"
-	line "battle, the TOWER"
-	cont "will stand strong."
+	text "La TOUR ne cèdera"
+	line "pas peu importe"
+	cont "l'intensité du"
+	cont "combat."
 	done
 ; 0x1847df
 
 SageNicoBeatenText: ; 0x1847df
-	text "I fought hard but"
-	line "I'm too weak."
+	text "J'ai durement"
+	line "combattu mais je"
+	cont "suis trop faible."
 	done
 ; 0x1847ff
 
 UnknownText_0x1847ff: ; 0x1847ff
-	text "The flexible pil-"
-	line "lar protects the"
-
-	para "TOWER, even from"
-	line "earthquakes."
+	text "Le pilier flexible"
+	line "protège la TOUR,"
+	cont "même des séismes."
 	done
 ; 0x184841
 
 SageEdmondSeenText: ; 0x184841
-	text "<...>Sway like leaves"
-	line "in the wind<...>"
+	text "<...>Comme des"
+	line "feuilles dans le"
+	cont "vent<...>"
 	done
 ; 0x184861
 
 SageEdmondBeatenText: ; 0x184861
-	text "Oh, I'm weak!"
+	text "Oh, je suis"
+	line "faible!"
 	done
 ; 0x18486f
 
 UnknownText_0x18486f: ; 0x18486f
-	text "I tried to copy"
-	line "BELLSPROUT's"
+	text "J'ai tenté de"
+	line "copier les doux"
 
-	para "gentle movements"
-	line "for battle<...>"
+	para "mouvements de"
+	line "CHETIFLOR pour ce"
+	cont "combat<...>"
 
-	para "But I didn't train"
-	line "well enough."
+	para "Mais je ne suis"
+	line "pas assez"
+	cont "entraîné."
 	done
 ; 0x1848c8
 
 UnknownText_0x1848c8: ; 0x1848c8
-	text "A #MON statue<...>"
+	text "Une statue"
+	line "#MON<...>"
 
-	para "It looks very"
-	line "distinguished."
+	para "Elle semble très"
+	line "distinguée."
 	done
 ; 0x1848f5
 

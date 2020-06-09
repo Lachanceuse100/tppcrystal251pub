@@ -130,42 +130,42 @@ MovementData_0x58e4d: ; 0x58e4d
 ; 0x58e4f
 
 UnknownText_0x58e4f: ; 0x58e4f
-	text "Patterns appeared"
-	line "on the walls<...>"
+	text "Il y a des figures"
+	line "sur le mur<...>"
 	done
 ; 0x58e70
 
 ; possibly unused.. again?
 UnknownText_0x58e70: ; 0x58e70
-	text "It's UNOWN text!"
+	text "Du texte ZARBI!"
 	done
 ; 0x58e81
 
 UnknownText_0x58e81: ; 0x58e81
-	text "Patterns appeared"
-	line "on the walls<...>"
+	text "Il y a des figures"
+	line "sur le mur<...>"
 	done
 ; 0x58ea2
 
 UnknownText_0x58ea2: ; 0x58ea2
-	text "There's a big hole"
-	line "in the wall!"
+	text "Il y a un gros"
+	line "trou dans le mur!"
 	done
 ; 0x58ec2
 
 UnknownText_0x58ec2: ; 0x58ec2
-	text "It's a replica of"
-	line "an ancient #-"
+	text "C'est une réplique"
+	line "d'un ancien #-"
 	cont "MON."
 	done
 ; 0x58ee7
 
 UnknownText_0x58ee7: ; 0x58ee7
-	text "This flying #-"
-	line "MON attacked its"
+	text "Ce #MON volant"
+	line "attaquait ses"
 
-	para "prey with saw-like"
-	line "fangs."
+	para "proies de ses"
+	line "crocs acérés."
 	done
 ; 0x58f22
 

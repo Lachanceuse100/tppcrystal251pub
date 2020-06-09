@@ -84,10 +84,10 @@ MenuDataHeader_0x56478: ; 0x56478
 MenuData2_0x56480: ; 0x56480
 	db $80 ; flags
 	db 4 ; items
-	db "FRESH WATER  ¥200@"
+	db "EAU FRAICHE  ¥200@"
 	db "SODA POP     ¥300@"
-	db "LEMONADE     ¥350@"
-	db "CANCEL@"
+	db "LIMONADE     ¥350@"
+	db "ANNULER@"
 ; 0x564bf
 
 
@@ -108,62 +108,68 @@ MapGoldenrodDeptStore6FSignpost1Script: ; 0x564c8
 ; 0x564cb
 
 UnknownText_0x564cb: ; 0x564cb
-	text "A vending machine!"
-	line "Here's the menu."
+	text "Un distributeur!"
+	line "Voyons voir<...>"
 	done
 ; 0x564ef
 
 UnknownText_0x564ef: ; 0x564ef
-	text "Clang! A can of"
-	line "@"
+	text "Cling! Une"
+	line "cannette de"
+	cont "@"
 	text_from_ram StringBuffer3
 	text $55
-	db "popped out!"
+	db "est sortie!"
 	done
 ; 0x56512
 
 UnknownText_0x56512: ; 0x56512
-	text "Oops, not enough"
-	line "money."
+	text "Oups, pas assez"
+	line "d'argent."
 	done
 ; 0x5652b
 
 UnknownText_0x5652b: ; 0x5652b
-	text "There's no more"
-	line "room for stuff."
+	text "Tu n'as plus de"
+	line "place."
 	done
 ; 0x5654b
 
 UnknownText_0x5654b: ; 0x5654b
-	text "Do you listen to"
-	line "LUCKY CHANNEL?"
+	text "Ecoutes-tu"
+	line "L'Antenne Chance?"
 
-	para "If you want to"
-	line "win, trade #MON"
+	para "Si tu veux gagner,"
+	line "échange un maximum"
 
-	para "with as many peo-"
-	line "ple as possible to"
+	para "de #MON avec le"
+	line "plus de personnes"
 
-	para "get different ID"
-	line "numbers."
+	para "possibles pour"
+	line "avoir un max de"
+	cont "numéros ID"
+	cont "différents."
 	done
 ; 0x565ca
 
 UnknownText_0x565ca: ; 0x565ca
-	text "If you're tired,"
-	line "try the vending"
-	cont "machine's drinks."
+	text "Si tu es fatigué,"
+	line "essaye les"
+	cont "boissons du"
+	cont "distributeur."
 
-	para "Your #MON will"
-	line "love them too."
+	para "Tes #MON "
+	line "apprécieront"
+	cont "aussi."
 	done
 ; 0x5661a
 
 UnknownText_0x5661a: ; 0x5661a
-	text "Take a Break from"
-	line "Shopping!"
+	text "Faites une petite"
+	line "pause!"
 
-	para "6F TRANQUIL SQUARE"
+	para "5EME: COIN"
+	line "      TRANQUILLE"
 	done
 ; 0x5664a
 

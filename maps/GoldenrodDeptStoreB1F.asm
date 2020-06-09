@@ -85,40 +85,40 @@ ItemFragment_0x7d7c9: ; 0x7d7c9
 ; 0x7d7cb
 
 UnknownText_0x7d7cb: ; 0x7d7cb
-	text "Hey, kid! You're"
-	line "holding us up!"
+	text "Hé! Tu nous"
+	line "retardes!"
 
-	para "Our policy is to"
-	line "work behind the"
+	para "On doit travailler"
+	line "en cachette là ou"
 
-	para "scenes where no"
-	line "one can see us!"
+	para "personne ne peut"
+	line "nous voir!"
 	done
 ; 0x7d82c
 
 UnknownText_0x7d82c: ; 0x7d82c
-	text "I lose my passion"
-	line "for work if some-"
-	cont "one's watching."
+	text "Moi j'aime plus"
+	line "travailler si on"
+	cont "me regarde."
 
-	para "Come on, kid,"
-	line "scoot!"
+	para "Allez<...>"
+	line "Dégage!"
 	done
 ; 0x7d875
 
 UnknownText_0x7d875: ; 0x7d875
-	text "Oohah! Oohah!"
+	text "Han! Han!"
 
-	para "The stuff on the"
-	line "ground's junk."
+	para "On va jeter les"
+	line "trucs sur le sol."
 
-	para "Take it if you"
-	line "want it!"
+	para "Tu peux les avoir"
+	line "si tu veux!"
 	done
 ; 0x7d8bb
 
 UnknownText_0x7d8bb: ; 0x7d8bb
-	text "MACHOKE: Maaacho!"
+	text "MACHOPEUR: Maacho!"
 	done
 ; 0x7d8ce
 

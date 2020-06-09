@@ -23,35 +23,39 @@ CooltrainerFScript_0x19a35f: ; 0x19a35f
 ; 0x19a362
 
 UnknownText_0x19a362: ; 0x19a362
-	text "What's this? TEAM"
-	line "ROCKET has come"
-	cont "back?"
+	text "C'est quoi ça? La"
+	line "TEAM ROCKET est de"
+	cont "retour?"
 
-	para "I saw some men in"
-	line "black at LAKE OF"
-	cont "RAGE<...>"
+	para "J'ai vu des hommes"
+	line "en noir au LAC"
+	cont "COLERE<...>"
 	done
 ; 0x19a3b3
 
 UnknownText_0x19a3b3: ; 0x19a3b3
-	text "I stop my #MON"
-	line "from evolving too"
-	cont "early."
+	text "J'ai empêcher mes"
+	line "#MON d'évoluer"
+	cont "trop tôt."
 
-	para "I make them learn"
-	line "certain moves be-"
-	cont "fore I let them"
-	cont "evolve."
+	para "Je leur fais"
+	line "apprendre cer-"
+	cont "taines capacités"
+	cont "avant de les faire"
+	cont "évoluer."
 	done
 ; 0x19a418
 
 UnknownText_0x19a418: ; 0x19a418
-	text "#MON do become"
-	line "stronger when they"
+	text "Les #MON"
+	line "deviennent bien"
 
-	para "evolve, but they"
-	line "also learn moves"
-	cont "more slowly."
+	para "plus forts lorsqu'"
+	line "ils évoluent mais"
+
+	para "ils apprennent"
+	line "leurs capacités"
+	cont "plus lentement."
 	done
 ; 0x19a46a
 

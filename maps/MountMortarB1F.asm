@@ -87,73 +87,76 @@ MapMountMortarB1FSignpostItem0: ; 0x7e24a
 ; 0x7e24d
 
 UnknownText_0x7e24d: ; 0x7e24d
-	text "Hey!"
+	text "Hé!"
 
-	para "I am the KARATE"
-	line "KING!"
+	para "Je suis le ROI du"
+	line "KARATE!"
 
-	para "I train alone here"
-	line "in the dark!"
+	para "Je m'entraîne seul"
+	line "dans le noir!"
 
-	para "You!"
-	line "Battle with me!"
+	para "Toi! Moi!"
+	line "Combat!"
 
-	para "Hwaaarggh!"
+	para "Yaaaaaaaah!"
 	done
 ; 0x7e2a9
 
 UnknownText_0x7e2a9: ; 0x7e2a9
 	text "Waaaarggh!"
-	line "I'm beaten!"
+	line "J'ai perdu!"
 	done
 ; 0x7e2c0
 
 UnknownText_0x7e2c0: ; 0x7e2c0
-	text "I<...> I'm crushed<...>"
+	text "Quelle<...> force<...>"
 
-	para "My training is"
-	line "still not enough<...>"
+	para "Mon entraînement"
+	line "n'est pas encore"
+	cont "suffisant."
 
-	para "But a loss is a"
-	line "loss. I admit it."
+	para "Mais j'admets ma"
+	line "défaite."
 
-	para "As proof that you"
-	line "defeated me, I'll"
+	para "En gage de récom-"
+	line "pense, je vais te"
 
-	para "give you a rare"
-	line "fighting #MON."
+	para "donner un #MON"
+	line "COMBAT rare."
 	done
 ; 0x7e355
 
 UnknownText_0x7e355: ; 0x7e355
-	text "<PLAYER> received"
-	line "HITMONTOP."
+	text "<PLAYER> reçoit"
+	line "KAPOERA."
 	done
 
 MortarGiftPCText
-	text "HITMONTOP was sent"
-	line "to BILL's PC."
+	text "KAPOERA est envoyé"
+	line "au PC de LEO."
 	done
 
 UnknownText_0x7e36a: ; 0x7e36a
-	text "HITMONTOP is a"
-	line "fighting-type."
+	text "KAPOERA est un"
+	line "type COMBAT."
 
-	para "Few TYROGUE evolve"
-	line "into this #MON"
+	para "Peu de DEBUGANT"
+	line "évoluent en ce"
+	cont "#MON."
 
-	para "Keep up the hard"
-	line "work. I'll keep"
-	cont "training too."
+	para "Je vais continuer"
+	line "de m'entraîner."
+	
+	para "Fais-en de même!"
 
-	para "Farewell!"
+	para "Adieu!"
 	done
 ; 0x7e3df
 
 UnknownText_0x7e3df: ; 0x7e3df
-	text "You have no room"
-	line "in your party"
-	cont "or PC BOX!"
+	text "Plus de place dans"
+	line "ton équipe ou ta"
+	cont "BOITE PC."
 	done
 ; 0x7e400
 

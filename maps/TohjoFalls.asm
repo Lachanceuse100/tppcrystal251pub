@@ -32,3 +32,4 @@ TohjoFalls_MapEventHeader: ; 0x18db04
 	person_event SPRITE_POKE_BALL, 22, 6, $1, 0, 0, -1, -1, 0, 1, 0, ItemFragment_0x18db02, EVENT_ITEM_TOHJO_FALLS_MOON_STONE
 ; 0x18db21
 
+

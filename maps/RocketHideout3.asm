@@ -31,3 +31,4 @@ RocketHideout3_MapEventHeader:
 	; object events
 	db 0
 
+

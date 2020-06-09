@@ -19,30 +19,32 @@ MapCherrygroveGymSpeechHouseSignpost1Script: ; 0x196ae7
 ; 0x196aea
 
 UnknownText_0x196aea: ; 0x196aea
-	text "You're trying to"
-	line "see how good you"
+	text "Tu essaies de voir"
+	line "si tu es doué en"
 
-	para "are as a #MON"
-	line "trainer?"
+	para "tant que dresseur"
+	line "de #MON?"
 
-	para "You better visit"
-	line "the #MON GYMS"
+	para "Tu devrais visiter"
+	line "les ARENES #MON"
 
-	para "all over JOHTO and"
-	line "collect BADGES."
+	para "de JOHTO et"
+	line "collectionner les"
+	cont "BADGES."
 	done
 ; 0x196b65
 
 UnknownText_0x196b65: ; 0x196b65
-	text "When I get older,"
-	line "I'm going to be a"
-	cont "GYM LEADER!"
+	text "Quand je serais"
+	line "grand, je veux"
+	cont "être un CHAMPION"
+	cont "d'ARENE!"
 
-	para "I make my #MON"
-	line "battle with my"
+	para "Je fais combattre"
+	line "mes #MON avec"
 
-	para "friend's to make"
-	line "them tougher!"
+	para "mes amis pour les"
+	line "renforcer!"
 	done
 ; 0x196bd1
 

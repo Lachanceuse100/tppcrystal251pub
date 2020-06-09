@@ -456,171 +456,169 @@ FruitTreeScript_0x1a1f33: ; 0x1a1f33
 ; 0x1a1f35
 
 Bird_keeperTobySeenText: ; 0x1a1f35
-	text "Fly high into the"
-	line "sky, my beloved"
-	cont "bird #MON!"
+	text "Volez haut dans le"
+	line "ciel, mes #MON"
+	cont "oiseaux adorés!"
 	done
 ; 0x1a1f63
 
 Bird_keeperTobyBeatenText: ; 0x1a1f63
-	text "I feel like just"
-	line "flying away now."
+	text "Je crois que je"
+	line "vais m'envoler."
 	done
 ; 0x1a1f86
 
 UnknownText_0x1a1f86: ; 0x1a1f86
-	text "I plan to train in"
-	line "CIANWOOD CITY to"
+	text "Je compte m'en-"
+	line "traîner à IRISIA"
 
-	para "teach my #MON"
-	line "how to FLY."
+	para "pour apprendre VOL"
+	line "à mes #MON."
 	done
 ; 0x1a1fc5
 
 SchoolboyChad1SeenText: ; 0x1a1fc5
-	text "EEVEE are common"
-	line "in this area!"
+	text "Il y a tout plein"
+	line "d'EVOLI par ici."
 
-	para "I heard you can"
-	line "find some rare"
+	para "Il paraît qu'on"
+	line "peut trouver des"
 
-	para "EEVEE evolutions"
-	line "here too!"
+	para "évolution d'EVOLI"
+	line "rares aussi!"
 	done
 ; 0x1a1fee
 
 SchoolboyChad1BeatenText: ; 0x1a1fee
-	text "I wonder if my"
-	line "EEVEE will evolve?"
+	text "Mon EVOLI va t-il"
+	line "évoluer?"
 	done
 ; 0x1a200e
 
 UnknownText_0x1a200e: ; 0x1a200e
-	text "I have tests"
-	line "coming up."
+	text "J'ai des examens"
+	line "qui arrivent."
 
-	para "I don't have much"
-	line "time for #MON."
+	para "Il faudrait peut-"
+	line "être que je m'y"
+	cont "remette."
 	done
 ; 0x1a207d
 
 LassDana1SeenText: ; 0x1a207d
-	text "I feel like going"
-	line "all in today!"
+	text "Je vais tout"
+	line "donner!"
 	done
 ; 0x1a20c8
 
 LassDana1BeatenText: ; 0x1a20c8
-	text "Down to my"
-	line "last ¥100<...>"
+	text "Jusqu'à mon"
+	line "dernier sou<...>"
 	done
 ; 0x1a20ec
 
 UnknownText_0x1a20ec: ; 0x1a20ec
-	text "There is a certain"
-	line "honor involved in"
+	text "Il y a un certain"
+	line "honneur de tout"
 
-	para "betting it all on"
-	line "the roll of a"
-	cont "dice."
+	para "miser sur la"
+	line "chance."
 	done
 ; 0x1a2130
 
 BeautyValerieSeenText: ; 0x1a2130
-	text "Hi! Aren't you a"
-	line "cute trainer!"
+	text "Salut! T'es mignon"
+	line "comme dresseur."
 
-	para "May I see your"
+	para "Je peux voir tes"
 	line "#MON?"
 	done
 ; 0x1a2164
 
 BeautyValerieBeatenText: ; 0x1a2164
-	text "I'm glad I got to"
-	line "see your #MON!"
+	text "Merci beaucoup!"
 	done
 ; 0x1a2185
 
 UnknownText_0x1a2185: ; 0x1a2185
-	text "When I see #-"
-	line "MON, it seems to"
-	cont "soothe my nerves."
+	text "Les #MON, ça me"
+	line "calme les nerfs."
 	done
 ; 0x1a21b7
 
 SailorHarrySeenText: ; 0x1a21b7
-	text "My dream is to"
-	line "become admiral!"
+	text "Mon rêve est d'"
+	line "être un amiral."
 
-	para "My #MON will"
-	line "help me achieve"
-	cont "that goal!"
+	para "Mes #MON m'ai-"
+	line "deront à atteindre"
+	cont "mon but!"
 	done
 ; 0x1a21f0
 
 SailorHarryBeatenText: ; 0x1a21f0
-	text "A cut below"
-	line "the rest<...>"
+	text "J'ai coupé trop"
+	line "court<...>"
 	done
 ; 0x1a220c
 
 UnknownText_0x1a220c: ; 0x1a220c
-	text "I wonder how"
-	line "useful CUT will"
-	cont "be at sea<...>"
+	text "Est-ce que COUPE"
+	line "sera utile en mer<...>"
 	done
 ; 0x1a224c
 
 BeautyOliviaSeenText: ; 0x1a224c
-	text "Don't you think my"
-	line "#MON and I are"
-	cont "beautiful?"
+	text "Tu ne trouves pas"
+	line "que mes #MON et"
+	cont "moi-même sommes"
+	cont "trop classes?"
 	done
 ; 0x1a2279
 
 BeautyOliviaBeatenText: ; 0x1a2279
-	text "We drink MOOMOO"
-	line "MILK every day."
+	text "On boit du LAIT"
+	line "MEUMEU tous les"
+	cont "jours."
 	done
 ; 0x1a229a
 
 UnknownText_0x1a229a: ; 0x1a229a
-	text "MOOMOO MILK is"
-	line "good for beauty"
+	text "Le LAIT MEUMEU est"
+	line "bon pour la forme"
+	cont "et la beauté."
 
-	para "and health, but"
-	line "inconveniently,"
+	para "Mais ils n'en ven-"
+	line "dent qu'une bou-"
+	cont "teille à la fois."
 
-	para "they only sell a"
-	line "bottle at a time."
-
-	para "Thankfully I have"
-	line "my own MILTANK!"
+	para "Heureusement j'ai"
+	line "mon propre"
+	cont "ECREMEUH."
 	done
 ; 0x1a22fd
 
 UnknownText_0x1a22fd: ; 0x1a22fd
 	text "ROUTE 38"
 
-	para "OLIVINE CITY -"
-	line "ECRUTEAK CITY"
+	para "OLIVILLE -"
+	line "ROSALIA"
 	done
 ; 0x1a2324
 
 UnknownText_0x1a2324: ; 0x1a2324
-	text "TRAINER TIPS"
+	text "ASTUCE"
 
-	para "If a #MON is"
-	line "trying to evolve,"
-	cont "you can stop it."
+	para "Vous pouvez arrê-"
+	line "ter l'évolution d'"
+	cont "un #MON."
 
-	para "Press the B But-"
-	line "ton during evolu-"
-	cont "tion."
+	para "Appuyez sur B pen-"
+	line "dant l'évolution."
 
-	para "That startles the"
-	line "#MON and stops"
-	cont "its evolution."
+	para "Cela surprendra le"
+	line "#MON et cessera"
+	cont "l'évolution."
 	done
 ; 0x1a23bb
 

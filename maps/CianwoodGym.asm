@@ -91,29 +91,31 @@ ChuckReject:
 	end
 
 ChuckRejectText:
-	text "Hey, <PLAY_G>!"
-	line "Good to see you"
-	cont "again!"
+	text "Ah, <PLAY_G>!"
+	line "C'est un plaisir"
+	cont "de te revoir!"
 
-	para "I'm training for"
-	line "our rematch, but"
-	cont "kinda overdid it<...>"
+	para "Je m'entraînais"
+	line "pour notre combat"
+	cont "mais, euh<...>"
 
-	para "While my #MON"
-	line "rest up you should"
+	para "J'en ai trop fait<...>"
 
-	para "meet my student,"
-	line "KIYO."
+	para "Pendant que mes"
+	line "#MON se"
+	cont "reposent, tu de-"
 
-	para "He should be"
-	line "training within"
-	cont "MT. MORTAR."
+	para "vrais rencontrer"
+	line "mon élève, KIYO."
 
-	para "He's stong enough"
-	line "to give anyone a"
-	cont "workout!"
+	para "Il devrait être"
+	line "au MONT CREUSET."
 
-	para "WAHAHAHAHA!!!"
+	para "Il est assez fort"
+	line "pour faire suer"
+	cont "n'importe qui!"
+
+	para "WAHAHAHAHA!"
 	done
 
 
@@ -280,173 +282,181 @@ MovementData_0x9d6f3: ; 0x9d6f3
 ; 0x9d6f9
 
 UnknownText_0x9d6f9: ; 0x9d6f9
-	text "WAHAHAH!"
+	text "WAHAHAHA!"
 
-	para "So you've come"
-	line "this far!"
+	para "Tu as réussi à"
+	line "venir jusqu'ici!"
 
-	para "Let me tell you,"
-	line "I'm tough!"
+	para "Laisse-moi te dire"
+	line "que je suis le"
+	cont "plus fort!"
 
-	para "My #MON will"
-	line "crush stones and"
-	cont "shatter bones!"
+	para "Mes #MON"
+	line "explosent la roche"
+	cont "et fracassent les"
+	cont "os!"
 
-	para "Watch this!"
+	para "Regarde ça!"
 	done
 ; 0x9d76f
 
 UnknownText_0x9d76f: ; 0x9d76f
-	text "CHUCK: Urggh!"
-	line "<...>"
+	text "CHUCK: Blurrp!"
+	line "<...><...><...><...><...><...><...><...><...><...><...><...><...>"
 
-	para "Oooarrgh!"
+	para "Aaaarrgh!"
 	done
 ; 0x9d78a
 
 UnknownText_0x9d78a: ; 0x9d78a
-	text "There! Scared now,"
-	line "are you?"
+	text "Alors, t'en dis"
+	line "quoi? T'as peur?"
 
-	para "What?"
-	line "It has nothing to"
+	para "De quoi?"
+	line "Ca n'a rien à voir"
 
-	para "do with #MON?"
-	line "That's true!"
+	para "avec les #MON?"
+	line "Je sais!"
 
-	para "Come on. We shall"
-	line "do battle!"
+	para "Allez, en position"
+	line "pour la bataille!"
 	done
 ; 0x9d7f6
 
 ChuckRematchTextBefore:
-	text "WAHAHAH!"
+	text "WAHAHAHA!"
 
-	para "Oh, hey, sorry"
-	line "for shouting!"
+	para "Ah, pardon pour"
+	line "ce cri!"
 
-	para "I'm doing great!"
+	para "J'ai la pêche!"
 
-	para "I just finished"
-	line "training!"
+	para "J'ai fini mon"
+	line "entraînement!"
 
-	para "So what brings you"
-	line "back here, huh?"
+	para "Alors qu'est-ce"
+	line "qui t'amène ici?"
 
-	para "Do you want to"
-	line "battle again?"
+	para "Un nouveau combat"
+	line "peut-être?"
 	done
 
 ChuckRematchBeatenText:
-	text "Wha? Huh?"
-	line "I lost again?"
+	text "Hein? Quoi?"
+	line "J'ai encore perdu?"
 
-	para "How about that!"
+	para "Voyez-vous ça!"
 	done
 
 ChuckAfterRematchText:
 	text "WAHAHA!"
 
-	para "A battle with you"
-	line "is never boring!"
+	para "On ne s'ennuie"
+	line "jamais avec toi!"
 	done
 
 UnknownText_0x9d7f6: ; 0x9d7f6
-	text "Wha? Huh?"
-	line "I lost?"
+	text "Hein? Quoi? J'ai"
+	line "pas gagné là?"
 
-	para "How about that!"
-	line "You're worthy of"
-	cont "STORMBADGE!"
+	para "Voyez-vous ça!"
+	line "Tu mérties bien ce"
+	cont "bon vieux BADGE"
+	cont "CHOC!"
 	done
 ; 0x9d835
 
 UnknownText_0x9d835: ; 0x9d835
-	text "<PLAYER> received"
-	line "STORMBADGE."
+	text "<PLAYER> reçoit"
+	line "le BADGE CHOC"
 	done
 ; 0x9d84d
 
 UnknownText_0x9d84d: ; 0x9d84d
-	text "STORMBADGE lets"
-	line "your #MON use"
+	text "Le BADGE CHOC per-"
+	line "met à tes #MON"
 
-	para "FLASH when you're"
-	line "not in a battle."
+	para "d'utiliser FLASH"
+	line "en dehors des"
+	cont "combats."
 
-	para "Here, take this"
-	line "too!"
+	para "Tiens, attrape ça!"
 	done
 ; 0x9d8da
 
 UnknownText_0x9d8da: ; 0x9d8da
-	text "That is DYNAMIC-"
-	line "PUNCH."
+	text "C'est DYNAMOPOING."
 
-	para "It doesn't always"
-	line "hit, but when it"
+	para "Ca ne touche pas"
+	line "toujours mais"
 
-	para "does, it causes"
-	line "confusion!"
+	para "lorsque le coup"
+	line "est porté, il"
+	cont "entraîne la confu-"
+	cont "sion!"
 	done
 ; 0x9d930
 
 UnknownText_0x9d930: ; 0x9d930
-	text "WAHAHAH! I enjoyed"
-	line "battling you!"
+	text "WAHAHA! J'ai aimé"
+	line "me battre contre"
+	cont "toi!"
 
-	para "But a loss is a"
-	line "loss!"
+	para "Mais une défaite"
+	line "est une défaite!"
 
-	para "From now on, I'm"
-	line "going to train 24"
-	cont "hours a day!"
+	para "Je m'entraînerais"
+	line "24 heures sur 24"
+	cont "désormais!"
 	done
 ; 0x9d997
 
 BlackbeltYoshiSeenText: ; 0x9d997
-	text "My #MON and I"
-	line "are bound togeth-"
-	cont "er by friendship."
+	text "Mes #MON et moi"
+	line "sommes liés par"
+	cont "notre amitié."
 
-	para "Our bond will"
-	line "never be broken!"
+	para "Nous ne serons"
+	line "jamais vaincus!"
 	done
 ; 0x9d9e9
 
 BlackbeltYoshiBeatenText: ; 0x9d9e9
-	text "This isn't real!"
+	text "Ce n'est pas vrai!"
 	done
 ; 0x9d9fa
 
 UnknownText_0x9d9fa: ; 0x9d9fa
-	text "I'll go and sulk"
-	line "in the corner<...>"
+	text "Je vais bouder"
+	line "dans le coin<...>"
 	done
 ; 0x9da2e
 
 BlackbeltLaoSeenText: ; 0x9da2e
-	text "We martial artists"
-	line "fear nothing!"
+	text "Nos arts martiaux"
+	line "ne craignent"
+	cont "personne!"
 	done
 ; 0x9da50
 
 BlackbeltLaoBeatenText: ; 0x9da50
-	text "That's shocking!"
+	text "J'ai peur<...>"
 	done
 ; 0x9da61
 
 UnknownText_0x9da61: ; 0x9da61
-	text "Fighting #MON"
-	line "are afraid of"
-	cont "psychics<...>"
+	text "Les #MON COMBAT"
+	line "ont peur du type"
+	cont "PSY<...>"
 	done
 ; 0x9da8a
 
 BlackbeltNobSeenText: ; 0x9da8a
-	text "Words are useless."
-	line "Let your fists do"
-	cont "the talking!"
+	text "Les mots sont"
+	line "inutiles."
+
+	para "Nos poings parle-"
+	cont "ront pour nous!"
 	done
 ; 0x9dabd
 
@@ -456,36 +466,37 @@ BlackbeltNobBeatenText: ; 0x9dabd
 ; 0x9dac0
 
 UnknownText_0x9dac0: ; 0x9dac0
-	text "All trainers here"
-	line "use BLACKBELT"
-	cont "to increase our"
-	cont "#MON power!"
+	text "Tous les dresseurs"
+	line "ici utilisent une"
+	cont "CEINT. NOIRE pour"
+	cont "monter la puissan-"
+	cont "ce de nos #MON."
 
-	para "CHUCK, our gym"
-	line "leader, is an"
+	para "CHUCK, notre cham-"
+	line "pion est une"
 	cont "exception."
 
-	para "He is strong"
-	line "enough as is!"
+	para "Il est assez fort"
+	line "comme ça!"
 	done
 ; 0x9dad9
 
 BlackbeltLungSeenText: ; 0x9dad9
-	text "My raging fists"
-	line "will shatter your"
+	text "Mes poings de fou"
+	line "vont terrasser tes"
 	cont "#MON!"
 	done
 ; 0x9db02
 
 BlackbeltLungBeatenText: ; 0x9db02
-	text "I got shattered!"
+	text "J'ai été brisé!"
 	done
 ; 0x9db14
 
 UnknownText_0x9db14: ; 0x9db14
-	text "My #MON lost<...>"
-	line "My<...> my pride is"
-	cont "shattered<...>"
+	text "Mes #MON ont"
+	line "perdu, ma fierté"
+	cont "est brisé<...>"
 	done
 ; 0x9db3e
 
@@ -508,27 +519,30 @@ ChuckPostgameRematchScript:
 ChuckPostgameRematchText:
 	text "WAHAHA!"
 
-	para "I knew you'd be"
-	line "coming back here!"
+	para "Je savais que tu"
+	line "reviendrais!"
 
-	para "You want to"
-	line "battle again?"
+	para "Tu veux encore"
+	line "te battre?"
 
 	done
 	
 ChuckPostgameBeatenText:
-	text "WHA?! No way!"
+	text "Quoi?! Impossible!"
 	
-	para "You beat me again!"
+	para "Tu m'as encore"
+	line "battu!"
 	done
 	
 ChuckPostgameAfterText:
 
-	text "I guess a loss"
-	line "is a loss!"
+	text "Une défaite est"
+	line "une défaite!"
 	
-	para "I'll have to keep"
-	line "training! WAHAHA!"
+	para "Il faut encore que"
+	line "je m'entraîne!"
+
+	para "WAHAHA!"
 
 	done
 

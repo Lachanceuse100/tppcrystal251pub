@@ -27,8 +27,8 @@ MapRuinsofAlphAerodactylItemRoomSignpost1Script: ; 0x59abe
 ; 0x59ac1
 
 UnknownText_0x59ac1: ; 0x59ac1
-	text "It's a replica of"
-	line "an ancient #-"
+	text "C'est une réplique"
+	line "d'un ancien #-"
 	cont "MON."
 	done
 ; 0x59ae6

@@ -86,82 +86,84 @@ MapGoldenrodHappinessRaterSignpost2Script: ; 0x549a0
 ; 0x549a3
 
 UnknownText_0x549a3: ; 0x549a3
-	text "If you treat your"
-	line "#MON nicely,"
+	text "Si tu traites ton"
+	line "#MON avec"
 
-	para "they will love you"
-	line "in return."
+	para "amour, ils te le"
+	line "rendront bien."
 
-	para "Oh? Let me see"
-	line "your @"
+	para "Oh? Montre-moi"
+	line "ton @"
 	text_from_ram StringBuffer3
 	text "<...>"
 	done
 ; 0x549fc
 
 UnknownText_0x549fc: ; 0x549fc
-	text "It looks really"
-	line "happy! It must"
-	cont "love you a lot."
+	text "Il a l'air très"
+	line "content! Il doit"
+	cont "t'aimer"
+	cont "énormément!"
 	done
 ; 0x54a2c
 
 UnknownText_0x54a2c: ; 0x54a2c
-	text "I get the feeling"
-	line "that it really"
-	cont "trusts you."
+	text "Je crois qu'il te"
+	line "fait vraiment"
+	cont "confiance."
 	done
 ; 0x54a5a
 
 UnknownText_0x54a5a: ; 0x54a5a
-	text "It's friendly to-"
-	line "ward you. It looks"
-	cont "sort of happy."
+	text "Il est amical."
+	line "Il a l'air à"
+	cont "l'aise avec toi."
 	done
 ; 0x54a8e
 
 UnknownText_0x54a8e: ; 0x54a8e
-	text "It's quite cute."
+	text "Il est mignon."
 	done
 ; 0x54a9f
 
 UnknownText_0x54a9f: ; 0x54a9f
-	text "You should treat"
-	line "it better. It's"
-	cont "not used to you."
+	text "Tu devrais mieux"
+	line "le traiter. C'est"
+	cont "pour ton bien"
 	done
 ; 0x54ad1
 
 UnknownText_0x54ad1: ; 0x54ad1
-	text "It doesn't seem to"
-	line "like you at all."
-	cont "It looks mean."
+	text "Il ne t'aime vrai-"
+	line "ment pas beaucoup."
 	done
 ; 0x54b04
 
 UnknownText_0x54ad1_2: ; 0x54ad1
-	text "It simply detests"
-	line "you so much."
+	text "Il te déteste."
 	done
 ; 0x54b04
 
 UnknownText_0x54b04: ; 0x54b04
-	text "I keep losing in"
-	line "battles, and my"
+	text "je ne fais que"
+	line "perdre les combats"
 
-	para "#MON end up"
-	line "fainting<...>"
+	para "avec mes #MON,"
+	line "ils sont tout le"
+	cont "temps K.O<...>" 
 
-	para "Maybe that's why"
-	line "my #MON don't"
-	cont "like me much<...>"
+	para "C'est peut-être"
+	line "pour ça que mes"
+	cont "#MON ne"
+	cont "m'aiment pas trop!"
 	done
 ; 0x54b67
 
 UnknownText_0x54b67: ; 0x54b67
-	text "When I use an item"
-	line "on my #MON, it"
-	cont "acts really glad!"
+	text "Lorsque j'utilise"
+	line "un objet sur mes"
+	cont "#MON, ils ont"
+	cont "l'air content!"
 	done
 ; 0x54b9c
 

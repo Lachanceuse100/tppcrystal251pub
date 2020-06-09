@@ -22,27 +22,28 @@ GrannyScript_0x99c45: ; 0x99c45
 ; 0x99c48
 
 UnknownText_0x99c48: ; 0x99c48
-	text "My EEVEE evolved"
-	line "into an ESPEON."
+	text "Mon EVOLI a évoulé"
+	line "en MENTALI."
 
-	para "But my friend's"
-	line "EEVEE turned into"
-	cont "an UMBREON."
+	para "Mais celui de mon"
+	line "copain a évolué"
+	cont "en NOCTALI."
 
-	para "I wonder why? We"
-	line "both were raising"
+	para "Je me demande"
+	line "pourquoi? On a"
 
-	para "our EEVEE in the"
-	line "same way<...>"
+	para "tous les deux"
+	line "élevé notre EVOLI"
+	cont "de la même façon!"
 	done
 ; 0x99cd5
 
 UnknownText_0x99cd5: ; 0x99cd5
-	text "If you use REVIVE,"
-	line "a #MON that's"
+	text "Si tu utilises un"
+	line "RAPPEL, le #MON"
 
-	para "fainted will wake"
-	line "right up."
+	para "K.O. reviendra à"
+	line "lui."
 	done
 ; 0x99d12
 

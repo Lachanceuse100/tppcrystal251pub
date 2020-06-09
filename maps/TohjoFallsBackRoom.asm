@@ -53,78 +53,82 @@ MovementData_PlayerTFBR:
 	step_end
 
 GiovanniText1:
-	text "You<...> How did you"
-	line "find me here?"
+	text "Toi<...> Comment m'as-"
+	line "tu trouvé?"
 
-	para "Never mind that."
+	para "Peu importe."
 
-	para "My name is"
+	para "Mon nom est"
 	line "GIOVANNI."
 
-	para "Three months ago I"
-	line "led my TEAM ROCKET"
-	cont "to glory."
+	para "Il y a 3 mois j'ai"
+	line "mené la TEAM RO-"
+	cont "CKET a sa gloire."
 
-	para "However, I was"
-	line "beaten by a mere"
-	cont "child."
+	para "Jusqu'au jour ou"
+	line "un enfant m'a"
+	cont "battu."
 
-	para "In my embarassment"
-	line "I came here to"
-	cont "train in solitude."
+	para "Embarassé, je suis"
+	line "venu ici m'entraî-"
+	cont "ner en solitaire."
 
-	para "I disbanded TEAM"
-	line "ROCKET on that"
-	cont "day."
+	para "J'ai dissous la"
+	line "TEAM ROCKET ce"
+	cont "jour-là."
 
-	para "What? You say they"
-	line "were looking for"
-	cont "me?"
+	para "Quoi? Ils me"
+	line "cherchaient?"
 
-	para "And you defeated"
-	line "them again in"
-	cont "JOHTO? Ha!"
+	para "Et tu les as de"
+	line "nouveau battus"
+	cont "à JOHTO? Ha!"
 
-	para "If that is so,"
-	line "allow me to test"
-	cont "my skills against"
-	cont "yours."
+	para "Intéressant!"
+	line "Permet-moi de tes-"
+	cont "ter mes nouveaux"
+	cont "talents face à"
+	cont "toi."
 
-	para "Prepare to expe-"
-	line "rience a world of"
-	cont "pain."
+	para "Prépare toi à"
+	line "souffrir!"
 	done
 
 GiovanniText2:
-	text "WHAT?!"
+	text "QUOI?!"
 
-	para "How could this be?"
-	line "Those months of"
-	cont "training<...>"
+	para "Comment est-ce"
+	line "possible?"
 
-	para "Were they all for"
-	line "naught?"
+	para "Tous ces mois"
+	line "d'entraînement<...>"
+
+	para "Tout ça pour rien?"
 	done
 
 GiovanniText3:
-	text "That should teach"
-	line "you not to mess"
+	text "Tu auras au moins"
+	line "appris a ne pas te"
 
-	para "with the greatest"
-	line "#MON TRAINER."
+	para "frotter au plus"
+	line "grand dresseur"
+	cont "#MON."
 	done
 
 GiovanniText4:
-	text "Unbelievable. It"
-	line "seems I am not yet"
+	text "Incroyable<...>"
 
-	para "finished with my"
-	line "training."
+	para "Il semblerait que"
+	line "mon entraînement"
+	cont "ne soit pas"
+	cont "suffisant."
 
-	para "I will retreat for"
-	line "now."
+	para "Je vais battre en"
+	line "retraite pour"
+	cont "l'instant."
 
-	para "May we meet again."
+	para "Nos chemins se"
+	line "recroiseront<...>"
 	done
 
 TohjoFallsBackRoom_MapEventHeader:

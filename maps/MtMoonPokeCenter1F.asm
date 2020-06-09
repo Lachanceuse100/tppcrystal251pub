@@ -14,12 +14,12 @@ FisherScript1_MtMoon:
 	jumptextfaceplayer FisherText1_MtMoon
 
 FisherText1_MtMoon:
-	text "Hey, you!"
+	text "Toi!"
 
-	para "Wanna buy a"
-	line "MAGIKARP? No?"
+	para "Tu veux acheter un"
+	line "MAGICARPE? Non?"
 
-	para "Then shoo!"
+	para "Alors oust!"
 	done
 
 MtMoonOldCenter_LinkScript:

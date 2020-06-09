@@ -31,56 +31,62 @@ MapGoldenrodDeptStore1FSignpost1Script: ; 0x55990
 ; 0x55993
 
 UnknownText_0x55993: ; 0x55993
-	text "Welcome to GOLDEN-"
-	line "ROD DEPT.STORE."
+	text "Bienvenue au"
+	line "CENTRE COMMERCIAL"
+	cont "de DOUBLONVILLE."
 	done
 ; 0x559b7
 
 UnknownText_0x559b7: ; 0x559b7
-	text "The DEPT.STORE"
-	line "has a decent se-"
-	cont "lection."
+	text "Le CENTRE COMMER-"
+	line "CIAL a un tas de"
+	cont "bons produits."
 
-	para "But some items"
-	line "are only available"
+	para "Mais certains"
+	line "objets ne sont"
 
-	para "as GAME CORNER"
-	line "prizes."
+	para "disponibles qu'en"
+	line "prix à gagner au"
+	cont "CASINO."
 	done
 ; 0x55a1a
 
 UnknownText_0x55a1a: ; 0x55a1a
-	text "I'm raring to shop"
-	line "again today!"
+	text "J'ai hâte de faire"
+	line "les courses!"
 	done
 ; 0x55a3a
 
 UnknownText_0x55a3a: ; 0x55a3a
-	text "Mom's good at"
-	line "bargain hunting."
+	text "Maman est trop"
+	line "forte quand elle"
+	cont "fait les courses!"
 
-	para "She always buys"
-	line "stuff at lower"
-	cont "prices."
+	para "Elle achète tou-"
+	line "jours des trucs"
+	cont "pas chers."
 	done
 ; 0x55a80
 
 UnknownText_0x55a80: ; 0x55a80
-	text "1F SERVICE COUNTER"
+	text "RDC: ACCUEIL"
 
-	para "2F TRAINER'S"
-	line "   MARKET"
+	para "1ER: BOUTIQUE"
+	line "     DRESSEUR"
 
-	para "3F BATTLE"
-	line "   COLLECTION"
+	para "2EME: COLLECTION"
+	line "      DE COMBAT"
 
-	para "4F POWER PALACE"
+	para "3EME: PALAIS DE LA"
+	line "      PUISSANCE"
 
-	para "5F TACTICS CORNER"
+	para "4EME: BOUTIQUE"
+	line "      TACTIQUE"
 
-	para "6F TRANQUIL SQUARE"
+	para "5EME: COIN"
+	line "      TRANQUILLE"
 
-	para "ROOFTOP LOOKOUT"
+	para "TOIT: PANORAMA"
 	done
 ; 0x55b03
 

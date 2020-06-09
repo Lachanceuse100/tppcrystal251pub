@@ -247,32 +247,30 @@ KurtGaveBalls:
 	end
 
 KurtGivesBallsText:
-	text "And here's the"
-	line "balls I made"
-	cont "earlier."
+	text "Et voilà les BALLS"
+	line "que j'ai fait tout"
+	cont "à l'heure."
 	done
 
 KurtGaveBallsText:
-	text "I could always"
-	line "use more"
-	cont "APRICORNS"
+	text "Je peux toujours"
+	line "utiliser plus de"
+	cont "NOIGRUMES."
 
-	para "Keep bringin' me"
-	line "them."
+	para "Continue d'en"
+	line "amener."
 	done
 
 KurtBagFullText:
-	text "Can't carry them?"
-	line "Guess I'll have"
-	cont "to owe ya some."
+	text "Tu n'as pas de"
+	line "place?"
 
-	para "Come back"
-	line "whenever."
+	para "Reviens plus tard."
 	done
 
 KurtOwesBallsText:
-	text "Here are those"
-	line "balls I owe ya."
+	text "Voilà les BALLS"
+	line "que je te dois."
 
 UnknownScript_0x18e2b4: ; 0x18e2b4
 		;checkflag ENGINE_KURT_MAKING_BALLS
@@ -537,95 +535,101 @@ MovementData_0x18e46c: ; 0x18e46c
 ; 0x18e473
 
 UnknownText_0x18e473: ; 0x18e473
-	text "Hm? Who are you?"
+	text "Hum? Qui es-tu?"
 
-	para "<PLAYER>, eh? You"
-	line "want me to make"
-	cont "some BALLS?"
+	para "<PLAYER>, Tu"
+	line "voudrais que je te"
+	cont "fabrique quelques"
+	cont "# BALLS?"
 
-	para "Sorry, but that'll"
-	line "have to wait."
+	para "Désolée, mais pas"
+	line "aujourd'hui."
 
-	para "Do you know TEAM"
-	line "ROCKET? Ah, don't"
+	para "Tu connais la TEAM"
+	line "ROCKET? Je vais"
+	cont "t'en parler alors."
 
-	para "worry. I'll tell"
-	line "you anyhow."
+	para "La TEAM ROCKET est"
+	line "plus redoutée que"
 
-	para "TEAM ROCKET's an"
-	line "evil gang that"
+	para "la peste! Ils"
+	line "utilisent les"
+	cont "#MON à des"
+	cont "fins crapuleuses."
 
-	para "uses #MON for"
-	line "their dirty work."
+	para "Ils étaient suppo-"
+	line "sés avoir disparu"
+	cont "il y a trois mois."
 
-	para "They're supposed"
-	line "to have disbanded"
-	cont "three months ago."
+	para "Bref, ils sont au"
+	line "PUITS pour couper"
 
-	para "Anyway, they're at"
-	line "the WELL, cutting"
+	para "et vendre les"
+	line "QUEUERAMOLOS."
 
-	para "off SLOWPOKETAILS"
-	line "for sale!"
+	para "Je vais aller leur"
+	line "donner une leçon"
+	cont "moi!"
 
-	para "So I'm going to"
-	line "go give them a"
-	cont "lesson in pain!"
-
-	para "Hang on, SLOWPOKE!"
-	line "Old KURT is on his"
-	cont "way!"
+	para "Tenez bon les"
+	line "petits RAMOLOSS!"
+	cont "Tonton FARGAS"
+	cont "arrive!"
 	done
 ; 0x18e615
 
 UnknownText_0x18e615: ; 0x18e615
-	text "KURT: Hi, <PLAYER>!"
+	text "FARGAS: <PLAYER>!"
 
-	para "You handled your-"
-	line "self like a real"
-	cont "hero at the WELL."
+	para "Tu t'es débrouillé"
+	line "comme un héros au"
+	cont "PUITS."
 
-	para "I like your style!"
+	para "J'aime ton style!"
 
-	para "I would be honored"
-	line "to make BALLS for"
+	para "Je serais honoré"
+	line "de fabriquer des"
 
-	para "a trainer like"
-	line "you."
+	para "BALLS pour toi."
 
-	para "Actually<...>"
+	para "D'ailleurs<...>"
 
-	para "I have a bunch in"
-	line "the back, so I can"
-	cont "trade BALLS"
-	cont "for APRICORNS"
-	cont "without you having"
-	cont "to wait."
+	para "J'en ai un paquet"
+	line "à l'arrière, je"
+	cont "peux juste t'é-"
+	cont "changer des BALLS"
+	cont "contre des NOIGRU-"
+	cont "MES sans te faire"
+	cont "attendre."
 
-	para "Here's a sample"
-	line "for all you did."
+	para "Voici un petit"
+	line "échantillon."
 	done
 ; 0x18e6c9
 
 UnknownText_0x18e6c9: ; 0x18e6c9
-	text "KURT: I make BALLS"
-	line "from APRICORNS."
+	text "FARGAS: Je fabri-"
+	line "que des BALLS à"
+	cont "partir des"
+	cont "NOIGRUMES."
 
-	para "Collect them from"
-	line "trees and bring"
-	cont "'em to me."
+	para "Décroche-en des"
+	line "arbres et"
+	cont "rapporte-les moi."
 
-	para "I'll trade BALLS"
-	line "for them."
+	para "Je fabriquerai"
+	line "alors des BALLS."
 	done
 ; 0x18e736
 
 UnknownText_0x18e736: ; 0x18e736
-	text "KURT: You have an"
-	line "APRICORN for me?"
+	text "FARGAS: Ah, tu as"
+	line "une NOIGRUME pour"
+	cont "moi?"
 
-	para "Fine! I'll trade"
-	line "it for a BALL."
+	para "Je peux te l'"
+	line "échanger contre"
+	cont "une BALL."
 	done
 ; 0x18e779
 
@@ -640,13 +644,14 @@ UnknownText_0x18e736: ; 0x18e736
 
 UnknownText_0x18e7bc: ; 0x18e7bc
 	text "KURT: Oh<...>"
-	line "That's a letdown."
+	line "Quel dommage."
 	done
 ; 0x18e7d8
 
 UnknownText_0x18e7d8: ; 0x18e7d8
-	text "KURT: I'm working!"
-	line "Don't bother me!"
+	text "FARGAS: Je tra-"
+	line "vaille, ne me"
+	cont "dérange pas."
 	done
 ; 0x18e7fb
 
@@ -667,103 +672,108 @@ UnknownText_0x18e7d8: ; 0x18e7d8
 ; 0x18e863
 
 UnknownText_0x18e863: ; 0x18e863
-	text "KURT: Now that my"
-	line "granddaughter is"
+	text "FARGAS: Maintenant"
+	line "que ma petite"
+	cont "fille m'aide,"
 
-	para "helping me, I can"
-	line "work much faster."
+	para "Je peux travailler"
+	line "plus vite."
 	done
 ; 0x18e8ab
 
 UnknownText_0x18e8ab: ; 0x18e8ab
-	text "Wh-what is that?"
+	text "C'est<...>"
 
-	para "I've never seen"
-	line "one before."
+	para "Qu'est-ce que"
+	line "c'est?"
 
-	para "It looks a lot"
-	line "like a # BALL,"
+	para "Je n'ai jamais"
+	line "vu ça<...>"
 
-	para "but it appears to"
-	line "be something else."
+	para "On dirait une"
+	line "# BALL mais pas"
+	cont "tout à fait."
 
-	para "Let me check it"
-	line "for you."
+	para "Laisse moi la"
+	line "regarder."
 	done
 ; 0x18e934
 
 UnknownText_0x18e934: ; 0x18e934
-	text "I'm checking it"
-	line "now."
+	text "Je la regarde là."
 	done
 ; 0x18e949
 
 UnknownText_0x18e949: ; 0x18e949
-	text "Ah-ha! I see!"
-	line "So<...>"
+	text "Ah-ha! Je vois!"
+	line "Alors<...>"
 	done
 ; 0x18e95c
 
 UnknownText_0x18e95c: ; 0x18e95c
 	text "<PLAYER>!"
 
-	para "This BALL started"
-	line "to shake while I"
-	cont "was checking it."
+	para "Cette BALL à co-"
+	line "mmencer à s'agiter"
+	cont "quand je"
+	cont "l'étudiais."
 
-	para "There must be"
-	line "something to this!"
+	para "Elle doit être"
+	line "très spéciale!"
 	done
 ; 0x18e9b5
 
 UnknownText_0x18e9b5: ; 0x18e9b5
-	text "The SLOWPOKE are"
-	line "gone<...> Were they"
+	text "Les RAMOLOSS sont"
+	line "partis<...> Ils ont"
 
-	para "taken away by bad"
-	line "people?"
+	para "été enlevé par des"
+	line "mauvaises"
+	cont "personnes?"
 	done
 ; 0x18e9f1
 
 UnknownText_0x18e9f1: ; 0x18e9f1
-	text "Grandpa's gone<...>"
-	line "I'm so lonely<...>"
+	text "Pépé est parti<...>"
+	line "Je suis si seule<...>"
 	done
 ; 0x18ea0f
 
 UnknownText_0x18ea0f: ; 0x18ea0f
-	text "The SLOWPOKE my"
-	line "dad gave me came"
+	text "Le RAMOLOSS de mon"
+	line "papa est revenu!"
 
-	para "back! Its TAIL is"
-	line "growing back too!"
+	para "Sa queue repousse"
+	line "aussi!"
 	done
 ; 0x18ea55
 
 UnknownText_0x18ea55: ; 0x18ea55
-	text "Dad works at SILPH"
-	line "where he studies"
-	cont "# BALLS."
+	text "PAPA travaille à"
+	line "la SILPH ou il"
+	cont "étudie les #"
+	cont "BALLS"
 
-	para "I have to stay"
-	line "home with Grandpa"
-	cont "and SLOWPOKE."
+	para "Je dois rester ici"
+	line "avec pépé et"
+	cont "RAMOLOSS."
 	done
 ; 0x18eab2
 
 UnknownText_0x18eab2: ; 0x18eab2
-	text "I get to help"
-	line "Grandpa now!"
+	text "J'aide pépé"
+	line "maintenant!"
 
-	para "We'll make good"
-	line "BALLS for you, so"
-	cont "please wait!"
+	para "On va te faire des"
+	line "supers BALLS, tu"
+	cont "vas voir!"
 	done
 ; 0x18eafc
 
 UnknownText_0x18eafc: ; 0x18eafc
-	text "It's fun to make"
-	line "BALLS!"
+	text "C'est amusant de"
+	line "fabriquer des"
+	cont "BALLS."
 	done
 ; 0x18eb14
 
@@ -778,20 +788,20 @@ UnknownText_0x18eafc: ; 0x18eafc
 
 UnknownText_0x18eb56: ; 0x18eb56
 	text "SLOWPOKE: <...>"
-	line "Yawn?"
+	line "gueuh?"
 	done
 ; 0x18eb69
 
 UnknownText_0x18eb69: ; 0x18eb69
-	text "<...>A young PROF."
-	line "OAK?"
+	text "<...>Un jeune PROF."
+	line "CHEN?"
 	done
 ; 0x18eb7e
 
 UnknownText_0x18eb7e: ; 0x18eb7e
-	text "It's a statue of"
-	line "the forest's pro-"
-	cont "tector."
+	text "Une statue du pro-"
+	line "tecteur de la"
+	cont "forêt."
 	done
 ; 0x18eba8
 

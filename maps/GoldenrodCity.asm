@@ -101,10 +101,10 @@ MenuDataHeader_0x198967: ; 0x198967
 MenuData2_0x19896f: ; 0x19896f
 	db $80 ; flags
 	db 4 ; items
-	db "FLAMETHROWER@"
-	db "THUNDERBOLT@"
-	db "ICE BEAM@"
-	db "CANCEL@"
+	db "LANCE-FLAMME@"
+	db "TONNERRE@"
+	db "LASER GLACE@"
+	db "ANNULER@"
 ; 0x19899a
 
 
@@ -325,224 +325,233 @@ MapGoldenrodCitySignpost12Script:
 ; 0x198a69
 
 UnknownText_0x198a69: ; 0x198a69
-	text "They built the new"
-	line "RADIO TOWER to"
+	text "Ils ont construit"
+	line "une nouvelle TOUR"
 
-	para "replace the old,"
-	line "creaky one."
+	para "RADIO pour rempla-"
+	line "cer l'ancienne."
 	done
 ; 0x198aa9
 
 UnknownText_0x198aa9: ; 0x198aa9
-	text "I know there's a"
-	line "new BIKE SHOP, but"
+	text "Je n'arrive pas à"
+	line "trouver le nouveau"
 
-	para "I can't find it"
-	line "anywhere."
+	para "CYCLES A GOGO"
+	line "du coin."
 	done
 ; 0x198ae6
 
 UnknownText_0x198ae6: ; 0x198ae6
-	text "Is that man in"
-	line "black dressed up"
+	text "Cet homme en noir"
+	line "s'habille en"
 
-	para "like a TEAM ROCKET"
-	line "member? How silly!"
+	para "membre de la TEAM"
+	line "ROCKET? Quel bêta!"
 	done
 ; 0x198b2d
 
 UnknownText_0x198b2d: ; 0x198b2d
-	text "Was that man in"
-	line "black really part"
+	text "L'homme en noir"
+	line "faisait vraiment"
 
-	para "of TEAM ROCKET? I"
-	line "can't believe it!"
+	para "partie de la TEAM"
+	line "ROCKET? Je le"
+	cont "crois pas!"
 	done
 ; 0x198b73
 
 UnknownText_0x198b73: ; 0x198b73
-	text "The RADIO TOWER in"
-	line "GOLDENROD CITY is"
-	cont "a landmark."
+	text "La TOUR RADIO de"
+	line "DOUBLONVILLE est"
+	cont "un point de"
+	cont "repère."
 
-	para "They're running a"
-	line "promotional cam- "
-	cont "paign right now."
+	para "Ils organisent une"
+	line "campagne promo-"
+	cont "tionnelle en ce"
+	cont "moment."
 
-	para "They'll modify"
-	line "your #GEAR,"
+	para "Ils te modifieront"
+	line "ton #MATOS"
 
-	para "so it can also"
-	line "serve as a radio."
+	para "pour t'en servir"
+	line "comme radio."
 	done
 ; 0x198c14
 
 UnknownText_0x198c14: ; 0x198c14
-	text "Oh, your #GEAR"
-	line "works as a radio!"
+	text "Oh, ton #MATOS"
+	line "fait radio!"
 	done
 ; 0x198c36
 
 UnknownText_0x198c36: ; 0x198c36
-	text "E-he-he-he<...>"
+	text "A-la-la-la<...>"
 
-	para "I got in trouble"
-	line "for playing in the"
+	para "J'ai eu des ennuis"
+	line "pour avoir joué"
 
-	para "basement of the"
-	line "DEPT.STORE."
+	para "au sous-sol du"
+	line "CENTRE COMMERCIAL."
 	done
 ; 0x198c83
 
 UnknownText_0x198c83: ; 0x198c83
-	text "The man at that"
-	line "house rates your"
-	cont "#MON names."
+	text "L'homme de cette"
+	line "maison note les"
+	cont "surnoms de tes"
+	cont "#MON."
 
-	para "He can even rename"
-	line "your #MON."
+	para "Il peut même les"
+	line "renommer."
 	done
 ; 0x198ccf
 
 UnknownText_0x198ccf: ; 0x198ccf
-	text "Whew! This is one"
-	line "big town. I don't"
+	text "Whoua! C'est ville"
+	line "est immense!"
 
-	para "know where any-"
-	line "thing is."
+	para "Je suis totalement"
+	line "perdu moi."
 	done
 ; 0x198d0d
 
 UnknownText_0x198d0d: ; 0x198d0d
-	text "So this is the"
-	line "RADIO TOWER<...>"
+	text "C'est donc ça la"
+	line "TOUR RADIO<...>"
 	done
 ; 0x198d2a
 
 UnknownText_0x198d2a: ; 0x198d2a
-	text "What do you want,"
-	line "you pest? Scram!"
+	text "Tu veux quoi toi?"
+	line "Dégage!"
 	done
 ; 0x198d4e
 
 UnknownText_0x198d4e: ; 0x198d4e
-	text "Stay out of the"
-	line "way! Beat it!"
+	text "Reste en dehors de"
+	line "notre chemin!"
 	done
 ; 0x198d6d
 
 UnknownText_0x198d6d: ; 0x198d6d
-	text "Take over the"
-	line "RADIO TOWER<...>"
+	text "Prendre la TOUR"
+	line "RADIO<...>"
 
-	para "What? It's none of"
-	line "your business!"
+	para "Quoi? Ca te"
+	line "regarde pas!"
 	done
 ; 0x198daa
 
 UnknownText_0x198daa: ; 0x198daa
-	text "#MON? They're"
-	line "nothing more than"
+	text "Les #MON ne"
+	line "sont que des"
 
-	para "tools for making"
-	line "money!"
+	para "outils pour faire"
+	line "de l'argent!"
 	done
 ; 0x198de2
 
 UnknownText_0x198de2: ; 0x198de2
-	text "Our dream will"
-	line "soon come true<...>"
+	text "Notre rêve va se"
+	line "réaliser<...>"
 
-	para "It was such a long"
-	line "struggle<...>"
+	para "La lutte fut"
+	line "longue<...>"
 	done
 ; 0x198e1f
 
 UnknownText_0x198e1f: ; 0x198e1f
-	text "Hey, brat! You"
-	line "don't belong here!"
-	cont "Get lost!"
+	text "T'as rien à faire"
+	line "ici! Va t-en!"
 	done
 ; 0x198e4b
 
 UnknownText_0x198e4b: ; 0x198e4b
-	text "Come taste the"
-	line "true terror of"
+	text "Goûtez à la vraie"
+	line "terreur qu'est la"
 	cont "TEAM ROCKET!"
 	done
 ; 0x198e77
 
 UnknownText_0x198e77: ; 0x198e77
-	text "GOLDENROD CITY"
-	line "STATION"
+	text "DOUBLONVILLE"
+	line "STATION DE TRAIN"
 	done
 ; 0x198e8f
 
 UnknownText_0x198e8f: ; 0x198e8f
-	text "GOLDENROD CITY"
-	line "RADIO TOWER"
+	text "DOUBLONVILLE"
+	line "TOUR RADIO"
 	done
 ; 0x198eab
 
 UnknownText_0x198eab: ; 0x198eab
-	text "Full Selection of"
-	line "#MON Goods!"
+	text "Grande sélection"
+	line "de marchandises"
+	cont "#MON."
 
-	para "GOLDENROD CITY"
-	line "DEPT.STORE"
+	para "CENTRE COMMERCIAL"
+	line "de DOUBLONVILLE"
 	done
 ; 0x198ee4
 
 UnknownText_0x198ee4: ; 0x198ee4
-	text "GOLDENROD CITY"
-	line "#MON GYM"
-	cont "LEADER: WHITNEY"
+	text "ARENE DE"
+	line "DOUBLONVILLE"
 
-	para "The Incredibly"
-	line "Pretty Girl!"
+	para "CHAMPIONNE:"
+	line "BLANCHE"
+
+	para "La fille trop"
+	line "mignonne!"
 	done
 ; 0x198f29
 
 UnknownText_0x198f29: ; 0x198f29
-	text "GOLDENROD CITY"
+	text "DOUBLONVILLE"
 
-	para "The Festive City"
-	line "of Opulent Charm"
+	para "La ville festive"
+	line "qui fleure bon la"
+	cont "bonne humeur."
 	done
 ; 0x198f5b
 
 UnknownText_0x198f5b: ; 0x198f5b
-	text "The World is a"
-	line "Cycle Path!"
-	cont "BIKE SHOP"
+	text "Le monde est une"
+	line "piste cyclable!"
+
+	para "CYCLES A GOGO"
 	done
 ; 0x198f81
 
 UnknownText_0x198f81: ; 0x198f81
-	text "Your Playground!"
+	text "Votre terrain"
+	line "de jeux!"
 
-	para "GOLDENROD CITY"
-	line "GAME CORNER"
+	para "CASINO de"
+	line "DOUBLONVILLE"
 	done
 ; 0x198fae
 
 UnknownText_0x198fae: ; 0x198fae
-	text "NAME RATER"
+	text "LE NOTEUR DE NOM"
 
-	para "Get Your #MON"
-	line "Nicknames Rated"
+	para "Evaluez le surnom"
+	line "de vos #MON."
 	done
 ; 0x198fd8
 
 UnknownText_0x198fd8: ; 0x198fd8
-	text "UNDERGROUND"
-	line "ENTRANCE"
+	text "ENTREE du"
+	line "SOUTERRAIN"
 	done
 ; 0x198fee
 
 UnknownText_0x198fee: ; 0x198fee
-	text "UNDERGROUND"
-	line "ENTRANCE"
+	text "ENTREE du"
+	line "SOUTERRAIN"
 	done
 ; 0x199004
 
@@ -553,75 +562,76 @@ UnknownText_0x198fee: ; 0x198fee
 ; 0x199022
 
 UnknownText_0x199022: ; 0x199022
-	text "Blooming Beautiful"
-	line "FLOWER SHOP"
+	text "Une fleur, la vie!"
+	line "FLEURISTE"
 	done
 ; 0x199042
 
 UnknownText_0x199042: ; 0x199042
-	text "I can teach your"
-	line "#MON amazing"
+	text "Je peux enseigner"
+	line "à tes #MON des"
 
-	para "moves if you'd"
-	line "like."
+	para "capacités incroy-"
+	line "ables si tu veux."
 
-	para "Should I teach a"
-	line "new move?"
+	para "Veux-tu que je"
+	line "t'apprenne une"
+	cont "capacité?"
 	done
 ; 0x199090
 
 UnknownText_0x199090: ; 0x199090
-	text "It will cost you"
-	line "500 coins. Okay?"
+	text "Ca fera 500"
+	line "jetons. C'est"
+	cont "d'accord?"
 	done
 ; 0x1990b4
 
 UnknownText_0x1990b4: ; 0x1990b4
-	text "Aww<...> But they're"
-	line "amazing<...>"
+	text "Ohh<...> Mais elles"
+	line "sont géniales<...>"
 	done
 ; 0x1990ce
 
 UnknownText_0x1990ce: ; 0x1990ce
-	text "Wahahah! You won't"
-	line "regret it!"
+	text "Hahaha! Tu ne le"
+	line "regretteras pas!"
 
-	para "Which move should"
-	line "I teach?"
+	para "Quelle capacité"
+	line "veux-tu?"
 	done
 ; 0x199107
 
 UnknownText_0x199107: ; 0x199107
-	text "Hm, too bad. I'll"
-	line "have to get some"
-	cont "cash from home<...>"
+	text "Dommage, il faudra"
+	line "ramener un peu"
+	cont "plus d'argent<...>"
 	done
 ; 0x19913a
 
 UnknownText_0x19913a: ; 0x19913a
-	text "If you understand"
-	line "what's so amazing"
+	text "Tu serais un bon"
+	line "dresseur si tu"
 
-	para "about this move,"
-	line "you've made it as"
-	cont "a trainer."
+	para "savais ce que tu"
+	line "rates<...>"
 	done
 ; 0x19918b
 
 UnknownText_0x19918b: ; 0x19918b
-	text "Wahahah!"
-	line "Farewell, kid!"
+	text "Hahaha!"
+	line "Adieu!"
 	done
 ; 0x1991a4
 
 UnknownText_0x1991a4: ; 0x1991a4
-	text "B-but<...>"
+	text "M-mais<...>"
 	done
 ; 0x1991ac
 
 UnknownText_0x1991ac: ; 0x1991ac
-	text "<...>You don't have"
-	line "enough coins here<...>"
+	text "<...>Tu n'as pas"
+	line "assez de jetons<...>"
 	done
 ; 0x1991cf
 
@@ -630,8 +640,10 @@ UnknownText_0x1991cf: ; 0x1991cf
 ; 0x1991d1
 
 BoutiqueSignText:
-	text "Stay fresh!"
-	line "GOLDENROD BOUTIQUE"
+	text "Restez jeune!"
+	
+	para "SALON de COIFFURE"
+	line "de DOUBLONVILLE"
 	done
 	
 GoldenrodCity_MapEventHeader: ; 0x1991d1

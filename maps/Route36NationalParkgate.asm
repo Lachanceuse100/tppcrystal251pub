@@ -546,389 +546,393 @@ UnknownText_0x6add5: ; 0x6add5
 		;text "."
 		;line "That means the"
 
-	text "The Bug-Catching"
-	line "Contest is on"
-	cont "today."
+	text "Le Concours de"
+	line "Capture d'insecte"
+	cont "est aujourd'hui."
 
-	para "The rules are"
-	line "simple."
+	para "Les règles sont"
+	line "simples."
 
-	para "Using one of your"
-	line "#MON, catch a"
+	para "Avec un #MON de"
+	line "l'équipe, il faut"
 
-	para "bug #MON to be"
-	line "judged."
+	para "attraper un #-"
+	line "MON INSECTE qui"
+	cont "sera noté."
 
-	para "Would you like to"
-	line "give it a try?"
+	para "Voulez-vous tenter"
+	line "votre chance?"
 	done
 ; 0x6ae87
 
 UnknownText_0x6ae87: ; 0x6ae87
-	text "Here are the PARK"
-	line "BALLS for the"
-	cont "Contest."
+	text "Voici des PARC"
+	line "BALLS pour le"
+	cont "concours."
 	done
 ; 0x6aeb1
 
 UnknownText_0x6aeb1: ; 0x6aeb1
-	text "<PLAYER> received"
-	line "20 PARK BALLS."
+	text "<PLAYER> reçoit"
+	line "20 PARC BALLS."
 	done
 ; 0x6aecc
 
 UnknownText_0x6aecc: ; 0x6aecc
-	text "The person who"
-	line "gets the strong-"
-	cont "est bug #MON"
-	cont "is the winner."
+	text "La personne qui"
+	line "capture le #-"
+	cont "MON INSECTE le"
+	cont "plus puissant est"
+	cont "déclaré vainqueur."
 
-	para "You have 20"
-	line "minutes."
+	para "Le concours dure"
+	line "20 minutes."
 
-	para "If you run out of"
-	line "PARK BALLS, you're"
-	cont "done."
+	para "Si toutes les PARC"
+	line "BALLS sont"
+	cont "épuisées, c'est"
+	cont "fini!"
 
-	para "You can keep the"
-	line "last #MON you"
-	cont "catch as your own."
+	para "Le dernier #MON"
+	line "attrapé peut être"
+	cont "gardé."
 
-	para "Go out and catch"
-	line "the strongest bug"
-
-	para "#MON you can"
-	line "find!"
+	para "Allez hop! La"
+	line "chasse aux #MON"
+	cont "INSECTE est"
+	cont "ouverte!"
 	done
 ; 0x6afb0
 
 UnknownText_0x6afb0: ; 0x6afb0
-	text "Uh-oh<...>"
+	text "Oh-oh<...>"
 
-	para "You have more than"
-	line "one #MON."
+	para "Tu as plus d'un"
+	line "#MON"
 
-	para "You'll have to use"
+	para "Tu dois utiliser"
 	line "@"
 	text_from_ram StringBuffer3
-	text ", the"
+	text ", le"
 
-	para "first #MON in"
-	line "your party."
+	para "premier #MON de"
+	line "ton équipe."
 
-	para "Is that OK with"
-	line "you?"
+	para "Tu es d'accord?"
 	done
 ; 0x6b021
 
 UnknownText_0x6b021: ; 0x6b021
-	text "Fine, we'll hold"
-	line "your other #MON"
-	cont "while you compete."
+	text "Parfait. Je vais"
+	line "garder les autres"
+	cont "#MON pendant le"
+	cont "concours."
 	done
 ; 0x6b055
 
 UnknownText_0x6b055: ; 0x6b055
-	text "<PLAYER>'s #MON"
-	line "were left with the"
-	cont "CONTEST HELPER."
+	text "<PLAYER> confie"
+	line "ses #MON au"
+	cont "RECEPTIONNISTE."
 	done
 ; 0x6b081
 
 UnknownText_0x6b081: ; 0x6b081
-	text "Please choose the"
-	line "#MON to be used"
+	text "Choisis le #MON"
+	line "à utiliser pendant"
 
-	para "in the Contest,"
-	line "then come see me."
+	para "le concours et"
+	line "reviens me voir."
 	done
 ; 0x6b0c6
 
 UnknownText_0x6b0c6: ; 0x6b0c6
-	text "OK. We hope you'll"
-	line "take part in the"
-	cont "future."
+	text "OK. Et bien à"
+	line "la prochaine."
 	done
 ; 0x6b0f2
 
 UnknownText_0x6b0f2: ; 0x6b0f2
-	text "Uh-oh<...>"
-	line "The first #MON"
+	text "Oh-oh<...>"
+	line "Le premier #MON"
 
-	para "in your party"
-	line "can't battle."
+	para "de ton équipe ne"
+	line "peut combattre."
 
-	para "Please switch it"
-	line "with the #MON"
+	para "Change-le avec le"
+	line "#MON de ton"
 
-	para "you want to use,"
-	line "then come see me."
+	para "choix et reviens"
+	line "me voir."
 	done
 ; 0x6b166
 
 UnknownText_0x6b166: ; 0x6b166
-	text "Uh-oh<...>"
-	line "Both your party"
+	text "Oh-oh<...>"
+	line "Ton équipe et ta"
 
-	para "and your PC BOX"
-	line "are full."
+	para "BOITE PC sont"
+	line "pleins."
 
-	para "You have no room"
-	line "to put the bug"
-	cont "#MON you catch."
+	para "Tu n'auras pas de"
+	line "place pour garder"
+	cont "un #MON"
+	cont "INSECTE."
 
-	para "We will have to"
-	line "release whatever"
-	cont "you catch."
+	para "Nous devrons re-"
+	line "lâché le #MON"
+	cont "que vous allez"
+	cont "capturer."
 
-	para "Is that OK?"
+	para "C'est d'accord?"
 	done
 
 RejectWithFullPC36:
+	text "Faites de la place"
+	line "dans votre équipe"
 
-	text "Please make room"
-	line "in your party or"
-
-	para "your PC BOX, then"
-	line "come see me."
+	para "ou votre BOITE PC"
+	line "et revenez me"
+	cont "voir."
 	done
 ; 0x6b209
 
 UnknownText_0x6b209: ; 0x6b209
-	text "Uh-oh<...>"
-	line "You have an EGG as"
+	text "Oh-oh<...> Tu as un"
+	line "OEUF en premier"
+	cont "dans ton équipe."
 
-	para "the first #MON"
-	line "in your party."
+	para "Change-le avec le"
+	line "#MON de ton"
 
-	para "Please switch it"
-	line "with the #MON"
-
-	para "you want to use,"
-	line "then come see me."
+	para "choix et reviens"
+	line "me voir."
 	done
 ; 0x6b284
 
 UnknownText_0x6b284: ; 0x6b284
-	text "You still have @"
+	text "Tu as encore @"
 	text_from_ram StringBuffer3
 	db $0
-	line "minute(s) left."
+	line "minute(s)."
 
-	para "Do you want to"
-	line "finish now?"
+	para "Veux-tu t'arrêter"
+	line "maintenant?"
 	done
 ; 0x6b2c5
 
 UnknownText_0x6b2c5: ; 0x6b2c5
-	text "OK. Please wait"
-	line "here for the"
+	text "OK. Attends ici"
+	line "pour connaître"
 
-	para "announcement of"
-	line "the winners."
+	para "le nom des"
+	line "vainqueurs."
 	done
 ; 0x6b300
 
 UnknownText_0x6b300: ; 0x6b300
-	text "OK. Please go back"
-	line "outside and finish"
-	cont "up."
+	text "OK. Retourne de-"
+	line "hors et termine."
 	done
 ; 0x6b32b
 
 UnknownText_0x6b32b: ; 0x6b32b
-	text "Today's Contest is"
-	line "over. We hope you"
+	text "Le concours d'au-"
+	line "jourd'hui est ter-"
 
-	para "will participate"
-	line "in the future."
+	para "miné. Reviens une"
+	line "autre fois."
 	done
 ; 0x6b370
 
 UnknownText_0x6b370: ; 0x6b370
-	text "Some #MON can"
-	line "only be seen in"
-	cont "the PARK."
+	text "Certains #MON"
+	line "n'aparaissent que"
+	cont "dans le PARC."
 	done
 ; 0x6b399
 
 UnknownText_0x6b399: ; 0x6b399
-	text "DON: Wow, you beat"
-	line "me. You're pretty"
-	cont "good."
+	text "DON: Tu m'as"
+	line "battu. Tu es doué!"
 	done
 ; 0x6b3c4
 
 UnknownText_0x6b3c4: ; 0x6b3c4
-	text "DON: Luck plays a"
-	line "big part in this."
+	text "DON: La chance"
+	line "joue un rôle dans"
+	cont "le concours."
 
-	para "You never know"
-	line "what #MON will"
-	cont "appear."
+	para "Tu ne sais jamais"
+	line "quel #MON"
+	cont "apparaîtra."
 	done
 ; 0x6b40f
 
 UnknownText_0x6b40f: ; 0x6b40f
-	text "ED: I envy you."
-	line "I just couldn't"
-	cont "do it this time."
+	text "ED: Je t'envie."
+	line "Je n'ai pas réussi"
+	cont "cette fois."
 	done
 ; 0x6b440
 
 UnknownText_0x6b440: ; 0x6b440
-	text "ED: Maybe you win"
-	line "with big #MON?"
+	text "ED: Peut-être que"
+	line "l'on gagne avec un"
+	cont "gros #MON?"
 	done
 ; 0x6b462
 
 UnknownText_0x6b462: ; 0x6b462
-	text "NICK: Well done!"
-	line "I'm going to raise"
-	cont "my #MON better."
+	text "NICK: Bien joué!"
+	line "Je vais entraîner"
+	cont "mes #MON."
 	done
 ; 0x6b496
 
 UnknownText_0x6b496: ; 0x6b496
-	text "NICK: Maybe you"
-	line "get a higher score"
+	text "NICK: Peut-être"
+	line "que tu as plus de"
 
-	para "for a #MON of"
-	line "an unusual color."
+	para "points avec un"
+	line "#MON d'une"
+	cont "couleur unique<...>"
 	done
 ; 0x6b4da
 
 UnknownText_0x6b4da: ; 0x6b4da
-	text "WILLIAM: You're"
-	line "the winner? What"
-	cont "did you catch?"
+	text "WILLIAM: Tu as"
+	line "gagné? Tu as"
+	cont "attrapé quoi?"
 	done
 ; 0x6b50a
 
 UnknownText_0x6b50a: ; 0x6b50a
-	text "WILLIAM: Well, I'm"
-	line "satisfied because"
+	text "WILLIAM: C'est pas"
+	line "grave, j'ai eu le"
 
-	para "I caught a #MON"
-	line "that I wanted."
+	para "#MON que je"
+	line "voulais."
 	done
 ; 0x6b54e
 
 UnknownText_0x6b54e: ; 0x6b54e
-	text "BENNY: Congrats!"
-	line "You have earned my"
-	cont "respect!"
+	text "BENNY: Bravo! Tu"
+	line "as mon respect!"
 	done
 ; 0x6b57c
 
 UnknownText_0x6b57c: ; 0x6b57c
-	text "BENNY: I caught a"
-	line "SCYTHER before,"
-	cont "but I didn't win."
+	text "BENNY: J'ai captu-"
+	line "ré un INSECATEUR"
+	cont "mais ça n'a pas"
+	cont "suffit<...>"
 	done
 ; 0x6b5b0
 
 UnknownText_0x6b5b0: ; 0x6b5b0
-	text "BARRY: That #-"
-	line "MON you caught<...>"
-	cont "it's awesome!"
+	text "BARRY: Ce #MON"
+	line "que tu as chopé<...>"
+	cont "Incroyable!"
 	done
 ; 0x6b5dd
 
 UnknownText_0x6b5dd: ; 0x6b5dd
-	text "BARRY: It's easier"
-	line "to win if you get"
+	text "BARRY: C'est plus"
+	line "facile de gagner"
 
-	para "a high-level bug"
-	line "#MON."
+	para "en attrapant un"
+	line "#MON de haut"
+	cont "niveau."
 
-	para "But I think they"
-	line "also consider some"
-	cont "other points."
+	para "Mais je crois qu'"
+	line "ils prennent d'au-"
+	cont "tres critères en"
+	cont "compte."
 	done
 ; 0x6b64b
 
 UnknownText_0x6b64b: ; 0x6b64b
-	text "CINDY: You won?"
-	line "That's great!"
+	text "CINDY: T'as gagné?"
+	line "Mais c'est cool!"
 
-	para "Do you feel like"
-	line "looking for bug"
-	cont "#MON with me?"
+	para "Tu veux chercher"
+	line "des #MON"
+	cont "INSECTE avec moi?"
 	done
 ; 0x6b698
 
 UnknownText_0x6b698: ; 0x6b698
-	text "CINDY: I really"
-	line "love bug #MON!"
+	text "CINDY: Moi j'aime"
+	line "les #MON"
+	cont "INSECTE!"
 	done
 ; 0x6b6b8
 
 UnknownText_0x6b6b8: ; 0x6b6b8
-	text "JOSH: I<...> I can't"
-	line "believe I lost at"
-	cont "bug-catching<...>"
+	text "JOSH: J'ai<...>"
+	line "Perdu<...> au<...>"
+	cont "concours<...>"
 	done
 ; 0x6b6e9
 
 UnknownText_0x6b6e9: ; 0x6b6e9
-	text "JOSH: I heard that"
-	line "somebody won with"
-	cont "a CATERPIE!"
+	text "JOSH: On dit que"
+	line "quelqu'un a gagné"
+	cont "avec un CHENIPAN."
 	done
 ; 0x6b71b
 
 UnknownText_0x6b71b: ; 0x6b71b
-	text "SAMUEL: Next time,"
-	line "I'm going to win."
+	text "SAMUEL: La pro-"
+	line "chaine fois, c'est"
+	cont "moi qui gagnera!"
 	done
 ; 0x6b740
 
 UnknownText_0x6b740: ; 0x6b740
-	text "SAMUEL: Darn."
-	line "I thought I would"
-	cont "score higher<...>"
+	text "SAMUEL: Zut!"
+	line "Je pensais marquer"
+	cont "plus de points<...>"
 	done
 ; 0x6b76f
 
 UnknownText_0x6b76f: ; 0x6b76f
-	text "KIPP: Could you"
-	line "give me some tips?"
+	text "KIPP: Tu veux bien"
+	line "me donner des"
 
-	para "I want to study"
-	line "your style."
+	para "conseils? J'aime"
+	line "ton style."
 	done
 ; 0x6b7af
 
 UnknownText_0x6b7af: ; 0x6b7af
-	text "KIPP: I study a"
-	line "lot, but that's"
-
-	para "not good enough to"
-	line "win."
+	text "KIPP: J'étudie"
+	line "beaucoup mais ce"
+	cont "n'est pas assez."
 	done
 
 ; 0x6b910
 
 UnknownText_0x6b910: ; 0x6b910
-	text "Uh-oh<...> Your PACK"
-	line "is full."
+	text "Oh-oh<...> Ton"
+	line "SAC est plein."
 
-	para "We'll hold on to"
-	line "your prize."
+	para "Nous allons garder"
+	line "ceci pour vous."
 	;cont "only for today."
 
-	para "Please make room,"
-	line "then come see me."
+	para "Faites de la place"
+	line "et revenez."
 	done
 ; 0x6b97f
 
 UnknownText_0x6b97f: ; 0x6b97f
 	text "<PLAYER>?"
 
-	para "Here's the prize"
-	line "we were holding"
-	cont "for you."
+	para "Voilà ton prix."
+	line "On l'a gardé pour"
+	cont "toi."
 	done
 ; 0x6b9ac
 

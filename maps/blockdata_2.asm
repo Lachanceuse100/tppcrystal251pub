@@ -520,3 +520,4 @@ OlivineLighthouse6F_BlockData: ; 0xaff00
 	INCBIN "maps/OlivineLighthouse6F.blk"
 ; 0xaff5a
 
+

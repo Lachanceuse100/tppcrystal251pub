@@ -98,74 +98,76 @@ ItemFragment_0x5b279: ; 0x5b279
 ; 0x5b27b
 
 Bird_keeperTheoSeenText: ; 0x5b27b
-	text "I am a collector"
-	line "of rare bird-type"
-	cont "#MON."
+	text "Je collectionne"
+	line "les #MON"
+	cont "oiseaux rares."
 	done
 ; 0x5b2c4
 
 Bird_keeperTheoBeatenText: ; 0x5b2c4
-	text "Angry birds<...>"
+	text "Sales oiseaux<...>"
 	done
 ; 0x5b2df
 
 UnknownText_0x5b2df: ; 0x5b2df
-	text "How the heck do"
-	line "you go up?"
+	text "Comment tu fais"
+	line "pour monter?"
 
-	para "I want to visit"
-	line "the sick #MON,"
+	para "Je veux voir le"
+	line "#MON malade,"
 
-	para "but I can't get up"
-	line "there<...>"
+	para "mais j'arrive pas"
+	line "à monter<...>"
 	done
 ; 0x5b333
 
 SailorTerrellSeenText: ; 0x5b333
-	text "Finally ashore!"
+	text "Enfin la terre!"
 
-	para "I am giving my"
-	line "dogs a walk."
+	para "Je promène mes"
+	line "chiens."
 	done
 ; 0x5b365
 
 SailorTerrellBeatenText: ; 0x5b365
-	text "You are both kind"
-	line "and strong<...>"
+	text "Tu es aussi fort"
+	line "que gentil<...>"
 	done
 ; 0x5b384
 
 UnknownText_0x5b384: ; 0x5b384
-	text "Every time I come"
-	line "back to OLIVINE, I"
-	cont "visit the GYM."
+	text "Chaque fois que je"
+	line "reviens ici, je"
+	cont "visite l'ARENE."
 
-	para "The GYM LEADER's"
-	line "#MON type has"
+	para "Le type de #MON"
+	line "de la CHAMPIONNE"
 
-	para "changed without me"
-	line "noticing."
+	para "d'ARENE a changé"
+	line "sans que je le"
+	cont "remarque."
 	done
 ; 0x5b3f4
 
 GentlemanPrestonSeenText: ; 0x5b3f4
-	text "I travel the world"
-	line "to train my #-"
-	cont "MON. I wish to"
-	cont "battle with you."
+	text "Je parcours la"
+	line "terre en quête"
+	cont "d'entraînement."
+
+	para "En garde!"
 	done
 ; 0x5b437
 
 GentlemanPrestonBeatenText: ; 0x5b437
-	text "<...>sigh<...> I must"
-	line "train some more<...>"
+	text "Bon. Je vais errer"
+	line "autre part alors<...>"
 	done
 ; 0x5b457
 
 UnknownText_0x5b457: ; 0x5b457
-	text "JASMINE used to"
-	line "use rock #MON"
-	cont "like ONIX."
+	text "JASMINE utilisait"
+	line "des #MON ROCHE"
+	cont "comme ONIX avant."
 	done
 ; 0x5b481
 

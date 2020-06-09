@@ -114,27 +114,26 @@ KarenAfterRematch: ; 0x180c1c
 	end
 
 KarenBeforeRematchText:
-	text "You won through"
-	line "the ranks to reach"
-	cont "me. I'm impressed."
+	text "Tu en as fait du"
+	line "chemin pour m'at-"
+	cont "teindre, je suis"
+	cont "impressionnée."
 
-	para "You've assembled a"
-	line "charming team."
+	para "Tu as assemblé une"
+	line "équipe charmante."
 
-	para "Our battle should"
-	line "be a good one."
+	para "Cela promet un"
+	line "beau combat."
 
-	para "Let's begin!"
+	para "Commençons!"
 	done
 
 KarenAfterRematchText:
-	text "I will not stray"
-	line "from my chosen"
-	cont "path."
+	text "Je ne dévierais"
+	line "pas de mon chemin."
 
-	para "LANCE is looking"
-	line "forward to meeting"
-	cont "you."
+	para "PETER à hâte de te"
+	line "revoir."
 
 	done
 
@@ -148,57 +147,54 @@ MovementData_0x180c22: ; 0x180c22
 
 
 UnknownText_0x180c27: ; 0x180c27
-	text "I am KAREN of the"
-	line "ELITE FOUR."
+	text "Je suis MARION du"
+	line "CONSEIL des 4."
 
-	para "You're <PLAYER>?"
-	line "How amusing."
+	para "C'est toi <PLAYER>?"
+	line "C'est marrant."
 
-	para "I love dark-type"
-	line "#MON."
+	para "Moi j'aime les"
+	line "#MON TENEBRES."
 
-	para "I find their wild,"
-	line "tough image to be"
+	para "Leur look noir et,"
+	line "méchant est trop"
 
-	para "so appealing. And"
-	line "they're so strong."
+	para "cool. Et ils sont"
+	line "forts aussi!"
 
-	para "Think you can take"
-	line "them? Just try to"
-	cont "entertain me."
+	para "Tu crois pouvoir"
+	line "les battre? Allez,"
+	cont "essaie pour voir."
 
-	para "Let's go."
+	para "C'est parti."
 	done
 ; 0x180cf8
 
 UnknownText_0x180cf8: ; 0x180cf8
-	text "Well, aren't you"
-	line "good. I like that"
-	cont "in a trainer."
+	text "Mmmm<...> Pas mal du"
+	line "tout."
 	done
 ; 0x180d29
 
 UnknownText_0x180d29: ; 0x180d29
-	text "Strong #MON."
+	text "#MON puissants."
 
-	para "Weak #MON."
+	para "#MON faibles."
 
-	para "That is only the"
-	line "selfish perception"
-	cont "of people."
+	para "Ce n'est que la"
+	line "visions des sim-"
+	cont "ples d'esprit."
 
-	para "Truly skilled"
-	line "trainers should"
+	para "Les bons dresseurs"
+	line "gagnent avec leurs"
+	cont "#MON favoris."
 
-	para "try to win with"
-	line "their favorites."
+	para "J'aime ton style,"
+	line "tu comprends ce"
+	cont "qui est important."
 
-	para "I like your style."
-	line "You understand"
-	cont "what's important."
-
-	para "Go on--the CHAM-"
-	line "PION is waiting."
+	para "Allez, va<...>"
+	line "Le MAITRE attend."
 	done
 ; 0x180e05
 

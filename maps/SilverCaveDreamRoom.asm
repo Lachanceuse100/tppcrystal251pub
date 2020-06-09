@@ -73,3 +73,4 @@ SilverCaveDreamRoom_MapEventHeader: ; 0x18c644
 	db 1
 	person_event SPRITE_BABA, 14, 13, $7, 0, 0, -1, -1, 8 + PAL_OW_BLUE, 0, 0, DreamBabaScript, -1
 ; 0x18c65c
+

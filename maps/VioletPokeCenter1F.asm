@@ -54,7 +54,7 @@ UnknownScript_0x694d7: ; 0x694d7
 ; 0x69523
 
 .eggname ; 0x69523
-	db "EGG@"
+	db "OEUF@"
 ; 0x69527
 
 UnknownScript_0x69527: ; 0x69527
@@ -116,73 +116,77 @@ MovementData_0x69551: ; 0x69551
 ; 0x69555
 
 UnknownText_0x69555: ; 0x69555
-	text "<PLAY_G>, long"
-	line "time, no see."
+	text "<PLAY_G>, ça fait"
+	line "longtemps."
 
-	para "PROF.ELM asked me"
-	line "to find you."
+	para "Le PROF.ORME m'a"
+	line "demandé de te"
+	cont "trouver."
 
-	para "He has another"
-	line "favor to ask."
+	para "Il a une autre"
+	line "service à te"
+	cont "demander."
 
-	para "Would you take the"
-	line "#MON EGG?"
+	para "Peux-tu prendre"
+	line "cet OEUF #MON?"
 	done
 ; 0x695c5
 
 UnknownText_0x695c5: ; 0x695c5
-	text "We discovered that"
-	line "a #MON will not"
+	text "Nous avons décou-"
+	line "vert qu'un #MON"
 
-	para "hatch until it"
-	line "grows in the EGG."
+	para "ne peut naître qu'"
+	line "en grandissant"
+	cont "dans l'OEUF."
 
-	para "It also has to be"
-	line "with other active"
-	cont "#MON to hatch."
+	para "Il doit aussi être"
+	line "en compagnie de"
+	cont "#MON actifs."
 
-	para "<PLAY_G>, you're"
-	line "the only person"
-	cont "we can rely on."
+	para "<PLAY_G>, nous ne"
+	line "pouvons que comp-"
+	cont "ter sur toi."
 
-	para "Please call PROF."
-	line "ELM when that EGG"
-	cont "hatches!"
+	para "Appelle le PROF."
+	line "ORME quand l'OEUF"
+	cont "aura éclos!"
 	done
 ; 0x69693
 
 UnknownText_0x69693: ; 0x69693
-	text "Oh, no. You can't"
-	line "carry any more"
-	cont "#MON with you."
+	text "Oh, Tu ne peux"
+	line "plus avoir de"
+	cont "#MON sur toi."
 
-	para "I'll wait here"
-	line "while you make"
-	cont "room for the EGG."
+	para "Je t'attends ici"
+	line "pendant que tu"
+	cont "fais de la place"
+	cont "pour l'OEUF."
 	done
 ; 0x696f2
 
 UnknownText_0x696f2: ; 0x696f2
-	text "B-but<...> PROF.ELM"
-	line "asked for you<...>"
+	text "M-mais<...> Le PROF."
+	line "ORME te cherchait<...>"
 	done
 ; 0x69712
 
 UnknownText_0x69712: ; 0x69712
-	text "<PLAY_G>, will you"
-	line "take the EGG?"
+	text "<PLAY_G>, peux-tu"
+	line "prendre l'OEUF?"
 	done
 ; 0x6972d
 
 UnknownText_0x6972d: ; 0x6972d
-	text "I've been thinking"
-	line "it'd be great to"
+	text "J'ai pensé que ce"
+	line "serait bien de"
 
-	para "be able to link up"
-	line "and battle with my"
+	para "pouvoir me connec-"
+	line "ter avec mes amis"
 
-	para "friends who live"
-	line "far away."
+	para "qui vivent loin"
+	line "d'ici."
 	done
 ; 0x69791
 
@@ -200,38 +204,43 @@ UnknownText_0x6972d: ; 0x6972d
 ; 0x69809
 
 UnknownText_0x69809: ; 0x69809
-	text "A guy named BILL"
-	line "made the #MON"
-	cont "PC storage system."
+	text "Un gars nommé LEO"
+	line "à crée le système"
+	cont "de stockage de"
+	cont "#MON."
 	done
 ; 0x6983c
 
 UnknownText_0x6983c: ; 0x6983c
-	text "It was around"
-	line "three months ago."
+	text "C'était il y a"
+	line "trois mois."
 
-	para "TEAM ROCKET was up"
-	line "to no good with"
-	cont "#MON."
+	para "La TEAM ROCKET"
+	line "était l'ennemie"
+	cont "des #MON."
 
-	para "But justice pre-"
-	line "vailed--a young"
-	cont "kid broke 'em up."
+	para "Mais la justice"
+	line "a frappé!"
+
+	para "Un jeune homme les"
+	line "a défaits."
 	done
 ; 0x698b8
 
 UnknownText_0x698b8: ; 0x698b8
-	text "#MON are smart."
-	line "They won't obey a"
+	text "Les #MON sont"
+	line "très intelligents."
 
-	para "trainer they don't"
-	line "respect."
+	para "Ils n'obéissent"
+	line "pas aux dresseurs"
+	cont "qui ne les res-"
+	cont "pectent pas."
 
-	para "Without the right"
-	line "GYM BADGES, they"
+	para "Sans les bons"
+	line "BADGES, ils n'en"
 
-	para "will just do as"
-	line "they please."
+	para "feront qu'à leur"
+	line "tête."
 	done
 ; 0x69935
 

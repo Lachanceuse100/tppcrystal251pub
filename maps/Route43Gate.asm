@@ -219,62 +219,61 @@ MovementData_0x19accd: ; 0x19accd
 ; 0x19acd2
 
 UnknownText_0x19acd2: ; 0x19acd2
-	text "Hold it there,"
-	line "kiddo!"
+	text "Hep! Hep! Hep!"
+	line "Pas si vite!"
 
-	para "The toll is ¥1000"
-	line "to go through."
+	para "C'est ¥1000 le"
+	line "péage."
 	done
 ; 0x19ad0a
 
 UnknownText_0x19ad0a: ; 0x19ad0a
-	text "Thank you very"
-	line "much!"
+	text "Merci beaucoup!"
 	done
 ; 0x19ad20
 
 UnknownText_0x19ad20: ; 0x19ad20
-	text "Then pay what you"
-	line "have, please."
+	text "Donne ce que tu"
+	line "as, ça ira."
 	done
 ; 0x19ad41
 
 UnknownText_0x19ad41: ; 0x19ad41
-	text "He-he-he. We're"
-	line "making a bundle."
+	text "Hé-hé-hé. On se"
+	line "fait des thunes."
 
-	para "Everyone wants to"
-	line "see what's going"
+	para "Tout le monde veut"
+	line "voir ce qu'il se"
 
-	para "on up at LAKE OF"
-	line "RAGE."
+	para "passe au LAC"
+	line "COLERE."
 	done
 ; 0x19ad9b
 
 UnknownText_0x19ad9b: ; 0x19ad9b
-	text "I got chased from"
-	line "my post by these"
-	cont "thugs in black."
+	text "Des voyous en noir"
+	line "m'ont fait quitter"
+	cont "mon poste."
 
-	para "They left this"
-	line "behind."
+	para "Ils ont oublié ce"
+	line "truc en plus."
 
-	para "It makes me uncom-"
-	line "fortable. Could"
-	cont "you take it away?"
+	para "Ca me gêne beau-"
+	line "coup moi<...> Tu peux"
+	cont "m'en débarasser?"
 	done
 ; 0x19ae1b
 
 UnknownText_0x19ae1b: ; 0x19ae1b
-	text "<PLAYER> received"
-	line "TM30."
+	text "<PLAYER> reçoit"
+	line "CT36."
 	done
 ; 0x19ae2d
 
 UnknownText_0x19ae2d: ; 0x19ae2d
-	text "Use this gate to"
-	line "avoid walking in"
-	cont "the grass."
+	text "Emprunte cette"
+	line "porte pour éviter"
+	cont "les hautes herbes."
 	done
 ; 0x19ae5b
 

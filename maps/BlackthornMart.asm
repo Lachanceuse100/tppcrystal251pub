@@ -22,28 +22,32 @@ BlackBeltScript_0x195a67: ; 0x195a67
 ; 0x195a6a
 
 UnknownText_0x195a6a: ; 0x195a6a
-	text "You can't buy MAX"
-	line "REVIVE, but it"
+	text "Tu ne peux pas"
+	line "acheter de RAPPEL"
 
-	para "fully restores a"
-	line "fainted #MON."
+	para "MAX mais il permet"
+	line "de ramener un"
 
-	para "Beware--it won't"
-	line "restore PP, the"
+	para "#MON évanoui"
+	line "en pleine forme."
 
-	para "POWER POINTS"
-	line "needed for moves."
+	para "Fais attention, ça"
+	line "ne restaure pas"
+
+	para "les POINTS DE POU-"
+	line "VOIR des attaques."
 	done
 ; 0x195ae9
 
 UnknownText_0x195ae9: ; 0x195ae9
-	text "MAX REPEL keeps"
-	line "weak #MON away"
-	cont "from you."
+	text "Le MAX REPOUSSE"
+	line "repousse les #-"
+	cont "MON faibles de ta"
+	cont "route."
 
-	para "It's the longest"
-	line "lasting of the"
-	cont "REPEL sprays."
+	para "C'est le REPOUSSE"
+	line "le plus puissant"
+	cont "de tous."
 	done
 ; 0x195b40
 

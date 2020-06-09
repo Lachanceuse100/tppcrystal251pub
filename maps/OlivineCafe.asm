@@ -31,52 +31,53 @@ SailorScript_0x9c8dc: ; 0x9c8dc
 ; 0x9c8df
 
 UnknownText_0x9c8df: ; 0x9c8df
-	text "Hah! Your #MON"
-	line "sure look pale!"
+	text "Ha! Tes #MON"
+	line "ont l'air tout"
+	cont "pâlot!"
 
-	para "They need to get"
-	line "outside and see"
-	cont "the sun!"
+	para "Ils ont besoin de"
+	line "sortir prendre le"
+	cont "soleil."
 
-	para "Here, use this"
-	line "and get them"
-	cont "a tan!"
+	para "Tiens, prends ça"
+	line "pour qu'ils"
+	cont "fassent bronzette."
 	done
 ; 0x9c965
 
 UnknownText_0x9c965: ; 0x9c965
-	text "On the sea, the"
-	line "only thing you can"
+	text "Tu peux compter"
+	line "que sur toi-même"
 
-	para "count on is your"
-	line "own good self!"
+	para "quand tu es en"
+	line "mer!"
 
-	para "I'm so proud of my"
-	line "crisp tan!"
+	para "Je suis bien fier"
+	line "de mon bronzage!"
 	done
 ; 0x9c9c5
 
 UnknownText_0x9c9c5: ; 0x9c9c5
-	text "OLIVINE CAFE's"
-	line "menu is chock full"
+	text "Le CAFE d'OLIVILLE"
+	line "fait des plats"
 
-	para "of hearty fare for"
-	line "beefy SAILORS!"
+	para "pour les joyeux"
+	line "marins!"
 	done
 ; 0x9ca09
 
 UnknownText_0x9ca09: ; 0x9ca09
-	text "Whenever I roll"
-	line "into this town, I"
+	text "Quand je passe"
+	line "dans cette ville,"
 
-	para "always visit the"
-	line "OLIVINE CAFE."
+	para "je vais au CAFE"
+	line "d'OLIVILLE."
 
-	para "Everything on the"
-	line "menu makes me feel"
+	para "C'est vraiment"
+	line "trop bon ici, je"
 
-	para "stronger. I can't"
-	line "stop eating!"
+	para "m'arrête plus de"
+	line "manger!"
 	done
 ; 0x9ca8e
 

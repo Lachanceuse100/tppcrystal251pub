@@ -130,8 +130,8 @@ LancesRoomNoYesBoxMenuDataHeader:
 .MenuData2
 	db $c0 ; flags
 	db 2 ; items
-	db "NO@"
-	db "YES@"
+	db "NON@"
+	db "OUI@"
 
 LanceRematch:
 	writetext LanceBeforeRematchText
@@ -152,35 +152,32 @@ LanceRematch:
 	jump AfterLanceFight
 
 LanceBeforeRematchText:
-	text "There's no need"
-	line "for words now."
+	text "Il n'y a plus"
+	line "besoin de parler."
 
-	para "We will battle to"
-	line "determine who is"
+	para "On va se battre et"
+	line "enfin savoir qui"
 
-	para "the stronger of"
-	line "the two of us."
+	para "de nous deux est"
+	line "le plus fort."
 
-	para "I, LANCE, accept"
-	line "your challenge!"
-
+	para "Moi, PETER,"
+	line "l'expert des"
+	cont "dragons, j'accepte"
+	cont "de t'affronter!"
 	done
 
 LanceAfterRematch:
-	text "Just as I"
-	line "expected."
+	text "Je le savais<...>"
 
-	para "You and your"
-	line "#MON make"
-	cont "quite a team."
+	para "Tes #MON et toi"
+	line "faites une sacrée"
+	cont "équipe."
 
-	para "As a trainer,"
-	line "you will continue"
-	para "to grow strong"
-	line "with your #MON."
-
-
-
+	para "Et vous ne cesse-"
+	line "rez de devenir"
+	para "encore plus forts"
+	line "ensemble."
 	done
 
 MovementData_0x180f33: ; 0x180f33
@@ -214,137 +211,129 @@ MovementData_0x180f53: ; 0x180f53
 
 
 UnknownText_0x180f67: ; 0x180f67
-	text "LANCE: I've been"
-	line "waiting for you."
+	text "PETER:"
+	line "Je t'attendais<...>"
 
 	para "<PLAY_G>!"
 
-	para "I knew that you,"
-	line "with your skills,"
+	para "Je savais que tu"
+	line "allais finir par"
+	cont "jusqu'ici."
 
-	para "would eventually"
-	line "reach me here."
+	para "Il n'y a plus"
+	line "besoin de parler."
 
-	para "There's no need"
-	line "for words now."
+	para "On va se battre et"
+	line "enfin savoir qui"
 
-	para "We will battle to"
-	line "determine who is"
+	para "de nous deux est"
+	line "le plus fort."
 
-	para "the stronger of"
-	line "the two of us."
-
-	para "I, LANCE the drag-"
-	line "on master, accept"
-	cont "your challenge!"
+	para "Moi, PETER,"
+	line "l'expert des"
+	cont "dragons, j'accepte"
+	cont "de t'affronter!"
 	done
 ; 0x1810a4
 
 UnknownText_0x1810a4: ; 0x1810a4
-	text "<...>It's over."
+	text "<...>C'est fini"
 
-	para "But it's an odd"
-	line "feeling."
+	para "Je me sens<...>"
+	line "Bizarre<...>"
 
-	para "I'm not angry that"
-	line "I lost. In fact, I"
-	cont "feel happy."
+	para "Je ne suis pas"
+	line "fâché mais<...>"
+	cont "Plutôt heureux."
 
-	para "Happy that I"
-	line "witnessed the rise"
+	para "Heureux d'être le"
+	line "témoin de la nais-"
 
-	para "of a great new"
-	line "CHAMPION!"
+	para "saince d'un nouveau"
+	line "MAITRE!"
 	done
 ; 0x181132
 
 
 UnknownText_0x181132: ; 0x181132
-	text "<...>Whew."
+	text "<...>Woah!"
 
-	para "You have become"
-	line "truly powerful,"
-	cont "<PLAY_G>."
+	para "Tu es devenu in-"
+	line "croyable, <PLAY_G>"
 
-	para "Your #MON have"
-	line "responded to your"
+	para "Toi et tes #MON"
+	line "êtes en parfaite"
+	cont "harmonie."
 
-	para "strong and up-"
-	line "standing nature."
+	para "Je suis sûr que tu"
+	line "continueras à"
+	cont "progresser avec"
+	para "tes #MON."
 
-	para "As a trainer, you"
-	line "will continue to"
-
-	para "grow strong with"
-	line "your #MON."
-
-	para "You're now the"
-	line "#MON LEAGUE"
-	cont "CHAMPION!"
+	para "Tu es désormais"
+	line "MAITRE de la LIGUE"
+	cont "#MON!"
 
 	para "<...>"
 
-	para "<...>Or, you would"
-	line "have been, but you"
-	para "have one more"
-	line "challenge ahead."
+	para "<...>Ou au moins, tu"
+	line "l'aurais été, mais"
+	para "il te reste une"
+	line "dernière épreuve."
 	done
 
 LanceFinishReveal:
-    text "Go now. Your"
-    line "final challenge"
-    cont "awaits you!"
+    text "Vas-y. Ton dernier"
+    line "combat t'attends!"
     done ; not sure if this is supposed to use below if gender
 
 LanceAzureTalk:
-	text "Her name is<...>"
+	text "Son nom est<...>"
 	para "<GREEN>!"
-	para "She beat the"
-	line "ELITE FOUR"
-	cont "before you."
+	para "Elle a vaincu le"
+	line "CONSEIL des 4"
+	cont "avant toi!"
 
-	para "She is the #MON"
-	line "LEAGUE CHAMPION!"
+	para "Elle est la vraie"
+	line "MAITRE #MON!"
 	done
 LanceRustTalk:
-	text "His name is<...>"
+	text "Son nom est<...>"
 	para "<GREEN>!"
-	para "He beat the"
-	line "ELITE FOUR"
-	cont "before you."
+	para "Il a vaincu le"
+	line "CONSEIL des 4"
+	cont "avant toi!"
 
-	para "He is the #MON"
-	line "LEAGUE CHAMPION!"
+	para "Il est le vrai"
+	line "MAITRE #MON!"
 	done
 
 ; 0x1811dd
 
 UnknownText_0x18137b: ; 0x18137b
-	text "Your final battle"
-	line "awaits, but first<...>"
+	text "Ton dernier combat"
+	line "t'attends, mais"
+	cont "avant<...>"
 
-	para "Your #MON are"
-	line "hurt. If you want,"
+	para "Tes #MON sont"
+	line "fatigués."
 
-	para "I can heal them"
-	line "for you before you"
-
-	para "take on this final"
-	line "challenge. Okay?"
+	para "Veux-tu que je les"
+	line "soignes avant de"
+	cont "continuer?"
 	done
 
 LanceRefusedHealText:
-	text "Well, if that's"
-	line "what you want,"
-	cont "then go for it!"
+	text "Très bien, fonce"
+	line "alors!"
 	done
 
 LanceAfterHeal:
-	text "Your #MON are"
-	line "healed."
+	text "Tes #MON sont"
+	line "en pleine forme."
 
-	para "Fight with your"
-	line "full power!"
+	para "Bats-toi à pleine"
+	line "puissance!"
 	done
 ; 0x1813c5
 

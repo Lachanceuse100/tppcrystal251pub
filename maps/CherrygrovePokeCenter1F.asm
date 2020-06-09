@@ -127,57 +127,58 @@ UnknownScript_0x196984: ; 0x196984
 ; 0x19698a
 
 UnknownText_0x19698a: ; 0x19698a
-	text "It's great. I can"
-	line "store any number"
-
-	para "of #MON, and"
-	line "it's all free."
+	text "C'est génial! Je"
+	line "peux stocker gra-"
+	cont "tuitement autant"
+	cont "de #MON que je"
+	cont "veux."
 	done
 ; 0x1969c8
 
 UnknownText_0x1969c8: ; 0x1969c8
-	text "That PC is free"
-	line "for any trainer"
-	cont "to use."
+	text "Ce PC est libre"
+	line "pour tous les"
+	cont "dresseurs."
 	done
 ; 0x1969f1
 
 UnknownText_0x1969f1: ; 0x1969f1
-	text "The COMMUNICATION"
-	line "CENTER upstairs"
-	cont "was just built."
+	text "Le CENTRE DE"
+	line "COMMUNICATIONS a"
+	cont "été construit au"
+	cont "premier étage."
 
-	para "But they're still"
-	line "finishing it up."
+	para "Mais ils en sont"
+	line "encore aux"
+	cont "finitions."
 	done
 ; 0x196a46
 
 UnknownText_0x196a46: ; 0x196a46
-	text "The COMMUNICATION"
-	line "CENTER upstairs"
-	cont "was just built."
+	text "Le CENTRE DE"
+	line "COMMUNICATIONS a"
+	cont "été construit au"
+	cont "premier étage."
 
-	para "I traded #MON"
-	line "there already!"
+	para "J'ai déjà échangé"
+	line "des #MON!"
 	done
 ; 0x196a96
 
 Text_CherrygrovePC_PleaseHealPkmn:
-	text "BZZT! You don't"
-	line "have a #MON fit"
-	cont "to fight!"
+	text "BZZT! Tu n'as"
+	line "pas de #MON"
+	cont "en forme!"
 	done
 
 CherrygrovePokeCenter1F_HealText:
-	text "Oh dear<...> Your"
-	line "#MON are all"
-	cont "fainted!"
+	text "Oh<...> Tous vos"
+	line "#MON sont K.O!"
 
-	para "Here, allow me to"
-	line "restore them to"
-	cont "perfect health."
+	para "Laissez moi les"
+	line "remettre en état."
 
-	para "May I see your"
+	para "Puis-je voir vos"
 	line "#MON?"
 	done
 

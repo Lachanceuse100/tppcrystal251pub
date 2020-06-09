@@ -34,29 +34,30 @@ UnknownScript_0x199990: ; 0x199990
 ;	db $0, "ズ", $03, $00
 
 UnknownText_0x19999c: ; 0x19999c
-	text "I heard that a red"
-	line "GYARADOS appeared"
-	cont "at the LAKE."
+	text "J'ai entendu dire"
+	line "qu'un LEVIATOR"
+	cont "rouge est apparu"
+	cont "au LAC."
 
-	para "That's odd,"
-	line "they're usually"
-	cont "blue<...>"
+	para "C'est bizarre, ils"
+	line "sont bleus"
+	cont "d'habitude<...>"
 	done
 ; 0x199a0e
 
 UnknownText_0x199a0e: ; 0x199a0e
-	text "My favorite radio"
-	line "program? I'd say"
-	cont "#MON MUSIC."
+	text "Mon émission de"
+	line "radio préférée?"
+	cont "La #MUSIQUE!"
 	done
 ; 0x199a3d
 
 UnknownText_0x199a3d: ; 0x199a3d
-	text "I've been hearing"
-	line "laughter on the"
-	cont "radio<...>"
+	text "J'ai entendu des"
+	line "rires à la radio<...>"
 
-	para "It's creepy."
+	para "Ca donne la chair"
+	line "de poule!"
 	done
 ; 0x199a72
 

@@ -204,75 +204,73 @@ MovementData_0x580c5: ; 0x580c5
 ; 0x580c7
 
 UnknownText_0x580c7: ; 0x580c7
-	text "Hm? That's a #-"
-	line "DEX, isn't it?"
-	cont "May I see it?"
+	text "Oh? C'est un #-"
+	line "DEX? Puis-je y"
+	cont "jeter un oeil?"
 
-	para "There are so many"
-	line "kinds of #MON."
+	para "Il y a plein de"
+	line "sortes de #MON<...>"
 
-	para "Hm? What's this?"
+	para "Hein? C'est quoi"
+	line "ce #MON?"
 
-	para "What is this"
-	line "#MON?"
+	para "Il ressemble aux"
+	line "étranges écritures"
 
-	para "It looks like the"
-	line "strange writing on"
+	para "sur les murs des"
+	line "RUINES."
 
-	para "the walls of the"
-	line "RUINS."
+	para "Si ces dessins"
+	line "sont des #MON,"
+	cont "Il y en a sûrement"
+	cont "d'autres sortes!"
 
-	para "If those drawings"
-	line "are really #-"
-	cont "MON, there should"
-	cont "be many more."
-
-	para "I know! Let me up-"
-	line "grade your #-"
-	cont "DEX. Follow me."
+	para "Je sais! Je vais"
+	line "améliorer ton"
+	cont "#DEX. Suis moi."
 	done
 ; 0x581e5
 
 UnknownText_0x581e5: ; 0x581e5
-	text "What do you want?"
-	line "I'm studying--"
-	cont "don't disturb me!"
+	text "Tu veux quoi?"
+	line "J'étudie, ne me"
+	cont "dérange pas!"
 	done
 ; 0x58217
 
 UnknownText_0x58217: ; 0x58217
-	text "Sorry<...>"
-	line "I'm frustrated by"
+	text "Pardon<...>"
+	line "Je suis frustré"
 
-	para "our lack of real"
-	line "understanding<...>"
+	para "de notre manque de"
+	line "comprhénsion<...>"
 	done
 ; 0x58250
 
 UnknownText_0x58250: ; 0x58250
-	text "The RUINS are from"
-	line "about 1500 years"
-	cont "ago."
+	text "Les RUINES datent"
+	line "d'il y a plus de"
+	cont "1500 ans."
 
-	para "Nobody knows who"
-	line "built them."
+	para "Personne ne sait"
+	line "qui les a bâti."
 
-	para "It's also not"
-	line "known if the #-"
-	cont "MON statues have"
-	cont "any meaning."
+	para "On ne sait pas non"
+	line "plus si les sta-"
+	cont "tues #MON one"
+	cont "une signification."
 
-	para "It's all one big"
-	line "mystery<...>"
+	para "C'est un grand"
+	line "mystère<...>"
 	done
 ; 0x582eb
 
 PsychicNathanSeenText: ; 0x582eb
-	text "<...>strange place."
+	text "<...>étrange endroit."
 
-	para "<...>strange #MON."
+	para "<...>étrange #MON."
 
-	para "<...>caught one."
+	para "<...>j'en ai un."
 	done
 ; 0x5830b
 
@@ -282,71 +280,73 @@ PsychicNathanBeatenText: ; 0x5830b
 ; 0x5830e
 
 UnknownText_0x5830e: ; 0x5830e
-	text "<...>it came"
-	line "from the ruins."
+	text "<...>il vient"
+	line "des ruines."
 	done
 ; 0x58325
 
 UnknownText_0x58325: ; 0x58325
-	text "MYSTERY STONE"
-	line "PANEL CHAMBER"
+	text "PIERRE MYSTERE"
+	line "CHAMBRE du PANNEAU"
 	done
 ; 0x58342
 
 UnknownText_0x58342: ; 0x58342
-	text "RUINS OF ALPH"
-	line "VISITORS WELCOME"
+	text "RUINES D'ALPHA"
+	line "BIENVENUE"
 	done
 ; 0x58362
 
 UnknownText_0x58362: ; 0x58362
-	text "RUINS OF ALPH"
-	line "RESEARCH CENTER"
+	text "RUINES D'ALPHA"
+	line "CENTRE DE"
+	cont "RECHERCHE"
 
-	para "THE AUTHORITY ON"
-	line "THE RUINS OF ALPH"
+	para "La référence des"
+	line "RUINES D'ALPHA"
 	done
 ; 0x583a4
 
 UnknownText_0x583a4: ; 0x583a4
-	text "While exploring"
-	line "the RUINS, we"
+	text "En explorant les "
+	line "RUINES, nous avons"
 
-	para "suddenly noticed"
-	line "an odd presence."
+	para "ressenti une"
+	line "étrange présence."
 
-	para "We all got scared"
-	line "and ran away."
+	para "On a eu peur et"
+	line "on s'est enfuis."
 
-	para "You should be"
-	line "careful too."
+	para "Tu devrais être"
+	line "prudent!"
 	done
 ; 0x58420
 
 UnknownText_0x58420: ; 0x58420
-	text "The RUINS hide a"
-	line "huge secret!"
+	text "Les RUINES cachent"
+	line "un grand secret!"
 
-	para "<...>I think<...>"
+	para "<...>Je pense<...>"
 	done
 ; 0x58449
 
 UnknownText_0x58449: ; 0x58449
-	text "There are many"
-	line "kinds of UNOWN, so"
+	text "Il y a plein de"
+	line "sortes de ZARBI!"
 
-	para "we use them for"
-	line "our secret codes."
+	para "Nous les utilisons"
+	line "pour nos codes"
+	cont "secrets."
 	done
 ; 0x5848e
 
 UnknownText_0x5848e: ; 0x5848e
-	text "A<...> H<...> E<...> A<...> D<...>"
+	text "D<...>E<...>V<...>A<...>N<...>T<...>"
 	line "Hmm<...>"
 
-	para "What?"
+	para "Quoi?"
 
-	para "I'm decoding this"
+	para "Je décode ce"
 	line "message!"
 	done
 ; 0x584c3

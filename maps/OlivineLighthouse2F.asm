@@ -203,18 +203,20 @@ UnknownScript_0x5b076: ; 0x5b076
 ; 0x5b07a
 
 SailorHuey1SeenText: ; 0x5b07a
-	text "I have come to"
-	line "recharge our"
-	cont "ship's batteries"
+	text "Je suis venu re-"
+	line "charger les"
 
-	para "ahead of our"
-	line "next journey!"
+	para "batteries de mon"
+	line "équipage pour"
+
+	para "notre prochain"
+	line "voyage!"
 	done
 ; 0x5b0b0
 
 SailorHuey1BeatenText: ; 0x5b0b0
-	text "At least I have"
-	line "my honor<...>"
+	text "Il me reste mon"
+	line "honneur<...>"
 	done
 ; 0x5b0be
 
@@ -229,37 +231,38 @@ SailorHuey1BeatenText: ; 0x5b0b0
 ; 0x5b0f8
 
 GentlemanAlfredSeenText: ; 0x5b0f8
-	text "Hm? This is no"
-	line "place for playing."
+	text "C'est interdit de"
+	line "jouer ici!"
 	done
 ; 0x5b11b
 
 GentlemanAlfredBeatenText: ; 0x5b11b
-	text "Ah! I can see that"
-	line "you're serious."
+	text "Ah! Je vois que tu"
+	line "ne plaisantes pas."
 	done
 ; 0x5b13e
 
 UnknownText_0x5b13e: ; 0x5b13e
-	text "Up top is a #-"
-	line "MON that keeps the"
-	cont "LIGHTHOUSE lit."
+	text "En haut se trouve"
+	line "un #MON qui"
+	cont "garde la PHARE"
+	cont "allumé."
 
-	para "But I hear that"
-	line "it's sick now and"
+	para "Mais on dit qu'il"
+	line "est malade et qu'"
 
-	para "can't be cured by"
-	line "ordinary medicine."
+	para "un médicament nor-"
+	line "mal ne peut pas le"
+	cont "soigner."
 	done
 ; 0x5b1b6
 
 UnknownText_0x5b1b6: ; 0x5b1b6
-	text "Man! You're as"
-	line "tough as ever!"
+	text "T'es toujours"
+	line "aussi balèze!"
 
-	para "Anyway, here's"
-	line "that medicine from"
-	cont "before."
+	para "Voilà ce que je"
+	line "voulais te donner."
 	done
 ; 0x5b1fd
 

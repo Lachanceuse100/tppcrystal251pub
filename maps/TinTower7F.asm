@@ -33,3 +33,4 @@ TinTower7F_MapEventHeader: ; 0x185b07
 	person_event SPRITE_POKE_BALL, 5, 20, $1, 0, 0, -1, -1, 0, 1, 0, ItemFragment_0x185b05, EVENT_ITEM_TIN_TOWER_7F_MAX_REVIVE
 ; 0x185b33
 
+

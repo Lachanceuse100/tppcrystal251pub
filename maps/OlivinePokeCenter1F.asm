@@ -23,28 +23,30 @@ TeacherScript_0x9c00b: ; 0x9c00b
 ; 0x9c00e
 
 UnknownText_0x9c00e: ; 0x9c00e
-	text "The man in the"
-	line "DANCE THEATER in"
+	text "Le gars a la"
+	line "SALLE DE DANSE"
 
-	para "ECRUTEAK is"
-	line "really generous."
+	para "de ROSALIA est"
+	line "très généreux."
 
-	para "He taught my"
-	line "#MON STRENGTH."
+	para "Il a appris FORCE"
+	line "à mon #MON."
 
-	para "Now it can move"
-	line "big boulders."
+	para "Maintenant il peut"
+	line "bouger les"
+	cont "rochers!"
 	done
 ; 0x9c086
 
 UnknownText_0x9c086: ; 0x9c086
-	text "There's a person"
-	line "in CIANWOOD CITY"
-	cont "across the sea."
+	text "Il y a quelqu'un"
+	line "à IRISIA de l'"
+	cont "autre côté de la"
+	cont "mer."
 
-	para "I heard him brag-"
-	line "ging about his"
-	cont "rare #MON."
+	para "Je l'ai entendu se"
+	line "vanter de ses"
+	cont "#MON rares."
 	done
 ; 0x9c0e4
 

@@ -828,194 +828,187 @@ AfterChikoritaMovement: ; 0x78fb0
 ; 0x78fb6
 
 UnknownText_0x78fb6: ; 0x78fb6
-	text "Oh, hello. You"
-	line "must be <PLAY_G>!"
+	text "Oh, bonjour. Tu"
+	line "dois être <PLAY_G>!"
 
-	para "Your mother told"
-	line "me all about you"
-	cont "when she moved in."
+	para "Ta mère m'a parlé"
+	line "de toi quand elle"
+	cont "est arrivée."
 
-	para "My name is PROF."
-	line "ELM. Nice to meet"
-	cont "you!"
+	para "Je suis le PROF."
+	line "ORME. Ravi de te"
+	cont "rencontrer!"
 
-	para "ELM: Can I ask"
-	line "you a favor?"
+	para "ORME: Puis-je te"
+	line "demander une"
+	cont "faveur?"
 
-	para "I'm conducting new"
-	line "#MON research"
+	para "Je mène une nou-"
+	line "velle recherche."
+	cont "#MON."
 
-	para "right now. I was"
-	line "wondering if you"
+	para "Je me demandais si"
+	line "tu pouvais m'aider"
+	cont "<PLAY_G>."
 
-	para "could help me with"
-	line "it, <PLAY_G>."
+	para "Vois-tu<...>"
 
-	para "You see<...>"
+	para "J'écris un papier"
+	line "que je veux pré-"
+	cont "senter à une"
+	cont "conférence."
 
-	para "I'm writing a"
-	line "paper that I want"
+	para "Mais il y a encore"
+	line "des choses que je"
+	cont "ne comprends pas."
 
-	para "to present at a"
-	line "conference."
+	para "Donc!"
 
-	para "But there are some"
-	line "things I don't"
-
-	para "quite understand"
-	line "yet."
-
-	para "So!"
-
-	para "I'd like you to"
-	line "raise a #MON"
-
-	para "that I recently"
-	line "caught."
+	para "J'aimerais que tu"
+	line "élèves un #MON"
+	cont "que j'ai récemment"
+	cont "attrapé."
 	done
 ; 0x790fa
 
 UnknownText_0x790fa: ; 0x790fa
-	text "Thanks, <PLAY_G>!"
+	text "Merci, <PLAY_G>!"
 
-	para "You're a great"
-	line "help!"
+	para "Tu es d'une grande"
+	line "aide!"
 	done
 ; 0x7911a
 
 UnknownText_0x7911a: ; 0x7911a
-	text "But<...> Please, I"
-	line "need your help!"
+	text "Mais<...> J'ai besoin"
+	line "de ton aide!"
 	done
 ; 0x7913a
 
 UnknownText_0x7913a: ; 0x7913a
-	text "When I announce my"
-	line "findings, I'm sure"
+	text "Quand j'annonce-"
+	line "rais mes trou-"
+	cont "vailles, nous"
+	cont "pourrons en savoir"
+	cont "plus sur les"
+	cont "nombreux mystères"
+	cont "des #MON."
 
-	para "we'll delve a bit"
-	line "deeper into the"
-
-	para "many mysteries of"
-	line "#MON."
-
-	para "You can count on"
-	line "it!"
+	para "Tu peux compter"
+	line "là-dessus!"
 	done
 ; 0x791ae
 
 UnknownText_0x791ae: ; 0x791ae
-	text "Oh, hey! I got an"
+	text "Oh, j'ai reçu un"
 	line "e-mail!"
 
 	para $56, $56, $56
-	line "Hm<...> Uh-huh<...>"
+	line "Hm<...> Oui<...>"
 
-	para "Okay<...>"
+	para "D'accord<...>"
 	done
 ; 0x791df
 
 UnknownText_0x791df: ; 0x791df
-	text "Hey, listen."
+	text "Ecoute."
 
-	para "I have an acquain-"
-	line "tance called MR."
-	cont "#MON."
+	para "J'ai une connai-"
+	line "ssance connu sous"
+	cont "le nom de"
+	cont "M.#MON"
 
-	para "He keeps finding"
-	line "weird things and"
+	para "Il se vante tou-"
+	line "jours de ses décou"
+	cont "vertes bizarres."
 
-	para "raving about his"
-	line "discoveries."
+	para "Il m'a envoyé un"
+	line "e-mail en disant"
+	cont "que cette fois,"
+	cont "c'est la bonne."
 
-	para "Anyway, I just got"
-	line "an e-mail from him"
+	para "C'est intriguant"
+	line "mais nous sommes"
+	cont "occupés avec nos"
+	cont "recherches<...>"
 
-	para "saying that this"
-	line "time it's real."
+	para "Ah!"
 
-	para "It is intriguing,"
-	line "but we're busy"
+	para "Je sais!"
 
-	para "with our #MON"
-	line "research<...>"
-
-	para "Wait!"
-
-	para "I know!"
-
-	para "<PLAY_G>, can you"
-	line "go in our place?"
+	para "<PLAY_G>, peux-tu"
+	line "y aller pour moi?"
 	done
 ; 0x792ff
 
 UnknownText_0x792ff: ; 0x792ff
-	text "I want you to"
-	line "raise one of the"
+	text "Je veux que tu"
+	line "élèves un des"
 
-	para "#MON contained"
-	line "in these BALLS."
+	para "#MON de"
+	line "ces # BALLS."
 
-	para "You'll be that"
-	line "#MON's first"
-	cont "partner, <PLAY_G>!"
+	para "Tu seras son"
+	line "premier partenaire"
+	cont "<PLAY_G>!"
 
-	para "Go on. Pick one!"
+	para "Vas-y, choisis!"
 	done
 ; 0x79375
 
 UnknownText_0x79375: ; 0x79375
-	text "If a wild #MON"
-	line "appears, let your"
-	cont "#MON battle it!"
+	text "Si un #MON"
+	line "sauvage apparaît,"
+	cont "laisse ton #MON"
+	cont "le combattre."
 	done
 ; 0x793a7
 
 LabWhereGoingText: ; 0x793a7
-	text "ELM: Wait! Where"
-	line "are you going?"
+	text "ORME: Attends!"
+	line "Ou vas-tu?"
 	done
 ; 0x793c8
 
 TakeCyndaquilText: ; 0x793c8
-	text "ELM: You'll take"
-	line "CYNDAQUIL, the"
-	cont "fire #MON?"
+	text "ORME: Tu veux"
+	line "HERICENDRE, le"
+	cont "#MON feu?"
 	done
 ; 0x793f3
 
 TakeTotodileText: ; 0x793f3
-	text "ELM: Do you want"
-	line "TOTODILE, the"
-	cont "water #MON?"
+	text "ORME: Tu veux"
+	line "KAIMINUS, le"
+	cont "#MON eau?"
 	done
 ; 0x7941f
 
 TakeChikoritaText: ; 0x7941f
-	text "ELM: So, you like"
-	line "CHIKORITA, the"
-	cont "grass #MON?"
+	text "ORME: Tu veux"
+	line "GERMINION, le"
+	cont "#MON plante?"
 	done
 ; 0x7944d
 
 DidntChooseStarterText: ; 0x7944d
-	text "ELM: Think it over"
-	line "carefully."
+	text "ORME: Prends ton"
+	line "temps."
 
-	para "Your partner is"
+	para "Ton partenaire est"
 	line "important."
 	done
 ; 0x79487
 
 ChoseStarterText: ; 0x79487
-	text "ELM: I think"
-	line "that's a great"
-	cont "#MON too!"
+	text "ORME: Je pense que"
+	line "c'est un bon"
+	cont "#MON!"
 	done
 ; 0x794ad
 
 ReceivedStarterText: ; 0x794ad
-	text "<PLAYER> received"
+	text "<PLAYER> reçoit"
 	line "@"
 	text_from_ram StringBuffer3
 	text "!"
@@ -1023,326 +1016,322 @@ ReceivedStarterText: ; 0x794ad
 ; 0x794c0
 
 ElmDirectionsText1: ; 0x794c0
-	text "MR.#MON lives a"
-	line "little bit beyond"
+	text "M.#MON vit un"
+	line "peu après VILLE"
+	cont "GRIOTTE. La ville"
+	cont "d'a côté."
 
-	para "CHERRYGROVE, the"
-	line "next city over."
+	para "C'est un chemin"
+	line "direct, tu ne peux"
+	cont "pas le rater."
 
-	para "It's almost a"
-	line "direct route"
+	para "Mais au cas ou,"
+	line "voici mon numéro."
 
-	para "there, so you"
-	line "can't miss it."
-
-	para "But just in case,"
-	line "here's my phone"
-
-	para "number. Call me if"
-	line "anything comes up!"
+	para "Appelle moi si il"
+	line "y a quoi que ce"
+	cont "soit."
 	done
 ; 0x79581
 
 ElmDirectionsText2: ; 0x79581
-	text "If your #MON is"
-	line "hurt, you should"
+	text "Si ton #MON est"
+	line "blessé, soigne-le"
+	cont "avec cette"
+	cont "machine."
 
-	para "heal it with this"
-	line "machine."
-
-	para "Feel free to use"
-	line "it anytime."
+	para "Utilise la quand"
+	line "tu veux."
 	done
 ; 0x795db
 
 ElmDirectionsText3: ; 0x795db
-	text "<PLAY_G>, I'm"
-	line "counting on you!"
+	text "<PLAY_G>, je"
+	line "compte sur toi!"
 	done
 ; 0x795f3
 
 GotElmsNumberText: ; 0x795f3
-	text "<PLAYER> got ELM's"
-	line "phone number."
+	text "<PLAYER> a le"
+	line "numéro de PROF."
+	cont "ORME."
 	done
 ; 0x7960d
 
 ElmDescribesMrPokemonText: ; 0x7960d
-	text "MR.#MON goes"
-	line "everywhere and"
-	cont "finds rarities."
+	text "M.#MON part"
+	line "partout et trouve"
+	cont "des raretés."
 
-	para "Too bad they're"
-	line "just rare and"
-	cont "not very useful<...>"
+	para "Dommage que rien"
+	line "n'est était utile"
+	cont "jusqu'ici<...>"
 	done
 ; 0x79668
 
 ElmPokeBallText: ; 0x79668
-	text "It contains a"
-	line "#MON caught by"
-	cont "PROF.ELM."
+	text "Un #MON attrapé"
+	line "par le PROF.ORME."
 	done
 ; 0x79690
 
 UnknownText_0x79690: ; 0x79690
-	text "I wonder what this"
-	line "does?"
+	text "Je me demande ce"
+	line "que ça fait?"
 	done
 ; 0x796aa
 
 UnknownText_0x796aa: ; 0x796aa
-	text "Would you like to"
-	line "heal your #MON?"
+	text "Voulez-vous"
+	line "soigner vos"
+	cont "#MON?"
 	done
 ; 0x796cd
 
 ElmAfterTheftText1: ; 0x796cd
-	text "ELM: <PLAY_G>, this"
-	line "is terrible<...>"
+	text "ORME: <PLAY_G>,"
+	line "c'est terrible<...>"
 
-	para "Oh, yes, what was"
-	line "MR.#MON's big"
-	cont "discovery?"
+	para "Ah, oui, quel"
+	line "était la grande"
+	cont "découverte de M."
+	cont "#MON?"
 	done
 ; 0x79712
 
 ElmAfterTheftText2: ; 0x79712
-	text "<PLAYER> handed"
-	line "the MYSTERY EGG to"
-	cont "PROF.ELM."
+	text "<PLAYER> remet"
+	line "l'OEUF MYSTERE au"
+	cont "PROF.ORME."
 	done
 ; 0x79739
 
 ElmAfterTheftText3: ; 0x79739
-	text "ELM: This?"
+	text "ORME: Ca?"
 	done
 ; 0x79745
 
 ElmAfterTheftText4: ; 0x79745
-	text "But<...> Is it a"
-	line "#MON EGG?"
+	text "Mais<...> c'est un"
+	line "OEUF #MON?"
 
-	para "If it is, it is a"
-	line "great discovery!"
+	para "Si c'est vrai,"
+	line "c'est une grande"
+	cont "découverte!"
 	done
 ; 0x79780
 
 ElmAfterTheftText5: ; 0x79780
-	text "ELM: What?!?"
+	text "ORME: Quoi?!?"
 
-	para "PROF.OAK gave you"
-	line "a #DEX?"
+	para "Le PROF.CHEN t'a"
+	line "donné un #DEX?"
 
-	para "<PLAY_G>, is that"
-	line "true? Th-that's"
-	cont "incredible!"
+	para "<PLAY_G>, c'est"
+	line "vrai? C'est"
+	cont "incroyable!"
 
-	para "He is superb at"
-	line "seeing the poten-"
-	cont "tial of people as"
-	cont "trainers."
+	para "Il sait voir le"
+	line "grand potentiel"
+	cont "des gens en tant"
+	cont "que dresseurs."
 
-	para "Wow, <PLAY_G>. You"
-	line "may have what it"
+	para "Woah, <PLAY_G>. Tu"
+	line "as peut-être le"
+	cont "talent pour deve-"
+	cont "nir CHAMPION."
 
-	para "takes to become"
-	line "the CHAMPION."
+	para "Tu sembles bien"
+	line "t'entendre avec"
+	cont "ton #MON!"
 
-	para "You seem to be"
-	line "getting on great"
-	cont "with #MON too."
+	para "Tu devrais relever"
+	line "les défis des"
+	cont "ARENES #MON."
 
-	para "You should take"
-	line "the #MON GYM"
-	cont "challenge."
-
-	para "The closest GYM"
-	line "would be the one"
-	cont "in VIOLET CITY."
+	para "La plus proche"
+	line "serait celle de"
+	cont "MAUVILLE."
 	done
 ; 0x798cf
 
 ElmAfterTheftText6: ; 0x798cf
-	text "<...><PLAY_G>. The"
-	line "road to the"
+	text "<...><PLAY_G>. la"
+	line "route vers le"
+	cont "championnat sera"
+	cont "longue."
 
-	para "championship will"
-	line "be a long one."
-
-	para "Before you leave,"
-	line "make sure that you"
-	cont "talk to your mom."
+	para "Avant de partir,"
+	line "va parler à ta"
+	cont "MAMAN."
 	done
 ; 0x7993c
 
 ElmStudyingEggText: ; 0x7993c
-	text "ELM: Don't give"
-	line "up! I'll call if"
+	text "ORME: N'abandonne"
+	line "pas!"
 
-	para "I learn anything"
-	line "about that EGG!"
+	para "Je t'appelle si je"
+	line "découvre quelque"
+	cont "chose sur l'OEUF."
 	done
 ; 0x7997d
 
 ElmAideHasEggText: ; 0x7997d
-	text "ELM: <PLAY_G>?"
-	line "Didn't you meet my"
-	cont "assistant?"
+	text "ORME: <PLAY_G>?"
+	line "Tu n'as pas vu"
+	cont "mon assistant?"
 
-	para "He should have met"
-	line "you with the EGG"
+	para "Il aurait du te"
+	line "remettre l'OEUF"
+	cont "au centre #MON"
+	cont "de MAUVILLE."
 
-	para "at VIOLET CITY's"
-	line "#MON CENTER."
-
-	para "You must have just"
-	line "missed him. Try to"
-	cont "catch him there."
+	para "Tu l'as peut-être"
+	line "raté, retournes-y"
+	cont "voir."
 	done
 ; 0x79a1b
 
 ElmWaitingEggHatchText: ; 0x79a1b
-	text "ELM: Hey, has that"
-	line "EGG changed any?"
+	text "ORME: Alors, cet"
+	line "OEUF a changé?"
 	done
 ; 0x79a40
 
 UnknownText_0x79a40: ; 0x79a40
-	text "<PLAY_G>? I thought"
-	line "the EGG hatched."
+	text "<PLAY_G>? J'ai cru"
+	line "que cet OEUF avait"
+	cont "éclos?"
 
-	para "Where is the"
-	line "#MON?"
+	para "Ou est le #MON?"
 	done
 ; 0x79a72
 
 ShowElmTogepiText1: ; 0x79a72
-	text "ELM: <PLAY_G>, you"
-	line "look great!"
+	text "ORME: <PLAY_G>, tu"
+	line "as l'air d'aller"
+	cont "bien!"
 	done
 ; 0x79a8b
 
 ShowElmTogepiText2: ; 0x79a8b
-	text "What?"
-	line "That #MON!?!"
+	text "Quoi?"
+	line "Ce #MON!?!"
 	done
 ; 0x79a9f
 
 ShowElmTogepiText3: ; 0x79a9f
-	text "The EGG hatched!"
-	line "So, #MON are"
-	cont "born from EGGS<...>"
+	text "L'OEUF à éclos!"
+	line "Donc les #MON"
+	cont "naissent des OEUF<...>"
 
-	para "No, perhaps not"
-	line "all #MON are."
+	para "Non, peut-être pas"
+	line "tous les #MON."
 
-	para "Wow, there's still"
-	line "a lot of research"
-	cont "to be done."
+	para "Il y a encore"
+	line "tellement de re-"
+	cont "cherches à faire."
 	done
 ; 0x79b1c
 
 ElmGiveEverstoneText1: ; 0x79b1c
-	text "Thanks, <PLAY_G>!"
-	line "You're helping"
+	text "Merci, <PLAY_G>!"
+	line "Tu m'aides à"
+	cont "dévoiler les"
+	cont "mystères des"
+	cont "#MON!"
 
-	para "unravel #MON"
-	line "mysteries for us!"
-
-	para "I want you to have"
-	line "this as a token of"
-	cont "our appreciation."
+	para "Je veux te donner"
+	line "ceci en"
+	cont "remerciement."
 	done
 ; 0x79b8d
 
 ElmGiveEverstoneText2: ; 0x79b8d
-	text "That's an"
-	line "EVERSTONE."
+	text "C'est une PIERRE"
+	line "STASE."
 
-	para "Some species of"
-	line "#MON evolve"
+	para "Certaines espèces"
+	line "de #MON"
+	cont "évoluent quand ils"
+	cont "atteignent le bon"
+	cont "niveau."
 
-	para "when they grow to"
-	line "certain levels."
+	para "Un #MON tenant"
+	line "une PIERRE STASE"
+	cont "n'évoluera pas."
 
-	para "A #MON holding"
-	line "the EVERSTONE"
-	cont "won't evolve."
-
-	para "Give it to a #-"
-	line "MON you don't want"
-	cont "to evolve."
+	para "Donne le à un"
+	line "#MON que tu ne"
+	cont "veux pas évoluer."
 	done
 ; 0x79c37
 
 UnknownText_0x79c37: ; 0x79c37
-	text "ELM: <PLAY_G>, I'll"
-	line "call you if any-"
-	cont "thing comes up."
+	text "ORME: <PLAY_G>, Je"
+	line "t'appelle si il y"
+	cont "a quelque chose."
 	done
 ; 0x79c65
 
 UnknownText_0x79c65: ; 0x79c65
-	text "<...>sigh<...> That"
-	line "stolen #MON."
+	text "<...>soupir<...> Ce"
+	line "#MON volé."
 
-	para "I wonder how it's"
-	line "doing."
+	para "Je me demande"
+	line "comment il va."
 
-	para "They say a #MON"
-	line "raised by a bad"
-
-	para "person turns bad"
-	line "itself."
+	para "On dit qu'un #-"
+	line "MON élevé par une"
+	cont "mauvaise personne"
+	cont "devient aussi"
+	cont "mauvais."
 	done
 ; 0x79cd0
 
 ElmGiveMasterBallText1: ; 0x79cd0
-	text "ELM: Hi, <PLAY_G>!"
-	line "Thanks to you, my"
+	text "ORME: <PLAY_G>!"
 
-	para "research is going"
-	line "great!"
+	para "Grâce à toi, mes"
+	para "recherches avan-"
+	line "cent bien!"
 
-	para "Take this as a"
-	line "token of my"
-	cont "appreciation."
+	para "Prends ceci pour"
+	line "te remercier."
 	done
 ; 0x79d31
 
 ElmGiveMasterBallText2: ; 0x79d31
-	text "The MASTER BALL is"
-	line "the best!"
+	text "La MASTER BALL est"
+	line "la meilleure!"
 
-	para "It's the ultimate"
-	line "BALL! It'll catch"
+	para "Cette BALL capture"
+	line "tous les #MON"
+	cont "sans rater!"
 
-	para "any #MON with-"
-	line "out fail."
+	para "Elle n'est donnée"
+	line "qu'au chercheurs"
+	cont "#MON reconnus."
 
-	para "It's given only to"
-	line "recognized #MON"
-	cont "researchers."
+	para "Mais je pense que"
+	line "tu peux en faire"
 
-	para "I think you can"
-	line "make much better"
-
-	para "use of it than I"
-	line "can, <PLAY_G>!"
+	para "meilleur usage que"
+	line "moi, <PLAY_G>!"
 	done
 ; 0x79df3
 
 ElmGiveTicketText1: ; 0x79df3
-	text "ELM: <PLAY_G>!"
-	line "There you are!"
+	text "ORME: <PLAY_G>!"
+	line "Te voilà!"
 
-	para "I called because I"
-	line "have something for"
-	cont "you."
+	para "Je t'ai appelé car"
+	line "j'ai quelque chose"
+	cont "pour toi."
 
-	para "See? It's an"
-	line "S.S.TICKET."
+	para "C'est un PASSE"
+	line "BATEAU."
 
 	para "Now you can catch"
 	line "#MON in KANTO."
@@ -1350,202 +1339,217 @@ ElmGiveTicketText1: ; 0x79df3
 ; 0x79e6f
 
 ElmGiveTicketText2: ; 0x79e6f
-	text "The ship departs"
-	line "from OLIVINE CITY."
+	text "Ce bâteau part de"
+	line "OLIVILLE."
 
-	para "But you knew that"
-	line "already, <PLAY_G>."
+	para "Mais tu le sais"
+	line "déjà, <PLAY_G>."
 
-	para "After all, you've"
-	line "traveled all over"
-	cont "with your #MON."
+	para "Après tout, tu as"
+	line "voyagé partout"
+	cont "avec tes #MON."
 
-	para "Give my regards to"
-	line "PROF.OAK in KANTO!"
+	para "Passe le bonjour"
+	line "au PROF.CHEN à"
+	cont "KANTO."
 	done
 ; 0x79f0b
 
 UnknownText_0x79f0b: ; 0x79f0b
-	text "It's the #MON"
-	line "EGG being studied"
-	cont "by PROF.ELM."
+	text "C'est l'OEUF #"
+	line "MON étudié par"
+	cont "le PROF.ORME."
 	done
 ; 0x79f38
 
 UnknownText_0x79f38: ; 0x79f38
-	text "<PLAY_G>, I want"
-	line "you to have this"
-	cont "for your errand."
+	text "<PLAY_G>, je veux"
+	line "que tu ais ceci"
+	cont "pour ta course."
 	done
 ; 0x79f65
 
 UnknownText_0x79f65: ; 0x79f65
-	text "There are only two"
-	line "of us, so we're"
-	cont "always busy."
+	text "Nous ne sommes que"
+	line "deux donc nous"
+	cont "sommes toujours"
+	cont "occupés."
 	done
 ; 0x79f95
 
 UnknownText_0x79f95: ; 0x79f95
-	text "There was a loud"
-	line "noise outside<...>"
+	text "Il y a eu un gros"
+	line "bruit dehors<...>"
 
-	para "When we went to"
-	line "look, someone"
-	cont "stole a #MON."
+	para "Quand on est allé"
+	line "voir, un #MON"
+	cont "à été volé"
 
-	para "It's unbelievable"
-	line "that anyone would"
-	cont "do that!"
+	para "Comment quelqu'un"
+	line "peut-il faire ça?"
 
-	para "<...>sigh<...> That"
-	line "stolen #MON."
+	text "<...>soupir<...> Ce"
+	line "#MON volé."
 
-	para "I wonder how it's"
-	line "doing."
+	para "Je me demande"
+	line "comment il va."
 
-	para "They say a #MON"
-	line "raised by a bad"
-
-	para "person turns bad"
-	line "itself."
+	para "On dit qu'un #-"
+	line "MON élevé par une"
+	cont "mauvaise personne"
+	cont "devient aussi"
+	cont "mauvais."
 	done
 ; 0x7a078
 
 UnknownText_0x7a078: ; 0x7a078
 	text "<PLAY_G>!"
 
-	para "Use these on your"
-	line "#DEX quest!"
+	para "Utilise ça dans"
+	line "ta quête!"
 	done
 ; 0x7a09a
 
 UnknownText_0x7a09a: ; 0x7a09a
-	text "These are slightly"
-	line "better than #"
-	cont "BALLS."
+	text "Elles sont mieux"
+	line "que les #BALLS"
+	cont "classique."
 
-	para "It's easier to"
-	line "catch #MON"
-	cont "with them."
+	para "C'est plus facile"
+	line "d'attraper des"
+	cont "#MON avec."
 	done
 ; 0x7a0f0
 
 UnknownText_0x7a0f0: ; 0x7a0f0
-	text "I heard a #MON"
-	line "was stolen here<...>"
+	text "J'ai entendu qu'un"
+	line "#MON à été"
+	cont "volé<...>"
 
-	para "I was just getting"
-	line "some information"
-	cont "from PROF.ELM."
+	para "Je récolte des in-"
+	line "formations auprès"
+	cont "du PROF.ORME."
 
-	para "Apparently, it was"
-	line "a young male with"
-	cont "long, red hair<...>"
+	para "Apparemment, c'est"
+	line "un jeune homme aux"
+	cont "longs cheveux"
+	cont "rouges."
 
-	para "What?"
+	para "Quoi?"
 
-	para "You battled a"
-	line "trainer like that?"
+	para "Tu as combattu un"
+	line "dresseur comme ça?"
 
-	para "Did you happen to"
-	line "get his name?"
+	para "Tu as obtenu"
+	line "son nom?"
 	done
 ; 0x7a1c0
 
 UnknownText_0x7a1c0: ; 0x7a1c0
-	text "OK! So <RIVAL>"
-	line "was his name."
+	text "OK! Donc il"
+	line "s'appelle <RIVAL>."
 
-	para "Thanks for helping"
-	line "my investigation!"
+	para "Merci de nous"
+	line "aider dans notre"
+	cont "enquête!"
 	done
 ; 0x7a1fd
 
 UnknownText_0x7a1fd: ; 0x7a1fd
-	text "The window's open."
+	text "La fenêtre est"
+	line "ouverte."
 
-	para "A pleasant breeze"
-	line "is blowing in."
+	para "Il y a une légère"
+	line "brise de vent."
 	done
 ; 0x7a231
 
 UnknownText_0x7a231: ; 0x7a231
-	text "He broke in"
-	line "through here!"
+	text "Il est entré par"
+	line "ici!"
 	done
 ; 0x7a24c
 
 UnknownText_0x7a24c: ; 0x7a24c
-	text "<PLAYER> opened a"
-	line "book."
+	text "<PLAYER> ouvre un"
+	line "livre."
 
-	para "Travel Tip 1:"
+	para "Astuce de"
+	line "voyage 1:"
 
-	para "Press START to"
-	line "open the MENU."
+	para "Appuie sur START"
+	line "pour ouvrir le"
+	cont "MENU."
 	done
 ; 0x7a28a
 
 UnknownText_0x7a28a: ; 0x7a28a
-	text "<PLAYER> opened a"
-	line "book."
+	text "<PLAYER> ouvre un"
+	line "livre."
 
-	para "Travel Tip 2:"
+	para "Astuce de"
+	line "voyage 2:"
 
-	para "Record your trip"
-	line "with SAVE!"
+	para "Enregistrez vote"
+	line "progression avec"
+	cont "SAUVER."
 	done
 ; 0x7a2c6
 
 UnknownText_0x7a2c6: ; 0x7a2c6
-	text "<PLAYER> opened a"
-	line "book."
+	text "<PLAYER> ouvre un"
+	line "livre."
 
-	para "Travel Tip 3:"
+	para "Astuce de"
+	line "voyage 3:"
 
-	para "Open your PACK and"
-	line "press SELECT to"
-	cont "move items."
+	para "Ouvre votre SAC et"
+	line "appuyez sur SELECT"
+	cont "pour le réorgani-"
+	cont "ser."
 	done
 ; 0x7a315
 
 UnknownText_0x7a315: ; 0x7a315
-	text "<PLAYER> opened a"
-	line "book."
+	text "<PLAYER> ouvre un"
+	line "livre."
 
-	para "Travel Tip 4:"
+	para "Astuce de"
+	line "voyage 4:"
 
-	para "Check your #MON"
-	line "moves. Press the"
 
-	para "A Button to switch"
-	line "moves."
+	para "Vérifiez vos CAPA-"
+	line "CITES. Appuyez sur"
+	cont "A pour changer l'"
+	cont "ordre des"
+	cont "capacités."
 	done
 ; 0x7a370
 
 UnknownText_0x7a370: ; 0x7a370
-	text "The wrapper from"
-	line "the snack PROF.ELM"
-	cont "ate is in there<...>"
+	text "L'emballage du"
+	line "repas du PROF.ORME"
+	cont "est là-dedans<...>"
 	done
 ; 0x7a3a6
 
 UnknownText_0x7a3a6: ; 0x7a3a6
-	text "OBSERVATIONS ON"
-	line "#MON EVOLUTION"
+	text "OBSERVATIONS SUR"
+	line "L'EVOLUTION DES"
+	cont "#MON"
 
-	para "<...>It says on the"
-	line "screen<...>"
+	para "<...>est écrit sur"
+	line "l'écran<...>"
 
-	para "Log PROF.ELM out"
-	line "and use the PC?"
+	para "Déconnecter le"
+	line "PROF.ORME et uti-"
+	cont "liser le PC?"
 	done
 ; 0x7a3de
+
 ElmsLabNoRoomText:
-	text "There's no room in"
-	line "your party or PC"
-	cont "BOX for this!"
+	text "Plus de place dans"
+	line "la boîte ou le PC."
 	done
 
 ElmsLab_MapEventHeader: ; 0x7a3de

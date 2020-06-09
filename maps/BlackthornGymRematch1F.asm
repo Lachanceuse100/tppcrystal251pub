@@ -178,183 +178,192 @@ CooltrainerfLolaRematchScript: ; 0x194ece
 
 
 CooltrainermPaulSeenRematchText: ; 0x195396
-	text "You've fought"
-	line "dragons before<...>"
+	text "Tu as déjà combat-"
+	line "tu des dragons<...>"
 
-	para "But I'll show you"
-	line "their strength!"
+	para "Mais je vais te"
+	line "montrer leur"
+	cont "vrai force!"
 	done
 ; 0x1953db
 
 CooltrainermPaulBeatenRematchText: ; 0x1953db
-	text "My dragon #MON"
-	line "lost? Again?"
+	text "Mon #MON DRAGON"
+	line "a encore perdu?"
 	done
 ; 0x1953f1
 
 CooltrainerPaulAfterRematch: ; 0x1953f1
-	text "Hope you're ready"
-	line "to fight CLAIR"
-	cont "at her best!"
+	text "Bon courage pour"
+	line "battre SANDRA a"
+	cont "son meilleur"
+	cont "niveau!"
 	done
 ; 0x19542f
 
 CooltrainermMikeSeenRematchText: ; 0x19542f
-	text "My chances of"
-	line "losing? Not even"
-	para "a fraction of a"
-	line "percent this time!"
+	text "Mes chances de"
+	line "perdre? Même pas"
+	para "une fraction d'un"
+	line "pour cent!"
 	done
 ; 0x19545b
 
 CooltrainermMikeBeatenRematchText: ; 0x19545b
-	text "That's strange<...>"
-	line "What's this<...>?"
+	text "Etrange<...> Qu'"
+	line "est-ce que ça peut"
+	cont "bien être?"
 	done
 ; 0x195467
 
 CooltrainerMikeAfterRematch: ; 0x195467
-	text "I guess I haven't"
-	line "strengthened my"
-	cont "weaknesses enough!"
+	text "Je n'ai pas assez"
+	line "comblé mes"
+	cont "lacunes!"
 	done
 ; 0x19549d
 
 CooltrainerfLolaSeenRematchText: ; 0x19549d
-	text "Dragons will"
-	line "always be sacred."
+	text "Les dragons seront"
+	line "toujours sacrés."
 
-	para "Their life energy"
-	line "flows through us"
-	cont "all!"
+	para "Leur énergie vi-"
+	line "tale s'écoule en"
+	cont "nous tous!"
 	done
 ; 0x19550a
 
 CooltrainerfLolaBeatenRematchText: ; 0x19550a
-	text "Ack! Again!"
+	text "Arg! Encore!"
 	done
 ; 0x195516
 
 CooltrainerLolaAfterRematch: ; 0x195516
-	text "Dragons might be"
-	line "weak to dragon-"
-	cont "type moves<...>"
+	text "Les dragons sont"
+	line "peut-être faibles"
+	cont "face aux attaques"
+	cont "de types DRAGON."
 
-	para "But they still"
-	line "put up a fight!"
+	para "Mais ils savent"
+	line "se battre!"
 	done
 ; 0x195544
 
 ClairMeetMeInDragonsDenText:
-	text "Let me guess."
+	text "Laisse-moi"
+	line "deviner<...>"
 
-	para "You want a rematch"
-	line "with me?"
+	para "Tu veux une"
+	line "revanche?"
 
-	para "Fine. Meet me at"
-	line "the DRAGON SHRINE."
+	para "Très bien. Rendez-"
+	line "vous a l'AUTEL DU"
+	cont "DRAGON."
 
-	para "You know where"
-	line "that is, right?"
+	para "Tu te souviens où"
+	line "c'est?"
 
-	para "I will meet you"
-	line "there."
+	para "Je t'attends là-"
+	line "bas."
 	done
 
 ClairRejectNoMtMoonText:
-	text "Let me guess."
+	text "Laisse-moi"
+	line "deviner<...>"
 
-	para "You want a rematch"
-	line "with me?"
+	para "Tu veux une"
+	line "revanche?"
 
-	para "It'll have to be"
-	line "later."
+	para "Ce sera plus tard."
 
-	para "I'm training with"
-	line "the elders today."
+	para "Je m'entraîne avec"
+	line "les aînés aujourd'"
+	cont "hui?"
 
 	done
 
 ClairRejectText:
-	text "Let me guess."
+	text "Laisse-moi"
+	line "deviner<...>"
 
-	para "You want a rematch"
-	line "with me?"
+	para "Tu veux une"
+	line "revanche?"
 
-	para "While I'd love to"
-	line "have another go"
-	cont "with you<...>"
+	para "Ce n'est pas"
+	line "l'envie qui me"
+	cont "manque<...>"
 
-	para "There's this red-"
-	line "haired boy who's"
+	para "Il y a ce garçon"
+	line "au cheveux rouge"
 
-	para "been training in"
-	line "the DRAGON'S DEN."
+	para "qui s'entraîne à"
+	line "l'ANTRE du DRAGON."
 
-	para "He keeps talking"
-	line "about how he needs"
+	para "Il fait une fixa-"
+	line "tion sur son"
 
-	para "to become stronger"
-	line "so he can stand up"
-	cont "to you."
+	para "besoin d'être plus"
+	line "fort pour se mesu-"
+	cont "rer à toi."
 
-	para "I think I've seen"
-	line "him around INDIGO"
-	cont "PLATEAU a few days"
-	cont "during the week."
+	para "Je l'ai vu tourner"
+	line "autour du PLATEAU"
+	cont "INDIGO certains"
+	cont "jours de la"
+	cont "semaine."
 
-	para "I'll get ready"
-	line "while you deal"
-	cont "with that."
+	para "Je me prépare pen-"
+	line "dant que tu règles"
+	cont "cette histoire."
 
 	done
 
 ClairFullyDefeatedText:
-	text "Thank you for the"
-	line "rematch."
+	text "Merci pour cette"
+	line "revanche."
 
-	para "It's always been"
-	line "a dream of mine"
-	para "to fight a trainer"
-	line "as powerful as"
-	cont "you, <PLAY_G>."
+	para "Etre un dresseur"
+	line "aussi fort que toi"
+	para "a toujours été mon"
+	line "rêve, <PLAY_G>"
 
-	para "I could not have"
-	line "imagined a better"
+	para "Je n'aurais pas pu"
+	line "imaginer un meil-"
 	
-	para "place than the"
-	line "DRAGON SHRINE to"
+	para "leur endroit que"
+	line "l'AUTEL du DRAGON"
 	
-	para "face such a worthy"
-	line "opponent."
+	para "pour affronter un"
+	line "adversaire comme"
+	cont "toi."
 
-	para "Good luck on"
-	line "your journey."
+	para "Bonne chance pour"
+	line "la suite!"
 
 	done
 
 BlackthornGym2GuyText:
-	text "Yo, CHAMP!"
+	text "Salut, CHAMPION!"
 
-	para "Looks like CLAIR"
-	line "did some re-"
-	cont "modeling while you"
-	cont "were away!"
+	para "SANDRA a remodelé"
+	line "son arène pendant"
+	cont "ton absence!"
 
-	para "<...>I wonder when"
-	line "she found the"
-	cont "time to do this<...>"
+	para "<...>Je ne sais pas"
+	line "quand elle a trou-"
+	cont "vé le temps de"
+	cont "faire ça<...>"
 	done
 
 BlackthornGym2GuyWinText:
-	text "I heard the news!"
+	text "J'ai appris la"
+	line "nouvelle!"
 
-	para "I wish I could"
-	line "have seen the"
-	cont "battle!"
+	para "J'aurais aimé voir"
+	line "le combat!"
 
-	para "Congratulations,"
-	line "CHAMP!"
+	para "Félicitations,"
+	line "CHAMPION!"
 	done
 	
 ClairPostgameRematchScript:
@@ -374,33 +383,33 @@ ClairPostgameRematchScript:
     end
 	
 ClairPostgameRematchText:
-	text "Welcome, <PLAY_G>."
+	text "Bienvenue, <PLAY_G>."
 
-	para "It may not be"
-	line "the DRAGON'S DEN<...>"
+	para "Ce n'est peut-être"
+	line "pas l'AUTEL du"
+	cont "DRAGON<...>"
 
-	para "But do you wish to"
-	line "face me here?"
+	para "Mais veux-tu com-"
+	line "battre ici?"
 
 	done
 	
 ClairPostgameBeatenText:
 	text "<...>"
 	
-	para "And yet again,"
-	line "I've been bested."
+	para "Encore une fois,"
+	line "je suis battue."
 	done
 	
 ClairPostgameAfterText:
+	text "Tu es un dresseur"
+	line "unique en ton"
+	cont "genre."
 
-	text "You truly are a"
-	line "one-of-a-kind"
-	cont "trainer."
-
-	para "I must continue"
-	line "my own training."
+	para "Je dois continuer"
+	line "mon entraînement."
 	
-	para "Stay strong,"
+	para "Bon courage,"
 	line "<PLAY_G>."
 	done
 

@@ -15,25 +15,27 @@ YoungsterScript_0x7b5be: ; 0x7b5be
 ; 0x7b5c1
 
 UnknownText_0x7b5c1: ; 0x7b5c1
-	text "You can't climb"
-	line "ledges."
+	text "Tu ne peux pas"
+	line "grimper les"
+	cont "rebords."
 
-	para "But you can jump"
-	line "down from them to"
-	cont "take a shortcut."
+	para "Mais tu peux les"
+	line "descendre pour"
+	cont "prendre un"
+	cont "raccourci."
 	done
 ; 0x7b60d
 
 UnknownText_0x7b60d: ; 0x7b60d
-	text "Different kinds of"
-	line "#MON appear"
-	cont "past here."
+	text "Différentes sortes"
+	line "de #MON se"
+	cont "trouvent par ici."
 
-	para "If you want to"
-	line "catch them all,"
+	para "Si tu veux tous"
+	line "les attraper, il"
 
-	para "you have to look"
-	line "everywhere."
+	para "faut que tu"
+	line "regardes partout."
 	done
 ; 0x7b674
 

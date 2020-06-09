@@ -276,139 +276,140 @@ MovementData_0x198148: ; 0x198148
 ; 0x19814d
 
 UnknownText_0x19814d: ; 0x19814d
-	text "<...>Tell me some-"
-	line "thing."
+	text "<...>Dis-moi."
 
-	para "Is it true that"
-	line "TEAM ROCKET has"
-	cont "returned?"
+	para "C'est vrai que la"
+	line "TEAM ROCKET est"
+	cont "revenue?"
 
-	para "What? You beat"
-	line "them? Hah! Quit"
-	cont "lying."
+	para "Quoi? Tu les as"
+	line "battus? Hah! Mais"
+	cont "bien sûr<...>"
 
-	para "You're not joking?"
-	line "Then let's see how"
-	cont "good you are."
+	para "Tu es sérieux?"
+	line "Alors voyons si"
+	cont "t'es si balèze."
 	done
 ; 0x1981e6
 
 UnknownText_0x1981e6: ; 0x1981e6
-	text "<...> Humph! Useless"
-	line "#MON!"
+	text "<...> Pfff! Quels"
+	line "#MON inutiles!"
 
-	para "Listen, you. You"
-	line "only won because"
-
-	para "my #MON were"
-	line "weak."
+	para "Ecoute moi bien,"
+	line "t'as gagné parce"
+	cont "que mes #MON"
+	cont "sont faibles!"
 	done
 ; 0x198233
 
 UnknownText_0x198233: ; 0x198233
-	text "I hate the weak."
+	text "Je déteste les"
+	line "faibles!"
 
-	para "#MON, trainers."
-	line "It doesn't matter"
-	cont "who or what."
+	para "#MON ou"
+	line "dresseurs<...>"
+	
+	para "Peu importe qui"
+	line "ou quoi."
 
-	para "I'm going to be"
-	line "strong and wipe"
-	cont "out the weak."
+	para "Je serais fort et"
+	line "j'écraserai les"
+	cont "faibles."
 
-	para "That goes for TEAM"
-	line "ROCKET too."
+	para "Ca vaut aussi pour"
+	line "la TEAM ROCKET."
 
-	para "They act big and"
-	line "tough in a group."
+	para "Ils font les durs"
+	line "quand ils sont en"
+	cont "groupe."
 
-	para "But get them"
-	line "alone, and they're"
-	cont "weak."
+	para "Mais prends les à"
+	line "part et ils valent"
+	cont "rien."
 
-	para "I hate them all."
+	para "Je les hais tous."
 
-	para "You stay out of my"
-	line "way. A weakling"
+	para "Reste en dehors"
+	line "de mon chemin."
 
-	para "like you is only a"
-	line "distraction."
+	para "Tu n'es à peine"
+	line "qu'un défouloir."
 	done
 ; 0x19835b
 
 UnknownText_0x19835b: ; 0x19835b
-	text "<...>Humph! I knew"
-	line "you were lying."
+	text "<...>Pfeuh! Je"
+	line "savais que tu"
+	cont "mentais."
 	done
 ; 0x19837b
 
 UnknownText_0x19837b: ; 0x19837b
-	text "It's unsafe to go"
-	line "in there, so I'm"
-	cont "standing guard."
+	text "C'est dangereux"
+	line "d'entrer ici, je"
+	cont "monte la garde."
 
-	para "Aren't I a good"
-	line "Samaritan?"
+	para "Je suis cool, tu"
+	line "trouves pas?"
 	done
 ; 0x1983c7
 
 UnknownText_0x1983c7: ; 0x1983c7
-	text "Do you know about"
-	line "SLOWPOKETAIL? I"
-	cont "heard it's tasty!"
+	text "Tu connais la"
+	line "QUEUERAMOLOS? Il"
+	cont "paraît que c'est"
+	cont "délicieux!"
 
-	para "Aren't you glad I"
-	line "told you that?"
+	para "C'est pas génial"
+	line "de savoir ça?"
 	done
 ; 0x19841b
 
 UnknownText_0x19841b: ; 0x19841b
-	text "The SLOWPOKE have"
-	line "disappeared from"
-	cont "town<...>"
+	text "Les RAMOLOSS ont"
+	line "disparu de la"
+	cont "ville<...>"
 
-	para "I heard their"
-	line "TAILS are being"
-	cont "sold somewhere."
+	para "Il paraît qu'on"
+	line "vends leur QUEUE"
+	cont "quelque part."
 	done
 ; 0x198473
 
 UnknownText_0x198473: ; 0x198473
-	text "The SLOWPOKE have"
-	line "returned."
+	text "Les RAMOLOSS sont"
+	line "revenus."
 
-	para "Knowing them, they"
-	line "could've just been"
-
-	para "goofing off some-"
-	line "where."
+	para "Ils devaient juste"
+	line "traîner quelque"
+	cont "part<...>"
 	done
 ; 0x1984ce
 
 UnknownText_0x1984ce: ; 0x1984ce
-	text "Did you come to"
-	line "get KURT to make"
-	cont "some BALLS?"
+	text "Tu es ici pour"
+	line "FARGAS, le fabri-"
+	cont "quant de BALLS?"
 
-	para "A lot of people do"
-	line "just that."
+	para "Il n'y a pas que"
+	line "toi."
 	done
 ; 0x19851a
 
 UnknownText_0x19851a: ; 0x19851a
-	text "Cut through AZALEA"
-	line "and you'll be in"
-	cont "ILEX FOREST."
+	text "A travers ECORCIA"
+	line "et tu te retrou-"
+	cont "veras au BOIS AUX"
+	cont "CHENES."
 
-	para "But these skinny"
-	line "trees make it"
+	para "Mais ces petits"
+	line "arbustes bloquent"
+	cont "le chemin."
 
-	para "impossible to get"
-	line "through."
-
-	para "The CHARCOAL MAN's"
-	line "#MON can CUT"
-	cont "down trees."
+	para "Le #MON du"
+	line "CHARBONNIER peut"
+	cont "les couper."
 	done
 ; 0x1985b0
 
@@ -417,92 +418,101 @@ UnknownText_0x1985b0: ; 0x1985b0
 
 	para $56, " ", $56, " ", $56
 	done
+
 ; 0x1985c3
 
 UnknownText_0x1985c3: ; 0x1985c3
-	text $56, " ", $56, "Yawn?"
+	text $56, " ", $56, "gueuh?"
 	done
 ; 0x1985cd
 
 WoosterText: ; 0x1985cd
-	text "WOOSTER: Gugyoo<...>"
+	text "AXOLOTTE: Axo<...>"
 	done
 ; 0x1985df
 
 UnknownText_0x1985df: ; 0x1985df
-	text "ILEX FOREST is"
-	line "restless!"
+	text "Le BOIS AUX CHENES"
+	line "s'agite!"
 
-	para "What is going on?"
+	para "Mais qu'est-ce"
+	line "qu'il se passe?"
 	done
 ; 0x19860b
 
 UnknownText_0x19860b: ; 0x19860b
-	text "<PLAYER>, here's"
-	line "your GS BALL back!"
+	text "<PLAYER>, je te"
+	line "rends ta GS BALL!"
 	done
 ; 0x198628
 
 UnknownText_0x198628: ; 0x198628
-	text "Could you go see"
-	line "why ILEX FOREST is"
-	cont "so restless?"
+	text "Tu peux aller voir"
+	line "pourquoi le BOIS"
+	cont "AUX CHENES est"
+	cont "aussi agité?"
 	done
 ; 0x19865a
 
 UnknownText_0x19865a: ; 0x19865a
-	text "AZALEA TOWN"
-	line "Where People and"
+	text "ECORCIA"
 
-	para "#MON Live in"
-	line "Happy Harmony"
+	para "La où #MON et"
+	line "humains vivent"
+	cont "en harmonie."
 	done
 ; 0x198693
 
 UnknownText_0x198693: ; 0x198693
-	text "KURT'S HOUSE"
+	text "MAISON DE FARGAS"
 	done
 ; 0x1986a1
 
 UnknownText_0x1986a1: ; 0x1986a1
-	text "AZALEA TOWN"
-	line "#MON GYM"
-	cont "LEADER: BUGSY"
+	text "ECORCIA"
+	line "ARENE #MON"
 
-	para "The Walking"
-	line "Bug #MON"
-	cont "Encyclopedia"
+	para "CHAMPION:"
+	line "HECTOR"
+
+	para "L'encyclopédie des"
+	line "#MON INSECTE"
+	cont "sur pattes."
 	done
 ; 0x1986e7
 
 UnknownText_0x1986e7: ; 0x1986e7
-	text "SLOWPOKE WELL"
+	text "PUITS RAMOLOSS"
 
-	para "Also known as the"
-	line "RAINMAKER WELL."
+	para "Aussi connu sous"
+	line "le nom de PUITS"
+	cont "DE PLUIE."
 
-	para "Locals believe"
-	line "that a SLOWPOKE's"
-	cont "yawn summons rain."
+	para "Le gens du coin"
+	line "pensent que le"
+	cont "baillement du"
+	cont "RAMOLOSS invoque"
+	cont "la pluie."
 
-	para "Records show that"
-	line "a SLOWPOKE's yawn"
-
-	para "ended a drought"
-	line "400 years ago."
+	para "Les archives mon-"
+	line "trent qu'un"
+	cont "baillement de"
+	cont "RAMOLOSS a mis fin"
+	cont "à 400 ans de"
+	cont "sécheresse."
 	done
 ; 0x19878d
 
 UnknownText_0x19878d: ; 0x19878d
-	text "CHARCOAL KILN"
+	text "FOUR A CHARBON"
 	done
 ; 0x19879c
 
 UnknownText_0x19879c: ; 0x19879c
-	text "ILEX FOREST"
+	text "BOIS AUX CHENES"
 
-	para "Enter through the"
-	line "gate."
+	para "Entrez par la"
+	line "porte."
 	done
 ; 0x1987c1
 

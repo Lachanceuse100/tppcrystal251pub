@@ -22,52 +22,54 @@ UnknownText_0x7b1f7: ; 0x7b1f7
 ; 0x7b1f9
 
 UnknownText_0x7b1f9: ; 0x7b1f9
-	text "There's something"
-	line "written here."
+	text "Il y a quelque"
+	line "chose d'écrit."
 
-	para "Read it?"
+	para "Lire?"
 	done
 ; 0x7b222
 
 UnknownText_0x7b222: ; 0x7b222
-	text "To my brothers and"
-	line "sisters:"
+	text "A mes frères et"
+	line "soeurs:"
 
-	para "We take pride in"
-	line "serving #MON"
-	cont "trainers."
+	para "Nous prenons fier-"
+	line "té a aider les"
+	cont "dresseurs de"
+	cont "#MON."
 
-	para "When trainers talk"
-	line "to you, give them"
-	cont "something useful."
+	para "Quand un dresseur"
+	line "vient vous parler,"
+	cont "donnez-lui un"
+	cont "objet utile."
 
-	para "Love,"
-	line "MONICA"
+	para "Bisous,"
+	line "LUCIE"
 
-	para "Keep reading?"
+	para "Continuer à lire?"
 	done
 ; 0x7b2b9
 
 UnknownText_0x7b2b9: ; 0x7b2b9
-	text "Monday, MONICA"
+	text "Lundie, LUCIE"
 	line "ROUTE 40"
 
-	para "Tuesday, TUSCANY"
+	para "Mardi, MARIE"
 	line "ROUTE 29"
 
-	para "Wednesday, WESLEY"
-	line "LAKE OF RAGE"
+	para "Mercredi, HOMER"
+	line "LAC COLERE"
 
-	para "Thursday, ARTHUR"
+	para "Jeudi, JEROME"
 	line "ROUTE 36"
 
-	para "Friday, FRIEDA"
+	para "Vendredi, VANESSA"
 	line "ROUTE 32"
 
-	para "Saturday, SANTOS"
-	line "BLACKTHORN CITY"
+	para "Samedi, SAMUEL"
+	line "EBENELLE"
 
-	para "Sunday, SUNNY"
+	para "Dimanche, DIMITRI"
 	line "ROUTE 37"
 	done
 ; 0x7b375

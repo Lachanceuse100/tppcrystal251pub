@@ -11,11 +11,11 @@ OfficerScript_0x19a4b5: ; 0x19a4b5
 ; 0x19a4b8
 
 UnknownText_0x19a4b8: ; 0x19a4b8
-	text "MT.MORTAR is like"
-	line "a maze inside."
+	text "Le MONT CREUSET"
+	line "est un labyrinthe."
 
-	para "Be careful. Don't"
-	line "get lost in there."
+	para "Fais attention à"
+	line "ne pas te perdre."
 	done
 ; 0x19a4fe
 

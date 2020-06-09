@@ -406,196 +406,201 @@ MapNationalParkSignpostItem2: ; 0x5c1d0
 ; 0x5c1d3
 
 UnknownText_0x5c1d3: ; 0x5c1d3
-	text "Look! Check out my"
-	line "bag!"
+	text "Regarde mon sac!"
 
-	para "I printed out my"
-	line "favorites from my"
+	para "J'ai imprimé mes"
+	line "préférés de mon"
 
-	para "#DEX and stuck"
-	line "them on my bag."
+	para "#DEX et je les ais"
+	line "mis sur mon sac."
 	done
 ; 0x5c22e
 
 UnknownText_0x5c22e: ; 0x5c22e
-	text "This is MAIL I got"
-	line "from my daughter."
-	cont "It cheers me up."
+	text "C'est une LETTRE"
+	line "de ma fille."
+	cont "C'est cool, hein?"
 	done
 ; 0x5c265
 
 UnknownText_0x5c265: ; 0x5c265
-	text "Pay attention,"
-	line "please!"
+	text "Où est ton cahier?"
 
-	para "<...>Oops, I have to"
-	line "quit thinking like"
+	para "<...>Heu, pardon."
+	line "Etre maîtresse"
 
-	para "a teacher all the"
-	line "time."
+	para "d'école donne de"
+	line "petites manies."
 
-	para "You must be a"
-	line "#MON trainer."
+	para "Tu es un dresseur"
+	line "#MON?"
 
-	para "Since you're work-"
-	line "ing so hard, I"
+	para "Etre élève modèle"
+	line "mértie un petit"
 
-	para "want you to have"
-	line "this."
+	para "quelque chose."
+	line "Tiens donc!"
 	done
 ; 0x5c30d
 
 UnknownText_0x5c30d: ; 0x5c30d
-	text "Let a #MON hold"
-	line "that QUICK CLAW."
+	text "Fais tenir cette"
+	line "VIVE GRIFFE à un"
+	cont "#MON."
 
-	para "Sometimes it will"
-	line "strike first"
-	cont "during battle."
+	para "Il frappera plus"
+	line "souvent en premier"
+	cont "en combat."
 	done
 ; 0x5c35d
 
 UnknownText_0x5c35d: ; 0x5c35d
-	text "I'm playing with"
-	line "stickers I printed"
-	cont "from my #DEX."
+	text "Je m'amuse avec"
+	line "les autocollants"
+	cont "que j'ai imprimés"
+	cont "de mon #DEX."
 	done
 ; 0x5c38f
 
 UnknownText_0x5c38f: ; 0x5c38f
-	text "I get the other"
-	line "guy's #DEX"
-	cont "sticker if I win."
+	text "Je gagne les auto-"
+	line "collants du #-"
+	cont "DEX de l'adversai-"
+	cont "re si je le bats."
 	done
 ; 0x5c3bc
 
 UnknownText_0x5c3bc: ; 0x5c3bc
-	text "I take walks in"
-	line "the PARK, but I"
+	text "Je me promène dans"
+	line "le PARC mais je ne"
 
-	para "never go into the"
-	line "grass."
+	para "vais jamais dans"
+	line "l'herbe."
 
-	para "Trainers always"
-	line "want to battle<...>"
+	para "Les dresseurs veu-"
+	line "lent toujours se"
+	cont "battre<...>"
 	done
 ; 0x5c416
 
 UnknownText_0x5c416: ; 0x5c416
-	text "PERSIAN: Fufushaa!"
+	text "PERSIAN: Siaaaan!"
 	done
 ; 0x5c42a
 
 UnknownText_0x5c42a: ; 0x5c42a
-	text "I'm printing out"
-	line "my #DEX."
+	text "J'imprime mon"
+	line "#DEX."
 
-	para "You can also print"
-	line "out stuff like"
+	para "On peut aussi im-"
+	line "primer des trucs"
 
-	para "MAIL and your PC"
-	line "BOXES."
+	para "comme les LETTRES"
+	line "ou les BOITES PC."
 	done
 ; 0x5c47e
 
 SchoolboyJack1SeenText: ; 0x5c47e
-	text "The world of"
-	line "#MON is deep."
+	text "Grand est le monde"
+	line "des #MON."
 
-	para "There are still"
-	line "lots of things we"
-	cont "don't know."
+	para "Tant de choses"
+	line "sont encore incon-"
+	cont "nues."
 
-	para "But I know more"
-	line "than you do!"
+	para "Mais moi<...> J'en"
+	line "sais plus que toi!"
 	done
 ; 0x5c4e4
 
 SchoolboyJack1BeatenText: ; 0x5c4e4
-	text "Wha-wha-what?"
+	text "Qu-qu-quoi?"
 	done
 ; 0x5c4f3
 
 UnknownText_0x5c4f3: ; 0x5c4f3
-	text "Optimizing moves"
-	line "on #MON require"
-	cont "hard work."
+	text "C'est dur d'opti-"
+	line "miser les capaci-"
+	cont "tés des #MON."
 
-	para "For example<...>"
+	para "Par exemple<...>"
 
-	para "You can use TMs,"
-	line "breed for egg"
-	cont "moves<...>"
+	para "Tu peux utiliser"
+	line "des CT, ou les"
+	cont "faire se reprodui-"
+	cont "re pour des capa-"
+	cont "cités exclusives."
 
-	para "There are also"
-	line "move tutors."
+	para "Il y a aussi les"
+	line "maîtres de"
+	cont "capacités."
 	done
 ; 0x5c552
 
 PokefanfBeverly1SeenText: ; 0x5c552
-	text "My #MON are"
-	line "simply darling."
+	text "Mes #MON sont"
+	line "les meilleurs."
 
-	para "Let me tell you"
-	line "how proud my"
-	cont "darlings make me."
+	para "Je suis tellement"
+	line "fière de mes"
+	cont "petits chéris."
 	done
 ; 0x5c59e
 
 PokefanfBeverly1BeatenText: ; 0x5c59e
-	text "I can beat you in"
-	line "pride, but<...>"
+	text "L'honneur est"
+	line "sauf<...>"
 	done
 ; 0x5c5bd
 
 UnknownText_0x5c5bd: ; 0x5c5bd
-	text "I must say, your"
-	line "#MON are quite"
-	cont "cute, too."
+	text "Je dois dire, tes"
+	line "#MON aussi sont"
+	cont "mignons."
 	done
 ; 0x5c5e9
 
 PokefanmWilliamSeenText: ; 0x5c5e9
-	text "We adore our #-"
-	line "MON, even if they"
-	cont "dislike us."
+	text "On adore les #-"
+	line "MON, même si eux"
+	cont "nous détestent."
 
-	para "That's what being"
-	line "a FAN is about."
+	para "C'est ça être un"
+	line "vrai FAN."
 	done
 ; 0x5c639
 
 PokefanmWilliamBeatenText: ; 0x5c639
-	text "M-my #MON!"
+	text "M-mon #MON!"
 	done
 ; 0x5c645
 
 UnknownText_0x5c645: ; 0x5c645
-	text "I lost the battle,"
-	line "but my #MON win"
+	text "Je perds le combat"
+	line "mais mes #MON"
 
-	para "the prize for"
-	line "being most lovely."
+	para "sont de loin les"
+	line "plus beaux.."
 	done
 ; 0x5c68a
 
 UnknownText_0x5c68a: ; 0x5c68a
-	text "My friend keeps a"
+	text "Une amie a un"
 	line "MARILL!"
 
-	para "I find them very"
-	line "endearing."
+	para "Je les trouves"
+	line "trop mignon."
 
-	para "Oh, I wish for a"
-	line "MARILL of my own<...>"
+	para "J'adorerais avoir"
+	line "un MARILL<...>"
 	done
 ; 0x5c6e4
 
 LassKriseSeenText: ; 0x5c6e4
-	text "Hello? Why are you"
-	line "staring at me?"
+	text "Bonjour? Pourquoi"
+	line "tu me regardes?"
 
-	para "Oh, a battle?"
+	para "Oh, un combat? OK!"
 	done
 ; 0x5c715
 
@@ -605,36 +610,38 @@ LassKriseBeatenText: ; 0x5c715
 ; 0x5c71d
 
 UnknownText_0x5c71d: ; 0x5c71d
-	text "I thought you were"
-	line "staring at me"
-	cont "because I'm cute!"
+	text "Je pensais que tu"
+	line "me regardais parce"
+	cont "que j'étais"
+	cont "mignonne!"
 	done
 ; 0x5c750
 
 UnknownText_0x5c750: ; 0x5c750
-	text "RELAXATION SQUARE"
-	line "NATIONAL PARK"
+	text "AIRE DE REPOS du"
+	line "PARC NATUREL"
 	done
 ; 0x5c771
 
 UnknownText_0x5c771: ; 0x5c771
-	text "What is this"
-	line "notice?"
+	text "C'est quoi cette"
+	line "affiche?"
 
-	para "Please battle only"
-	line "in the grass."
+	para "Se battre unique-"
+	line "ment dans l'herbe."
 
-	para "NATIONAL PARK"
-	line "WARDEN'S OFFICE"
+	para "LE GARDIEN DU"
+	line "PARC NATUREL."
 	done
 ; 0x5c7c6
 
 UnknownText_0x5c7c6: ; 0x5c7c6
-	text "TRAINER TIPS"
+	text "ASTUCE"
 
-	para "Print out MAIL by"
-	line "opening it then"
-	cont "pressing START."
+	para "Imprimer les"
+	line "LETTRES en les"
+	cont "ouvrant et appuyer"
+	cont "sur START."
 	done
 ; 0x5c806
 

@@ -52,63 +52,67 @@ MapGoldenrodBikeShopSignpost8Script: ; 0x54784
 ; 0x54787
 
 UnknownText_0x54787: ; 0x54787
-	text "<...>sigh<...> I moved"
-	line "here, but I can't"
+	text "<...><...>"
+	line "J'ai déménagé ici"
 
-	para "sell my BICYCLES."
-	line "Why is that?"
+	para "mais je n'arrive"
+	line "pas à vendre mes"
 
-	para "Could you ride a"
-	line "BICYCLE and adver-"
-	cont "tise for me?"
+	para "BICYCLETTES."
+	line "Pourquoi?"
+
+	para "Pourrais-tu faire"
+	line "de la BICYCLETTE"
+	cont "et me faire de la"
+	cont "pub?"
 	done
 ; 0x547f8
 
 UnknownText_0x547f8: ; 0x547f8
-	text "Really? Great!"
+	text "Vraiment? Génial!"
 
-	para "Give me your name"
-	line "and phone number,"
+	para "Donne-moi ton nom"
+	line "et ton numéro de"
+	cont "téléphone et je te"
 
-	para "and I'll loan you"
-	line "a BICYCLE."
+	para "prêterai une"
+	line "BICYCLETTE."
 	done
 ; 0x54848
 
 UnknownText_0x54848: ; 0x54848
-	text "<PLAYER> borrowed a"
-	line "BICYCLE."
+	text "<PLAYER> emprunte"
+	line "une BICYCLETTE."
 	done
 ; 0x5485f
 
 UnknownText_0x5485f: ; 0x5485f
-	text "My BICYCLES are"
-	line "first-rate! You"
+	text "Mes BICYCLETTES"
+	line "sont trop bien!"
 
-	para "can ride them"
-	line "anywhere."
+	para "Tu peux en faire"
+	line "partout."
 	done
 ; 0x54898
 
 UnknownText_0x54898: ; 0x54898
-	text "<...>sigh<...> Oh, for"
-	line "the kindness of"
-	cont "people<...>"
+	text "<...><...>"
+	line "Que dire de plus<...>"
 	done
 ; 0x548c0
 
 ; possibly unused
 UnknownText_0x548c0: ; 0x548c0
-	text "Just released!"
+	text "Nouveau modèle!"
 
-	para "First-rate compact"
-	line "BICYCLES!"
+	para "La BICYCLETTE"
+	line "compacte!"
 	done
 ; 0x548ed
 
 UnknownText_0x548ed: ; 0x548ed
-	text "It's a shiny new"
-	line "BICYCLE!"
+	text "Une BICYCLETTE"
+	line "flambant neuve!"
 	done
 ; 0x54907
 

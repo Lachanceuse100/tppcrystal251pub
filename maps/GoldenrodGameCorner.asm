@@ -154,9 +154,9 @@ MenuDataHeader_0x56cc9: ; 0x56cc9
 MenuData2_0x56cd1: ; 0x56cd1
 	db $80 ; flags
 	db 4 ; items
-	db "TM07    3000@"
-	db "TM32    3000@"
-	db "UP-GRADE 999@"
+	db "CT07    3000@"
+	db "CT32    3000@"
+	db "EVOLUTOR 999@"
 	db "CANCEL@"
 ; 0x56d01
 
@@ -297,9 +297,9 @@ MenuData2_0x56db8: ; 0x56db8
 	db $80 ; flags
 	db 4 ; items
 	db "PORYGON    2000@"
-	db "LAPRAS     2000@"
-	db "GRIMER      500@"
-	db "CANCEL@"
+	db "LOHKLASS   2000@"
+	db "TADMORV     500@"
+	db "ANNULER@"
 ; 0x56df1
 
 
@@ -445,207 +445,215 @@ MapGoldenrodGameCornerSignpost29Script: ; 0x56e49
 ; 0x56e50
 
 UnknownText_0x56e50: ; 0x56e50
-	text "Welcome!"
+	text "Bienvenue!"
 
-	para "We exchange your"
-	line "game coins for"
-	cont "fabulous prizes!"
+	para "Nous échangeons"
+	line "vos jetons contre"
+	cont "de fabuleux prix!"
 	done
 ; 0x56e8b
 
 UnknownText_0x56e8b: ; 0x56e8b
-	text "Which prize would"
-	line "you like?"
+	text "Quel prix désirez-"
+	line "vous?"
 	done
 ; 0x56ea8
 
 UnknownText_0x56ea8: ; 0x56ea8
 	text_from_ram StringBuffer3
 	text "."
-	line "Is that right?"
+	line "C'est bien ça?"
 	done
 ; 0x56ebd
 
 UnknownText_0x56ebd: ; 0x56ebd
-	text "Here you go!"
+	text "Voilà pour vous!"
 	done
 ; 0x56ecb
 
 GCSentToPCText:
-	text "We have sent the"
-	line "#MON to BILL's"
-	cont "PC for you."
+	text "Le #MON est en-"
+	line "voyé au PC de LEO."
 	done
 
 UnknownText_0x56ecb: ; 0x56ecb
-	text "Sorry! You need"
-	line "more coins."
+	text "Désolé! Il faut"
+	line "plus de jetons."
 	done
 ; 0x56ee8
 
 UnknownText_0x56ee8: ; 0x56ee8
-	text "Sorry. You can't"
-	line "carry any more."
+	text "Désolé. Vous ne"
+	line "pouvez plus en"
+	cont "porter."
 	done
 ; 0x56f09
 
 UnknownText_0x56f09: ; 0x56f09
-	text "OK. Please save"
-	line "your coins and"
-	cont "come again!"
+	text "OK. Economisez"
+	line "vos jetons et"
+	cont "revenez plus tard!"
 	done
 ; 0x56f35
 
 UnknownText_0x56f35: ; 0x56f35
-	text "Oh? You don't have"
-	line "a COIN CASE."
+	text "Oh? Vous n'avez"
+	line "pas de BOITE"
+	cont "JETONS."
 	done
 ; 0x56f55
 
 UnknownText_0x56f55: ; 0x56f55
-	text "I always play this"
-	line "slot machine. It"
+	text "Je joue tout le"
+	line "temps à cette"
+	cont "machine."
 
-	para "pays out more than"
-	line "others, I think."
+	para "Elle me fait plus"
+	line "gagner que les"
+	cont "autres."
+	cont "Enfin, je crois!"
 	done
 ; 0x56f9e
 
 UnknownText_0x56f9e: ; 0x56f9e
-	text "I just love this"
-	line "new slot machine."
+	text "J'aime trop cette"
+	line "nouvelle machine."
 
-	para "It's more of a"
-	line "challenge than the"
-	cont "ones in CELADON."
+	para "Il y a plus de"
+	line "suspense qu'avec"
+	cont "celles de"
+	cont "CELADOPOLE."
 	done
 ; 0x56ff4
 
 UnknownText_0x56ff4: ; 0x56ff4
-	text "I just got 777"
-	line "on the slots!"
+	text "Le jackpot!!!"
+	line "Trop génial!!!"
 
-	para "I'm going to"
-	line "share the payout"
+	para "Je vais partager"
+	line "les gains avec"
 
-	para "with all my"
-	line "friends!"
+	para "tous mes amis!"
 	done
 ; 0x5702b
 
 UnknownText_0x5702b: ; 0x5702b
-	text "Card flip<...>"
+	text "Et hop les cartes!"
 
-	para "I prefer it over"
-	line "the slots because"
+	para "Je préfère ça aux"
+	line "machines<...>"
 
-	para "it's easier to"
-	line "figure the odds."
+	para "C'est plus facile"
+	line "de gagner."
 
-	para "But the payout is"
-	line "much lower."
+	para "Mais les gains"
+	line "sont plus faibles."
 	done
 ; 0x57097
 
 UnknownText_0x57097: ; 0x57097
-	text "I won't quit until"
-	line "I win!"
+	text "Je ne partirais"
+	line "pas avant d'avoir"
+	cont "gagné!"
 	done
 ; 0x570b1
 
 UnknownText_0x570b1: ; 0x570b1
-	text "I taught ZAP"
-	line "CANNON to my"
+	text "J'ai appris"
+	line "ELECANON à mon"
 	cont "#MON."
 
-	para "It was hard to get"
-	line "enough coins for"
+	para "J'ai eu du mal à"
+	line "récolter assez de"
 
-	para "it, but it was"
-	line "worth it."
+	para "jetons mais ça"
+	line "valait le coup."
 	done
 ; 0x5710d
 
 UnknownText_0x5710d: ; 0x5710d
-	text "I couldn't win at"
-	line "the slots, and I"
+	text "Je n'arrivais pas"
+	line "à gagner aux"
 
-	para "blew it on card"
-	line "flipping<...>"
+	para "machines alors"
+	line "j'ai essayé les"
+	cont "cartes."
 
-	para "I got so furious,"
-	line "I tossed out my"
+	para "Mais y'a rien à"
+	line "faire. Quand t'es"
+	cont "nul, t'es nul<...>"
 
-	para "COIN CASE in the"
-	line "UNDERGROUND."
+	para "J'ai jeté ma BOITE"
+	line "JETON dans le"
+	cont "SOUTERRAIN."
 	done
 ; 0x5718a
 
 UnknownText_0x5718a: ; 0x5718a
-	text "The floor is al-"
-	line "ways covered in"
+	text "C'est étrange<...>"
 
-	para "salt for some"
-	line "reason<...>"
+	para "Le sol est tou-"
+	line "jours recouvert de"
+	cont "sel par ici."
 	done
 ; 0x571af
 
 GoldenrodVoltorbFlipGuyText:
-	text "I'm trying out a"
-	line "fun new game here."
+	text "J'essaye un"
+	line "nouveau jeu."
 
-	para "Sit across from me"
-	line "to play!"
+	para "Assieds-toi en"
+	line "face de moi pour"
+	cont "jouer."
 	done
 
 GoldenrodVoltorbFlipText:
-	text "Let's play some"
-	line "VOLTORB FLIP!"
+	text "Jouons à"
+	line "VOLTORBATAILLE!"
 	done
 
 GoldenrodVoltorbFlipNotEnoughCoinsText:
-	text "You need 3 coins"
-	line "to play this game."
+	text "Tu as besoin de 3"
+	line "jetons pour jouer."
 	done
 
 GoldenrodVoltorbFlipReachedHighestLevel:
-	text "Splendid! Marve-"
-	line "lous!"
+	text "Splendide!"
+	line "Merveilleux!"
 
-	para "You've reached the"
-	line "highest possible"
+	para "Tu as atteins le"
+	line "niveau maximum à"
+	cont "VOLTORBATAILLE."
 
-	para "level in VOLTORB"
-	line "FLIP!"
+	para "Tu mérites une"
+	line "récompense."
 
-	para "This deserves a"
-	line "special reward."
-
-	para "Here, take this."
+	para "Prends ceci."
 	done
 
 GoldenrodVoltorbFlipReceivedMasterBallText:
-	text "Come back and play"
-	line "again any time!"
+	text "Reviens jouer"
+	line "quand tu veux!"
 	done
 
 GoldenrodVoltorbFlipNoCoinCaseText:
-	text "You need to have a"
-	line "COIN CASE to play."
+	text "Il te faut une"
+	line "BOITE JETONS pour"
+	cont "jouer."
 	done
 
 CooltrainerNotBettingText: ; 0x56ff4
-	text "Aww man<...>"
+	text "Oh non<...>"
 
-	para "This is my"
-	line "favorite machine!"
+	para "C'était ma machine"
+	line "préférée!"
 
-	para "I really wanted to"
-	line "use it<...>"
+	para "Je voulais vrai-"
+	line "ment l'utiliser<...>"
 	
-	para "But betting isn't"
-	line "available right"
-	cont "now<...>"
+	para "Mais on ne peux"
+	line "pas parier dessus"
+	cont "pour l'instant<...>"
 	done
 GoldenrodGameCorner_MapEventHeader: ; 0x571db
 	; filler

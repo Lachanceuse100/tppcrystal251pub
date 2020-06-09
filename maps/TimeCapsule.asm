@@ -59,8 +59,8 @@ ChrisScript_0x19351a: ; 0x19351a
 ; 0x193521
 
 UnknownText_0x193521: ; 0x193521
-	text "Your friend is"
-	line "ready."
+	text "Votre ami est"
+	line "prêt."
 	done
 ; 0x193538
 

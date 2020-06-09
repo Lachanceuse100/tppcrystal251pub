@@ -131,42 +131,43 @@ MovementData_0x58c8c: ; 0x58c8c
 ; 0x58c8e
 
 UnknownText_0x58c8e: ; 0x58c8e
-	text "Patterns appeared"
-	line "on the walls<...>"
+	text "Il y a des figures"
+	line "sur le mur<...>"
 	done
 ; 0x58caf
 
 ; possibly unused.. this again?
 UnknownText_0x58caf: ; 0x58caf
-	text "It's UNOWN text!"
+	text "Du texte ZARBI!"
 	done
 ; 0x58cc0
 
 UnknownText_0x58cc0: ; 0x58cc0
-	text "Patterns appeared"
-	line "on the walls<...>"
+	text "Il y a des figures"
+	line "sur le mur<...>"
 	done
 ; 0x58ce1
 
 UnknownText_0x58ce1: ; 0x58ce1
-	text "There's a big hole"
-	line "in the wall!"
+	text "Il y a un gros"
+	line "trou dans le mur!"
 	done
 ; 0x58d01
 
 UnknownText_0x58d01: ; 0x58d01
-	text "It's a replica of"
-	line "an ancient #-"
+	text "C'est une réplique"
+	line "d'un ancien #-"
 	cont "MON."
 	done
 ; 0x58d26
 
 UnknownText_0x58d26: ; 0x58d26
-	text "This #MON"
-	line "drifted in the"
+	text "Ce #MON se dé-"
+	line "plaçait dans les"
 
-	para "sea by twisting"
-	line "its ten tentacles."
+	para "mers en agitant"
+	line "ses dix"
+	cont "tentacules."
 	done
 ; 0x58d63
 

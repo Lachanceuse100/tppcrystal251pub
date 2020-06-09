@@ -27,8 +27,8 @@ MapRuinsofAlphKabutoItemRoomSignpost1Script: ; 0x599aa
 ; 0x599ad
 
 UnknownText_0x599ad: ; 0x599ad
-	text "It's a replica of"
-	line "an ancient #-"
+	text "C'est une réplique"
+	line "d'un ancien #-"
 	cont "MON."
 	done
 ; 0x599d2

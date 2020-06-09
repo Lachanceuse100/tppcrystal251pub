@@ -145,10 +145,10 @@ GrampsScript_0x19c013: ; 0x19c013
 	end
 
 .mapcardname ; 0x19c09b
-	db "MAP CARD@"
+	db "CARTE@"
 
 .runningshoesname
-	db "RUNNING SHOES@"
+	db "CHAUSSURES COURSE@"
 ; 0x19c0a4
 .first_landed
 	checkevent EVENT_HEALED_IN_CHERRYGROVE
@@ -509,52 +509,51 @@ Movement_PlayerPushedBackIntoCherrygrove:
 	step_end
 
 UnknownText_0x19c1e3: ; 0x19c1e3
-	text "Ah, <PLAYER>, good"
-	line "to see you again!"
+	text "Ah, <PLAYER>, quel"
+	line "plaisir!"
 
-	para "Since you're back"
-	line "here, care if I"
-	cont "show you around?"
+	para "Puisque tu es de"
+	line "retour, veux-tu"
+	cont "une visite guidée?"
 	done
 ; 0x19c26f
 
 UnknownText_0x19c26f: ; 0x19c26f
-	text "OK, then!"
-	line "Follow me!"
+	text "OK!"
+	line "Suis-moi!"
 	done
 ; 0x19c285
 
 UnknownText_0x19c285: ; 0x19c285
-	text "This is the #-"
-	line "MON CENTER."
+	text "C'est le centre"
+	line "#MON du coin."
 
-	para "I'm sure you're"
-	line "quite familiar"
-	cont "with them."
+	para "Mais tu le"
+	line "connais dejà bien."
 	done
 ; 0x19c304
 
 UnknownText_0x19c304: ; 0x19c304
-	text "Here's the local"
-	line "#MON MART."
+	text "Voici la boutique"
+	line "#MON locale."
 
-	para "It's always well-"
-	line "stocked, so feel"
-	cont "free to do some"
-	cont "shopping while"
-	cont "you're in town."
+	para "Ils ont toujours"
+	line "du stock, n'hésite"
+	cont "pas à faire les"
+	cont "courses quand tu"
+	cont "es en ville."
 	done
 ; 0x19c359
 
 UnknownText_0x19c359: ; 0x19c359
-	text "ROUTE 30 is out"
-	line "this way."
+	text "ROUTE 30 est par"
+	line "la bas."
 
-	para "Trainers will be"
-	line "battling their"
+	para "Les dresseurs s'y"
+	line "afrrontent avec"
 
-	para "prized #MON"
-	line "there."
+	para "leurs #MON"
+	line "favoris."
 	done
 ; 0x19c3a7
 
@@ -562,319 +561,322 @@ UnknownText_0x19c3a7: ; 0x19c3a7
 	text $56, " ", $56, " ", $56
 	line $56, " ", $56, " ", $56
 
-	para "Perhaps we should"
-	line "skip this part for"
-	cont "now."
+	para "Et si on passait"
+	line "à la suite?"
 	done
 ; 0x19c3ec
 
 UnknownText_0x19c3ec: ; 0x19c3ec
-	text "Here<...>"
+	text "Ici<...>"
 
-	para "It's my house!"
-	line "Thanks for your"
-	cont "company."
+	para "C'est chez moi!"
+	line "Merci pour ta"
+	cont "compagnie."
 
-	para "Let me give you a"
-	line "small gift."
+	para "Laisse moi te"
+	line "donner un cadeau."
 	done
 ; 0x19c438
 
 UnknownText_0x19c438: ; 0x19c438
-	text "<PLAYER>'s #GEAR"
-	line "now has a MAP!"
+	text "Le #MATOS de"
+	line "<PLAYER> à désor-"
+	cont "mais une CARTE."
 	done
 ; 0x19c451
 
 UnknownText_0x19c451: ; 0x19c451
-	text "#GEAR becomes"
-	line "more useful as you"
-	cont "add CARDS."
+	text "Le #MATOS est"
+	line "plus utile si tu"
+	cont "ajoutes des"
+	cont "modules."
 	done
 ; 0x19c49f
 
 UnknownText_0x19c49f: ; 0x19c49f
-	text "Oh<...> It's something"
-	line "I enjoy doing<...>"
+	text "Oh<...> C'est quelque"
+	line "chose que j'adore"
+	cont "faire<...>"
 
-	para "Fine. Come see me"
-	line "when you like."
+	para "Bien, reviens me"
+	line "voir si tu veux."
 	done
 ; 0x19c4e2
 
 UnknownText_0x19c4e2: ; 0x19c4e2
 	text $56, " ", $56, " ", $56
 
-	para "You got a #MON"
-	line "at the LAB."
+	para "Tu as eu un"
+	line "#MON du LABO?"
 
-	para "What a waste."
-	line "A wimp like you."
+	para "Quel gâchis."
+
+	para "Une mauviette"
+	line "comme toi<...>"
 
 	para $56, " ", $56, " ", $56
 
-	para "Don't you get what"
-	line "I'm saying?"
+	para "Tu piges ce que"
+	line "je dis?"
 
-	para "Well, I too, have"
-	line "a good #MON."
+	para "Moi aussi j'ai un"
+	line "bon #MON."
 
-	para "I'll show you"
-	line "what I mean!"
+	para "Tu vas voir."
 	done
 ; 0x19c57f
 
 UnknownText_0x19c57f: ; 0x19c57f
-	text "Humph. Are you"
-	line "happy you won?"
+	text "Pff, t'es content"
+	line "d'avoir gagné?"
 	done
 ; 0x19c59e
 
 UnknownText_0x19c59e: ; 0x19c59e
 	text $56, " ", $56, " ", $56
 
-	para "My name's ???."
+	para "Mon nom est ???."
 
-	para "I'm going to be"
-	line "the world's great-"
-	cont "est #MON"
-	cont "trainer."
+	para "Je serais le plus"
+	line "grand dresseur de"
+	cont "#MON."
 	done
 ; 0x19c5e6
 
 UnknownText_0x19c5e6: ; 0x19c5e6
-	text "Humph. That was a"
-	line "waste of time."
+	text "Pff. quelle perte"
+	line "de temps."
 	done
 ; 0x19c608
 
 UnknownText_0x19c608: ; 0x19c608
 	text $56, " ", $56, " ", $56
 
-	para "My name's ???."
+	para "Mon nom est ???."
 
-	para "I'm going to be"
-	line "the world's great-"
-	cont "est #MON"
-	cont "trainer."
+	para "Je serais le plus"
+	line "grand dresseur de"
+	cont "#MON."
 	done
 ; 0x19c650
 
 UnknownText_0x19c650: ; 0x19c650
-	text "Did you talk to"
-	line "the old man by the"
-	cont "#MON CENTER?"
+	text "As-tu parlé au"
+	line "vieil homme à côté"
+	cont "du CENTRE #MON."
 
-	para "He'll put a MAP of"
-	line "JOHTO on your"
-	cont "#GEAR."
+	para "Il mettra une"
+	line "CARTE dans ton"
+	cont "#MATOS."
 	done
 ; 0x19c6a8
 
 UnknownText_0x19c6a8: ; 0x19c6a8
-	text "When you're with"
-	line "#MON, going"
-	cont "anywhere is fun."
+	text "Quand tu es avec"
+	line "tes #MON, c'est"
+	cont "toujours amusant."
 	done
 ; 0x19c6d6
 
 UnknownText_0x19c6d6: ; 0x19c6d6
-	text "MR.#MON's house"
-	line "is still farther"
-	cont "up ahead."
+	text "La maison de M."
+	line "#MON est plus"
+	cont "loin."
 	done
 ; 0x19c701
 
 UnknownText_0x19c701: ; 0x19c701
-	text "I battled the"
-	line "trainers on the"
-	cont "road."
+	text "J'ai combattu des"
+	line "dresseurs sur la"
+	cont "route."
 
-	para "My #MON lost."
-	line "They're a mess! I"
+	para "Mon #MON a"
+	line "perdu. Ils sont"
+	cont "mal en point."
 
-	para "must take them to"
-	line "a #MON CENTER."
+	para "Je dois les emme-"
+	line "ner dans un CENTRE"
+	cont "#MON."
 	done
 ; 0x19c766
 
 UnknownText_0x19c766: ; 0x19c766
-	text "A #MON I caught"
-	line "had an item."
+	text "Ce #MON tenait"
+	line "une EAU MYSTIQUE"
+	cont "quand je l'ai"
+	cont "attrapé."
 
-	para "I think it's"
-	line "MYSTIC WATER."
-
-	para "I don't need it,"
-	line "so do you want it?"
+	para "Je n'en ai pas"
+	line "besoin."
+	cont "Tu le veux?"
 	done
 ; 0x19c7c1
 
 UnknownText_0x19c7c1: ; 0x19c7c1
-	text "Back to fishing"
-	line "for me, then."
+	text "Bon, je retourne"
+	line "pêcher."
 	done
 ; 0x19c7e0
 
 UnknownText_0x19c7e0: ; 0x19c7e0
-	text "CHERRYGROVE CITY"
+	text "VILLE GRIOTTE"
 
-	para "The City of Cute,"
-	line "Fragrant Flowers"
+	para "La ville aux"
+	line "fleurs parfumés."
 	done
 ; 0x19c815
 
 UnknownText_0x19c815: ; 0x19c815
-	text "GUIDE GENT'S HOUSE"
+	text "MAISON DU GUIDE"
 	done
 ; 0x19c829
 
 Text_GuideGentHasRunningShoes2:
-	text "Oh yes, I nearly"
-	line "forgot."
+	text "Ah oui, j'ai"
+	line "failli oublié."
 
-	para "I also want you to"
-	line "have these, as a"
-	cont "gift from me."
+	para "Je veux aussi que"
+	line "tu ais ça. Un"
+	cont "petit cadeau."
 	done
 
 Text_GuideGentHasRunningShoes3:
-	text "<PLAY_G> put on the"
-	line "RUNNING SHOES!"
+	text "<PLAY_G> met les"
+	line "CHAUSSURES DE"
+	cont "COURSES."
 
-	para "Those are"
-	line "RUNNING SHOES."
+	para "Ce sont des"
+	line "CHAUSSURES DE"
+	cont "COURSES."
 
-	para "They came with"
+	para "Il y a des"
 	line "instructions."
 
-	para "Hold down the B"
-	line "button and race"
-	cont "like the wind!"
+	para "Maintient B et"
+	line "court comme le"
+	cont "vent!"
 
-	para "Should be an asset"
-	line "for a TRAINER like"
-	cont "yourself!"
+	para "C'est un trésor"
+	line "pour un dresseur"
+	cont "comme toi!"
 
-	para "I wish you luck on"
-	line "your journey!"
+	para "Je te souhaite"
+	line "bonne chance dans"
+	cont "ton voyage."
 	done
 
 Text_GuideGentExplainsWhatHappened:
-	text "Are you alright,"
-	line "child?"
+	text "Tu vas bien,"
+	line "mon enfant?"
 	
 	para "<...>"
 	
-	para "You were aboard"
-	line "the S.S.ANNE when"
-	cont "it crashed?"
+	para "Tu étais sur"
+	line "l'OCEANE quand"
+	cont "il a coulé?"
 
-	para "In all my years"
-	line "I've never seen"
+	para "De toute ma vie,"
+	line "je n'ai jamais vu"
 	
-	para "such a grand ship"
-	line "meet such a grim"
-	cont "fate."
+	para "un si grand bâteau"
+	line "rencontrer un si"
+	cont "funeste destin."
 
-	para "You seem mostly"
-	line "unhurt. That's a"
-	cont "relief."
+	para "Tu as l'air"
+	line "d'aller bien,"
+	cont "c'est rassurant."
 
-	para "Oh? But your #-"
-	line "MON are all"
-	cont "fainted!"
+	para "Oh? Mais tous tes"
+	line "#MON sont K.O!"
 
-	para "Let's get them"
-	line "fixed up."
+	para "Allons les"
+	line "soigner."
 
-	para "Follow me."
+	para "Suis-moi."
 	done
 
 Text_GuideGentForcesPlayerToHealParty:
-	text "Here we are."
+	text "Nous y voilà."
 
-	para "Oh, my apologies."
-	line "I never told you"
-	cont "where <``>here<''> is!"
+	para "Oh, mes excuses."
+	line "Je n'ai jamais dit"
+	cont "ou <``>ici<''> est!"
 
-	para "You've made land"
-	line "in CHERRYGROVE"
-	cont "CITY."
+	para "Tu as atterri à"
+	line "VILLE GRIOTTE."
 
-	para "This is our local"
-	line "#MON CENTER."
+	para "C'est notre centre"
+	line "#MON local."
 	
-	para "The NURSE inside"
-	line "will fix you right"
-	cont "up."
+	para "L'INFIRMIERE va"
+	line "te réparer"
 
-	para "Go on, have a chat"
-	line "with her!"
+	para "Allez, va discuter"
+	line "avec elle!"
 	done
 
 Text_PleaseHealYourPokemon:
-	text "Where are you"
-	line "going?"
+	text "Ou vas-tu?"
 
-	para "You should heal"
-	line "your #MON!"
+	para "Tu devrais faire"
+	line "soigner tes"
+	cont "#MON!"
 	done
 
 GuideGentDirectsPlayerToNewBark:
-	text "Oh good, your"
-	line "#MON look all"
-	cont "healthy again!"
+	text "Super, tes #MON"
+	line "ont retrouvé la"
+	cont "forme!"
 
-	para "Oh, where are my"
-	line "manners? I never"
-	cont "asked your name!"
+	para "Oh, ou sont mes"
+	line "manières? Je ne"
+	cont "t'ai pas demandé"
+	cont "ton nom!"
 
 	para $56, " ", $56, " ", $56
 	line $56, " ", $56, " ", $56
 
-	para "So, it's <PLAYER>?"
-	line "That's a nice name."
+	para "Ah <PLAYER>?"
+	line "Quel joli nom."
 
-	para "You can call me"
-	line "the GUIDE GENT."
+	para "Tu peux m'appeler"
+	line "le GUIDE."
 
-	para "And now, allow me"
-	line "to guide you."
+	para "Permet moi de te"
+	line "guider."
 
-	para "If you need help"
-	line "getting home, you"
-	cont "should talk to"
-	cont "PROF.ELM."
+	para "Si tu as besoin"
+	line "d'aide pour ren-"
+	cont "trer chez toi, va"
+	cont "voir le PROF.ORME."
 
-	para "He runs a lab in"
-	line "NEW BARK TOWN, to"
-	cont "the east of here."
+	para "Il est dans son"
+	line "labo à BOURG GEON,"
+	cont "à l'est d'ici."
 
-	para "It's a short hop"
-	line "down some ledges."
+	para "Il faut sauter"
+	line "quelques rebords."
 
-	para "I wish you the"
-	line "best of luck!"
+	para "Je te souhaite"
+	line "bonne chance!"
 	done
 
 CherrygroveYoungsterText1:
-	text "I'm totally going"
-	line "to win this match!"
+	text "Je vais gagner"
+	line "ce match!"
 	done
 
 CherrygroveYoungsterText2:
-	text "You, winning? Ha!"
-	line "In your dreams!"
+	text "Toi, gagner? Ah!"
+	line "Dans tes rêves!"
 	done
 
 Text_AlreadyHaveMapCard:
-	text "Oh? But you seem"
-	line "to already have"
-	cont "a MAP CARD."
+	text "Oh? Mais tu as"
+	line "déjà une CARTE!"
 
-	para "It's even the la-"
-	line "test version."
+	para "C'est même la"
+	line "dernière version."
 	done
 
 CherrygroveCity_MapEventHeader: ; 0x19c829

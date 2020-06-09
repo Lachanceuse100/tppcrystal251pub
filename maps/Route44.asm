@@ -475,27 +475,25 @@ MapRoute44SignpostItem2: ; 0x19da48
 ; 0x19da4b
 
 FisherWilton1SeenText: ; 0x19da4b
-	text "Aack! You made me"
-	line "lose a POLIWAG!"
+	text "Aahh! Tu m'as fait"
+	line "perdre un PTITARD!"
 
-	para "What are you going"
-	line "to do about it?"
+	para "Tu vas t'excuser"
+	line "au moins?"
 	done
 ; 0x19da91
 
 FisherWilton1BeatenText: ; 0x19da91
-	text "Just forget about"
-	line "it."
+	text "Laisse tomber<...>"
 	done
 ; 0x19daa8
 
 UnknownText_0x19daa8: ; 0x19daa8
-	text "That POLIWAG that"
-	line "got away<...>"
-	cont "It was huge."
+	text "Ce PTITARD était"
+	line "énorme."
 
-	para "I swear it must've"
-	line "been 16 feet long!"
+	para "Il faisait 16"
+	line "pieds au moins!"
 	done
 ; 0x19daf7
 
@@ -504,191 +502,195 @@ UnknownText_0x19daa8_Metric: ; 0x19daa8
 	line "got away<...>"
 	cont "It was huge."
 
-	para "I swear it must've"
-	line "been 5 meters long"
+	text "Ce PTITARD était"
+	line "énorme."
+
+	para "Il faisait 5"
+	line "mètres au moins!"
 	done
 ; 0x19daf7
 
 FisherEdgarSeenText: ; 0x19daf7
-	text "I fish until I"
-	line "can't anymore."
+	text "Je pêche jusqu'a"
+	line "ce que je n'en"
+	cont "puisse plus."
 
-	para "I also battle"
-	line "until I drop."
+	para "Et pareil pour"
+	line "les combats."
 
-	para "That's my"
-	line "relationship"
-	cont "with my #MON."
+	para "C'est ma relation"
+	line "avec mes #MON!"
 	done
 ; 0x19db55
 
 FisherEdgarBeatenText: ; 0x19db55
-	text "Hmmmm<...> "
-	line "This isn't right."
+	text "Hmmmm<...> Ca ne"
+	line "va pas<...>"
 	done
 ; 0x19db6f
 
 UnknownText_0x19db6f: ; 0x19db6f
-	text "That's 100 wins"
-	line "to 101 losses."
+	text "100 victoires pour"
+	line "101 défaites."
 
-	para "I won't battle"
-	line "again for a while."
+	para "Je vais faire une"
+	line "petite pause."
 	done
 ; 0x19dbaf
 
 Bird_keeperVance1SeenText: ; 0x19dbaf
-	text "Do you know about"
-	line "the legendary bird"
-	cont "#MON?"
+	text "Tu connais les"
+	line "#MON oiseaux"
+	cont "légendaires?"
 	done
 ; 0x19dbdb
 
 Bird_keeperVance1BeatenText: ; 0x19dbdb
-	text "Whew! You're hot"
-	line "stuff."
+	text "Tu rigoles pas,"
+	line "toi!"
 	done
 ; 0x19dbf3
 
 UnknownText_0x19dbf3: ; 0x19dbf3
-	text "ARTICUNO, ZAPDOS"
-	line "and MOLTRES are"
+	text "ARTIKODIN,"
+	line "ELECTHOR et"
 
-	para "the three legend-"
-	line "ary bird #MON."
+	para "SULFURA sont les"
+	line "trois #MON oi-"
+	cont "seaux légendaires."
 
-	para "I heard there are"
-	line "other legendary"
+	para "On dit qu'il y en"
+	line "a d'autres<...>"
 	cont "birds, though."
 	done
 ; 0x19dc67
 
 UnknownText_0x19dc67: ; 0x19dc67
-	text "Why can't I ever"
-	line "beat you?"
+	text "Pourquoi je n'ar-"
+	line "rive pas à te"
+	cont "battre."
 
-	para "Oh yeah, here you"
-	line "go. It's that gift"
+	para "Ah, au fait, voilà"
+	line "le cadeau que je"
 
-	para "I couldn't give"
-	line "you last time."
+	para "n'ai pas pu te"
+	line "donner l'autre"
+	cont "fois."
 	done
 ; 0x19dcc4
 
 PsychicPhilSeenText: ; 0x19dcc4
-	text "I'm gonna win,"
-	line "for sure!"
+	text "Je vais gagner!"
+	line "Pour sûr!"
 	done
 ; 0x19dcdd
 
 PsychicPhilBeatenText: ; 0x19dcdd
-	text "Arrgh<...> That's a"
-	line "shocking loss<...>"
+	text "Argh<...> Quelle"
+	line "défaite<...>"
 	done
 ; 0x19dcfc
 
 UnknownText_0x19dcfc: ; 0x19dcfc
-	text "It's important to"
-	line "have conviction"
-	cont "on your side."
+	text "Etre sûr de soi,"
+	line "c'est important."
 	done
 ; 0x19dd2c
 
 PokemaniacZachSeenText: ; 0x19dd2c
-	text "I'll do anything"
-	line "to get my hands on"
-	cont "rare #MON!"
+	text "Je ferais n'impor-"
+	line "te quoi pour un"
+	cont "#MON rare!"
 	done
 ; 0x19dd5b
 
 PokemaniacZachBeatenText: ; 0x19dd5b
-	text "Oooh, your #MON"
-	line "are so appealing."
+	text "Oooh, tes #MON"
+	line "sont si beaux!"
 	done
 ; 0x19dd7e
 
 UnknownText_0x19dd7e: ; 0x19dd7e
-	text "Never seen a"
-	line "SLOWKING before?"
+	text "Tu n'as jamais vu"
+	line "un ROIGADA?"
 
-	para "I found this one"
-	line "one deep into"
-	cont "SLOWPOKE WELL."
+	para "J'ai trouvé celui-"
+	line "là au PUITS"
+	cont "RAMOLOSS."
 	done
 ; 0x19dddc
 
 CooltrainermAllenSeenText: ; 0x19dddc
-	text "I can tell you're"
-	line "a good trainer by"
-	cont "looking at you."
+	text "Tu as du talent,"
+	line "ça se voit."
 
-	para "I'm good at #-"
-	line "MON, and I can see"
-	cont "that you are too."
+	para "Mais c'est moi qui"
+	line "suis le plus fort."
 	done
 ; 0x19de43
 
 CooltrainermAllenBeatenText: ; 0x19de43
-	text "Tch! It's a total"
-	line "loss on my part."
+	text "Pff! J'ai complè-"
+	line "tement perdu<...>"
 	done
 ; 0x19de66
 
 UnknownText_0x19de66: ; 0x19de66
-	text "Wow. You have a"
-	line "lot of BADGES."
+	text "Whoa! Tu en as"
+	line "des BADGES."
 
-	para "No wonder you're"
-	line "so tough."
+	para "Pas étonnant que"
+	line "tu sois si balèze."
 
-	para "I wonder if"
-	line "ECRUTEAK GYM's"
+	para "Je me demande si"
+	line "MORTIMER de l'ARE-"
 
-	para "MORTY is still in"
-	line "training?"
+	para "NE de ROSALIA"
+	line "s'entraîne encore?"
 
-	para "He really hammered"
-	line "me."
+	para "Il m'a déchiré la"
+	line "dernière fois."
 	done
 ; 0x19deed
 
 CooltrainerfCybilSeenText: ; 0x19deed
-	text "You look strong."
+	text "Tu as l'air fort"
 
-	para "Good trainers seek"
-	line "tough opponents"
-	cont "instinctively."
+	para "Ca te dirait un"
+	line "petit challenge?"
 	done
 ; 0x19df31
 
 CooltrainerfCybilBeatenText: ; 0x19df31
-	text "Nope! This won't"
-	line "do at all."
+	text "Oh non! Ca ne va"
+	line "pas!"
 	done
 ; 0x19df4d
 
 UnknownText_0x19df4d: ; 0x19df4d
-	text "We all get better"
-	line "by experiencing"
-	cont "many battles."
+	text "On devient meil-"
+	line "leur à force de"
+	cont "combattre."
 
-	para "I battled a lot to"
-	line "become what I am"
-	cont "today--an elite."
+	para "C'est comme ça que"
+	line "je suis devenue"
+	cont "une élite."
 	done
 ; 0x19dfb3
 
 UnknownText_0x19dfb3: ; 0x19dfb3
 	text "ROUTE 44"
-	line "ICE PATH AHEAD"
+
+	para "ROUTE DE GLACE"
+	line "TOUT DROIT"
 	done
 ; 0x19dfcc
 
 UnknownText_0x19dfcc: ; 0x19dfcc
 	text "ROUTE 44"
 
-	para "MAHOGANY TOWN -"
-	line "BLACKTHORN CITY"
+	para "ACAJOU -"
+	line "EBENELLE"
 	done
 ; 0x19dff6
 

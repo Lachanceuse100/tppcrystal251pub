@@ -108,113 +108,119 @@ MovementData_0x98ed4: ; 0x98ed4
 ; 0x98ed8
 
 UnknownText_0x98ed8: ; 0x98ed8
-	text "Hi, I'm BILL. And"
-	line "who are you?"
+	text "Salut, je suis"
+	line "LEO. Et toi qui"
+	cont "es-tu?"
 
-	para "Hmm, <PLAYER>, huh?"
-	line "You've come at the"
-	cont "right time."
+	para "<PLAYER>, hein?"
+	line "Tu arrives au bon"
+	cont "moment."
 	done
 ; 0x98f22
 
 UnknownText_0x98f22: ; 0x98f22
-	text "I just finished"
-	line "adjustments on my"
-	cont "TIME CAPSULE."
+	text "Je viens de finir"
+	line "les derniers ré-"
+	cont "glages du BLOC"
+	cont "TEMPOREL."
 
-	para "You know that"
-	line "#MON can be"
-	cont "traded, right?"
+	para "Tu sais que les"
+	line "#MON peuvent"
+	cont "être échangés?"
 
-	para "My TIME CAPSULE"
-	line "was developed to"
+	para "Mon BLOC TEMPOREL"
+	line "a été mis au point"
 
-	para "enable trades with"
-	line "the past."
+	para "pour faire des"
+	line "échanges dans le"
+	cont "temps."
 
-	para "But you can't send"
-	line "anything that"
+	para "Mais tu ne peux"
+	line "pas échanger des"
 
-	para "didn't exist in"
-	line "the past."
+	para "choses qui"
+	line "n'existaient pas"
+	cont "dans le passé."
 
-	para "If you did, the PC"
-	line "in the past would"
-	cont "have a breakdown."
+	para "Si tu le fais, le"
+	line "PC du passé sera"
+	cont "court-circuité."
 
-	para "So you have to"
-	line "remove anything"
+	para "Tu dois donc en-"
+	line "lever tout ce qui"
 
-	para "that wasn't around"
-	line "then."
+	para "n'appartient pas"
+	line "au passé."
 
-	para "Put simply, no"
-	line "sending new moves"
+	para "En clair, pas de"
+	line "nouvelles attaques"
 
-	para "or new #MON in"
-	line "the TIME CAPSULE."
+	para "ou de nouveaux"
+	line "#MON par le"
+	cont "BLOC TEMPOREL."
 
-	para "Don't you worry."
-	line "I'm done with the"
-	cont "adjustments."
+	para "Ne t'en fais pas."
+	line "J'ai fini les"
+	cont "derniers ajuste-"
+	cont "ments."
 
-	para "Tomorrow, TIME"
-	line "CAPSULES will be"
+	para "Demain, les BLOCS"
+	line "TEMPORELS seront"
 
-	para "running at all"
-	line "#MON CENTERS."
+	para "dans tous les"
+	line "CENTRES #MON."
 
-	para "I have to hurry on"
-	line "back to GOLDENROD"
-	cont "and see my folks."
+	para "Bon, je dois vite"
+	line "rentre à DOUBLON-"
+	cont "VILLE pour voir"
+	cont "mes parents."
 
-	para "Buh-bye!"
+	para "Tchao!"
 	done
 ; 0x99155
 
 UnknownText_0x99155: ; 0x99155
-	text "The way the KIMONO"
-	line "GIRLS dance is"
+	text "La façon dont les"
+	line "KIMONO dansent est"
+	cont "merveilleuse."
 
-	para "marvelous. Just"
-	line "like the way they"
-	cont "use their #MON."
+	para "Comme lorsqu'elles"
+	line "utilisent leurs"
+	cont "#MON."
 	done
 ; 0x991aa
 
 UnknownText_0x991aa: ; 0x991aa
-	text "You must be hoping"
-	line "to battle more"
+	text "Tu cherches des"
+	line "nouveaux défis?"
 
-	para "people, right?"
-	line "There's apparently"
+	para "On dit qu'il y a"
+	line "un endroit à OLI-"
 
-	para "some place where"
-	line "trainers gather."
-
-	para "It's a little past"
-	line "OLIVINE CITY."
+	para "VILLE ou les"
+	line "dresseurs se"
+	cont "rassemblent."
 	done
 ; 0x99240
 
 UnknownText_0x99240: ; 0x99240
-	text "MORTY, the GYM"
-	line "LEADER, is soooo"
-	cont "cool."
+	text "MORTIMER, le"
+	line "CHAMPION d'ARENE"
+	cont "est trop cool."
 
-	para "His #MON are"
-	line "really tough too."
+	para "Ses #MON sont"
+	line "trop forts."
 	done
 ; 0x99286
 
 UnknownText_0x99286: ; 0x99286
-	text "LAKE OF RAGE<...>"
+	text "Le LAC COLERE<...>"
 
-	para "The appearance of"
-	line "a GYARADOS swarm<...>"
+	para "L'apparition d'un"
+	line "nid de LEVIATOR<...>"
 
-	para "I smell a conspir-"
-	line "acy. I know it!"
+	para "Ca sent la conspi-"
+	line "ration! C'est sûr!"
 	done
 ; 0x992dc
 

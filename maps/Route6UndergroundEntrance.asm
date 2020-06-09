@@ -26,3 +26,4 @@ Route6UndergroundEntrance_MapEventHeader: ; 0x192830
 	db 0
 ; 0x192845
 
+

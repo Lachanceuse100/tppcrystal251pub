@@ -38,12 +38,12 @@ SailorScript_MewIslandChoseNo:
 	end
 
 MewSailorReturnNoText:
-	text "OK then."
+	text "Très bien."
 	done
 
 MewSailorReturnText:
-	text "Want to return"
-	line "to VERMILION?"
+	text "On retourne à"
+	line "CARMIN SUR MER?"
 	done
 
 MewIslandEntranceDock_MapEventHeader:

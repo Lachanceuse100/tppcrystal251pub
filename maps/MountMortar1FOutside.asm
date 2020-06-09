@@ -49,3 +49,4 @@ MountMortar1FOutside_MapEventHeader: ; 0x7ddfd
 	person_event SPRITE_POKE_BALL, 22, 35, $1, 0, 0, -1, -1, 0, 1, 0, ItemFragment_0x7ddf8, EVENT_ITEM_MT_MORTAR_1F_OUTSIDE_REVIVE
 ; 0x7de4f
 
+

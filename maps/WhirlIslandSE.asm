@@ -25,3 +25,4 @@ WhirlIslandSE_MapEventHeader: ; 0x18c3fe
 	db 0
 ; 0x18c40e
 
+

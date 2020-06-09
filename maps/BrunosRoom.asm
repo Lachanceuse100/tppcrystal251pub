@@ -122,73 +122,68 @@ MovementData_0x1809f9: ; 0x1809f9
 ; 0x1809fe
 
 BrunoBeforeRematchText:
-	text "Hello again."
+	text "<PLAYER>."
 
-	para "As one of the"
-	line "ELITE FOUR, I will"
-	cont "stand up to your"
-	cont "challenge!"
+	para "En tant que membre"
+	line "du CONSEIL des 4,"
+	cont "je relève ton"
+	cont "défi!"
 
-	para "It would disturb"
-	line "me for you to"
-	cont "underestimate my"
-	cont "fighting #MON."
+	para "Ca me dérangerait"
+	line "que tu sous-estime"
+	cont "mes #MON"
+	cont "COMBAT."
 
-	para "Get ready!"
+	para "Prépare-toi!"
 
 	done
 
 BrunoAfterRematchText:
-	text "We tried hard."
+	text "On a fait le"
+	line "maximum."
 
-	para "Continue on!"
+	para "Continue!"
 
 	done
 
 UnknownText_0x1809fe: ; 0x1809fe
-	text "I am BRUNO of the"
-	line "ELITE FOUR."
+	text "Je suis ALDO du"
+	line "CONSEIL des 4."
 
-	para "I always train to"
-	line "the extreme be-"
-	cont "cause I believe in"
-	cont "our potential."
+	para "Je m'entraîne à"
+	line "l'extrême car je"
+	cont "crois en notre"
+	cont "potentiel."
 
-	para "That is how we"
-	line "became strong."
+	para "C'est comme ça que"
+	line "je suis devenu"
+	cont "si fort et beau<...>"
 
-	para "Can you withstand"
-	line "our power?"
+	para "<...> Ho!"
+	line "Tu m'écoutes?"
 
-	para "Hm? I see no fear"
-	line "in you. You look"
+	para "T'as pas peur on"
+	line "dirait. Très bien<...>"
 
-	para "determined. Per-"
-	line "fect for battle!"
-
-	para "Ready, <PLAYER>?"
-	line "You will bow down"
-
-	para "to our overwhelm-"
-	line "ing power!"
+	para "Prépare toi à te"
+	line "battre!"
 
 	para "Hoo hah!"
 	done
 ; 0x180b23
 
 UnknownText_0x180b23: ; 0x180b23
-	text "Why? How could we"
-	line "lose?"
+	text "Quoi? Perdu?"
+	line "Comment?"
 	done
 ; 0x180b3c
 
 UnknownText_0x180b3c: ; 0x180b3c
-	text "Having lost, I"
-	line "have no right to"
-	cont "say anything<...>"
+	text "Je n'ai plus rien"
+	line "à dire<...>"
 
-	para "Go face your next"
-	line "challenge!"
+	para "Va dans la pro-"
+	line "chaine salle!"
 	done
 ; 0x180b88
 

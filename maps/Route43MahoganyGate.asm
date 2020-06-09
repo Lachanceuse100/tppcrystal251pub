@@ -25,18 +25,18 @@ UnknownScript_0x19ab19: ; 0x19ab19
 ; 0x19ab1f
 
 UnknownText_0x19ab1f: ; 0x19ab1f
-	text "Only people headed"
-	line "up to LAKE OF RAGE"
+	text "Le LAC COLERE est"
+	line "redevenu plus vi-"
 
-	para "have been through"
-	line "here lately."
+	para "vant ces derniers"
+	line "temps."
 	done
 ; 0x19ab65
 
 UnknownText_0x19ab65: ; 0x19ab65
-	text "Nobody goes up to"
-	line "LAKE OF RAGE these"
-	cont "days."
+	text "Personne ne va au"
+	line "LAC COLERE ces"
+	cont "temps-ci."
 	done
 ; 0x19ab91
 

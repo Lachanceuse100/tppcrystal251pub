@@ -103,58 +103,62 @@ MapMountMortar1FInsideSignpostItem0: ; 0x7de8a
 ; 0x7de8d
 
 PokemaniacMillerSeenText: ; 0x7de8d
-	text "I'm not losing"
-	line "this time!"
+	text "Je ne perdrais"
+	line "pas cette fois!"
 	done
 ; 0x7dea7
 
 PokemaniacMillerBeatenText: ; 0x7dea7
-	text "I lost to some"
-	line "kid<...>?"
+	text "Perdu?"
 	done
 ; 0x7debd
 
 UnknownText_0x7debd: ; 0x7debd
-	text "A while back, this"
-	line "karate dude wanted"
+	text "L'autre jour, un"
+	line "type du genre"
 
-	para "to battle. He was"
-	line "ridiculously good."
+	para "karaté kid voulait"
+	line "se battre<...>"
 
-	para "He just thrashed"
-	line "us silly."
+	para "Il nous a cassé"
+	line "la tête comme si"
+	cont "de rien était."
 
-	para "He went in deeper"
-	line "saying it was for"
+	para "il a continué son"
+	line "chemin en disant"
 
-	para "his training. I"
-	line "wonder how he is?"
+	para "qu'il s'entraî-"
+	line "nait."
+
+	para "Je me demande com-"
+	line "ment il va<...>"
 	done
 ; 0x7df6a
 
 SupernerdMarkusSeenText: ; 0x7df6a
-	text "Hey! HUGH!"
+	text "Hé! HUGH!"
 	done
 ; 0x7df76
 
 SupernerdMarkusBeatenText: ; 0x7df76
-	text "I mistook you for"
-	line "someone else<...>"
+	text "Je t'ai pris pour"
+	line "quelqu'un d'autre<...>"
 	done
 ; 0x7df97
 
 UnknownText_0x7df97: ; 0x7df97
-	text "I came to explore"
-	line "MT.MORTAR, but I"
+	text "Je suis venu ex-"
+	line "plorer le MONT"
 
-	para "got separated from"
-	line "my partner<...>"
+	para "CREUSET mais mon"
+	line "partenaire a dis-"
+	cont "paru<...>"
 
-	para "Did you run into a"
-	line "trainer who uses a"
+	para "As-tu vu un dres-"
+	line "seur avec un"
 
-	para "MAGCARGO that"
-	line "knows STRENGTH?"
+	para "VOLCAROPOD qui"
+	line "lance FORCE?"
 	done
 ; 0x7e01d
 

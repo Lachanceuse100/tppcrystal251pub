@@ -33,33 +33,33 @@ ItemFragment_0x5ad28: ; 0x5ad28
 ; 0x5ad2a
 
 UnknownText_0x5ad2a: ; 0x5ad2a
-	text "I'm waiting to see"
-	line "SLOWPOKE's moment"
-	cont "of evolution."
+	text "J'attends le mo-"
+	line "ment de l'évolu-"
+	cont "tion de RAMOLOSS."
 
-	para "Through observa-"
-	line "tion, I made a new"
-	cont "discovery."
+	para "Avec de l'observa-"
+	line "tion, j'ai fait"
+	cont "une nouvelle"
+	cont "découverte."
 
-	para "A SLOWPOKE with a"
-	line "KING'S ROCK often"
+	para "Un RAMOLOSS avec"
+	line "une ROCHE ROYALE"
 
-	para "gets bitten by a"
-	line "SHELLDER."
+	para "est souvent mordu"
+	line "par un KOKIYAS."
 
-	para "Here, I'll share a"
-	line "KING'S ROCK with"
-	cont "you."
+	para "Tiens, en voilà"
+	line "une pour toi."
 	done
 ; 0x5adf2
 
 UnknownText_0x5adf2: ; 0x5adf2
-	text "I'm going to be"
-	line "like SLOWPOKE."
+	text "Je serai comme"
+	line "RAMOLOSS."
 
-	para "I'll wait patient-"
-	line "ly, so I can see"
-	cont "one evolve."
+	para "Je serais patient"
+	line "et j'en verrais un"
+	cont "évoluer."
 	done
 ; 0x5ae40
 

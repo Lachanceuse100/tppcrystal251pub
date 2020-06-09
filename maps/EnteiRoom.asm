@@ -28,3 +28,4 @@ EnteiRoom_MapEventHeader:
 	db 0
 	db 1
 	person_event SPRITE_ENTEI, 7, 9, $6, 0, 0, -1, -1, 8 + PAL_OW_RED, 0, 0, StaticEnteiScript, EVENT_STATIC_ENTEI
+

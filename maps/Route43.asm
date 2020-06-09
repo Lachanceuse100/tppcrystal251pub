@@ -463,203 +463,202 @@ ItemFragment_0x19d268: ; 0x19d268
 ; 0x19d26a
 
 PokemaniacBenSeenText: ; 0x19d26a
-	text "I love #MON!"
+	text "J'adore les"
+	line "#MON!"
 
-	para "That's why I"
-	line "started--and why"
+	para "C'est pour ça que"
+	line "j'ai commencé et"
 
-	para "I'll keep on"
-	line "collecting!"
+	para "que je continue-"
+	line "rais de les"
+	cont "collectionner!"
 	done
 ; 0x19d2b4
 
 PokemaniacBenBeatenText: ; 0x19d2b4
-	text "How could you do"
-	line "this to me?"
+	text "Comment oses-tu?"
 	done
 ; 0x19d2d2
 
 UnknownText_0x19d2d2: ; 0x19d2d2
-	text "What else do I"
-	line "like besides"
-	cont "#MON?"
+	text "Ce que j'aime à"
+	line "part les #MON?"
 
-	para "MARY on the"
-	line "radio! I bet"
-	cont "she's cute!"
+	para "LULA à la radio."
+	line "Elle doit être"
+	cont "trop mignonne!"
 	done
 ; 0x19d319
 
 PokemaniacBrent1SeenText: ; 0x19d319
-	text "Hey! Do you have"
-	line "any rare #MON?"
+	text "Hé! Tu as des"
+	line "#MON rares?"
 	done
 ; 0x19d33a
 
 PokemaniacBrent1BeatenText: ; 0x19d33a
-	text "Oh, my poor #-"
-	line "MON! Darlings!"
+	text "Oh, Mes pauvres"
+	line "#MON chéris!"
 	done
 ; 0x19d359
 
 UnknownText_0x19d359: ; 0x19d359
-	text "I'd be happy just"
-	line "to own a single"
-	cont "rare #MON."
+	text "J'aimerais avoir"
+	line "un joli #MON"
+	cont "rare<...>"
 	done
 ; 0x19d386
 
 PokemaniacRonSeenText: ; 0x19d386
-	text "Would you get"
-	line "this?"
+	text "Tu le crois, toi?"
 
-	para "Some <RIVAL> guy"
-	line "made fun of my"
-	cont "cute bug #MON!"
+	para "Un sale type,"
+	line "<RIVAL>, s'est"
+	cont "moqué de mes #-"
+	cont "MON INSECTE!"
 
-	para "I'll show him!"
-	line "My #MON's"
-	cont "great!"
+	para "N'importe quoi!"
+	line "Mes #MON sont"
+	cont "trop cool!"
 	done
 ; 0x19d3d6
 
 PokemaniacRonBeatenText: ; 0x19d3d6
-	text "My VENOMOTH did"
-	line "pretty great!"
+	text "Bravo, AEROMITE!"
 	done
 ; 0x19d3f8
 
 UnknownText_0x19d3f8: ; 0x19d3f8
-	text "It's okay for"
-	line "people to like"
+	text "L'important c'est"
+	line "d'aimer ses #-"
 
-	para "different types"
-	line "of #MON."
+	para "MON, pas d'avoir"
+	line "les plus forts."
 
-	para "Being a good "
-	line "trainer isn't"
-
-	para "just about having"
-	line "the most powerful"
-	cont "ones."
+	para "C'est ça être un"
+	line "vrai dresseur!"
 	done
 ; 0x19d461
 
 FisherMarvinSeenText: ; 0x19d461
-	text "This forest is"
-	line "full of bugs!"
+	text "Cette forêt est"
+	line "plein d'insectes"
 
-	para "I keep reeling in"
-	line "#MON trying to"
-	cont "eat them!"
+	para "Je m'en sert"
+	line "d'appât pour"
+	cont "pêcher les"
+	cont "#MON."
 	done
 ; 0x19d4b0
 
 FisherMarvinBeatenText: ; 0x19d4b0
-	text "At least POLITOED"
-	line "was a nice catch."
+	text "TARPAUD était une"
+	line "bonne capture."
 	done
 ; 0x19d4d3
 
 UnknownText_0x19d4d3: ; 0x19d4d3
-	text "KURT's LURE BALL"
-	line "is the best for"
+	text "L'APPAT BALL de"
+	line "FARGAS est plus"
 
-	para "catching hooked"
-	line "#MON."
+	para "efficace qu'une"
+	line "HYPER BALL pour"
 
-	para "It's much more"
-	line "effective than an"
-	cont "ULTRA BALL."
+	para "attraper les #-"
+	line "MON pêchés."
 	done
 ; 0x19d535
 
 CamperSpencerSeenText: ; 0x19d535
-	text "I can do so much"
-	line "with my #MON--"
-	cont "they're super-fun!"
+	text "Mes #MON et"
+	line "moi, on est des"
+	cont "super potes!"
 	done
 ; 0x19d565
 
 CamperSpencerBeatenText: ; 0x19d565
-	text "Losing isn't fun"
-	line "at all<...>"
+	text "C'est nul de"
+	line "perdre<...>"
 	done
 ; 0x19d57e
 
 UnknownText_0x19d57e: ; 0x19d57e
-	text "What is going on"
-	line "at LAKE OF RAGE?"
+	text "Que se passe-t-il"
+	line "au LAC COLERE?"
 
-	para "We were planning"
-	line "to camp there."
+	para "On voulait y"
+	line "camper."
 	done
 ; 0x19d5c1
 
 PicnickerTiffany3SeenText: ; 0x19d5c1
-	text "Are you going to"
-	line "LAKE OF RAGE too?"
+	text "Tu vas aussi au"
+	line "LAC COLERE?"
 
-	para "Let's play for a"
-	line "little while!"
+	para "On va jouer,"
+	line "d'abord!"
 	done
 ; 0x19d604
 
 PicnickerTiffany3BeatenText: ; 0x19d604
-	text "I played too much!"
+	text "J'ai trop joué!"
 	done
 ; 0x19d618
 
 UnknownText_0x19d618: ; 0x19d618
-	text "I'm having a pic-"
-	line "nic with #MON."
+	text "Mes #MON et"
+	line "moi avons un"
+	cont "pique-nique."
 
-	para "Won't you join us?"
+	para "Tu veux te joindre"
+	line "à nous?"
 	done
 ; 0x19d64b
 
 UnknownText_0x19d64b: ; 0x19d64b
-	text "Isn't my CLEFAIRY"
-	line "just the cutest?"
+	text "Mon MELOFEE est le"
+	line "plus mignon du"
+	cont "monde?"
 	done
 ; 0x19d67b
 
 UnknownText_0x19d67b: ; 0x19d67b
 	text "ROUTE 43"
 
-	para "LAKE OF RAGE -"
-	line "MAHOGANY TOWN"
+	para "LAC COLERE -"
+	line "ACAJOU"
 	done
 ; 0x19d6a2
 
 UnknownText_0x19d6a2: ; 0x19d6a2
 	text "ROUTE 43"
 
-	para "LAKE OF RAGE -"
-	line "MAHOGANY TOWN"
+	para "LAC COLERE -"
+	line "ACAJOU"
 	done
 ; 0x19d6c9
 
 UnknownText_0x19d6c9: ; 0x19d6c9
-	text "TRAINER TIPS"
+	text "ASTUCE"
 
-	para "All #MON have"
-	line "pros and cons"
+	para "Tous les #MON"
+	line "ont des atouts et"
 
-	para "depending on their"
-	line "types."
+	para "des défauts en"
+	line "fonction de leurs"
+	cont "types."
 
-	para "If their types"
-	line "differ, a higher-"
+	para "Suivant les types,"
+	line "un #MON de haut"
 
-	para "level #MON may"
-	line "lose in battle."
+	para "niveau peut perdre"
+	line "un combat."
 
-	para "Learn which types"
-	line "are strong and"
+	para "Découvrez quels"
+	line "types ont l'avan-"
 
-	para "weak against your"
-	line "#MON's type."
+	para "tage sur certains"
+	line "#MON."
 	done
 ; 0x19d78c
 

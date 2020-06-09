@@ -267,205 +267,205 @@ MapRoute39SignpostItem3: ; 0x1a5bf6
 ; 0x1a5bf9
 
 UnknownText_0x1a5bf9: ; 0x1a5bf9
-	text "MILTANK: Mooo!"
+	text "MILTANK: MEU!"
 	done
 ; 0x1a5c09
 
 SailorEugeneSeenText: ; 0x1a5c09
-	text "I am gathering"
-	line "groceries for"
-	cont "our next journey!"
+	text "Je prépare les"
+	line "affaires de notre"
+	cont "prochain voyage!"
 
-	para "Some #MON"
-	line "happened to get"
-	cont "mixed into it<...>"
+	para "Certains #MON"
+	line "ont voulu se"
+	cont "mêler a nous<...>"
 	done
 ; 0x1a5c42
 
 SailorEugeneBeatenText: ; 0x1a5c42
-	text "Awaaargh!"
+	text "Aaaargh!"
 	done
 ; 0x1a5c4d
 
 UnknownText_0x1a5c4d: ; 0x1a5c4d
-	text "I guess this"
-	line "shows how"
-	cont "important it is"
+	text "Cela montre bien"
+	line "que développer"
+	cont "les liens avec nos"
 
-	para "to develop bonds"
-	line "with #MON"
-	cont "before battling!"
+	para "#MON avant de"
+	line "combattre est"
+	cont "important!"
 	done
 ; 0x1a5ca5
 
 PokefanmDerek1SeenText: ; 0x1a5ca5
-	text "I work at the"
-	line "local farm here!"
+	text "Je travaille a la"
+	line "ferme du coin!"
 
-	para "My son likes to"
-	line "come around and"
-	cont "watch me work."
+	para "Mon fils aime"
+	line "venir me regarder"
+	cont "travailler."
 
-	para "I know!"
+	para "Je sais!"
 
-	para "I'll impress him"
-	line "a bit by battling!"
+	para "Je vais l'impre-"
+	line "ssioner avec un"
+	cont "combat!"
 	done
 ; 0x1a5cd4
 
 PokefanmDerek1BeatenText: ; 0x1a5cd4
-	text "SON: Dad, how"
-	line "could you lose!?"
+	text "FILS: Papa, pour-"
+	line "quoi tu as perdu!?"
 
-	para "DAD: <...>"
+	para "PERE: <...>"
 	done
 ; 0x1a5cf8
 
 UnknownText_0x1a5cf8: ; 0x1a5cf8
-	text "You can train"
-	line "#MON by other"
-	cont "means than battle."
-
-	para "Mine train by"
-	line "mowing the grass"
-	cont "at ROUTE 38!"
+	text "Mon #MON s'en-"
+	line "traîne en mâchant"
+	cont "l'herbe de la"
+	cont "ROUTE 38!"
 	done
 ; 0x1a5d5b
 
 PokefanfRuthSeenText: ; 0x1a5d5b
-	text "I am a big fan"
-	line "of OLIVINE's GYM"
-	cont "LEADER, JASMINE."
+	text "Je suis un grand"
+	line "fan de JASMINE, la"
+	cont "CHAMPIONNE"
+	cont "d'OLIVILLE."
 
-	para "I named my #-"
-	line "MON, just like she"
-	cont "does!"
+	para "Je renomme mes"
+	line "#MON, comme"
+	cont "elle!"
 	done
 ; 0x1a5d9d
 
 PokefanfRuthBeatenText: ; 0x1a5d9d
-	text "ZAPPY, no!"
+	text "ZAPPY, non!"
 	done
 ; 0x1a5db2
 
 UnknownText_0x1a5db2: ; 0x1a5db2
-	text "Nicknames really"
-	line "give #MON"
-	cont "a personal touch."
+	text "Des petits surnoms"
+	line "donnent une touche"
+	cont "unique à mes"
+	cont "#MON."
 
-	para "I visit the NAME"
-	line "RATER sometimes in"
-	cont "GOLDENROD CITY."
+	para "Parfois je vais"
+	line "voir le NOTEUR DE"
+	cont "NOMS à"
+	cont "DOUBLONVILLE."
 	done
 ; 0x1a5dec
 
 UnknownText_0x1a5dec: ; 0x1a5dec
-	text "You can train"
-	line "#MON by other"
-	cont "means than battle."
-
-	para "Mine train by"
-	line "mowing the grass"
-	cont "at ROUTE 38!"
+	text "Mon #MON s'en-"
+	line "traîne en mâchant"
+	cont "l'herbe de la"
+	cont "ROUTE 38!"
 	done
 ; 0x1a5e0c
 
 PsychicNormanSeenText: ; 0x1a5e0c
-	text "Let me see what"
-	line "your #MON are"
-	cont "capable of."
+	text "De quoi tes #-"
+	line "MON sont-ils"
+	cont "capables?"
 	done
 ; 0x1a5e37
 
 PsychicNormanBeatenText: ; 0x1a5e37
-	text "Ooh, your #MON"
-	line "have potential."
+	text "Oh, tes #MON"
+	line "ont du potentiel."
 	done
 ; 0x1a5e57
 
 UnknownText_0x1a5e57: ; 0x1a5e57
-	text "You know how #-"
-	line "MON have different"
-	para "levels of"
-	line "strength?"
+	text "Tu sais que chaque"
+	line "#MON a son pro-"
+	para "pre niveau de"
+	line "force?"
 
-	para "People are like"
-	line "that too."
+	para "C'est pareil pour"
+	line "nous."
 
-	para "Everyone has their"
-	line "own unique poten-"
-	cont "tial."
+	para "Tout le monde à"
+	line "un potentiel"
+	cont "unique."
 	done
 ; 0x1a5ec4
 
 UnknownText_0x1a5ec4: ; 0x1a5ec4
-	text "Ufufufu<...> I hope it"
-	line "gets dark soon."
+	text "Héhéhéhé<...> J'espère"
+	line "qu'il fera bientôt"
+	cont "nuit<...>"
 	done
 ; 0x1a5ee8
 
 UnknownText_0x1a5ee8: ; 0x1a5ee8
-	text "You came at just"
-	line "the right time."
+	text "Tu arrives au bon"
+	line "moment."
 
-	para "Let's battle."
+	para "Combattons!"
 	done
 ; 0x1a5f17
 
 UnknownText_0x1a5f17: ; 0x1a5f17
-	text "Oh, how disap-"
-	line "pointing<...>"
+	text "Oh, quelle"
+	line "déception<...>"
 	done
 ; 0x1a5f31
 
 UnknownText_0x1a5f31: ; 0x1a5f31
-	text "I met my MEOWTH at"
-	line "night, right here"
-	cont "on ROUTE 39."
+	text "J'ai rencontré mon"
+	line "MIAOUSS ici, sur"
+	cont "la ROUTE 39 durant"
+	cont "la nuit."
 
-	para "I'm not sure why,"
-	line "but it seems to"
+	para "Je ne sais pas"
+	line "pourquoi mais il"
 
-	para "like it when I"
-	line "train here."
+	para "aime s'entraîner"
+	line "ici."
 
-	para "It seems to become"
-	line "friendlier by"
-
-	para "training here than"
-	line "anywhere else."
+	para "Il devient plus"
+	line "amical de cette"
+	cont "façon<...>"
 	done
 ; 0x1a5fe3
 
 UnknownText_0x1a5fe3: ; 0x1a5fe3
 	text "ROUTE 39"
 
-	para "OLIVINE CITY -"
-	line "ECRUTEAK CITY"
+	para "OLIVILLE -"
+	line "ROSALIA"
 	done
 ; 0x1a600a
 
 UnknownText_0x1a600a: ; 0x1a600a
-	text "MOOMOO FARM"
+	text "RANCH MEUMEU"
 
-	para "Enjoy Our Fresh"
-	line "and Tasty Milk"
+	para "Le meilleur lait"
+	line "sur le marché!"
 	done
 ; 0x1a6036
 
 UnknownText_0x1a6036: ; 0x1a6036
-	text "TRAINER TIPS"
+	text "ASTUCE"
 
-	para "Use HEADBUTT on"
-	line "trees to shake"
-	cont "#MON out."
+	para "Un COUP D'BOULE"
+	line "sur les arbres"
+	cont "peut faire tomber"
+	cont "des #MON."
 
-	para "Different kinds of"
-	line "#MON drop out"
-	cont "of trees."
+	para "Des #MON diffé-"
+	line "rents vivent dans"
+	cont "les arbres."
 
-	para "Use HEADBUTT on"
-	line "any tree you see!"
+	para "Donnez des COUPS"
+	line "D'BOULE et vous"
+	cont "verrez!"
 	done
 ; 0x1a60ba
 

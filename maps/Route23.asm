@@ -20,12 +20,12 @@ MapRoute23Signpost0Script: ; 0x1ae537
 ; 0x1ae53a
 
 UnknownText_0x1ae53a: ; 0x1ae53a
-	text "INDIGO PLATEAU"
+	text "PLATEAU INDIGO"
 
-	para "The Ultimate Goal"
-	line "for Trainers!"
+	para "La quête ultime de"
+	line "tout dresseur!"
 
-	para "#MON LEAGUE HQ"
+	para "QG LIGUE #MON"
 	done
 ; 0x1ae579
 

@@ -162,28 +162,36 @@ RuinsEntranceSignScript:
 	jumptext RuinsEntranceText
 
 RuinsEntranceText:
-	text "There's a piece"
-    line "of text here<...>"
-	para "A PIECE OF THE"
-	line "WORLD IS MISSING,"
-	cont "CAST DOWN BY THE"
-	cont "ORIGINAL ONE."
-	para "BUT HOW CAN ONE"
-	line "CAST DOWN THAT"
-	cont "WHICH DOES NOT"
-	cont "EXIST?"
+	text "Il y a un morceau"
+    line "de texte ici<...>"
+
+	para "UNE PARTIE DU MON-"
+	line "DE EST MANQUANTE,"
+	cont "BANNIE PAR L'ORI-"
+	cont "GINAL."
+
+	para "MAIS COMMENT PEUT-"
+	line "IL BANNIR CE QUI"
+	cont "N'EXISTE PAS?"
+
     para "<...>"
-	para "IT WAITS FOR A"
-	line "TAMER - IT WAITS"
-	cont "FOR YOU."
+
+	para "IL ATTENDS UN"
+	line "DRESSEUR."
+
+	para "IL VOUS ATTENDS."
+
     para "<...>"
-	para "GO FORTH AND"
-	line "CONFRONT THE"
-	cont "SLEEPING ONE,"
-	cont "FOR ITS NAME IS-"
-	para "<...>"
-	para "The statue appears"
-	line "to be broken off."
+	
+	para "AVANCEZ-VOUS,"
+	line "CONFRONTEZ CELUI"
+	cont "QUI DORT."
+
+	para "SON NOM EST"
+	line "<...>"
+
+	para "La statue a l'air"
+	line "cassée ici."
     done
 
 SilverCaveRoom3_MapEventHeader: ; 0x18c644

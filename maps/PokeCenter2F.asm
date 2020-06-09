@@ -912,148 +912,155 @@ MovementData_0x192d36: ; 0x192d36
 ; 0x192d39
 
 UnknownText_0x192d39: ; 0x192d39
-	text "Would you like to"
-	line "battle over a GAME"
+	text "Voulez-vous com-"
+	line "battre par CABLE"
 
-	para "LINK cable or by"
-	line "mobile phone?"
+	para "LINK ou téléphone"
+	line "mobile?"
 	done
 ; 0x192d7e
 
 UnknownText_0x192d7e: ; 0x192d7e
-	text "Would you like to"
-	line "trade over a GAME"
+	text "Voulez-vous"
+	line "échanger par CABLE"
 
-	para "LINK cable or by"
-	line "mobile phone?"
+	para "LINK ou téléphone"
+	line "mobile?"
 	done
 ; 0x192dc2
 
 UnknownText_0x192dc2: ; 0x192dc2
-	text "This way to the"
-	line "MOBILE ROOM."
+	text "Par ici pour la"
+	line "SALLE MOBILE."
 	done
 ; 0x192de0
 
 UnknownText_0x192de0: ; 0x192de0
-	text "Welcome to CABLE"
-	line "CLUB COLOSSEUM."
+	text "Bienvenue au CLUB"
+	line "LINK COLISEE"
 
-	para "You may battle a"
-	line "friend here."
+	para "Vous pouvez y"
+	line "affronter un ami."
 
-	para "Would you like to"
-	line "battle?"
+	para "Souhaitez-vous"
+	line "combattre?"
 	done
 ; 0x192e3a
 
 UnknownText_0x192e3a: ; 0x192e3a
-	text "Welcome to CABLE"
-	line "TRADE CENTER."
+	text "Bievenue au"
+	line "CLUB TROC."
 
-	para "You may trade your"
-	line "#MON here with"
-	cont "a friend."
+	para "Vous pouvez y"
+	line "faire des échanges"
+	cont "de #MON avec"
+	cont "un ami."
 
-	para "Would you like to"
-	line "trade?"
+	para "Souhaitez-vous"
+	line "échanger?"
 	done
 ; 0x192e9f
 
 UnknownText_0x192e9f: ; 0x192e9f
-	text "Welcome to CABLE"
-	line "CLUB TIME CAPSULE."
+	text "Bienvenue au"
+	line "BLOC TEMPOREL."
 
-	para "You can travel to"
-	line "the past and trade"
-	cont "your #MON."
+	para "Vous pouvez voya-"
+	line "ger dans le temps"
+	cont "et échanger vos"
+	cont "#MON."
 
-	para "Would you like to"
-	line "trade across time?"
+	para "Voulez-vous faire"
+	line "des échanges vers"
+	cont "le passé?"
 	done
 ; 0x192f19
 
 UnknownText_0x192f19: ; 0x192f19
-	text "Your friend is not"
-	line "ready."
+	text "Votre ami n'est"
+	line "pas prêt."
 	prompt
 ; 0x192f34
 
 UnknownText_0x192f34: ; 0x192f34
-	text "Before opening the"
-	line "link, you must"
-	cont "save your game."
+	text "Avant d'ouvrir le"
+	line "lien, sauvegardez"
+	cont "votre partie."
 	done
 ; 0x192f67
 
 UnknownText_0x192f67: ; 0x192f67
-	text "Please wait."
+	text "Un instant."
 	done
 ; 0x192f75
 
 UnknownText_0x192f75: ; 0x192f75
-	text "The link has been"
-	line "closed because of"
-	cont "inactivity."
+	text "Le lien à été"
+	line "fermé suite à une"
+	cont "inactivité."
 
-	para "Please contact"
-	line "your friend and"
-	cont "come again."
+	para "Veuillez contacter"
+	line "votre ami et"
+	cont "revenir."
 	prompt
 ; 0x192fd1
 
 UnknownText_0x192fd1: ; 0x192fd1
-	text "Please come again."
+	text "Au plaisir de vous"
+	line "revoir."
 	prompt
 ; 0x192fe5
 
 UnknownText_0x192fe5: ; 0x192fe5
-	text "Please come in."
+	text "Veuillez entrer."
 	prompt
 ; 0x192ff6
 
 UnknownText_0x192ff6: ; 0x192ff6
-	text "We'll put you in"
-	line "the link room for"
-	cont "the time being."
+	text "Nous vous mettrons"
+	line "dans la salle du"
+	cont "câble pour le"
+	cont "moment."
 	done
 ; 0x193029
 
 UnknownText_0x193029: ; 0x193029
-	text "You can't link to"
-	line "the past here."
+	text "Vous ne pouvez pas"
+	line "vous connecter au"
+	cont "passé ici."
 	prompt
 ; 0x19304a
 
 UnknownText_0x19304a: ; 0x19304a
-	text "Incompatible rooms"
-	line "were chosen."
+	text "Salles"
+	line "incompatibles."
 	prompt
 ; 0x19306b
 
 UnknownText_0x19306b: ; 0x19306b
-	text "Please come in."
+	text "Veuillez entrer"
 	done
 ; 0x19307c
 
 UnknownText_0x19307c: ; 0x19307c
-	text "Please enter."
+	text "Veuillez entrer"
 	prompt
 ; 0x19308b
 
 UnknownText_0x19308b: ; 0x19308b
-	text "Sorry--@"
+	text "Désolée--@"
 	text_from_ram StringBuffer1
 	text ""
-	line "can't be taken."
+	line "ne peut-être pris."
 	prompt
 ; 0x1930a8
 
 UnknownText_0x1930a8: ; 0x1930a8
-	text "You can't take the"
-	line "@"
+	text "Vous ne pouvez pas"
+	line "prendre:"
+	cont "@"
 	text_from_ram StringBuffer1
-	text " with a"
+	text " avec:"
 	cont "@"
 	text_from_ram StringBuffer2
 	text "."
@@ -1061,108 +1068,106 @@ UnknownText_0x1930a8: ; 0x1930a8
 ; 0x1930cf
 
 UnknownText_0x1930cf: ; 0x1930cf
-	text "You can't take the"
-	line "@"
+	text "Vous ne pouvez pas"
+	line "prendre:"
+	cont "@"
 	text_from_ram StringBuffer1
-	text " that"
-	cont "has MAIL with you."
+	text " qui"
+	cont "a une LETTRE."
 	prompt
 ; 0x193100
 
 UnknownText_0x193100: ; 0x193100
-	text "I'm sorry--the"
-	line "TIME CAPSULE is"
-	cont "being adjusted."
+	text "Désolée, le BLOC"
+	line "TEMPOREL est en"
+	cont "ajustement."
 	done
 ; 0x19312f
 
 UnknownText_0x19312f: ; 0x19312f
-	text "I'm sorry--the"
-	line "TRADE MACHINE is"
-	cont "being adjusted."
+	text "Désolée, le"
+	line "CENTRE TROC est"
+	cont "en ajustement."
 	done
 ; 0x19315f
 
 UnknownText_0x19315f: ; 0x19315f
-	text "I'm sorry--the"
-	line "BATTLE MACHINE is"
-	cont "being adjusted."
+	text "Désolée, le"
+	line "COLISEE est"
+	cont "en ajustement."
 	done
 ; 0x193190
 
 UnknownText_0x193190: ; 0x193190
-	text "Hello! You're"
-	line "<PLAYER>, right?"
+	text "Salut! Tu es"
+	line "<PLAYER>?"
 
-	para "I have some-"
-	line "thing for you."
+	para "J'ai quelque"
+	line "chose pour toi."
 	done
 ; 0x1931c4
 
 UnknownText_0x1931c4: ; 0x1931c4
-	text "Here you go!"
+	text "Tiens!"
 	done
 ; 0x1931d2
 
 UnknownText_0x1931d2: ; 0x1931d2
-	text "We hope to serve"
-	line "you again."
+	text "Nous espérons pou-"
+	line "voir vous servir."
 	done
 ; 0x1931ef
 
 UnknownText_0x1931ef: ; 0x1931ef
-	text "Oh, you have no"
-	line "space for this."
+	text "Oh, tu n'as pas"
+	line "de place pour ça."
 
-	para "Stop in at any"
-	line "#MON CENTER"
+	para "Passe dans un des"
+	line "centre #MON du"
 
-	para "across the country"
-	line "to pick it up."
+	para "pays pour le"
+	line "récupérer."
 	done
 ; 0x19324d
 
 UnknownText_0x19324d: ; 0x19324d
-	text "No? That's very"
-	line "strange<...>"
+	text "Non? C'est très"
+	line "étrange<...>"
 	done
 ; 0x193266
 
 UnknownText_0x193266: ; 0x193266
-	text "Oh, please wait."
+	text "Oh, attendez."
 	done
 ; 0x193278
 
 UnknownText_0x193278: ; 0x193278
-	text "We need to change"
-	line "the look here<...>"
+	text "Un léger chan-"
+	line "gement de look<...>"
 	done
 ; 0x19329a
 
 UnknownText_0x19329a: ; 0x19329a
-	text "How does this"
-	line "style look to you?"
+	text "Ce style vous"
+	line "plaît-il?"
 	done
 ; 0x1932bc
 
 UnknownText_0x1932bc: ; 0x1932bc
-	text "Excuse me!"
+	text "Excusez moi!"
 
-	para "For STADIUM rules,"
-	line "please bring six"
+	para "Les règles du"
+	line "STADIUM stipulent"
 
-	para "different #MON,"
-	line "excluding EGGS."
+	para "6 #MON"
+	line "différents."
 
-	para "The six #MON"
-	line "must be different."
+	para "Ils ne doivent pas"
+	line "non plus tenir d'"
+	cont "objets identiques."
 
-	para "Also, they must"
-	line "not be holding"
-	cont "identical items."
-
-	para "Please come back"
-	line "when you're ready."
+	para "Revenez lorsque"
+	line "vous serez prêts."
 	done
 ; 0x19337f
 

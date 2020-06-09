@@ -162,119 +162,119 @@ MovementData_0x1900ad: ; 0x1900ad
 ; 0x1900b0
 
 UnknownText_0x1900b0: ; 0x1900b0
-	text "Hiya, kid!"
+	text "Salut toi!"
 
-	para "I see you're new"
-	line "in MAHOGANY TOWN."
+	para "Tu es nouveau à"
+	line "ACAJOU toi, non?"
 
-	para "Since you're new,"
-	line "you should try a"
+	para "Alors tu DOIS"
+	line "essayer le BONBON"
+	cont "RAGE!"
 
-	para "yummy RAGECANDY-"
-	line "BAR!"
-
-	para "Right now, it can"
-	line "be yours for just"
-	cont "¥300! Want one?"
+	para "¥300 et c'est à"
+	line "toi! OK?"
 	done
 ; 0x19014a
 
 UnknownText_0x19014a: ; 0x19014a
-	text "Good! Savor it!"
+	text "Super! Savoure-le!"
 	done
 ; 0x19015b
 
 UnknownText_0x19015b: ; 0x19015b
-	text "You don't have"
-	line "enough money."
+	text "Tu n'as pas assez"
+	line "d'argent."
 	done
 ; 0x190178
 
 UnknownText_0x190178: ; 0x190178
-	text "Oh, fine then<...>"
+	text "Oh, très bien<...>"
 	done
 ; 0x190188
 
 UnknownText_0x190188: ; 0x190188
-	text "You don't have"
-	line "room for this."
+	text "Non, tu n'as plus"
+	line "de place!"
 	done
 ; 0x1901a6
 
 UnknownText_0x1901a6: ; 0x1901a6
-	text "RAGECANDYBAR's"
-	line "sold out."
+	text "Je n'ai plus de"
+	line "BONBON RAGE."
 
-	para "I'm packing up."
-	line "Don't bother me,"
-	cont "kiddo."
+	para "Je me tire d'ici,"
+	line "me dérange plus."
 	done
 ; 0x1901e5
 
 UnknownText_0x1901e5: ; 0x1901e5
-	text "Are you off to see"
-	line "the GYARADOS ram-"
-	cont "page at the LAKE?"
+	text "Sors-tu voir le"
+	line "LEVIATOR déchaîné"
+	cont "au LAC?"
 	done
 ; 0x19021d
 
 UnknownText_0x19021d: ; 0x19021d
-	text "MAGIKARP have"
-	line "returned to LAKE"
-	cont "OF RAGE."
+	text "Des MAGICARPE sont"
+	line "revenus au LAC"
+	cont "COLERE."
 
-	para "That should be"
-	line "good news for the"
-	cont "anglers there."
+	para "Ca devrait faire"
+	line "plaisir aux"
+	cont "pêcheurs du coin."
 	done
 ; 0x190276
 
 UnknownText_0x190276: ; 0x190276
-	text "Since you came"
-	line "this far, take the"
+	text "Si tu as fait tout"
+	line "ce chemin, prends"
 
-	para "time to do some"
-	line "sightseeing."
+	para "donc le temps de"
+	line "faire du tourisme."
 
-	para "You should head"
-	line "north and check"
+	para "Tu devrais aller"
+	line "visiter le LAC"
 
-	para "out LAKE OF RAGE"
-	line "right now."
+	para "COLERE au nord"
+	line "d'ici."
 	done
 ; 0x1902f2
 
 UnknownText_0x1902f2: ; 0x1902f2
-	text "Visit Grandma's"
-	line "shop. She sells"
+	text "Va voir la"
+	line "boutique de mémé."
 
-	para "stuff that nobody"
-	line "else has."
+	para "Elle vend des"
+	line "trucs incroyables."
 	done
 ; 0x19032e
 
 UnknownText_0x19032e: ; 0x19032e
-	text "MAHOGANY TOWN"
+	text "ACAJOU"
 
-	para "Welcome to the"
-	line "Home of the Ninja"
+	para "Bienvenue chez"
+	line "le grand ninja!"
 	done
 ; 0x19035e
 
 UnknownText_0x19035e: ; 0x19035e
-	text "While visiting"
-	line "MAHOGANY TOWN, try"
-	cont "a RAGECANDYBAR!"
+	text "Pendant votre"
+	line "visite d'ACAJOU,"
+
+	para "essayez un BONBON"
+	line "RAGE!"
 	done
 ; 0x190391
 
 UnknownText_0x190391: ; 0x190391
-	text "MAHOGANY TOWN"
-	line "#MON GYM"
-	cont "LEADER: PRYCE"
+	text "ARENE #MON"
+	line "d'ACAJOU"
 
-	para "The Teacher of"
-	line "Winter's Harshness"
+	para "CHAMPION:"
+	line "FREDO"
+
+	para "Le professeur au"
+	line "sang froid."
 	done
 ; 0x1903d8
 

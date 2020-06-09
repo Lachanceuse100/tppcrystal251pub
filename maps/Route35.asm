@@ -431,209 +431,210 @@ FruitTreeScript_0x19ca7e: ; 0x19ca7e
 ; 0x19ca80
 
 CamperIvanSeenText: ; 0x19ca80
-	text "The right"
-	line "#MON make"
-
-	para "camping all that"
-	line "much easier!"
+	text "Le bon #MON"
+	line "rends le camping"
+	cont "plus facile!"
 	done
 ; 0x19cabb
 
 CamperIvanBeatenText: ; 0x19cabb
-	text "Dug my own grave!"
+	text "J'ai creusé ma"
+	line "tombe!"
 	done
 ; 0x19cac4
 
 UnknownText_0x19cac4: ; 0x19cac4
-	text "My #MON and me"
-	line "all work hard to"
-	cont "set up the tent!"
+	text "Mes #MON et moi"
+	line "travaillont dur"
+	cont "pour monter la"
+	cont "tente!"
 	done
 ; 0x19caf8
 
 CamperElliotSeenText: ; 0x19caf8
-	text "I'm gonna show my"
-	line "girlfriend I'm hot"
-	cont "stuff!"
+	text "Je vais montrer à"
+	line "ma copine que je"
+	cont "suis un vrai dur!"
 	done
 ; 0x19cb23
 
 CamperElliotBeatenText: ; 0x19cb23
-	text "I wish you would"
-	line "have lost for me<...>"
+	text "Tu aurais pu faire"
+	line "exprès de perdre<...>"
 	done
 ; 0x19cb47
 
 UnknownText_0x19cb47: ; 0x19cb47
-	text "I was humiliated"
-	line "in front of my"
-	cont "girlfriend<...>"
+	text "Tu m'as humilié"
+	line "devant ma copine<...>"
 	done
 ; 0x19cb74
 
 PicnickerBrookeSeenText: ; 0x19cb74
-	text "My boyfriend's"
-	line "weak, so I can't"
-	cont "rely on him."
+	text "Mon copain est"
+	line "trop nul! J'ai la"
+	cont "honte!"
 	done
 ; 0x19cba0
 
 PicnickerBrookeBeatenText: ; 0x19cba0
-	text "Oh, my! You're so"
-	line "strong!"
+	text "Mazette! Tu es"
+	line "trop fort!"
 	done
 ; 0x19cbba
 
 UnknownText_0x19cbba: ; 0x19cbba
-	text "I can count on my"
-	line "#MON more than"
-	cont "my boyfriend."
+	text "Je préfère mes"
+	line "#MON à mon"
+	cont "copain."
 	done
 ; 0x19cbea
 
 PicnickerKimSeenText: ; 0x19cbea
-	text "Are you going to"
-	line "the GYM? Me too!"
+	text "Tu vas à l'ARENE?"
+	line "Moi aussi!"
 	done
 ; 0x19cc0d
 
 PicnickerKimBeatenText: ; 0x19cc0d
-	text "Oh. I couldn't"
-	line "win<...>"
+	text "J'avais aucune"
+	line "chance<...>"
 	done
 ; 0x19cc21
 
 UnknownText_0x19cc21: ; 0x19cc21
-	text "The GYM BADGES are"
-	line "pretty. I collect"
-	cont "them."
+	text "Les BADGES d'ARENE"
+	line "sont jolis. Je les"
+	cont "collectionne."
 	done
 ; 0x19cc4d
 
 Bird_keeperBryanSeenText: ; 0x19cc4d
-	text "What kinds of"
-	line "BALLS do you use?"
+	text "Quelles # BALLS"
+	line "utilises-tu?"
 	done
 ; 0x19cc6e
 
 Bird_keeperBryanBeatenText: ; 0x19cc6e
-	text "Yikes! Not fast"
-	line "enough!"
+	text "Whoa! Pas assez"
+	line "rapide!"
 	done
 ; 0x19cc87
 
 UnknownText_0x19cc87: ; 0x19cc87
-	text "Some #MON flee"
-	line "right away."
+	text "Certains #MON"
+	line "s'enfuient vite."
 
-	para "Try catching them"
-	line "with KURT's FAST"
-	cont "BALL."
+	para "Attrape-les avec"
+	line "une SPEED BALL de"
+	cont "FARGAS."
 
-	para "Whenever I find a"
-	line "WHT APRICORN, I"
-	cont "take it to KURT."
+	para "Apporte à FARGAS"
+	line "un NOIGRUME BLC si"
+	cont "tu en trouves un."
 
-	para "He gives me a"
-	line "custom BALL."
+	para "Il le transformera"
+	line "en # BALL!"
 	done
 ; 0x19cd1e
 
 JugglerIrwin1SeenText: ; 0x19cd1e
-	text "I can juggle five"
-	line "balls at once!"
+	text "Je peux jongler"
+	line "avec cinq balles"
+	cont "en même temps!"
 	done
 ; 0x19cd42
 
 JugglerIrwin1BeatenText: ; 0x19cd42
-	text "Dropped them!"
+	text "Oups! Elles sont"
+	cont "tombées."
 	done
 ; 0x19cd5a
 
 UnknownText_0x19cd5a: ; 0x19cd5a
-	text "Someday I will"
-	line "be able to juggle"
-	cont "six at once<...>"
+	text "Un jour, je jon-"
+	line "glerais avec six"
+	cont "balles à la fois<...>"
 	done
 ; 0x19cdaa
 
 Bug_catcherArnie1SeenText: ; 0x19cdaa
-	text "I'll go anywhere"
-	line "if bug #MON"
-	cont "appear there."
+	text "J'irais n'importe"
+	line "où si il y a des"
+	cont "#MON INSECTE."
 	done
 ; 0x19cdd5
 
 Bug_catcherArnie1BeatenText: ; 0x19cdd5
-	text "Huh? I shouldn't"
-	line "have lost that<...>"
+	text "Hein? Je n'aurais"
+	line "pas dû perdre<...>"
 	done
 ; 0x19cdf6
 
 UnknownText_0x19cdf6: ; 0x19cdf6
-	text "My VENONAT won me"
-	line "the Bug-Catching"
+	text "Mon MIMITOSS a ga-"
+	line "gné au Concours de"
 
-	para "Contest at the"
-	line "NATIONAL PARK."
+	para "Capture d'insecte"
+	line "au PARC NATUREL."
 	done
 ; 0x19ce38
 
 UnknownText_0x19ce38: ; 0x19ce38
-	text "Wow<...> Look at all"
-	line "those YANMA!"
+	text "Woah! Regarde tous"
+	line "ces YANMA!"
 
-	para "I'm so blown away,"
-	line "I can't move."
+	para "C'est dingue, je"
+	line "peux plus bouger."
 	done
 ; 0x19ce76
 
 FirebreatherWaltSeenText: ; 0x19ce76
-	text "I'm practicing my"
-	line "fire breathing."
+	text "Je m'entraîne à"
+	line "cracher du feu."
 	done
 ; 0x19ce98
 
 FirebreatherWaltBeatenText: ; 0x19ce98
-	text "Ow! I scorched the"
-	line "tip of my nose!"
+	text "Ouch! Mon nez!"
 	done
 ; 0x19cebc
 
 UnknownText_0x19cebc: ; 0x19cebc
-	text "The #MON March"
-	line "on the radio lures"
-	cont "wild #MON."
+	text "La fanfare #MON"
+	line "à la radio attire"
+	cont "les #MON"
+	cont "sauvages."
 	done
 ; 0x19ceea
 
 UnknownText_0x19ceea: ; 0x19ceea
-	text "Danger lurks in"
-	line "the night!"
+	text "Le danger rôde"
+	line "la nuit!"
 	done
 ; 0x19cf06
 
 UnknownText_0x19cf06: ; 0x19cf06
-	text "Whoops!"
+	text "Oups!"
 	done
 ; 0x19cf0f
 
 UnknownText_0x19cf0f: ; 0x19cf0f
-	text "You know, night-"
-	line "time is fun in its"
-	cont "own ways."
+	text "C'est marrant de"
+	line "se balader la nuit"
+	cont "tombée."
 
-	para "But don't overdo"
-	line "it, OK?"
+	para "Mais n'en fait pas"
+	line "trop, d'accord?"
 	done
 ; 0x19cf56
 
 UnknownText_0x19cf56: ; 0x19cf56
-	text "Your #MON look"
-	line "pretty tough."
+	text "Tes #MON ont"
+	line "l'air fort."
 
-	para "You could go any-"
-	line "where safely."
+	para "Tu es en sécurité"
+	line "avec eux<...>."
 	done
 ; 0x19cf94
 

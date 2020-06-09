@@ -64,15 +64,15 @@ UnknownScript_0x193624: ; 0x193624
 ; 0x193626
 
 UnknownText_0x193626: ; 0x193626
-	text "Establishing"
-	line "communications<...>"
+	text "Communication en"
+	line "cours<...>"
 	done
 ; 0x193644
 
 UnknownText_0x193644: ; 0x193644
-	text "Your #MON will"
-	line "be fully healed"
-	cont "before battle."
+	text "Vos #MON seront"
+	line "soignés avant le"
+	cont "combat."
 	done
 ; 0x193673
 

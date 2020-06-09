@@ -201,182 +201,189 @@ MovementData_0x196f61: ; 0x196f61
 ; 0x196f66
 
 UnknownText_0x196f66: ; 0x196f66
-	text "Hello, hello! You"
-	line "must be <PLAY_G>."
+	text "Bonjour, bonjour!"
+	line "Tu es <PLAY_G>,"
+	cont "c'est ça?"
 
-	para "PROF.ELM said that"
-	line "you would visit."
+	para "Le PROF.ORME"
+	line "m'a prévenu de"
+	cont "ton arrivée."
 	done
 ; 0x196fa8
 
 UnknownText_0x196fa8: ; 0x196fa8
-	text "This is what I"
-	line "want PROF.ELM to"
+	text "Voilà ce que je"
+	line "voudrais qu'il"
 	cont "examine."
 	done
 ; 0x196fd2
 
 UnknownText_0x196fd2: ; 0x196fd2
-	text "<PLAYER> received"
-	line "MYSTERY EGG."
+	text "<PLAYER> reçoit"
+	line "l'OEUF MYSTERE."
 	done
 ; 0x196feb
 
 UnknownText_0x196feb: ; 0x196feb
-	text "I know a couple"
-	line "who run a #MON"
-	cont "DAY-CARE service."
+	text "Je connais un"
+	line "couple qui tient"
+	cont "une pension"
+	cont "#MON."
 
-	para "They gave me that"
-	line "EGG."
+	para "Ils m'ont donné"
+	line "cet OEUF."
 
-	para "I was intrigued,"
-	line "so I sent mail to"
-	cont "PROF.ELM."
+	para "J'étais intrigué,"
+	line "alors j'ai envoyé"
+	cont "un e-mail au"
+	cont "PROF.ORME."
 
-	para "For #MON evolu-"
-	line "tion, PROF.ELM is"
-	cont "the authority."
+	para "Le PROF.ORME est"
+	line "incollable en"
+	cont "évolution #MON."
 	done
 ; 0x197092
 
 UnknownText_0x197092: ; 0x197092
-	text "Even PROF.OAK here"
-	line "recognizes that."
+	text "Même le PROF.CHEN"
+	line "est d'accord."
 	done
 ; 0x1970b7
 
 UnknownText_0x1970b7: ; 0x1970b7
-	text "If my assumption"
-	line "is correct, PROF."
-	cont "ELM will know it."
+	text "Le PROF.ORME aura"
+	line "sûrement une"
+	cont "explication."
 	done
 ; 0x1970ed
 
 UnknownText_0x1970ed: ; 0x1970ed
-	text "You are returning"
-	line "to PROF.ELM?"
+	text "Tu retournes chez"
+	line "le PROF.ORME?"
 
-	para "Here. Your #MON"
-	line "should have some"
-	cont "rest."
+	para "Tiens, tu devrais"
+	line "te reposer avant."
 	done
 ; 0x197134
 
 UnknownText_0x197134: ; 0x197134
-	text "I'm depending on"
-	line "you!"
+	text "Je compte sur toi!"
 	done
 ; 0x19714a
 
 UnknownText_0x19714a: ; 0x19714a
-	text "Life is delight-"
-	line "ful! Always, new"
+	text "La vie est belle!"
 
-	para "discoveries to be"
-	line "made!"
+	para "Toujours de nou-"
+	line "velles découvertes"
+	cont "à faire."
 	done
 ; 0x197185
 
 UnknownText_0x197185: ; 0x197185
-	text "OAK: Ah, <PLAY_G>!"
-	line "What a surprise!"
+	text "CHEN: Ah, <PLAY_G>!"
+	line "Quelle surprise!"
 
-	para "I heard what hap-"
-	line "pened on the S.S."
-	cont "ANNE."
+	para "J'ai entendu ce"
+	line "qui s'est passé à"
+	cont "l'OCEANE."
 
-	para "You're safe! That's"
-	line "great news!"
+	para "Tu vas bien, c'est"
+	line "une bonne"
+	cont "nouvelle!"
 
-	para "Ah! Let me check"
-	line "your #DEX."
+	para "Ah! Laisse moi"
+	line "voir ton #DEX."
 	done
 ; 0x1973cc
 UnknownText_0x197185_2:
-	text "Ah, yes, I almost"
-	line "forgot."
+	text "J'ai presque"
+	line "oublié."
 
-	para "Here, it's the"
-	line "latest upgrade for"
-	cont "your #DEX!"
+	para "Tiens, la dernière"
+	line "version du"
+	cont "#DEX!"
 
-	para "I was working on"
-	line "developing it"
-	cont "since you set out."
+	para "Je travaillais"
+	line "dessus depuis que"
+	cont "tu étais parti."
 	done
 
 UnknownText_0x1973cc: ; 0x1973cc
-	text "<PLAYER>'s #DEX"
-	line "was upgraded!"
+	text "Le #DEX de"
+	line "<PLAYER> est"
+	cont "amélioré."
 	done
 ; 0x1973de
 
 UnknownText_0x1973de: ; 0x1973de
-	text "Go meet many kinds"
-	line "of #MON and"
+	text "Va rencontrer des"
+	line "#MON et"
+	cont "complète ce"
+	cont "#DEX!"
 
-	para "complete that"
-	line "#DEX!"
+	para "Bon, je dois"
+	line "partir."
 
-	para "But I've stayed"
-	line "too long."
+	para "J'ai rendez-vous"
+	line "a DOUBLONVILLE"
+	cont "pour mon émission"
+	cont "de radio."
 
-	para "I have to get to"
-	line "GOLDENROD for my"
-	cont "usual radio show."
-
-	para "<PLAY_G>, I'm"
-	line "counting on you!"
+	para "<PLAY_G>, je"
+	line "compte sur toi!"
 	done
 ; 0x197476
 
 UnknownText_0x197476: ; 0x197476
-	text "Hm? That SCALE!"
-	line "What's that?"
-	cont "A red GYARADOS?"
+	text "Hm? Cette écaille!"
+	line "Mais c'est<...>"
+	cont "Un LEVIATOR rouge?"
 
-	para "That's rare! "
-	line "I, I want it<...>"
+	para "C'est rare"
+	line "Je, je le veux<...>"
 
-	para "<PLAY_G>, would you"
-	line "care to trade it?"
+	para "<PLAY_G>, tu"
+	line "veux l'échanger?"
 
-	para "I can offer this"
-	line "SLEEP GUARD I got"
-	cont "from PROF.OAK."
+	para "Je peux t'offrir"
+	line "ce GARDE SOM. que"
+	cont "j'ai eu du"
+	cont "PROF. CHEN."
 	done
 ; 0x19750d
 
 UnknownText_0x19750d: ; 0x19750d
-	text "That's disappoint-"
-	line "ing. That happens"
-	cont "to be very rare."
+	text "C'est décevant,"
+	line "c'est un objet"
+	cont "rare."
 	done
 ; 0x197543
 
 UnknownText_0x197543: ; 0x197543
-	text "It's packed with"
-	line "foreign magazines."
+	text "Il y a plein de"
+	line "magasines d'une"
+	cont "langue étrange."
 
-	para "Can't even read"
-	line "their titles<...>"
+	para "Je ne lis même pas"
+	line "les titres<...>"
 	done
 ; 0x197584
 
 UnknownText_0x197584: ; 0x197584
-	text "It's a big com-"
-	line "puter. Hmm. It's"
-	cont "broken."
+	text "C'est un grand"
+	line "ordinateur."
+
+	para "Oh, il est cassé<...>"
 	done
 ; 0x1975ac
 
 UnknownText_0x1975ac: ; 0x1975ac
-	text "A whole pile of"
-	line "strange coins!"
+	text "Une pile de pièces"
+	line "étranges!"
 
-	para "Maybe they're from"
-	line "another country<...>"
+	para "Peut-être d'un"
+	line "autre pays?"
 	done
 ; 0x1975ef
 

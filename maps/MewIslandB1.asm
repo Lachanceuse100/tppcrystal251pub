@@ -20,8 +20,9 @@ BoulderScript_MewIslandB1:
 	jumptext MewIslandB1_BoulderText
 
 MewIslandB1_BoulderText:
-	text "Moving this would"
-	line "be very unwise."
+	text "Bouger ceci est"
+	line "une très mauvaise"
+	cont "idée."
 	done
 
 

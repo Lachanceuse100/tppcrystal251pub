@@ -214,195 +214,191 @@ KurtSlowpokeWellVictoryMovementData: ; 0x5a6a5
 ; 0x5a6b5
 
 UnknownText_0x5a6b5: ; 0x5a6b5
-	text "KURT: Hey there,"
+	text "FARGAS: Salut,"
 	line "<PLAYER>!"
 
-	para "The guard up top"
-	line "took off when I"
-	cont "shouted at him."
+	para "Le garde a décampé"
+	line "quand je lui ai"
+	cont "crié dessus<...>"
 
-	para "But then I took a"
-	line "tumble down the"
-	cont "WELL."
+	para "Et puis j'ai voulu"
+	line "descendre dans le"
+	cont "PUITS."
 
-	para "I slammed down"
-	line "hard on my back,"
-	cont "so I can't move."
+	para "Je me suis raté"
+	line "et<...> je peux plus"
+	cont "bouger."
 
-	para "Rats! If I were"
-	line "fit, my #MON"
+	para "Raaaah, si j'étais"
+	line "en forme, mes"
 
-	para "would've punished"
-	line "them<...>"
+	para "#MON les au-"
+	line "raient punis<...>"
 
-	para "Ah, it can't be"
-	line "helped."
+	para "Bon, pas grave."
 
-	para "<PLAYER>, show them"
-	line "how gutsy you are"
-	cont "in my place!"
+	para "<PLAYER>, va les"
+	line "écrabouiller à"
+	cont "ma place!"
 	done
 ; 0x5a7ca
 
 KurtLeaveSlowpokeWellText: ; 0x5a7ca
-	text "KURT: Way to go,"
+	text "FARGAS: Bravo,"
 	line "<PLAYER>!"
 
-	para "TEAM ROCKET has"
-	line "taken off."
+	para "La TEAM ROCKET"
+	line "est partie."
 
-	para "My back's better"
-	line "too. Let's get out"
-	cont "of here."
+	para "Mon dos va mieux."
+	line "Allez, on y va!"
 	done
 ; 0x5a825
 
 GruntM29SeenText: ; 0x5a825
-	text "Darn! I was stand-"
-	line "ing guard up top"
+	text "Bon sang! Je mon-"
+	line "tais la garde"
 
-	para "when some old coot"
-	line "yelled at me."
+	para "quand un vieux"
+	line "dingue m'a crié"
+	cont "dessus."
 
-	para "He startled me so"
-	line "much that I fell"
-	cont "down here."
+	para "J'ai tellement"
+	line "sursauté que je"
+	cont "suis tombé ici."
 
-	para "I think I'll vent"
-	line "my anger by taking"
-	cont "it out on you!"
+	para "<...>"
+
+	para "Je vais calmer mes"
+	line "nerfs sur ta face!"
 	done
 ; 0x5a8cc
 
 GruntM29BeatenText: ; 0x5a8cc
-	text "Arrgh! This is NOT"
-	line "my day!"
+	text "Ce n'est vraiment"
+	line "pas ma journée!"
 	done
 ; 0x5a8e8
 
 TrainerGruntM29SlowpokeProfitText: ; 0x5a8e8
-	text "Sure, we've been"
-	line "hacking the tails"
+	text "Bien sûr qu'on"
+	line "vends des"
+	cont "QUEUE de RAMOLOSS."
 
-	para "off SLOWPOKE and"
-	line "selling them."
+	para "On est la TEAM"
+	line "ROCKET!"
 
-	para "Everything we do"
-	line "is for profit."
-
-	para "That's right!"
-	line "We're TEAM ROCKET,"
-
-	para "and we'll do any-"
-	line "thing for money!"
+	para "On fera n'importe"
+	line "quoi pour de"
+	cont "l'argent!"
 	done
 ; 0x5a98b
 
 GruntM1SeenText: ; 0x5a98b
-	text "What do you want?"
+	text "Tu veux quoi?"
 
-	para "If you interrupt"
-	line "our work, don't"
-	cont "expect any mercy!"
+	para "Si tu viens nous"
+	line "embêter, ça va"
+	cont "barder!"
 	done
 ; 0x5a9d0
 
 GruntM1BeatenText: ; 0x5a9d0
-	text "You did OK today,"
-	line "but wait till next"
-	cont "time!"
+	text "Pas mal, mais tu"
+	line "verras la"
+	cont "prochaine fois!"
 	done
 ; 0x5a9fc
 
 TrainerGruntM1WhenTalkText: ; 0x5a9fc
-	text "Yeah, TEAM ROCKET"
-	line "was broken up"
-	cont "three months ago."
+	text "La TEAM ROCKET a"
+	line "été dissoute il y"
+	cont "a trois mois<...>"
 
-	para "But we continued"
-	line "our activities"
-	cont "underground."
+	para "Mais on a continué"
+	line "nos activités dans"
+	cont "l'ombre."
 
-	para "Now you can have"
-	line "fun watching us"
-	cont "stir up trouble!"
+	para "Et maintenant<...>"
+	line "On va tout faire"
+	cont "sauter!"
 	done
 ; 0x5aa8d
 
 GruntM2SeenText: ; 0x5aa8d
-	text "Quit taking SLOW-"
-	line "POKETAILS?"
+	text "Arrêter de voler"
+	line "les QUEUES?"
 
-	para "If we obeyed you,"
-	line "TEAM ROCKET's rep"
-	cont "would be ruined!"
+	para "Et notre réputa-"
+	line "tion petit malin?"
 	done
 ; 0x5aadf
 
 GruntM2BeatenText: ; 0x5aadf
-	text "Just<...>"
-	line "Too strong<...>"
+	text "Trop puissant<...>"
 	done
 ; 0x5aaf2
 
 UnknownText_0x5aaf2: ; 0x5aaf2
-	text "We need the money,"
-	line "but selling SLOW-"
-	cont "POKETAILS?"
+	text "On a besoin de"
+	line "sous à la TEAM"
+	cont "ROCKET<...>"
 
-	para "It's tough being a"
-	line "ROCKET GRUNT!"
+	para "C'est pas facile"
+	line "d'être un SBIRE"
 	done
 ; 0x5ab43
 
 GruntF1SeenText: ; 0x5ab43
-	text "Stop taking TAILS?"
+	text "Arrêter de voler"
+	line "les QUEUES?"
 
-	para "Yeah, just try to"
-	line "defeat all of us!"
+	para "Elle est bien"
+	line "bonne celle-là<...>"
 	done
 ; 0x5ab7b
 
 GruntF1BeatenText: ; 0x5ab7b
-	text "You rotten brat!"
+	text "Sale gosse!"
 	done
 ; 0x5ab8d
 
 UnknownText_0x5ab8d: ; 0x5ab8d
-	text "SLOWPOKETAILS"
-	line "grow back fast!"
+	text "Ca repousse vite"
+	line "une QUEUE de"
+	cont "RAMOLOSS!"
 
-	para "What's wrong with"
-	line "selling them?"
+	para "Alors on peut les"
+	line "vendre, non?"
 	done
 ; 0x5abcb
 
 UnknownText_0x5abcb: ; 0x5abcb
-	text "A SLOWPOKE with"
-	line "its TAIL cut off<...>"
+	text "Un RAMOLOSS sans"
+	line "sa QUEUE<...>"
 
-	para "Huh? It has MAIL."
-	line "Read it?"
+	para "Oh? Il a une."
+	line "LETTRE. On la lit?"
 	done
 ; 0x5ac09
 
 UnknownText_0x5ac09: ; 0x5ac09
-	text "<PLAYER> read the"
-	line "MAIL."
+	text "<PLAYER> lit la"
+	line "LETTRE."
 
-	para "Be good and look"
-	line "after the house"
+	para "Sois sage et occu-"
+	line "pe-toi bien de la"
 
-	para "with Grandpa and"
-	line "SLOWPOKE."
+	para "maison avec pépé"
+	line "et RAMOLOSS"
 
-	para "Love, Dad"
+	para "Bisous. Papa."
 	done
 ; 0x5ac61
 
 UnknownText_0x5ac61: ; 0x5ac61
-	text "A SLOWPOKE with"
-	line "its TAIL cut off<...>"
+	text "Un RAMOLOSS sans"
+	line "sa QUEUE<...>"
 	done
 ; 0x5ac84
 

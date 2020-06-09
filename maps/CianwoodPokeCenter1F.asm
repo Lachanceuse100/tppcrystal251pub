@@ -37,74 +37,74 @@ SuperNerdScript_0x9dbea: ; 0x9dbea
 ; 0x9dbed
 
 UnknownText_0x9dbed: ; 0x9dbed
-	text "Did you meet the"
+	text "As-tu rencontré le"
 	line "#MANIAC?"
 
-	para "He's always brag-"
-	line "ging about his"
-	cont "rare #MON."
+	para "Il se vante sans"
+	line "cesse de ses"
+	cont "#MON rares."
 	done
 ; 0x9dc33
 
 CianwoodGymGuyText: ; 0x9dc33
-	text "The #MON GYM"
-	line "trainers here are"
-	cont "macho bullies."
+	text "Les dresseurs de"
+	line "l'ARENE sont des"
+	cont "grosses brutes."
 
-	para "If I stick around,"
-	line "they might come"
-	cont "after me."
+	para "Je veux pas qu'ils"
+	line "s'en prennent à"
+	cont "moi."
 
-	para "Here's some ad-"
-	line "vice: the GYM"
+	para "Un conseil: le"
+	line "CHAMPION utilise"
+	cont "le type COMBAT."
 
-	para "LEADER uses the"
-	line "fighting-type."
+	para "Confronte le avec"
+	line "des #MON du"
+	cont "type PSY."
 
-	para "So you should"
-	line "confound him with"
-	cont "psychic #MON."
+	para "Mets son équipe"
+	line "K.O. avant qu'elle"
 
-	para "Wipe out his #-"
-	line "MON before they"
+	para "n'utilise sa"
+	line "force physique."
 
-	para "can use their"
-	line "physical strength."
+	para "Et les rochers au"
+	line "milieu de l'ARENE?"
 
-	para "And those boulders"
-	line "in the middle of"
-	cont "the GYM?"
+	para "Bouge-les correc-"
+	line "tement ou tu"
 
-	para "If you don't move"
-	line "them correctly,"
+	para "n'atteindras pas"
+	line "le CHAMPION."
 
-	para "you won't reach"
-	line "the GYM LEADER."
-
-	para "If you get stuck,"
-	line "go outside."
+	para "Si tu es bloqué,"
+	line "sors."
 	done
 ; 0x9ddc5
 
 CianwoodGymGuyWinText: ; 0x9ddc5
-	text "<PLAYER>! You won!"
-	line "I could tell by"
-	cont "looking at you!"
+	text "<PLAYER>!"
+	line "Tu as gagné!"
+
+	para "Je le savais rien"
+	line "qu'en te voyant!"
 	done
 ; 0x9ddf2
 
 UnknownText_0x9ddf2: ; 0x9ddf2
-	text "Don't you get the"
-	line "urge to show off"
+	text "Tu n'as jamais ce"
+	line "besoin de montrer"
 
-	para "your #MON to"
-	line "friends?"
+	para "tes #MON à tes"
+	line "amis?"
 
-	para "I wish I could"
-	line "show the #MON I"
+	para "J'aimerais pouvoir"
+	line "montrer le #MON"
 
-	para "raised to my pal"
-	line "in VIOLET."
+	para "que j'ai élevé à"
+	line "mon pote de"
+	cont "MAUVILLE."
 	done
 ; 0x9de66
 
@@ -122,17 +122,17 @@ UnknownText_0x9ddf2: ; 0x9ddf2
 ; 0x9ded7
 
 UnknownText_0x9ded7: ; 0x9ded7
-	text "I love showing off"
-	line "the #MON that"
+	text "J'adore frimer"
+	line "avec mes #MON."
 
-	para "I've raised."
-	line "Don't you?"
+	para "Et toi?"
+	line "C'est ton truc?"
 
-	para "I'm going to get"
-	line "into a bunch of"
+	para "Je vais faire"
+	line "plein de combats"
 
-	para "battles, and show"
-	line "off my #MON!"
+	para "et frimer avec"
+	line "mes jolis #MON!"
 	done
 ; 0x9df4e
 

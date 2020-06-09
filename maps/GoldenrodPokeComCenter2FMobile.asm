@@ -28,104 +28,103 @@ MapGoldenrodPokeComCenter2FMobileSignpost2Script: ; 0x62671
 ; 0x62674
 
 UnknownText_0x62674: ; 0x62674
-	text "The #COM CENTER"
-	line "was built to"
+	text "Le CENTRE #COM"
+	line "a été construit"
 
-	para "satisfy demands"
-	line "for trainers to"
+	para "pour satisfaire"
+	line "les demandes des"
+	cont "dresseurs voulant"
+	cont "interagir entre"
+	cont "eux de n'importe"
+	cont "ou."
 
-	para "interact with"
-	line "others far away."
-
-	para "It even lets total"
-	line "strangers have fun"
-	cont "together!"
+	para "Même des étrangers"
+	line "peuvent s'amuser"
+	cont "ensemble!"
 	
-	para "I wonder if we can"
-	line "make some sort of"
-	cont "game using it<...>"
+	para "Je me demande si"
+	line "l'on peut créer un"
+	cont "jeu la-dessus<...>"
 	
 	done
 ; 0x626f9
 
 UnknownText_0x626f9: ; 0x626f9
-	text "When you linked"
-	line "with someone by"
+	text "Quand tu as été"
+	line "relié sans fil"
 
-	para "wireless for the"
-	line "first time,"
+	para "avec quelqu'un"
+	line "pour la première"
+	cont "fois."
 
-	para "were you not"
-	line "impressed?"
+	para "N'étais-tu pas"
+	line "impressionné?"
 
-	para "When my first try"
-	line "worked, I got"
-	cont "the shakes!"
+	para "J'ai eu des"
+	line "frissons la"
+	cont "première fois!"
 	done
 ; 0x62795
 
 UnknownText_0x62795: ; 0x62795
-	text "They were able to"
-	line "build this huge"
+	text "Cet établissement"
+	line "existe grâce aux"
+	cont "avancées des tech-"
+	cont "nologies sans fil."
 
-	para "facility thanks to"
-	line "advances in wire-"
-	cont "less technology."
-
-	para "If the signal goes"
-	line "out, it could"
-	cont "cause riots!"
+	para "Si le signal s'"
+	line "arrête, il y aura"
+	cont "des révoltes!"
 	done
 ; 0x627ee
 
 UnknownText_0x62b26: ; 0x62b26
-	text "The ADMINISTRATION"
-	line "OFFICE received an"
-	cont "e-mail. It says<...>"
+	text "Le BUREAU ADMINI-"
+	line "STRATIF a reçu un"
+	cont "e-mail."
 
 	para $56, " ", $56, " ", $56
 
-	para "To the #COM"
-	line "CENTER staff<...>"
+	para "A l'équipe du"
+	line "CENTRE #COM<...>"
 
-	para "Wireless communi-"
-	line "cation has enabled"
+	para "Les communications"
+	line "sans fil ont"
 
-	para "#MON trainers"
-	line "to interact across"
+	para "permit aux dre-"
+	line "sseurs du pays"
+	cont "d'interagir entre"
+	cont "eux."
 
-	para "the nation. Let's"
-	line "keep working for"
+	para "Continuons sur"
+	line "notre lancée et"
 
-	para "the day when all"
-	line "the trainers in"
-
-	para "the world can link"
-	line "without barriers!"
+	para "relions les dre-"
+	line "sseurs du monde"
+	cont "entier!"
 
 	para $56, " ", $56, " ", $56
 	done
 
 PCC_OfficePCText: ; 0x62b26
-	text "The screen is"
-	line "filled with lots"
-	cont "of code!"
+	text "L'écran est rempli"
+	line "de code compliqué!"
 
-	para "Better not touch"
-	line "it<...>"
+	para "Mieux vaut ne rien"
+	line "toucher<...>"
 	done
 
 PCC_OfficePCText2: ; 0x62b26
-	text "There's a video"
-	line "playing on the"
+	text "Il y a une vidéo"
+	line "qui se joue à"
 	
-	para "monitor with a"
-	line "long chat box next"
-	cont "to it."
+	para "l'écran avec une"
+	line "une salle de"
+	cont "discussion à côté."
 
-	para "The words keep"
-	line "moving too fast"
-	cont "to read!"
+	para "Les mots défilent"
+	line "trop vite pour"
+	cont "les lire!"
 	done
 
 GoldenrodPokeComCenter2FMobile_MapEventHeader: ; 0x62c32

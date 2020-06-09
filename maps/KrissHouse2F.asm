@@ -105,26 +105,27 @@ UnknownScript_0x7ac1e: ; 0x7ac1e
 ; 0x7ac24
 
 UnknownText_0x7ac24: ; 0x7ac24
-	text "PROF.OAK'S #MON"
-	line "TALK! Please tune"
-	cont "in next time!"
+	text "La CHRONIQUE #-"
+	line "MON reviens"
+	cont "tout à l'heure!"
 	done
 ; 0x7ac55
 
 UnknownText_0x7ac55: ; 0x7ac55
-	text "#MON CHANNEL!"
+	text "CHAINE #MON!"
 	done
 ; 0x7ac64
 
 UnknownText_0x7ac64: ; 0x7ac64
-	text "This is DJ MARY,"
-	line "your co-host!"
+	text "Je suis DJ LULA,"
+	line "votre"
+	cont "co-animatrice!"
 	done
 ; 0x7ac84
 
 UnknownText_0x7ac84: ; 0x7ac84
 	text "#MON!"
-	line "#MON CHANNEL<...>"
+	line "CHAINE #MON<...>"
 	done
 ; 0x7ac99
 

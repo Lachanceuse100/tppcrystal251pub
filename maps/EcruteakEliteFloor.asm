@@ -283,204 +283,203 @@ MapEcruteakGym2Signpost1Script:
 	jumpstd gymstatue2
 
 MortyRematchTextBefore2:
-	text "Welcome back,"
+	text "Bienvenue,"
 	line "<PLAY_G>."
 
-	para "I see you were"
-	line "able to defeat"
-	cont "the ELITE FLOOR."
+	para "Je vois que tu as"
+	line "battu le REBORD"
+	cont "MORTEL."
 
 	para "Haha!"
 
-	para "<...>So the legend was"
-	line "true, and HO-OH"
-	cont "chose you<...>"
+	para "<...>La légende était"
+	line "donc vraie, HO-OH"
+	cont "t'a choisi<...>"
 
-	para "But that does not"
-	line "mean that I have"
+	para "Mais je n'ai pas"
+	line "perdu de vue mon"
+	cont "futur."
 
-	para "lost out on my"
-	line "future."
-
-	para "Show me the power"
-	line "I trained to face!"
+	para "Montre moi la pui-"
+	line "ssance que je"
+	cont "souhaitais défier!"
 	done
 
 MortyRematchBeatenText2:
-	text "How is this"
+	text "Comment est-ce"
 	line "possible<...>?"
 	done
 
 MortyAfterRematchText2:
-	text "Our potentials"
-	line "aren't so"
-	cont "different."
+	text "Nos potentiels"
+	line "ne sont pas si"
+	cont "differents."
 
-	para "But you seem to"
-	line "have something<...>"
+	para "Mais tu as quelque"
+	line "chose<...>"
 
-	para "Something more"
-	line "than that<...>"
+	para "Quelque chose de"
+	line "plus<...>"
 	done
 
 SageZekeBeforeText:
-	text "I enjoy picnics."
+	text "J'aime bien les"
+	cont "pique-nique."
 
-	para "They make me feel"
-	line "so good."
+	para "Ca me fait sentir"
+	line "bien."
 	done
 
 SageZekeWinText:
-	text "It's not my way?"
+	text "Ca ne marche pas?"
 	done
 
 SageZekeText:
-	text "A long time ago,"
-	line "I would listen to"
+	text "Il y a longtemps,"
+	line "j'écoutais une"
 
-	para "a song that was"
-	line "inspirational."
+	para "chanson qui"
+	line "m'inspirais."
 
-	para "I couldn't under-"
-	line "stand most of the"
+	para "Je n'ai pas com-"
+	line "pris toutes les"
 
-	para "words, but they"
-	line "kept saying to"
-	cont "DO YOUR BEST<...>"
+	para "paroles elle me"
+	line "motivait a faire"
+	cont "de mon mieux<...>"
 
-	para "<...>But I can't"
-	line "remember the name"
+	para "<...>Je ne me rappelle"
+	line "pas du nom de"
+	cont "cette mélodie."
 
-	para "of that catchy"
-	line "tune."
-
-	para "<...>Maybe it was"
-	line "part of a"
-	cont "compilation?"
+	para "<...>Est-ce que ça"
+	line "faisait partie"
+	cont "d'une compilation?"
 	done
 
 MediumMartha2BeforeText:
-	text "How do I get out"
-	line "of here?"
+	text "Comment je sors"
+	line "d'ici?"
 	done
 
 MediumMartha2WinText:
-	text "Aiiiyuhh!!"
+	text "Aiiiiiie"
 	done
 
 MediumMartha2Text:
-	text "I don't know why"
-	line "MORTY had the idea"
+	text "Mais pourquoi"
+	line "MORTIMER à recon-"
 
-	para "to rebuild his"
-	line "puzzle to be this"
-	cont "hard<...>"
+	para "struit son puzzle"
+	line "pour qu'il soit"
+	cont "si dur<...>"
 
-	para "He once heard a"
-	line "story about a"
+	para "Il a entendu"
+	line "l'histoire d'un"
 
-	para "TRAINER who would"
-	line "always jump ledges"
-	cont "on ROUTE 22."
+	para "DRESSEUR qui sau-"
+	line "tait toujours du"
+	cont "rebord de la"
+	cont "ROUTE 22."
 
-	para "I wonder if that's"
-	line "why he did this?"
+	para "Est-ce que ce"
+	line "serait pour ça?"
 	done
 
 MediumGrace2BeforeText:
-	text "Take a deep"
-	line "breath, child."
+	text "Respire"
+	line "profondément."
 
-	para "Let the spirits of"
-	line "the departed guide"
-	cont "your thoughts."
+	para "Laisse les esprits"
+	line "des défunts guider"
+	cont "tes pensées."
 	done
 
 MediumGrace2WinText:
-	text "The voices in your"
-	line "head are quite"
-	cont "strong, child."
+	text "Les voix dans ta"
+	line "tête sont"
+	cont "puissantes."
 	done
 
 MediumGrace2Text:
-	text "No matter how hard"
-	line "the obstacle you"
-	cont "are facing is<...>"
+	text "Peu importe les"
+	line "difficultés que tu"
+	cont "rencontres<...>"
 
-	para "You can always"
-	line "overcome it!"
+	para "Tu peux toujours"
+	line "les surmonter!"
 
-	para "Stay determined!"
+	para "Reste déterminé!"
 	done
 
 SageJeffrey2BeforeText:
-	text "Oh hello!"
+	text "Bonjour!"
 
-	para "Sorry to tell you,"
-	line "but this is the"
-	cont "wrong path<...>"
+	para "Je suis désolé,"
+	line "mais tu es sur la"
+	cont "mauvaise voie<...>"
 
-	para "There's nothing"
-	line "except a dead end"
-	cont "behind me."
+	para "Il n'y a qu'une"
+	line "impasse derrière"
+	cont "moi"
 	done
 
 SageJeffrey2WinText:
-	text "Your training's on"
-	line "the right path."
+	text "Ton entraînement"
+	line "est sur la bonne"
+	cont "voie."
 	done
 
 SageJeffrey2Text:
-	text "When you take a"
-	line "wrong turn,"
+	text "Lorsque tu prends"
+	line "un mauvais chemin,"
 
-	para "you can always"
-	line "turn back and try"
-	cont "again."
+	para "tu peux toujours"
+	line "reculer et"
+	cont "réessayer."
 	done
 
 SagePing2BeforeText:
 	text "Ah-ha!"
 
-	para "You have fallen"
-	line "into my trap!"
+	para "Tu es tombé dans"
+	line "mon piège!"
 	done
 
 SagePing2WinText:
-	text "You escaped my"
-	line "trap?!"
+	text "Tu as déjoué mon"
+	line "piège?!"
 	done
 
 SagePing2Text:
-	text "Try the other"
-	line "entrance and hope"
+	text "Essaye l'autre"
+	line "entrée et espère"
 
-	para "that MORTY doesn't"
-	line "fool you again."
+	para "que MORTIMER ne se"
+	line "joue plus de toi."
 	done
 
 EcruteakGymGuy2Text:
-	text "Yo, CHAMP!"
+	text "Salut, CHAMPION!"
 
-	para "MORTY has upgraded"
-	line "his floor to a"
-	cont "whole new level!"
+	para "MORTIMER a amélio-"
+	line "rer son sol à un"
+	cont "tout autre niveau!"
 
-	para "He even called it"
-	line "THE ELITE FLOOR<...>"
+	para "Il l'a baptisé:"
+	line "Le REBORD MORTEL<...>"
 
-	para "I really don't"
-	line "understand him"
-	cont "sometimes<...>"
+	para "Parfois je ne le"
+	line "comprends pas<...>"
 	done
 
 EcruteakGymGuy2WinText:
-	text "Whew, <PLAYER>."
-	line "You did great!"
+	text "Waouh, <PLAYER>."
+	line "Tu as été génial!"
 
-	para "I was cowering in"
-	line "the corner out of"
-	cont "pure terror!"
+	para "J'étais terrorisé,"
+	line "je me suis caché"
+	cont "dans un coin!"
 	done
 	
 MortyPostgameRematchScript:
@@ -500,32 +499,31 @@ MortyPostgameRematchScript:
     end
 	
 MortyPostgameRematchText:
-	text "Ah-ha! Welcome"
-	line "back!"
+	text "Ah-ha! Bon"
+	line "retour!"
 
-	para "Couldn't get"
-	line "enough of my maze?"
+	para "Tu voulais encore"
+	line "un puzzle?"
 
-	para "Hm? You want to"
-	line "battle again?"
+	para "Ah? Tu veux un"
+	line "nouveau combat!"
 
 	done
 	
 MortyPostgameBeatenText:
 	text "Bah!"
 	
-	para "Yet again, I"
-	line "admit defeat."
+	para "J'admet une nou-"
+	line "velle fois ma"
+	cont "défaite!"
 	done
 	
 MortyPostgameAfterText:
-	text "You're a special"
-	line "trainer, that's"
-	cont "for sure."
+	text "Tu es vraiment un"
+	line "sacré dresseur."
 	
-	para "Thank you for"
-	line "that exciting"
-	cont "battle!"
+	para "Merci pour ce"
+	line "combat génial!"
 
 	done
 

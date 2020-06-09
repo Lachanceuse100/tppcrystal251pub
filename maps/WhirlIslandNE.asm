@@ -31,3 +31,4 @@ WhirlIslandNE_MapEventHeader: ; 0x18c398
 	person_event SPRITE_POKE_BALL, 15, 15, $1, 0, 0, -1, -1, 0, 1, 0, ItemFragment_0x18c396, EVENT_ITEM_WHIRL_ISLAND_NE_ULTRA_BALL
 ; 0x18c3ba
 
+

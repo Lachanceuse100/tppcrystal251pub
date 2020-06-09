@@ -304,34 +304,32 @@ MovementData_0x1a9356: ; 0x1a9356
 ; 0x1a935f
 
 FisherTully1SeenText: ; 0x1a935f
-	text "Let me demonstrate"
-	line "the power of the"
-	cont "#MON I caught!"
+	text "Je vais te montrer"
+	line "la puissance de"
+	cont "mes #MON!"
 	done
 ; 0x1a9393
 
 FisherTully1BeatenText: ; 0x1a9393
-	text "What? That's not"
-	line "right."
+	text "Hein? Ce n'est pas"
+	line "juste!"
 	done
 ; 0x1a93ab
 
 UnknownText_0x1a93ab: ; 0x1a93ab
-	text "I want to become"
-	line "the trainer CHAMP"
+	text "Je veux devenir un"
+	line "MAITRE avec mes"
+	cont "nouveaux #MON."
 
-	para "using the #MON"
-	line "I caught."
-
-	para "That's the best"
-	line "part of fishing!"
+	para "C'est pour ça que"
+	line "je pêche!"
 	done
 ; 0x1a9408
 
 HikerBenjaminSeenText: ; 0x1a9408
-	text "Ah, it's good to"
-	line "be outside!"
-	cont "I feel so free!"
+	text "C'est bon d'être"
+	line "dehors!"
+	cont "Je me sens libre!"
 	done
 ; 0x1a9435
 
@@ -341,74 +339,76 @@ HikerBenjaminBeatenText: ; 0x1a9435
 ; 0x1a943f
 
 UnknownText_0x1a943f: ; 0x1a943f
-	text "I caught my GOLBAT"
-	line "while surfing"
-	cont "in the morning!"
+	text "J'ai attrapé mon"
+	line "NOSFERAPTI en sur-"
+	cont "fant le matin."
 
-	para "The ZUBAT line"
-	line "changes location"
-	cont "depending on"
-	cont "time of the day."
+	para "La famille des"
+	line "NOSFERAPTI change"
+	cont "d'endroit selon"
+	cont "l'heure de la"
+	cont "journée."
 	done
 ; 0x1a947c
 
 PokemaniacShaneSeenText: ; 0x1a947c
-	text "HEY!"
+	text "HE! TOI!"
 
-	para "This is my secret"
-	line "place! Get lost,"
-	cont "you outsider!"
+	para "C'est mon terri-"
+	line "toire ici!"
+	cont "Dégage!"
 	done
 ; 0x1a94b3
 
 PokemaniacShaneBeatenText: ; 0x1a94b3
-	text "I should have used"
-	line "my MOON STONE<...>"
+	text "J'aurais du utili-"
+	line "ser ma PIERRE"
+	cont "LUNE<...>"
 	done
 ; 0x1a94d6
 
 UnknownText_0x1a94d6: ; 0x1a94d6
-	text "You're working on"
-	line "a #DEX?"
+	text "Tu bosses sur un"
+	line "#DEX?"
 
-	para "Wow, you must know"
-	line "some pretty rare"
-	cont "#MON!"
+	para "Tu dois connaître"
+	line "plein de #MON"
+	cont "rares!"
 
-	para "May I please see"
-	line "it. Please?"
+	para "Je peux les voir?"
+	line "S'il-te plaît?"
 	done
 ; 0x1a9537
 
 UnknownText_0x1a9537: ; 0x1a9537
 	text "ROUTE 42"
 
-	para "ECRUTEAK CITY -"
-	line "MAHOGANY TOWN"
+	para "ROSALIA -"
+	line "ACAJOU"
 	done
 ; 0x1a955f
 
 UnknownText_0x1a955f: ; 0x1a955f
-	text "MT.MORTAR"
+	text "MONT CREUSET"
 
-	para "WATERFALL CAVE"
-	line "INSIDE"
+	para "GROTTE CASCADE"
+	line "Intérieur"
 	done
 ; 0x1a9580
 
 UnknownText_0x1a9580: ; 0x1a9580
-	text "MT.MORTAR"
+	text "MONT CREUSET"
 
-	para "WATERFALL CAVE"
-	line "INSIDE"
+	para "GROTTE CASCADE"
+	line "Intérieur"
 	done
 ; 0x1a95a1
 
 UnknownText_0x1a95a1: ; 0x1a95a1
 	text "ROUTE 42"
 
-	para "ECRUTEAK CITY -"
-	line "MAHOGANY TOWN"
+	para "ROSALIA -"
+	line "ACAJOU"
 	done
 ; 0x1a95c9
 

@@ -68,119 +68,118 @@ MapEcruteakItemfinderHouseSignpost0Script: ; 0x9a639
 ; 0x9a63c
 
 UnknownText_0x9a63c: ; 0x9a63c
-	text "Ah. You're on an"
-	line "adventure with"
-	cont "your #MON?"
+	text "Ah. A l'aventure"
+	line "avec tes #MON?"
 
-	para "Well, what's an"
-	line "adventure without"
-	cont "treasure hunting?"
+	para "Mais qu'est-ce"
+	line "qu'une aventure"
+	cont "sans une chasse au"
+	cont "trésor?"
 
-	para "Am I right, or am"
-	line "I right?"
+	para "J'ai raison ou"
+	line "j'ai"
 	done
 ; 0x9a6b5
 
 UnknownText_0x9a6b5: ; 0x9a6b5
-	text "Good! You under-"
-	line "stand the true"
+	text "Cool! Tu comprends"
+	line "le vrai esprit de"
+	cont "l'aventure."
 
-	para "spirit of adven-"
-	line "ture."
-
-	para "I like that! Take"
-	line "this with you."
+	para "J'aime ça! Prends"
+	line "ça avec toi."
 	done
 ; 0x9a70e
 
 UnknownText_0x9a70e: ; 0x9a70e
-	text "There are many"
-	line "items lying about"
+	text "Il y a beaucoup"
+	line "d'objets cachés"
+	cont "par terre."
 
-	para "that aren't ob-"
-	line "vious."
+	para "Le CHERCH'OBJET"
+	line "est capable de les"
+	cont "débusquer."
 
-	para "Use ITEMFINDER to"
-	line "check if there is"
+	para "Ca ne montre pas"
+	line "l'endroit exact"
 
-	para "an item on the"
-	line "ground near you."
+	para "donc il faut cher-"
+	line "cher toi même."
 
-	para "It doesn't show"
-	line "the exact spot,"
+	para "Ah oui, il paraît"
+	line "qu'il y a des"
 
-	para "so you'll have to"
-	line "look yourself."
-
-	para "Oh yeah--I heard"
-	line "there are items"
-
-	para "in ECRUTEAK's"
-	line "BURNED TOWER."
+	para "objets dans la"
+	line "TOUR CENDREE de"
+	cont "ROSALIA."
 	done
 ; 0x9a805
 
 UnknownText_0x9a805: ; 0x9a805
-	text "Oh<...> To each his"
-	line "own, I suppose<...>"
+	text "Oh<...> Chacun son"
+	line "style après tout<...>"
 	done
 ; 0x9a826
 
 UnknownText_0x9a805_F:
-	text "Oh<...> To each her"
-	line "own, I suppose<...>"
+	text "Oh<...> Chacun son"
+	line "style après tout<...>"
 	done
 
 UnknownText_0x9a826: ; 0x9a826
-	text "HISTORY OF"
-	line "ECRUTEAK"
+	text "HISTOIRE DE"
+	line "ROSALIA"
 
-	para "Want to read it?"
+	para "Désirez-vous lire?"
 	done
 ; 0x9a84c
 
 UnknownText_0x9a84c: ; 0x9a84c
-	text "In ECRUTEAK, there"
-	line "were two towers."
+	text "Il existait deux"
+	line "tours à ROSALIA."
 
-	para "Each tower was the"
-	line "roost of powerful"
-	cont "flying #MON."
+	para "Chacune d'elle"
+	line "était le perchoir"
+	cont "d'un puissant"
+	cont "#MON volant."
 
-	para "But one of the"
-	line "towers burned to"
-	cont "the ground."
+	para "Mais l'une des"
+	line "tours à complète-"
+	cont "ment brûlé."
 
-	para "The two #MON"
-	line "haven't been seen"
-	cont "since<...>"
+	para "Les deux #MON"
+	line "n'ont jamais été"
+	cont "revus depuis<...>"
 
-	para "Keep reading?"
+	para "Continuer à lire?"
 	done
 ; 0x9a902
 
 UnknownText_0x9a902: ; 0x9a902
-	text "ECRUTEAK was also"
-	line "home to three"
+	text "ROSALIA était"
+	line "aussi la demeure"
 
-	para "#MON that raced"
-	line "around the town."
+	para "de trois #MON"
+	line "qui couraient"
+	cont "autour de la"
+	cont "ville."
 
-	para "They were said to"
-	line "have been born of"
+	para "Ils étaient soi-"
+	line "disant nés de"
 
-	para "water, lightning"
-	line "and fire."
+	para "l'eau, de la"
+	line "foudre et du feu."
 
-	para "But they could not"
-	line "contain their"
-	cont "excessive power."
+	para "Mais ils ne"
+	line "pouvaient pas"
+	cont "contenir toute"
+	cont "leur puissance."
 
-	para "So they say the"
-	line "three ran like the"
+	para "C'est la raison"
+	line "pour laquelle ils"
 
-	para "wind off into the"
-	line "grassland."
+	para "couraient sans"
+	line "cesse."
 	done
 ; 0x9a9f5
 

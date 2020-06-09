@@ -26,3 +26,4 @@ SeafoamIslandsB2F_MapEventHeader:
 	person_event SPRITE_BOULDER, 20, 8, $19, 0, 0, -1, -1, 0, 0, 0, BoulderScript_SeafoamIslandB2F, -1
 	person_event SPRITE_BOULDER, 24, 19, $19, 0, 0, -1, -1, 0, 0, 0, BoulderScript_SeafoamIslandB2F, -1
 	person_event SPRITE_POKE_BALL, 6, 25, $1, 0, 0, -1, -1, 0, 1, 0, Item_SeafoamIslandB2F, EVENT_SEAFOAM_ISLANDS_B2_ITEM
+

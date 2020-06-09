@@ -120,10 +120,10 @@ UnknownScript_0x9f4c2: ; 0x9f4c2
 ; 0x9f4d9
 
 WonTowerMoneyText:
-	text "For @"
+	text "Pour @"
 	deciram wcf64, $11
-	text " win(s),"
-	line "your prize is"
+	text " victoire(s),"
+	line "vous remportez"
 	cont $f0, "@"
 	deciram $ffc3, $36
 	text "."
@@ -167,8 +167,9 @@ BattleTowerBattleRoomScript_0x9f4e4: ; 0x9f4e4
 
 
 UnknownText_0x9f50b: ; 0x9f50b
-	text "You'll be returned"
-	line "after you SAVE."
+	text "Vous serez ramenez"
+	line "après avoir"
+	cont "SAUVEGARDER."
 	done
 ; 0x9f52e
 

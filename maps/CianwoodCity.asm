@@ -225,128 +225,139 @@ MovementData_0x1a00ec: ; 0x1a00ec
 ; 0x1a00f1
 
 UnknownText_0x1a00f1: ; 0x1a00f1
-	text "You crossed the"
-	line "sea to get here?"
+	text "Tu as traversé la"
+	line "mer pour venir"
+	cont "ici?"
 
-	para "That must have"
-	line "been hard."
+	para "Ca a dû être"
+	line "bien dur."
 
-	para "It would be much"
-	line "easier if your"
+	para "Ce serait plus"
+	line "facile si tes"
 
-	para "#MON knew how"
-	line "to FLY<...>"
+	para "#MON savaient"
+	line "voler<...>"
 	done
 
 FlashText1: ; 0x1a00f1
-	text "Have you seen"
-	line "DARK CAVE?"
+	text "As-tu vu l'ANTRE"
+	line "NOIR?"
 
-	para "It would be much"
-	line "easier to explore"
+	para "Ce serait plus"
+	line "facile de l'explo-"
 
-	para "if your #MON"
-	line "knew FLASH<...>"
+	para "rer si ton #MON"
+	line "connaissait FLASH<...>"
 	done
 ; 0x1a0163
 
 UnknownText_0x1a0163: ; 0x1a0163
-	text "But you can't use"
-	line "FLY without this"
-	cont "city's GYM BADGE."
+	text "Mais tu ne peux"
+	line "pas utiliser VOL"
+	cont "sans le BADGE de"
+	cont "cette ville."
 
-	para "If you beat the"
-	line "GYM LEADER here,"
-	cont "come see me."
+	para "Si tu bats le"
+	line "CHAMPION d'ARENE"
+	cont "du coin, reviens"
+	cont "me voir."
 
-	para "I'll have a nice"
-	line "gift for you."
+	para "J'aurai un joli"
+	line "cadeau pour toi!"
 	done
 
 FlashText2: ; 0x1a0163
-	text "But you can't use"
-	line "FLASH without this"
-	cont "city's GYM BADGE."
+	text "Mais tu ne peux"
+	line "pas utiliser FLASH"
+	cont "sans le BADGE de"
+	cont "cette ville."
 
-	para "If you beat the"
-	line "GYM LEADER here,"
-	cont "come see me."
+	para "Si tu bats le"
+	line "CHAMPION d'ARENE"
+	cont "du coin, reviens"
+	cont "me voir."
 
-	para "I'll have a nice"
-	line "gift for you."
+	para "J'aurai un joli"
+	line "cadeau pour toi!"
 	done
 ; 0x1a01e3
 
 UnknownText_0x1a01e3: ; 0x1a01e3
-	text "That's CIANWOOD's"
-	line "GYM BADGE!"
+	text "C'est le BADGE de"
+	line "l'ARENA D'IRISA!"
 
-	para "Then you should"
-	line "take this HM."
+	para "Voilà pour toi:"
+	line "une CS."
 	done
 ; 0x1a021d
 
 UnknownText_0x1a021d: ; 0x1a021d
-	text "Teach FLY to your"
+	text "Apprends VOL à ton"
 	line "#MON."
 
-	para "You will be able"
-	line "to FLY instantly"
+	para "Tu pourras voler"
+	line "tout de suite et"
 
-	para "to anywhere you "
-	line "have visited."
+	para "te rendre dans"
+	line "toutes les villes"
+	cont "que tu as déjà"
+	cont "visité."
 	done
 
 FlashText3: ; 0x1a021d
-	text "Teach FLASH to"
-	line "your #MON."
+	text "Apprends FLASH à"
+	line "ton #MON."
 
-	para "You will be able"
-	line "to see in dark"
-	cont "caves."
+	para "Tu pourras illu-"
+	line "miner les endroits"
+	cont "sombres."
 	done
 ; 0x1a0277
 
 UnknownText_0x1a0277: ; 0x1a0277
-	text "My husband lost to"
-	line "you, so he needs"
-	cont "to train harder."
+	text "Mon mari a perdu"
+	line "face à toi, il"
+	cont "doit donc encore"
+	cont "s'entraîner!"
 
-	para "That's good, since"
-	line "he was getting a"
-	cont "little chubby."
+	para "Ca tombe bien! Il"
+	line "est un peu gros en"
+	cont "ce moment."
 	done
 ; 0x1a02df
 
 UnknownText_0x1a02df: ; 0x1a02df
-	text "If you use FLY,"
-	line "you can get back"
+	text "Tu peux retourner"
+	line "instantanément"
 
-	para "to OLIVINE in-"
-	line "stantly."
+	para "à OLIVILLE en"
+	line "utilisant VOL."
 	done
 ; 0x1a0319
 
 UnknownText_0x1a0319: ; 0x1a0319
-	text "Boulders to the"
-	line "north of town can"
-	cont "be crushed."
+	text "Les rochers au"
+	line "nord de la ville"
+	cont "peuvent être"
+	cont "ecrasés."
 
-	para "They may be hiding"
-	line "something."
+	para "Ils cachent peut-"
+	line "être quelque"
+	cont "chose."
 
-	para "Your #MON could"
-	line "use ROCK SMASH to"
-	cont "break them."
+	para "Ton #MON peut"
+	line "utiliser ECLATE-"
+	cont "ROC pour les"
+	cont "détruire."
 	done
 ; 0x1a0394
 
 UnknownText_0x1a0394: ; 0x1a0394
-	text "CHUCK, the GYM"
-	line "LEADER, spars with"
+	text "CHUCK, le CHAMPION"
+	line "d'ARENE s'entraîne"
 
-	para "his fighting #-"
-	line "MON."
+	para "avec ses #MON"
+	line "de type COMBAT."
 	done
 ; 0x1a03cc
 
@@ -363,113 +374,116 @@ UnknownText_0x1a0394: ; 0x1a0394
 ; 0x1a0433
 
 UnknownText_0x1a0433: ; 0x1a0433
-	text "EUSINE: Yo,"
+	text "EUSINE: Hé,"
 	line "<PLAYER>."
 
-	para "Wasn't that"
-	line "SUICUNE just now?"
+	para "C'était pas"
+	line "SUICUNE?"
 
-	para "I only caught a"
-	line "quick glimpse, but"
+	para "Je l'ai juste"
+	line "aperçu mais j'ai"
 
-	para "I thought I saw"
-	line "SUICUNE running on"
-	cont "the waves."
+	para "vu SUICUNE courir"
+	line "sur les vagues."
 
-	para "SUICUNE is beau-"
-	line "tiful and grand."
+	para "SUICUNE est si"
+	line "beau et vaillant!"
 
-	para "And it races"
-	line "through towns and"
+	para "Il court et tra-"
+	line "verse les villes"
 
-	para "roads at simply"
-	line "awesome speeds."
+	para "à une vitesse"
+	line "incroyable."
 
-	para "It's wonderful<...>"
+	para "C'est dingue<...>"
 
-	para "I want to see"
-	line "SUICUNE up close<...>"
+	para "Je veux voir"
+	line "SUICUNE de près<...>"
 
-	para "I've decided."
+	para "C'est décidé."
 
-	para "I'll battle you as"
-	line "a trainer to earn"
-	cont "SUICUNE's respect!"
+	para "Je vais t'affron-"
+	line "ter pour gagner le"
+	cont "respect de"
+	cont "SUICUNE!"
 
-	para "Come on, <PLAYER>."
-	line "Let's battle now!"
+	para "Allez, <PLAYER>."
+	line "C'est parti!"
 	done
 ; 0x1a05a1
 
 UnknownText_0x1a05a1: ; 0x1a05a1
-	text "I hate to admit"
-	line "it, but you win."
+	text "Bon d'accord."
+	line "Tu as gagné."
 	done
 ; 0x1a05c3
 
 UnknownText_0x1a05c3: ; 0x1a05c3
-	text "You're amazing,"
+	text "Tu es incroyable,"
 	line "<PLAYER>!"
 
-	para "No wonder #MON"
-	line "gravitate to you."
+	para "Les #MON"
+	line "doivent t'adorer."
 
-	para "I get it now."
+	para "Je comprends"
+	line "maintenant."
 
-	para "I'm going to keep"
-	line "searching for"
-	cont "SUICUNE."
+	para "Je vais continuer"
+	line "de traquer le"
+	cont "grand SUICUNE."
 
-	para "I'm sure we'll see"
-	line "each other again."
+	para "Je suis sûr que"
+	line "nous nous retrou-"
+	cont "verons."
 
-	para "See you around!"
+	para "A bientôt!"
 	done
 ; 0x1a0660
 
 UnknownText_0x1a0660: ; 0x1a0660
-	text "CIANWOOD CITY"
+	text "IRISIA"
 
-	para "A Port Surrounded"
-	line "by Rough Seas"
+	para "Un port entouré"
+	line "d'une mer bien"
+	cont "déchaînée."
 	done
 ; 0x1a068f
 
 UnknownText_0x1a068f: ; 0x1a068f
-	text "CIANWOOD CITY"
-	line "#MON GYM"
+	text "ARENE #MON"
+	line "d'IRISIA"
 
-	para "LEADER: CHUCK"
+	para "CHAMPION:"
+	line "CHUCK"
 
-	para "His Roaring Fists"
-	line "Do the Talking"
+	para "Ses poings parlent"
+	line "pour lui."
 	done
 ; 0x1a06d6
 
 UnknownText_0x1a06d6: ; 0x1a06d6
-	text "500 Years of"
-	line "Tradition"
+	text "500 ans de"
+	line "tradition."
 
-	para "CIANWOOD CITY"
-	line "PHARMACY"
+	para "PHARMACIE d'IRISIA"
 
-	para "We Await Your"
-	line "Medicinal Queries"
+	para "Malades<...>"
+	line "Venez nombreux!"
 	done
 ; 0x1a0725
 
 UnknownText_0x1a0725: ; 0x1a0725
-	text "CIANWOOD CITY"
-	line "PHOTO STUDIO"
+	text "STUDIO PHOTO"
+	line "D'IRISIA"
 
-	para "Take a Snapshot as"
-	line "a Keepsake!"
+	para "Prenez une photo"
+	line "souvenir!"
 	done
 ; 0x1a0760
 
 UnknownText_0x1a0760: ; 0x1a0760
-	text "THE # SEER"
-	line "AHEAD"
+	text "#DEVIN"
+	line "TOUT DROIT"
 	done
 
 ; 0x1a0772

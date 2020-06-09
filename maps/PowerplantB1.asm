@@ -27,3 +27,4 @@ PowerplantB1_MapEventHeader:
 	; object events
 	db 0
 
+

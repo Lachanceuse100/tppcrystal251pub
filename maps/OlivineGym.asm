@@ -126,139 +126,145 @@ UnknownScript_0x9c1b2: ; 0x9c1b2
 ; 0x9c1b9
 
 UnknownText_0x9c1b9: ; 0x9c1b9
-	text "<...>Thank you for"
-	line "your help at the"
-	cont "LIGHTHOUSE<...>"
+	text "<...>Merci pour ton"
+	line "aide au PHARE<...>"
 
-	para "But this is dif-"
-	line "ferent. Please"
+	para "Mais c'est un peu"
+	line "différent."
 
-	para "allow me to intro-"
-	line "duce myself."
+	para "Permets-moi de me"
+	line "présenter."
 
-	para "I am JASMINE, a"
-	line "GYM LEADER. I use"
-	cont "the steel-type."
+	para "Je suis JASMINE,"
+	line "CHAMPIONNE d'ARENE"
+	cont "et j'utilise les"
+	cont "#MON de type"
+	cont "ACIER."
 
-	para "<...>Do you know about"
-	line "the steel-type?"
+	para "<...>Est-ce que ça te"
+	line "dit quelque chose?"
 
-	para "It's a type that"
-	line "was only recently"
-	cont "discovered."
+	para "C'est un tout"
+	line "nouveau type de"
+	cont "#MON."
 
-	para "<...>Um<...> May I begin?"
+	para "<...>Hum<...> Je peux"
+	line "commencer?"
 	done
 ; 0x9c2bb
 
 JasmineRematchTextBefore:
-	text "<...>Welcome back."
+	text "<...>Bonjour, <PLAYER>."
 
-	para "<...>Um<...> Do you want a"
-	line "rematch?"
+	para "<...>Oh<...> Tu veux un"
+	line "nouveau match?"
 	done
 
 JasmineRematchBeatenText:
-	text "True to your"
-	line "reputation<...>"
+	text "Fidèle à ta"
+	line "réputation<...>"
 	done
 
 
 JasmineAfterRematchText:
-	text "<...>You're better"
-	line "than me."
+	text "<...>Tu es meilleur"
+	line "que moi."
 
-	para "This is hard to"
-	line "say<...>"
+	para "C'est dur à dire<...>"
 
-	para "But<...>"
-	line "Good luck."
+	para "Mais<...>"
+
+	para "Bonne chance."
 	done
 
 UnknownText_0x9c2bb: ; 0x9c2bb
-	text "<...>You are a better"
-	line "trainer than me,"
+	text "<...>Tu es meilleur"
+	line "dresseur que moi,"
 
-	para "in both skill and"
-	line "kindness."
+	para "en compétence et"
+	line "en gentillesse."
 
-	para "In accordance with"
-	line "LEAGUE rules, I"
+	para "En accord avec les"
+	line "règles de la"
 
-	para "confer upon you"
-	line "this BADGE."
+	para "LIGUE, je te"
+	line "confie ce BADGE."
 	done
 ; 0x9c33a
 
 UnknownText_0x9c33a: ; 0x9c33a
-	text "<PLAYER> received"
-	line "MINERALBADGE."
+	text "<PLAYER> reçoit"
+	line "le BADGEMINERAL."
 	done
 ; 0x9c354
 
 UnknownText_0x9c354: ; 0x9c354
-	text "MINERALBADGE"
-	line "raises #MON's"
-	cont "DEFENSE."
+	text "Le BADGEMINERAL"
+	line "augmente la"
+	cont "DEFENSE de tes"
+	cont "#MON."
 
-	para "<...>Um<...> Please take"
-	line "this too<...>"
+	para "<...>Hum<...> Prends"
+	line "ceci aussi<...>"
 	done
 ; 0x9c393
 
 UnknownText_0x9c393: ; 0x9c393
-	text "<PLAYER> received"
-	line "TM09!"
+	text "<PLAYER> reçoit"
+	line "CT09!"
 	done
 ; 0x9c3a5
 
 UnknownText_0x9c3a5: ; 0x9c3a5
-	text "<...>You could use"
-	line "that TM to teach"
-	cont "FLASH CANNON."
+	text "<...>Tu peux utiliser"
+	line "cette CT pour"
+	cont "apprendre"
+	cont "LUMINOCANON à un"
+	cont "#MON."
 	done
 ; 0x9c3d1
 
 UnknownText_0x9c3d1: ; 0x9c3d1
-	text "Um<...> I don't know"
-	line "how to say this,"
-	cont "but good luck<...>"
+	text "Hum<...> Je ne sais"
+	line "comment le dire<...>"
+	cont "Mais bonne chance!"
 	done
 ; 0x9c402
 
 OlivineGymGuyText: ; 0x9c402
-	text "JASMINE uses the"
-	line "newly discovered"
-	cont "steel-type."
+	text "JASMINE utilise"
+	line "le nouveau type"
+	cont "ACIER."
 
-	para "I don't know very"
-	line "much about it."
+	para "Je ne sais pas"
+	line "grand chose"
+	cont "dessus."
 	done
 ; 0x9c451
 
 OlivineGymGuyWinText: ; 0x9c451
-	text "That was awesome."
+	text "C'est étrange le"
+	line "type ACIER, hein?"
 
-	para "The steel-type,"
-	line "huh?"
-
-	para "That was a close"
-	line "encounter of an"
-	cont "unknown kind!"
+	para "C'est la rencon-"
+	line "tre d'un nouveau"
+	cont "genre!"
 	done
 ; 0x9c4a8
 
 OlivineGymGuyPreText: ; 0x9c4a8
-	text "JASMINE, the GYM"
-	line "LEADER, is at the"
-	cont "LIGHTHOUSE."
+	text "JASMINE, la"
+	line "CHAMPIONNE d'ARENE"
+	cont "est au PHARE."
 
-	para "She's been tending"
-	line "to a sick #MON."
+	para "Elle s'occupe du"
+	line "#MON malade."
 
-	para "A strong trainer"
-	line "has to be compas-"
-	cont "sionate."
+	para "Un dresseur puis-"
+	line "sant doit avoir un"
+	cont "coeur charitable"
+	cont "et être"
+	cont "bienveillant."
 	done
 ; 0x9c526
 
@@ -279,30 +285,30 @@ JasminePostgameRematchScript:
     end
 	
 JasminePostgameRematchText:
-	text "<...>Oh! Hi!"
+	text "<...>Oh! Salut!"
 
-	para "<...>You want to"
-	line "battle me again?"
+	para "<...>Tu veux"
+	line "recombattre?"
 
 	done
 	
 JasminePostgameBeatenText:
-	text "<...>Awe<...>"
+	text "<...>Oh<...>"
 	
-	para "You're still so"
-	line "much better<...>"
+	para "Tu as toujours"
+	line "autant de talent<...>"
 	done
 	
 JasminePostgameAfterText:
 
-	text "<...>Um<...>"
+	text "<...>Hum<...>"
 
-	para "Thank you again"
-	line "for battling with"
-	cont "me<...>"
+	para "Merci pour d'avoir"
+	line "combattu contre"
+	cont "moi<...>"
 	
-	para "<...>I really enjoyed"
-	line "it!"
+	para "<...>J'ai beaucoup"
+	line "apprécié!"
 	done
 
 OlivineGym_MapEventHeader: ; 0x9c526

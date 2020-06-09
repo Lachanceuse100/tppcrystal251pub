@@ -196,231 +196,219 @@ MovementData_0x98628: ; 0x98628
 ; 0x9862b
 
 UnknownText_0x9862b: ; 0x9862b
-	text "Astounding<...>"
+	text "Incroyable<...>"
 
-	para "SUICUNE, ENTEI and"
-	line "RAIKOU have arisen"
-	cont "from their sleep<...>"
+	para "SUICUNE, ENTEI et"
+	line "RAIKOU se sont"
+	cont "réveillés<...>"
 
-	para "Is the legend"
-	line "coming true?"
+	para "La légende est-"
+	line "elle vraie?"
 	done
 ; 0x9868b
 
 UnknownText_0x9868b: ; 0x9868b
-	text "We train at the"
-	line "BURNED TOWER, but"
+	text "On s'entraîne à la"
+	line "TOUR CENDREE mais"
 
-	para "we've never heard"
-	line "of a hole opening"
+	para "on n'a jamais vu"
+	line "de trou s'ouvrir"
 
-	para "up there before."
-	line "It must have been"
-
-	para "deliberately made"
-	line "by someone."
+	para "jusqu'à présent."
+	line "Quelqu'un doit en"
+	cont "être responsable."
 	done
 ; 0x98712
 
 UnknownText_0x98712: ; 0x98712
-	text "TIN TOWER may be"
-	line "entered by those"
+	text "La TOUR FERRAILLE"
+	line "est accessible aux"
 
-	para "bearing the"
-	line "FOGBADGE."
+	para "porteurs du BADGE"
+	line "BRUME."
 
-	para "However, now that"
-	line "SUICUNE, RAIKOU"
+	para "Toutefois, depuis"
+	line "le réveil de"
+	cont "SUICUNE, RAIKOU"
 
-	para "and ENTEI have"
-	line "arisen, I ask you"
-
-	para "to refrain from"
-	line "entering!"
+	para "et ENTEI, je ne"
+	line "peux pas vous"
+	cont "laisser entrer!"
 	done
 ; 0x987af
 
 UnknownText_0x987af: ; 0x987af
-	text "We, the WISE TRIO,"
-	line "are the protectors"
+	text "Nous sommes le"
+	line "TRIO des SAGES"
 
-	para "of the legendary"
-	line "#MON."
+	para "Nous protégeons le"
+	line "#MON"
+	cont "légendaire."
 	done
 ; 0x987ed
 
 SageGakuSeenText: ; 0x987ed
-	text "Legend has it that"
-	line "upon the emergence"
+	text "La légende dit"
+	line "que la venue d'un"
 
-	para "of a trainer who"
-	line "has the ability to"
+	para "dresseur pouvant"
+	line "toucher l'âme des"
 
-	para "touch the souls of"
-	line "#MON, a #MON"
+	para "#MON invoquera"
+	line "un #MON légen-"
 
-	para "will come forth to"
-	line "put that trainer"
+	para "daire pour le"
+	line "mettre à l'épreuve"
 
-	para "to test at the TIN"
-	line "TOWER."
+	para "dans la TOUR"
+	line "FERRAILLE."
 
-	para "The legend has"
-	line "come true!"
+	para "La légende s'est"
+	line "réalisée!"
 
-	para "The legendary"
-	line "#MON SUICUNE"
-	cont "has arrived!"
+	para "Le #MON"
+	line "légendaire SUICUNE"
+	cont "est arrivé!"
 
-	para "We, the WISE TRIO,"
-	line "shall test your"
-
-	para "worthiness to go"
-	line "inside!"
+	para "Nous, le TRIO des"
+	line "SAGES, te mettons"
+	cont "au défi d'entrer!"
 	done
 ; 0x98914
 
 SageGakuBeatenText: ; 0x98914
-	text "Stronger than we"
-	line "thought? Perhaps<...>"
+	text "Beau combat, mais"
+	line "ce n'est que le"
+	cont "début<...>w"
 	done
 ; 0x98938
 
 UnknownText_0x98938: ; 0x98938
-	text "Ah, so it is you"
-	line "who claim to have"
+	text "Tu prétends donc"
+	line "avoir vu SUICUNE,"
+	cont "ENTEI et RAIKOU"
+	cont "dans leur sommeil?"
 
-	para "seen SUICUNE,"
-	line "ENTEI and RAIKOU"
-	cont "while they slept?"
+	para "Incroyable!"
 
-	para "Unbelievable!"
-
-	para "Legend has it that"
-	line "they can't be seen"
-	cont "while they sleep<...>"
+	para "La légende dit"
+	line "bien qu'on ne peut"
+	cont "les voir dormir<...>"
 	done
 ; 0x989d2
 
 SageMasaSeenText: ; 0x989d2
-	text "Can you be trusted"
-	line "with the truth?"
+	text "Doit-on te faire"
+	line "confiance?"
 
-	para "I must ascertain"
-	line "your worthiness."
+	para "Je dois te mettre"
+	line "à l'épreuve."
 	done
 ; 0x98a18
 
 SageMasaBeatenText: ; 0x98a18
-	text "<...>I will tell you"
-	line "the truth<...>"
+	text "<...>Très bien, je"
+	line "dirai la vérité<...>"
 	done
 ; 0x98a35
 
 UnknownText_0x98a35: ; 0x98a35
-	text "In the past, there"
-	line "were two nine-tier"
-	cont "towers here."
+	text "Jadis, il y avait"
+	line "deux tours ici."
 
-	para "The BRASS TOWER,"
-	line "which was said to"
+	para "La TOUR de CUIVRE"
+	line "qui pouvait éveil-"
 
-	para "awaken #MON,"
-	line "and the TIN TOWER,"
+	para "ler les #MON,"
+	line "et la TOUR FER-,"
 
-	para "where #MON were"
-	line "said to rest."
+	para "RAILLE où les"
+	line "#MON se"
+	cont "reposaient."
 
-	para "The view from the"
-	line "tops of the TOWERS"
+	para "La vue depuis le"
+	line "sommet des TOURS"
 
-	para "must have been"
-	line "magnificent."
+	para "devait être"
+	line "magnifique."
 
-	para "At the time, an"
-	line "immense, silver-"
+	para "En ce temps-là, un"
+	line "immense #MON"
 
-	para "colored #MON"
-	line "was said to make"
+	para "argenté avait fait"
+	line "son nid en haut de"
+	cont "la TOUR de CUIVRE."
 
-	para "its roost atop the"
-	line "BRASS TOWER."
+	para "Cependant<...>"
 
-	para "However<...>"
+	para "Il y a 150 ans,"
+	line "un éclair frappe"
+	cont "l'une des TOURS."
 
-	para "About 150 years"
-	line "ago, lightning"
+	para "Elle prit feu et"
+	line "brûla pendant"
+	cont "trois jours."
 
-	para "struck one of"
-	line "the TOWERS."
+	para "Une soudaine aver-"
+	line "se mis fin à"
+	cont "l'incendie."
 
-	para "It was engulfed in"
-	line "flames that raged"
-	cont "for three days."
-
-	para "A sudden downpour"
-	line "finally put out"
-	cont "the blaze."
-
-	para "And that is how"
-	line "the BURNED TOWER"
-	cont "came to be."
+	para "Et ainsi fut née"
+	line "la TOUR CENDREE."
 	done
 ; 0x98c42
 
 SageKojiSeenText: ; 0x98c42
-	text "Let me see your"
-	line "power!"
+	text "Montre-moi ta"
+	line "force!"
 	done
 ; 0x98c5a
 
 SageKojiBeatenText: ; 0x98c5a
-	text "Too strong!"
-	line "Why?"
+	text "Si puissant!"
+	line "Comment?"
 	done
 ; 0x98c6c
 
 UnknownText_0x98c6c: ; 0x98c6c
-	text "You<...> Are you the"
-	line "trainer who is"
+	text "Toi<...> Es-tu le"
+	line "dresseur attendu"
 
-	para "awaited by the"
-	line "legendary #MON?"
+	para "par le #MON"
+	line "légendaire?"
 	done
 ; 0x98cac
 
 UnknownText_0x98cac: ; 0x98cac
-	text "I see<...>"
+	text "Je vois<...>"
 
-	para "We, the WISE TRIO,"
-	line "have been given "
+	para "Nous, le TRIO des"
+	line "SAGES, avons le"
 
-	para "the responsibility"
-	line "of protecting the"
+	para "devoir de protéger"
+	line "les #MON légen-"
+	cont "daires."
 
-	para "legendary #MON."
-	line "We are to allow"
+	para "Nous ne laissons"
+	line "passer que ceux"
+	cont "au coeur pur."
 
-	para "passage only to"
-	line "those people who"
+	para "Tu trouveras plus"
+	line "loin la TOUR"
+	cont "FERRAILLE."
 
-	para "possess the power"
-	line "and soul of truth."
-
-	para "Please, do go on"
-	line "and enter the TIN"
-	cont "TOWER ahead."
-
-	para "SUICUNE will put"
-	line "you to the test."
+	para "SUICUNE te mettra"
+	line "à l'épreuve."
 	done
 ; 0x98db5
 
 UnknownText_0x98db5: ; 0x98db5
-	text "Please, do go on."
+	para "Tu trouveras plus"
+	line "loin la TOUR"
+	cont "FERRAILLE."
 
-	para "SUICUNE will put"
-	line "you to the test."
+	para "SUICUNE te mettra"
+	line "à l'épreuve."
 	done
 ; 0x98dea
 

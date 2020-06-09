@@ -26,3 +26,4 @@ PokecenterRB_MapEventHeader:
 	; object events
 	db 1
 	person_event SPRITE_NURSE, 5, 9, $6, 0, 0, -1, -1, 0, 0, 0, RBPokemonCenterScript, -1
+	

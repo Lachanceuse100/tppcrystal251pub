@@ -31,32 +31,33 @@ MapGoldenrodDeptStore3FSignpost1Script: ; 0x55dc9
 ; 0x55dcc
 
 UnknownText_0x55dcc: ; 0x55dcc
-	text "I, I, I'm really"
+	text "Je suis trop"
 	line "impatient!"
 
-	para "I use X SPEED in"
-	line "battle to speed up"
-	cont "my #MON."
+	para "J'utilise des"
+	line "VITESSE + pour"
+	cont "booster mon"
+	cont "#MON."
 	done
 ; 0x55e15
 
 UnknownText_0x55e15: ; 0x55e15
-	text "Hey! When you bat-"
-	line "tle, do you use X"
-	cont "SPECIAL?"
+	text "Quand tu te bats,"
+	line "utilises-tu du"
+	cont "SPECIAL +?"
 
-	para "It's awesome. It"
-	line "really jacks up"
-	cont "SPECIAL ATTACK!"
+	para "C'est impression-"
+	line "nant! Ca booste"
+	cont "vraiment ton"
+	cont "ATTAQUE SPECIALE!"
 	done
 ; 0x55e74
 
 UnknownText_0x55e74: ; 0x55e74
-	text "For Victory"
-	line "Seekers"
+	text "Pour la victoire!"
 
-	para "3F BATTLE"
-	line "   COLLECTION"
+	para "2EME: COLLECTION"
+	line "      DE COMBAT"
 	done
 ; 0x55ea1
 

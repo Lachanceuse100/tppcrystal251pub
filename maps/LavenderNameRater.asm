@@ -46,3 +46,4 @@ LavenderNameRater_MapEventHeader: ; 0x7eafd
 	person_event SPRITE_GENTLEMAN, 7, 6, $6, 0, 0, -1, -1, 8 + PAL_OW_RED, 0, 0, GentlemanScript_0x7eaf2, -1
 ; 0x7eb1a
 
+

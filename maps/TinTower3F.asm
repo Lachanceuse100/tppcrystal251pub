@@ -30,3 +30,4 @@ TinTower3F_MapEventHeader: ; 0x185a39
 	person_event SPRITE_POKE_BALL, 18, 7, $1, 0, 0, -1, -1, 0, 1, 0, ItemFragment_0x185a37, EVENT_ITEM_TIN_TOWER_3F_FULL_HEAL
 ; 0x185a56
 
+

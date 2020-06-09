@@ -9,8 +9,8 @@ MewIslandSign:
 	jumptext MewIslandSign_Text
 
 MewIslandSign_Text: ; 0x1aaa6f
-	text "This sign is"
-	line "illegible."
+	text "Ce panneau est"
+	line "illisble."
 	done
 
 Item_MewIslandEntrance:

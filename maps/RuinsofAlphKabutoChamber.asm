@@ -171,121 +171,122 @@ MovementData_0x587fe: ; 0x587fe
 ; 0x58800
 
 UnknownText_0x58800: ; 0x58800
-	text "Welcome to this"
-	line "chamber."
+	text "Bienvenue dans la"
+	line "salle."
 
-	para "There are sliding"
-	line "panels that depict"
+	para "Des panneaux cou-"
+	line "lissants représen-"
 
-	para "a #MON drawn by"
-	line "the ancients."
+	para "tent un #MON"
+	line "dessiné par les"
+	cont "anciens."
 
-	para "Slide the panels"
-	line "around to form the"
-	cont "picture."
+	para "Bouge les panneaux"
+	line "pour reconstituer"
+	cont "le dessin."
 
-	para "To the right is a"
-	line "description of the"
+	para "A droite se trouve"
+	line "la description du"
 	cont "#MON."
 
-	para "Scientists in the"
-	line "back are examining"
-
-	para "some newly found"
-	line "patterns."
+	para "Les scientifiques"
+	line "analysent des"
+	cont "nouvelles figures"
+	cont "au fond."
 	done
 ; 0x588f5
 
 UnknownText_0x588f5: ; 0x588f5
-	text "Recently, strange,"
-	line "cryptic patterns"
-	cont "have appeared."
+	text "D'étranges signes"
+	line "sont récemment"
+	cont "apparus."
 
-	para "It's odd. They"
-	line "weren't here a"
-	cont "little while ago<...>"
+	para "C'est bizarre<...>"
+	line "Il n'y étaient pas"
+	cont "auparavant<...>"
 
-	para "You should take a"
-	line "look at the walls."
+	para "Jette donc un oeil"
+	line "sur les murs."
 	done
 ; 0x5897c
 
 UnknownText_0x5897c: ; 0x5897c
-	text "Ah! Here's another"
-	line "huge hole!"
+	text "Ah! Un autre trou."
 
-	para "It's big enough to"
-	line "go through!"
+	para "C'est assez grand"
+	line "pour s'y faufiler!"
 	done
 ; 0x589b8
 
 UnknownText_0x589b8: ; 0x589b8
-	text "That tremor was"
-	line "pretty scary!"
+	text "Le tremblement m'a"
+	line "fait peur!"
 
-	para "But I'm more"
-	line "concerned about"
-	cont "this wall here<...>"
+	para "Mais ce mur me"
+	line "préoccupe<...>"
 	done
 ; 0x58a03
 
 ; possibly unused
 UnknownText_0x58a03: ; 0x58a03
-	text "The patterns on"
-	line "the wall appear to"
-	cont "be words!"
+	text "Les figures sur"
+	line "murs ont l'air"
+	cont "d'être des mots!"
 
-	para "And those sliding"
-	line "stone panels seem"
+	para "Et ces panneaux"
+	line "coulissant"
+	cont "semblent être une"
+	cont "sorte de"
+	cont "mécanisme."
 
-	para "to be signals of"
-	line "some kind."
+	para "Je pense qu'ils"
+	line "font apparaître"
 
-	para "I think they make"
-	line "#MON appear,"
-
-	para "but it's not clear"
-	line "yet<...>"
+	para "des #MON mais"
+	line "ce n'est pas"
+	cont "clair<...>"
 	done
 ; 0x58aa7
 
 UnknownText_0x58aa7: ; 0x58aa7
-	text "Patterns appeared"
-	line "on the walls<...>"
+	text "Il y a des figures"
+	line "sur le mur<...>"
 	done
 ; 0x58ac8
 
 ; possibly unused
 UnknownText_0x58ac8: ; 0x58ac8
-	text "It's UNOWN text!"
+	text "Du texte ZARBI!"
 	done
 ; 0x58ad9
 
 UnknownText_0x58ad9: ; 0x58ad9
-	text "Patterns appeared"
-	line "on the walls<...>"
+	text "Il y a des figures"
+	line "sur le mur<...>"
 	done
 ; 0x58afa
 
 UnknownText_0x58afa: ; 0x58afa
-	text "There's a big hole"
-	line "in the wall!"
+	text "Il y a un gros"
+	line "trou dans le mur!"
 	done
 ; 0x58b1a
 
 UnknownText_0x58b1a: ; 0x58b1a
-	text "It's a replica of"
-	line "an ancient #-"
+	text "C'est une réplique"
+	line "d'un ancien #-"
 	cont "MON."
 	done
 ; 0x58b3f
 
 UnknownText_0x58b3f: ; 0x58b3f
-	text "A #MON that hid"
-	line "on the sea floor."
+	text "Un #MON qui se"
+	line "cachait au fond"
+	cont "des mers."
 
-	para "Eyes on its back"
-	line "scanned the area."
+	para "Les yeux sur son"
+	line "dos scrutaient les"
+	cont "environs."
 	done
 ; 0x58b85
 

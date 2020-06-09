@@ -44,67 +44,68 @@ MapGoldenrodDeptStore2FSignpost1Script: ; 0x55b79
 
 ; possibly unused
 UnknownText_0x55b7c: ; 0x55b7c
-	text "We intend to sell"
-	line "items for #MON"
-	cont "to hold."
+	text "Nous avons l'in-"
+	line "tention de vendre"
+	cont "des objets à tenir"
+	cont "par les #MON."
 
-	para "This is a free"
-	line "gift. Have a #-"
-	cont "MON hold it."
+	para "Voici un échanti-"
+	line "llon. Votre #-"
+	cont "MON peut le tenir."
 	done
 ; 0x55bd3
 
 ; possibly unused
 UnknownText_0x55bd3: ; 0x55bd3
-	text "By giving #MON"
-	line "items to hold, I"
+	text "En donnant à tes"
+	line "#MON des objets,"
 
-	para "bet trainers will"
-	line "develop new battle"
-	cont "techniques."
+	para "les dresseurs peu-"
+	line "vent développer de"
+	cont "nouvelles"
+	cont "stratégies."
 	done
 ; 0x55c25
 
 UnknownText_0x55c25: ; 0x55c25
-	text "#GEAR can store"
-	line "up to ten phone"
-	cont "numbers."
+	text "Le #MATOS peut"
+	line "enregistrer jusqu'"
+	cont "à dix numéros."
 
-	para "It's hard to de-"
-	line "cide which numbers"
-	cont "to keep."
+	para "C'est difficile de"
+	line "décider quel"
+	cont "numéro garder."
 	done
 ; 0x55c7b
 
 UnknownText_0x55c7b: ; 0x55c7b
-	text "I got my PORYGON"
-	line "at the"
-	cont "GAME CORNER."
+	text "J'ai eu mon"
+	line "PORYGON au CASINO."
 
-	para "Now it's my best"
-	line "partner."
+	para "Maintenant, c'est"
+	line "mon meilleur ami."
 	done
 ; 0x55cb7
 
 UnknownText_0x55cb7: ; 0x55cb7
-	text "This DEPT.STORE"
-	line "makes me realize"
+	text "Ce CENTRE COMMER-"
+	line "CIAL montre que"
 
-	para "that GOLDENROD is"
-	line "a big city."
+	para "DOUBLONVILLE est"
+	line "une grande ville."
 
-	para "The selection here"
-	line "is unmatched any-"
-	cont "where else."
+	para "La marchandise est"
+	line "la meilleure de la"
+	cont "région."
 	done
 ; 0x55d28
 
 UnknownText_0x55d28: ; 0x55d28
-	text "Your Travel"
-	line "Companion"
+	text "Votre compagnon"
+	line "de voyage."
 
-	para "2F TRAINER'S"
-	line "   MARKET"
+	para "1ER: BOUTIQUE"
+	line "     DRESSEUR"
 	done
 ; 0x55d56
 

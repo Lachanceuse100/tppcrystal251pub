@@ -11,16 +11,15 @@ OfficerScript_0x9cbd7: ; 0x9cbd7
 ; 0x9cbda
 
 UnknownText_0x9cbda: ; 0x9cbda
-	text "Where did you say"
-	line "you're from?"
+	text "Tu viens d'où?"
 
-	para "NEW BARK TOWN?"
+	para "BOURG GEON?"
 
-	para "PROF.ELM lives"
-	line "over there, right?"
+	para "Le PROF.ORME vit"
+	line "là-bas, non?"
 
-	para "You've come a long"
-	line "way to get here."
+	para "Tu en as fais du"
+	line "chemin, dis donc."
 	done
 ; 0x9cc4d
 

@@ -178,184 +178,188 @@ BlackthornPlayerMovement:
 
 
 UnknownText_0x1a477a: ; 0x1a477a
-	text "I am sorry."
+	text "SANDRA, notre CHAM-"
+	line "PIONNE d'ARENE,"
 
-	para "CLAIR, our GYM"
-	line "LEADER, entered"
+	para "s'entraîne a l'"
+	line "ANTRE DU DRAGON."
 
-	para "the DRAGON'S DEN"
-	line "behind the GYM."
-
-	para "I have no idea"
-	line "when our LEADER"
-	cont "will return."
+	para "Nous ne savons pas"
+	line "lorsqu'elle re-"
+	cont "viendra."
 	done
 ; 0x1a47f3
 
 UnknownText_0x1a47f3: ; 0x1a47f3
-	text "CLAIR, our GYM"
-	line "LEADER, is waiting"
-	cont "for you."
+	text "SANDRA, notre"
+	line "CHAMPIONNE, vous"
+	cont "attend."
 
-	para "However, it would"
-	line "be impossible for"
-
-	para "a run-of-the-mill"
-	line "trainer to win."
+	para "Vous aurez du mal"
+	line "à la battre."
 	done
 ; 0x1a4865
 
 UnknownText_0x1a4865: ; 0x1a4865
-	text "You defeated"
-	line "CLAIR?"
+	text "Tu as vaincu"
+	line "SANDRA??"
 
-	para "That's amazing!"
+	para "C'est incroytable!"
 
-	para "I've never heard"
-	line "of her losing to"
+	para "PETER est la seule"
+	line "qui ait réussi cet"
 
-	para "anyone other than"
-	line "LANCE."
+	para "exploit jusqu'à"
+	line "présent."
 	done
 ; 0x1a48c3
 
 UnknownText_0x1a48c3: ; 0x1a48c3
-	text "No. Only chosen"
-	line "trainers may train"
+	text "Seuls les dres-"
+	line "seurs confirmés"
 
-	para "here."
-	line "Please leave."
+	para "peuvent s'entraî"
+	line "ner ici. Partez."
 	done
 ; 0x1a48fb
 
 UnknownText_0x1a48fb: ; 0x1a48fb
-	text "If CLAIR allows"
-	line "it, her grand-"
-	cont "father--our MASTER"
-	cont "--will also."
+	text "Si SANDRA l'auto-"
+	line "rise, son grand-"
+	
+	para "père, notre"
+	line "MAITRE, l'autori-"
+	cont "sera aussi."
 
-	para "You may enter."
+	para "Tu peux entrer."
 	done
 ; 0x1a494a
 
 UnknownText_0x1a494a: ; 0x1a494a
-	text "My radio's busted?"
-	line "Lately, I only get"
-	cont "this weird signal."
+	text "Ma radio est-elle"
+	line "cassée?"
+
+	para "Je n'ai que ce"
+	line "signal bizarre ces"
+	cont "temps-ci."
 	done
 ; 0x1a4983
 
 UnknownText_0x1a4983: ; 0x1a4983
-	text "Arooo! Voices in"
-	line "my head!"
+	text "Aahhhh! Des voix"
+	line "dans ma tête!"
 
-	para "Huh? I'm listening"
-	line "to my radio!"
+	para "Hein? J'écoute ma"
+	line "radio!"
 	done
 ; 0x1a49bd
 
 UnknownText_0x1a49bd: ; 0x1a49bd
-	text "Are you going to"
-	line "make your #MON"
-	cont "forget some moves?"
+	text "Vas-tu faire"
+	line "oublier des capa-"
+	cont "cités à tes"
+	cont "#MON?"
 	done
 ; 0x1a49f1
 
 UnknownText_0x1a49f1: ; 0x1a49f1
-	text "Dragon masters all"
-	line "come from the city"
-	cont "of BLACKTHORN."
+	text "Tous les experts"
+	line "en dragons vien-"
+	cont "nent d'EBENELLE."
 	done
 ; 0x1a4a27
 
 MeetSantosText:
-	text "SANTOS: <...>"
+	text "SAMUEL: <...>"
 
-	para "It's Saturday<...>"
+	para "On est Samedi<...>"
 
-	para "I'm SANTOS of"
-	line "Saturday<...>"
+	para "Je suis SAMUEL du"
+	line "Samedi<...>"
 	done
 
 SantosGivesGiftText:
-	text "You can have this<...>"
+	text "Tiens<...>"
 	done
 
 SantosGaveGiftText:
-	text "SANTOS: <...>"
+	text "SAMUEL: <...>"
 
-	para "SPELL TAG<...>"
+	para "RUNE SORT<...>"
 
-	para "Ghost-type moves"
-	line "get stronger<...>"
+	para "Les attaques de"
+	line "type SPECTRE sont"
+	cont "plus fortes."
 
-	para "It will frighten"
-	line "you<...>"
+	para "Ca va t'effrayer<...>"
 	done
 
 SantosSaturdayText:
-	text "SANTOS: <...>"
+	text "SAMUEL: <...>"
 
-	para "See you again on"
-	line "another Saturday<...>"
+	para "A la prochaine, un"
+	line "autre Samedi<...>"
 
-	para "I won't have any"
-	line "more gifts<...>"
+	para "Je n'aurai plus"
+	line "de cadeaux<...>"
 	done
 
 SantosNotSaturdayText:
-	text "SANTOS: Today's"
-	line "not Saturday<...>"
+	text "SAMUEL: On n'est"
+	line "pas Samedi<...>"
 	done
 
 UnknownText_0x1a4b1e: ; 0x1a4b1e
-	text "Wow, you came"
-	line "through the ICE"
-	cont "PATH?"
+	text "Tu as traversé la"
+	line "ROUTE DE GLACE?"
 
-	para "You must be a real"
-	line "hotshot trainer!"
+	para "Tu dois être super"
+	line "balèze!"
 	done
 ; 0x1a4b67
 
 UnknownText_0x1a4b67: ; 0x1a4b67
-	text "BLACKTHORN CITY"
+	text "EBENELLE"
 
-	para "A Quiet Mountain"
-	line "Retreat"
+	para "Une montagne calme"
+	line "et retirée du"
+	cont "reste du monde"
 	done
 ; 0x1a4b91
 
 UnknownText_0x1a4b91: ; 0x1a4b91
-	text "BLACKTHORN CITY"
-	line "#MON GYM"
-	cont "LEADER: CLAIR"
+	text "EBENELLE"
+	cont "ARENE #MON"
 
-	para "The Blessed User"
-	line "of Dragon #MON"
+	para "CHAMPIONNE:"
+	line "SANDRA"
+
+	para "La détentrice de"
+	line "#MON dragon."
 	done
 ; 0x1a4bd9
 
 UnknownText_0x1a4bd9: ; 0x1a4bd9
-	text "MOVE DELETER'S"
-	line "HOUSE"
+	text "CHEZ L'EFFACEUR DE"
+	line "CAPACITES"
 	done
 ; 0x1a4bef
 
 UnknownText_0x1a4bef: ; 0x1a4bef
-	text "DRAGON'S DEN"
-	line "AHEAD"
+	text "ANTRE DU DRAGON"
+	line "TOUT DROIT"
 	done
 ; 0x1a4c03
 
 UnknownText_0x1a4c03: ; 0x1a4c03
-	text "TRAINER TIPS"
+	text "ASTUCE"
 
-	para "A #MON holding"
-	line "a LUM BERRY will"
+	para "Un #MON tenant"
+	line "une BAIE MIRACLE"
 
-	para "cure itself of any"
-	line "status problem."
+	para "se soignera tout"
+	line "seul de n'importe"
+	cont "quel état."
 	done
 ; 0x1a4c57
 

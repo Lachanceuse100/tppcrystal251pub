@@ -96,43 +96,39 @@ FalknerPostgameRematchScript:
     end
 	
 FalknerRejectText:
-	text "ARTICUNO<...>"
+	text "ARTIKODIN<...>"
 
-	para "ZAPDOS<...>"
+	para "ELECHTOR<...>"
 
-	para "MOLTRES<...>"
+	para "SULFURA<...>"
 
-	para "Taming these"
-	line "legendary bird"
+	para "Dompter ces #-"
+	line "MON oiseaux légen-"
+	cont "daires est le test"
+	cont "utile de puissance"
+	cont "dans ma famille"
+	cont "depuis des généra-"
+	cont "tions."
+	
+	para "Tu dois compléter"
+	line "ton #DEX,"
+	cont "pas vrai?"
 
-	para "#MON has been"
-	line "the ultimate test"
+	para "Tu devrais donc"
+	line "relever ce défi."
 
-	para "of power in my"
-	line "family for gene-"
-	cont "rations."
+	para "Trouve les oiseaux"
+	line "légendaires et"
+	cont "attrape les ou ils"
+	cont "se perchent!"
 
-	para "You're on a quest"
-	line "to fill your #-"
-	cont "DEX, right?"
+	para "Une fois cette"
+	line "tâche accomplie,"
+	cont "reviens ici."
 
-	para "Then you should"
-	line "take on this chal-"
-	cont "lenge yourself."
-
-	para "Go find the three"
-	line "legendary birds"
-
-	para "and catch them"
-	line "where they roost!"
-
-	para "Once you have done"
-	line "that, come back"
-	cont "here."
-
-	para "Come back and show"
-	line "me how high you"
-	cont "can soar!"
+	para "Reviens me montrer"
+	line "jusqu'où tu peux"
+	cont "voler!"
 	done
 
 UnknownScript_0x68412: ; 0x68412
@@ -244,182 +240,185 @@ UnknownScript_0x6846c: ; 0x6846c
 ; 0x68473
 
 UnknownText_0x68473: ; 0x68473
-	text "I'm FALKNER, the"
-	line "VIOLET #MON GYM"
-	cont "leader!"
+	text "Je suis ALBERT, le"
+	line "CHAMPION d'ARENE"
+	cont "de MAUVILLE!"
 
-	para "People say you can"
-	line "clip flying-type"
+	para "Tout le monde dit"
+	line "que les #MON"
 
-	para "#MON's wings"
-	line "with a jolt of"
-	cont "electricity<...>"
+	para "oiseaux grillent"
+	line "sous une"
+	cont "étincelle<...>"
 
-	para "I won't allow such"
-	line "insults to bird"
-	cont "#MON!"
+	para "Je n'autorise per-"
+	line "sonne à insulter"
+	cont "les #MON!"
 
-	para "I'll show you the"
-	line "real power of the"
+	para "Tu vas voir la"
+	line "vraie puissance"
 
-	para "magnificent bird"
-	line "#MON!"
+	para "des magnifiques"
+	line "#MON oiseaux!"
 	done
 ; 0x6854a
 
 FalknerRematchTextBefore:
-	text "Welcome back."
+	text "Bon retour."
 
-	para "Long ago, my"
-	line "father tamed the"
+	para "Il y a longtemps,"
+	line "mon père a dompté"
 	
-	para "three ultimate"
-	line "bird #MON."
+	para "les #MON"
+	line "oiseaux ultimes."
 
-	para "You, who have"
-	line "matched this feat,"
-	para "stand before me,"
-	line "his legacy."
+	para "Toi qui a égalé"
+	line "cet exploit. Toi"
+	para "qui te tiens"
+	line "devant moi."
 
-	para "Let me show you"
-	line "our true power!"
+	para "Laisse nous te"
+	line "montrer notre"
+	cont "vraie puissance."
 	done
 
 FalknerRematchBeatenText:
-	text "<...>No! Not even"
-	line "the ultimate"
-	cont "bird #MON<...>"
+	text "<...>Non, même les"
+	line "#MON oiseaux"
+	cont "légendaires<...>"
 	done
 
 FalknerAfterRematchText:
-	text "A defeat is a"
-	line "defeat."
+	text "Une défaite est"
+	line "une défaite."
 
-	para "You are strong"
-	line "indeed."
+	para "Tu es vraiment"
+	line "fort."
 
-	para "I'm going to train"
-	line "harder with my"
-	para "#MON to become"
-	line "the greatest BIRD"
-	cont "KEEPER of all!"
+	para "Je continuerais"
+	line "de m'entraîner et"
+	para "je serais le plus"
+	line "grand ORNITHOLOGUE"
+	cont "#MON de tous"
+	cont "les temps."
 
 	done
 
 FalknerPostgameRematchText:
-	text "Hello again."
+	text "Rebonjour."
 
-	para "You've been"
-	line "training, I see<...>"
+	para "Tu t'es entraîné,"
+	line "je vois<...>"
 
-	para "Do you wish to"
-	line "battle again?"
+	para "Souhaites-tu"
+	line "encore combattre?"
 
 	done
 	
 FalknerPostgameBeatenText:
-	text "My bird #MON<...>"
+	text "Mes #MON"
+	line "oiseaux<...>"
 	
-	para "We still aren't"
-	line "strong enough."
+	para "Nous ne sommes"
+	line "toujours pas"
+	cont "assez forts."
 	done
 	
 FalknerPostgameAfterText:
 
-	text "Your power is"
-	line "truly fantastic!"
+	text "Ta puissance est"
+	line "fantastique!"
 
-	para "It's no surprise"
-	line "you were able to"
-	
-	para "tame even the"
-	line "legendary #MON<...>"
-
+	para "Pas étonnant que"
+	line "même les #MON"
+	cont "légendaires se"
+	cont "soumettent à ta"
+	cont "puissance."
 	done
 
 UnknownText_0x6854a: ; 0x6854a
-	text "<...>Darn! My dad's"
-	line "cherished bird"
-	cont "#MON<...>"
+	text "<...>Non! Les"
+	line "#MON adorés de"
+	cont "mon papa<...>"
 
-	para "All right."
-	line "Take this."
+	para "Très bien."
+	line "Prends ceci."
 
-	para "It's the official"
-	line "#MON LEAGUE"
-	cont "ZEPHYRBADGE."
+	para "C'est le BADGE"
+	line "ZEPHYR officiel de"
+	cont "la LIGUE #MON."
 	done
 ; 0x685af
 
 UnknownText_0x685af: ; 0x685af
-	text "<PLAYER> received"
-	line "ZEPHYRBADGE."
+	text "<PLAYER> reçoit le"
+	line "BADGE ZEPHYR."
 	done
 ; 0x685c8
 
 UnknownText_0x685c8: ; 0x685c8
-	text "ZEPHYRBADGE"
-	line "raises the attack"
-	cont "power of #MON."
+	text "Le BADGE ZEPHYR"
+	line "augmente l'ATTAQUE"
+	cont "des #MON."
 
-	para "It also enables"
-	line "#MON to use"
+	para "Il permet aussi"
+	line "aux #MON"
+	cont "d'utiliser VOL"
+	cont "en dehors des"
+	cont "combats."
 
-	para "FLY, if they"
-	line "have it, anytime."
-
-	para "Here--take this"
-	line "too."
+	para "Tiens, prends ça"
+	line "aussi."
 	done
 ; 0x68648
 
 UnknownText_0x68648: ; 0x68648
-	text "TM31 contains"
-	line "SKY ATTACK."
+	text "La CT31 contient"
+	line "PIQUE."
 
-	para "It's the strongest"
-	line "flying type"
-	cont "attack!"
+	para "C'est l'attaque de"
+	line "type VOL la plus"
+	cont "puissante!"
 
-	para "It charges up a"
-	line "tremendous power,"
+	para "Elle charge une"
+	line "énergie terri-"
+	cont "fiante et la re-"
+	cont "lâche sur son"
+	cont "adversaire."
 
-	para "then focuses it"
-	line "all at the foe."
-
-	para "Use it to rule"
-	line "the skies!"
+	para "Utilise la pour"
+	line "conquérir les"
+	cont "cieux!"
 	done
 ; 0x68735
 
 UnknownText_0x68735: ; 0x68735
-	text "There are #MON"
-	line "GYMS in cities and"
-	cont "towns ahead."
+	text "Il y a des ARENES"
+	line "#MON dans les"
+	cont "alentours."
 
-	para "You should test"
-	line "your skills at"
-	cont "these GYMS."
+	para "Tu devrais tester"
+	line "tes capacités dans"
+	cont "ces ARENES."
 
-	para "I'm going to train"
-	line "harder to become"
-
-	para "the greatest bird"
-	line "master!"
+	para "Je vais m'entraî-"
+	line "ner plus dur pour"
+	cont "devenir le maître"
+	cont "des oiseaux!"
 	done
 ; 0x687cd
 
 Bird_keeperRodSeenText: ; 0x687cd
-	text "I was born and"
-	line "raised in the"
-	cont "KANTO region!"
+	text "J'ai été élevé"
+	line "dans la région"
+	cont "de KANTO!"
 
-	para "I flew to JOHTO"
-	line "by riding on my"
-	cont "bird #MON!"
+	para "J'ai volé jusqu'à"
+	line "JOHTO sur mon"
+	cont "#MON oiseau!"
 
-	para "Think you can rise"
-	line "above me? Come on!"
+	para "Tu penses voler"
+	line "plus haut que moi?"
 	done
 ; 0x6882f
 
@@ -429,68 +428,67 @@ Bird_keeperRodBeatenText: ; 0x6882f
 ; 0x68837
 
 UnknownText_0x68837: ; 0x68837
-	text "I fly on the wings"
-	line "of my FEAROW!"
+	text "Je vole sur les"
+	line "ailes de mon"
+	cont "RAPASDEPIC!"
 	done
 ; 0x6887f
 
 Bird_keeperAbeSeenText: ; 0x6887f
-	text "Our #MON all"
-	line "come from KANTO."
+	text "Nos #MON sont"
+	line "de KANTO."
 
-	para "They're far supe-"
-	line "rior to the local"
-	cont "flying types."
+	para "Ils sont"
+	line "supérieurs aux"
+	cont "types VOL du coin."
 	done
 ; 0x688b3
 
 Bird_keeperAbeBeatenText: ; 0x688b3
-	text "This can't be"
-	line "true!"
+	text "Ce n'est pas vrai!"
 	done
 ; 0x688c7
 
 UnknownText_0x688c7: ; 0x688c7
-	text "Bird #MON are"
-	line "more common in the"
-	cont "KANTO region!"
+	text "Les #MON"
+	line "oiseaux sont"
+	cont "communs dans la"
+	cont "région de KANTO."
 
-	para "You usually only"
-	line "see HOOTHOOT"
-	cont "around here<...>"
+	para "Ici il n'y a que"
+	line "des HOOTHOOT<...>"
 	done
 ; 0x688f9
 
 VioletGymGuyText: ; 0x688f9
-	text "Yo, CHAMP in the"
-	line "making!"
+	text "Salut, champion en"
+	line "herbe!"
 
-	para "You're challenging"
-	line "the GYMs in JOHTO?"
+	para "Tu défies les"
+	line "ARENES de JOHTO?"
 
-	para "The #MON here"
-	line "are tougher than"
-	cont "in KANTO's GYMs!"
+	para "Les #MON ici"
+	line "sont plus forts"
+	cont "que ceux de KANTO!"
 
-	para "FALKNER, the GYM"
-	line "LEADER, specia-"
-	cont "lizes in flying-"
-	cont "type #MON."
+	para "ALBERT, le"
+	line "CHAMPION, utilise"
+	cont "des #MON de"
+	cont "type VOL."
 
-	para "If you have a team"
-	line "of grass-type"
-
-	para "#MON, you bet-"
-	line "ter watch out!"
+	para "Si tu as une"
+	line "équipe de #MON"
+	cont "PLANTE, tu ferais"
+	cont "mieux d'être sur"
+	cont "tes gardes."
 	done
 ; 0x689c8
 
 VioletGymGuyWinText: ; 0x689c8
-	text "Nice battle! Keep"
-	line "it up, and you'll"
-
-	para "be the CHAMP in no"
-	line "time at all!"
+	text "Beau combat! Tu"
+	line "vas être CHAMPION"
+	cont "en peu de temps à"
+	cont "ce rythme!"
 	done
 ; 0x68a0c
 

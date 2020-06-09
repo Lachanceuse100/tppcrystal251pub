@@ -65,12 +65,12 @@ UnknownScript_0x69d96: ; 0x69d96
 
 GiftSpearowMail: ; 0x69d98
 	db FLOWER_MAIL
-	db   "DARK CAVE leads"
-	next "to another road@"
+	db   "ANTRE NOIRE"
+	next "mène autre part@"
 GiftSpearowName: ; 0x69db9
-	db "KENYA@"
+	db "ALFRED@"
 GiftSpearowOTName: ; 0x69dbf
-	db "RANDY@"
+	db "BOBBY@"
 
 	db 0 ; 0x69dc5 XXX is there a reason for this?
 
@@ -97,124 +97,131 @@ FisherScript_0x69dda: ; 0x69dda
 ; 0x69ddd
 
 UnknownText_0x69ddd: ; 0x69ddd
-	text "Excuse me, kid!"
-	line "Can you do a guy"
-	cont "a favor?"
+	text "Excuse moi!"
+	line "Tu peux me rendre"
+	cont "un service?"
 
-	para "Can you take this"
-	line "#MON with MAIL"
-	cont "to my friend?"
+	para "Tu peux apporter"
+	line "ce #MON et sa"
+	cont "LETTRE à mon pote?"
 
-	para "He's on ROUTE 31."
+	para "Il est sur la"
+	line "ROUTE 31."
 	done
 ; 0x69e48
 
 UnknownText_0x69e48: ; 0x69e48
-	text "You will? Perfect!"
-	line "Thanks, kid!"
+	text "Tu veux bien?"
+	line "Merci!"
 
-	para "My pal's a lazy"
-	line "guy who moans"
-	cont "all the time."
+	para "Mon pote est un"
+	line "paresseux, il"
+	cont "pionce tout le"
+	cont "temps."
 
-	para "You'll recognize"
-	line "him right away!"
+	para "Tu le reconnaî-"
+	line "tras de suite!"
 	done
 ; 0x69eb8
 
 UnknownText_0x69eb8: ; 0x69eb8
-	text "<PLAYER> received a"
-	line "#MON with MAIL."
+	text "<PLAYER> reçoit un"
+	line "#MON avec une"
+	cont "LETTRE."
 	done
 ; 0x69ed6
 
 UnknownText_0x69ed6: ; 0x69ed6
-	text "You can read it,"
-	line "but don't lose it!"
-	cont "ROUTE 31!"
+	text "Tu peux la lire"
+	line "mais ne la perds"
+	cont "pas, OK?"
 
-	para "Oh, yeah. There"
-	line "was a weird tree"
-	cont "blocking the road."
+	para "Souviens-toi: la"
+	line "ROUTE 31!"
 
-	para "I wonder if it's"
-	line "been cleared?"
+	para "Ah oui, il y a un"
+	line "arbre bizarre qui"
+	cont "bloque le chemin."
+
+	para "Il est parti, tu"
+	line "crois?"
 	done
 ; 0x69f56
 
 UnknownText_0x69f56: ; 0x69f56
-	text "You can't carry"
-	line "another #MON<...>"
+	text "Tu ne peux plus"
+	line "porter de #MON!"
 	done
 ; 0x69f74
 
 UnknownText_0x69f74: ; 0x69f74
-	text "Oh<...> Never mind,"
-	line "then<...>"
+	text "Oh<...> Laisse tomber"
+	line "alors<...>"
 	done
 ; 0x69f8b
 
 UnknownText_0x69f8b: ; 0x69f8b
-	text "Thanks, kid! You"
-	line "made the delivery"
-	cont "for me!"
+	text "Merci bien! Tu"
+	line "as bien fait la"
+	cont "livraison!"
 
-	para "Here's something"
-	line "for your trouble!"
+	para "Voilà pour toi!"
 	done
 ; 0x69fd9
 
 UnknownText_0x69fd9: ; 0x69fd9
-	text "My pal was snooz-"
-	line "ing, right? Heh,"
-	cont "what'd I say?"
+	text "Mon pote pionce"
+	line "comme un fou, non?"
+	cont "Je te l'avais dis."
 	done
 ; 0x6a00a
 
 UnknownText_0x6a00a: ; 0x6a00a
-	text "A strange tree is"
-	line "blocking the road."
+	text "Un arbre bizarre"
+	line "bloque le chemin."
 
-	para "It wriggles around"
-	line "if you talk to it."
+	para "Il gigote si on"
+	line "s'en approche."
 
-	para "I heard it became"
-	line "wild when someone"
+	para "Il paraît qu'il"
+	line "devient fou si on"
 
-	para "watered it with a"
-	line "SQUIRTBOTTLE."
+	para "l'asperge avec une"
+	line "CARAPUCE A O."
 	done
 ; 0x6a09a
 
 UnknownText_0x6a09a: ; 0x6a09a
-	text "I feel bad for"
-	line "the guy at the"
-	cont "counter<...>"
+	text "Je me sens mal"
+	line "pour le gars au"
+	cont "comptoir<...>"
 
-	para "He let some"
-	line "girl borrow his"
+	para "Il a laissé une"
+	line "fille emprunter"
 
-	para "number one mail"
-	line "carrier, and she"
+	para "son meilleur #-"
+	line "MON postier et"
 
-	para "never gave it"
-	line "back. I wonder"
-	cont "where it's at now."
+	para "elle ne l'a jamais"
+	line "rendu. Je me"
+	cont "demande ce qu'il"
+	cont "devient<...>"
 	done
 ; 0x6a0cb
 
 UnknownText_0x6a0cb: ; 0x6a0cb
-	text "I wonder how many"
-	line "kinds of #MON"
+	text "Je me demande"
+	line "combien de types"
 
-	para "there are in the"
-	line "world."
+	para "de #MON il y a"
+	line "dans le monde."
 
-	para "Three months ago,"
-	line "PROF.OAK said that"
+	para "Il y a trois mois,"
+	line "le PROF.CHEN"
 
-	para "there were 150"
-	line "different kinds."
+	para "disait qu'il y"
+	line "avait 150 types"
+	cont "différents."
 	done
 ; 0x6a148
 

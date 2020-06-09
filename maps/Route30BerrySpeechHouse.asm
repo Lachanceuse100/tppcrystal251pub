@@ -29,24 +29,24 @@ MapRoute30BerrySpeechHouseSignpost1Script: ; 0x196d7f
 ; 0x196d82
 
 UnknownText_0x196d82: ; 0x196d82
-	text "You know, #MON"
-	line "eat BERRIES."
+	text "Tu sais, les #-"
+	line "MON mangent des"
+	cont "baies."
 
-	para "Well, my #MON"
-	line "got healthier by"
+	para "Mon #MON est en"
+	line "meilleure forme"
+	cont "après une"
+	cont "BAIE SITRUS."
 
-	para "eating a SITRUS"
-	line "BERRY."
-
-	para "Here. I'll share"
-	line "one with you!"
+	para "Tiens, je t'en"
+	line "partage une!"
 	done
 ; 0x196dec
 
 UnknownText_0x196dec: ; 0x196dec
-	text "Check trees for"
-	line "BERRIES. They just"
-	cont "drop right off."
+	text "Regarde les arbres"
+	line "pour cueillir des"
+	cont "BAIES."
 	done
 ; 0x196e20
 

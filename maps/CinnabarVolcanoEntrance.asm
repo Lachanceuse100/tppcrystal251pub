@@ -17,3 +17,4 @@ CinnabarVolcanoEntrance_MapEventHeader:
 	db 0
 	; person-event count
 	db 0
+

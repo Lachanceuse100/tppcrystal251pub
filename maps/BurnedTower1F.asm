@@ -185,126 +185,116 @@ MovementData_0x185cd3: ; 0x185cd3
 UnknownText_0x185cd9: ; 0x185cd9
 	text $56, " ", $56, " ", $56
 
-	para "<...>Oh, it's you."
+	para "<...>Oh, c'est toi."
 
-	para "I came looking for"
-	line "some legendary"
+	para "Je suis venu pour"
+	line "trouver une sorte"
 
-	para "#MON that they"
-	line "say roosts here."
+	para "de #MON légen-"
+	line "daire<...>"
 
-	para "But there's"
-	line "nothing here!"
+	para "Mais il n'y a"
+	line "rien ici!"
 
-	para "Nothing after all"
-	line "the trouble of"
+	para "Venir dans ce trou"
+	line "paumé et ne rien"
 
-	para "coming to this"
-	line "dump? No way!"
+	para "trouver, j'ai"
+	line "la rage!"
 
-	para "It's all your"
-	line "fault!"
+	para "Tout est de ta"
+	line "faute!"
 	done
 ; 0x185d9b
 
 UnknownText_0x185d9b: ; 0x185d9b
-	text "<...>Humph!"
+	text "<...>Pfff!"
 
-	para "This is why I hate"
-	line "battling wimps."
-
-	para "There's no"
-	line "challenge in it."
+	para "Aucun intérêt."
 	done
 ; 0x185de2
 
 UnknownText_0x185de2: ; 0x185de2
-	text "<...>Aw, whatever."
+	text "Peu importe."
 
-	para "You would never be"
-	line "able to catch a"
+	para "Comme si un raté"
+	line "comme toi pouvait"
 
-	para "legendary #MON"
-	line "anyway."
+	para "capturer un #-"
+	line "MON légendaire de"
+	cont "toute façon."
 	done
 ; 0x185e2c
 
 UnknownText_0x185e2c: ; 0x185e2c
-	text "<...>Humph!"
+	text "<...>Pfff!"
 
-	para "This is why I hate"
-	line "battling wimps."
-
-	para "It's just a waste"
-	line "of my time."
+	para "Quelle perte de"
+	line "temps<...>"
 	done
 ; 0x185e75
 
 UnknownText_0x185e75: ; 0x185e75
-	text "Humph!"
+	text "Pfff!"
 
-	para "What are you doing"
-	line "falling into a"
+	para "Tu tombes dans"
+	line "les trous?"
 
-	para "hole? Some genius"
-	line "you are!"
-
-	para "Serves you right!"
+	para "C'est bien, tu"
+	line "sais où es ta"
+	cont "place."
 	done
 ; 0x185ecc
 
 UnknownText_0x185ecc: ; 0x185ecc
-	text "EUSINE: My name's"
-	line "EUSINE."
+	text "EUSINE: Mon nom"
+	line "est EUSINE."
 
-	para "I'm on the trail"
-	line "of a #MON named"
+	para "Je poursuis un"
+	line "#MON du nom de"
 	cont "SUICUNE."
 
-	para "And you are<...>?"
+	para "Et tu es?"
 
-	para "<PLAYER>? Glad to"
-	line "meet you!"
+	para "<PLAYER>? Ravi de"
+	line "te connaître!"
 
-	para "I heard rumors"
-	line "that SUICUNE is in"
+	para "On racontre que"
+	line "SUICUNE est dans"
 
-	para "this BURNED TOWER,"
-	line "so I came to look."
+	para "cette TOUR"
+	line "CENDREE<...>"
 
-	para "But where exactly"
-	line "could it be?"
+	para "Mais où?"
 	done
 ; 0x185f99
 
 UnknownText_0x185f99: ; 0x185f99
-	text "EUSINE: I heard"
-	line "that SUICUNE is in"
+	text "On racontre que"
+	line "SUICUNE est dans"
 
-	para "this BURNED TOWER,"
-	line "so I came to look."
+	para "cette TOUR"
+	line "CENDREE<...>"
 
-	para "But where exactly"
-	line "could it be?"
+	para "Mais où?"
 	done
 ; 0x186002
 
 UnknownText_0x186002: ; 0x186002
-	text "MORTY: ECRUTEAK's"
-	line "GYM LEADER has to"
+	text "MORTIMER: Le CHAM-"
+	line "PION de ROSALIA"
 
-	para "study what are"
-	line "said to be the"
+	para "doit étudier les"
+	line "#MON légen-"
 
-	para "legendary #MON"
-	line "--SUICUNE, ENTEI"
-	cont "and RAIKOU."
+	para "daires: SUICUNE,"
+	line "ENTEI et RAIKOU."
 
-	para "EUSINE is here, so"
-	line "I've decided to"
+	para "EUSINE est ici."
+	line "J'ai décidé de"
 
-	para "investigate the"
-	line "TOWER with him."
+	para "fouiller la TOUR"
+	line "avec lui."
 	done
 ; 0x1860b2
 

@@ -9,8 +9,8 @@ MewIslandEntranceSign: ; 0x1aa9fd
 	jumptext MewIslandEntranceSign_Text
 
 MewIslandEntranceSign_Text: ; 0x1aaa6f
-	text "This sign is"
-	line "illegible."
+	text "Ce panneau est"
+	line "illisble."
 	done
 
 MewIslandEntranceUnderground_MapEventHeader:

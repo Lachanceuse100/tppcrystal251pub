@@ -208,147 +208,154 @@ MovementData_0x1a88f7: ; 0x1a88f7
 ; 0x1a88fa
 
 OlivineRocketText1:
-	text "Hey! Move it, you"
-	line "stupid beast!"
+	text "Allez! Bouge,"
+	line "stupide bête!"
 	done
 
 OlivineRocketText2:
-	text "Hey kid, can you"
-	line "run in there and"
+	text "Toi là, tu veux"
+	line "pas allez là-haut"
 
-	para "grab the #MON"
-	line "at the top of the"
-	cont "LIGHTHOUSE for us?"
+	para "nous ramener le"
+	line "#MON en haut du"
+	cont "PHARE pour nous?"
 	done
 
 UnknownText_0x1a88fa: ; 0x1a88fa
 	text "<...>"
 
-	para "You again?"
+	para "Encore toi?"
 
-	para "There's no need to"
-	line "panic. I don't"
+	para "Détends-toi, je"
+	line "m'occupe pas de"
 
-	para "bother with wimps"
-	line "like you."
+	para "mauviettes comme"
+	line "toi."
 
-	para "Speaking of weak-"
-	line "lings, the city's"
+	para "En parlant de ça,"
+	line "la CHAMPIONNE"
+	cont "n'est pas la."
 
-	para "GYM LEADER isn't"
-	line "here."
+	para "Apparemment elle"
+	line "s'occupe d'un"
 
-	para "Supposedly taking"
-	line "care of a sick"
+	para "#MON malade au"
+	line "PHARE."
 
-	para "#MON at the"
-	line "LIGHTHOUSE."
+	para "Oh! Ouin-ouin!"
+	line "C'est pathétique<...>"
 
-	para "Humph! Boo-hoo!"
-	line "Just let sick"
-	cont "#MON go!"
+	para "Un #MON qui ne"
+	line "peut pas se battre"
+	cont "est inutile."
 
-	para "A #MON that"
-	line "can't battle is"
-	cont "worthless!"
+	para "Pourquoi tu vas"
+	line "pas t'entraîner"
+	cont "au PHARE?"
 
-	para "Why don't you go"
-	line "train at the"
-	cont "LIGHTHOUSE?"
-
-	para "Who knows. It may"
-	line "make you a bit"
-	cont "less weak!"
+	para "Ca te rendra peut-"
+	line "être un peu moins"
+	cont "faible!"
 	done
 ; 0x1a8a58
 
 UnknownText_0x1a8a58: ; 0x1a8a58
-	text "Dark roads are"
-	line "dangerous at"
-	cont "night."
+	text "Les routes sombres"
+	line "sont dangereuses"
+	cont "la nuit."
 
-	para "But in the pitch-"
-	line "black of night, "
+	para "Mais la pénombre"
+	line "totale rends la"
 
-	para "the sea is even"
-	line "more treacherous!"
+	para "mer encore plus"
+	line "traître!"
 
-	para "Without the beacon"
-	line "of the LIGHTHOUSE"
+	para "Sans la lumière du"
+	line "PHARE pour les"
 
-	para "to guide it, no"
-	line "ship can sail."
+	para "guider, aucun"
+	line "navire ne peut"
+	cont "naviguer."
 	done
 ; 0x1a8b04
 
 UnknownText_0x1a8b04: ; 0x1a8b04
-	text "That thing you"
-	line "have--it's a #-"
-	cont "GEAR, right? Wow, "
-	cont "that's cool."
+	text "Ce truc que tu as,"
+	line "c'est un #MATOS"
+	cont "pas vrai? C'est"
+	cont "trop cool!"
 	done
 ; 0x1a8b41
 
 UnknownText_0x1a8b41: ; 0x1a8b41
-	text "Wow, you have a"
-	line "#DEX!"
+	text "Wouah, c'est un"
+	line "vrai #DEX?"
 
-	para "That is just so"
-	line "awesome."
+	para "Trop bien!"
 	done
 ; 0x1a8b71
 
 UnknownText_0x1a8b71: ; 0x1a8b71
-	text "The sea is sweet!"
+	text "Vive la mer!"
 
-	para "Sunsets on the sea"
-	line "are marvelous!"
+	para "Vive les couchers"
+	line "de soleil!"
 
-	para "Sing with me! "
-	line "Yo-ho! Blow the"
-	cont "man down!<...>"
+	para "Chante avec moi!"
+	line "Il vente,"
+	cont "il vente<...>"
 	done
 ; 0x1a8bd0
 
 UnknownText_0x1a8bd0: ; 0x1a8bd0
-	text "OLIVINE CITY"
+	text "OLIVILLE"
 
-	para "The Port Closest"
-	line "to Foreign Lands"
+	para "Le port vers d'au-"
+	line "tres horizons."
 	done
 ; 0x1a8c00
 
 UnknownText_0x1a8c00: ; 0x1a8c00
-	text "OLIVINE PORT"
-	line "FAST SHIP PIER"
+	text "PORT d'OLIVILLE"
+	line "PORT DU BATEAU"
+	cont "EXPRESS"
 	done
 ; 0x1a8c1d
 
 UnknownText_0x1a8c1d: ; 0x1a8c1d
-	text "OLIVINE CITY"
-	line "#MON GYM"
-	cont "LEADER: JASMINE"
+	text "ARENE D'OLIVILLE"
 
-	para "The Steel-Clad"
-	line "Defense Girl"
+	para "CHAMPIONNE:"
+	line "JASMINE"
+
+	para "La fille aux nerfs"
+	line "d'acier."
 	done
 ; 0x1a8c60
 
 UnknownText_0x1a8c60: ; 0x1a8c60
-	text "OLIVINE LIGHTHOUSE"
-	line "Also known as the"
-	cont "GLITTER LIGHTHOUSE"
+	text "PHARE d'OLIVILLE"
+
+	para "Aussi connu sous"
+	line "le nom de PHARE"
+	cont "SCINTILLANT."
 	done
 ; 0x1a8c99
 
 UnknownText_0x1a8c99: ; 0x1a8c99
-	text "BATTLE TOWER AHEAD"
-	line "Opening Now!"
+	text "TOUR DE COMBAT"
+	line "Tout droit<...>"
+
+	para "Désormais ouverte!"
 	done
 ; 0x1a8cba
 
 UnknownText_0x1a8cba: ; 0x1a8cba
-	text "BATTLE TOWER AHEAD"
+	text "TOUR DE COMBAT"
+	line "Tout droit<...>"
+
+	para "Tous les dresseurs"
+	line "invités!"
 	done
 ; 0x1a8cce
 

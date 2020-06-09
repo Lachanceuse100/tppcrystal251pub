@@ -226,105 +226,101 @@ MovementData_0x180172: ; 0x180172
 ; 0x180178
 
 UnknownText_0x180178: ; 0x180178
-	text "At the #MON"
-	line "LEAGUE, you'll get"
+	text "Tu rencontreras le"
+	line "CONSEIL des 4 ici,"
 
-	para "tested by the"
-	line "ELITE FOUR."
+	para "à la LIGUE #-"
+	line "MON."
 
-	para "You have to beat"
-	line "them all. If you"
+	para "Tu devras battre"
+	line "les 4 chefs d'af-"
 
-	para "lose, you have to"
-	line "start all over!"
+	para "filé, ou tu devras"
+	line "tout recommencer."
 	done
 ; 0x1801f5
 
 UnknownText_0x1801f5: ; 0x1801f5
-	text "Hold it."
+	text "Minute."
 
-	para "You're going to"
-	line "take the #MON"
+	para "Tu vas relever le"
+	line "défi de la LIGUE"
+	cont "#MON?"
 
-	para "LEAGUE challenge"
-	line "now?"
+	para "Hors de question"
 
-	para "That's not going"
-	line "to happen."
+	para "Mes #MON sur-"
+	line "entraînés vont te"
 
-	para "My super-well-"
-	line "trained #MON"
-
-	para "are going to pound"
-	line "you."
+	para "réduire en"
+	line "poussière."
 
 	para "<PLAYER>!"
-	line "I challenge you!"
+	line "Je te défie!"
 	done
 ; 0x180295
 
 UnknownText_0x180295: ; 0x180295
 	text "<...>"
 
-	para "OK--I lost<...>"
+	para "D'accord, j'ai"
+	line "perdu<...>"
 	done
 ; 0x1802a4
 
 UnknownText_0x1802a4: ; 0x1802a4
-	text "<...>Darn<...> I still"
-	line "can't win<...>"
+	text "<...>Bon sang<...> Je"
+	line "n'arrive toujours"
+	cont "pas à gagner<...>"
 
-	para "I<...> I have to think"
-	line "more about my"
+	para "Je<...> Je dois plus"
+	line "penser à mes"
 	cont "#MON<...>"
 
-	para "Humph! Try not to"
-	line "lose!"
+	para "Pff! T'as pas"
+	line "intérêt à perdre!"
 	done
 ; 0x1802fd
 
 UnknownText_0x1802fd: ; 0x1802fd
 	text "<...>"
 
-	para "Whew<...>"
-	line "With my partners,"
+	para "Avec mes parte-"
+	line "naires<...>"
 
-	para "I'm going to be"
-	line "the CHAMPION!"
+	para "Je deviendrais"
+	line "le MAITRE!"
 	done
 ; 0x180335
 
 UnknownText_0x180335: ; 0x180335
-	text "Ah! You're chal-"
-	line "lenging the ELITE"
+	text "Ah! Tu défies le"
+	line "CONSEIL des 4?"
 
-	para "FOUR? Are you sure"
-	line "you're ready?"
+	para "Tu crois avoir"
+	line "les épaules?"
 
-	para "If you need to"
-	line "train some more,"
+	para "Si tu veux encore"
+	line "t'entraîner, mon"
+	cont "ABRA peut t'aider."
 
-	para "my ABRA can help"
-	line "you."
+	para "Il peut te TELE-"
+	line "PORTER chez toi."
 
-	para "It can TELEPORT"
-	line "you home."
-
-	para "Would you like to"
-	line "go home now?"
+	para "Veux-tu retourner"
+	line "chez toi?"
 	done
 ; 0x1803e7
 
 UnknownText_0x1803e7: ; 0x1803e7
-	text "OK, OK. Picture"
-	line "your house in your"
-	cont "mind<...>"
+	text "OK, OK. Pense fort"
+	line "à ta maison."
 	done
 ; 0x180411
 
 UnknownText_0x180411: ; 0x180411
-	text "OK, OK. The best"
-	line "of luck to you!"
+	text "OK, OK. Bonne"
+	line "chance alors!"
 	done
 ; 0x180433
 

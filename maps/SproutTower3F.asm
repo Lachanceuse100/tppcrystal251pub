@@ -218,81 +218,86 @@ MovementData_0x184a24: ; 0x184a24
 ; 0x184a27
 
 UnknownText_0x184a27: ; 0x184a27
-	text "ELDER: You are in-"
-	line "deed skilled as a"
-	cont "trainer."
+	text "ANCIEN: Tu es un"
+	line "dresseur très"
+	cont "compétent."
 
-	para "As promised, here"
-	line "is your HM."
+	para "Comme promis,"
+	line "voici ta CS."
 
-	para "But let me say"
-	line "this: You should"
+	para "Mais laisse moi te"
+	line "dire: Tu devrais"
 
-	para "treat your"
-	line "#MON better."
+	para "mieux traîter tes"
+	line "#MON."
 
-	para "The way you battle"
-	line "is far too harsh."
+	para "Ta manière de te"
+	line "battre est trop"
+	cont "violente."
 
-	para "#MON are not"
-	line "tools of war<...>"
+	para "Les #MON ne"
+	line "sont pas des"
+	cont "outils de guerre<...>"
 	done
 ; 0x184aec
 
 UnknownText_0x184aec: ; 0x184aec
 	text "<...>"
-	line "<...>Humph!"
+	line "<...>Pfeuh!"
 
-	para "He claims to be"
-	line "the ELDER but"
-	cont "he's weak."
+	para "On l'appelle"
+	line "l'ANCIEN mais il"
+	cont "est faible."
 
-	para "It stands to"
-	line "reason."
+	para "Et il a pas toute"
+	line "sa tête."
 
-	para "I'd never lose to"
-	line "fools who babble"
+	para "Je ne perdrais pas"
+	line "face à ces idiots"
 
-	para "about being nice"
-	line "to #MON."
+	para "qui veulent être"
+	line "gentils avec les"
+	cont "#MON."
 
-	para "I only care about"
-	line "strong #MON"
-	cont "that can win."
+	para "Je ne veux que des"
+	line "#MON forts qui"
+	cont "peuvent gagner."
 
-	para "I really couldn't"
-	line "care less about"
-	cont "weak #MON."
+	para "Je me fiche des"
+	line "#MON les plus"
+	cont "faibles!"
 	done
 ; 0x184bc8
 
 UnknownText_0x184bc8: ; 0x184bc8
-	text "<RIVAL> used an"
-	line "ESCAPE ROPE!"
+	text "<RIVAL> utilise"
+	line "une CORDE SORTIE!"
 	done
 ; 0x184be0
 
 SageLiSeenText: ; 0x184be0
-	text "So good of you to"
-	line "come here!"
+	text "Bienvenue à toi,"
+	line "mon poussin!"
 
-	para "SPROUT TOWER is a"
-	line "place of training."
+	para "La TOUR CHETIFLOR"
+	line "est un lieu"
+	cont "d'entraînement."
 
-	para "People and #MON"
-	line "test their bonds"
+	para "Humains et #MON"
+	line "y renforcent leurs"
 
-	para "to build a bright"
-	line "future together."
+	para "liens pour des"
+	line "lendemains plus"
+	cont "joyeux."
 
-	para "I am the final"
-	line "test."
+	para "Je suis ton der-"
+	line "nier adversaire."
 
-	para "Allow me to check"
-	line "the ties between"
+	para "Permets-moi de"
+	line "tester les liens"
 
-	para "your #MON and"
-	line "you!"
+	para "t'unissant à tes"
+	line "#MON!"
 	done
 ; 0x184cb2
 
@@ -302,119 +307,128 @@ SageLiBeatenText: ; 0x184cb2
 ; 0x184cc2
 
 UnknownText_0x184cc2: ; 0x184cc2
-	text "You and your #-"
-	line "MON should have"
+	text "Toi et tes #MON"
+	line "n'auraient pas de"
 
-	para "no problem using"
-	line "this move."
+	para "problèmes à uti-"
+	line "liser cette"
+	cont "capacité."
 
-	para "Take this FLY"
-	line "HM."
+	para "Prends cette CS"
+	line "VOL."
 	done
 ; 0x184d13
 
 UnknownText_0x184d13: ; 0x184d13
-	text "FLY can carry you"
-	line "to any town you"
-	cont "have visted."
+	text "VOL te portera"
+	line "dans les villes"
+	cont "que tu as déjà"
+	cont "visité."
 
-	para "But to use it out"
-	line "of battle, you"
+	para "Mais pour l'utili-"
+	line "ser hors d'un"
+	cont "combat, il te"
 
-	para "need the BADGE"
-	line "from VIOLET's GYM."
+	para "faudra le BADGE de"
+	line "l'ARENE de"
+	cont "MAUVILLE."
 	done
 ; 0x184d88
 
 UnknownText_0x184d88: ; 0x184d88
-	text "I hope you learn"
-	line "and grow from your"
-	cont "journey."
+	text "J'espère que ton"
+	line "aventure te fera"
+	cont "mûrir."
 	done
 ; 0x184db6
 
 SageJinSeenText: ; 0x184db6
-	text "I train to find"
-	line "enlightenment in"
+	text "Je m'entraîne pour"
+	line "trouver la voie du"
 	cont "#MON!"
 	done
 ; 0x184dde
 
 SageJinBeatenText: ; 0x184dde
-	text "My training is"
-	line "incomplete<...>"
+	text "My entraînement"
+	line "est incomplet<...>"
 	done
 ; 0x184dfa
 
 UnknownText_0x184dfa: ; 0x184dfa
-	text "As #MON grow"
-	line "stronger, so does"
-	cont "the trainer."
+	text "Lorsque le #-"
+	line "MON grandit, le"
+	cont "dresseur aussi."
 
-	para "No, wait. As the"
-	line "trainer grows"
+	para "Euh attends, c'est"
+	line "l'inverse je"
+	cont "crois."
 
-	para "stronger, so do"
-	line "the #MON."
+	para "J'ai oublié en"
+	line "fait!"
 	done
 ; 0x184e60
 
 SageTroySeenText: ; 0x184e60
-	text "Let me see how"
-	line "much you trust"
-	cont "your #MON."
+	text "Laisse-moi voir à"
+	line "quel point tu as"
+	cont "foi en tes"
+	cont "#MON."
 	done
 ; 0x184e8a
 
 SageTroyBeatenText: ; 0x184e8a
-	text "Yes, your trust is"
-	line "indeed real!"
+	text "Oui, tes liens"
+	line "sont bien réels!"
 	done
 ; 0x184ea4
 
 UnknownText_0x184ea4: ; 0x184ea4
-	text "Legend has it that"
-	line "a VICTREEBEL lives"
-	cont "in this tower."
+	text "La légende dit qu'"
+	line "un EMPIFLOR habite"
+	cont "cette tour."
 
-	para "It is waiting for"
-	line "somebody worthy to"
-	cont "appear before it."
+	para "Il attendrait un"
+	line "dresseur digne"
+	cont "de sa puissance."
 	done
 ; 0x184ec1
 
 SageNealSeenText: ; 0x184ec1
-	text "The ELDER's HM"
-	line "allows us to reach"
-	cont "new heights."
+	text "La CS de l'ANCIEN"
+	line "nous permettra"
+	cont "d'atteindre des"
+	cont "nouveaux cieux!"
 	done
 ; 0x184ef3
 
 SageNealBeatenText: ; 0x184ef3
-	text "Oh! My head was in"
-	line "the clouds!"
+	text "Oh! J'avais la"
+	line "tête dans les"
+	cont "nuages!"
 	done
 ; 0x184f12
 
 UnknownText_0x184f12: ; 0x184f12
-	text "May there be no"
-	line "limit to how high"
-	cont "you can soar."
+	text "Qu'il n'y ait"
+	line "aucune limite à"
+	cont "ton envol."
 	done
 ; 0x184f37
 
 UnknownText_0x184f37: ; 0x184f37
-	text "It's a powerful"
-	line "painting of a"
-	cont "BELLSPROUT."
+	text "Une puissante"
+	line "peinture d'un"
+	cont "CHETIFLOR."
 	done
 ; 0x184f61
 
 UnknownText_0x184f61: ; 0x184f61
-	text "A #MON statue<...>"
+	text "Une statue"
+	line "#MON<...>"
 
-	para "It looks very"
-	line "distinguished."
+	para "Elle semble très"
+	line "distinguée."
 	done
 ; 0x184f8e
 

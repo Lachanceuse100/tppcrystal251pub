@@ -26,3 +26,4 @@ MewIslandB1B_MapEventHeader:
 	; people-events
 	db 0
 
+

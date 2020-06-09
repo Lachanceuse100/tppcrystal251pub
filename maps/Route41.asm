@@ -306,238 +306,238 @@ MapRoute41SignpostItem0: ; 0x1a690c
 ; 0x1a690f
 
 SwimmermCharlieSeenText: ; 0x1a690f
-	text "I flew to here"
-	line "all from KANTO!"
+	text "J'ai volé jusqu'"
+	line "ici depuis KANTO!"
 
-	para "The waters are"
-	line "so much cleaner"
-	cont "over here."
+	para "Les eaux sont plus"
+	line "propres par ici."
 	done
 ; 0x1a6952
 
 SwimmermCharlieBeatenText: ; 0x1a6952
-	text "Yikes!"
+	text "Houlà!"
 	done
 ; 0x1a696e
 
 UnknownText_0x1a696e: ; 0x1a696e
-	text "Maybe letting out"
-	line "gases into the"
-	para "ocean isn't"
-	line "very smart<...>"
+	text "Lâcher des gaz"
+	line "dans l'océan"
+	
+	para "n'était pas très"
+	line "intelligent<...>"
 	done
 ; 0x1a6999
 
 SwimmermGeorgeSeenText: ; 0x1a6999
-	text "I'm a bit tired."
-	line "If I win, lend me"
-	cont "your #MON."
+	text "Je suis fatigué."
+	line "Si je gagne, tu me"
+	cont "donne ton #MON,"
+	cont "OK?"
 	done
 ; 0x1a69c7
 
 SwimmermGeorgeBeatenText: ; 0x1a69c7
-	text "Pant, pant<...>"
+	text "Pfff<...> pff<...>"
 	done
 ; 0x1a69d4
 
 UnknownText_0x1a69d4: ; 0x1a69d4
-	text "It's so far to"
-	line "CIANWOOD."
+	text "IRISIA est si"
+	line "loin."
 
-	para "But it's no easy"
-	line "return trip to"
-	cont "OLIVINE either."
+	para "Mais retourner à"
+	line "OLIVILLE<...> Ca fait"
+	cont "une trotte!"
 
-	para "What should I do?"
+	para "Que faire?"
 	done
 ; 0x1a6a2e
 
 SwimmermBerkeSeenText: ; 0x1a6a2e
-	text "See those islands"
-	line "that are blocked"
-	cont "by whirlpools?"
+	text "Tu vois ces îles"
+	line "bloquées par des"
+	cont "siphons?"
 
-	para "There just has to"
-	line "be a secret!"
+	para "Il doit y avoir un"
+	line "secret bien gardé!"
 	done
 ; 0x1a6a80
 
 SwimmermBerkeBeatenText: ; 0x1a6a80
-	text "What's the secret"
-	line "to your strength?"
+	text "C'est quoi le se-"
+	line "cret de ta force?"
 	done
 ; 0x1a6aa4
 
 UnknownText_0x1a6aa4: ; 0x1a6aa4
-	text "It was a dark and"
-	line "stormy night<...>"
+	text "Par une nuit noire"
+	line "et profonde<...>"
 
-	para "I saw this giant"
-	line "#MON flying"
-	cont "from the islands."
+	para "J'ai vu ce #MON"
+	line "géant voler depuis"
+	cont "les îles."
 
-	para "It was scattering"
-	line "feathers from its"
-	cont "silver wings."
+	para "Il répendait ses"
+	line "plumes de ses"
+	cont "ailes d'argent."
 	done
 ; 0x1a6b26
 
 SwimmermKirkSeenText: ; 0x1a6b26
-	text "I live in"
-	line "BLACKTHORN CITY!"
+	text "Je vis à EBENELLE!"
 
-	para "I flew to here"
-	line "with my flying-"
-	cont "type #MON."
+	para "J'ai volé ici avec"
+	line "mes #MON de"
+	cont "type VOL"
 	done
 ; 0x1a6b62
 
 SwimmermKirkBeatenText: ; 0x1a6b62
-	text "I'm beat!"
+	text "Je suis K.O.!"
 	done
 ; 0x1a6b6c
 
 UnknownText_0x1a6b6c: ; 0x1a6b6c
-	text "The currents keep"
-	line "me from reaching"
-	cont "that island."
+	text "Les courants m'em-"
+	line "pêchent d'attein-"
+	cont "dre cette île<...>"
 	done
 ; 0x1a6b9d
 
 SwimmermMathewSeenText: ; 0x1a6b9d
-	text "Are you seeking"
-	line "the secrets of"
-	cont "WHIRL ISLANDS?"
+	text "Tu cherches le"
+	line "secret des"
+	cont "TOURB'ILES?"
 	done
 ; 0x1a6bcc
 
 SwimmermMathewBeatenText: ; 0x1a6bcc
-	text "Ooh, you've got"
-	line "great endurance!"
+	text "Ooh! Quelle"
+	line "endurance!"
 	done
 ; 0x1a6bed
 
 UnknownText_0x1a6bed: ; 0x1a6bed
-	text "A secret about"
-	line "WHIRL ISLANDS<...>"
+	text "Il y a un secret"
+	line "aux TOURB'ILES<...>"
 
-	para "It's pitch-black"
-	line "inside!"
+	para "Il y fait noir!"
+	line "Ca c'est sûr!"
 	done
 ; 0x1a6c24
 
 SwimmerfKayleeSeenText: ; 0x1a6c24
-	text "I'm on my way to"
-	line "WHIRL ISLANDS."
+	text "Je vais aux"
+	line "TOURB'ILES."
 
-	para "I'm going explor-"
-	line "ing with friends."
+	para "Je vais les explo-"
+	line "rer avec un ami."
 	done
 ; 0x1a6c67
 
 SwimmerfKayleeBeatenText: ; 0x1a6c67
-	text "CHINCHOU lights"
-	line "my road ahead<...>"
+	text "LOUPIO illumine"
+	line "ma route."
 	done
 ; 0x1a6c7f
 
 UnknownText_0x1a6c7f: ; 0x1a6c7f
-	text "There's supposed"
-	line "to be a big #-"
-	cont "MON deep beneath"
-	cont "WHIRL ISLANDS."
+	text "On dit qu'il y a"
+	line "un gros #MON"
+	cont "au fond des"
+	cont "TOURB'ILES."
 
-	para "I wonder what it"
-	line "could be?"
+	para "Je me demande ce"
+	line "que c'est<...>"
 	done
 ; 0x1a6cda
 
 SwimmerfSusieSeenText: ; 0x1a6cda
-	text "You look so ele-"
-	line "gant, riding your"
+	text "Tu as l'air si"
+	line "élégant sur ton"
 	cont "#MON."
 	done
 ; 0x1a6d04
 
 SwimmerfSusieBeatenText: ; 0x1a6d04
-	text "I'm crushed<...>"
+	text "Je suis écrasée<...>"
 	done
 ; 0x1a6d11
 
 UnknownText_0x1a6d11: ; 0x1a6d11
-	text "Wasn't there a hit"
-	line "song about a boy"
-	cont "riding a LAPRAS?"
+	text "N'y avait-il pas"
+	line "une chanson d'un"
+	cont "garçon sur son"
+	cont "LOKHLASS?"
 	done
 ; 0x1a6d46
 
 SwimmerfDeniseSeenText: ; 0x1a6d46
-	text "There's way"
-	line "too much water"
-	cont "around here<...>"
+	text "Il y a beaucoup"
+	line "trop d'eau par"
+	cont "ici<...>"
 	done
 ; 0x1a6d72
 
 SwimmerfDeniseBeatenText: ; 0x1a6d72
-	text "Ohhh!"
+	text "Ohh!"
 	done
 ; 0x1a6d79
 
 UnknownText_0x1a6d79: ; 0x1a6d79
-	text "A sunburn is the"
-	line "worst for skin."
+	text "Un coup de soleil"
+	line "est vite arrivé."
 
-	para "But I don't use a"
-	line "sunblock."
+	para "Mais je ne mets"
+	line "pas de crème."
 
-	para "I won't pollute"
-	line "the water."
+	para "Je veux garder"
+	line "l'eau propre."
 	done
 ; 0x1a6dd0
 
 SwimmerfKaraSeenText: ; 0x1a6dd0
-	text "If you need to"
-	line "rest, just tread"
-	cont "water."
+	text "Si tu es à plat,"
+	line "fais la planche!"
 
-	para "Or sit on your"
-	line "water #MON!"
+	para "Ou assieds-toi sur"
+	line "ton #MON EAU."
 	done
 ; 0x1a6e33
 
 SwimmerfKaraBeatenText: ; 0x1a6e33
-	text "At least CORSOLA"
-	line "is comfortable."
+	text "CORAYON est con-"
+	line "fortable au moins."
 	done
 ; 0x1a6e58
 
 UnknownText_0x1a6e58: ; 0x1a6e58
-	text "I heard roars from"
-	line "deep inside the"
-	cont "ISLANDS."
+	text "J'entends des cris"
+	line "venant des ILES."
 	done
 ; 0x1a6e85
 
 SwimmerfWendySeenText: ; 0x1a6e85
-	text "I am diving below"
-	line "water with my"
+	text "Je plonge sous"
+	line "l'eau avec mes"
 	cont "#MON!"
 	done
 ; 0x1a6eb7
 
 SwimmerfWendyBeatenText: ; 0x1a6eb7
-	text "Oh, dear<...>"
+	text "Oh<...>"
 	done
 ; 0x1a6ec2
 
 UnknownText_0x1a6ec2: ; 0x1a6ec2
-	text "STARYU are very"
-	line "useful when you"
-	cont "dive underwater."
+	text "Les STARI sont"
+	line "utile quand tu"
+	cont "plonges sous"
+	cont "l'eau."
 
-	para "You can't find"
-	line "them in this"
-	cont "ocean though."
+	para "Mais tu ne peux"
+	line "pas les trouver"
+	cont "dans l'océan."
 	done
 ; 0x1a6f12
 

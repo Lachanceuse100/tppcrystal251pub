@@ -83,51 +83,53 @@ MapOlivineLighthouse5FSignpostItem0: ; 0x609b0
 ; 0x609b3
 
 SailorErnestSeenText: ; 0x609b3
-	text "I wanted to battle"
-	line "JASMINE, but she's"
+	text "Je voulais défier"
+	line "JASMINE mais ce"
 
-	para "not up to it now."
-	line "So, how about you?"
+	para "n'est pas le mo-"
+	line "ment. Et toi, ça"
+	cont "te tente?"
 	done
 ; 0x609fe
 
 SailorErnestBeatenText: ; 0x609fe
-	text "Whoa, whoa. You're"
-	line "overwhelming!"
+	text "Wouah! T'es trop,"
+	line "toi!"
 	done
 ; 0x60a1f
 
 UnknownText_0x60a1f: ; 0x60a1f
-	text "REMORAID might not"
-	line "be the strongest"
+	text "REMORAID n'est pas"
+	line "le meilleur"
 	cont "#MON,"
 
-	para "but it learns a"
-	line "lot of moves!"
+	para "mais il apprend"
+	line "plein d'attaques"
+	cont "différentes!"
 	done
 ; 0x60a74
 
 Bird_keeperDenisSeenText: ; 0x60a74
-	text "We're pretty high"
-	line "up here. My bird"
+	text "C'est haut ici!"
+	line "Mes #MON"
 
-	para "#MON are in"
-	line "prime form."
+	para "oiseaux sont en"
+	line "super forme."
 	done
 ; 0x60aaf
 
 Bird_keeperDenisBeatenText: ; 0x60aaf
-	text "Oops<...>They crashed<...>"
+	text "Mayday!"
+	line "Mayday!"
 	done
 ; 0x60ac3
 
 UnknownText_0x60ac3: ; 0x60ac3
-	text "Are you saying"
-	line "my #MON"
-	cont "aren't birds?"
+	text "Comment ça mes"
+	line "#MON ne sont"
+	cont "pas des oiseaux?"
 
-	para "But they are"
-	line "flying?"
+	para "Mais ils volent!"
 	done
 ; 0x60b20
 

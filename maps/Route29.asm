@@ -266,86 +266,87 @@ MovementData_0x1a10a1: ; 0x1a10a1
 ; 0x1a10a7
 
 UnknownText_0x1a10a7: ; 0x1a10a7
-	text "#MON hide in"
-	line "the grass. Who"
+	text "Les #MON se"
+	line "cachent dans les"
+	cont "hautes herbes."
 
-	para "knows when they'll"
-	line "pop out<...>"
+	para "Qui sait quand ils"
+	line "peuvent surgir<...>"
 	done
 ; 0x1a10df
 
 UnknownText_0x1a10df: ; 0x1a10df
-	text "I've seen you a"
-	line "couple times. How"
+	text "Je t'ai vu"
+	line "plusieurs fois."
 
-	para "many #MON have"
-	line "you caught?"
+	para "Combien de #MON"
+	line "as-tu attrapé?"
 
-	para "Would you like me"
-	line "to show you how to"
-	cont "catch #MON?"
+	para "Veux-tu que je te"
+	line "montre comment"
+	cont "capturer des"
+	cont "#MON?"
 	done
 ; 0x1a114d
 
 UnknownText_0x1a114d: ; 0x1a114d
-	text "That's how you do"
-	line "it."
+	text "Et voilà comment"
+	line "on fait."
 
-	para "If you weaken them"
-	line "first, #MON are"
-	cont "easier to catch."
+	para "Si tu les affai-"
+	line "blis d'abord, les"
+	cont "#MON sont plus"
+	cont "facile à attraper."
 	done
 ; 0x1a1197
 
 UnknownText_0x1a1197: ; 0x1a1197
-	text "Oh. Fine, then."
+	text "Oh. D'accord."
 
-	para "Anyway, if you"
-	line "want to catch"
+	para "Bref, pour attra-"
+	line "per des #MON,"
 
-	para "#MON, you have"
-	line "to walk a lot."
+	para "Il faut beaucoup"
+	line "marcher."
 	done
 ; 0x1a11e3
 
 UnknownText_0x1a11e3: ; 0x1a11e3
-	text "Huh? You want me"
-	line "to show you how to"
-	cont "catch #MON?"
+	text "Hein? Tu veux que"
+	line "je te montre"
+	cont "comment capturer"
+	cont "des #MON?"
 	done
 ; 0x1a1214
 
 UnknownText_0x1a1214: ; 0x1a1214
-	text "Yo. How are your"
-	line "#MON?"
+	text "Hé. Comment vont"
+	line "tes #MON?"
 
-	para "If they're weak"
-	line "and not ready for"
+	para "Si ils sont affai-"
+	line "blis, ne traînent"
 
-	para "battle, keep out"
-	line "of the grass."
+	para "pas trop dans les"
+	line "hautes herbes."
 	done
 ; 0x1a126c
 
 UnknownText_0x1a126c: ; 0x1a126c
-	text "See those ledges?"
-	line "It's scary to jump"
-	cont "off them."
-
-	para "But you can go to"
-	line "NEW BARK without"
-
-	para "walking through"
-	line "the grass."
+	text "Tu vois ces"
+	line "rebords? Ils font"
+	cont "peur mais tu peux"
+	cont "retourner a BOURG"
+	cont "GEON sans marcher"
+	cont "dans l'herbe."
 	done
 ; 0x1a12d9
 
 UnknownText_0x1a12d9: ; 0x1a12d9
-	text "I wanted to take a"
-	line "break, so I saved"
+	text "Je voulais faire"
+	line "une pause, alors"
 
-	para "to record my"
-	line "progress."
+	para "j'ai sauvegarder"
+	line "ma progression."
 	done
 ; 0x1a1316
 
@@ -360,88 +361,88 @@ UnknownText_0x1a12d9: ; 0x1a12d9
 ; 0x1a134c
 
 UnknownText_0x1a134c: ; 0x1a134c
-	text "I'm waiting for"
-	line "#MON that"
+	text "J'attends ce"
+	line "#MON qui"
 
-	para "appear only at"
-	line "night."
+	para "n'apparaît que"
+	line "la nuit."
 	done
 ; 0x1a137c
 
 UnknownText_0x1a137c: ; 0x1a137c
-	text "I'm waiting for"
-	line "#MON that"
+	text "J'attends ce"
+	line "#MON qui"
 
-	para "appear only in the"
-	line "morning."
+	para "n'apparaît que"
+	line "le matin."
 	done
 ; 0x1a13b2
 
 MeetTuscanyText:
-	text "TUSCANY: I do be-"
-	line "lieve that this is"
+	text "MARIE: Je crois"
+	line "que c'est la"
 
-	para "the first time"
-	line "we've met?"
+	para "première fois que"
+	line "l'on se rencontre?"
 
-	para "Please allow me to"
-	line "introduce myself."
+	para "Permet-moi de me"
+	line "présenter."
 
-	para "I am TUSCANY of"
-	line "Tuesday."
+	para "Je suis MARIE du"
+	line "Mardi."
 	done
 
 TuscanyGivesGiftText:
-	text "By way of intro-"
-	line "duction, please"
+	text "Je te prie de bien"
+	line "vouloir accepter"
 
-	para "accept this gift,"
-	line "a POLKADOT BOW."
+	para "ce cadeau, un"
+	line "RUBAN A POIS."
 	done
 
 TuscanyGaveGiftText:
-	text "TUSCANY: Wouldn't"
-	line "you agree that it"
-	cont "is most adorable?"
+	text "MARIE: N'est-ce"
+	line "pas adorable ?"
 
-	para "It strengthens"
-	line "normal-type moves."
+	para "Ca renforce les"
+	line "capacités NORMAL."
 
-	para "I am certain it"
-	line "will be of use."
+	para "Je suis certaine"
+	line "que ça te sera"
+	cont "utile."
 	done
 
 TuscanyTuesdayText:
-	text "TUSCANY: Have you"
-	line "met MONICA, my"
-	cont "older sister?"
+	text "MARIE: As-tu ren-"
+	line "contré LUCIE, ma"
+	cont "soeur aîné?"
 
-	para "Or my younger"
-	line "brother, WESLEY?"
+	para "Ou mon petit"
+	line "frère, HOMER?"
 
-	para "I am the second of"
-	line "seven children."
+	para "Je suis la seconde"
+	line "de sept enfants."
 	done
 
 TuscanyNotTuesdayText:
-	text "TUSCANY: Today is"
-	line "not Tuesday. That"
-	cont "is unfortunate<...>"
+	text "MARIE: Nous ne"
+	line "sommes pas Mardi,"
+	cont "hélas<...>"
 	done
 
 UnknownText_0x1a158e: ; 0x1a158e
 	text "ROUTE 29"
 
-	para "CHERRYGROVE CITY -"
-	line "NEW BARK TOWN"
+	para "VILLE GRIOTTE -"
+	line "BOURG GEON"
 	done
 ; 0x1a15b9
 
 UnknownText_0x1a15b9: ; 0x1a15b9
 	text "ROUTE 29"
 
-	para "CHERRYGROVE CITY -"
-	line "NEW BARK TOWN"
+	para "VILLE GRIOTTE -"
+	line "BOURG GEON"
 	done
 ; 0x1a15e4
 

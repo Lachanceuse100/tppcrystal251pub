@@ -172,114 +172,114 @@ UnknownScript_0x59c08: ; 0x59c08
 ; 0x59c0b
 
 HikerRussellSeenText: ; 0x59c0b
-	text "You're headed to"
-	line "AZALEA, are you?"
+	text "Tu vas à ECORCIA?"
 
-	para "Let my #MON see"
-	line "if you are good"
-	cont "enough to battle."
+	para "Voyons si tes"
+	line "#MON ont le"
+	cont "niveau."
 	done
 ; 0x59c5f
 
 HikerRussellBeatenText: ; 0x59c5f
-	text "Oh, oh, oh!"
+	text "Ho, ho, ho!"
 	done
 ; 0x59c6c
 
 UnknownText_0x59c6c: ; 0x59c6c
-	text "All right, then!"
-	line "I've decided."
+	text "Très bien, j'ai"
+	line "décidé!"
 
-	para "I'm not leaving"
-	line "until my #MON"
-	cont "get tougher!"
+	para "Je reste ici pour"
+	line "renforcer mes"
+	cont "#MON!"
 	done
 ; 0x59cb5
 
 PokemaniacLarrySeenText: ; 0x59cb5
-	text "I roam far and"
-	line "wide in search of"
-	cont "#MON."
+	text "Je parcours la"
+	line "terre à la recher-"
+	cont "che de #MON."
 
-	para "Are you looking"
-	line "for #MON too?"
+	para "Tu collectionnes"
+	line "aussi les #MON?"
 
-	para "Then you're my"
-	line "collecting rival!"
+	para "Alors nous sommes"
+	line "rivaux!"
 	done
 ; 0x59d1b
 
 PokemaniacLarryBeatenText: ; 0x59d1b
-	text "Ugh. My poor #-"
-	line "MON<...>"
+	text "Non! Mes pauvres"
+	line "#MON<...>"
 	done
 ; 0x59d31
 
 UnknownText_0x59d31: ; 0x59d31
-	text "Every Friday, you"
-	line "can hear #MON"
+	text "Chaque vendredi,"
+	line "on entends des"
 
-	para "roars from deep"
-	line "inside the cave."
+	para "cirs de #MON"
+	line "venant de l'antre."
 	done
 ; 0x59d73
 
 HikerDanielSeenText: ; 0x59d73
-	text "Whoa! What a"
-	line "surprise!"
+	text "Whoa! Tu mas"
+	line "fait peur!"
 
-	para "I didn't expect to"
-	line "see anyone here!"
+	para "Je me croyais seul"
+	line "par ici!"
 	done
 ; 0x59dae
 
 HikerDanielBeatenText: ; 0x59dae
-	text "Whoa! I'm beaten"
-	line "big time!"
+	text "Whoa! Tu m'as"
+	line "détruit!"
 	done
 ; 0x59dc9
 
 UnknownText_0x59dc9: ; 0x59dc9
-	text "I was conned into"
-	line "buying a SLOWPOKE-"
-	cont "TAIL."
+	text "On a voulu me"
+	line "faire acheter une"
+	cont "QUEUE de RAMOLOSS."
 
-	para "I feel sorry for"
-	line "the poor #MON."
+	para "Quel monstre."
+	line "Pauvre #MON."
 	done
 ; 0x59e15
 
 FirebreatherBillSeenText: ; 0x59e15
-	text "SWINUB is very"
-	line "common during"
-	cont "the day here."
+	text "Il y a beaucoup de"
+	line "MARCACRIN durant"
+	cont "la journée."
 
-	para "It's no match for"
-	line "my fire #MON!"
+	para "Ils ne font pas le"
+	line "poids face à mon"
+	cont "#MON FEU."
 	done
 ; 0x59e60
 
 FirebreatherBillBeatenText: ; 0x59e60
-	text "I flamed out!"
+	text "Je suis refroidi!"
 	done
 ; 0x59e6f
 
 UnknownText_0x59e6f: ; 0x59e6f
-	text "The #MON you"
-	line "encounter varies"
-
-	para "depending on time"
-	line "of the day."
+	text "Les #MON que tu"
+	line "rencontres dépen-"
+	cont "dent de la période"
+	cont "de la journée."
 	done
 ; 0x59eaf
 
 FirebreatherRaySeenText: ; 0x59eaf
-	text "If it's light, a"
-	line "cave isn't scary."
+	text "Si elle est éclai-"
+	line "rée, une grotte me"
+	cont "fait pas peur."
 
-	para "If you're strong,"
-	line "#MON aren't"
-	cont "scary."
+	para "Si tu es fort, les"
+	line "#MON ne font"
+	cont "pas peur."
 	done
 ; 0x59ef4
 
@@ -289,14 +289,15 @@ FirebreatherRayBeatenText: ; 0x59ef4
 ; 0x59efc
 
 UnknownText_0x59efc: ; 0x59efc
-	text "It's my #MON's"
-	line "fire that lights"
-	cont "up this cave."
+	text "C'est le feu de"
+	line "mon #MON qui"
+	cont "illumine la"
+	cont "grotte."
 	done
 ; 0x59f29
 
 UnknownText_0x59f29: ; 0x59f29
-	text "UNION CAVE"
+	text "CAVES JUMELLES"
 	done
 ; 0x59f35
 

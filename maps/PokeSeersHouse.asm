@@ -35,3 +35,4 @@ PokeSeersHouse_MapEventHeader: ; 0x9e376
 	person_event SPRITE_GRANNY, 7, 6, $6, 0, 0, -1, -1, 8 + PAL_OW_RED, 0, 0, SeerScript, -1
 ; 0x9e393
 
+

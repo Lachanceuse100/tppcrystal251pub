@@ -26,23 +26,23 @@ EkansScript_0x19594c: ; 0x19594c
 	; jumpstd magazinebookshelf
 
 UnknownText_0x19595c: ; 0x19595c
-	text "A clan of trainers"
-	line "who can freely"
+	text "Un clan de dres-"
+	line "seurs commandant"
 
-	para "command dragons"
-	line "live right here in"
-	cont "BLACKTHORN."
+	para "les dragons vit"
+	line "ici à EBENELLE."
 
-	para "As a result, there"
-	line "are many legends"
+	para "C'est pour cela"
+	line "qu'il y a beaucoup"
 
-	para "about dragons in"
-	line "this town."
+	para "de légendes sur"
+	line "les dragons dans"
+	cont "cette ville."
 	done
 ; 0x1959ee
 
 UnknownText_0x1959ee: ; 0x1959ee
-	text "DRATINI: Draa!"
+	text "MINIDRACO: Draa!"
 	done
 ; 0x1959fe
 

@@ -15,16 +15,16 @@ MapGuideGentsHouseSignpost1Script: ; 0x196c0a
 ; 0x196c0d
 
 UnknownText_0x196c0d: ; 0x196c0d
-	text "When I was a wee"
-	line "lad, I was a hot-"
-	cont "shot trainer!"
+	text "Quand j'étais tout"
+	line "petit, j'étais un"
+	cont "sacré dresseur!"
 
-	para "Here's a word of"
-	line "advice: Catch lots"
-	cont "of #MON!"
+	para "Voilà un conseil:"
+	line "Capture plein de"
+	cont "#MON!"
 
-	para "Treat them all"
-	line "with kindness!"
+	para "Traite les avec"
+	line "gentillesse!"
 	done
 ; 0x196c89
 

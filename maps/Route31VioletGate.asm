@@ -15,16 +15,17 @@ CooltrainerFScript_0x197637: ; 0x197637
 ; 0x19763a
 
 UnknownText_0x19763a: ; 0x19763a
-	text "Hi there!"
-	line "Did you visit"
-	cont "SPROUT TOWER?"
+	text "Salut toi!"
+	line "Tu as visité la"
+	cont "TOUR CHETIFLOR?"
 	done
 ; 0x197661
 
 UnknownText_0x197661: ; 0x197661
-	text "I came too far"
-	line "out. I'd better"
-	cont "phone home!"
+	text "Je suis allé trop"
+	line "loin. Je devrais"
+	cont "téléphoner chez"
+	cont "moi."
 	done
 ; 0x19768c
 

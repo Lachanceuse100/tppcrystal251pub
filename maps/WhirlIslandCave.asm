@@ -25,3 +25,4 @@ WhirlIslandCave_MapEventHeader: ; 0x18c3ec
 	db 0
 ; 0x18c3fc
 
+

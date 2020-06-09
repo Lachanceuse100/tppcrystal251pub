@@ -135,12 +135,12 @@ BoulderScript_0x5a01a: ; 0x5a01a
 ; 0x5a01d
 
 HikerPhillipSeenText: ; 0x5a01d
-	text "It's been a while"
-	line "since I last saw"
-	cont "another person."
+	text "Il y a longtemps"
+	line "que je n'avais pas"
+	cont "vu quelqu'un."
 
-	para "Don't be shy."
-	line "Let's battle!"
+	para "Soit pas timide."
+	line "Battons-nous!"
 	done
 ; 0x5a06a
 
@@ -150,84 +150,81 @@ HikerPhillipBeatenText: ; 0x5a06a
 ; 0x5a073
 
 UnknownText_0x5a073: ; 0x5a073
-	text "I've been lost for"
-	line "a long time<...>"
+	text "Je me suis perdu"
+	line "il y a longtemps<...>"
 
-	para "I don't mind it"
-	line "here, but I am"
-	cont "soooo hungry!"
+	para "Ca ne me dérange"
+	line "pas mais j'ai"
+	cont "faiiiiiim!"
 	done
 ; 0x5a0bf
 
 HikerLeonardSeenText: ; 0x5a0bf
-	text "What do you know!"
-	line "A visitor!"
+	text "Tiens, tiens<...>"
+	line "Un visiteur!"
 	done
 ; 0x5a0dd
 
 HikerLeonardBeatenText: ; 0x5a0dd
-	text "Wahahah! You're a"
-	line "feisty one!"
+	text "Haha! Tu es"
+	line "bien fougueux!"
 	done
 ; 0x5a0fb
 
 UnknownText_0x5a0fb: ; 0x5a0fb
-	text "I live down here."
+	text "Je vis ici"
 
-	para "You can, too, if"
-	line "you'd like."
-
-	para "There's plenty of"
-	line "room, you see."
+	para "Tu peux aussi si"
+	line "tu veux, il y a de"
+	cont "la place."
 	done
 ; 0x5a14a
 
 PokemaniacAndrewSeenText: ; 0x5a14a
-	text "Who's there?"
+	text "Qui est là?"
 
-	para "Leave me and my"
-	line "#MON alone!"
+	para "Laisse mes #MON"
+	line "et moi seuls!"
 	done
 ; 0x5a173
 
 PokemaniacAndrewBeatenText: ; 0x5a173
-	text "Go<...>"
-	line "Go away!"
+	text "Va<...>"
+	line "Va-t'en!"
 	done
 ; 0x5a181
 
 UnknownText_0x5a181: ; 0x5a181
-	text "Just me and my"
-	line "#MON. I'm de-"
-	cont "lirious with joy."
+	text "Juste moi et mes"
+	line "#MON. Je dé-"
+	cont "lire de joie."
 	done
 ; 0x5a1b0
 
 PokemaniacCalvinSeenText: ; 0x5a1b0
-	text "I came all the way"
-	line "here to conduct my"
-	cont "#MON research."
+	text "Je suis venu"
+	line "jusqu'ici pour mes"
+	cont "recheches #MON."
 
-	para "Let me demonstrate"
-	line "my findings in a"
-	cont "real battle!"
+	para "Laisse moi te mon-"
+	line "trer mes découver-"
+	cont "tes dans un vrai"
+	cont "combat!"
 	done
 ; 0x5a217
 
 PokemaniacCalvinBeatenText: ; 0x5a217
-	text "Bah! You predicted"
-	cont "my moves!"
+	text "Bah! Tu as tout"
+	cont "prédit!"
 	done
 ; 0x5a230
 
 UnknownText_0x5a230: ; 0x5a230
-	text "I caught my"
-	line "HITMONCHAN down-"
-	cont "stairs."
+	text "J'ai capturé mon"
+	line "TYGNON en dessous."
 
-	para "They train down"
-	line "there from dawn to"
-	cont "dusk."
+	para "Ils s'entraînent"
+	line "toute la journée."
 	done
 ; 0x5a28e
 

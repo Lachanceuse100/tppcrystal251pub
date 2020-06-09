@@ -52,57 +52,57 @@ UnknownScript_0x7ad27: ; 0x7ad27
 ; 0x7ad2f
 
 UnknownText_0x7ad2f: ; 0x7ad2f
-	text "Today I learned"
-	line "PIKACHU is an"
-	cont "evolved #MON."
+	text "J'ai appris que"
+	line "PIKACHU est un"
+	cont "#MON évolué."
 
 	; para "I also heared"
 	; line "some people"
 	; cont "call it PIKAQ."
 
-	para "<...>sigh<...>"
+	para "<...><...>"
 
-	para "If only I was a"
-	line "great researcher"
-	cont "like PROF.ELM<...>"
+	para "Si j'étais un"
+	line "grand scientifique"
+	cont "comme PROF.ORME<...>"
 	done
 ; 0x7add4
 
 UnknownText_0x7add4: ; 0x7add4
-	text "My daughter is"
-	line "adamant about"
+	para "Ma fille veux de-"
+	line "venir l'assistante"
 
-	para "becoming PROF."
-	line "ELM's assistant."
+	para "du PROF.ORME."
 
-	para "She really loves"
+	para "Elle aime les"
 	line "#MON!"
 
-	para "But then, so do I!"
+	para "Enfin, moi aussi!"
 	done
 ; 0x7ae3b
 
 UnknownText_0x7ae3b: ; 0x7ae3b
-	text "PROF.OAK'S #MON"
-	line "TALK! Please tune"
-	cont "in next time!"
+	text "La CHRONIQUE #-"
+	line "MON reviens"
+	cont "tout à l'heure!"
 	done
 ; 0x7ae6c
 
 UnknownText_0x7ae6c: ; 0x7ae6c
-	text "#MON CHANNEL!"
+	text "CHAINE #MON!"
 	done
 ; 0x7ae7b
 
 UnknownText_0x7ae7b: ; 0x7ae7b
-	text "This is DJ MARY,"
-	line "your co-host!"
+	text "Je suis DJ LULA,"
+	line "votre"
+	cont "co-animatrice!"
 	done
 ; 0x7ae9b
 
 UnknownText_0x7ae9b: ; 0x7ae9b
 	text "#MON!"
-	line "#MON CHANNEL<...>"
+	line "CHAINE #MON<...>"
 	done
 ; 0x7aeb0
 

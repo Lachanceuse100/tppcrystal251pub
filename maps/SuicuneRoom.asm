@@ -28,3 +28,4 @@ SuicuneRoom_MapEventHeader:
 	db 0
 	db 1
 	person_event SPRITE_SUICUNE, 7, 9, $6, 0, 0, -1, -1, 8 + PAL_OW_BLUE, 0, 0, StaticSuicuneScript, EVENT_STATIC_SUICUNE
+

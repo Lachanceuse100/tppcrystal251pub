@@ -211,263 +211,266 @@ UnknownScript_0x194ef3: ; 0x194ef3
 ; 0x194efa
 
 UnknownText_0x194efa: ; 0x194efa
-	text "I am CLAIR."
+	text "Je suis SANDRA."
 
-	para "The world's best"
-	line "dragon master."
+	para "Je suis la reine"
+	line "des dragons."
 
-	para "I can hold my own"
-	line "against even the"
+	para "Je peux même tenir"
+	line "tête au CONSEIL"
+	cont "des 4 de la LIGUE."
 
-	para "#MON LEAGUE's"
-	line "ELITE FOUR."
+	para "Tu veux toujours"
+	line "m'affronter?"
 
-	para "Do you still want"
-	line "to take me on?"
+	para "<...>Très bien."
+	line "C'est parti!"
 
-	para "<...>Fine."
-	line "Let's do it!"
+	para "En tant que CHAM-"
+	line "PIONNE d'ARENE,"
 
-	para "As a GYM LEADER,"
-	line "I will use my full"
-
-	para "power against any"
-	line "opponent!"
+	para "j'utiliserai tou-"
+	line "te ma puissance!"
 	done
 ; 0x194fd6
 
 UnknownText_0x194fd6: ; 0x194fd6
-	text "I lost?"
+	text "J'ai perdu?"
 
-	para "I don't believe"
-	line "it. There must be"
-	cont "some mistake<...>"
+	para "Je n'y crois pas!"
+	line "Il doit y avoir"
+	cont "une erreur<...>"
 	done
 ; 0x19500e
 
 UnknownText_0x19500e: ; 0x19500e
-	text "I won't admit"
-	line "this."
+	text "Je ne l'accepterai"
+	line "pas."
 
-	para "I may have lost,"
-	line "but you're still"
+	para "J'ai peut-être"
+	line "perdu mais tu n'as"
 
-	para "not ready for the"
-	line "#MON LEAGUE."
+	para "pas les épaules"
+	line "pour la LIGUE"
+	cont "#MON."
 
-	para "I know. You should"
-	line "take the dragon"
-	cont "user challenge."
+	para "Je sais!"
 
-	para "Behind this GYM is"
-	line "a place called"
-	cont "DRAGON'S DEN."
+	para "Tu devrais relever"
+	line "le défi des utili-"
+	cont "sateurs de"
+	cont "dragons."
 
-	para "There is a small"
-	line "shrine at its"
+	para "Derrière cette"
+	line "ARENE se trouve"
+	cont "l'ANTRE du DRAGON."
 
-	para "center."
-	line "Go there."
+	para "Il y a un petit"
+	line "temple au centre."
+	cont "Vas-y."
 
-	para "If you can prove"
-	line "that you've lost"
+	para "Si tu peux prouver"
+	line "ta valeur,"
 
-	para "your lazy ideals,"
-	line "I will recognize"
-
-	para "you as a trainer"
-	line "worthy of a GYM"
-	cont "BADGE!"
+	para "tu seras digne de"
+	line "porter le BADGE!"
 	done
 ; 0x195162
 
 UnknownText_0x195162: ; 0x195162
-	text "What's the matter?"
+	text "Et alors?"
 
-	para "Is it too much to"
-	line "expect of you?"
+	para "On a peur"
+	line "maintenant?"
 	done
 ; 0x195196
 
 UnknownText_0x195196: ; 0x195196
-	text "You've kept me"
-	line "waiting!"
+	text "Tu m'as faite"
+	line "attendre!"
 
-	para "Here! Take this!"
+	para "Tiens! Prends-ça!."
 	done
 ; 0x1951bf
 
 UnknownText_0x1951bf: ; 0x1951bf
-	text "<PLAYER> received"
-	line "TM24."
+	text "<PLAYER> reçoit"
+	line "CT24."
 	done
 ; 0x1951d1
 
 UnknownText_0x1951d1: ; 0x1951d1
-	text "That contains"
-	line "DRAGON PULSE."
+	text "Elle contient"
+	line "DRACOSOUFFLE."
 
-	para "It fires a huge"
-	line "energy blast of"
-	cont "some kind."
+	para "Hein? Non, ça n'a"
+	line "rien à voir avec"
+	cont "mon haleine."
 
-	para "If you don't want"
-	line "it, you don't have"
-	cont "to take it<...>"
+	para "Ecoute: Si tu la"
+	line "veux pas, t'as "
+	cont "qu'a la laisser!"
 	done
 ; 0x19524f
 
 UnknownText_0x19524f: ; 0x19524f
-	text "What is this? You"
-	line "don't have room?"
+	text "Quoi, tu n'as pas"
+	line "de place?"
 	done
 ; 0x195272
 
 UnknownText_0x195272: ; 0x195272
-	text "What's the matter?"
+	text "SANDRA: Bon, qu'"
+	line "est-ce qu'il y a?"
 
-	para "Aren't you headed"
-	line "to the #MON"
-	cont "LEAGUE?"
+	para "Tu ne vas pas à"
+	line "la LIGUE #MON?"
 
-	para "Don't you know"
-	line "where it is?"
+	para "Tu sais comment y"
+	line "aller au moins?"
 
-	para "From here, go to"
-	line "NEW BARK TOWN."
+	para "Va jusqu'a BOURG"
+	line "GEON."
 
-	para "Then SURF east."
-	line "The route there is"
-	cont "very tough."
+	para "Puis surfe vers"
+	line "l'est."
 
-	para "Don't you dare"
-	line "lose at the #-"
-	cont "MON LEAGUE!"
+	para "Le chemin sera"
+	line "très dur."
 
-	para "If you do, I'll"
-	line "feel even worse"
+	para "N'ose pas te faire"
+	line "battre à la LIGUE"
+	cont "#MON!"
 
-	para "about having lost"
-	line "to you!"
+	para "Sinon, j'aurais"
+	line "l'air de quoi,"
+	cont "moi?"
 
-	para "Give it every-"
-	line "thing you've got."
+	para "Donne tout ce que"
+	line "tu as."
 	done
 ; 0x195396
 
 CooltrainermPaulSeenText: ; 0x195396
-	text "Your first battle"
-	line "against dragons?"
+	text "C'est ton premier"
+	line "combat face à des"
+	cont "dragons?"
 
-	para "I'll show you how"
-	line "tough they are!"
+	para "Je vais te montrer"
+	line "leur résistance"
+	cont "suprême!"
 	done
 ; 0x1953db
 
 CooltrainermPaulBeatenText: ; 0x1953db
-	text "My dragon #MON"
-	line "lost?"
+	text "Mes #MON DRAGON"
+	line "ont perdu?"
 	done
 ; 0x1953f1
 
 UnknownText_0x1953f1: ; 0x1953f1
-	text "LANCE told you"
-	line "that he'd like to"
+	text "PETER voulait te"
+	line "revoir?"
 
-	para "see you again?"
-	line "Not a chance!"
+	para "Mensonge!"
 	done
 ; 0x19542f
 
 CooltrainermMikeSeenText: ; 0x19542f
-	text "My chance of"
-	line "losing? Not even"
-	cont "one percent!"
+	text "Mes chances de"
+	line "perdre?"
+
+	para "Même pas un"
+	cont "pour cent!"
 	done
 ; 0x19545b
 
 CooltrainermMikeBeatenText: ; 0x19545b
-	text "That's odd."
+	text "Etrange<...>"
 	done
 ; 0x195467
 
 UnknownText_0x195467: ; 0x195467
-	text "I know my short-"
-	line "comings now."
+	text "Je connais mes"
+	line "défauts<...>"
 
-	para "Thanks for showing"
-	line "me!"
+	para "Merci pour la"
+	line "leçon!"
 	done
 ; 0x19549d
 
 CooltrainerfLolaSeenText: ; 0x19549d
-	text "Dragons are sacred"
-	line "#MON."
+	text "Les dragons sont"
+	line "des #MON"
 
-	para "They are full of"
-	line "life energy."
+	para "sacrés. Ils sont"
+	line "plein de vie."
 
-	para "My #MON might"
-	line "not be dragon-type"
+	para "Le mien n'en a"
+	line "peut-être pas le"
 
-	para "but don't"
-	line "underestimate it!"
+	para "type, mais ne le"
+	line "sous-estimes pas!"
 	done
 ; 0x19550a
 
 CooltrainerfLolaBeatenText: ; 0x19550a
-	text "Way to go!"
+	text "Bien joué!"
 	done
 ; 0x195516
 
 UnknownText_0x195516: ; 0x195516
-	text "Dragons are weak"
-	line "against dragon-"
-	cont "type moves."
+	text "Les dragons sont"
+	line "faibles face aux"
+	cont "attaques de type"
+	cont "DRAGON."
 
-	para "If you want to"
-	line "beat CLAIR,"
-	cont "remember that!"
+	para "Retiens-ça si tu"
+	line "veux battre"
+	cont "SANDRA!"
 	done
 ; 0x195544
 
 BlackthornGymGuyText: ; 0x195544
-	text "Yo! CHAMP in"
-	line "making!"
+	text "Salut, champion en"
+	line "herbe!"
 
-	para "It's been a long"
-	line "journey, but we"
+	para "C'est un long"
+	line "voyage, mais on"
 
-	para "are almost done!"
-	line "Count on me!"
+	para "est bientôt au"
+	line "bout!"
+	cont "Compte sur moi!"
 
-	para "CLAIR uses the"
-	line "mythical and sac-"
-	cont "red dragon-type"
-	cont "#MON."
+	para "SANDRA utilise les"
+	line "#MON mythiques"
+	cont "et sacré de type"
+	cont "DRAGON."
 
-	para "They resist many"
-	line "common types,"
+	para "Ils résistent les"
+	line "types élémentaires"
+	cont "communs mais ces"
 
-	para "but reptiles"
-	line "dislike ice,"
+	para "reptiles détestent"
+	line "la GLACE et les"
 
-	para "and fairies have"
-	line "a huge advantage."
+	para "attaque FEE ont un"
+	line "énorme avantage."
 	done
 ; 0x195632
 
 BlackthornGymGuyWinText: ; 0x195632
-	text "You were great to"
-	line "beat CLAIR!"
+	text "Bien joué!"
+	line "Beau combat!"
 
-	para "All that's left is"
-	line "the #MON LEAGUE"
-	cont "challenge."
+	para "Il ne te reste"
+	line "plus que le chal-"
+	cont "lenge de la LIGUE"
+	cont "#MON."
 
-	para "You're on the way"
-	line "to becoming the"
-	cont "#MON CHAMPION!"
+	para "Tu es sur le point"
+	line "de devenir"
+	cont "MAITRE #MON!"
 	done
 ; 0x1956ae
 

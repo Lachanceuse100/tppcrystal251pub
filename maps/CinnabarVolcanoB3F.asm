@@ -122,11 +122,11 @@ BoulderScript_CinnabarVolcanoB3F:
 	jumptext BoulderText_CinnabarVolcanoB3F
 
 BoulderText_CinnabarVolcanoB3F:
-	text "The boulder is"
-	line "blocking the lava"
+	text "Le rocher bloque"
+	line "le flux de lave."
 
-	para "flow. Better not"
-	line "touch it!"
+	para "Mieux vaut ne pas"
+	line "y toucher!"
 	done
 
 MoltresText1:

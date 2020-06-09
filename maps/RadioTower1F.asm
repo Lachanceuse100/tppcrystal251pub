@@ -244,43 +244,45 @@ MovementData_0x5ce74: ; 0x5ce74
 ; 0x5ce77
 
 UnknownText_0x5ce77: ; 0x5ce77
-	text "Welcome!"
+	text "Bienvenue!"
 	done
 ; 0x5ce81
 
 UnknownText_0x5ce81: ; 0x5ce81
-	text "Hello. I'm sorry,"
-	line "but we're not"
-	cont "offering any tours"
-	cont "today."
+	text "Bonjour. Désolée,"
+	line "mais les visites"
+	cont "d'aujourd'hui sont"
+	cont "annulés."
 	done
 ; 0x5ceba
 
 UnknownText_0x5ceba: ; 0x5ceba
-	text "Hi, are you here"
-	line "for the LUCKY NUM-"
-	cont "BER SHOW?"
+	text "Salut, tu es là"
+	line "pour l'émission du"
+	cont "BON NUMERO?"
 
-	para "Want me to check"
-	line "the ID numbers of"
-	cont "your #MON?"
+	para "Veux-tu que je re-"
+	line "garde le No. ID de"
+	cont "tes #MON?"
 
-	para "If you get lucky,"
-	line "you win a prize."
+	para "Si c'est ton jour"
+	line "de chance, tu"
+	cont "gagneras un prix!"
 	done
 ; 0x5cf3a
 
 UnknownText_0x5cf3a: ; 0x5cf3a
-	text "This week's ID"
-	line "number is @"
+	text "Le No. ID de cette"
+	line "semaine est @"
 	text_from_ram StringBuffer3
 	text "."
 	done
 ; 0x5cf5a
 
 UnknownText_0x5cf5a: ; 0x5cf5a
-	text "Let's see if you"
-	line "have a match."
+	text "Voyons si un de"
+	line "vos #MON"
+	cont "correspond."
 	done
 ; 0x5cf79
 
@@ -290,245 +292,260 @@ UnknownText_0x5cf79: ; 0x5cf79
 ; 0x5cf7e
 
 UnknownText_0x5cf7e: ; 0x5cf7e
-	text "Please come back"
-	line "next week for the"
-	cont "next LUCKY NUMBER."
+	text "Revenez la semaine"
+	line "prochaine pour un"
+	cont "nouveau BON"
+	cont "NUMERO!"
 	done
 ; 0x5cfb5
 
 UnknownText_0x5cfb5: ; 0x5cfb5
-	text "Wow! You have a"
-	line "perfect match of"
-	cont "all five numbers!"
+	text "Incroyable! Tous"
+	line "les chiffres sont"
+	cont "bons!"
 
-	para "We have a grand"
-	line "prize winner!"
+	para "Vous avez gagné"
+	line "notre grand prix!"
 
-	para "You have won a"
-	line "MASTER BALL!"
+	para "Une MASTER BALL!"
 	done
 ; 0x5d023
 
 UnknownText_0x5d023: ; 0x5d023
-	text "Hey! You've"
-	line "matched the last"
-	cont "three numbers!"
+	text "Oh! Vous avez une"
+	line "correspondance sur"
+	cont "les trois derniers"
+	cont "numéros!"
 
-	para "You've won second"
-	line "prize, an EXP."
-	cont "SHARE!"
+	para "Vous avez gagné"
+	line "ce superbe"
+	cont "MULTI EXP.!"
 	done
 ; 0x5d076
 
 UnknownText_0x5d076: ; 0x5d076
-	text "Ooh, you've"
-	line "matched the last"
-	cont "two numbers."
+	text "Ah, il y a une"
+	line "correspondance sur"
+	cont "les deux derniers"
+	cont "numéros."
 
-	para "You've won third"
-	line "prize, a PP UP."
+	para "Vous avez gagné"
+	line "un PP PLUS"
 	done
 ; 0x5d0c0
 
 UnknownText_0x5d0c0: ; 0x5d0c0
-	text "Nope, none of your"
-	line "ID numbers match."
+	text "Non! Aucun de tes"
+	line "numéros ID ne"
+	cont "correspond."
 	done
 ; 0x5d0e6
 
 UnknownText_0x5d0e6: ; 0x5d0e6
-	text "You've got no room"
-	line "for your prize."
+	text "Vous n'avez pas de"
+	line "place pour votre"
+	cont "prix."
 
-	para "Make room and come"
-	line "back right away."
+	para "Revenez le cher-"
+	line "cher plus tard."
 	done
 ; 0x5d12d
 
 UnknownText_0x5d12d: ; 0x5d12d
-	text "We have a special"
-	line "quiz campaign on"
-	cont "right now."
+	text "Nous avons un quiz"
+	line "disponible en ce"
+	cont "moment."
 
-	para "Answer five ques-"
-	line "tions correctly to"
-	cont "win a RADIO CARD."
+	para "Réponds à 5 ques-"
+	line "tions correctement"
+	cont "pour gagner un"
+	cont "COUPON RADIO."
 
-	para "Slide it into your"
-	line "#GEAR to play"
+	para "Glisse-le dans ton"
+	line "#MATOS pour"
 
-	para "the radio anytime,"
-	line "anywhere."
+	para "écouter la radio"
+	line "quand tu veux et"
+	cont "ou tu veux."
 
-	para "Would you like to"
-	line "take the quiz?"
+	para "Veux-tu jouer au"
+	line "quiz?"
 	done
 ; 0x5d1f2
 
 UnknownText_0x5d1f2: ; 0x5d1f2
 	text "Question 1:"
 
-	para "Is there a #MON"
-	line "that appears only"
-	cont "in the morning?"
+	para "Y a-t-il un #-"
+	line "MON apparaissant"
+	cont "uniquement le"
+	cont "matin?"
 	done
 ; 0x5d231
 
 UnknownText_0x5d231: ; 0x5d231
-	text "Correct!"
+	text "C'est exact!"
 	line "Question 2:"
 
-	para "Is this statement"
-	line "correct?"
+	para "Cette proposition"
+	line "est-elle correcte?"
 
-	para "You can't buy a"
-	line "BERRY at a MART."
+	para "On ne peut pas"
+	line "acheter de BAIE à"
+	cont "à la BOUTIQUE."
 	done
 ; 0x5d282
 
 UnknownText_0x5d282: ; 0x5d282
-	text "Bull's-eye!"
+	text "Bravo!"
 	line "Question 3:"
 
-	para "Does HM01 contain"
-	line "the move FLASH?"
+	para "La CS01 contient-"
+	line "elle FLASH?"
 	done
 ; 0x5d2bc
 
 UnknownText_0x5d2bc: ; 0x5d2bc
-	text "So far so good!"
+	text "Tout va bien!"
 	line "Question 4:"
 
-	para "Is FALKNER the"
-	line "VIOLET GYM LEADER"
+	para "ALBERT est-il le"
+	line "CHAMPION de MAU-"
 
-	para "who uses bird"
-	line "#MON?"
+	para "VILLE utilisant"
+	line "des #MON"
+	cont "oiseaux?"
 	done
 ; 0x5d30e
 
 UnknownText_0x5d30e: ; 0x5d30e
-	text "Wow! Right again!"
-	line "Here's the final"
+	text "Encore gagné!"
+	line "Voici la dernière"
 	cont "question:"
 
-	para "Do GOLDENROD GAME"
-	line "CORNER's slots"
+	para "SALAMECHE appa-"
+	line "raît-il sur les"
 
-	para "have CHARMANDER"
-	line "on their reels?"
+	para "machines à sous au"
+	line "CASINO de DOUBLON-"
+	cont "VILLE?"
 	done
 ; 0x5d37b
 
 UnknownText_0x5d37b: ; 0x5d37b
-	text "Bingo! You got it!"
-	line "Congratulations!"
+	text "Bingo! Gagné!"
+	line "Félicitations!"
 
-	para "Here's your prize,"
-	line "a RADIO CARD!"
+	para "Voici ton prix: un"
+	line "COUPON RADIO!"
 	done
 ; 0x5d3c0
 
 UnknownText_0x5d3c0: ; 0x5d3c0
-	text "<PLAYER>'s #GEAR"
-	line "can now double as"
-	cont "a radio!"
+	text "Le #MATOS de"
+	line "<PLAYER> peut main-"
+	cont "tenant servir de"
+	cont "radio!"
 	done
 ; 0x5d3e5
 
 UnknownText_0x5d3e5: ; 0x5d3e5
-	text "Please tune in to"
-	line "our radio shows."
+	text "Branchez-vous donc"
+	line "sur nos émissions!"
 	done
 ; 0x5d409
 
 UnknownText_0x5d409: ; 0x5d409
-	text "Oh, dear."
-	line "Sorry, but you"
+	text "Ah, je suis navrée"
+	line "mais ce n'est pas"
+	cont "la bonne réponse!"
 
-	para "got it wrong."
-	line "Please try again!"
+	text "Essayez une autre"
+	line "fois!"
 	done
 ; 0x5d443
 
 UnknownText_0x5d443: ; 0x5d443
-	text "Oh. I see. Please"
-	line "see me if you"
-	cont "change your mind."
+	text "Oh. Je vois."
+	line "N'hésite pas si tu"
+	cont "changes d'avis."
 	done
 ; 0x5d476
 
 UnknownText_0x5d476: ; 0x5d476
-	text "BEN is a fabulous"
-	line "DJ."
+	text "BEN est un super"
+	line "DJ!"
 
-	para "His sweet voice"
-	line "makes me melt!"
+	para "Sa voix me fait"
+	line "fondre!"
 	done
 ; 0x5d4ac
 
 UnknownText_0x5d4ac: ; 0x5d4ac
-	text "I love MARY, from"
-	line "#MON TALK."
+	text "J'adore LULA de la"
+	line "CHRONIQUE #MON."
 
-	para "I only know what"
-	line "she sounds like,"
-	cont "though."
+	para "En tout cas j'ado-"
+	line "re sa voix<...>"
+	cont "C'est déjà ça."
 	done
 ; 0x5d4f4
 
 GruntM3SeenText: ; 0x5d4f4
-	text "We've finally"
-	line "taken over the"
-	cont "RADIO TOWER!"
+	text "Nous avons enfin"
+	line "envahi la TOUR"
+	cont "RADIO!"
 
-	para "Now everyone will"
-	line "get to experience"
+	para "Tout le monde"
+	line "tremblera devant"
 
-	para "the true terror of"
+	para "la puissance de la"
 	line "TEAM ROCKET!"
 
-	para "We'll show you"
-	line "how scary we are!"
+	para "Vous allez voir à"
+	line "quel point on fait"
+	cont "peur!"
 	done
 ; 0x5d582
 
 GruntM3BeatenText: ; 0x5d582
-	text "Too strong! We"
-	line "must watch you<...>"
+	text "Impossible! On va"
+	line "te tenir à l'oeil<...>"
 	done
 ; 0x5d5a2
 
 UnknownText_0x5d5a2: ; 0x5d5a2
-	text "You're too strong."
+	text "Tu es beaucoup"
+	line "trop fort."
 
-	para "Our plan could be"
-	line "ruined. I must"
-	cont "warn the others<...>"
+	para "Je dois prévenir"
+	line "les autres. Tu es"
+	cont "une menace<...>"
 	done
 ; 0x5d5e7
 
 UnknownText_0x5d5e7: ; 0x5d5e7
-	text "1F RECEPTION"
-	line "2F SALES"
+	text "RDC  RECEPTION"
+	line "1ER  VENTES"
 
-	para "3F PERSONNEL"
-	line "4F PRODUCTION"
+	para "2EME PERSONNEL"
+	line "3EME PRODUCTION"
 
-	para "5F DIRECTOR'S"
-	line "   OFFICE"
+	para "4EME BUREAU"
+	line "     DIRECTION"
 	done
 ; 0x5d631
 
 UnknownText_0x5d631: ; 0x5d631
-	text "LUCKY CHANNEL!"
+	text "Antenne Chance!"
 
-	para "Win with #MON"
-	line "ID numbers!"
+	para "Gagnez grâce aux"
+	line "No. ID de vos"
+	cont "#MON!"
 
-	para "Trade your #MON"
-	line "to collect differ-"
-	cont "ent ID numbers!"
+	para "Echangez vos #-"
+	line "MON pour avoir"
+	cont "plus de No. ID!"
 	done
 ; 0x5d68e
 

@@ -15,23 +15,23 @@ GrampsScript_0x6aa1d: ; 0x6aa1d
 ; 0x6aa20
 
 UnknownText_0x6aa20: ; 0x6aa20
-	text "Don't you wonder"
-	line "who'd make some-"
-	cont "thing like this?"
-	cont "And why?"
+	text "Tu ne te demandes"
+	line "pas qui a bâti"
+	cont "tout ça?"
+	para "Et pourquoi?"
 	done
 ; 0x6aa5b
 
 UnknownText_0x6aa5b: ; 0x6aa5b
-	text "Did you see that"
-	line "strange tree in"
-	cont "the road?"
+	text "Tu as vu cet arbre"
+	line "étrange sur la"
+	cont "route?"
 
-	para "That may explain"
-	line "why fewer people"
+	para "Ca explique pour-"
+	line "quoi moins de gens"
 
-	para "are visiting the"
-	line "RUINS OF ALPH."
+	para "visitent les"
+	line "RUINES D'ALPHA."
 	done
 ; 0x6aac9
 

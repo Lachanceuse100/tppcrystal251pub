@@ -19,30 +19,35 @@ MapEcruteakLugiaSpeechHouseSignpost0Script: ; 0x9933a
 ; 0x9933d
 
 UnknownText_0x9933d: ; 0x9933d
-	text "This happened when"
-	line "I was young."
+	text "Ca s'est passé"
+	line "lorsque j'étais"
+	cont "jeune."
 
-	para "The sky suddenly"
-	line "turned black. A"
+	para "Le ciel est sou-"
+	line "dainement devenu"
+	cont "noir."
 
-	para "giant flying #-"
-	line "MON was blocking"
-	cont "out the sun."
+	para "Un #MON gigan-"
+	line "tesque cachait les"
+	cont "rayons du soleil."
 
-	para "I wonder what that"
-	line "#MON was? "
+	para "Je me demande quel"
+	line "#MON c'était<...>"
 
-	para "It was like a bird"
-	line "and a dragon."
+	para "C'était comme un"
+	line "oiseau ou un"
+	cont "dragon."
 	done
 ; 0x993ec
 
 UnknownText_0x993ec: ; 0x993ec
-	text "Is there really a"
-	line "#MON that big?"
+	text "Existe-t-il un"
+	line "#MON aussi"
+	cont "grand?"
 
-	para "If it exists, it"
-	line "must be powerful."
+	para "Si c'est le cas,"
+	line "il doit être"
+	cont "puissant."
 	done
 ; 0x99431
 

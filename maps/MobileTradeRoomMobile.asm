@@ -37,8 +37,8 @@ MapMobileTradeRoomMobileSignpost0Script: ; 0x193582
 ; 0x193591
 
 UnknownText_0x193591: ; 0x193591
-	text "Establishing"
-	line "communications<...>"
+	text "Communication en"
+	line "cours<...>"
 	done
 ; 0x1935af
 

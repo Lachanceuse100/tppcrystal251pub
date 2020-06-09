@@ -27,31 +27,33 @@ MapGoldenrodPPSpeechHouseSignpost2Script: ; 0x55656
 ; 0x55659
 
 UnknownText_0x55659: ; 0x55659
-	text "Once while I was"
-	line "battling, my"
+	text "Une fois, lorsque"
+	line "je me battais, mes"
 
-	para "#MON couldn't"
-	line "make any moves."
+	para "#MON ne"
+	line "pouvaient plus"
+	cont "attaquer."
 
-	para "The POWER POINTS,"
-	line "or PP, of its"
+	para "Les POINTS de"
+	line "POUVOIR, ou PP,"
 
-	para "moves were all"
-	line "gone."
+	para "de mes attaques"
+	line "étaient épuisés."
 	done
 ; 0x556ca
 
 UnknownText_0x556ca: ; 0x556ca
-	text "Sometimes, a"
-	line "healthy #MON"
+	text "Quelques fois, un"
+	line "#MON en pleine"
 
-	para "may be unable to"
-	line "use its moves."
+	para "forme en peut pas"
+	line "utiliser ses"
+	cont "attaques."
 
-	para "If that happens,"
-	line "heal it at a"
-	cont "#MON CENTER or"
-	cont "use an item."
+	para "Si cela arrive,"
+	line "soigne-le dans un"
+	cont "CENTRE #MON ou"
+	cont "utilise un objet."
 	done
 ; 0x55741
 

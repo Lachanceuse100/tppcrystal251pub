@@ -533,265 +533,266 @@ MapWarehouseEntranceSignpostItem4: ; 0x7c311
 ; 0x7c314
 
 SupernerdEricSeenText: ; 0x7c314
-	text "I got booted out"
-	line "of the GAME COR-"
-	cont "NER."
+	text "J'ai été viré du"
+	line "CASINO."
 
-	para "I was trying to"
-	line "cheat using my"
-	cont "#MON<...>"
+	para "J'ai voulu tricher"
+	line "avec mes #MON<...>"
 	done
 ; 0x7c361
 
 SupernerdEricBeatenText: ; 0x7c361
-	text "<...>Grumble<...>"
+	text "<...><...>"
 	done
 ; 0x7c36c
 
 UnknownText_0x7c36c: ; 0x7c36c
-	text "I guess I have to"
-	line "do things fair and"
-	cont "square<...>"
+	text "D'accord, j'arrête"
+	line "de tricher<...>"
 	done
 ; 0x7c39a
 
 SupernerdTeruSeenText: ; 0x7c39a
-	text "Do you consider"
-	line "type alignments in"
-	cont "battle?"
+	text "Fais-tu attention"
+	line "aux types de #-"
+	cont "MON en combat?"
 
-	para "If you know your"
-	line "type advantages,"
+	para "Apprends les fai-"
+	line "blesses et les a-"
 
-	para "you'll do better"
-	line "in battle."
+	para "vantages des types"
+	line "pour devenir plus"
+	cont "fort!"
 	done
 ; 0x7c403
 
 SupernerdTeruBeatenText: ; 0x7c403
-	text "Ow, ow, ow!"
+	text "Oh, oh, oh!"
 	done
 ; 0x7c410
 
 UnknownText_0x7c410: ; 0x7c410
-	text "I know my #MON"
-	line "type alignments."
+	text "Je connais tous"
+	line "les types de #-"
+	cont "MON."
 
-	para "But I only use one"
-	line "type of #MON."
+	para "Mais je n'en uti-"
+	line "lise qu'un seul."
 	done
 ; 0x7c452
 
 PokemaniacIssacSeenText: ; 0x7c452
-	text "My #MON just"
-	line "got a haircut!"
+	text "Mon #MON s'est"
+	line "fait toiletter!"
 
-	para "I'll show you how"
-	line "strong it is!"
+	para "Tu vas voir sa"
+	line "puissance main-"
+	cont "tenant!"
 	done
 ; 0x7c48e
 
 PokemaniacIssacBeatenText: ; 0x7c48e
-	text "Aiyeeee!"
+	text "Ahhhhh!"
 	done
 ; 0x7c498
 
 UnknownText_0x7c498: ; 0x7c498
-	text "Your #MON will"
-	line "like you more if"
+	text "Tes #MON t'ai-"
+	line "meront plus si tu"
 
-	para "you give them"
-	line "haircuts."
+	para "les fais"
+	line "toiletter."
 	done
 ; 0x7c4d1
 
 PokemaniacDonaldSeenText: ; 0x7c4d1
-	text "I think you have"
-	line "some rare #MON"
-	cont "with you."
+	text "Je vois que tu"
+	line "as des #MON"
+	cont "rares."
 
-	para "Let me see them!"
+	para "Montre-les moi!"
 	done
 ; 0x7c50d
 
 PokemaniacDonaldBeatenText: ; 0x7c50d
-	text "Gaah! I lost!"
-	line "That makes me mad!"
+	text "Graah! J'ai perdu!"
+	line "Ca me rends fou!"
 	done
 ; 0x7c52f
 
 UnknownText_0x7c52f: ; 0x7c52f
-	text "Are you making a"
-	line "#DEX? Here's a"
-	cont "hot tip."
+	text "Tu remplis un"
+	line "#DEX? Voilà"
+	cont "un conseil."
 
-	para "The HIKER on ROUTE"
-	line "33, ANTHONY, is a"
-	cont "good guy."
+	para "ANTHONY, le MONTA-"
+	line "GNARD de la ROUTE"
+	cont "33 est sympa."
 
-	para "He'll phone you if"
-	line "he sees any rare"
-	cont "#MON."
+	para "Il t'appellera si"
+	line "il voit des"
+	cont "#MON rares."
 	done
 ; 0x7c5b0
 
 UnknownText_0x7c5b0: ; 0x7c5b0
-	text "The door's locked<...>"
+	text "La porte est"
+	line "fermée<...>"
 	done
 ; 0x7c5c3
 
 UnknownText_0x7c5c3: ; 0x7c5c3
-	text "The door is open."
+	text "La porte est"
+	line "ouverte."
 	done
 ; 0x7c5d6
 
 UnknownText_0x7c5d6: ; 0x7c5d6
-	text "The BASEMENT KEY"
-	line "opened the door."
+	text "La CLE SOUS-SOL a"
+	line "ouvert la porte."
 	done
 ; 0x7c5f9
 
 UnknownText_0x7c5f9: ; 0x7c5f9
-	text "Welcome!"
+	text "Bienvenue!"
 
-	para "I run the #MON"
-	line "SALON!"
+	para "Je m'occupe du"
+	line "SALON #MON!"
 
-	para "I'm the older and"
-	line "better of the two"
-	cont "HAIRCUT BROTHERS."
+	para "Je suis l'aîné et"
+	line "le meilleur des"
+	cont "FRERES COIFFEURS."
 
-	para "I can make your"
-	line "#MON beautiful"
-	cont "for just ¥500."
+	para "Je peux toiletter"
+	line "tes #MON pour"
+	cont "juste ¥500."
 
-	para "Would you like me"
-	line "to do that?"
+	para "Veux-tu que je"
+	line "m'en occupe?"
 	done
 ; 0x7c69a
 
 UnknownText_0x7c69a: ; 0x7c69a
-	text "Which #MON"
-	line "should I work on?"
+	text "Quel #MON veux-"
+	line "tu me confier?"
 	done
 ; 0x7c6b8
 
 UnknownText_0x7c6b8: ; 0x7c6b8
-	text "OK! Watch it"
-	line "become beautiful!"
+	text "Je vais lui refai-"
+	line "re une beauté!"
 	done
 ; 0x7c6d8
 
 UnknownText_0x7c6d8: ; 0x7c6d8
-	text "There! All done!"
+	text "Voilà! Fini!"
 	done
 ; 0x7c6ea
 
 UnknownText_0x7c6ea: ; 0x7c6ea
-	text "Is that right?"
-	line "That's a shame!"
+	text "C'est vrai?"
+	line "C'est dommage!"
 	done
 ; 0x7c709
 
 UnknownText_0x7c709: ; 0x7c709
-	text "You'll need more"
-	line "money than that."
+	text "Il te faut plus"
+	line "d'argent."
 	done
 ; 0x7c72b
 
 UnknownText_0x7c72b: ; 0x7c72b
-	text "I do only one"
-	line "haircut a day. I'm"
-	cont "done for today."
+	text "Je ne fais qu'un"
+	line "toilettage par"
+	cont "jour. C'est tout"
+	cont "pour aujourd'hui."
 	done
 ; 0x7c75c
 
 UnknownText_0x7c75c: ; 0x7c75c
-	text "Welcome to the"
-	line "#MON SALON!"
+	text "Bienvenue au"
+	line "SALON #MON!"
 
-	para "I'm the younger"
-	line "and less expen-"
-	cont "sive of the two"
-	cont "HAIRCUT BROTHERS."
+	para "Je suis le cadet"
+	line "et le moins cher"
+	cont "des FRERES"
+	cont "COIFFEURS."
 
-	para "I'll spiff up your"
-	line "#MON for just"
-	cont "¥300."
+	para "Pour ¥300, je peux"
+	line "m'occuper d'un de"
+	cont "tes #MON."
 
-	para "So? How about it?"
+	para "Ca te dit?"
 	done
 ; 0x7c7f1
 
 UnknownText_0x7c7f1: ; 0x7c7f1
-	text "OK, which #MON"
-	line "should I do?"
+	text "De quel #MON"
+	line "je m'occupe?"
 	done
 ; 0x7c80e
 
 UnknownText_0x7c80e: ; 0x7c80e
-	text "OK! I'll make it"
-	line "look cool!"
+	text "OK! Il va être"
+	line "trop cool!"
 	done
 ; 0x7c82a
 
 UnknownText_0x7c82a: ; 0x7c82a
-	text "There we go!"
-	line "All done!"
+	text "Allez hop!"
+	line "Terminé!"
 	done
 ; 0x7c842
 
 UnknownText_0x7c842: ; 0x7c842
-	text "No? "
-	line "How disappointing!"
+	text "Non?"
+	line "Tant pis."
 	done
 ; 0x7c85b
 
 UnknownText_0x7c85b: ; 0x7c85b
-	text "You're a little"
-	line "short on funds."
+	text "Tu n'as pas assez"
+	line "d'argent."
 	done
 ; 0x7c87b
 
 UnknownText_0x7c87b: ; 0x7c87b
-	text "I can do only one"
-	line "haircut a day."
-
-	para "Sorry, but I'm all"
-	line "done for today."
+	text "Je ne fais qu'un"
+	line "toilettage par"
+	cont "jour. C'est tout"
+	cont "pour aujourd'hui."
 	done
 ; 0x7c8bf
 
 UnknownText_0x7c8bf: ; 0x7c8bf
 	text_from_ram StringBuffer3
-	text " looks a"
-	line "little happier."
+	text " est un"
+	line "peu plus heureux."
 	done
 ; 0x7c8dc
 
 UnknownText_0x7c8dc: ; 0x7c8dc
 	text_from_ram StringBuffer3
-	text " looks"
-	line "happy."
+	text " semble"
+	line "heureux."
 	done
 ; 0x7c8ee
 
 UnknownText_0x7c8ee: ; 0x7c8ee
 	text_from_ram StringBuffer3
-	text " looks"
-	line "delighted!"
+	text " semble"
+	line "ravi!"
 	done
 ; 0x7c904
 
 UnknownText_0x7c904: ; 0x7c904
-	text "We're not open"
-	line "today."
+	text "Nous sommes fermés"
+	line "aujourd'hui."
 	done
 ; 0x7c91a
 
 UnknownText_0x7c91a: ; 0x7c91a
-	text "NO ENTRY BEYOND"
-	line "THIS POINT"
+	text "ENTREE INTERDITE"
 	done
 ; 0x7c936
 

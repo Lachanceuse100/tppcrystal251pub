@@ -83,80 +83,86 @@ MapCharcoalKilnSignpost2Script: ; 0x18dd71
 ; 0x18dd74
 
 UnknownText_0x18dd74: ; 0x18dd74
-	text "All the SLOWPOKE"
-	line "have disappeared"
-	cont "from the town."
+	text "Tous les RAMOLOSS"
+	line "ont disparu de la"
+	cont "ville."
 
-	para "The forest's pro-"
-	line "tector may be"
-	cont "angry with us<...>"
+	para "Le protecteur de"
+	line "la forêt est sûre-"
+	cont "ment en colère<...>"
 
-	para "It may be a bad"
-	line "omen. We should"
-	cont "stay in."
+	para "C'est un mauvais"
+	line "présage. On de-"
+	cont "vrait rester chez"
+	cont "soi."
 	done
 ; 0x18ddfd
 
 UnknownText_0x18ddfd: ; 0x18ddfd
-	text "The SLOWPOKE have"
-	line "returned<...>"
+	text "Les RAMOLOSS sont"
+	line "revenus!"
 
-	para "But my APPRENTICE"
-	line "hasn't come back"
-	cont "from ILEX FOREST."
+	para "Mais mon APPRENTI"
+	line "n'est pas revenu"
+	cont "du BOIS AUX"
+	cont "CHENES."
 
-	para "Where in the world"
-	line "is that lazy guy?"
+	para "Ou peut bien être"
+	line "ce paresseux?"
 	done
 ; 0x18de73
 
 UnknownText_0x18de73: ; 0x18de73
-	text "You chased off"
-	line "TEAM ROCKET and"
+	text "Tu as chassé la"
+	line "TEAM ROCKET et tu"
 
-	para "went to ILEX"
-	line "FOREST alone?"
+	para "as visité le BOIS"
+	line "AUX CHENES en"
+	cont "solitaire?"
 
-	para "That takes guts!"
-	line "I like that. Come"
-	cont "train with us."
+	para "Pas mal!"
+	line "J'aime ça. Viens"
+	cont "donc t'entraîner"
+	cont "avec nous."
 	done
 ; 0x18dee0
 
 UnknownText_0x18dee0: ; 0x18dee0
-	text "Where have all the"
-	line "SLOWPOKE gone?"
+	text "Ou sont passés"
+	line "les RAMOLOSS?"
 
-	para "Are they out play-"
-	line "ing somewhere?"
+	para "Sont-ils dehors en"
+	line "train de traîner?"
 	done
 ; 0x18df25
 
 UnknownText_0x18df25: ; 0x18df25
-	text "I'm sorry--I for-"
-	line "got to thank you."
+	text "Je suis désolé,"
+	line "j'ai oublié de te"
+	cont "remercier."
 
-	para "This is CHARCOAL"
-	line "that I made."
+	para "J'ai produit ce"
+	line "CHARBON."
 
-	para "Fire-type #MON"
-	line "would be happy to"
-	cont "hold that."
+	para "Les #MON de"
+	line "type FEU seront"
+	cont "contents d'en"
+	cont "tenir un."
 	done
 ; 0x18df93
 
 UnknownText_0x18df93: ; 0x18df93
-	text "The SLOWPOKE came"
-	line "back, and you even"
-	cont "found FARFETCH'D."
+	text "Les RAMOLOSS sont"
+	line "de retour et tu as"
+	cont "même retrouvé"
+	cont "CANARTICHO."
 
-	para "You're the cool-"
-	line "est, man!"
+	para "T'es trop cool!"
 	done
 ; 0x18dfe5
 
 UnknownText_0x18dfe5: ; 0x18dfe5
-	text "FARFETCH'D: Kwaa!"
+	text "CANARTICHO: Ticho!"
 	done
 ; 0x18dff8
 

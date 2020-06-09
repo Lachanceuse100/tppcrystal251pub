@@ -101,28 +101,28 @@ KogaRematch:
 	end
 
 KogeBeforeRematchText:
-	text "Your arrival is"
-	line "indeed impressive,"
-	cont "as is your look of"
-	cont "resolve."
-
 	para "Fwahahahaha!"
 
-	para "My skill will be"
-	line "hard to overcome!"
+	para "Quelle détermina-"
+	line "tion dans ton"
+	cont "regard!"
 
-	para "Let me show you"
-	line "what I mean!"
+	para "Mais ma technique"
+	line "sera difficile à"
+	cont "surmonter."
+
+	para "Tu vas voir!"
 
 	done
 
 KogaAfterRematchText:
-	text "Never have I met"
-	line "the likes of you."
+	text "Je n'ai jamais"
+	line "rencontré quelqu'"
+	cont "un comme toi."
 
-	para "I must devote"
-	line "myself to my"
-	cont "training."
+	para "Je vais devoir me"
+	line "consacrer à mon"
+	cont "entraînement."
 
 	done
 
@@ -150,52 +150,54 @@ MovementData_0x18078e: ; 0x18078e
 UnknownText_0x180793: ; 0x180793
 	text "Fwahahahaha!"
 
-	para "I am KOGA of the"
-	line "ELITE FOUR."
+	para "Moi c'est KOGA du"
+	line "CONSEIL des 4."
 
-	para "I live in shadows,"
-	line "a ninja!"
+	para "Je vit dans l'om-"
+	line "bre, comme un"
+	cont "ninja!"
 
-	para "My intricate style"
-	line "will confound and"
-	cont "destroy you!"
+	para "Je saute, je lance"
+	line "des shurikens<...>"
+	cont "Je suis trop fort!"
 
-	para "Confusion, sleep,"
-	line "poison<...>"
+	para "Mais c'est pas"
+	line "tout<...>"
 
-	para "Prepare to be the"
-	line "victim of my sin-"
-	cont "ister technique!"
+	para "Tu vas voir ce que"
+	line "c'est la technique"
+	cont "de maître!"
 
 	para "Fwahahahaha!"
 
-	para "#MON is not"
-	line "merely about brute"
+	para "La force c'est"
+	line "bien, mais le poi-"
 
-	para "force--you shall"
-	line "see soon enough!"
+	para "son, le sommeil et"
+	line "la folie, c'est"
+	cont "terrible!"
 	done
 ; 0x1808a9
 
 UnknownText_0x1808a9: ; 0x1808a9
 	text "Ah!"
-	line "You have proven"
-	cont "your worth!"
+	line "Tu es un adver-"
+	cont "saire honorable!"
 	done
 ; 0x1808ca
 
 UnknownText_0x1808ca: ; 0x1808ca
-	text "I subjected you to"
-	line "everything I could"
-	cont "muster."
+	text "J'ai combattu de"
+	line "toutes mes forces"
+	cont "mais<...>"
 
-	para "But my efforts"
-	line "failed. I must"
-	cont "hone my skills."
+	para "J'ai échoué, je"
+	line "dois aiguiser mes"
+	cont "techniques."
 
-	para "Go on to the next"
-	line "room, and put your"
-	cont "abilities to test!"
+	para "Va dans la pro-"
+	line "chaine salle."
+	cont "Bonne chance!"
 	done
 ; 0x18095f
 

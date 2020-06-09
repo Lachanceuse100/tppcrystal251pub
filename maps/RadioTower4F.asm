@@ -177,166 +177,167 @@ MapRadioTower4FSignpost1Script: ; 0x5ec0f
 ; 0x5ec12
 
 UnknownText_0x5ec12: ; 0x5ec12
-	text "I listened to the"
-	line "radio while I was"
-	cont "at the RUINS."
+	text "J'écoutais la ra-"
+	line "dio tout en visi-"
+	cont "tant les RUINES."
 
-	para "I heard a strange"
-	line "broadcast there."
+	para "J'y ai entendu une"
+	line "émission étrange."
 	done
 ; 0x5ec68
 
 UnknownText_0x5ec68: ; 0x5ec68
-	text "MARY: Why? Why do"
-	line "I have to suffer"
-	cont "through this?"
+	text "LULA: Pourquoi?"
+	line "Pouruqoi tant de"
+	cont "haine?"
 
-	para "MEOWTH, help me!"
+	para "MIAOUSS, à l'aide!"
 	done
 ; 0x5ecab
 
 UnknownText_0x5ecab: ; 0x5ecab
-	text "MARY: Oh! You're"
-	line "my little savior!"
+	text "LULA: Oh! Tu es"
+	line "formidable!"
 
-	para "Will you take this"
-	line "as my thanks?"
+	para "Puis-je te remer-"
+	line "cier avec ceci?"
 	done
 ; 0x5ecef
 
 UnknownText_0x5ecef: ; 0x5ecef
-	text "MARY: It's just"
-	line "right for #MON"
+	text "LULA: C'est pour"
+	line "les #MON qui"
 
-	para "that know fairy-"
-	line "type moves."
+	para "connaissent des"
+	line "techniques du type"
+	cont "FEE."
 	done
 ; 0x5ed2c
 
 UnknownText_0x5ed2c: ; 0x5ed2c
-	text "MARY: Please tune"
-	line "into me on PROF."
+	text "LULA: Ecoute mon"
+	line "émission avec le"
 
-	para "OAK'S #MON TALK"
-	line "show."
+	para "PROF.CHEN: la"
+	line "CHRONIQUE #MON."
 	done
 ; 0x5ed66
 
 UnknownText_0x5ed66: ; 0x5ed66
-	text "MEOWTH: Meowth<...>"
+	text "MIAOUSS: Miaou<...>"
 	done
 ; 0x5ed77
 
 GruntM10SeenText: ; 0x5ed77
-	text "You plan to rescue"
-	line "the DIRECTOR?"
+	text "Tu comptes sauver"
+	line "le DIRECTEUR?"
 
-	para "That won't be pos-"
-	line "sible because I'm"
-	cont "going to beat you!"
+	para "Je crois que ça va"
+	line "pas être possible."
+	cont "Je vais t'écraser!"
 	done
 ; 0x5edcf
 
 GruntM10BeatenText: ; 0x5edcf
-	text "No! Unbelievable!"
+	text "Incroyable!"
 	done
 ; 0x5ede2
 
 UnknownText_0x5ede2: ; 0x5ede2
-	text "I don't believe"
-	line "it! I was beaten!"
+	text "Je<...> J'y crois"
+	line "pas!"
 	done
 ; 0x5ee04
 
 Executivem2SeenText: ; 0x5ee04
-	text "Stop! I'm known as"
-	line "the TEAM ROCKET"
-	cont "fortress!"
+	text "Stop! On m'appelle"
+	line "la forteresse de"
+	cont "la TEAM ROCKET!"
 
-	para "You're not taking"
-	line "another step!"
+	para "Tu n'iras pas plus"
+	line "loin mon poussin!"
 	done
 ; 0x5ee50
 
 Executivem2BeatenText: ; 0x5ee50
-	text "The fortress came"
-	line "down!"
+	text "Non!"
+	line "Ma forteresse!"
 	done
 ; 0x5ee69
 
 UnknownText_0x5ee69: ; 0x5ee69
-	text "Maybe I relied"
-	line "too much on"
-	cont "the power of the"
-	cont "BERSERK GENE<...>"
+	text "J'ai du trop m'"
+	line "appuyer sur la"
+	cont "puissance de"
+	cont "l'ADN BERZERK<...>"
 	done
 ; 0x5eec4
 
 GruntF4SeenText: ; 0x5eec4
-	text "Did you meet our"
-	line "scientist right"
-	cont "next to here?"
+	text "As-tu rencontré"
+	line "notre"
+	cont "scientifique?"
 
-	para "RICH created the"
-	line "BERSERK GENE!"
+	para "RICH a crée"
+	line "l'ADN BERZERK!"
 
-	para "But I have"
-	line "mastered it!"
+	para "Mais je l'ai"
+	line "maitrisé!"
 	done
 ; 0x5ef15
 
 GruntF4BeatenText: ; 0x5ef15
-	text "Not even the"
-	line "BERSERK GENE"
-	cont "was enough?"
+	text "Ca n'a pas suffit?"
 	done
 ; 0x5ef31
 
 UnknownText_0x5ef31: ; 0x5ef31
-	text "Stupid RICH<...>"
+	text "Stupide RICH<...>"
 
-	para "The BERSERK GENE"
-	line "has horrible"
-	cont "side effects<...>"
+	para "Son ADN BERZERK"
+	line "a des effets"
+	cont "secondaires"
+	cont "horribles<...>"
 	done
 ; 0x5ef62
 
 ScientistRichSeenText: ; 0x5ef62
-	text "Most excellent."
+	text "Parfait."
 
-	para "This RADIO TOWER"
-	line "will fulfill our"
-	cont "grand design."
+	para "Cette TOUR RADIO"
+	line "sera parfaite pour"
+	cont "nos plans."
 	done
 ; 0x5efa3
 
 ScientistRichBeatenText: ; 0x5efa3
 	text "Hmmm<...>"
 
-	para "All grand plans"
-	line "come with snags."
+	para "Tout plan comprends"
+	line "certains accrocs."
 	done
 ; 0x5efcb
 
 UnknownText_0x5efcb: ; 0x5efcb
-	text "I helped create"
-	line "the BERSERK GENE."
+	text "J'ai aidé à la"
+	line "création de l'ADN"
+	cont "BERZERK."
 
-	para "I regret it to"
-	line "this day<...>"
+	para "Je le regrette"
+	line "encore<...>"
 
-	para "We did horrible"
-	line "things<...>"
+	para "Nous avons commis"
+	line "des atrocités<...>"
 	done
 ; 0x5effe
 
 UnknownText_0x5effe: ; 0x5effe
-	text "4F PRODUCTION"
+	text "3EME PRODUCTION"
 	done
 ; 0x5f00d
 
 UnknownText_0x5f00d: ; 0x5f00d
-	text "4F STUDIO 2"
+	text "3EME STUDIO 2"
 	done
 ; 0x5f01a
 

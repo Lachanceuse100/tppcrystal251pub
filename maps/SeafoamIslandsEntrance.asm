@@ -18,3 +18,4 @@ SeafoamIslandsEntrance_MapEventHeader:
 	db 0
 
 	db 0
+	

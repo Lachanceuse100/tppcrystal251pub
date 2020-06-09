@@ -193,17 +193,15 @@ OakAlreadyDoneEverythingText:
 	jump AfterOakTalk
 
 OakRematchText:
-	text "PROF.OAK: Ah,"
+	text "PROF.CHEN: Ah,"
 	line "<PLAY_G>!"
 
-	para "Congratulations"
-	line "on being able to"
+	para "Félicitations pour"
+	line "ta victoire face"
 
-	para "prove yourself"
-	line "amongst the best"
-
-	para "#MON TRAINERS"
-	line "in the world."
+	para "aux meilleurs"
+	line "dressuers #MON"
+	cont "du monde."
 	done
 
 OakCheckDexAtHoF:

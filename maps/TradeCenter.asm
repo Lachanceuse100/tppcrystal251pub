@@ -59,8 +59,8 @@ UnknownScript_0x19340b: ; 0x19340b
 ; 0x193412
 
 UnknownText_0x193412: ; 0x193412
-	text "Your friend is"
-	line "ready."
+	text "Votre ami est"
+	line "prêt."
 	done
 ; 0x193429
 

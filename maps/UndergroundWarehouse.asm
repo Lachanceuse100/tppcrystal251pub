@@ -227,159 +227,160 @@ ItemFragment_0x7d9e8: ; 0x7d9e8
 ; 0x7d9ea
 
 UndergroundWarehouse_BurglarSimonText1:
-	text "Hey!"
+	text "Hé!"
 
-	para "Quit sticking your"
-	line "nose where it don't"
-	cont "belong!"
+	para "Arrête de fourrer"
+	line "ton nez dans mes"
+	cont "affaires!"
 	done
 
 UndergroundWarehouse_BurglarSimonTextLoss:
-	text "Aw, shucks."
+	text "Zut."
 	done
 
 UndergroundWarehouse_BurglarSimonText2:
-	text "When I heard TEAM"
-	line "ROCKET was raiding"
+	text "J'ai entendu que"
+	line "la TEAM ROCKET a"
 
-	para "this place, I knew"
-	line "there'd be loot"
-	cont "galore!"
+	para "assiégé ce lieu"
+	line "et je pensais y"
+	cont "trouver le"
+	cont "jackpot!"
 
-	para "But all I found"
-	line "was junk."
+	para "Tu parles d'une"
+	line "déception<...>"
 
-	para "Oh well. One man's"
-	line "trash, another's"
-	cont "treasure."
+	para "Tiens, ça te fera"
+	line "sûrement plaisir."
 	done
 
 UndergroundWarehouse_BurglarSimonText3:
-	text "See ya!"
+	text "A plus!"
 	done
 
 GruntM24SeenText: ; 0x7d9ea
-	text "How did you get"
-	line "this far?"
+	text "Comment es-tu"
+	line "arrivé la?"
 
-	para "I guess it can't"
-	line "be helped. I'll"
-	cont "dispose of you."
+	para "Peu importe. Je"
+	line "vais me débarasser"
+	cont "de toi!"
 	done
 ; 0x7da34
 
 GruntM24BeatenText: ; 0x7da34
-	text "I got disposed of<...>"
+	text "Tu m'as bien eu<...>"
 	done
 ; 0x7da48
 
 UnknownText_0x7da48: ; 0x7da48
-	text "TEAM ROCKET will"
-	line "keep going, wait-"
-	cont "ing for the return"
-	cont "of GIOVANNI."
+	text "La TEAM ROCKET"
+	line "vivra dans l'at-"
+	cont "tente du retour du"
+	cont "grand GIOVANNI."
 
-	para "We'll do whatever"
-	line "it takes."
+	para "Nous sommes prêts"
+	line "à tout."
 	done
 ; 0x7daa7
 
 GruntM14SeenText: ; 0x7daa7
-	text "You're not going"
-	line "any farther!"
+	text "Pas un pas de"
+	line "plus!"
 
-	para "I don't show mercy"
-	line "to my enemies, not"
-	cont "even brats!"
+	para "Mes ennemis, j'en"
+	line "fais de la purée."
+	cont "Même les gosses!"
 	done
 ; 0x7daf6
 
 GruntM14BeatenText: ; 0x7daf6
-	text "Blast it!"
+	text "Purée!"
 	done
 ; 0x7db01
 
 UnknownText_0x7db01: ; 0x7db01
-	text "I lost<...>"
+	text "J'ai perdu<...>"
 
-	para "Please forgive me,"
+	para "Pardonnez-moi<...>"
 	line "GIOVANNI!"
 	done
 ; 0x7db27
 
 GruntM15SeenText: ; 0x7db27
-	text "Hyuck-hyuck-hyuck!"
-	line "I remember you!"
+	text "Gnyak Gnyak Gnyak!"
+	line "Je me souviens de"
 
-	para "You got me good"
-	line "at our hideout!"
+	para "toi! Tu m'as battu"
+	line "à notre planque!"
 	done
 ; 0x7db6b
 
 GruntM15BeatenText: ; 0x7db6b
-	text "Hyuck-hyuck-hyuck!"
-	line "So, that's how?"
+	text "Gnyak!"
+	line "Encore?"
 	done
 ; 0x7db8e
 
 UnknownText_0x7db8e: ; 0x7db8e
-	text "Hyuck-hyuck-hyuck!"
-	line "That was a blast!"
-	cont "I'll remember you!"
+	text "Gnyaaaaaaak!"
+	line "Je me souviendrai"
+	cont "de toi!"
 	done
 ; 0x7dbc6
 
 UnknownText_0x7dbc6: ; 0x7dbc6
-	text "DIRECTOR: Who?"
-	line "What? You came to"
-	cont "rescue me?"
+	text "DIRECTEUR: Qui?"
+	line "Quoi? Tu es là"
+	cont "pour me sauver?"
 
-	para "Thank you!"
+	para "Merci!"
 
-	para "The RADIO TOWER!"
+	para "La TOUR RADIO!"
 
-	para "What's happening"
-	line "there?"
+	para "Que se passe-t-il"
+	line "là-bas?"
 
-	para "Taken over by TEAM"
-	line "ROCKET?"
+	para "Contrôlée par la"
+	line "TEAM ROCKET?"
 
-	para "Here. Take this"
-	line "CARD KEY."
+	para "Tiens. Prends"
+	line "cette CARTE MAGN."
 	done
 ; 0x7dc5b
 
 UnknownText_0x7dc5b: ; 0x7dc5b
-	text "DIRECTOR: Use that"
-	line "to open the shut-"
-	cont "ters on 3F."
+	text "DIRECTEUR: Utilise"
+	line "cette carte pour"
+	cont "ouvrir les volets"
+	cont "du 2ème."
 	done
 ; 0x7dc8d
 
 UnknownText_0x7dc8d: ; 0x7dc8d
-	text "I'm begging you to"
-	line "help."
+	text "Je t'en supplie<...>"
+	line "Aide-nous."
 
-	para "There's no telling"
-	line "what they'll do if"
+	para "Dieu seul sait ce"
+	line "qu'ils feront en"
 
-	para "they control the"
-	line "transmitter."
+	para "contrôlant le"
+	line "transmetteur."
 
-	para "They may even be"
-	line "able to control"
+	para "Ils pourront même"
+	line "manipuler les"
 
-	para "#MON using a"
-	line "special signal!"
+	para "#MON grâce à un"
+	line "signal spécial!"
 
-	para "You're the only"
-	line "one I can call on."
+	para "Tu es mon seul"
+	line "espoir."
 
-	para "Please save the"
-	line "RADIO TOWER<...>"
+	para "Sauve la TOUR RADIO"
+	line "RADIO<...>"
 
-	para "And all the #-"
-	line "MON nationwide!"
+	para "Sauve tous les"
+	line "gentils #MON!"
 	done
 ; 0x7dd84
 

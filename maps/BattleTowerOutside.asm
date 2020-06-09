@@ -62,35 +62,36 @@ MapBattleTowerOutsideSignpost0Script: ; 0x9f868
 ; 0x9f930
 
 UnknownText_0x9f930: ; 0x9f930
-	text "Wow, the BATTLE"
-	line "TOWER is huge!"
+	text "La TOUR DE COMBAT"
+	line "est immense!"
 
-	para "There must be many"
-	line "kinds of #MON"
-	cont "in there!"
+	para "Il doit y avoir"
+	line "plein de #MON"
+	cont "différents!"
 	done
 ; 0x9f97b
 
 UnknownText_0x9f97b: ; 0x9f97b
-	text "What on earth do"
-	line "they do here?"
+	text "Mais qu'est-ce"
+	line "qu'ils font ici?"
 
-	para "If the name says"
-	line "anything, I guess"
+	para "D'après le nom, je"
+	line "suppose que ça"
 
-	para "it must be for"
-	line "#MON battles."
+	para "doit être pour les"
+	line "combats #MON."
 	done
 ; 0x9f9db
 
 UnknownText_0x9f9db: ; 0x9f9db
-	text "Your opponents use"
-	line "the same number of"
-	cont "#MON as you."
+	text "Tes adversaires"
+	line "ont le même nombre"
+	cont "de #MON que"
+	cont "toi."
 
-	para "I wonder how many"
-	line "#MON I should"
-	cont "take<...>"
+	para "Je me demande"
+	line "combien je devrais"
+	cont "en prendre<...>"
 
 	done
 ; 0x9fa32
@@ -107,27 +108,29 @@ UnknownText_0x9f9db: ; 0x9f9db
 ; 0x9fa8c
 
 UnknownText_0x9fa8c: ; 0x9fa8c
-	text "Hehehe, I snuck"
-	line "out from work."
+	text "Héhéhé. Je me suis"
+	line "éclipsé du boulot."
 
-	para "I can't bail out"
-	line "until I've won!"
+	para "Je ne peux pas"
+	line "partir avant"
+	cont "d'avoir gagner."
 
-	para "I have to win it"
-	line "all. That I must!"
+	para "Je dois tout rem-"
+	line "porter. A tout"
+	cont "prix!"
 	done
 ; 0x9faee
 
 UnknownText_0x9faee: ; 0x9faee
-	text "BATTLE TOWER"
+	text "TOUR DE COMBAT"
 	done
 ; 0x9fafc
 
 UnknownText_0x9fafc: ; 0x9fafc
-	text "BATTLE TOWER"
+	text "TOUR DE COMBAT"
 
-	para "Take the Ultimate"
-	line "Trainer Challenge!"
+	para "Le super défi de"
+	line "tout dresseur!"
 	done
 ; 0x9fb2f
 

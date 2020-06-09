@@ -276,131 +276,135 @@ MovementData_0x1a80f5: ; 0x1a80f5
 ; 0x1a80f7
 
 UnknownText_0x1a80f7: ; 0x1a80f7
-	text "Wow, your #GEAR"
-	line "is impressive!"
+	text "Ton #MATOS est"
+	line "impressionnant!"
 
-	para "Did your mom get"
-	line "it for you?"
+	para "C'est ta MAMAN qui"
+	line "te l'as offert?"
 	done
 ; 0x1a8134
 
 UnknownText_0x1a8134: ; 0x1a8134
-	text "Oh? Are you<...>"
+	text "Oh? Es-tu<...>"
 	line "<PLAY_G><...>?"
 	done
 ; 0x1a813e
 
 UnknownText_0x1a813e: ; 0x1a813e
-	text "Your mother moved"
-	line "here not too long"
-	cont "ago."
+	text "Ta mère à déména-"
+	line "ger il n'y a pas"
+	cont "longtemps."
 
-	para "She keeps talking"
-	line "about how she lost"
-	cont "you in the S.S."
-	cont "ANNE incident."
+	para "Elle est morte"
+	line "d'inquiétude après"
+	cont "avoir perdu con-"
+	cont "tact avec toi lors"
+	cont "de l'incident à"
+	cont "l'OCEANE."
 
-	para "She'd be thrilled"
-	line "to see you made it"
-	cont "out okay!"
+	para "Elle sera soulagée"
+	line "de voir que tu vas"
+	cont "bien!"
 
-	para "Oh, it can't wait!"
-	line "Come with me!"
+	para "Suis-moi, je"
+	line "t'emmène!"
 	done
 ; 0x1a815e
 
 UnknownText_0x1a81c4: ; 0x1a81c4
-	text "Oh! Your #MON"
-	line "is adorable!"
-	cont "I wish I had one!"
+	text "Oh! Ton #MON"
+	line "est adorable!"
+	cont "J'aimerais en"
+	cont "avoir un."
 	done
 ; 0x1a81f2
 
 UnknownText_0x1a81f2: ; 0x1a81f2
-	text "Hi, <PLAY_G>!"
-	line "Leaving again?"
+	text "Salut, <PLAY_G>!"
+	line "Tu repars?"
 
-	para "You should tell"
-	line "your mom if you"
-	cont "are leaving."
+	para "Tu devrais le dire"
+	line "à ta MAMAN."
 	done
 ; 0x1a8236
 
 UnknownText_0x1a8236: ; 0x1a8236
-	text "Call your mom on"
-	line "your #GEAR to"
+	text "Appelle ta MAMAN"
+	line "sur ton #MATOS"
 
-	para "let her know how"
-	line "you're doing."
+	para "pour lui dire"
+	line "comment tu vas."
 	done
 ; 0x1a8274
 
 Text_WaitPlayer:
-	text "Wait, <PLAY_G>!"
+	text "Attends, <PLAY_G>!"
 	done
 
 Text_WhatDoYouThinkYoureDoing:
-	text "What do you think"
-	line "you're doing?"
+	text "Qu'est-ce que tu"
+	line "fais?"
 	done
 
 Text_ItsDangerousToGoAlone:
-	text "PROF.ELM is look-"
-	line "for helpers."
+	text "PROF.ORME cherche"
+	line "des assistants"
 
-	para "His lab is just to"
-	line "the north of here."
+	para "Son labo est au"
+	line "nord d'ici."
 
-	para "Why don't you go"
-	line "introduce your-"
-	cont "self to him?"
+	para "Pourquoi ne vas-tu"
+	line "pas te présenter?"
 	done
 
 UnknownText_0x1a8274: ; 0x1a8274
-	text "Yo, <PLAYER>!"
+	text "Salut, <PLAYER>!"
 
-	para "I hear PROF.ELM"
-	line "discovered some"
-	cont "new #MON."
+	para "J'ai appris que le"
+	line "PROF.ORME à décou-"
+	cont "vert de nouveaux"
+	cont "#MON."
 	done
 ; 0x1a82a6
 
 UnknownText_0x1a82a6: ; 0x1a82a6
 	text $56
 
-	para "So this is the"
-	line "famous ELM #MON"
-	cont "LAB<...>"
+	para "Voici donc le"
+	line "fameux LABO #-"
+	cont "MON du PROF.ORME<...>"
 	done
 ; 0x1a82cd
 
 UnknownText_0x1a82cd: ; 0x1a82cd
-	text "<...>What are you"
-	line "staring at?"
+	text "<...>Tu mates"
+	line "quoi là?"
 	done
 ; 0x1a82e8
 
 UnknownText_0x1a82e8: ; 0x1a82e8
-	text "NEW BARK TOWN"
+	text "BOURG GEON"
 
-	para "The Town Where the"
-	line "Winds of a New"
-	cont "Beginning Blow"
+	para "La ville soufflant"
+	line "le vent d'un"
+	cont "nouveau départ"
 	done
 ; 0x1a8328
 
 UnknownText_0x1a8328: ; 0x1a8328
-	text "<PLAYER>'s House"
+	text "MAISON DE <PLAYER>"
 	done
 ; 0x1a8332
 
 UnknownText_0x1a8332: ; 0x1a8332
-	text "ELM #MON LAB"
+	text "LABO #MON"
+	line "PROF.ORME"
 	done
 ; 0x1a8340
 
 UnknownText_0x1a8340: ; 0x1a8340
-	text "ELM'S HOUSE"
+	text "MAISON DE"
+	line "PROF.ORME"
 	done
 ; 0x1a834d
 

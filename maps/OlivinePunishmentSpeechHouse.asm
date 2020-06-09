@@ -23,22 +23,26 @@ MapOlivinePunishmentSpeechHouseSignpost0Script: ; 0x9c640
 ; 0x9c643
 
 UnknownText_0x9c643: ; 0x9c643
-	text "Along the way to"
-	line "CIANWOOD, there"
+	text "Sur le chemin vers"
+	line "IRISIA, il y a"
 
-	para "are four deserted"
-	line "islands."
+	para "quatre îles"
+	line "désertes."
 
-	para "Bad kids are taken"
-	line "to the islands as"
-	cont "punishment!"
+	para "Les petites"
+	line "canailles y sont"
+	cont "emmenées en guise"
+	cont "de punition!"
 	done
 ; 0x9c6b1
 
 UnknownText_0x9c6b1: ; 0x9c6b1
-	text "Whenever I get in"
-	line "trouble, Daddy"
-	cont "always scares me."
+	text "A chaque fois que"
+	line "je fais des"
+	cont "bêtises, papa me"
+	cont "dit qu'il va m'y"
+	cont "envoyer et moi"
+	cont "j'ai peur!"
 	done
 ; 0x9c6e5
 

@@ -56,13 +56,13 @@ RemoveBoulder_Right:
 	end
 
 MewIslandSignF1_Text: ; 0x78a52
-	text "Be careful of"
-	line "holes!"
+	text "Attention"
+	line "aux trous!"
 	done
 
 MewIsland_RightBoulder:
-	text "Maybe that dammed"
-	line "up the water?"
+	text "Est-ce que l'eau"
+	line "s'est endigué?"
 	done
 
 MewIslandF1Sign:

@@ -25,8 +25,8 @@ MapIcePathB2FMahoganySideSignpostItem0: ; 0x7e5aa
 ; 0x7e5ad
 
 UnknownText_0x7e5ad: ; 0x7e5ad
-	text "It's immovably"
-	line "imbedded in ice."
+	text "C'est bloqué dans"
+	line "la glace."
 	done
 ; 0x7e5cd
 

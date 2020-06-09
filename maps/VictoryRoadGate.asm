@@ -60,51 +60,47 @@ MovementData_0x9ba27: ; 0x9ba27
 ; 0x9ba29
 
 UnknownText_0x9ba29: ; 0x9ba29
-	text "Only trainers who"
-	line "have proven them-"
-	cont "selves may pass."
+	text "Seuls les dres-"
+	line "seurs confirmés"
+	cont "peuvent passer.."
 	done
 ; 0x9ba5f
 
 UnknownText_0x9ba5f: ; 0x9ba5f
-	text "You don't have all"
-	line "the GYM BADGES of"
-	cont "JOHTO."
+	text "Vous n'avez pas"
+	line "tous les BADGES"
+	cont "d'ARENE de JOHTO."
 
-	para "I'm sorry, but I"
-	line "can't let you go"
-	cont "through."
+	para "Vous ne pouvez pas"
+	line "passer."
 	done
 ; 0x9bab4
 
 UnknownText_0x9bab4: ; 0x9bab4
-	text "Oh! The eight"
-	line "BADGES of JOHTO!"
+	text "Oh! Les huit"
+	line "BADGES de JOHTO!"
 
-	para "Please, go right"
-	line "on through!"
+	para "Après vous!"
 	done
 ; 0x9baf1
 
 UnknownText_0x9baf1: ; 0x9baf1
-	text "This way leads to"
-	line "MT.SILVER."
+	text "Cette route mène"
+	line "au MONT ARGENT."
 
-	para "You'll see scary-"
-	line "strong #MON out"
-	cont "there."
+	para "Tu y verras des"
+	line "#MON affreu-"
+	cont "sement forts."
 	done
 ; 0x9bb37
 
 UnknownText_0x9bb37: ; 0x9bb37
-	text "Off to the #MON"
-	line "LEAGUE, are you?"
+	text "Tu vas à la LIGUE"
+	line "#MON, hein?"
 
-	para "The ELITE FOUR are"
-	line "so strong it's"
-
-	para "scary, and they're"
-	line "ready for you!"
+	para "Le CONSEIL des 4"
+	line "est super fort,"
+	cont "tu vas en baver!"
 	done
 ; 0x9bb9b
 

@@ -103,36 +103,36 @@ MovementData_RocketHideout_Simon4:
 ; <text goes here>
 
 Text_RocketHideout_Simon1:
-	text "Wha- You again?!"
+	text "Mais<...> Encore toi?!"
 
-	para "Listen, can you,"
-	line "like, get offa"
-	cont "da stairs or"
-	cont "something?"
+	para "Ecoute, tu peux"
+	line "juste, te pousser"
+	cont "des escaliers par"
+	cont "exemple?"
 
-	para "I'm in the middle"
-	line "of a big heist!"
+	para "Je suis au milieu"
+	line "d'un braquage!"
 	done
 
 Text_RocketHideout_SimonLoss:
-	text "Another failure?!"
+	text "Un autre échec?!"
 	done
 
 Text_RocketHideout_Simon2:
-	text "Aw, geez. I was"
-	line "this close."
+	text "Raah, j'y étais"
+	line "presque."
 
-	para "But the police are"
-	line "just going to beat"
-	cont "me up worse."
+	para "Mais ça risque"
+	line "d'être pire avec"
+	cont "la police."
 
-	para "I guess this isn't"
-	line "worth as much as"
-	cont "a clean getaway."
+	para "Tant pis, ça en"
+	line "vaut pas la peine."
+	cont "Je me tire."
 	done
 
 Text_RocketHideout_Simon3:
-	text "Later!"
+	text "A plus!"
 	done
 
 RocketHideout1_MapEventHeader:

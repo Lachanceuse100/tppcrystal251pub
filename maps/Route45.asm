@@ -461,127 +461,125 @@ MapRoute45SignpostItem1: ; 0x19e29e
 ; 0x19e2a1
 
 HikerErikSeenText: ; 0x19e2a1
-	text "Be prepared for"
-	line "anything!"
+	text "Il faut être prêt"
+	line "à tout!"
 
-	para "Let me see if your"
-	line "#MON have been"
-	cont "raised properly!"
+	para "Laisse moi voir si"
+	line "tu as bien élevé"
+	cont "tes #MON!"
 	done
 ; 0x19e2ef
 
 HikerErikBeatenText: ; 0x19e2ef
-	text "Oh, I lost that!"
+	text "Oh, j'ai perdu!"
 	done
 ; 0x19e301
 
 UnknownText_0x19e301: ; 0x19e301
-	text "I'll head back to"
-	line "BLACKTHORN's ICE"
+	text "Je vais retourner"
+	line "a la ROUTE DE"
 
-	para "PATH and train"
-	line "some more."
+	para "GLACE et m'entraî-"
+	line "ner plus."
 	done
 ; 0x19e33d
 
 HikerMichaelSeenText: ; 0x19e33d
-	text "Yo! You're spunky!"
-	line "But you know what?"
+	text "Tu as du cran!"
+	line "Mais tu sais quoi?"
 
-	para "When it comes to"
-	line "sheer spunkiness,"
-	cont "I'm the man!"
+	para "J'en ai plus que"
+	line "toi!"
 	done
 ; 0x19e392
 
 HikerMichaelBeatenText: ; 0x19e392
-	text "My #MON weren't"
-	line "spunky enough!"
+	text "Mes #MON n'ont"
+	line "pas assez de cran!"
 	done
 ; 0x19e3b1
 
 UnknownText_0x19e3b1: ; 0x19e3b1
-	text "Boy, do I love"
-	line "HP UP! Mmmm, yum!"
+	text "J'adore les PV"
+	line "PLUS! Miam, miam!"
 
-	para "I keep drinking my"
-	line "#MON's!"
+	para "Je bois ceux de"
+	line "mes #MON."
 
-	para "I can't help it!"
+	para "Je peux pas m'en"
+	line "empêcher!"
 	done
 ; 0x19e3fd
 
 HikerParry3SeenText: ; 0x19e3fd
-	text "My #MON are"
-	line "power packed!"
+	text "Mes #MON sont"
+	line "super boostés!"
 	done
 ; 0x19e418
 
 HikerParry3BeatenText: ; 0x19e418
-	text "Wahahah! I'm the"
-	line "big loser!"
+	text "Wahahah! Je suis"
+	line "trop nul!"
 	done
 ; 0x19e434
 
 UnknownText_0x19e434: ; 0x19e434
-	text "I'm not much good"
-	line "at thinking, see?"
+	text "C'est pas mon truc"
+	line "de réfléchir."
 
-	para "So, I just plow"
-	line "ahead with power!"
+	para "Je préfère cogner!"
 	done
 ; 0x19e47a
 
 HikerTimothySeenText: ; 0x19e47a
-	text "Why do I climb"
-	line "mountains?"
+	text "Pourquoi j'aime"
+	line "l'escalade?"
 
-	para "Because they're"
-	line "there."
+	para "Parce que j'aime"
+	line "la montagne."
 
-	para "Why do I train"
-	line "#MON?"
+	para "Pourquoi j'aime"
+	line "les #MON?"
 
-	para "Because they're"
-	line "there!"
+	para "Parce que j'aime"
+	line "combattre!"
 	done
 ; 0x19e4d6
 
 HikerTimothyBeatenText: ; 0x19e4d6
-	text "Losses<...>"
-	line "They're there too!"
+	text "Mais<...> Il y a aussi"
+	line "les défaites!"
 	done
 ; 0x19e4f1
 
 UnknownText_0x19e4f1: ; 0x19e4f1
-	text "The best thing to"
-	line "ever happen to me"
+	text "Découvrir les"
+	line "#MON est la meil-"
 
-	para "was discovering"
-	line "#MON."
+	para "leure chose qui me"
+	line "soit arrivé!"
 	done
 ; 0x19e52c
 
 UnknownText_0x19e52c: ; 0x19e52c
-	text "I just can't find"
-	line "a way to win!"
+	text "Je n'arrive pas du"
+	line "tout à gagner."
 
-	para "Keep it up!"
+	para "Continue comme ça!"
 
-	para "Oh, and take this"
-	line "--it's the gift"
+	para "Oh, voilà le ca-"
+	line "deau que je vou-"
 
-	para "you couldn't take"
-	line "when we last met."
+	para "lais te donner la"
+	line "dernière fois."
 	done
 ; 0x19e59c
 
 BlackbeltKenji3SeenText: ; 0x19e59c
-	text "I was training"
-	line "here alone."
+	text "Je m'entraîne en"
+	line "solitaire."
 
-	para "Behold the fruits"
-	line "of my labor!"
+	para "Voilà le résultat!"
 	done
 ; 0x19e5d7
 
@@ -591,114 +589,115 @@ BlackbeltKenji3BeatenText: ; 0x19e5d7
 ; 0x19e5e2
 
 UnknownText_0x19e5e2: ; 0x19e5e2
-	text "This calls for"
-	line "extreme measures."
+	text "Très bien, tu"
+	line "l'auras voulu!"
 
-	para "I must take to the"
-	line "hills and train in"
-	cont "solitude."
+	para "Je vais continuer"
+	line "mon entraînement"
+	cont "en solitaire."
 	done
 ; 0x19e634
 
 UnknownText_0x19e634: ; 0x19e634
-	text "I'm going to train"
-	line "a bit more before"
-	cont "I break for lunch."
+	text "Je vais m'entraî-"
+	line "ner un peu plus"
+	cont "avant le déjeuner."
 	done
 ; 0x19e66c
 
 UnknownText_0x19e66c: ; 0x19e66c
-	text "We had plenty of"
-	line "rest at lunch, so"
+	text "On s'est bien re-"
+	line "posés et on est"
+	cont "prêt a repartir!"
 
-	para "now we're all"
-	line "ready to go again!"
-
-	para "We're going to"
-	line "train again!"
+	para "Nous repartons"
+	line "nous entraîner!"
 	done
 ; 0x19e6cb
 
 CooltrainermRyanSeenText: ; 0x19e6cb
-	text "What are your"
-	line "thoughts on rais-"
-	cont "ing #MON?"
+	text "Comment entraînes-"
+	line "tu tes #MON?"
 	done
 ; 0x19e6f6
 
 CooltrainermRyanBeatenText: ; 0x19e6f6
-	text "You've won my"
-	line "respect."
+	text "Tu as mon respect."
 	done
 ; 0x19e70d
 
 UnknownText_0x19e70d: ; 0x19e70d
-	text "I see you're rais-"
-	line "ing your #MON"
-	cont "with care."
+	text "Je vois que tu"
+	line "prends soin de tes"
+	cont "#MON."
 
-	para "The bond you build"
-	line "will save you in"
-	cont "tough situations."
+	para "Votre amitié vous"
+	line "sauvera des situa-"
+	cont "tions difficiles."
 	done
 ; 0x19e76f
 
 CooltrainerfKellySeenText: ; 0x19e76f
-	text "What is your"
-	line "battle strategy?"
+	text "Quelle est ta"
+	line "stratégie?"
 
-	para "Mine is to build"
-	line "a team with good"
-	cont "type synergy!"
+	para "Utiliser des capa-"
+	line "cités puissantes"
+	cont "au hasard ne sert"
+	cont "à rien."
 	done
 ; 0x19e7c2
 
 CooltrainerfKellyBeatenText: ; 0x19e7c2
-	text "Fine. I lost."
+	text "D'accord. J'ai"
+	line "perdu."
 	done
 ; 0x19e7d1
 
 UnknownText_0x19e7d1: ; 0x19e7d1
-	text "The better type"
-	line "coverage you have"
-	cont "the better."
+	text "C'est mieux de se"
+	line "préparer face au"
+	cont "plus de types"
+	cont "possibles."
 	done
 ; 0x19e830
 
 UnknownText_0x19e830: ; 0x19e830
-	text "I'm really, really"
-	line "tough!"
+	text "Je suis vraiment,"
+	line "vraiment fort!"
 
-	para "Is there anywhere"
-	line "I can prove how"
-	cont "tough I really am?"
+	para "Y a t-il un en-"
+	line "droit ou je peux"
+	cont "prouver ma force?"
 	done
 ; 0x19e87f
 
 UnknownText_0x19e87f: ; 0x19e87f
-	text "I'm really, really"
-	line "tough!"
+	text "Je suis vraiment,"
+	line "vraiment fort!"
 	done
 ; 0x19e899
 
 UnknownText_0x19e899: ; 0x19e899
-	text "I was tough at the"
-	line "BATTLE TOWER<...>"
+	text "J'étais fort à la"
+	line "TOUR DE COMBAT<...>"
 	done
 ; 0x19e8bb
 
 UnknownText_0x19e8bb: ; 0x19e8bb
-	text "Have you been to"
-	line "the BATTLE TOWER?"
+	text "Tu as déjà été à"
+	line "la TOUR DE COMBAT?"
 
-	para "I never, ever lose"
-	line "there, but<...>"
+	para "Je n'ai jamais,"
+	line "jamais perdu mais<...>"
 	done
 ; 0x19e8fe
 
 UnknownText_0x19e8fe: ; 0x19e8fe
 	text "ROUTE 45"
-	line "MOUNTAIN RD. AHEAD"
+
+	para "CHEMIN de MONTAGNE"
+	line "Tout droit."
 	done
 ; 0x19e91b
 

@@ -135,77 +135,80 @@ ItemFragment_0x5a36c: ; 0x5a36c
 ; 0x5a36e
 
 CooltrainermNickSeenText: ; 0x5a36e
-	text "There are two"
-	line "kinds of people."
+	text "Il y a deux genres"
+	line "de personnes."
 
-	para "Those who have"
-	line "style, and those"
-	cont "who don't."
+	para "Ceux qui ont du"
+	line "style et ceux qui"
+	cont "n'en ont pas."
 
-	para "What kind of"
-	line "person are you?"
+	para "De quel genre"
+	line "es-tu?"
 	done
 ; 0x5a3d5
 
 CooltrainermNickBeatenText: ; 0x5a3d5
-	text "You've got"
-	line "dazzling style!"
+	text "Tu as un style"
+	line "magique!"
 	done
 ; 0x5a3f0
 
 UnknownText_0x5a3f0: ; 0x5a3f0
-	text "Your #MON style"
-	line "is stunning and"
-	cont "colorful, I admit."
+	text "Le style de ton"
+	line "#MON m'a éblou-"
+	cont "it, je l'admets."
 
-	para "You'll just keep"
-	line "getting better!"
+	para "Tu continueras de"
+	line "t'améliorer!"
 	done
 ; 0x5a444
 
 CooltrainerfGwenSeenText: ; 0x5a444
-	text "What is your"
-	line "favorite #MON?"
+	text "C'est qui ton"
+	line "#MON favori?"
 
-	para "Mine is EEVEE!"
+	para "Moi c'est EVOLI!"
 	done
 ; 0x5a467
 
 CooltrainerfGwenBeatenText: ; 0x5a467
-	text "Not too hard<...>"
+	text "Pas si fort<...>"
 	done
 ; 0x5a488
 
 UnknownText_0x5a488: ; 0x5a488
-	text "I also like all"
-	line "of EEVEE's"
-	cont "five evolutions!"
+	text "J'aime aussi les"
+	line "cinq évolutions"
+	cont "d'EVOLI!"
 	done
 ; 0x5a4b6
 
 CooltrainerfEmmaSeenText: ; 0x5a4b6
-	text "If the #MON I"
-	line "liked were there,"
-	cont "I'd go anywhere."
+	text "Si le #MON que"
+	line "j'aime était ici,"
+	cont "j'irais ou il"
+	cont "le souhaite."
 
-	para "That's what a real"
-	line "trainer does."
+	para "C'est ce que fait"
+	line "un vrai dresseur."
 	done
 ; 0x5a507
 
 CooltrainerfEmmaBeatenText: ; 0x5a507
-	text "I'd rather pet my"
-	line "babies than this!"
+	text "Je préfère chou-"
+	line "chouter mes bébés"
+	cont "que ça!"
 	done
 ; 0x5a52b
 
 UnknownText_0x5a52b: ; 0x5a52b
-	text "Just once a week,"
-	line "LAPRAS comes to"
-	cont "the water's edge."
+	text "Une fois par se-,"
+	line "maine, LOKHLASS"
+	cont "se promène au bord"
+	cont "de l'eau."
 
-	para "I got my LAPRAS"
-	line "elsewhere, though!"
+	para "Mais j'ai eu le"
+	line "mien ailleurs!"
 	done
 ; 0x5a57a
 

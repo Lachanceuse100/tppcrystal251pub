@@ -69,3 +69,4 @@ BattleTowerElevator_MapEventHeader: ; 0x9f594
 	person_event SPRITE_RECEPTIONIST, 6, 5, $9, 0, 0, -1, -1, 0, 0, 0, MovementData_0x9f58f, -1
 ; 0x9f5b1
 
+

@@ -30,59 +30,56 @@ CianwoodRockSmashManiac:
 	end
 
 RockSmashManiacBeforeText:
-	text "Woohoo!"
+	text "Yahou!"
 
-	para "I hear people call"
-	line "me the ROCK SMASH"
+	para "On m'appelle le"
+	line "gars à ECLATE-ROC"
 
-	para "guy, but I find"
-	line "that sort of de-"
-	cont "grading."
+	para "mais je trouve ça"
+	line "dégradant."
 
-	para "I think I deserve"
-	line "a bit more res-"
-	cont "pect, like maybe"
+	para "Je mérite plus de"
+	line "respect que ça!"
 
-	para "the ROCK SMASH"
-	line "DUDE."
+	para "Pourquoi pas le"
+	line "mec à ECLATE-ROC,"
+	cont "hein?"
 
-	para "Woohoo!"
+	para "Yahou!"
 
-	para "Anyways, your"
-	line "#MON look"
-	cont "pretty strong."
+	para "Bref, ton #MON"
+	line "à l'air costaud."
 
-	para "I like that!"
-	line "Here, take this"
-	cont "TM!"
+	para "J'aime ça!"
+
+	para "Tiens, prends"
+	line "cette CT!"
 	done
 
 GotRockSmashText:
-	text "Oh? You already"
-	line "have one?"
+	text "Oh? Tu en as"
+	line "déjà une?"
 
-	para "AWESOME!"
+	para "TROP BIEN!"
 	done
 
 RockSmashManiacAfterText:
-	text "That TM contains"
-	line "ROCK SMASH."
+	text "Cette CT contient"
+	line "ECLATE ROC"
 
-	para "If you come across"
-	line "large boulders"
+	para "Si tu vois des"
+	line "gros rochers qui"
 
-	para "that block your"
-	line "path<...>"
+	para "bloquent ton"
+	line "chemin<...>"
 
-	para "Well, use that TM"
-	line "move and smash"
+	para "Ben tu utilises"
+	line "cette CT et BAM!"
+	cont "Hors du chemin!"
 
-	para "them right out of"
-	line "your way!"
-
-	para "Yes, sir! Smash"
-	line "rocks aside, I"
-	cont "say! Woohoo!"
+	para "Oui! BAM les"
+	line "rochers j'ai dit"
+	cont "Yahou!"
 	done
 
 CianwoodRockSmashSpeechHouse_MapEventHeader:

@@ -227,231 +227,242 @@ MapDanceTheatreSignpost1Script: ; 0x9952b
 ; 0x9952e
 
 Kimono_girlNaoko2SeenText: ; 0x9952e
-	text "You have lovely"
-	line "#MON. May I see"
-	cont "them in battle?"
+	text "Tu as de jolis"
+	line "#MON. On peut"
+	cont "ce que ça donne"
+	cont "en combat?"
 	done
 ; 0x9955f
 
 Kimono_girlNaoko2BeatenText: ; 0x9955f
-	text "Oh, you are very"
-	line "strong."
+	text "Oh, ils ont de"
+	line "gros biscotos!"
 	done
 ; 0x99579
 
 UnknownText_0x99579: ; 0x99579
-	text "I enjoyed that"
-	line "bout. I would like"
-	cont "to see you again."
+	text "J'ai apprécié ce"
+	line "duel. On pourra"
+	cont "se revoir?"
 	done
 ; 0x995ae
 
 Kimono_girlSayoSeenText: ; 0x995ae
-	text "I always dance"
-	line "with my #MON."
+	text "Je danse toujours"
+	line "avec mes #MON."
 
-	para "Of course, I also"
-	line "train them."
+	para "Bien sûr, je les"
+	line "entraîne aussi."
 	done
 ; 0x995ea
 
 Kimono_girlSayoBeatenText: ; 0x995ea
-	text "Oh, so close!"
-	line "I almost had you."
+	text "Oh, j'ai failli"
+	line "t'avoir!"
 	done
 ; 0x9960b
 
 UnknownText_0x9960b: ; 0x9960b
-	text "Rhythm is impor-"
-	line "tant for both"
+	text "Le rythme, c'est"
+	line "important pour la"
 
-	para "dancing and #-"
+	para "danse et pour les"
 	line "MON."
 	done
 ; 0x9963f
 
 Kimono_girlZukiSeenText: ; 0x9963f
-	text "Isn't my barrette"
-	line "pretty?"
+	text "Elle est pas belle"
+	line "ma barrette?"
 
-	para "Oh. A #MON"
-	line "battle?"
+	para "Oh. Un combat de"
+	line "#MON?"
 	done
 ; 0x9966c
 
 Kimono_girlZukiBeatenText: ; 0x9966c
-	text "I don't have any"
-	line "#MON left<...>"
+	text "Je n'ai plus de"
+	line "#MON<...>"
 	done
 ; 0x99688
 
 UnknownText_0x99688: ; 0x99688
-	text "I put a different"
-	line "flower in my bar-"
-	cont "rette every month."
+	text "Tous les mois, je"
+	line "change la fleur de"
+	cont "ma barrette."
 	done
 ; 0x996c0
 
 Kimono_girlKuniSeenText: ; 0x996c0
-	text "Oh, you're a cute"
-	line "trainer. Would you"
-	cont "like to battle?"
+	text "Oh, t'es mignon"
+	line "comme dresseur!"
+
+	para "Un petit combat en"
+	line "tête à tête?"
 	done
 ; 0x996f5
 
 Kimono_girlKuniBeatenText: ; 0x996f5
-	text "You're stronger"
-	line "than you look."
+	text "Tu es plus fort"
+	line "que tu en as"
+	cont "l'air!"
 	done
 ; 0x99714
 
 UnknownText_0x99714: ; 0x99714
-	text "I trained a lot,"
-	line "so I thought I was"
+	text "Je me suis entraî-"
+	line "née d'arrache-pied"
 
-	para "a capable trainer."
-	line "I guess I'm not."
+	para "et je pensais être"
+	line "au niveau. Zut<...>"
 	done
 ; 0x9975c
 
 Kimono_girlMikiSeenText: ; 0x9975c
-	text "Do you like my"
-	line "dancing? I'm good"
-	cont "at #MON too."
+	text "Tu aimes mes pas"
+	line "de danse?"
+	
+	para "Je suis aussi"
+	line "forte en #MON."
 	done
 ; 0x9978a
 
 Kimono_girlMikiBeatenText: ; 0x9978a
-	text "Ooh, you're good"
-	line "at #MON too."
+	text "Oh, t'es pas mau-"
+	line "vais non plus."
 	done
 ; 0x997a8
 
 UnknownText_0x997a8: ; 0x997a8
-	text "I can keep dancing"
-	line "because there are"
+	text "Je continue de"
+	line "danser, les gens"
+	cont "adorent ça!"
 
-	para "people who enjoy"
-	line "what I do."
-
-	para "My #MON keep my"
-	line "spirits up too."
+	para "Mes #MON aussi."
 	done
 ; 0x9980a
 
 UnknownText_0x9980a: ; 0x9980a
-	text "Not only are the"
-	line "KIMONO GIRLS great"
+	text "Les KIMONO ne sont"
+	line "pas seulement de"
 
-	para "dancers, they're"
-	line "also skilled at"
-	cont "#MON."
+	para "bonnes danseuses,"
+	line "elles sont aussi"
+	cont "douées en #MON."
 
-	para "I always challenge"
-	line "them, but I've"
+	para "Je les défie sou-"
+	line "vent mais je ne"
 
-	para "never even left a"
-	line "scratch<...>"
+	para "leur arrive pas à"
+	line "la cheville<...>"
 	done
 ; 0x99891
 
 UnknownText_0x99891: ; 0x99891
-	text "Lad! If you can"
-	line "defeat all the"
+	text "Mon garçon, si tu"
+	line "les bats, je te"
 
-	para "KIMONO GIRLS, I'll"
-	line "give you a gift."
+	para "donnerais une"
+	line "récompense."
 	done
 ; 0x998d4
 
 UnknownText_0x998d4: ; 0x998d4
-	text "Lassie, if you can"
-	line "defeat all the"
+	text "Ma fille, si tu"
+	line "les bats, je te"
 
-	para "KIMONO GIRLS, I'll"
-	line "give you a gift."
+	para "donnerais une"
+	line "récompense."
 	done
 ; 0x9991a
 
 UnknownText_0x9991a: ; 0x9991a
-	text "The way you bat-"
-	line "tled, it was like"
-	cont "watching a dance."
+	text "La façon dont tu"
+	line "as combattu<...>"
 
-	para "It was a rare"
-	line "treat to see!"
+	para "C'était aussi joli"
+	cont "qu'une danse."
 
-	para "I want you to have"
-	line "this. Don't worry"
-	cont "--take it!"
+	para "C'était plaisant"
+	line "à voir!"
+
+	para "Je veux que tu"
+	line "acceptes ceci."
+	cont "N'aie pas peur!"
+	cont "Prends-le!"
 	done
 ; 0x9999b
 
 UnknownText_0x9999b: ; 0x9999b
-	text "That's STRENGTH."
+	text "C'est FORCE."
 
-	para "It's a move that"
-	line "lets #MON push"
-	cont "boulders."
+	para "Cette capacité"
+	line "permet aux #MON"
+	cont "de bouger des gros"
+	cont "rochers."
 
-	para "If you want to"
-	line "cross the sea,"
-	cont "you should find"
-	cont "my friend LANCE."
+	para "Si tu veux traver-"
+	line "ser les mers, tu"
+	cont "devrais t'adresser"
+	cont "à mon ami PETER."
 	done
 ; 0x999d5
 
 UnknownText_0x999d5: ; 0x999d5
-	text "I wish my #MON"
-	line "were as elegant as"
-	cont "the KIMONO GIRLS<...>"
+	text "J'aimerais que mes"
+	line "#MON soient"
+	cont "aussi élégants que"
+	cont "ceux des KIMONO<...>"
 	done
 ; 0x99a0a
 
 UnknownText_0x99a0a: ; 0x99a0a
-	text "RHYDON: Gugooh"
-	line "gugogooh!"
+	text "RHINOFEROS: Ross!"
+	line "Férrroosss!"
 	done
 ; 0x99a24
 
 UnknownText_0x99a24: ; 0x99a24
-	text "That man's always"
-	line "with his RHYDON."
+	text "Cet homme est"
+	line "toujours avec son"
+	cont "RHINOFEROS."
 
-	para "Says he wants a"
-	line "#MON that can"
-	cont "push and dance."
+	para "Il dit vouloir"
+	line "un #MON sachant"
+	cont "pousser et danser."
 
-	para "Is he trying to"
-	line "make a burly"
-	cont "ballet?"
+	para "Est-ce qu'il veut"
+	line "faire une danse"
+	cont "musclée?"
 	done
 ; 0x99aaa
 
 UnknownText_0x99aaa: ; 0x99aaa
-	text "The KIMONO GIRLS"
-	line "are so beautiful<...>"
+	text "Les KIMONO sont"
+	line "très belles<...>"
 
-	para "But they have to"
-	line "go through rigor-"
-	cont "ous training."
+	para "Mais elles doivent"
+	line "suivre un entraî-"
+	cont "nement de titan."
 
-	para "And they have to"
-	line "learn to follow"
+	para "Elles doivent"
+	line "apprendre à suivre"
 
-	para "customs before ap-"
-	line "pearing in public."
+	para "des règles avant"
+	line "de se montrer en"
+	cont "public."
 
-	para "But if you love"
-	line "something, any-"
-	cont "thing is possible."
+	para "Mais quand tu"
+	line "aimes quelque"
+	cont "chose, tout est"
+	cont "possible."
 	done
 ; 0x99b79
 
 UnknownText_0x99b79: ; 0x99b79
-	text "It's a fancy panel"
-	line "that's decorated"
-	cont "with flowers."
+	text "C'est un joli"
+	line "paravent décoré"
+	cont "de fleurs."
 	done
 ; 0x99baa
 

@@ -35,40 +35,39 @@ MapLakeofRageHiddenPowerHouseSignpost1Script: ; 0x19a548
 ; 0x19a54b
 
 UnknownText_0x19a54b: ; 0x19a54b
-	text "<...>You have strayed"
-	line "far<...>"
+	text "<...>Tu as bien"
+	line "voyagé<...>"
 
-	para "Here I have medi-"
-	line "tated. Inside me,"
+	para "J'ai médité ici."
+	line "Au fond de moi,"
 
-	para "a new power has"
-	line "been awakened."
+	para "une nouvelle force"
+	line "s'est réveillée."
 
-	para "Let me share my"
-	line "power with your"
+	para "Laisse-moi parta-"
+	line "ger mon pouvoir"
 
-	para "#MON."
-	line "Take this, child."
+	para "avec tes #MON."
+	line "Prends-ceci."
 	done
 ; 0x19a5de
 
 UnknownText_0x19a5de: ; 0x19a5de
-	text "Do you see it? It"
-	line "is HIDDEN POWER!"
+	text "Le vois-tu? C'est"
+	line "PUIS.CACHEE"
 
-	para "It draws out the"
-	line "power of #MON"
-	cont "for attacking."
+	para "Elle tire la force"
+	line "intérieure de tes"
+	cont "#MON."
 
-	para "Remember this:"
-	line "its type depends"
-	cont "on the #MON"
-	cont "using it."
+	para "Le type est diffé-"
+	line "rent et unique"
+	cont "à chaque #MON."
 	done
 ; 0x19a673
 
 UnknownText_0x19a673: ; 0x19a673
-	text "I am meditating<...>"
+	text "Je médite<...>"
 	done
 ; 0x19a685
 

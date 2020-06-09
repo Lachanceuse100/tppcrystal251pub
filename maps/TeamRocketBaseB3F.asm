@@ -416,269 +416,277 @@ MovementData_0x6e175: ; 0x6e175
 ; 0x6e179
 
 UnknownText_0x6e179: ; 0x6e179
-	text "LANCE: It takes"
-	line "two passwords to"
+	text "PETER: Il faut 2"
+	line "mots de passe pour"
 
-	para "get into the"
-	line "boss's quarters."
+	para "entrer chez le"
+	line "boss."
 
-	para "Those passwords"
-	line "are known only to"
-	cont "a few ROCKETS."
+	para "Seuls certains"
+	line "ROCKETS les con-"
+	cont "naissent."
 
-	para "That ROCKET there"
-	line "very graciously"
-	cont "told me so."
+	para "Ce ROCKET m'a ap-"
+	line "pris tout ça très"
+	cont "gentiment."
 
-	para "<PLAY_G>, let's go"
-	line "get the passwords."
+	para "<PLAY_G>, allons"
+	line "trouver les mots"
+	cont "de passe!"
 	done
 ; 0x6e235
 
 UnknownText_0x6e235: ; 0x6e235
-	text "Urrggh<...> The guy"
-	line "in the cape is"
-	cont "incredibly tough<...>"
+	text "Gueuuh<...> Ce type"
+	line "avec la cape est"
+	cont "trop balèze<...>"
 	done
 ; 0x6e267
 
 UnknownText_0x6e267: ; 0x6e267
 	text "<...>"
 
-	para "Didn't I tell you"
-	line "that I was going"
+	para "Je t'avais pas dit"
+	line "que ce serait moi"
 
-	para "to destroy TEAM"
-	line "ROCKET?"
+	para "qui détruirait la"
+	line "TEAM ROCKET?"
 
-	para "<...>Tell me, who was"
-	line "the guy in the"
+	para "Dis moi, c'est qui"
+	line "le type avec la"
 
-	para "cape who used"
-	line "dragon #MON?"
+	para "cape aux #MON"
+	line "DRAGON?"
 
-	para "My #MON were no"
-	line "match at all."
+	para "My #MON se sont"
+	line "fait allumer."
 
-	para "I don't care that"
-	line "I lost. I can beat"
+	para "Mais c'est pas"
+	line "grave. Je l'aurais"
 
-	para "him by getting"
-	line "stronger #MON."
+	para "avec des meilleurs"
+	line "#MON."
 
-	para "It's what he said"
-	line "that bothers me<...>"
+	para "C'est ce qu'il a"
+	line "dit qui me"
+	cont "perturbe<...>"
 
-	para "He told me that"
-	line "I don't love and"
+	para "Il raconte que je"
+	line "ne fais pas con-"
 
-	para "trust my #MON"
-	line "enough."
+	para "fiance à mes"
+	line "#MON."
 
-	para "I'm furious that I"
-	line "lost to a bleeding"
-	cont "heart like him."
+	para "Comment j'ai pu"
+	line "perdre face a un"
+	cont "type pareil!"
 
-	para "<...>Humph! I don't"
-	line "have the time for"
-	cont "the likes of you!"
+	para "<...>Pff! Allez"
+	line "dégage, j'ai pas"
+	cont "le temps pour toi!"
 	done
 ; 0x6e400
 
 UnknownText_0x6e400: ; 0x6e400
-	text "What? Who are you?"
-	line "This is the office"
+	text "Hein? Qui va là?"
+	line "C'est le bureau de"
 
-	para "of our leader,"
+	para "notre chef vénéré,"
 	line "GIOVANNI."
 
-	para "Since disbanding"
-	line "TEAM ROCKET three"
+	para "Depuis la dissolu-"
+	line "tion de la TEAM"
 
-	para "months ago, he has"
-	line "been in training."
+	para "ROCKET il y a 3"
+	line "moi, il s'entraîne"
+	cont "en solo."
 
-	para "But we're certain"
-	line "he will be back"
+	para "Mais il reviendra"
+	line "prendre le pouvoir"
 
-	para "some day to assume"
-	line "command again."
+	para "un jour, c'est"
+	line "sûr!"
 
-	para "That's why we're"
-	line "standing guard."
+	para "C'est pourquoi"
+	line "nous sommes fidè-"
+	cont "les au poste."
 
-	para "I won't let any-"
-	line "one disturb this"
-	cont "place!"
+	para "Je ne laisserai"
+	line "passer aucun"
+	cont "intrus!"
 	done
 ; 0x6e511
 
 UnknownText_0x6e511: ; 0x6e511
-	text "I<...> I couldn't do a"
-	line "thing<...>"
+	text "Im<...> Impossible<...>"
 
-	para "GIOVANNI, please"
-	line "forgive me<...>"
+	para "Pardonnez-moi"
+	line "GIOVANNI!"
 	done
 ; 0x6e548
 
 UnknownText_0x6e548: ; 0x6e548
-	text "No, I can't let"
-	line "this affect me."
+	text "Non, je ne me lai-"
+	line "sserai pas faire."
 
-	para "I have to inform"
-	line "the others<...>"
+	para "Je dois vite pré-"
+	line "venir les autres!"
 	done
 ; 0x6e585
 
 UnknownText_0x6e585: ; 0x6e585
-	text "MURKROW: The"
-	line "password is<...>"
+	text "CORNEBRE: Le mot"
+	line "de passe est<...>"
 
-	para "HAIL GIOVANNI."
+	para "VIVE GIOVANNI."
 	done
 ; 0x6e5af
 
 GruntF5SeenText: ; 0x6e5af
-	text "Do I know the"
-	line "password?"
+	text "Si je connais le"
+	line "mot de passe?"
 
-	para "Maybe."
+	para "Peut-être."
 
-	para "But no weakling's"
-	line "going to get it!"
+	para "Mais t'es trop"
+	line "faible pour"
+	cont "l'avoir!"
 	done
 ; 0x6e5f1
 
 GruntF5BeatenText: ; 0x6e5f1
-	text "I failed the"
-	line "EXECUTIVE<...>"
+	text "Pardonnez-moi"
+	line "commandant<...>"
 	done
 ; 0x6e611
 
 UnknownText_0x6e611: ; 0x6e611
-	text "The password to"
-	line "the boss's room is"
+	text "Le mot de passe de"
+	line "la salle du chef"
+	cont "est<...>"
 
-	para "SLOWPOKETAIL."
+	para "QUEUERAMOLOS."
 
-	para "But it's useless"
-	line "unless you have"
-	cont "two passwords."
+	para "Mais ça te sert à"
+	line "rien sans l'autre"
+	cont "mot de passe."
 	done
 ; 0x6e671
 
 GruntM28SeenText: ; 0x6e671
-	text "Hyuck-hyuck-hyuck!"
+	text "Gnyark Gnyark!"
 
-	para "You're challenging"
-	line "me to a battle?"
+	para "Tu me lances un"
+	line "défi? A moi? T'es"
 
-	para "Hah! You're nuts,"
-	line "but you have guts!"
+	para "débile mais t'as"
+	line "du cran!"
 
-	para "I like that!"
+	para "J'aime ça!"
 
-	para "If you can beat"
-	line "me, I'll tell you"
+	para "Si tu me bats, je"
+	line "te donnerais un"
 
-	para "a password to the"
-	line "boss's room!"
+	para "des mots de passe"
+	line "de la salle du"
+	cont "chef!"
 	done
 ; 0x6e717
 
 GruntM28BeatenText: ; 0x6e717
-	text "Hyuck-hyuck-hyuck!"
-	line "You're good!"
+	text "Gnyark!"
+	line "Pas mal!"
 	done
 ; 0x6e737
 
 UnknownText_0x6e737: ; 0x6e737
-	text "Hyuck-hyuck-hyuck!"
+	text "Gnyark Gnyark!"
 
-	para "The password to"
-	line "the boss's room<...>"
+	para "Le mot de passe"
+	line "est<...>"
 
-	para "Uh<...>, I think it is"
-	line "RATICATE TAIL."
+	para "Heu<...> QUEUE"
+	line "RATTATAC je crois."
 	done
 ; 0x6e78d
 
 ScientistRossSeenText: ; 0x6e78d
-	text "I used to work for"
-	line "SILPH, but now I"
+	text "Je travaillais"
+	line "pour la SYLPHE"
 
-	para "run research for"
-	line "TEAM ROCKET."
+	para "mais maintenant je"
+	line "suis pour la"
+	cont "TEAM ROCKET."
 
-	para "A meddlesome child"
-	line "like you needs to"
-	cont "be punished."
+	para "Une peste comme"
+	line "toi ne mérite"
+	cont "qu'une punition."
 	done
 ; 0x6e802
 
 ScientistRossBeatenText: ; 0x6e802
-	text "A mere tactical"
-	line "error cost me<...>"
+	text "Erreur de calcul<...>"
 	done
 ; 0x6e822
 
 UnknownText_0x6e822: ; 0x6e822
-	text "A radio signal"
-	line "that drives #-"
-	cont "MON mad<...>"
+	text "Un signal radio"
+	line "qui rend les #-"
+	cont "MON fous<...>"
 
-	para "My experiment is a"
-	line "complete success."
+	para "Cette expérience"
+	line "est une réussite!"
 
-	para "Together with our"
-	line "secret weapon,"
+	para "Avec notre arme"
+	line "secrète, rien ne"
 
-	para "nothing will stop"
+	para "pourra arrêter la"
 	line "TEAM ROCKET!"
 	done
 ; 0x6e8ac
 
 ScientistMitchSeenText: ; 0x6e8ac
-	text "I genetically"
-	line "engineer plants!"
+	text "Je modifie généti-"
+	line "quement des"
+	cont "plantes."
 	done
 ; 0x6e8df
 
 ScientistMitchBeatenText: ; 0x6e8df
-	text "Thinking is my"
-	line "strong suit, not"
-	cont "battling."
+	text "Moi je pense, je"
+	line "me bats pas."
 	done
 ; 0x6e90a
 
 UnknownText_0x6e90a: ; 0x6e90a
-	text "If we turn up the"
-	line "power of our radio"
+	text "Si l'on augmente"
+	line "la puissance de"
+	cont "l'émission a tra-"
+	cont "vers le pays<...>"
 
-	para "signal for broad-"
-	line "cast nationwide<...>"
-
-	para "The very thought"
-	line "excites me!"
+	para "Ohhh, l'idée"
+	line "m'excite!"
 	done
 ; 0x6e970
 
 UnknownText_0x6e970: ; 0x6e970
-	text "The door's closed<...>"
+	text "La porte est"
+	line "fermée<...>"
 
-	para "It needs two"
-	line "passwords to open."
+	para "Il faut deux mots"
+	line "de passe."
 	done
 ; 0x6e9a3
 
 UnknownText_0x6e9a3: ; 0x6e9a3
-	text "The door's closed<...>"
+	text "La porte est"
+	line "fermée<...>"
 
-	para "<PLAYER> entered"
-	line "the two passwords."
+	para "<PLAYER> rentre les"
+	line "deux mots de"
+	cont "passe."
 
-	para "The door opened!"
+	para "La porte s'ouvre!"
 	done
 ; 0x6e9e4
 

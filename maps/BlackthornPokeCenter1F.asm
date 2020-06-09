@@ -23,30 +23,32 @@ CooltrainerMScript_0x195b82: ; 0x195b82
 ; 0x195b85
 
 UnknownText_0x195b85: ; 0x195b85
-	text "Deep inside far-"
-	line "off INDIGO PLATEAU"
+	text "Au fin fond du"
+	line "PLATEAU INDIGO se"
 
-	para "is the #MON"
-	line "LEAGUE."
+	para "trouve la LIGUE"
+	line "#MON."
 
-	para "I hear the best"
-	line "trainers gather"
+	para "On dit que seuls"
+	line "les meilleurs"
 
-	para "there from around"
-	line "the country."
+	para "dresseurs du coin"
+	line "s'y rassemblent."
 	done
 ; 0x195bfd
 
 UnknownText_0x195bfd: ; 0x195bfd
-	text "There was this"
-	line "move I just had"
+	text "Il y avait une"
+	line "capacité que je"
 
-	para "to teach my #-"
-	line "MON."
+	para "voulais donner à"
+	line "mon #MON<...>"
 
-	para "So I got the MOVE"
-	line "DELETER to make it"
-	cont "forget an HM move."
+	para "Alors j'ai demandé"
+	line "a l'EFFACEUR DE"
+	cont "CAPACITES de lui"
+	cont "faire oublier une"
+	cont "CS."
 	done
 ; 0x195c69
 

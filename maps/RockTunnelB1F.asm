@@ -49,3 +49,4 @@ RockTunnelB1F_MapEventHeader: ; 0x74412
 	person_event SPRITE_POKE_BALL, 6, 19, $1, 0, 0, -1, -1, 0, 1, 0, ItemFragment_0x7440d, EVENT_ITEM_ROCKTUNNELB1F_REVIVE
 ; 0x74458
 
+

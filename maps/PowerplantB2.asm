@@ -109,43 +109,45 @@ DontKillZapdos:
 	end
 
 ZapdosText1:
-	text "ZAPDOS: Bizaaah!"
+	text "ELECTHOR: Yaaaah!"
 	done
 
 GeneratorTextOnline:
-	text "The generator"
-	line "hums loudly."
+	text "Le générateur"
+	line "bourdonne fort."
 
-	para "Better not touch"
-	line "anything<...>"
+	para "Mieux vaut ne rien"
+	line "toucher<...>"
 	done
 
 GeneratorTextSuccess:
-	text "The generator"
-	line "roared to life."
+	text "Le générateur"
+	line "rugit d'un coup!"
 
-	para "START-UP SEQUENCE:"
-	line "CONTINUING"
+	para "SEQUENCE DE"
+	line "DEMARRAGE:"
+	cont "EN COURS."
 	done
 
 GeneratorTextFail:
-	text "The generator"
-	line "failed to start."
+	text "Le générateur n'a"
+	line "pas démarré."
 
-	para "START-UP SEQUENCE:"
-	line "FAILURE"
+	para "SEQUENCE DE"
+	line "DEMARRAGE:"
+	cont "ECHEC."
 
-	para "POWER ORDER BROKEN"
+	para "MAUVAIS ORDRE."
 
-	para "ALL GENERATORS"
-	line "SHUTTING DOWN<...>"
+	para "EXTINCTION DES"
+	line "GENERATEURS<...>"
 	done
 
 GeneratorTextCompleted:
-	text "SECURITY OVERRIDE"
-	line "ACTIVATED."
+	text "SECURITE"
+	line "DESACTIVEE."
 
-	para "ACCESS GRANTED."
+	para "ACCES AUTORISE."
 	done
 
 GeneratorOnScript:

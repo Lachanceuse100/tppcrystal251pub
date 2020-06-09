@@ -46,3 +46,4 @@ TinTower5F_MapEventHeader: ; 0x185ab1
 	person_event SPRITE_POKE_BALL, 13, 13, $1, 0, 0, -1, -1, 0, 1, 0, ItemFragment_0x185aa9, EVENT_ITEM_TIN_TOWER_5F_RARE_CANDY
 ; 0x185ae2
 
+

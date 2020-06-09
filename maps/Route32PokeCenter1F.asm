@@ -47,57 +47,56 @@ CooltrainerFScript_0x69b80: ; 0x69b80
 ; 0x69b83
 
 UnknownText_0x69b83: ; 0x69b83
-	text "This is a great"
-	line "fishing spot."
+	text "C'est un bon en-"
+	line "droit pour pêcher."
 
-	para "You saw people"
-	line "fishing? How"
-	cont "about you?"
+	para "Tu as vu des"
+	line "pêcheurs? Tu veux"
+	cont "t'y mettre?"
 
-	para "Would you like one"
-	line "of my RODS?"
+	para "Tu veux une de mes"
+	line "CANNES?"
 	done
 ; 0x69be8
 
 UnknownText_0x69be8: ; 0x69be8
-	text "Heh, that's good"
-	line "to hear."
+	text "Ha! J'aime"
+	line "entendre ça!"
 
-	para "Now you're an"
-	line "angler too!"
+	para "Toi aussi tu es"
+	line "un vrai pêcheur!"
 	done
 ; 0x69c1b
 
 UnknownText_0x69c1b: ; 0x69c1b
-	text "Fishing is great!"
+	text "Pêcher c'est top!"
 
-	para "If there's water,"
-	line "be it the sea or a"
+	para "Si il y a de l'eau"
+	line "de mer ou d'une"
 
-	para "stream, try out"
-	line "your ROD."
+	para "rivière, sort"
+	line "ta CANNE."
 	done
 ; 0x69c6c
 
 UnknownText_0x69c6c: ; 0x69c6c
-	text "Oh. That's rather"
-	line "disappointing<...>"
+	text "C'est bien"
+	line "dommage<...>"
 	done
 ; 0x69c8d
 
 UnknownText_0x69c8d: ; 0x69c8d
-	text "Yo, kid. How are"
-	line "they biting?"
+	text "Salut, ça mord?"
 	done
 ; 0x69cac
 
 UnknownText_0x69cac: ; 0x69cac
-	text "What should I make"
-	line "my #MON hold?"
+	text "Que dois-je donner"
+	line "à mon #MON?"
 
-	para "Maybe an item that"
-	line "increases ATTACK"
-	cont "power<...>"
+	para "Peut-être un objet"
+	line "qui augmente sa"
+	cont "puissance<...>"
 	done
 ; 0x69cf9
 

@@ -65,50 +65,51 @@ SailorKentScript: ; 0x5b50a
 ; 0x5b512
 
 SailorKentSeenText: ; 0x5b512
-	text "JASMINE must be"
-	line "worried sick about"
-	cont "the #MON here."
+	text "JASMINE doit"
+	line "s'inquiéter à pro-"
+	cont "pos du #MON."
 
-	para "She won't even"
-	line "smile these days."
+	para "Elle ne sourit"
+	line "même plus<...>"
 	done
 ; 0x5b565
 
 SailorKentBeatenText: ; 0x5b565
-	text "I can't manage a"
-	line "smile either<...>"
+	text "Je souris plus non"
+	line "plus<...>"
 	done
 ; 0x5b584
 
 UnknownText_0x5b584: ; 0x5b584
-	text "Speaking of sick,"
-	line "I've heard there's"
+	text "Au fait, je crois"
+	line "qu'il y a une"
 
-	para "a good PHARMACY in"
-	line "CIANWOOD."
+	para "bonne PHARMACIE à"
+	line "IRISIA."
 	done
 ; 0x5b5c5
 
 LassConnie1SeenText: ; 0x5b5c5
-	text "I am visiting from"
-	line "northern JOHTO."
+	text "Je viens du nord"
+	line "de JOHTO"
 
-	para "It gets very"
-	line "cold there!"
+	para "Il fait très froid"
+	line "là-bas!"
 	done
 ; 0x5b62b
 
 LassConnie1BeatenText: ; 0x5b62b
-	text "Maybe I should"
-	line "teach DELIBIRD"
-	cont "some new moves<...>"
+	text "Je devrais appren-"
+	line "dre de nouvelles"
+	cont "attaques à"
+	cont "CADOIZO<...>"
 	done
 ; 0x5b63c
 
 UnknownText_0x5b63c: ; 0x5b63c
-	text "DELIBIRD lives in"
-	line "the north due to"
-	cont "colder climates!"
+	text "CADOIZO vit dans"
+	line "le nord où le cli-"
+	cont "mat est froid."
 	done
 ; 0x5b6c0
 

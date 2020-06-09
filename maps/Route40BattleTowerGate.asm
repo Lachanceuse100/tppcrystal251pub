@@ -24,57 +24,58 @@ TwinScript_0x9f66c: ; 0x9f66c
 ; 0x9f66f
 
 UnknownText_0x9f66f: ; 0x9f66f
-	text "Did you come to"
-	line "see the BATTLE"
-	cont "TOWER too?"
+	text "Toi aussi tu es"
+	line "là pour voir la"
+	cont "TOUR DE COMBAT?"
 
-	para "But I guess you"
-	line "can't go in yet."
+	para "Mais on ne peut"
+	line "pas encore y"
+	cont "aller."
 	done
 ; 0x9f6ba
 
 UnknownText_0x9f6ba: ; 0x9f6ba
-	text "BATTLE TOWER has"
-	line "opened."
+	text "La TOUR DE COMBAT"
+	line "est ouverte."
 
-	para "I want to go, but"
-	line "I haven't thought"
+	para "Je veux y aller"
+	line "mais je n'ai pas"
 
-	para "up a cool line for"
-	line "when I win."
+	para "pensé à une bonne"
+	line "phrase de"
+	cont "victoire<...>"
 	done
 ; 0x9f716
 
 UnknownText_0x9f716: ; 0x9f716
-	text "Are you going to"
-	line "the BATTLE TOWER?"
+	text "Tu vas à la"
+	line "TOUR DE COMBAT?"
 
-	para "This is a secret,"
-	line "but if you win a"
+	para "C'est un secret"
+	line "mais si tu gagnes"
 
-	para "whole lot, you can"
-	line "win special gifts."
+	para "plein de fois, tu"
+	line "peux remporter des"
+	cont "trucs spéciaux."
 	done
 ; 0x9f783
 
 UnknownText_0x9f783: ; 0x9f783
-	text "I'm going to train"
-	line "my #MON so I'll"
+	text "Je vais entraîner"
+	line "mon #MON pour"
 
-	para "be all ready for"
-	line "the BATTLE TOWER."
+	para "être prêt pour la"
+	line "TOUR DE COMBAT."
 	done
 ; 0x9f7c8
 
 UnknownText_0x9f7c8: ; 0x9f7c8
-	text "The levels of the"
-	line "#MON I want to"
+	text "Mes #MON ont"
+	line "tous des niveaux"
+	cont "différents<...>"
 
-	para "use are all"
-	line "different."
-
-	para "I have to go train"
-	line "them now!"
+	para "Je dois les"
+	line "entraîner!"
 	done
 ; 0x9f81e
 

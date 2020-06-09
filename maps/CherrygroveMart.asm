@@ -36,34 +36,35 @@ YoungsterScript_0x196831: ; 0x196831
 ; 0x196834
 
 UnknownText_0x196834: ; 0x196834
-	text "They're fresh out"
-	line "of # BALLS!"
+	text "Ils sont à court"
+	line "de # BALLS!"
 
-	para "When will they get"
-	line "more of them?"
+	para "Quand est-ce qu'"
+	line "ils seront livrés?"
 	done
 ; 0x196873
 
 UnknownText_0x196873: ; 0x196873
-	text "# BALLS are in"
-	line "stock! Now I can"
-	cont "catch #MON!"
+	text "Il y a enfin des"
+	line "# BALLS en stock!"
+	cont "A moi les #MON!"
 	done
 ; 0x1968a0
 
 UnknownText_0x1968a0: ; 0x1968a0
-	text "When I was walking"
-	line "in the grass, a"
+	text "Un #MON INSECTE"
+	line "nous a attaqué et"
 
-	para "bug #MON poi-"
-	line "soned my #MON!"
+	para "a empoisonné mon"
+	line "#MON!"
 
-	para "It was terrifying<...>"
-	line "My #MON almost"
-	cont "fainted!"
+	para "J'ai eu très peur<...>"
+	line "Mon #MON est"
+	cont "presque tombé K.O!"
 
-	para "You should keep an"
-	line "ANTIDOTE with you."
+	para "Sors toujours avec"
+	line "des ANTIDOTES sur"
+	cont "toi."
 	done
 ; 0x196934
 

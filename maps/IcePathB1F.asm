@@ -92,8 +92,8 @@ MapIcePathB1FSignpostItem0: ; 0x7e50f
 
 
 UnknownText_0x7e512: ; 0x7e512
-	text "The boulder fell"
-	line "through."
+	text "Le rocher est"
+	line "tombé."
 	done
 ; 0x7e52d
 

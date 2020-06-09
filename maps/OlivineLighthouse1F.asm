@@ -118,30 +118,30 @@ PokefanFScript_0x5ae6a: ; 0x5ae6a
 
 
 OlivineLighthouse1F_BurglarSimonText1:
-	text "Hey, I remember"
-	line "you!"
+	text "Hé, je me souviens"
+	line "de toi!"
 
-	para "You did a number"
-	line "on me back in"
-	cont "AZALEA TOWN."
+	para "Tu m'as fais la"
+	line "fête a ECORCIA!"
 	done
 
 OlivineLighthouse1F_BurglarSimonTextLoss:
-	text "Too much!"
+	text "C'est trop!"
 	done
 
 OlivineLighthouse1F_BurglarSimonText2:
-	text "While searching"
-	line "for my partner,"
+	text "J'ai ramassé des"
+	line "trucs en solo pen-"
 
-	para "I did some looting"
-	line "solo."
+	para "dant que je"
+	line "cherchais mon"
+	cont "partenaire."
 
-	para "I'm no good at it,"
-	line "though."
+	para "Mais moi je suis"
+	line "pas doué."
 
-	para "All I've found was"
-	line "this garbage."
+	para "J'ai trouvé que"
+	line "ce déchet!"
 	done
 
 OlivineLighthouse1F_BurglarSimonText3:
@@ -149,25 +149,26 @@ OlivineLighthouse1F_BurglarSimonText3:
 	done
 
 UnknownText_0x5ae6d: ; 0x5ae6d
-	text "People train at"
-	line "this LIGHTHOUSE."
+	text "Les gens s'entraî-"
+	line "nent au PHARE."
 
-	para "It's not easy to"
-	line "climb because of"
-	cont "all the trainers."
+	para "Y monter est dur à"
+	line "cause de tous les"
+	cont "dresseurs."
 	done
 ; 0x5aec2
 
 UnknownText_0x5aec2: ; 0x5aec2
-	text "In the past, #-"
-	line "MON used to light"
+	text "Il y a longtemps,"
+	line "des #MON illu-"
 
-	para "the sea around"
-	line "OLIVINE at night."
+	para "minaient les mers"
+	line "autour d'OLIVILLE."
 
-	para "The LIGHTHOUSE was"
-	line "made in honor of"
-	cont "those #MON."
+	para "Le PHARE a été"
+	line "construit en"
+	cont "hommage à ces"
+	cont "#MON."
 	done
 ; 0x5af36
 

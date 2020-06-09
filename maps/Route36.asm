@@ -513,225 +513,226 @@ MovementData_0x194262: ; 0x194262
 ; 0x19426b
 
 UnknownText_0x19426b: ; 0x19426b
-	text "It's a weird tree."
-	line "Use SQUIRTBOTTLE?"
+	text "Un arbre étrange<...>"
+	line "Utiliser le"
+	cont "CARAPUCE'A'O?"
 	done
 ; 0x194290
 
 UnknownText_0x194290: ; 0x194290
-	text "<PLAYER> used the"
-	line "SQUIRTBOTTLE."
+	text "<PLAYER> utilise le"
+	line "CARAPUCE'A'O."
 	done
 ; 0x1942aa
 
 UnknownText_0x1942aa: ; 0x1942aa
-	text "The weird tree"
-	line "doesn't like the"
-	cont "SQUIRTBOTTLE!"
+	text "Il n'aime pas"
+	line "le CARAPUCE'A'O!"
 
-	para "The weird tree"
-	line "attacked!"
+	para "L'arbre bizarre"
+	line "attaque!"
 	done
 ; 0x1942f1
 
 UnknownText_0x1942f1: ; 0x1942f1
-	text "I'm the FLOWER"
-	line "SHOP's FLORIA!"
+	text "Je suis FLORA la"
+	line "fleuriste."
 
-	para "Listen, listen!"
+	para "Ecoute, écoute!"
 
-	para "When I sprinkled"
-	line "water on that"
+	para "J'ai arrosé de"
+	line "l'eau sur cet"
 
-	para "wiggly tree, it"
-	line "jumped right up!"
+	para "arbre gigoteur,"
+	line "il a sursauté!"
 
-	para "It just has to be"
-	line "a #MON."
+	para "Ca doit être un"
+	line "#MON."
 
-	para "I bet it would be"
-	line "shocked out of its"
+	para "Je parie qu'il"
+	line "tombera son masque"
+	cont "si tu le mouilles!"
 
-	para "disguise if you"
-	line "soaked it!"
-
-	para "I know! I'll tell"
-	line "my sis and borrow"
-	cont "her water bottle!"
+	para "Je sais! Je vais"
+	line "le dire à ma soeur"
+	cont "et emprunter sa"
+	cont "bouteille!"
 	done
 ; 0x1943ed
 
 UnknownText_0x1943ed: ; 0x1943ed
-	text "When I told my sis"
-	line "about the jiggly"
+	text "Quand j'ai parlé"
+	line "de l'arbre à ma"
 
-	para "tree, she said"
-	line "it's dangerous."
+	para "soeur, elle a dit"
+	line "que c'était"
+	cont "dangereux."
 
-	para "If I beat WHITNEY,"
-	line "I wonder if she'll"
+	para "Si je bat BLANCHE,"
+	line "elle me prêtera"
 
-	para "lend me her water"
-	line "bottle<...>"
+	para "peut-être sa"
+	line "bouteille d'eau<...>"
 	done
 ; 0x19446f
 
 UnknownText_0x19446f: ; 0x19446f
-	text "Wa-hey!"
+	text "Yaaaah!"
 
-	para "I was going to"
-	line "snap that tree"
+	para "J'allais exploser"
+	line "cet arbre avec mon"
+	cont "poing du dragon!"
 
-	para "with my straight-"
-	line "arm punch."
-
-	para "But I couldn't!"
-	line "I'm a failure!"
+	para "Mais ça ne marche"
+	line "pas. Je suis nul!"
 	done
 ; 0x1944d0
 
 UnknownText_0x1944d0: ; 0x1944d0
-	text "Did you clear that"
-	line "wretched tree?"
+	text "Tu as débarassé ce"
+	line "maudit arbre?"
 
-	para "I'm impressed!"
-	line "I want you to"
-	cont "have this."
+	para "Impressionnant!"
+	line "Je veux te donner"
+	cont "ça."
 	done
 ; 0x19451a
 
 UnknownText_0x19451a: ; 0x19451a
-	text "<PLAYER> received"
-	line "TM15."
+	text "<PLAYER> reçoit"
+	line "CT15."
 	done
 ; 0x19452c
 
 UnknownText_0x19452c: ; 0x19452c
-	text "That happens to be"
-	line "HYPER BEAM."
+	text "Elle contient"
+	line "ULTRALASER."
 
-	para "It's a very strong"
-	line "attack, but your"
-	para "#MON needs a"
-	line "rest afterwards."
+	para "C'est une attaque"
+	line "très puissante"
+
+	para "mais ton #MON"
+	line "doit se reposer le"
+	cont "tour d'après."
 	done
 ; 0x1945b8
 
 UnknownText_0x1945b8: ; 0x1945b8
-	text "An odd tree is"
-	line "blocking the way"
-	cont "to GOLDENROD CITY."
+	text "Un arbre bizarre"
+	line "bloque le chemin"
+	cont "vers DOUBLONVILLE."
 
-	para "I wanted to go see"
-	line "the huge #MON"
+	para "Je voulais voir le"
+	line "grand centre #-"
 
-	para "CENTER they just"
-	line "opened<...>"
+	para "MON qu'ils ont"
+	line "ouvert<...>"
 	done
 ; 0x194626
 
 UnknownText_0x194626: ; 0x194626
-	text "An odd tree is"
-	line "blocking the way"
-	cont "to GOLDENROD CITY."
+	text "Un arbre bizarre"
+	line "bloque le chemin"
+	cont "vers DOUBLONVILLE."
 
-	para "It's preventing"
-	line "me from shopping."
+	para "Il m'empêche de"
+	line "faire les courses."
 
-	para "Something should"
-	line "be done about it."
+	para "Que quelqu'un"
+	line "fasse quelque"
+	cont "chose!"
 	done
 ; 0x19469e
 
 UnknownText_0x19469e: ; 0x19469e
-	text "That odd tree dis-"
-	line "appeared without a"
-	cont "trace."
+	text "Cet arbre a dispa-"
+	line "ru sans laisser de"
+	cont "traces."
 
-	para "Oh! That tree was"
-	line "really a #MON?"
+	para "Oh! Cet arbre"
+	line "était un #MON?"
 	done
 ; 0x1946ed
 
 PsychicMarkSeenText: ; 0x1946ed
-	text "I'm going to read"
-	line "your thoughts!"
+	text "Je vais lire"
+	line "tes pensées!"
 	done
 ; 0x19470e
 
 PsychicMarkBeatenText: ; 0x19470e
-	text "I misread you!"
+	text "Je t'ai mal lu!"
 	done
 ; 0x19471e
 
 UnknownText_0x19471e: ; 0x19471e
-	text "I'd be strong if"
-	line "only I could tell"
+	text "Je serais fort si"
+	line "je pouvais savoir"
 
-	para "what my opponent"
-	line "was thinking."
+	para "ce que mon adver-"
+	line "saire pense."
 	done
 ; 0x194760
 
 SchoolboyAlan1SeenText: ; 0x194760
-	text "Thanks to my stud-"
-	line "ies, I'm ready for"
-	cont "any #MON!"
+	text "Grâce à mes"
+	line "études, je suis"
+	cont "prêt pour tous les"
+	cont "#MON!"
 	done
 ; 0x194790
 
 SchoolboyAlan1BeatenText: ; 0x194790
-	text "Oops! Computation"
-	line "error?"
+	text "Oups! Erreur de"
+	line "calcul?"
 	done
 ; 0x1947aa
 
 UnknownText_0x1947aa: ; 0x1947aa
-	text "Darn. I study five"
-	line "hours a day too."
+	text "Mince, j'étudie"
+	line "cinq heures par"
+	cont "jour."
 
-	para "There's more to"
-	line "learning than just"
-	cont "reading books."
+	para "Il y a plus à"
+	line "apprendre que dans"
+	cont "les livres."
 	done
 ; 0x194800
 
 MeetArthurText:
-	text "ARTHUR: Who are"
-	line "you?"
+	text "JEROME: Qui"
+	line "es-tu?"
 
-	para "I'm ARTHUR of"
-	line "Thursday."
+	para "Je suis JEROME"
+	line "du Jeudi."
 	done
 
 ArthurGivesGiftText:
-	text "Here. You can have"
-	line "this."
+	text "Tiens, tu peux"
+	line "prendre ça."
 	done
 
 ArthurGaveGiftText:
-	text "ARTHUR: A #MON"
-	line "that uses rock-"
+	text "JEROME: Un #-"
+	line "MON utilisant des"
 
-	para "type moves should"
-	line "hold on to that."
-
-	para "It pumps up rock-"
-	line "type attacks."
+	para "capaités ROCHE"
+	line "devrait tenir cet"
+	cont "objet."
 	done
 
 ArthurThursdayText:
-	text "ARTHUR: I'm ARTHUR"
-	line "of Thursday. I'm"
+	text "JEROME: Je suis"
+	line "JEROME du Jeudi."
 
-	para "the fourth son out"
-	line "of seven children."
+	para "Le quatrième de"
+	line "sept enfants."
 	done
 
 ArthurNotThursdayText:
-	text "ARTHUR: Today's"
-	line "not Thursday. How"
-	cont "disappointing."
+	text "JEROME: Nous ne"
+	line "sommes pas Jeudi."
+	cont "C'est décevant<...>"
 	done
 
 UnknownText_0x194924: ; 0x194924
@@ -740,41 +741,39 @@ UnknownText_0x194924: ; 0x194924
 ; 0x19492e
 
 UnknownText_0x19492e: ; 0x19492e
-	text "RUINS OF ALPH"
-	line "NORTH ENTRANCE"
+	text "RUINES D'ALPHA"
+	line "ENTREE NORD"
 	done
 ; 0x19494c
 
 UnknownText_0x19494c: ; 0x19494c
-	text "TRAINER TIPS"
+	text "ASTUCE"
 
-	para "#MON stats"
-	line "vary--even within"
-	cont "the same species."
+	para "Si deux #MON de"
+	line "la même espèce"
+	cont "peuvent être"
+	cont "similaires,"
 
-	para "Their stats may be"
-	line "similar at first."
-
-	para "However, differ-"
-	line "ences will become"
-
-	para "pronounced as the"
-	line "#MON grow."
+	para "des différences se"
+	line "prononceront au"
+	cont "fur et à mesure"
+	cont "qu'ils"
+	cont "grandissent."
 	done
 ; 0x1949ee
 
 UnknownText_0x1949ee: ; 0x1949ee
-	text "TRAINER TIPS"
+	text "ASTUCE"
 
-	para "Use DIG to return"
-	line "to the entrance of"
-	cont "any place."
+	para "TUNNEL vous permet"
+	line "de revenir à l'en-"
+	cont "trée de n'importe"
+	cont "quel endroit."
 
-	para "It is convenient"
-	line "for exploring"
-
-	para "caves and other"
-	line "landmarks."
+	para "Pratique pour ex-"
+	line "ploter des grottes"
+	cont "et autres"
+	cont "environnements!"
 	done
 ; 0x194a66
 

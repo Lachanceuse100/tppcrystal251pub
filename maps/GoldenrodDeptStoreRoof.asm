@@ -106,132 +106,137 @@ MapGoldenrodDeptStoreRoofSignpost3Script: ; 0x5677c
 ; 0x5677f
 
 UnknownText_0x5677f: ; 0x5677f
-	text "Whew, I'm tired."
+	text "Ahhhhhhh<...>"
 
-	para "I sometimes come"
-	line "up to the rooftop"
+	para "Je vais souvent"
+	line "sur le toit pour"
 
-	para "to take a break"
-	line "from shopping."
+	para "me reposer après"
+	line "les courses."
 	done
 ; 0x567d2
 
 UnknownText_0x567d2: ; 0x567d2
-	text "Pardon? Who says"
-	line "an adult can't get"
-	cont "into this?"
+	text "Pardon? Comment ça"
+	line "un adulte n'a pas"
+	cont "le droit de faire"
+	cont "ça?"
 
-	para "I'm going to be"
-	line "back every day to"
-
-	para "collect all the"
-	line "dolls!"
+	para "Je veux toutes"
+	line "les poupées!"
 	done
 ; 0x56839
 
 UnknownText_0x56839: ; 0x56839
-	text "They have bargain"
-	line "sales here every"
-	cont "so often."
+	text "Ils ont souvent"
+	line "des promotions"
+	cont "ici."
 	done
 ; 0x56867
 
 UnknownText_0x56867: ; 0x56867
-	text "Oh, wow!"
+	text "Oh!"
 	done
 ; 0x56871
 
 UnknownText_0x56871: ; 0x56871
-	text "Will you quit"
-	line "bothering me?"
+	text "Tu me lâches,"
+	line "ouais?"
 	done
 ; 0x5688e
 
 UnknownText_0x5688e: ; 0x5688e
-	text "There's something"
-	line "I really want, but"
+	text "Il y a quelque"
+	line "chose que je vou-"
+	cont "drais acheter mais"
 
-	para "I don't have the"
-	line "necessary cash<...>"
+	para "je n'ai pas assez"
+	line "d'argent<...>"
 
-	para "Maybe I'll sell"
-	line "off the BERRIES"
-	cont "I've collected<...>"
+	para "Et si je vendais"
+	line "les BAIES que j'ai"
+	cont "ramassé<...>"
 	done
 ; 0x56901
 
 UnknownText_0x56901: ; 0x56901
-	text "Oh, everything is"
-	line "so cheap!"
+	text "Tout ces bons prix"
+	line "par ici!"
 
-	para "I bought so much,"
-	line "my PACK's crammed!"
+	para "Mon SAC déborde"
+	line "avec tout ce que"
+	cont "j'ai pris."
 	done
 ; 0x56942
 
 UnknownText_0x56942: ; 0x56942
-	text "My #MON always"
-	line "get paralyzed or"
+	text "Mon #MON finit"
+	line "toujours paralysé"
 
-	para "poisoned when the"
-	line "chips are down<...>"
+	para "ou empoisonné"
+	line "après un combat<...>"
 
-	para "So I came to buy"
-	line "some FULL HEAL."
+	para "Alors je suis venu"
+	line "acheter des TOTAL"
+	cont "SOIN."
 
-	para "I wonder if"
-	line "there's any left?"
+	para "Je me demande si"
+	line "il en reste?"
 	done
 ; 0x569c3
 
 UnknownText_0x569c3: ; 0x569c3
-	text "These binoculars"
-	line "let me see far"
+	text "Ces jumelles me"
+	line "permettent de voir"
 
-	para "away. Maybe I can"
-	line "see my own house."
+	para "loin. Peut-être"
+	line "que je peux voir"
+	cont "ma maison."
 
-	para "Is it the one with"
-	line "the green roof?"
+	para "Est-ce que c'est"
+	line "celle avec le toit"
+	cont "vert?"
 	done
 ; 0x56a2b
 
 UnknownText_0x56a2b: ; 0x56a2b
-	text "Hey! Some trainers"
-	line "are battling on"
-	cont "the road!"
+	text "Des dresseurs qui"
+	line "se battent sur la"
+	cont "route!"
 
-	para "A #MON fired a"
-	line "flurry of leaves!"
+	para "A #MON crache"
+	line "des feuilles!"
 
-	para "That makes me feel"
-	line "like battling"
+	para "Ca me donne envie"
+	line "de combattre!"
 	cont "right now!"
 	done
 ; 0x56aa6
 
 UnknownText_0x56aa6: ; 0x56aa6
-	text "A FISHER caught a"
-	line "lot of REMORAID<...>"
+	text "Un PECHEUR à cap-"
+	line "turer plein de"
+	cont "REMORAID<...>"
 
-	para "They're using"
-	line "WATER GUN at the"
-	cont "same time!"
+	para "Ils utilisent"
+	line "PISTOLET A O en"
+	cont "même temps."
 
-	para "Look at the water"
-	line "going everywhere!"
+	para "Toute cette eau"
+	line "qui jaillit est"
+	cont "un joli spectacle!"
 	done
 ; 0x56b11
 
 UnknownText_0x56b11: ; 0x56b11
-	text "A vending machine"
-	line "for #MON dolls?"
+	text "Une machine à"
+	line "poupées #MON?"
 
-	para "Insert money, then"
-	line "turn the crank<...>"
+	para "Mettez des sous"
+	line "et tourner<...>"
 
-	para "But it's almost"
-	line "empty<...>"
+	para "C'est presque"
+	line "vide<...>"
 	done
 ; 0x56b6d
 

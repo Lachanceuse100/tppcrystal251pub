@@ -237,93 +237,95 @@ FruitTreeScript_0x1a9791: ; 0x1a9791
 ; 0x1a9793
 
 HikerBaileySeenText: ; 0x1a9793
-	text "Awright! I'll show"
-	line "you the power of"
-	cont "mountain #MON!"
+	text "Tu vas voir la"
+	line "puissance des"
+	cont "#MON de la"
+	cont "montagne!"
 	done
 ; 0x1a97c6
 
 HikerBaileyBeatenText: ; 0x1a97c6
-	text "Mercy! You showed"
-	line "me your power!"
+	text "Pitié! Tu m'as"
+	line "montré ta force!"
 	done
 ; 0x1a97e8
 
 UnknownText_0x1a97e8: ; 0x1a97e8
-	text "It's over. I don't"
-	line "mind. We HIKERS"
-	cont "are like that."
+	text "C'est fini. C'est"
+	line "pas grave. Les"
+	cont "MONTAGNARDS sont"
+	cont "comme ça."
 	done
 ; 0x1a9819
 
 CamperTedSeenText: ; 0x1a9819
-	text "I'm raising #-"
-	line "MON too!"
+	text "J'élève mon #-"
+	line "MON aussi!"
 
-	para "Will you battle"
-	line "with me?"
+	para "Tu veux te battre"
+	line "avec moi?"
 	done
 ; 0x1a984a
 
 CamperTedBeatenText: ; 0x1a984a
-	text "Wha<...>?"
+	text "Quoi<...>?"
 	done
 ; 0x1a9851
 
 UnknownText_0x1a9851: ; 0x1a9851
-	text "I did my best but"
-	line "came up short."
+	text "J'ai fais de mon"
+	line "mieux. Pas"
+	cont "d'excuses."
 
-	para "No excuses--I"
-	line "admit I lost."
+	para "J'admets ma"
+	line "défaite."
 	done
 ; 0x1a988f
 
 PicnickerErin1SeenText: ; 0x1a988f
-	text "I raise #MON"
-	line "too!"
+	text "J'élève des #-"
+	line "MON moi aussi!"
 
-	para "Will you battle"
-	line "with me?"
+	para "Tu veux te battre"
+	line "avec moi?"
 	done
 ; 0x1a98bb
 
 PicnickerErin1BeatenText: ; 0x1a98bb
-	text "Oh, rats!"
+	text "Mince?"
 	done
 ; 0x1a98c6
 
 UnknownText_0x1a98c6: ; 0x1a98c6
-	text "I've been to many"
-	line "GYMS, but the GYM"
+	text "J'ai visité plein"
+	line "d'ARENE mais celle"
 
-	para "in GOLDENROD is my"
-	line "favorite."
+	para "de DOUBLONVILLE"
+	line "est ma préférée."
 
-	para "It's filled with"
-	line "pretty flowers!"
+	para "Il y a plein de"
+	line "joli felurs!"
 	done
 ; 0x1a9927
 
 UnknownText_0x1a9927: ; 0x1a9927
-	text "Aww<...> I keep losing"
-	line "all the time!"
+	text "Ohh<...> Je perds"
+	line "tout le temps!"
 
-	para "I'll just have to"
-	line "try harder!"
+	para "Je dois encore"
+	line "m'entraîner!"
 
-	para "Anyway, thanks for"
-	line "battling me again"
+	para "Enfin, merci de"
+	line "t'être encore"
 
-	para "and again. Here's"
-	line "that present from"
-	cont "the other time."
+	para "déplacé. Voici un"
+	line "cadeau pour toi."
 	done
 ; 0x1a99be
 
 UnknownText_0x1a99be: ; 0x1a99be
 	text "ROUTE 46"
-	line "MOUNTAIN RD. AHEAD"
+	line "CHEMIN de MONTAGNE"
 	done
 ; 0x1a99db
 

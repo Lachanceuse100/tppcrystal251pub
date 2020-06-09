@@ -197,113 +197,117 @@ MovementData_0x1a8465: ; 0x1a8465
 ; 0x1a8473
 
 UnknownText_0x1a8473: ; 0x1a8473
-	text "Hello!"
-	line "You are trainer?"
+	text "Salut!"
+	line "Dresseur es-tu?"
 
-	para "Battle GYM LEADER,"
-	line "win you did?"
+	para "Gagné contre le"
+	line "CHAMPION d'ARENE"
+	cont "as-tu?"
 	done
 ; 0x1a84ac
 
 UnknownText_0x1a84ac: ; 0x1a84ac
 	text "Ooh, la la!"
-	line "Very indeed nice!"
+	line "Super!"
 	done
 ; 0x1a84cb
 
 UnknownText_0x1a84cb: ; 0x1a84cb
-	text "Is that so? Then"
-	line "study shall you!"
-	cont "Follow me!"
+	text "Ah bon? Alors"
+	line "étudier tu dois!"
+	cont "Suis-moi!"
 	done
 ; 0x1a84f9
 
 UnknownText_0x1a84f9: ; 0x1a84f9
-	text "Here, teacher I"
-	line "am. Good it is"
-	cont "you study here!"
+	text "La, enseignant je"
+	line "suis. Etudier ici"
+	cont "tu devrais!"
 	done
 ; 0x1a8529
 
 UnknownText_0x1a8529: ; 0x1a8529
-	text "Ghosts are rumored"
-	line "to appear in"
-	cont "SPROUT TOWER."
+	text "On dit qu'il y a"
+	line "des fantômes à la"
+	cont "TOUR CHETIFLOR."
 
-	para "They said normal-"
-	line "type #MON moves"
+	para "Apparamment les"
+	line "capacités #MON"
 
-	para "had no effect on"
-	line "ghosts."
+	para "NORMAL n'ont pas"
+	line "d'effet sur eux."
 	done
 ; 0x1a8593
 
 UnknownText_0x1a8593: ; 0x1a8593
-	text "Hey, you're a"
-	line "#MON trainer?"
+	text "Tu es un dresseur"
+	line "de #MON?"
 
-	para "If you beat the"
-	line "GYM LEADER here,"
+	para "Si tu bats le"
+	line "CHAMPION d'ARENE,"
 
-	para "you'll be ready"
-	line "for prime time!"
+	para "tu passeras au"
+	line "20 heures!"
 	done
 ; 0x1a85ef
 
 UnknownText_0x1a85ef: ; 0x1a85ef
-	text "FALKNER, from the"
-	line "VIOLET #MON"
+	text "ALBERT de l'ARENE"
+	line "#MON de"
 
-	para "GYM, is a fine"
-	line "trainer!"
+	para "MAUVILLE est un"
+	line "super dresseur!"
 
-	para "He inherited his"
-	line "father's gym and"
+	para "Il a hérité de"
+	line "l'ARENE de son"
 
-	para "has done a great"
-	line "job with it."
+	para "père et fait du"
+	line "bon travail avec."
 	done
 ; 0x1a8665
 
 UnknownText_0x1a8665: ; 0x1a8665
-	text "I saw a wiggly"
-	line "tree up ahead!"
+	text "J'ai vu un arbre"
+	line "bizarre là-bas."
 
-	para "If you touch it,"
-	line "it squirms and"
-	cont "dances! Cool!"
+	para "Si tu le touches,"
+	line "il danse le smurf!"
+	cont "Trop cool!"
 	done
 ; 0x1a86b2
 
 UnknownText_0x1a86b2: ; 0x1a86b2
-	text "VIOLET CITY"
+	text "MAUVILLE"
 
-	para "The City of"
-	line "Nostalgic Scents"
+	para "La ville aux"
+	line "senteurs du passé."
 	done
 ; 0x1a86dc
 
 UnknownText_0x1a86dc: ; 0x1a86dc
-	text "VIOLET CITY"
-	line "#MON GYM"
-	cont "LEADER: FALKNER"
+	text "MAUVILLE"
+	line "ARENE #MON"
 
-	para "The Elegant Master"
-	line "of Flying #MON"
+	para "CHAMPION:"
+	line "ALBERT"
+
+	para "L'élégant maître"
+	line "des #MON"
+	cont "volants!"
 	done
 ; 0x1a8724
 
 UnknownText_0x1a8724: ; 0x1a8724
-	text "SPROUT TOWER"
+	text "TOUR CHETIFLOR"
 
-	para "Experience the"
-	line "Way of #MON"
+	para "Vivez en harmonie"
+	line "avec les #MON."
 	done
 ; 0x1a874d
 
 UnknownText_0x1a874d: ; 0x1a874d
-	text "EARL'S #MON"
-	line "ACADEMY"
+	text "ACADEMIE #MON"
+	line "de THEOPHILE"
 	done
 ; 0x1a8762
 

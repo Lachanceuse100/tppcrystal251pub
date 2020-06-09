@@ -50,41 +50,42 @@ MapRuinsofAlphInnerChamberSignpost25Script:; 0x58f86
 ; 0x58f89
 
 UnknownText_0x58f89: ; 0x58f89
-	text "There is a strange"
-	line "presence here<...>"
+	text "Il y a une étrange"
+	line "présence ici<...>"
 	done
 ; 0x58fac
 
 UnknownText_0x58fac: ; 0x58fac
-	text "This is a big"
-	line "room, but there's"
-	cont "nothing here."
+	text "C'est une grande"
+	line "salle, mais il n'y"
+	cont "a rien ici."
 	done
 ; 0x58fda
 
 UnknownText_0x58fda: ; 0x58fda
-	text "This place has a"
-	line "mystical quality"
-	cont "to it."
+	text "Cet endroit est"
+	line "mystique<...>"
 
-	para "It feels sort of"
-	line "ethereal even."
+	para "On dirait que la"
+	line "salle est hors de"
+	cont "ce monde."
 	done
 ; 0x59024
 
 UnknownText_0x59024: ; 0x59024
-	text "Ancient buildings"
-	line "are often tombs of"
-	cont "kings."
+	text "Les anciens monu-"
+	line "ments sont souvent"
+	cont "des tombes"
+	cont "royales."
 
-	para "Like the pyramids,"
-	line "for instance."
+	para "Comme les pyrami-"
+	line "des, par exemple."
 	done
 ; 0x59072
 
 UnknownText_0x59072: ; 0x59072
-	text "It's a replica of"
-	line "an ancient #-"
+	text "C'est une réplique"
+	line "d'un ancien #-"
 	cont "MON."
 	done
 ; 0x59097

@@ -71,8 +71,8 @@ PushedDownHoleSoundScript_CinnabarVolcanoB1F:
 	end
 
 PushedDownHoleText_CinnabarVolcanoB1F:
-	text "The boulder fell"
-	line "through!"
+	text "Le rocher est"
+	line "tombé!"
 	done
 
 CinnabarVolcanoB1F_MapEventHeader:

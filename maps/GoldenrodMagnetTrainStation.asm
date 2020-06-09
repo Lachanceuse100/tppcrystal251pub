@@ -117,68 +117,75 @@ MovementData_0x55158: ; 0x55158
 ; 0x55160
 
 UnknownText_0x55160: ; 0x55160
-	text "The train hasn't"
-	line "come in<...>"
+	text "Le train ne passe"
+	line "pas<...>"
 
-	para "I know! I'll carry"
-	line "the passengers on"
-	cont "my back!"
+	para "Je sais! Je vais"
+	line "transporter les"
+	cont "passagers sur mon"
+	cont "dos!"
 
-	para "That won't work."
+	para "<...>"
+
+	para "Non, ça ne"
+	line "marchera pas<...>"
 	done
 ; 0x551b7
 
 UnknownText_0x551b7: ; 0x551b7
-	text "We'll soon depart"
-	line "for SAFFRON."
+	text "Nous allons partir"
+	line "pour SAFRANIA."
 
-	para "Are you coming"
-	line "aboard?"
+	para "Vous montez"
+	line "à bord?"
 	done
 ; 0x551ed
 
 UnknownText_0x551ed: ; 0x551ed
-	text "May I see your"
-	line "rail PASS, please?"
+	text "Puis-je voir votre"
+	line "PASSE TRAIN, s'il"
+	cont "vous plaît?"
 
-	para "OK. Right this"
-	line "way, please."
+	para "Merci, c'est"
+	line "par là<...>"
 	done
 ; 0x5522c
 
 UnknownText_0x5522c: ; 0x5522c
-	text "Sorry. You don't"
-	line "have a rail PASS."
+	text "Désolé, vous"
+	line "n'avez pas de"
+	cont "PASSE TRAIN."
 	done
 ; 0x5524f
 
 UnknownText_0x5524f: ; 0x5524f
-	text "We hope to see you"
-	line "again!"
+	text "Nous espérons vous"
+	line "revoir bientôt."
 	done
 ; 0x5526a
 
 UnknownText_0x5526a: ; 0x5526a
-	text "We have arrived in"
-	line "GOLDENROD."
+	text "On est arrivé"
+	line "à DOUBLONVILLE."
 
-	para "We hope to see you"
-	line "again."
+	para "Nous espérons vous"
+	line "revoir bientôt."
 	done
 ; 0x552a3
 
 UnknownText_0x552a3: ; 0x552a3
-	text "I'm the PRESIDENT."
+	text "Je suis le"
+	line "PRESIDENT."
 
-	para "My dream was to"
-	line "build a train that"
+	para "Mon rêve était de"
+	line "construire un"
 
-	para "is faster than any"
-	line "#MON."
+	para "train plus rapide"
+	line "que n'importe quel"
+	cont "#MON."
 
-	para "It really brings"
-	line "JOHTO much closer"
-	cont "to KANTO."
+	para "Cela rapproche"
+	line "JOHTO de KANTO."
 	done
 ; 0x5531f
 

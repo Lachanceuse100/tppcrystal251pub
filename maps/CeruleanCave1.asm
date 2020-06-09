@@ -45,3 +45,4 @@ CeruleanCave1_MapEventHeader: ; 0x1ac4af
 	person_event SPRITE_POKE_BALL, 17, 28, $1, 0, 0, -1, -1, 0, 1, 0, CeruleanCave1_Item1, EVENT_ITEM_CERULEANCAVE1_FULLRESTORE
 	person_event SPRITE_POKE_BALL, 18, 11, $1, 0, 0, -1, -1, 0, 1, 0, CeruleanCave1_Item2, EVENT_ITEM_CERULEANCAVE1_SCOPE_LENS
 	person_event SPRITE_POKE_BALL, 18, $5, $1, 0, 0, -1, -1, 0, 1, 0, CeruleanCave1_Item3, EVENT_ITEM_CERULEANCAVE1_NUGGET
+

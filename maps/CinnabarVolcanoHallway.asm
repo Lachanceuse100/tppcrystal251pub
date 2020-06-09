@@ -27,3 +27,4 @@ CinnabarVolcanoHallway_MapEventHeader:
 	; object events
 	db 0
 
+

@@ -27,3 +27,4 @@ DragonsDen1F_MapEventHeader: ; 0x18c876
 	db 0
 ; 0x18c890
 
+

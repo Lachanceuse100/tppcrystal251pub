@@ -3099,7 +3099,7 @@ LogTable:
 	db 244, 245, 245, 246, 247, 247, 248, 249, 250, 250, 251, 252, 253, 253, 254, 255
 
 LoadingText:
-	db "LOADING<...>@"
+	db "CHARGEMENT@"
 
 ; ┌─┐│└┘
 MPTilemap:

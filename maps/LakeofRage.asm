@@ -351,299 +351,303 @@ MovementData_0x70155: ; 0x70155
 ; 0x70157
 
 UnknownText_0x70157: ; 0x70157
-	text "This lake is full"
-	line "of GYARADOS but"
-	cont "nothing else<...>"
+	text "Ce lac est rempli"
+	line "de LEVIATOR et"
+	cont "rien d'autre<...>"
 
-	para "So the MAGIKARP"
-	line "are being forced"
-	cont "to evolve<...>"
+	para "Les MAGICARPES ont"
+	line "été forcés"
+	cont "d'évoluer<...>"
 	done
 ; 0x701b4
 
 UnknownText_0x701b4: ; 0x701b4
-	text "Did you come here"
-	line "because of the"
-	cont "rumors?"
+	text "Es-tu ici à cause"
+	line "des rumeurs?"
 
-	para "You're <PLAYER>?"
-	line "I'm LANCE, a"
-	cont "trainer like you."
+	para "Tu es <PLAYER>?"
+	line "Enchanté."
+	
+	para "Moi c'est PETER,"
+	line "un dresseur comme"
+	cont "toi."
 
-	para "I heard some ru-"
-	line "mors, so I came to"
-	cont "investigate<...>"
+	para "J'enquête sur les"
+	line "récents évènements"
+	cont "au LAC COLERE<...>"
 
-	para "I saw the way you"
-	line "battled earlier,"
-	cont "<PLAY_G>."
+	para "Je t'aivu com-"
+	line "battre, <PLAYER>."
 
-	para "I can tell that"
-	line "you're a trainer"
+	para "Tu as l'air d'un"
+	line "dresseur très"
+	cont "talentueux."
 
-	para "with considerable"
-	line "skill."
-
-	para "If you don't mind,"
-	line "could you help me"
-	cont "investigate?"
+	para "Ca te dirait de"
+	line "me donner un coup"
+	cont "de main?"
 	done
 ; 0x702c6
 
 UnknownText_0x702c6: ; 0x702c6
-	text "LANCE: Excellent!"
+	text "PETER: Excellent!"
 
-	para "It seems that the"
-	line "LAKE's MAGIKARP"
+	para "On dirait que"
+	line "quelque chose"
 
-	para "are being forced"
-	line "to evolve."
+	para "force les MAGICAR-"
+	line "PE du LAC COLERE à"
+	cont "évoluer."
 
-	para "A mysterious radio"
-	line "broadcast coming"
+	para "C'est peut-être en"
+	line "lien avec le mys-"
 
-	para "from MAHOGANY is"
-	line "the cause."
+	para "térieux signal"
+	line "radio d'ACAJOU."
 
-	para "I'll be waiting"
-	line "for you, <PLAY_G>."
+	para "Je t'y attendrai,"
+	line "<PLAY_G>."
 	done
 ; 0x70371
 
 UnknownText_0x70371: ; 0x70371
-	text "Oh<...> Well, if you"
-	line "change your mind,"
-	cont "please help me."
+	text "Oh<...> Bon, si tu"
+	line "changes d'avis,"
+	cont "reviens me voir."
 	done
 ; 0x703a5
 
 UnknownText_0x703a5: ; 0x703a5
-	text "LANCE: Hm? Are you"
-	line "going to help me?"
+	text "PETER: Hum? Vas-tu"
+	line "m'aider?"
 	done
 ; 0x703cb
 
 UnknownText_0x703cb: ; 0x703cb
-	text "GYARADOS: Gyashaa!"
+	text "LEVIATOR: Tttooor!"
 	done
 ; 0x703df
 
 UnknownText_0x703df: ; 0x703df
-	text "<PLAYER> obtained a"
-	line "RED SCALE."
+	text "<PLAYER> obtient"
+	line "une ECAILLEROUGE."
 	done
 ; 0x703f8
 
 UnknownText_0x703f8: ; 0x703f8
-	text "The GYARADOS are"
-	line "angry!"
+	text "Les LEVIATOR sont"
+	line "en colère!"
 
-	para "It's a bad omen!"
+	para "Mauvais présage!"
 
 	done
 
 RIPGrampsText:
-	text "HELP!!!"
+	text "A L'AIDE!!!"
 	done
 ; 0x70421
 
 UnknownText_0x70421: ; 0x70421
-	text "Hahah! The MAGI-"
-	line "KARP are biting!"
+	text "Hahaha! Les"
+	line "MAGICARPE mordent!"
 	done
 ; 0x70444
 
 UnknownText_0x70444: ; 0x70444
-	text "I heard this lake"
-	line "was made by ram-"
-	cont "paging GYARADOS."
+	text "On dit que ce lac"
+	line "a été fait par le"
+	cont "déchaînement de"
+	cont "LEVIATOR."
 
-	para "I wonder if there"
-	line "is any connection"
-
-	para "to their mass out-"
-	line "break now?"
+	para "Je me demande si"
+	line "il y a un lien"
+	cont "avec leur colère?"
 	done
 ; 0x704bb
 
 UnknownText_0x704bb: ; 0x704bb
-	text "Did my eyes de-"
-	line "ceive me? I saw a"
+	text "Est-ce que j'hal-"
+	line "lucine? J'ai vu un"
 
-	para "red GYARADOS in"
-	line "the LAKE<...>"
+	para "LEVIATOR ROUGE"
+	line "dans le lac<...>"
 	done
 
 UnknownText_0x704bb_2:
-	text "Oh no!"
+	text "Oh non!"
 
-	para "It's attacking"
-	line "that old man!"
+	para "Il attaque le"
+	line "vieil homme!"
 	done
 ; 0x70522
 
 FisherAndreSeenText: ; 0x70522
-	text "Let me battle with"
-	line "the #MON I just"
-	cont "caught!"
+	text "Je vais me battre"
+	line "avec le #MON"
+	
+	para "que je viens"
+	line "d'attraper!"
 	done
 ; 0x7054e
 
 FisherAndreBeatenText: ; 0x7054e
-	text "I might be an ex-"
-	line "pert angler, but"
+	text "Je suis un bon"
+	line "pêcheur,"
 
-	para "I stink as a #-"
-	line "MON trainer<...>"
+	para "mais je suis mau-"
+	line "vais dresseur."
 	done
 ; 0x7058f
 
 UnknownText_0x7058f: ; 0x7058f
-	text "I won't lose as an"
-	line "angler! I catch"
-	cont "#MON all day."
+	text "Je ne perdrais pas"
+	line "à la pêche! Je"
+
+	para "pêche des #MON"
+	line "tous les jours!"
 	done
 ; 0x705c0
 
 FisherRaymondSeenText: ; 0x705c0
-	text "After only"
-	line "catching MAGIKARP"
-	cont "for a few days,"
+	text "Après n'avoir"
+	line "capturer que des"
+	
+	para "MAGICARPE ces"
+	line "derniers temps,"
 
-	para "I finally found"
-	line "a big one"
-	cont "last night!"
+	para "J'ai enfin eu une"
+	line "grosse prise hier"
+	cont "soir!"
 	done
 ; 0x705f7
 
 FisherRaymondBeatenText: ; 0x705f7
-	text "Things will"
-	line "get better!"
+	text "Les choses vont"
+	line "s'arranger!"
 	done
 ; 0x70611
 
 UnknownText_0x70611: ; 0x70611
-	text "With this FERA-"
-	line "LIGATR, I can"
-
-	para "take on the"
-	line "BATTLE TOWER!"
+	text "Cet ALIGATUEUR va"
+	line "m'aider a gravir"
+	cont "la TOUR DE COMBAT!"
 	done
 ; 0x70632
 
 CooltrainermAaronSeenText: ; 0x70632
-	text "If a trainer spots"
-	line "another trainer,"
+	text "Si deux dresseurs"
+	line "se croisent,"
+	cont "un duel s'engage."
 
-	para "they have to make"
-	line "a challenge."
-
-	para "That is our"
-	line "destiny!"
+	para "C'est la loi!"
 	done
 ; 0x70688
 
 CooltrainermAaronBeatenText: ; 0x70688
-	text "Whew<...>"
-	line "Good battle."
+	text "Whaou<...>"
+	line "Beau combat!"
 	done
 ; 0x7069c
 
 UnknownText_0x7069c: ; 0x7069c
-	text "#MON and their"
-	line "trainer become"
+	text "Les #MON et"
+	line "leur dresseur"
 
-	para "powerful through"
-	line "constant battling."
+	para "deviennent forts"
+	line "en combattant"
+	cont "régulièrement."
 	done
 ; 0x706df
 
 CooltrainerfLoisSeenText: ; 0x706df
-	text "What happened to"
-	line "the red GYARADOS?"
+	text "Qu'est-il arrivé"
+	line "au LEVIATOR rouge?"
 
-	para "It's gone?"
+	para "Il est parti?"
 
-	para "Oh, darn. I came"
-	line "here for nothing?"
+	para "Zut! Je suis venue"
+	line "pour rien?"
 
-	para "I know--let's"
-	line "battle!"
+	para "Bon<...>"
+	line "Un combat?"
 	done
 ; 0x70745
 
 CooltrainerfLoisBeatenText: ; 0x70745
-	text "Good going!"
+	text "Pas mal!"
 	done
 ; 0x70752
 
 UnknownText_0x70752: ; 0x70752
-	text "Come to think of"
-	line "it, I've seen a"
-	cont "pink BUTTERFREE<...>"
+	text "En y repensant,"
+	line "j'ai vu un"
+	cont "PAPILUSION rose<...>"
 
-	para "Also, I caught"
-	line "my FORRETRESS"
-	cont "right here."
+	para "Et j'ai aussi"
+	line "attraper mon"
+	cont "FORTRESS ici."
 
-	para "Try headbutting"
-	line "trees if you"
-	cont "want one!"
+	para "Met un COUPD'BOULE"
+	line "dans les arbres si"
+	cont "tu en veux un."
 	done
 ; 0x70784
 
 MeetWesleyText:
-	text "WESLEY: Well, how"
-	line "do you do?"
+	text "HOMER: Alors,"
+	line "comment ça va?"
 
-	para "Seeing as how it's"
-	line "Wednesday today,"
+	para "Moi c'est HOMER du"
+	line "Mercredi."
 
-	para "I'm WESLEY of"
-	line "Wednesday."
+	para "Et aujourd'hui<...>"
+	line "C'est Mercredi!"
 	done
 
 WesleyGivesGiftText:
-	text "Pleased to meet"
-	line "you."
-	para "Please take a"
-	line "souvenir."
+	text "Enchanté de faire"
+	line "ta connaissance."
+	para "Voilà un souvenir."
 	done
 
 WesleyGaveGiftText:
-	text "WESLEY: BLACKBELT"
-	line "beefs up the power"
-	cont "of fighting moves."
+	text "HOMER: La CEINT."
+	line "NOIRE renforce le"
+	cont "pouvoir des capa-"
+	cont "cités COMBAT."
 	done
 
 WesleyWednesdayText:
-	text "WESLEY: Since you"
-	line "found me, you must"
+	text "HOMER: Avant de"
+	line "m'avoir trouvé, tu"
 
-	para "have met my broth-"
-	line "ers and sisters."
+	para "as dû rencontrer"
+	line "mes frères et"
+	cont "soeurs."
 
-	para "Or did you just"
-	line "get lucky?"
+	para "Ou tu as eu de la"
+	line "chance?"
 	done
 
 WesleyNotWednesdayText:
-	text "WESLEY: Today's"
-	line "not Wednesday."
+	text "HOMER: Nous ne"
+	line "sommes pas"
+	cont "Mercredi."
 
-	para "That's too bad."
+	para "Dommage<...>"
 	done
 
 UnknownText_0x708d7: ; 0x708d7
-	text "LAKE OF RAGE,"
-	line "also known as"
-	cont "GYARADOS LAKE."
+	text "LAC COLERE"
+
+	para "aussi connu comme"
+	cont "le LAC LEVIATOR."
 	done
 ; 0x70903
 
 UnknownText_0x70903: ; 0x70903
-	text "FISHING GURU'S"
-	line "HOUSE"
+	text "MAISON DU MAITRE"
+	line "PECHEUR"
 	done
 ; 0x70919
 

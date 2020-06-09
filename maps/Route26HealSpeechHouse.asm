@@ -32,21 +32,21 @@ MapRoute26HealSpeechHouseSignpost1Script: ; 0x7b14a
 ; 0x7b14d
 
 UnknownText_0x7b14d: ; 0x7b14d
-	text "Your #MON look"
-	line "a little tired."
+	text "Tes #MON ont"
+	line "l'air fatigué.."
 
-	para "You should rest"
-	line "them a while."
+	para "Tu devrais les"
+	line "soigner."
 	done
 ; 0x7b18b
 
 UnknownText_0x7b18b: ; 0x7b18b
-	text "There!"
+	text "Voilà!"
 
-	para "Your #MON are"
-	line "looking good!"
+	para "Tes #MON ont"
+	line "la patate!"
 
-	para "Keep at it!"
+	para "Courage!"
 	done
 ; 0x7b1bb
 

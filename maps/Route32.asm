@@ -720,174 +720,168 @@ MovementData_0x19078e: ; 0x19078e
 ; 0x190790
 
 UnknownText_0x190790: ; 0x190790
-	text "Wait up!"
-	line "What's the hurry?"
+	text "Attends!"
+	line "T'es pressé?"
 	done
 ; 0x1907ab
 
 UnknownText_0x1907ab: ; 0x1907ab
-	text "<PLAYER>, right?"
-	line "Some guy wearing"
+	text "<PLAYER>, c'est ça?"
+	line "Un gars qui porte"
 
-	para "glasses was look-"
-	line "ing for you."
+	para "des lunettes te"
+	line "cherchait."
 
-	para "See for yourself."
-	line "He's waiting for"
+	para "Il t'attend au"
+	line "centre #MON"
 
-	para "you at the #MON"
-	line "CENTER."
+	para "Passe le voir."
 	done
 ; 0x190820
 
 UnknownText_0x190820: ; 0x190820
-	text "Have you gone to"
-	line "SPROUT TOWER?"
+	text "Tu as visité la"
+	line "TOUR CHETIFLOR?"
 
-	para "If you ever visit"
-	line "VIOLET CITY, "
+	para "Si tu passes à"
+	line "MAUVILLE, il faut"
 
-	para "they'll expect you"
-	line "to train there."
+	para "que tu t'entraînes"
+	line "là-bas."
 
-	para "That's basic for"
-	line "trainers. Go to"
-	cont "SPROUT TOWER!"
+	para "C'est la base pour"
+	line "les dresseurs. Va"
+	cont "a la TOUR"
+	cont "CHETIFLOR!"
 	done
 ; 0x1908b0
 
 UnknownText_0x1908b0: ; 0x1908b0
-	text "Have you gone to"
-	line "the #MON GYM?"
+	text "Tu es allé à"
+	line "l'ARENE #MON?"
 
-	para "You can test your"
-	line "#MON and your-"
-	cont "self there."
+	para "Tu peux t'y mesu-"
+	line "rer toi et tes"
+	cont "#MON."
 
-	para "It's a rite of"
-	line "passage for all"
-	cont "trainers!"
+	para "C'est un rituel"
+	line "pour tous les"
+	cont "dresseurs!"
 	done
 ; 0x190925
 
 UnknownText_0x190925: ; 0x190925
-	text "You have some good"
-	line "#MON there."
+	text "Tu as de bons"
+	line "#MON."
 
-	para "It must be from"
-	line "the training you"
+	para "Ils ont du s'en-"
+	line "traîner autour de"
+	cont "MAUVILLE."
 
-	para "gave them around"
-	line "VIOLET CITY."
+	para "Les combats dans"
+	line "l'arène t'ont"
 
-	para "The training at"
-	line "the GYM must have"
+	para "donné de l'expé-"
+	line "rience, non?"
 
-	para "been especially"
-	line "helpful."
+	para "En souvenir de"
+	line "MAUVILLE, accepte"
+	cont "ceci."
 
-	para "As a souvenir of"
-	line "VIOLET CITY, take"
-	cont "this."
-
-	para "It increases the"
-	line "power of grass-"
-	cont "type moves."
+	para "Cela améliore les"
+	line "capacités du type"
+	cont "PLANTE."
 	done
 ; 0x190a15
 
 UnknownText_0x190a15: ; 0x190a15
-	text "Your experiences"
-	line "in VIOLET CITY"
-
-	para "should be useful"
-	line "for your journey."
+	text "Ta visite à"
+	line "MAUVILLE te sera"
+	cont "bénéfique."
 	done
 ; 0x190a59
 
 UnknownText_0x190a59: ; 0x190a59
-	text "How would you like"
-	line "to have this"
+	text "Ca t'intéresse une"
+	line "délicieuse"
+	cont "QUEUERAMOLOS?"
 
-	para "tasty, nutritious"
-	line "SLOWPOKETAIL?"
-
-	para "For you right now,"
-	line "just ¥1,000,000!"
-
-	para "You'll want this!"
+	para "Ca coûte que"
+	line "¥1,000,000, t'en"
+	cont "veux une?"
 	done
 ; 0x190acf
 
 UnknownText_0x190acf: ; 0x190acf
-	text "Tch! I thought"
-	line "kids these days"
-	cont "were loaded<...>"
+	text "Tsk! Je croyais"
+	line "que les gosses"
+	cont "étaient blindés"
+	cont "de nos jours<...>"
 	done
 ; 0x190afc
 
 UnknownText_0x190afc: ; 0x190afc
-	text "You don't want it?"
-	line "Then scram. Shoo!"
+	text "T'en veux pas?"
+	line "Alors dégage!"
 	done
 ; 0x190b21
 
 FisherJustinSeenText: ; 0x190b21
-	text "Whoa!"
+	text "Waouh!"
 
-	para "You made me lose"
-	line "that fish!"
+	para "Tu m'as fait"
+	line "perdre ma prise!"
 	done
 ; 0x190b44
 
 FisherJustinBeatenText: ; 0x190b44
-	text "Sploosh!"
+	text "Plouf!"
 	done
 ; 0x190b4e
 
 UnknownText_0x190b4e: ; 0x190b4e
-	text "Calm, collected<...>"
-	line "The essence of"
+	text "Calme, composé<...>"
+	line "L'essence de la"
 
-	para "fishing and #-"
-	line "MON is the same."
+	para "pêche et des #-"
+	line "MON est la même."
 	done
 ; 0x190b8f
 
 FisherRalph1SeenText: ; 0x190b8f
-	text "I'm really good at"
-	line "both fishing and"
+	text "Je suis bon à la"
+	line "pêche et avec les"
 	cont "#MON."
 
-	para "I'm not about to"
-	line "lose to any kid!"
+	para "Je perdrais pas"
+	line "face à toi!"
 	done
 ; 0x190bda
 
 FisherRalph1BeatenText: ; 0x190bda
-	text "Tch! I tried to"
-	line "rush things<...>"
+	text "Tsk! J'ai voulu me"
+	line "dépêcher<...>"
 	done
 ; 0x190bf8
 
 UnknownText_0x190bf8: ; 0x190bf8
-	text "Fishing is a life-"
-	line "long passion."
+	text "La pêche est ma"
+	line "grande passion."
 
-	para "#MON are life-"
-	line "long friends!"
+	para "Les #MON sont"
+	line "mes amis depuis"
+	cont "toujours!"
 	done
 ; 0x190c37
 
 UnknownText_0x190c37: ; 0x190c37
-	text "One, two, three<...>"
-	line "Muahahaha, what a"
-
-	para "great haul!"
-	line "I'm done! Go ahead"
-
-	para "and catch as many"
-	line "as you can, kid!"
+	text "Un, deux, trois<...>"
+	line "Mouhahaha, quel"
+	cont "beau butin!"
+	
+	text "J'ai finis, vas-y"
+	line "et attrape en un"
+	cont "maximum!"
 	done
 ; 0x190c9c
 
@@ -943,137 +937,140 @@ UnknownText_0x190c37: ; 0x190c37
 ; --- end a segment of possibly unused texts
 
 FisherHenrySeenText: ; 0x190dcf
-	text "I was surfing"
-	line "around in the"
+	text "Je surfais dans le"
+	line "lac quand j'ai"
 
-	para "lake just now"
-	line "when I found"
-	cont "this rare #MON!"
+	para "trouvé ce #MON"
+	line "rare!"
 	done
 ; 0x190de9
 
 FisherHenryBeatenText: ; 0x190de9
-	text "Splashed ashore!"
+	text "Je dérive!"
 	done
 ; 0x190df2
 
 UnknownText_0x190df2: ; 0x190df2
-	text "You can find all"
-	line "sort of rare"
-	cont "#MON in lakes!"
+	text "Tu peux trouver"
+	line "plein de #MON"
+	cont "rares dans les"
+	cont "lacs."
 
-	para "If you want to"
-	line "catch them all,"
+	para "Si tu veux tous"
+	line "les capturer,"
 
-	para "fish and surf in"
-	line "various places!"
+	para "pêche et surfe"
+	line "dans différents"
+	cont "endroits!"
 	done
 ; 0x190e2e
 
 YoungsterAlbertSeenText: ; 0x190e2e
-	text "I haven't seen you"
-	line "around before."
+	text "Je ne t'ai jamais"
+	line "vu ici."
 
-	para "So you think you"
-	line "are pretty tough?"
+	para "Tu penses que tu"
+	line "es costaud?"
 	done
 ; 0x190e73
 
 YoungsterAlbertBeatenText: ; 0x190e73
-	text "You're strong!"
+	text "Tu es costaud!"
 	done
 ; 0x190e82
 
 UnknownText_0x190e82: ; 0x190e82
-	text "I'm going to try"
-	line "to be the best"
-	cont "with my favorites."
+	text "Je serai le"
+	line "meilleur avec mes"
+	cont "favoris."
 
-	para "It is important"
-	line "as trainer to do"
-	cont "your own thing."
+	para "C'est important en"
+	line "tant que dresseur"
+	cont "d'être soi-même."
 	done
 ; 0x190ee8
 
 YoungsterGordonSeenText: ; 0x190ee8
-	text "I found some good"
-	line "#MON in the"
-	cont "grass!"
+	text "J'ai trouvé des"
+	line "#MON dans les"
+	cont "hautes herbes!"
 
-	para "I think they'll do"
-	line "it for me!"
+	para "Je pense qu'ils"
+	line "feront l'affaire!"
 	done
 ; 0x190f2b
 
 YoungsterGordonBeatenText: ; 0x190f2b
-	text "Darn. I thought I"
-	line "could win."
+	text "Mince. Je pensais"
+	line "pouvoir gagner."
 	done
 ; 0x190f49
 
 UnknownText_0x190f49: ; 0x190f49
-	text "The grass is full"
-	line "of clingy things."
+	text "Y'a plein de trucs"
+	line "dans l'herbe."
 	done
 ; 0x190f6e
 
 CamperRolandSeenText: ; 0x190f6e
-	text "That glance<...>"
-	line "It's intriguing."
+	text "Ce regard<...>"
+	line "C'est intriguant."
 	done
 ; 0x190f8c
 
 CamperRolandBeatenText: ; 0x190f8c
-	text "Hmmm. This is"
-	line "disappointing."
+	text "Oh. C'est"
+	line "décevant."
 	done
 ; 0x190faa
 
 UnknownText_0x190faa: ; 0x190faa
-	text "This area has a"
-	line "lot of unique"
-	cont "#MON around!"
+	text "Cet endroit a"
+	line "plein de #MON"
+	cont "uniques!"
 
-	para "The lake attracts"
-	line "lots of #MON."
+	para "Ce lac attire"
+	line "plein de #MON."
 	done
 ; 0x190fdf
 
 PicnickerLiz1SeenText: ; 0x190fdf
-	text "Uh-huh. Yeah, and"
-	line "you know<...>"
+	text "Ah-ha. Ouais, et"
+	line "tu sais<...>"
 
-	para "Pardon? Battle?"
-	line "I'm on the phone."
+	para "Pardon? Combat?"
+	line "Je suis au"
+	cont "téléphone là."
 
-	para "Oh, all right. But"
-	line "make it fast."
+	para "Bon, d'accord."
+	line "Mais vite!"
 	done
 ; 0x19103e
 
 PicnickerLiz1BeatenText: ; 0x19103e
-	text "Oh! I've got to"
-	line "relieve my anger!"
+	text "Oh! Il faut que"
+	line "je me calme!"
 	done
 ; 0x191060
 
 UnknownText_0x191060: ; 0x191060
-	text "I was having a"
-	line "nice chat too."
+	text "J'avais une copine"
+	line "au téléphone."
 	done
 ; 0x19107f
 
 Bird_keeperPeterSeenText: ; 0x19107f
-	text "That BADGE! It's"
-	line "from VIOLET CITY!"
+	text "Ce BADGE<...> Il"
+	line "vient de MAUVILLE!"
 
-	para "You beat FALKNER?"
+	para "Tu as battu"
+	line "ALBERT?"
 	done
 ; 0x1910b4
 
 Bird_keeperPeterBeatenText: ; 0x1910b4
-	text "I know what my"
-	line "weaknesses are."
+	text "Je connais mes"
+	line "faiblesses."
 	done
 ; 0x1910d4
 
@@ -1086,110 +1083,110 @@ UnknownText_0x1910d4: ; 0x1910d4
 
 ; possibly unused
 UnknownText_0x191105: ; 0x191105
-	text "The fishermen"
-	line "yelled at me for"
-	cont "bugging them<...>"
+	text "Ce pêcheur m'a"
+	line "crié dessus pour"
+	cont "les avoir embêter<...>"
 	done
 ; 0x191133
 
 UnknownText_0x191133: ; 0x191133
-	text "Crush without"
-	line "breaking."
+	text "Ecraser sans"
+	line "casser."
 
-	para "Slice without"
-	line "cutting."
+	para "Trancher sans"
+	line "couper."
 
-	para "Attack without"
-	line "damage."
+	para "Attaquer sans"
+	line "dégâts."
 
-	para "Do you wish to"
-	line "study the art of"
-	cont "FALSE SWIPE?"
+	para "Veux tu apprendre"
+	line "l'art du"
+	cont "FAUX-CHAGE?"
 
 	done
 ; 0x19118c
 
 UnknownText_0x19118c: ; 0x19118c
-	text "Who is my student?"
+	text "Qui sera mon"
+	line "étudiant?"
 	done
 
 FalseTutorReject:
-	text "Very well<...>"
+	text "Très bien<...>"
 	done
 
 FalseTutorDone:
-	text "Teaching without"
-	line "knowing is the"
-	cont "greatest skill"
-	cont "of all."
+	text "Enseigner sans"
+	line "savoir est la"
+	cont "plus grande compé-"
+	cont "tence qui soit<...>"
 	done
 ; 0x1911c1
 
 MeetFriedaText:
-	text "FRIEDA: Yahoo!"
-	line "It's Friday!"
+	text "VANESSA: Youpi!"
+	line "C'est Vendredi!"
 
-	para "I'm FRIEDA of"
-	line "Friday!"
+	para "Je suis VANESSA du"
+	line "Vendredi!"
 
-	para "Nice to meet you!"
+	para "Enchantée!"
 	done
 
 FriedaGivesGiftText:
-	text "Here's a POISON"
-	line "BARB for you!"
+	text "Voilà un PIC"
+	line "VENIN pour toi!"
 	done
 
 FriedaGaveGiftText:
-	text "FRIEDA: Give it to"
-	line "a #MON that has"
-	cont "poison-type moves."
+	text "VANESSA: Donne le"
+	line "à un #MON qui"
+	cont "connaît des atta-"
+	cont "ques POISON."
 
 	para "Oh!"
 
-	para "It's wicked!"
+	para "C'est vicieux!"
 
-	para "You'll be shocked"
-	line "how good it makes"
-	cont "poison moves!"
+	para "Tu seras surpris"
+	line "de son efficacité!"
 	done
 
 FriedaFridayText:
-	text "FRIEDA: Hiya! What"
-	line "day do you like?"
+	text "VANESSA: Salut!"
+	line "C'est quoi ton"
+	cont "jour préféré?"
 
-	para "I love Friday. No"
-	line "doubt about it!"
+	para "Moi c'est le"
+	line "Vendredi!"
 
-	para "Don't you think"
-	line "it's great too?"
+	para "Toi aussi, hein?"
 	done
 
 FriedaNotFridayText:
-	text "FRIEDA: Isn't it"
-	line "Friday today?"
+	text "VANESSA: Ce n'est"
+	line "pas Vendredi?"
 
-	para "It's so boring"
-	line "when it's not!"
+	para "Roooh, c'est nul!"
 	done
 
 UnknownText_0x19133a: ; 0x19133a
 	text "ROUTE 32"
 
-	para "VIOLET CITY -"
-	line "AZALEA TOWN"
+	para "MAUVILLE -"
+	line "ECORCIA"
 	done
 ; 0x19135e
 
 UnknownText_0x19135e: ; 0x19135e
-	text "RUINS OF ALPH"
-	line "EAST ENTRANCE"
+	text "RUINES ALPHA"
+	line "ENTREE EST"
 	done
 ; 0x19137b
 
 UnknownText_0x19137b: ; 0x19137b
-	text "UNION CAVE"
-	line "AHEAD"
+	text "CAVES JUMELLES"
+	line "TOUT DROIT"
 	done
 ; 0x19138d
 

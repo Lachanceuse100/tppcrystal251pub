@@ -71,8 +71,8 @@ ChrisScript_0x193499: ; 0x193499
 ; 0x1934a0
 
 UnknownText_0x1934a0: ; 0x1934a0
-	text "Your friend is"
-	line "ready."
+	text "Votre ami est"
+	line "prêt."
 	done
 ; 0x1934b7
 

@@ -30,3 +30,4 @@ MtMoonB2F_MapEventHeader: ; 0x1ac4af
 	db 0
 
 
+

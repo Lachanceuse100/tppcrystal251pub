@@ -11,11 +11,11 @@ PokefanMScript_0x76fac: ; 0x76fac
 ; 0x76faf
 
 UnknownText_0x76faf: ; 0x76faf
-	text "FAST SHIP S.S.AQUA"
-	line "sails to KANTO on"
+	text "L'AQUARIA part"
+	line "pour KANTO les"
 
-	para "Mondays and Fri-"
-	line "days."
+	para "Lundi et"
+	line "Vendredi."
 	done
 ; 0x76fec
 

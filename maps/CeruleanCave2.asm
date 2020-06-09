@@ -50,3 +50,4 @@ CeruleanCave2_MapEventHeader:
 	person_event SPRITE_POKE_BALL, 16, 15, $1, 0, 0, -1, -1, 0, 1, 0, CeruleanCave2_Item3, EVENT_ITEM_CERULEANCAVE2_FULL_HEAL
 	person_event SPRITE_POKE_BALL, 19, 31, $1, 0, 0, -1, -1, 0, 1, 0, CeruleanCave2_Item4, EVENT_ITEM_CERULEANCAVE2_CONFUSEGUARD
 
+

@@ -286,15 +286,15 @@ MenuDataHeader_0x18d215: ; 0x18d215
 MenuData2_0x18d21d: ; 0x18d21d
 	db $81 ; flags
 	db 3 ; items
-	db "Pal@"
-	db "Underling@"
-	db "Friend@"
+	db "Copain@"
+	db "Esclave@"
+	db "Ami@"
 ; 0x18d234
 
 
 MenuDataHeader_0x18d234: ; 0x18d234
 	db $40 ; flags
-	db 04, 09 ; start coords
+	db 04, 05 ; start coords
 	db 11, 19 ; end coords
 	dw MenuData2_0x18d23c
 	db 1 ; default option
@@ -303,9 +303,9 @@ MenuDataHeader_0x18d234: ; 0x18d234
 MenuData2_0x18d23c: ; 0x18d23c
 	db $81 ; flags
 	db 3 ; items
-	db "Strategy@"
-	db "Raising@"
-	db "Cheating@"
+	db "Stratégie@"
+	db "Entraînement@"
+	db "Triche@"
 ; 0x18d258
 
 
@@ -320,9 +320,9 @@ MenuDataHeader_0x18d258: ; 0x18d258
 MenuData2_0x18d260: ; 0x18d260
 	db $81 ; flags
 	db 3 ; items
-	db "Weak person@"
-	db "Tough person@"
-	db "Anybody@"
+	db "Dres. faible@"
+	db "Dres. fort@"
+	db "Peu importe@"
 ; 0x18d283
 
 
@@ -337,15 +337,15 @@ MenuDataHeader_0x18d283: ; 0x18d283
 MenuData2_0x18d28b: ; 0x18d28b
 	db $81 ; flags
 	db 3 ; items
-	db "Love@"
+	db "Amour@"
 	db "Violence@"
-	db "Knowledge@"
+	db "Savoir@"
 ; 0x18d2a5
 
 
 MenuDataHeader_0x18d2a5: ; 0x18d2a5
 	db $40 ; flags
-	db 04, 12 ; start coords
+	db 04, 09 ; start coords
 	db 11, 19 ; end coords
 	dw MenuData2_0x18d2ad
 	db 1 ; default option
@@ -354,9 +354,9 @@ MenuDataHeader_0x18d2a5: ; 0x18d2a5
 MenuData2_0x18d2ad: ; 0x18d2ad
 	db $81 ; flags
 	db 3 ; items
-	db "Tough@"
-	db "Both@"
-	db "Weak@"
+	db "Puissant@"
+	db "Les deux@"
+	db "Faible@"
 ; 0x18d2bf
 
 
@@ -434,292 +434,291 @@ MovementData_0x18d2e3: ; 0x18d2e3
 ; 0x18d2ea
 
 UnknownText_0x18d2ea: ; 0x18d2ea
-	text "Hm<...> Good to see"
-	line "you here."
+	text "Hmm<...>"
+	line "Bienvenue."
 
-	para "No need to explain"
-	line "why you came."
+	para "Ne parle pas."
 
-	para "CLAIR sent you"
-	line "here, didn't she?"
+	para "SANDRA t'a dit de"
+	line "venir, c'est ça?"
 
-	para "That girl is a"
-	line "handful<...>"
+	para "Coriace la petite<...>"
 
-	para "I am sorry, but I"
-	line "must test you."
+	para "Je dois te mettre"
+	line "à l'épreuve."
 
-	para "Not to worry, you"
-	line "are to answer only"
-	cont "a few questions."
+	para "Pas d'inquiétude,"
+	line "tu ne dois répon-"
+	cont "dre qu'à quelques"
+	cont "questions."
 
-	para "Ready?"
+	para "On commence?"
 	done
 ; 0x18d3bc
 
 UnknownText_0x18d3bc: ; 0x18d3bc
-	text "What are #MON"
-	line "to you?"
+	text "Que représente un"
+	line "#MON pour toi?"
 	done
 ; 0x18d3d3
 
 UnknownText_0x18d3d3: ; 0x18d3d3
-	text "What helps you to"
-	line "win battles?"
+	text "Qu'est-ce qui"
+	line "t'aides à gagner"
+	cont "les combats?"
 	done
 ; 0x18d3f3
 
 UnknownText_0x18d3f3: ; 0x18d3f3
-	text "What kind of"
-	line "trainer do you"
-	cont "wish to battle?"
+	text "Quel type de"
+	line "dresseur veux-tu"
+	cont "affronter?"
 	done
 ; 0x18d420
 
 UnknownText_0x18d420: ; 0x18d420
-	text "What is most"
-	line "important for"
-	cont "raising #MON?"
+	text "Quelle est la cho-"
+	line "se la plus impor-"
+	cont "tante pour entraî-"
+	cont "ner un #MON?"
 	done
 ; 0x18d44a
 
 UnknownText_0x18d44a: ; 0x18d44a
-	text "Strong #MON."
-	line "Weak #MON."
+	text "#MON puissant."
+	line "#MON faible."
 
-	para "Which is more"
+	para "Lequel est le plus"
 	line "important?"
 	done
 ; 0x18d47c
 
 UnknownText_0x18d47c: ; 0x18d47c
-	text "Hm<...> I see<...>"
+	text "Hmm<...> Je vois<...>"
 
-	para "You care deeply"
-	line "for #MON."
+	para "Tu as de vrais"
+	line "sentiments pour"
+	cont "les #MON."
 
-	para "Very commendable."
+	para "Je te félicite."
 
-	para "That conviction is"
-	line "what is important!"
+	para "Cette conviction"
+	line "est importante!"
 
-	para "<PLAYER>, don't"
-	line "lose that belief."
+	para "<PLAYER>, ne perds"
+	line "pas cette fois."
 
-	para "It will see you"
-	line "through at the"
-	cont "#MON LEAGUE."
+	para "Cela t'aidera"
+	line "pour la LIGUE"
+	cont "#MON."
 	done
 ; 0x18d520
 
 UnknownText_0x18d520: ; 0x18d520
-	text "CLAIR!"
+	text "SANDRA!"
 
-	para "This child is"
-	line "impeccable, in"
-	cont "skill and spirit!"
+	para "Cet enfant est"
+	line "impeccable, tant"
+	cont "son talent que son"
+	cont "esprit!"
 
-	para "Admit defeat and"
-	line "confer the RISING-"
-	cont "BADGE!"
+	para "Admets ta défaite"
+	line "et remets ton"
+	cont "BADGE LEVER!"
 
-	para "<...>Or must I inform"
-	line "LANCE of this?"
+	para "<...>Ou dois-je en"
+	line "informer PETER?"
 	done
 ; 0x18d5a3
 
 UnknownText_0x18d5a3: ; 0x18d5a3
-	text "CLAIR<...>"
+	text "SANDRA<...>"
 
-	para "Reflect upon what"
-	line "it is that you"
+	para "Penche-toi sur"
+	line "tes lacunes<...>"
 
-	para "lack and this"
-	line "child has."
+	para "Prends exemple sur"
+	line "<PLAYER>."
 	done
 ; 0x18d5e5
 
 UnknownText_0x18d5e5: ; 0x18d5e5
-	text "Come again, if you"
-	line "so desire."
+	text "N'hésite pas à"
+	line "revenir en ce"
+	cont "saint lieu."
 	done
 ; 0x18d604
 
 UnknownText_0x18d604: ; 0x18d604
-	text "Hm<...> Good to see"
-	line "you here."
+	text "Hm<...>"
+	line "Bienvenue."
 
-	para "Your arrival is"
-	line "most fortunate."
+	para "Tu arrives au bon"
+	line "moment."
 
-	para "I have something"
-	line "for you."
+	para "J'ai quelque chose"
+	line "pour toi."
 
-	para "Take this DRATINI"
-	line "as proof that I"
-
-	para "have recognized"
-	line "your worth."
+	para "Ce MINIDRACO est"
+	line "la preuve de ta"
+	cont "valeur<...>"
 	done
 ; 0x18d697
 
 UnknownText_0x18d697: ; 0x18d697
-	text "<PLAYER> received"
-	line "DRATINI!"
+	text "<PLAYER> reçoit"
+	line "MINIDRACO!"
 	done
 ; 0x18d6ac
 
 UnknownText_0x18d6ac: ; 0x18d6ac
-	text "Hm? Your #MON"
-	line "party is full."
+	text "Hmm? Ton équipe"
+	line "est pleine."
 	done
 ; 0x18d6ca
 
 UnknownText_0x18d6ca: ; 0x18d6ca
-	text "Dragon #MON are"
-	line "symbolic of our"
-	cont "clan."
+	text "Les #MON dra-"
+	line "gons représentent"
+	cont "notre clan."
 
-	para "You have shown"
-	line "that you can be"
-
-	para "entrusted with"
-	line "one."
+	para "Tu es digne d'en"
+	line "posséder un."
 	done
 ; 0x18d724
 
 UnknownText_0x18d724: ; 0x18d724
-	text "CLAIR appears to"
-	line "have learned an"
+	text "SANDRA a appris"
+	line "quelque chose en"
+	cont "te connaissant."
 
-	para "invaluable lesson"
-	line "from you."
-
-	para "I thank you as her"
-	line "grandfather."
+	para "Etant son grand-"
+	line "père, je te"
+	cont "remercie."
 	done
 ; 0x18d782
 
 UnknownText_0x18d782: ; 0x18d782
-	text "A boy close to"
-	line "your age is in"
-	cont "training here."
+	text "Un garçon de ton"
+	line "âge s'entraîne"
+	cont "ici."
 
-	para "He is much like"
-	line "CLAIR when she was"
+	para "Il est comme l'é-"
+	line "tait SANDRA plus"
 
-	para "younger. It is a"
-	line "little worrisome<...>"
+	para "jeune. Je suis"
+	line "un peu inquiet<...>"
 	done
 ; 0x18d7f6
 
 UnknownText_0x18d7f6: ; 0x18d7f6
-	text "Hah? I didn't"
-	line "quite catch that<...>"
+	text "Je ne suis pas sûr"
+	line "d'avoir bien"
+	cont "entendu<...>"
 	done
 ; 0x18d816
 
 UnknownText_0x18d816: ; 0x18d816
-	text "What was it you"
-	line "said?"
+	text "Peux-tu répéter?"
 	done
 ; 0x18d82d
 
 UnknownText_0x18d82d: ; 0x18d82d
-	text "Oh, I understand<...>"
+	text "Oh, je vois<...>"
 	done
 ; 0x18d840
 
 UnknownText_0x18d840: ; 0x18d840
-	text "A rebel to"
-	line "the fossils."
+	text "Un rebelle des"
+	line "fossiles."
 
-	para "A champion"
-	line "to the fossils."
+	para "Un champion des"
+	line "fossiles."
 
-	para "A legend who"
-	line "became the best."
+	para "Une légende qui"
+	line "devint le"
+	cont "meilleur."
 
-	para "What will become"
-	line "of your destiny?"
+	para "Et toi, quel sera"
+	line "ton destin?"
 	done
 ; 0x18d8b1
 
 UnknownText_0x18d8b1: ; 0x18d8b1
-	text "You know young"
-	line "Master LANCE?"
+	text "Tu connais maître"
+	line "PETER?"
 
-	para "He looks so much"
-	line "like our MASTER"
-	cont "did in his youth."
+	para "Il ressemble à"
+	line "notre MAITRE étant"
+	cont "jeune."
 
-	para "It's in their"
-	line "blood."
+	para "C'est dans leur"
+	line "sang."
 	done
 ; 0x18d916
 
 UnknownText_0x18d916: ; 0x18d916
-	text "So how did it go?"
+	text "Alors?"
 
-	para "I guess there's no"
-	line "point in asking."
+	para "Je ne vois pas"
+	line "pourquoi je"
+	cont "demande<...>"
 
-	para "You did fail?"
+	para "Tu as échoué,"
+	line "n'est-ce pas?"
 
 	para $56, $56, $56, $56, $56, $56
 
-	para "<...>What? You passed?"
+	para "<...>Quoi? Réussi?"
 	done
 ; 0x18d974
 
 UnknownText_0x18d974: ; 0x18d974
-	text "That can't be!"
+	text "C'est une erreur!"
 	done
 ; 0x18d983
 
 UnknownText_0x18d983: ; 0x18d983
-	text "You're lying!"
+	text "Tu mens!"
 
-	para "Even I haven't"
-	line "been approved!"
+	para "Même moi je n'ai"
+	line "pas été approuvé!"
 	done
 ; 0x18d9ae
 
 UnknownText_0x18d9ae: ; 0x18d9ae
-	text "I-I understand<...>"
+	text "Je<...> Je comprends<...>"
 	done
 ; 0x18d9bf
 
 UnknownText_0x18d9bf: ; 0x18d9bf
-	text "Here, this is the"
-	line "RISINGBADGE<...>"
+	text "Tiens, voilà le"
+	line "BADGE LEVER<...>"
 
-	para "Hurry up! Take it!"
+	para "Allez! Prends-le!"
 	done
 ; 0x18d9f2
 
 UnknownText_0x18d9f2: ; 0x18d9f2
-	text "<PLAYER> received"
-	line "RISINGBADGE."
+	text "<PLAYER> reçoit"
+	line "le BADGE LEVER."
 	done
 ; 0x18da0b
 
 UnknownText_0x18da0b: ; 0x18da0b
-	text "RISINGBADGE will"
-	line "enable your"
+	text "Le BADGE LEVER"
+	line "permet à tes"
 
-	para "#MON to use the"
-	line "move for climbing"
-	cont "waterfalls."
+	para "#MON de lancer"
+	line "une capacité pour"
+	cont "escalader les"
+	cont "cascades."
 
-	para "Also, all #MON"
-	line "will recognize you"
+	para "De plus, tous les"
+	line "#MON t'obéiront"
 
-	para "as a trainer and"
-	line "obey your every"
-
-	para "command without"
-	line "question."
+	para "sans poser de"
+	line "questions."
 	done
 ; 0x18dab4
 

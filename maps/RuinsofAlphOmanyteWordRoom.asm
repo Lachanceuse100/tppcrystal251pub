@@ -26,3 +26,4 @@ RuinsofAlphOmanyteWordRoom_MapEventHeader: ; 0x59b6e
 	db 0
 ; 0x59b83
 
+

@@ -22,27 +22,32 @@ BugCatcherScript_0x18e04a: ; 0x18e04a
 ; 0x18e04d
 
 UnknownText_0x18e04d: ; 0x18e04d
-	text "There are no ULTRA"
-	line "BALLS here<...>"
+	text "Il n'y a plus d'"
+	line "HYPER BALLS<...>"
 
-	para "# BALLS will"
-	line "have to do."
+	para "Les # BALLS"
+	line "devront faire"
+	cont "l'affaire."
 
-	para "I wish KURT would"
-	line "make me some of"
-	cont "his custom BALLS!"
+	para "J'aimerais que"
+	line "FARGAS me fabri-"
+	cont "que quelques unes"
+	cont "de ses BALLS"
+	cont "artisanales<...>"
 	done
 ; 0x18e0b6
 
 UnknownText_0x18e0b6: ; 0x18e0b6
-	text "A GREAT BALL is"
-	line "better for catch-"
-	cont "ing #MON than a"
-	cont "# BALL."
+	text "Une SUPER BALL est"
+	line "plus efficace qu'"
+	cont "une # BALL pour"
+	cont "attraper les"
+	cont "#MON."
 
-	para "But KURT's might"
-	line "be better some-"
-	cont "times."
+	para "Mais celles de"
+	line "FARGAS sont"
+	cont "parfois plus"
+	cont "efficaces."
 	done
 ; 0x18e118
 

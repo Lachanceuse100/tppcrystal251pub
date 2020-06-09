@@ -236,206 +236,207 @@ MovementData_0x1a622a: ; 0x1a622a
 ; 0x1a622f
 
 SwimmermSimonSeenText: ; 0x1a622f
-	text "A famous burglar"
-	line "shares my name!"
+	text "Un célèbre voleur"
+	line "a le même nom que"
+	cont "moi!"
 
-	para "I'm sweet, though."
+	para "Mais moi je suis"
+	line "innocent!"
 	done
 ; 0x1a626e
 
 SwimmermSimonBeatenText: ; 0x1a626e
-	text "OK! Uncle! I give!"
+	text "OK! Je me rends!"
 	done
 ; 0x1a6282
 
 UnknownText_0x1a6282: ; 0x1a6282
-	text "A BURGLAR named"
-	line "SIMON has been"
+	text "Un voleur qui"
+	line "se prénomme SIMON"
 
-	para "making headlines"
-	line "in JOHTO and"
-	cont "KANTO."
+	para "fait les unes de"
+	line "JOHTO et de KANTO."
 
-	para "The POLICE think"
-	line "he may have had an"
-	cont "accomplice, too."
+	para "La police pense"
+	line "qu'il a aussi un"
+	cont "complice."
 
-	para "I wonder where his"
-	line "partner went."
+	para "Je me demande où"
+	line "son partenaire"
+	cont "est parti<...>"
 	done
 ; 0x1a62b4
 
 SwimmermRandallSeenText: ; 0x1a62b4
-	text "I work as a mover!"
+	text "Je suis un"
+	line "déménageur."
 
-	para "I need a break."
+	para "J'ai besoin d'une"
+	line "pause."
 
-	para "Want a battle"
-	line "by this cliff?"
+	para "On se bat près de"
+	line "la falaise?"
 	done
 ; 0x1a62ea
 
 SwimmermRandallBeatenText: ; 0x1a62ea
-	text "Uh-oh. I lost<...>"
+	text "Oh-oh. J'ai perdu<...>"
 	done
 ; 0x1a62fa
 
 UnknownText_0x1a62fa: ; 0x1a62fa
-	text "I put furniture"
-	line "on my LAPRAS"
-	cont "and my #MON"
-	cont "holds on to them!"
+	text "Je met les meubles"
+	line "sur mon LOKHLASS"
+	cont "et mes #MON s'y"
+	cont "accrochent!"
 	done
 ; 0x1a632d
 
 SwimmerfElaineSeenText: ; 0x1a632d
-	text "Are you going to"
-	line "CIANWOOD?"
+	text "Tu vas à IRISIA?"
 
-	para "How about a quick"
-	line "battle first?"
+	para "Un petit combat"
+	line "d'abord?"
 	done
 ; 0x1a6369
 
 SwimmerfElaineBeatenText: ; 0x1a6369
-	text "I lost that one!"
+	text "J'ai perdu!"
 	done
 ; 0x1a637b
 
 UnknownText_0x1a637b: ; 0x1a637b
-	text "I'd say I'm a bet-"
-	line "ter swimmer than"
-	cont "you. Yeah!"
+	text "En tout cas, je"
+	line "nage mieux que"
+	cont "toi. Ouais!"
 	done
 ; 0x1a63a9
 
 SwimmerfPaulaSeenText: ; 0x1a63a9
-	text "No inner tube for"
-	line "me."
+	text "Pas de bouée pour"
+	line "moi"
 
-	para "I'm hanging on to"
-	line "a sea #MON!"
+	para "Je m'accroche à un"
+	line "#MON marin!"
 	done
 ; 0x1a63dd
 
 SwimmerfPaulaBeatenText: ; 0x1a63dd
-	text "Ooh, I'm feeling"
-	line "dizzy!"
+	text "Ooh, j'ai la tête"
+	line "qui tourne!"
 	done
 ; 0x1a63f5
 
 UnknownText_0x1a63f5: ; 0x1a63f5
-	text "While I float like"
-	line "this, the waves"
-	cont "carry me along."
+	text "Je me laisse"
+	line "porter par les"
+	cont "vagues."
 	done
 ; 0x1a6429
 
 UnknownText_0x1a6429: ; 0x1a6429
-	text "Although you can't"
-	line "see it from here,"
-
-	para "CIANWOOD is across"
-	line "the sea."
+	text "IRISIA est de"
+	line "l'autre côté de la"
+	cont "mer."
 	done
 ; 0x1a646a
 
 UnknownText_0x1a646a: ; 0x1a646a
-	text "Hm! There's a big"
-	line "building up ahead!"
+	text "Il y a un grand"
+	line "immeuble droit"
+	cont "devant?"
 
-	para "What is it?"
+	para "Qu'est-ce que"
+	line "c'est?"
 	done
 ; 0x1a649b
 
 UnknownText_0x1a649b: ; 0x1a649b
-	text "Hm! Look at all"
-	line "those serious-"
-	cont "looking trainers"
-	cont "streaming in."
+	text "Hum! Regarde tous"
+	line "ces dresseurs"
+	cont "en ébulition<...>"
 
-	para "What? What?"
+	para "Quoi?"
+
+	para "Quoi?"
 	done
 ; 0x1a64e6
 
 UnknownText_0x1a64e6: ; 0x1a64e6
-	text "I came to OLIVINE"
-	line "by ship to see the"
+	text "Je suis venue à"
+	line "OLIVILLE pour"
 
-	para "sights and soak up"
-	line "the atmosphere."
+	para "voir les beaux"
+	line "paysages<...>"
 
-	para "Being a port, it"
-	line "feels so different"
-	cont "from a big city."
+	para "C'est tellement"
+	line "différent par rap-"
+	cont "port à une grande"
+	cont "ville!"
 	done
 ; 0x1a6564
 
 UnknownText_0x1a6564: ; 0x1a6564
-	text "Have you gone to"
-	line "the BATTLE TOWER?"
+	text "As-tu visité la"
+	line "TOUR DE COMBAT?"
 
-	para "I think a lot of"
-	line "tough trainers"
+	para "Plein de dresseurs"
+	line "super puissants"
+	cont "s'y sont réunis."
 
-	para "have gathered"
-	line "there already."
+	para "Mais vu que tu as"
+	line "des BADGES, tu"
 
-	para "But since you have"
-	line "so many BADGES,"
-
-	para "you shouldn't do"
-	line "badly at all."
+	para "devrais pouvoir"
+	line "t'en sortir."
 	done
 ; 0x1a6606
 
 MeetMonicaText:
-	text "MONICA: Glad to"
-	line "meet you. I'm"
+	text "MONICA: Ravie de"
+	line "te recontrer!"
 
-	para "MONICA of Monday."
+	para "Je suis LUCIE du"
+	line "Lundi."
 	done
 
 MonicaGivesGiftText:
-	text "As a token of our"
-	line "friendship, I have"
-	cont "a gift for you!"
+	text "En signe d'amitié,"
+	line "voilà un cadeau"
+	cont "pour toi!"
 	done
 
 MonicaGaveGiftText:
-	text "MONICA: It's an"
-	line "item that raises"
+	text "LUCIE: C'est un"
+	line "objet qui améliore"
 
-	para "the power of fly-"
-	line "ing-type moves."
+	para "les capacités du"
+	line "type VOL."
 
-	para "You should equip a"
-	line "bird #MON with"
-	cont "that item."
+	para "Tu devrais le don-"
+	line "ner à un #MON"
+	cont "oiseau."
 	done
 
 MonicaMondayText:
-	text "MONICA: My broth-"
-	line "ers and sisters"
+	text "LUCIE: Mes frères"
+	line "et soeurs sont un"
+	cont "peu partout."
 
-	para "are all over the"
-	line "place."
-
-	para "See if you could"
-	line "find them all!"
+	para "Trouve-les tous!"
 	done
 
 MonicaNotMondayText:
-	text "MONICA: I don't"
-	line "think today is"
-	cont "Monday. How sad<...>"
+	text "LUCIE: On est pas"
+	line "Lundi aujourd'hui!"
+	cont "Dommage<...>"
 	done
 
 UnknownText_0x1a6767: ; 0x1a6767
 	text "ROUTE 40"
 
-	para "CIANWOOD CITY -"
-	line "OLIVINE CITY"
+	para "IRISIA -"
+	line "OLIVILLE"
 	done
 ; 0x1a678e
 

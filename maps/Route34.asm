@@ -595,8 +595,8 @@ AfterTutor:
 	end
 
 WhoToTeachText:
-	text "Who should I"
-	line "teach?"
+	text "A qui dois-je"
+	line "l'enseigner?"
 	done
 
 WeirdTutorText:
@@ -604,26 +604,26 @@ WeirdTutorText:
 	done
 
 TutorQuitText:
-	text "Well if you change"
-	line "your mind<...>"
+	text "Si jamais tu"
+	line "changes d'avis<...>"
 	done
 
 TutorPoorText:
-	text "You don't have"
-	line "enough money!"
+	text "Tu n'as pas assez"
+	line "d'argent!"
 	done
 
 TutorTakeMoneyText:
-	text "Great, they learn"
-	line "fast!"
+	text "Bien, ils"
+	line "apprennent vite!"
 
-	para "Now to hold up"
-	line "your end<...>"
+	para "Maintenant, ta"
+	line "part du marché<...>"
 	done
 
 LightPocketsText:
-	text "Your pockets are"
-	line "suddenly lighter<...>"
+	text "Tes poches sont"
+	line "plus légères<...>"
 	done
 
 UnknownScript_0x782d2: ; 0x782d2
@@ -868,183 +868,188 @@ MovementData_0x78337: ; 0x78337
 ; 0x7833d
 
 YoungsterSamuelSeenText: ; 0x7833d
-	text "I went to"
-	line "KANTO once!"
+	text "Je suis allé à"
+	line "KANTO une fois"
 
-	para "My strategy is to"
-	line "combine #MON"
-	cont "from both regions!"
+	para "Ma stratégie est"
+	line "de combiner les"
+	cont "#MON des deux"
+	cont "régions!"
 	done
 ; 0x7835e
 
 YoungsterSamuelBeatenText: ; 0x7835e
-	text "It wasn't"
-	line "enough<...>"
+	text "Ce n'est pas"
+	line "assez<...>"
 	done
 ; 0x7837d
 
 UnknownText_0x7837d: ; 0x7837d
-	text "Have you been to"
-	line "GOLDENROD CITY?"
+	text "Es-tu allé à"
+	line "DOUBLONVILLE?"
 
-	para "Weren't you amazed"
-	line "by how they've"
+	para "C'est incroyable à"
+	line "quel point ils ont"
 
-	para "changed the"
-	line "#MON CENTER?"
+	para "rénové le"
+	line "CENTRE #MON!"
 	done
 ; 0x783d8
 
 UnknownText_0x783d8: ; 0x783d8
-	text "I'm going to train"
-	line "even harder."
+	text "Je m'entraînerais"
+	line "encore plus dur."
 
-	para "After all, I'm"
-	line "trying to become"
-	cont "a GYM LEADER."
+	para "Je veux devenir un"
+	line "CHAMPION d'ARENE!"
 	done
 ; 0x78425
 
 YoungsterIanSeenText: ; 0x78425
-	text "I'm the best in my"
-	line "class at #MON."
+	text "Je suis le plus"
+	line "fort de ma classe"
+	cont "en #MON!"
 
-	para "I make use of"
-	line "stat-enhancing"
-	cont "items."
-
-	para "They make my"
-	line "#MON even more"
-	cont "powerful!"
+	para "J'utilise des"
+	line "objets pour"
+	cont "augmenter les"
+	cont "statistiques de"
+	cont "mes #MON."
 	done
 ; 0x78447
 
 YoungsterIanBeatenText: ; 0x78447
-	text "I guess I have"
-	line "things to learn"
-	cont "still<...>"
+	text "J'ai encore des"
+	line "choses à"
+	cont "apprendre<...>"
 	done
 ; 0x78469
 
 UnknownText_0x78469: ; 0x78469
-	text "LUCKY PUNCH<...>"
+	text "POING CHANCE<...>"
 
-	para "METAL POWDER<...>"
+	para "POUDRE METAL<...>"
 
-	para "They make CHANSEY"
-	line "and DITTO even"
-	cont "more powerful."
+	para "Ils rendent"
+	line "LEVEINARD et"
+	cont "METAMORPH plus"
+	cont "puissants."
 	done
 ; 0x7849b
 
 CamperTodd1SeenText: ; 0x7849b
-	text "I'm confident in"
-	line "my ability to"
-	cont "raise #MON."
+	text "J'ai confiance en"
+	line "mes capacités"
+	cont "d'élever des"
+	cont "#MON."
 
-	para "Want to see?"
+	para "Tu veux voir?"
 	done
 ; 0x784d3
 
 CamperTodd1BeatenText: ; 0x784d3
-	text "Did I screw up my"
-	line "training?"
+	text "J'ai raté mon"
+	line "entraînement?"
 	done
 ; 0x784f0
 
 UnknownText_0x784f0: ; 0x784f0
-	text "Maybe I should"
-	line "take one to a DAY-"
+	text "Peut-être que je"
+	line "devrais les emme-"
+	cont "ner à la PENSION."
 
-	para "CARE. Or maybe use"
-	line "some items<...>"
+	para "Ou utiliser des"
+	line "objets<...>"
 	done
 ; 0x78532
 
 UnknownText_0x78532: ; 0x78532
-	text "Shopping under the"
-	line "sky!"
+	text "Du shopping sous"
+	line "le ciel!"
 
-	para "It feels so nice"
-	line "up on a rooftop."
+	para "Il fait si bon"
+	line "sur le toit."
 	done
 ; 0x7856d
 
 PicnickerGina1SeenText: ; 0x7856d
-	text "Are you a trainer?"
+	text "Es-tu un dresseur?"
 
-	para "Let's have a"
-	line "practice battle."
+	para "Faisons un combat"
+	line "d'entraînement."
 	done
 ; 0x7859e
 
 PicnickerGina1BeatenText: ; 0x7859e
-	text "Oh, no! I just"
-	line "can't win<...>"
+	text "Oh non! Je ne peux"
+	line "pas gagner<...>"
 	done
 ; 0x785b8
 
 UnknownText_0x785b8: ; 0x785b8
-	text "Maybe it is time"
-	line "for my CHIKORITA"
-	cont "to evolve<...>"
+	text "Il est peut-être"
+	line "temps pour mon"
+	cont "GERMINION"
+	cont "d'évoluer<...>"
 
-	para "It is so cute"
-	line "so I have been"
-	cont "putting it off<...>"
+	para "Il est si mignon"
+	line "que j'en ai écarté"
+	cont "l'idée<...>"
 	done
 ; 0x785e4
 
 UnknownText_0x785e4: ; 0x785e4
-	text "Who goes there?"
-	line "What are you up"
-	cont "to?"
+	text "Qui va là?"
+	line "Qu'est-ce que"
+	cont "tu fais?"
 	done
 ; 0x78609
 
 UnknownText_0x78609: ; 0x78609
-	text "You're a tough"
-	line "little kid."
+	text "Tu es drôlement"
+	line "fort."
 	done
 ; 0x78624
 
 UnknownText_0x78624: ; 0x78624
-	text "Yep, I see nothing"
-	line "wrong today. You"
+	text "Je n'ai rien vu"
+	line "aujourd'hui."
 
-	para "be good and stay"
-	line "out of trouble."
+	para "Sois sage et ne"
+	line "fais pas de"
+	cont "bêtises."
 	done
 ; 0x7866a
 
 UnknownText_0x7866a: ; 0x7866a
-	text "I'm on patrol for"
-	line "suspicious indi-"
-	cont "viduals."
+	text "Je contrôle tous"
+	line "ceux qui ont l'air"
+	cont "suspect."
 	done
 ; 0x78696
 
 PokefanmBrandonSeenText: ; 0x78696
-	text "I'm helping my"
-	line "son with his"
-	cont "#MON battles."
+	text "J'aide mon fils"
+	line "dans ses combats"
+	cont "#MON."
 
-	para "These aren't"
-	line "my own #MON,"
-	cont "honestly!"
+	para "Ce ne sont même"
+	line "pas les miens,"
+	cont "vraiment!"
 	done
 ; 0x786e1
 
 PokefanmBrandonBeatenText: ; 0x786e1
-	text "DAD: I'll bring"
-	line "my own #MON"
-	cont "next time<...>"
+	text "PERE: J'amènerais"
+	line "mes propres #-"
+	cont "MON la prochaine"
+	cont "fois."
 
-	para "SON: But these"
-	line "aren't my #MON,"
-	cont "DAD<...>"
+	para "FILS: Mais ce sont"
+	line "pas mes #MON,"
+	cont "PAPA<...>"
 
-	para "DAD: <...>"
+	para "PERE: <...>"
 	done
 ; 0x786fc
 
@@ -1053,178 +1058,185 @@ UnknownText_0x786fc: ; 0x786fc
 
 	para "<...><...>"
 
-	para "I happen to like"
-	line "cute baby #MON!"
+	para "Et alors si j'aime"
+	line "bien les bébés"
+	cont "#MON?"
 
-	para "It's nothing to"
-	line "be ashamed about!"
+	para "Je n'ai pas à"
+	line "avoir honte!"
 	done
 ; 0x78743
 
 CooltrainerfIreneSeenText: ; 0x78743
 	text "IRENE: Kyaaah!"
-	line "Someone found us!"
+	line "Quelqu'un nous a"
+	cont "trouvé!"
 	done
 ; 0x78765
 
 CooltrainerfIreneBeatenText: ; 0x78765
 	text "IRENE: Ohhh!"
-	line "Too hot!"
+	line "Trop chaud!"
 	done
 ; 0x7877f
 
 UnknownText_0x7877f: ; 0x7877f
-	text "IRENE: My sister"
-	line "KATE will get you"
-	cont "for this!"
+	text "IRENE: Ma soeur"
+	line "KATE te fera"
+	cont "payer!"
 	done
 ; 0x787ad
 
 UnknownText_0x787ad: ; 0x787ad
-	text "IRENE: I'm so hot"
-	line "it's like my fists"
-	cont "are on fire."
+	text "IRENE: J'ai si"
+	line "chaud que mes"
+	cont "poings sont en"
+	cont "feu."
 
-	para "For ¥5000 I can"
-	line "teach you my"
-	cont "secret?"
+	para "Pour ¥5000, je"
+	line "peux t'apprendre"
+	cont "mon secret."
 	done
 ; 0x787eb
 
 CooltrainerfJennSeenText: ; 0x787eb
-	text "JENN: You can't"
-	line "beat IRENE and go"
-	cont "unpunished!"
+	text "JENN: Tu ne peux"
+	line "pas battre IRENE"
+	cont "et rester impuni!"
 	done
 ; 0x78819
 
 CooltrainerfJennBeatenText: ; 0x78819
-	text "JENN: So sorry,"
-	line "IRENE! Sis!"
+	text "JENN: Pardon"
+	line "IRENE!"
+	para "Soeureeeeete!"
 	done
 ; 0x78836
 
 UnknownText_0x78836: ; 0x78836
-	text "JENN: Don't get"
-	line "cocky! My sister"
-	cont "KATE is tough!"
+	text "JENN: Ne te vante"
+	line "pas! Ma soeur KATE"
+	cont "est forte!"
 	done
 ; 0x78866
 
 UnknownText_0x78866: ; 0x78866
-	text "JENN: Strike hard!"
+	text "JENN: Frappe fort!"
 
-	para "Fast!"
+	para "Rapide!"
 
-	para "Like lightning!"
+	para "Comme l'éclair!"
 
-	para "For ¥5000 your"
-	line "#MON can too."
-	cont "Well?"
+	para "Et pour ¥5000, ton"
+	line "#MON pourra"
+	cont "aussi. Alors?"
 	done
 ; 0x78890
 
 CooltrainerfKateSeenText: ; 0x78890
-	text "KATE: You sure"
-	line "were mean to my"
-	cont "little sisters!"
+	text "KATE: Tu as été"
+	line "méchant envers mes"
+	cont "petites soeurs!"
 	done
 ; 0x788c0
 
 CooltrainerfKateBeatenText: ; 0x788c0
-	text "KATE: No! I can't"
-	line "believe we lost."
+	text "KATE: Non! Je ne"
+	line "peux pas croire"
+	cont "que nous ayons"
+	cont "perdus!"
 	done
 ; 0x788e2
 
 UnknownText_0x788e2: ; 0x788e2
-	text "KATE: Oh, you're"
-	line "just a #MON"
-	cont "trainer?"
+	text "KATE: Oh, tu es"
+	line "juste un dresseur"
+	cont "de #MON?"
 
-	para "I thought you were"
-	line "a spy<...>"
+	para "J'ai cru que tu"
+	line "étais un espion<...>"
 
-	para "We're training"
-	line "elemental martial"
-	cont "arts in secret,"
-	cont "but so far we only"
-	cont "taught our"
-	cont "#MON<...>"
+	para "Nous nous entraî-"
+	line "nons aux arts"
+	cont "martiaux élémen-"
+	cont "taires mais pour"
+	cont "l'instant seuls"
+	cont "nos #MON les"
+	cont "maitrisent."
 
-	para "Say<...>"
+	para "Dis<...>"
 
-	para "If you bring us"
-	line "some snack money"
-	cont "we can teach your"
-	cont "#MON too."
+	para "Si tu nous amène"
+	line "de l'argent, on"
+	cont "pourrait aussi les"
+	cont "enseigner à tes"
+	cont "#MON."
 	done
 ; 0x7892b
 
 UnknownText_0x7892b: ; 0x7892b
-	text "KATE: I'm so cool"
-	line "it's like my hands"
-	cont "are ice."
+	text "KATE: Je suis"
+	line "aussi fraîche que"
+	cont "mes poings glacés."
 
-	para "¥5000 and I can"
-	line "give your mon my"
-	cont "freezng touch."
+	para "¥5000 et j'offre à"
+	line "tes #MON ce"
+	cont "toucher glacé."
 	done
 ; 0x7898a
 
 UnknownText_0x7898a: ; 0x7898a
-	text "ILEX FOREST"
-	line "THROUGH THE GATE"
+	text "BOIS AUX CHENES"
+	line "AU PASSAGE"
 	done
 ; 0x789a8
 
 UnknownText_0x789a8: ; 0x789a8
 	text "ROUTE 34"
 
-	para "GOLDENROD CITY -"
-	line "AZALEA TOWN"
+	para "DOUBLONVILLE -"
+	line "ECORCIA"
 
-	para "ILEX FOREST"
-	line "SOMEWHERE BETWEEN"
+	para "BOIS AUX CHENES"
+	line "SUR LE PASSAGE"
 	done
 ; 0x789ed
 
 UnknownText_0x789ed: ; 0x789ed
-	text "TRAINER TIPS"
+	text "ASTUCE"
 
-	para "BERRY trees grow"
-	line "new BERRIES"
-	cont "every day."
+	para "Les arbres à BAIES"
+	line "donnent des BAIES"
+	cont "tous les jours."
 
-	para "Make a note of"
-	line "which trees bear"
-	cont "which BERRIES."
+	para "Notez quel arbre"
+	line "donne quelle BAIE."
 	done
 ; 0x78a52
 
 UnknownText_0x78a52: ; 0x78a52
-	text "DAY-CARE"
+	text "PENSION"
 
-	para "LET US RAISE YOUR"
-	line "#MON FOR YOU!"
+	para "Nous élevons vos"
+	line "#MON pour vous!"
 	done
 ; 0x78a7c
 
 EggApproach_Text: ; 0x78a52
-	text "What a unique"
-	line "looking EGG!"
+	text "Voilà un OEUF bien"
+	line "unique!"
 
-	para "Want to take it?"
+	para "Le prendre?"
 	done
 
 FreeSpace_Text: ; 0x78a52
-	text "You've no room for"
-	line "this."
+	text "Tu n'as pas de"
+	line "place pour ça."
 	done
 
 FoundEgg_Text: ; 0x631ae
-	text "<PLAYER> found"
-	line "an EGG!"
+	text "<PLAYER> trouve"
+	line "un OEUF!"
 	done
 
 Route34_MapEventHeader: ; 0x78a7c

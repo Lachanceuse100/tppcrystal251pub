@@ -49,3 +49,4 @@ SilverCaveRoom2_MapEventHeader: ; 0x18c5bb
 	person_event SPRITE_POKE_BALL, 24, 8, $1, 0, 0, -1, -1, 0, 1, 0, ItemFragment_0x18c5b6, EVENT_ITEM_SILVERCAVEROOM2_PP_UP
 ; 0x18c601
 
+

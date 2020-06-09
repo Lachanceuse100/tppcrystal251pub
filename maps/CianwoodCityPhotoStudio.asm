@@ -28,26 +28,28 @@ UnknownScript_0x9e0f3: ; 0x9e0f3
 ; 0x9e0f9
 
 UnknownText_0x9e0f9: ; 0x9e0f9
-	text "You have magnifi-"
-	line "cent #MON with"
-	cont "you."
+	text "Tu as des #MON"
+	line "magnifiques avec"
+	cont "toi."
 
-	para "How about a photo"
-	line "for a souvenir?"
+	para "Ca te dirait une"
+	line "photo souvenir?"
 	done
 ; 0x9e142
 
 UnknownText_0x9e142: ; 0x9e142
-	text "OK! Big smile now!"
+	text "Attention, le"
+	line "petit oiseau va"
+	cont "sortir!"
 	done
 ; 0x9e156
 
 UnknownText_0x9e156: ; 0x9e156
-	text "Oh, that's too"
-	line "bad. I thought it"
+	text "Oh dommage, je"
+	line "suis sûr que ça"
 
-	para "would be a great"
-	line "memento<...>"
+	para "aurait fait un"
+	line "bon memento<...>"
 	done
 ; 0x9e191
 

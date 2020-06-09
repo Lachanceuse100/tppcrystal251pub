@@ -180,16 +180,17 @@ MovementData_0x980cc: ; 0x980cc
 ; 0x980d1
 
 OffLimitsWithoutBadge: ; 0x980d1
-	text "TIN TOWER is off"
-	line "limits to anyone"
+	text "La TOUR FERRAILLE"
+	line "est hors-limite à"
 
-	para "without ECRUTEAK"
-	line "GYM's BADGE."
+	para "ceux qui n'ont pas"
+	line "le BADGE de l'"
+	cont "ARENE de ROSALIA."
 	done
 
 YouHaveToLeave:
-	text "Sorry, but you'll"
-	line "have to leave."
+	text "Désolé, mais vous"
+	line "devez partir."
 	done
 ; 0x98131
 
@@ -202,30 +203,29 @@ HaveFogBadge: ; 0x98131
 
 	text "Ah!"
 
-	para "ECRUTEAK's GYM"
-	line "BADGE! Please, go"
-	cont "right through."
+	para "Le BADGE BRUME!"
+	line "Vous pouvez"
+	cont "passer.."
 	done
 ; 0x981a4
 
 MomentousEvent: ; 0x981a4
-	text "A momentous event"
-	line "has occurred."
+	text "Il se passe quel-"
+	line "que chose ici."
 
-	para "I beg your pardon,"
-	line "but I must ask you"
-	cont "to leave."
+	para "Je dois vous de-"
+	line "mander de partir."
 	done
 
 DifficultWiseTrio:
-	text "<...>What soothes the"
-	line "soul<...>"
+	text "<...>Ce qui apaise"
+	line "l'âme<...>"
 
-	para "The WISE TRIO say"
-	line "things that are so"
+	para "C'est parfois dif-"
+	line "ficile de compren-"
 
-	para "very difficult to"
-	line "understand<...>"
+	para "dre le TRIO des"
+	line "SAGES<...>"
 	done
 ; 0x98250
 
@@ -241,32 +241,31 @@ ClearBell: ; 0x98250
 
 	para "Ah!"
 
-	para "The sound of that"
-	line "CLEAR BELL!"
+	para "Le son du GLAS"
+	line "TRANSPARENT!"
 
-	para "It<...> It's sublime!"
+	para "Si<...> Si sublime!"
 
-	para "I've never heard"
-	line "so beautiful a"
-	cont "sound before!"
+	para "Je n'ai jamais"
+	line "rien entendu"
+	cont "d'aussi joli!"
 	done
 
 BellsChimeSoul:
-	text "That bell's chime"
-	line "is indicative of"
-	cont "the bearer's soul."
+	text "Le son du glas"
+	line "reflètre l'âme de"
+	cont "son porteur."
 
-	para "You<...>"
+	para "Toi<...>"
 
-	para "You may be able to"
-	line "make it through"
-	cont "TIN TOWER."
+	para "Tu peux accéder à"
+	line "la TOUR FERRAILLE."
 
 	done
 ; 0x9837e
 
 PleaseGoOn: ; 0x9837e
-	text "Please, do go on."
+	text "Va."
 	done
 ; 0x98391
 
@@ -286,36 +285,36 @@ PleaseGoOn: ; 0x9837e
 ; 0x9840b
 
 UnknownText_0x9840b: ; 0x9840b
-	text "The TIN TOWER"
-	line "ahead is a nine-"
+	text "La TOUR FERRAILLE"
+	line "est d'une pure"
+	cont "beauté."
 
-	para "tier tower of"
-	line "divine beauty."
-
-	para "It soothes the"
-	line "soul of all who"
-	cont "see it."
+	para "Elle apaise tous"
+	line "ceux qui la"
+	cont "regardent."
 	done
 ; 0x9846f
 
 UnknownText_0x9846f: ; 0x9846f
-	text "The TIN TOWER"
-	line "shook! A #MON"
+	text "La TOUR FERRAILLE"
+	line "tremble! Un #"
 
-	para "must have returned"
-	line "to the top!"
+	para "MON a du se poser"
+	line "au sommet!"
 	done
 ; 0x984ab
 
 UnknownText_0x984ab: ; 0x984ab
-	text "Two towers<...>"
-	line "Two #MON<...>"
+	text "Deux tours<...>"
+	line "Deux #MON<...>"
 
-	para "But when one"
-	line "burned down, both"
+	para "Mais lorsqu'une"
+	line "d'entre elles a"
 
-	para "#MON flew away,"
-	line "never to return."
+	para "brûlé, les deux"
+	line "#MON se sont"
+	cont "envolés et ne sont"
+	cont "jamais revenus."
 	done
 ; 0x98502
 

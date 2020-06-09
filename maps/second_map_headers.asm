@@ -790,3 +790,4 @@
 	map_header_2 TradeCenterKanto, TRADE_CENTER_KANTO, $0, NONE ; 0x962f0
 	map_header_2 ColosseumKanto, COLOSSEUM_KANTO, $0, NONE ; 0x962fc
 	map_header_2 TimeCapsuleKanto, TIME_CAPSULE_KANTO, $0, NONE ; 0x96308
+

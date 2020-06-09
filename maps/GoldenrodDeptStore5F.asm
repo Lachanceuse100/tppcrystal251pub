@@ -206,48 +206,52 @@ UnknownText_0x56202: ; 0x56202
 ; 0x56241
 
 UnknownText_0x56241: ; 0x56241
-	text "MYSTERY GIFT."
+	text "CADEAU MYSTERE."
 
-	para "With just a"
-	line "little beep, you"
-	cont "get a gift."
+	para "Un petit bip, un"
+	line "petit cadeau."
 	done
 ; 0x56279
 
 UnknownText_0x56279: ; 0x56279
-	text "The MYSTERY GIFT"
-	line "option requires a"
-	cont "Game Boy Color."
+	text "Il te faut une"
+	line "Game Boy Color"
+	cont "pour le CADEAU"
+	cont "MYSTERE."
 	done
 ; 0x562ad
 
 UnknownText_0x562ad: ; 0x562ad
-	text "They sell hold"
-	line "items here now!"
+	text "Ils vendent des"
+	line "objets à tenir"
+	cont "maintenant!"
 
-	para "Some can even"
-	line "evolve #MON."
+	para "Certains évoluent"
+	line "les #MON."
 	done
 ; 0x562f3
 
 UnknownText_0x562f3: ; 0x562f3
-	text "You can't rename a"
-	line "#MON you get in"
-	cont "a trade."
+	text "Tu ne peux pas re-"
+	line "nommer un #MON"
+	cont "obtenu dans un"
+	cont "échange."
 
-	para "The name is a re-"
-	line "flection of the"
+	para "Son nom reflète"
+	line "les sentiments"
 
-	para "original trainer's"
-	line "feelings for it."
+	para "profonds de son"
+	line "dresseur"
+	cont "d'origine."
 	done
 ; 0x56364
 
 UnknownText_0x56364: ; 0x56364
-	text "Customize Your"
-	line "#MON"
+	text "Vos #MON"
+	line "sur mesure."
 
-	para "5F TACTICS CORNER"
+	para "4EME: BOUTIQUE"
+	line "      TACTIQUE"
 	done
 ; 0x56386
 

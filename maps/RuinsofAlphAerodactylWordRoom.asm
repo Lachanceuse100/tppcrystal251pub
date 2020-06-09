@@ -26,3 +26,4 @@ RuinsofAlphAerodactylWordRoom_MapEventHeader: ; 0x59b85
 	db 0
 ; 0x59b9a
 
+

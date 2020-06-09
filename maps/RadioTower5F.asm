@@ -251,256 +251,247 @@ MovementData_0x60125: ; 0x60125
 ; 0x60128
 
 UnknownText_0x60128: ; 0x60128
-	text "Y-you! You came to"
-	line "rescue me?"
+	text "T-toi! Tu es venu"
+	line "me s-sauver?"
 	done
 ; 0x60147
 
 UnknownText_0x60147: ; 0x60147
-	text "Is that what you"
-	line "were expecting?"
+	text "C'est ce que tu"
+	line "voulais entendre?"
 
-	para "Wrong!"
-	line "I'm an imposter!"
+	para "Et oui! Je suis"
+	line "un imposteur!"
 
-	para "I pretended to be"
-	line "the real thing to"
+	para "Cette mascarade"
+	line "était nécessaire"
+	cont "à notre invasion!"
 
-	para "prepare for our"
-	line "takeover."
+	para "Veux-tu savoir où"
+	line "est caché le vrai"
+	cont "DIRECTEUR?"
 
-	para "Do you want to"
-	line "know where we hid"
-	cont "the real DIRECTOR?"
-
-	para "Sure, I'll tell"
-	line "you. But only if"
-	cont "you can beat me!"
+	para "Ha! Jamais de la"
+	line "vie!"
 	done
 ; 0x60223
 
 UnknownText_0x60223: ; 0x60223
-	text "OK, OK. I'll tell"
-	line "you where he is."
+	text "OK, OK. Je vais"
+	line "parler."
 	done
 ; 0x60246
 
 UnknownText_0x60246: ; 0x60246
-	text "We stashed the"
-	line "real DIRECTOR in"
+	text "On a planqué le"
+	line "DIRECTEUR dans"
 
-	para "the UNDERGROUND"
-	line "WAREHOUSE."
+	para "l'ENTREPOT"
+	line "SOUTERRAIN."
 
-	para "It's at the far"
-	line "end of the UNDER-"
-	cont "GROUND."
+	para "C'est tout au bout"
+	line "du SOUTERRAIN."
 
-	para "But I doubt you'll"
-	line "get that far."
+	para "Mais t'y arriveras"
+	line "jamais<...>"
 	done
 ; 0x602cb
 
 Executivef1SeenText: ; 0x602cb
-	text "Remember me from"
-	line "the HIDEOUT in"
-	cont "MAHOGANY TOWN?"
+	text "Tu te souviens de"
+	line "moi? Dans la"
+	cont "planque à ACAJOU?"
 
-	para "I lost then, but I"
-	line "won't this time."
+	para "J'avais perdu<...>"
+	line "Mais cette fois<...>"
 
-	para "I am well prepared"
-	line "this time!"
+	para "Je suis prête!"
 	done
 ; 0x6031e
 
 Executivef1BeatenText: ; 0x6031e
-	text "This can't be"
-	line "happening!"
+	text "Ce n'est pas"
+	line "possible!"
 
-	para "I fought hard, but"
-	line "I still lost<...>"
+	para "Je donne tout et"
+	line "je perds encore<...>"
 	done
 ; 0x60358
 
 UnknownText_0x60358: ; 0x60358
-	text "<PLAYER>, isn't it?"
+	text "<PLAYER>, hein?"
 
-	para "A brat like you"
-	line "won't appreciate"
+	para "Une peste comme"
+	line "toi ne voit pas"
 
-	para "the magnificence"
-	line "of TEAM ROCKET."
+	para "la grandeur de"
+	line "la TEAM ROCKET."
 
-	para "That's too bad."
-	line "I really admire"
-	cont "your power."
+	para "C'est dommage."
+	line "J'admire ta"
+	cont "puissance."
 	done
 ; 0x603d1
 
 UnknownText_0x603d1: ; 0x603d1
-	text "Oh? You managed to"
-	line "get this far?"
+	text "Oh? Tu es déjà là?"
 
-	para "You must be quite"
-	line "the trainer."
+	para "Tu dois avoir un"
+	line "sacré talent."
 
-	para "We intend to take"
-	line "over this RADIO"
+	para "Nous allons con-"
+	line "trôler cette STA-"
 
-	para "STATION and an-"
-	line "nounce our come-"
-	cont "back."
+	para "TION de RADIO pour"
+	line "annoncer au monde"
+	cont "notre retour."
 
-	para "That should bring"
-	line "our boss GIOVANNI"
+	para "Cela devrait faire"
+	line "revenir notre chef"
 
-	para "back from his solo"
-	line "training."
+	para "GIOVANNI de son"
+	line "entraînement solo."
 
-	para "We are going to"
-	line "regain our former"
-	cont "glory."
+	para "La goire passée de"
+	line "la TEAM ROCKET"
+	cont "sera restituée."
 
-	para "I won't allow you"
-	line "to interfere with"
-	cont "our plans."
+	para "Et ce n'est pas"
+	line "toi qui pourras y"
+	cont "faire quoi que ce"
+	cont "soit."
 	done
 ; 0x604f3
 
 UnknownText_0x604f3: ; 0x604f3
-	text "No! Forgive me,"
+	text "Non! Pardon,"
 	line "GIOVANNI!"
 	done
 ; 0x6050e
 
 UnknownText_0x6050e: ; 0x6050e
-	text "How could this be?"
+	text "Impossible!"
 
-	para "Our dreams have"
-	line "come to naught."
+	para "Nos rêves se"
+	line "brisent."
 
-	para "I wasn't up to the"
-	line "task after all."
+	para "Je ne suis pas"
+	line "digne."
 
-	para "Like GIOVANNI did"
-	line "before me, I will"
+	para "Comme GIOVANNI l'a"
+	line "fait jadis, je"
 
-	para "disband TEAM"
-	line "ROCKET here today."
+	para "vais dissoudre la"
+	line "TEAM ROCKET."
 
-	para "Farewell."
+	para "Adieu."
 	done
 ; 0x605b2
 
 UnknownText_0x605b2: ; 0x605b2
-	text "DIRECTOR: <PLAY_G>,"
-	line "thank you!"
+	text "DIRECTEUR:"
+	line "Merci <PLAY_G>!"
 
-	para "Your courageous"
-	line "actions have saved"
+	para "Ton courage a"
+	line "sauvé les #MON"
+	cont "du monde entier."
 
-	para "#MON nation-"
-	line "wide."
-
-	para "I know it's not"
-	line "much, but please"
-	cont "take this."
+	para "Ce n'est pas grand"
+	line "chose, mais c'est"
+	cont "pour toi."
 	done
 ; 0x6062c
 
 UnknownText_0x6062c: ; 0x6062c
-	text "There used to be a"
-	line "tower right here"
-	cont "in GOLDENROD CITY."
+	text "Il y avait une"
+	line "tour ici à"
+	cont "DOUBLONVILLE."
 
-	para "But it was old and"
-	line "creaky."
+	para "Mais elle était en"
+	line "mauvais état."
 
-	para "So we replaced it"
-	line "with our RADIO"
-	cont "TOWER."
+	para "On l'a alors rem-"
+	line "placée par notre"
+	cont "TOUR RADIO."
 
-	para "We dug up that"
-	line "bell during"
-	cont "construction."
+	para "Pendant les tra-"
+	line "vaux, nous avons"
+	cont "trouvé ce glas."
 
-	para "I heard that all"
-	line "sorts of #MON"
+	para "On dit qu'une"
+	line "multitude de #-"
 
-	para "lived in GOLDENROD"
-	line "in the past."
+	para "MON différents"
+	line "vivaient ici."
 
-	para "Perhaps<...>"
+	para "Alors<...>"
 
-	para "That bell has some"
-	line "connection to the"
+	para "Ce glas a peut-"
+	line "être un lien avec"
 
-	para "TIN TOWER in"
-	line "ECRUTEAK CITY<...>"
+	para "la TOUR FERRAILLE"
+	line "de ROSALIA.<...>"
 
 	para "Ah!"
 
-	para "That reminds me<...>"
+	para "Ca me rappelle<...>"
 
-	para "I overheard TEAM"
-	line "ROCKET whispering."
+	para "J'ai entendu un"
+	line "des types de la"
+	cont "TEAM ROCKET."
 
-	para "Apparently, some-"
-	line "thing is going on"
-	cont "at the TIN TOWER."
+	para "Apparamment, il se"
+	line "passe des trucs à"
+	cont "la TOUR FERRAILLE."
 
-	para "I have no idea"
-	line "what is happening,"
+	para "A mon avis, tu"
+	line "devrais y aller."
 
-	para "but you might look"
-	line "into it."
-
-	para "OK, I better go to"
-	line "my OFFICE."
+	para "OK, je retourne"
+	line "au BUREAU."
 	done
 ; 0x60824
 
 UnknownText_0x60824: ; 0x60824
-	text "DIRECTOR: Hello,"
+	text "DIRECTEUR: Salut,"
 	line "<PLAY_G>!"
 
-	para "You know, I love"
-	line "#MON."
+	para "Tu sais, j'adore"
+	line "les #MON."
 
-	para "I built this RADIO"
-	line "TOWER so I could"
+	para "J'ai construit"
+	line "cette TOUR RADIO"
 
-	para "express my love"
-	line "of #MON."
+	para "pour crier au mon-"
+	line "de mon amour."
 
-	para "It would be nice"
-	line "if people enjoyed"
-	cont "our programs."
+	para "J'espère que les"
+	line "gens aiment nos"
+	cont "émissions."
 	done
 ; 0x608be
 
 UnknownText_0x608be: ; 0x608be
-	text "BEN: Do you listen"
-	line "to our music?"
+	text "BEN: Tu écoutes"
+	line "notre musique?"
 	done
 ; 0x608e0
 
 UnknownText_0x608e0: ; 0x608e0
-	text "5F DIRECTOR'S"
-	line "   OFFICE"
+	para "4EME BUREAU"
+	line "     DIRECTION"
 	done
 ; 0x608f9
 SwitchBehindPosterText:
-	text "Hey!"
+	text "Hé!"
 
-	para "A switch behind"
-	line "the poster!?"
-	cont "Let's push it!"
+	para "Un switch derrière"
+	line "ce poster!?"
+	cont "Appuyons<...>"
 	done
 
 UnknownText_0x608f9: ; 0x608f9
-	text "5F STUDIO 1"
+	text "4EME STUDIO 1"
 	done
 ; 0x60906
 

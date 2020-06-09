@@ -172,129 +172,125 @@ MapRoute37SignpostItem1: ; 0x1a8e0f
 ; 0x1a8e12
 
 TwinsAnnandanne1SeenText: ; 0x1a8e12
-	text "ANN: ANNE and I"
-	line "are in this to-"
-	cont "gether!"
+	text "ANN: ANNE et moi"
+	line "sommes insépara-"
+	cont "bles!"
 	done
 ; 0x1a8e3b
 
 TwinsAnnandanne1BeatenText: ; 0x1a8e3b
-	text "ANN & ANNE: Nnn<...> A"
-	line "little too strong."
+	text "ANN&ANNE: <...> "
+	line "Pas possible."
 	done
 ; 0x1a8e62
 
 UnknownText_0x1a8e62: ; 0x1a8e62
-	text "ANN: I can tell"
-	line "what my sister and"
-
-	para "my #MON are"
-	line "thinking."
+	text "ANN: Je pense"
+	line "comme ma soeur et"
+	cont "comme mes #MON."
 	done
 ; 0x1a8e9c
 
 TwinsAnnandanne2SeenText: ; 0x1a8e9c
-	text "ANNE: ANN and I"
-	line "are in this to-"
-	cont "gether!"
+	text "ANNE: ANN et moi"
+	line "sommes insépara-"
+	cont "bles!"
 	done
 ; 0x1a8ec5
 
 TwinsAnnandanne2BeatenText: ; 0x1a8ec5
-	text "ANN & ANNE: Nnn<...> A"
-	line "little too strong."
+	text "ANN&ANNE: <...> "
+	line "Pas possible."
 	done
 ; 0x1a8eec
 
 UnknownText_0x1a8eec: ; 0x1a8eec
-	text "ANNE: We share the"
-	line "same feelings as"
-	cont "our #MON."
+	text "ANNE: Nous ressen-"
+	line "tons les mêmes"
+	cont "choses que nos"
+	cont "#MON."
 	done
 ; 0x1a8f1b
 
 PsychicGregSeenText: ; 0x1a8f1b
-	text "#MON can't do a"
-	line "thing if they are"
-	cont "asleep."
+	text "Les #MON ne"
+	line "peuvent rien faire"
+	cont "si ils dorment."
 
-	para "I'll show you how"
-	line "scary that is!"
+	para "Tu vas voir quel"
+	line "effet ça fait!"
 	done
 ; 0x1a8f65
 
 PsychicGregBeatenText: ; 0x1a8f65
-	text "I lost. That's"
-	line "pretty sad<...>"
+	text "J'ai perdu. C'est"
+	line "pas cool, ça<...>"
 	done
 ; 0x1a8f80
 
 UnknownText_0x1a8f80: ; 0x1a8f80
-	text "Putting #MON to"
-	line "sleep or paralyz-"
-	cont "ing them are good"
-	cont "battle techniques."
+	text "Endormir ou para-"
+	line "lyser les #MON"
+	cont "sont de bonnes"
+	cont "techniques de"
+	cont "combat?"
 	done
 ; 0x1a8fc8
 
 MeetSunnyText:
-	text "SUNNY: Hi!"
+	text "DIMITRI: Salut!"
 
-	para "I'm SUNNY of Sun-"
-	line "day, meaning it's"
-	cont "Sunday today!"
+	para "Moi c'est DIMITRI"
+	line "du Dimanche. Et on"
+	cont "est Dimanche!"
 	done
 
 SunnyGivesGiftText1:
-	text "I was told to give"
-	line "you this if I saw"
-	cont "you!"
+	text "On m'a dit de te"
+	line "donner ça!"
 	done
 
 SunnyGivesGiftText2:
-	text "I was told to give"
-	line "you this if I saw"
-	cont "you!"
+	text "On m'a dit de te"
+	line "donner ça!"
 	done
 
 SunnyGaveGiftText:
-	text "SUNNY: That thing<...>"
+	text "DIMITRI: Ca<...>"
 
-	para "Um<...>"
+	para "Heu<...>"
 
-	para "<...> What was it now<...>"
+	para "<...>C'est<...>"
 
 	para "<...>"
 
-	para "Oh! I remember"
-	line "now!"
+	para "Oh! Je me"
+	line "souviens!"
 
-	para "A #MON that"
-	line "knows electric"
+	para "C'est pour un"
+	line "#MON à capaci-"
+	cont "tés électriques."
 
-	para "moves should hold"
-	line "it."
-
-	para "My sis MONICA said"
-	line "it powers up"
-	cont "electric moves!"
+	para "Ma soeur LUCIE"
+	line "dit que ça les"
+	cont "améliore!"
 	done
 
 SunnySundayText:
-	text "SUNNY: My sisters"
-	line "and brothers are"
-	cont "MONICA, TUSCANY,"
-	cont "WESLEY, ARTHUR,"
-	cont "FRIEDA and SANTOS."
+	text "DIMITRI: Mes frè-"
+	line "res et soeurs sont"
+	cont "LUCIE, MARIE,"
+	cont "HOMER, JEROME,"
+	cont "VANESSA et SAMUEL."
 
-	para "They're all older"
-	line "than me!"
+	para "Ils sont tous plus"
+	line "vieux que moi!"
 	done
 
 SunnyNotSundayText:
-	text "SUNNY: Isn't today"
-	line "Sunday?"
-	cont "Um<...> I forgot!"
+	text "DIMITRI: On est"
+	line "quel jour?"
+	cont "<...> Je sais plus!"
 	done
 
 UnknownText_0x1a9197: ; 0x1a9197

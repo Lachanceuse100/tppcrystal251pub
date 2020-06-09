@@ -122,78 +122,73 @@ MovementData_0x18052c: ; 0x18052c
 ; 0x180531
 
 WillBeforerematchText:
-	text "So, you have"
-	line "finally appeared."
+	text "Te voilà enfin."
 
-	para "I have observed"
-	line "your battle"
-	cont "techniques."
+	para "J'ai observé tes"
+	line "techniques de"
+	cont "combat."
 
-	para "I'm ready for you!"
+	para "Je suis prêt"
 
-	para "All right."
-
-	para "Prepare for"
-	line "battle!"
+	para "Prépare toi au"
+	line "combat!"
 	done
 
 WillAfterRematchText:
-	text "I've expended all"
-	line "my power."
+	text "J'ai utilisé toute"
+	line "ma puissance."
 
-	para "I have no regrets"
-	line "about losing"
-	cont "this way."
+	para "Je n'ai pas de"
+	line "regrets."
 	done
 
 UnknownText_0x180531: ; 0x180531
-	text "Welcome to #MON"
-	line "LEAGUE, <PLAYER>."
+	text "Bienvenue à la"
+	line "LIGUE #MON,"
+	cont "<PLAYER>."
 
-	para "Allow me to intro-"
-	line "duce myself. I am"
-	cont "WILL."
+	para "Je me présente:"
+	line "Je suis CLEMENT."
 
-	para "I have trained all"
-	line "around the world,"
+	para "Je sais tout."
+	line "J'ai tout vu."
 
-	para "making my psychic"
-	line "#MON powerful."
+	para "Mes #MON PSY"
+	line "sont trop forts."
+	
+	para "Le CONSEIL des 4"
+	line "m'a accueilli en"
+	cont "son sein."
 
-	para "And, at last, I've"
-	line "been accepted into"
-	cont "the ELITE FOUR."
+	para "Rien de plus nor-"
+	line "mal, après tout."
 
-	para "I can only keep"
-	line "getting better!"
-
-	para "Losing is not an"
-	line "option!"
+	para "Je ne connais que"
+	line "la victoire!"
 	done
 ; 0x18062c
 
 UnknownText_0x18062c: ; 0x18062c
-	text "I<...> I can't<...>"
-	line "believe it<...>"
+	text "C'est<...>"
+	line "Incroyable<...>"
 	done
 ; 0x180644
 
 UnknownText_0x180644: ; 0x180644
-	text "Even though I was"
-	line "defeated, I won't"
-	cont "change my course."
+	text "Malgré ma défaite,"
+	line "je ne changerais"
+	cont "pas ma route."
 
-	para "I will continue"
-	line "battling until I"
+	para "Je continuerais de"
+	line "me battre jusqu'à"
+	cont "être au sommet!"
 
-	para "stand above all"
-	line "trainers!"
+	para "<PLAYER><...>"
+	line "Continue ta route"
 
-	para "Now, <PLAYER>, move"
-	line "on and experience"
-
-	para "the true ferocity"
-	line "of the ELITE FOUR."
+	para "et découvre la"
+	line "force du CONSEIL"
+	cont "des 4!"
 	done
 ; 0x1806f9
 

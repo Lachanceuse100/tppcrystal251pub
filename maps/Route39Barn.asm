@@ -136,76 +136,78 @@ UnknownScript_0x9cd25: ; 0x9cd25
 ; 0x9cd2e
 
 UnknownText_0x9cd2e: ; 0x9cd2e
-	text "MOOMOO is sick<...>"
+	text "MEUMEU est malade<...>"
 
-	para "She needs lots of"
-	line "ORAN BERRIES."
+	para "Elle a besoin de"
+	line "beaucoup de"
+	cont "BAIES ORAN."
 	done
 ; 0x9cd5a
 
 UnknownText_0x9cd5a: ; 0x9cd5a
-	text "We're feeding"
-	line "MOOMOO!"
+	text "On nourrit MEUMEU!"
 	done
 ; 0x9cd70
 
 UnknownText_0x9cd70: ; 0x9cd70
-	text "MILTANK: <...>Moo<...>"
+	text "MILTANK: <...>Meu<...>"
 	done
 ; 0x9cd80
 
 UnknownText_0x9cd80: ; 0x9cd80
-	text "Its cry is weak<...>"
+	text "Son cri est"
+	line "très faible<...>"
 	done
 ; 0x9cd92
 
 UnknownText_0x9cd92: ; 0x9cd92
-	text "MILTANK: Mooo!"
+	text "ECREMEUH: MEU!"
 	done
 ; 0x9cda2
 
 UnknownText_0x9cda2: ; 0x9cda2
-	text "Give an ORAN BERRY"
-	line "to MILTANK?"
+	text "Donner une BAIE"
+	line "ORAN à ECREMEUH?"
 	done
 ; 0x9cdbc
 
 UnknownText_0x9cdbc: ; 0x9cdbc
-	text "<PLAYER> gave an"
-	line "ORAN BERRY to"
-	cont "MILTANK."
+	text "<PLAYER> donne une"
+	line "BAIE ORAN à"
+	cont "ECREMEUH."
 	done
 ; 0x9cdd8
 
 UnknownText_0x9cdd8: ; 0x9cdd8
-	text "MILTANK became a"
-	line "little healthier!"
+	text "ECREMEUH se sent"
+	line "un peu mieux!"
 	done
 ; 0x9cdfc
 
 UnknownText_0x9cdfc: ; 0x9cdfc
-	text "MILTANK became"
-	line "quite healthy!"
+	text "ECREMEUH se sent"
+	line "mieux!"
 	done
 ; 0x9ce1b
 
 UnknownText_0x9ce1b: ; 0x9ce1b
-	text "MILTANK became"
-	line "totally healthy!"
+	text "ECREMEUH retrouve"
+	line "la forme!"
 	done
 ; 0x9ce3c
 
 UnknownText_0x9ce3c: ; 0x9ce3c
-	text "<PLAYER> has no"
-	line "ORAN BERRIES<...>"
+	text "<PLAYER> n'a pas de"
+	line "BAIE ORAN<...>"
 	done
 ; 0x9ce4f
 
 UnknownText_0x9ce4f: ; 0x9ce4f
-	text "<PLAYER> wouldn't"
-	line "give a ORAN BERRY."
+	text "<PLAYER> ne donne"
+	line "pas de BAIE ORAN."
 
-	para "MILTANK looks sad."
+	para "ECREMEUH est"
+	line "triste."
 	done
 ; 0x9ce7b
 

@@ -115,41 +115,34 @@ BoutiqueStylistScriptNoStyle:
 	end
 
 BoutiqueStylistText1:
-	text "Welcome to the"
-	line "BOUTIQUE!"
+	text "Bienvenue au"
+	line "SALON de COIFFURE!"
 
-	para "You seem like you"
-	line "want to change"
-	cont "your STYLE!"
-
-	para "Would you like to"
-	line "change your STYLE?"
+	para "Tu veux changer"
+	line "ton look?"
 	done
 
 BoutiqueStylistText2:
-	text "Great! To change"
-	line "your STYLE, it'll"
-	cont "cost ", $f0, "500, OK?"
+	text "Super! Ca te coû-"
+	line "tera ", $f0, "500, OK?"
 	done
 
 BoutiqueStylistText3:
-	text "Let's get started!"
+	text "C'est parti!"
 
-	para "What is your"
-	line "favorite color?"
+	para "Quelle est ta"
+	line "couleur préférée?"
 	done
 	;change it
 
 BoutiqueStylistText4:
-	text "Voila! All done!"
+	text "Voila! C'est bon!"
 	done
 
 BoutiqueStylistTextExit:
-	text "Make sure to come"
-	line "back if you want"
-
-	para "to change your"
-	line "STYLE again!"
+	text "Si tu veux changer"
+	line "de look, n'hésites"
+	cont "pas à revenir!"
 	done
 
 BoutiqueStylistScriptNoMoney:
@@ -160,58 +153,57 @@ BoutiqueStylistScriptNoMoney:
 	end
 
 BoutiqueStylistTextNoMoney:
-	text "You don't seem to"
-	line "have enough money!"
+	text "Tu n'as pas assez"
+	line "d'argent!"
 
-	para "Come back when"
-	line "you get some!"
+	para "Reviens quand tu"
+	line "auras le compte!"
 	done
 
 	;branch to move the player around
 
 BoutiqueCooltrainerMText:
-	text "This place is"
-	line "amazing!"
+	text "Cet endroit est"
+	line "génial!"
 
-	para "I just wish the"
-	line "wait wasn't so"
-	cont "long<...>"
+	para "J'aimerais que"
+	line "l'attente ne soit"
+	cont "pas si longue<...>"
 	done
 
 BoutiqueCooltrainerM2Text:
-	text "I'm waiting for"
-	line "my friend to"
-	cont "get here!"
+	text "J'attends que mon"
+	line "ami arrive!"
 
-	para "We're going to"
-	line "have matching"
-	cont "STYLES!"
+	para "On va se faire le"
+	line "même look!"
 	done
 
 BoutiqueCooltrainerFText:
-	text "There are so many"
-	line "different STYLE"
-	cont "options!"
+	text "Il y a tellement"
+	line "de choix"
+	cont "différents!"
 
-	para "I wonder which"
-	line "looks the cutest<...>"
+	para "Je me demande"
+	line "laquelle est la"
+	cont "plus mignonne<...>"
 	done
 
 BoutiqueRockerText:
-	text "I'm getting my"
-	line "hair dyed!"
+	text "Je me teins les"
+	line "cheveux!"
 
-	para "Gotta keep"
-	line "looking fresh!"
+	para "Faut que je reste"
+	line "à la mode!"
 	done
 	
 BoutiqueStylistBusyText:
-	text "I'm a professional"
-	line "STYLIST!"
+	text "Je suis un styli-"
+	line "ste professionnel!"
 
-	para "I'm giving this"
-	line "fresh trainer a"
-	cont "brand new STYLE!"
+	para "Je donne un tout"
+	line "nouveau look à ce"
+	cont "jeune dresseur!"
 	done
 
 MenuDataHeaderBoutique:
@@ -224,11 +216,11 @@ MenuDataHeaderBoutique:
 MenuDataBoutique:
 	db $81 ; flags
 	db 5 ; items
-	db "RED@"
-	db "BLUE@"
-	db "GREEN@"
-	db "BROWN@"
-	db "YELLOW@"
+	db "ROUGE@"
+	db "BLEU@"
+	db "VERT@"
+	db "MARRON@"
+	db "JAUNE@"
 
 GoldenrodBoutique_MapEventHeader:
 	; filler

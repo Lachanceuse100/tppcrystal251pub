@@ -123,118 +123,121 @@ MapNationalParkBugContestSignpostItem2: ; 0x5c949
 ; 0x5c94c
 
 UnknownText_0x5c94c: ; 0x5c94c
-	text "DON: I'm going to"
-	line "win! Don't bother"
-	cont "me."
+	text "DON: Je vais"
+	line "gagner! Viens pas"
+	cont "m'embêter."
 	done
 ; 0x5c973
 
 UnknownText_0x5c973: ; 0x5c973
-	text "ED: My PARASECT"
-	line "puts #MON to"
-	cont "sleep with SPORE."
+	text "ED: Mon PARASECT"
+	line "endors les #MON"
+	cont "avec SPORE."
 	done
 ; 0x5c9a3
 
 UnknownText_0x5c9a3: ; 0x5c9a3
-	text "NICK: I'm raising"
-	line "fast #MON for"
-	cont "battles."
+	text "NICK: J'élève des"
+	line "#MON rapides"
+	cont "pour les combats."
 	done
 ; 0x5c9cc
 
 UnknownText_0x5c9cc: ; 0x5c9cc
-	text "WILLIAM: I'm not"
-	line "concerned about"
-	cont "winning."
+	text "WILLIAM: Gagner"
+	line "ne m'intéresse pas"
+	cont "vraiment."
 
-	para "I'm just looking"
-	line "for rare #MON."
+	para "Je cherche juste"
+	line "les #MON rares."
 	done
 ; 0x5ca15
 
 UnknownText_0x5ca15: ; 0x5ca15
-	text "BENNY: Ssh! You'll"
-	line "scare off SCYTHER."
+	text "BENNY: Chut! Tu"
+	line "vas faire fuir"
 
-	para "I'll talk to you"
-	line "later."
+	para "INSECATEUR. Parle-"
+	line "moi plus tard."
 	done
 ; 0x5ca52
 
 UnknownText_0x5ca52: ; 0x5ca52
-	text "BARRY: You should"
-	line "weaken bug #MON"
+	text "BARRY: Tu devrais"
+	line "affaiblir les"
+	cont "#MON INSECTE"
 
-	para "first, then throw"
-	line "a BALL."
+	para "avant de lancer"
+	line "une BALL."
 	done
 ; 0x5ca8f
 
 UnknownText_0x5ca8f: ; 0x5ca8f
-	text "CINDY: I love bug"
-	line "#MON."
+	text "CINDY: J'adore les"
+	line "#MON INSECTE."
 
-	para "I guess you must"
-	line "like them too."
+	para "Je suppose que"
+	line "toi aussi."
 	done
 ; 0x5cac8
 
 UnknownText_0x5cac8: ; 0x5cac8
-	text "JOSH: I've been"
-	line "collecting bug"
+	text "JOSH: J'aime"
+	line "collectionner les"
 
-	para "#MON since I"
-	line "was just a baby."
+	para "#MON depuis que je"
+	line "suis bébé."
 
-	para "There's no way I'm"
-	line "going to lose!"
+	para "Je ne perdrais"
+	line "pas!"
 	done
 ; 0x5cb25
 
 UnknownText_0x5cb25: ; 0x5cb25
-	text "SAMUEL: If you've"
-	line "got the time to"
+	text "SAMUEL: Si tu as"
+	line "le temps de"
 
-	para "chat, go find some"
-	line "bug #MON."
+	para "parler, va cher-"
+	line "cher des #MON"
+	cont "INSECTE."
 	done
 ; 0x5cb64
 
 UnknownText_0x5cb64: ; 0x5cb64
-	text "KIPP: I've studied"
-	line "about bug #MON"
-	cont "a lot."
+	text "KIPP: J'ai beau-"
+	line "coup étudier les"
+	cont "#MON INSECTE."
 
-	para "I'm going to win"
-	line "for sure."
+	para "Je vais gagner,"
+	line "c'est certain!"
 	done
 ; 0x5cba7
 
 UnknownText_0x5cba7: ; 0x5cba7
-	text "RELAXATION SQUARE"
-	line "NATIONAL PARK"
+	text "AIRE DE REPOS du"
+	line "PARC NATUREL"
 	done
 ; 0x5cbc8
 
 UnknownText_0x5cbc8: ; 0x5cbc8
-	text "What is this"
-	line "notice?"
+	text "C'est quoi cette"
+	line "affiche?"
 
-	para "Please battle only"
-	line "in the grass."
+	para "Se battre unique-"
+	line "ment dans l'herbe."
 
-	para "NATIONAL PARK"
-	line "WARDEN'S OFFICE"
+	para "LE GARDIEN DU"
+	line "PARC NATUREL."
 	done
 ; 0x5cc1d
 
 UnknownText_0x5cc1d: ; 0x5cc1d
-	text "TRAINER TIPS"
+	text "ASTUCE"
 
-	para "Print out MAIL by"
-	line "opening it then"
-	cont "pressing START."
+	para "Imprimer les"
+	line "LETTRES en les"
+	cont "ouvrant et appuyer"
+	cont "sur START."
 	done
 ; 0x5cc5d
 

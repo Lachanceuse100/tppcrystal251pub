@@ -7,19 +7,18 @@ BattleText_0x80730: ; 0x80730
 ; 0x80746
 
 WildPokemonAppearedText: ; 0x80746
-	text "Le @"
+	text "Un @"
 	text_from_ram EnemyMonNick
 	text ""
-	line "sauvage apparait!"
+	line "sauvage apparaît!"
 	prompt
 ; 0x8075c
 
 HookedPokemonAttackedText: ; 0x8075c
-	text "Le"
-	line "@"
+	text "Le @"
 	text_from_ram EnemyMonNick
-	text $55
-	db "peché attaque!"
+	text ""
+	line "pêché attaque!"
 	prompt
 ; 0x80778
 
@@ -31,10 +30,10 @@ PokemonFellFromTreeText: ; 0x80778
 ; 0x80793
 
 WildCelebiAppearedText: ; 0x80793
-	text "Le @"
+	text "Un @"
 	text_from_ram EnemyMonNick
 	text ""
-	line "sauvage apparait!"
+	line "sauvage apparaît!"
 	prompt
 ; 0x807a9
 
@@ -68,13 +67,14 @@ HurtByPoisonText: ; 0x807e2
 
 HurtByBurnText: ; 0x807f8
 	text $5a
-	line "brule!"
+	line "brûle!"
 	prompt
 ; 0x8080e
 
 LeechSeedSapsText: ; 0x8080e
-	text $5a
-	line "s'affaiblit!"
+	text "La vie de"
+	line $5a
+	cont "est aspirée!"
 	prompt
 ; 0x80822
 
@@ -91,7 +91,7 @@ HurtByCurseText: ; 0x80836
 ; 0x8084d
 
 SandstormHitsText: ; 0x8084d
-	text "La tempete frappe"
+	text "La tempête frappe"
 	line $5a, "!"
 	prompt
 ; 0x80864
@@ -107,7 +107,7 @@ PerishCountText: ; 0x80864
 
 BattleText_0x80880: ; 0x80880
 	text $59
-	line "récupere des PVs"
+	line "récupère des PVs"
 	cont "avec @"
 	text_from_ram StringBuffer1
 	text "."
@@ -116,7 +116,7 @@ BattleText_0x80880: ; 0x80880
 
 BattleText_0x80899: ; 0x80899
 	text $5a
-	line "récupere des PP"
+	line "récupère des PP"
 	cont "avec @"
 	text_from_ram StringBuffer1
 	text "."
@@ -139,8 +139,8 @@ BattleText_0x808d2: ; 0x808d2
 
 BattleText_0x808e7: ; 0x808e7
 	text "Le MUR LUMIERE de"
-	line $5a, " est"
-	cont "tombé!"
+	line $5a, ""
+	cont "est tombé!"
 	prompt
 ; 0x80905
 
@@ -164,7 +164,7 @@ BattleText_0x80938: ; 0x80938
 ; 0x80951
 
 BattleText_0x80951: ; 0x80951
-	text "La tempete de"
+	text "La tempête de"
 	line "sable fait rage."
 	prompt
 ; 0x80967
@@ -181,7 +181,7 @@ BattleText_0x8097a: ; 0x8097a
 ; 0x8098f
 
 BattleText_0x8098f: ; 0x8098f
-	text "La tempete de"
+	text "La tempête de"
 	line "sable se calme."
 	prompt
 ; 0x809a8
@@ -198,7 +198,7 @@ BattleText_0x809be: ; 0x809be
 	text $52, " remporte" 
 	line "¥@"
 	deciram wc686, $36
-	text ""
+	text "!"
 	prompt
 ; 0x809da
 
@@ -218,20 +218,20 @@ BattleText_0x809fc: ; 0x809fc
 	text $52, " remporte" 
 	line "¥@"
 	deciram wc686, $36
-	text ""
+	text "!"
 	cont "Une partie est"
-	cont "envoyé a MAMAN."
+	cont "envoyé à MAMAN."
 	prompt
 ; 0x80a2a
 
 BattleText_0x80a2a: ; 0x80a2a
 	text "La moitié est"
-	line "envoyé a MAMAN."
+	line "envoyé à MAMAN."
 	prompt
 ; 0x80a3d
 
 BattleText_0x80a3d: ; 0x80a3d
-	text "Tout est envoyé a"
+	text "Tout est envoyé à"
 	line "MAMAN."
 	prompt
 ; 0x80a4f
@@ -264,7 +264,7 @@ BattleText_0x80a93: ; 0x80a93
 ; 0x80ab9
 
 LostAgainstText: ; 0x80ab9
-	text "Perdu face a"
+	text "Perdu face à"
 	line $3f, "!"
 	prompt
 ; 0x80aca
@@ -297,7 +297,7 @@ BattleText_0x80b0b: ; 0x80b0b
 ; 0x80b26
 
 BattleText_0x80b26: ; 0x80b26
-	text "Un OEUF ne peux"
+	text "Un OEUF ne peut"
 	line "pas se battre!"
 	prompt
 ; 0x80b3b
@@ -322,7 +322,7 @@ BattleText_0x80b77: ; 0x80b77
 
 BattleText_0x80b89: ; 0x80b89
 	text $5a
-	line "fuit grace a "
+	line "fuit grace à "
 	cont "@"
 	text_from_ram StringBuffer1
 	text "!"
@@ -342,7 +342,7 @@ BattleText_0x80bae: ; 0x80bae
 
 RecoveredUsingText: ; 0x80bc2
 	text $59
-	line "récupere grace a"
+	line "récupère grace à"
 	cont "@"
 	text_from_ram StringBuffer1
 	text "!"
@@ -365,15 +365,15 @@ BattleText_0x80bf3: ; 0x80bf3
 
 BattleText_0x80c0d: ; 0x80c0d
 	text_from_ram BattleMonNick
-	text "est"
-	line "déja au combat."
+	text " est"
+	line "déjà au combat."
 	prompt
 ; 0x80c22
 
 BattleText_0x80c22: ; 0x80c22
 	text_from_ram BattleMonNick
 	text " ne"
-	line "peux pas revenir!"
+	line "peut pas revenir!"
 	prompt
 ; 0x80c39
 
@@ -436,7 +436,7 @@ BattleText_0x80cd1: ; 0x80cd1
 
 FastAsleepText: ; 0x80ce7
 	text $5a
-	line "dors profondément!"
+	line "dort profondément!"
 	prompt
 ; 0x80cfa
 
@@ -447,7 +447,7 @@ WokeUpText: ; 0x80cfa
 ; 0x80d06
 
 FrozenSolidText: ; 0x80d06
-	text $5a, "est"
+	text $5a, " est"
 	line "totalement gelé!"
 	prompt
 ; 0x80d1a
@@ -459,8 +459,8 @@ FlinchedText: ; 0x80d1a
 ; 0x80d27
 
 MustRechargeText: ; 0x80d27
-	text $5a, " doit"
-	line "récupérer!"
+	text $5a
+	line "doit récupérer!"
 	prompt
 ; 0x80d39
 
@@ -495,7 +495,7 @@ BecameConfusedText: ; 0x80d97
 ; 0x80dab
 FatigueConfusedText: ; 0x80d97
 	text "La fatigue rends"
-	line $5a, "confus"
+	line $5a, "confus."
 	prompt
 ; 0x80dab
 
@@ -511,7 +511,7 @@ BattleText_0x80dab: ; 0x80dab
 
 AlreadyConfusedText: ; 0x80dcc
 	text $59, " est"
-	line "est déja confus!"
+	line "est déjà confus!"
 	prompt
 ; 0x80de2
 
@@ -692,7 +692,7 @@ RestedText: ; 0x80fe9
 
 RegainedHealthText: ; 0x8100c
 	text $5a
-	line "regagne des HP!"
+	line "regagne des PV!"
 	prompt
 ; 0x81020
 
@@ -728,7 +728,7 @@ DoesntAffectText: ; 0x81071
 ; 0x81086
 
 CriticalHitText: ; 0x81086
-	text "Coup critique"
+	text "Coup critique!"
 	prompt
 ; 0x81097
 
@@ -740,12 +740,12 @@ OneHitKOText: ; 0x81097
 
 SuperEffectiveText: ; 0x810aa
 	text "C'est super"
-	line "effiace!"
+	line "efficace!"
 	prompt
 ; 0x810c1
 
 NotVeryEffectiveText: ; 0x810c1
-	text "Ce n'est pas très"
+	text "Ce n'est pas tr", $c6, "s"
 	line "efficace<...>"
 	prompt
 ; 0x810da
@@ -818,18 +818,18 @@ BellChimedText: ; 0x811a0
 
 FellAsleepText: ; 0x811b1
 	text $59
-	line "s'endort"
+	line "s'endort."
 	prompt
 ; 0x811c1
 
 AlreadyAsleepText: ; 0x811c1
 	text $59
-	line "dort déja!"
+	line "dort déjà!"
 	prompt
 ; 0x811d5
 UserAlreadyAsleepText:
 	text $5a
-	line "dort déja!"
+	line "dort déjà!"
 	prompt
 
 WasPoisonedText: ; 0x811d5
@@ -847,7 +847,7 @@ BadlyPoisonedText: ; 0x811e6
 
 AlreadyPoisonedText: ; 0x811fa
 	text $59
-	line "est déja"
+	line "est déjà"
 	cont "empoisonné!"
 	prompt
 ; 0x81210
@@ -868,13 +868,13 @@ DreamEatenText: ; 0x81227
 
 WasBurnedText: ; 0x8123c
 	text $59
-	line "est brulé!"
+	line "est brûlé!"
 	prompt
 ; 0x8124b
 
 AlreadyBurnedText:
 	text $59
-	line "est déja brulé!"
+	line "est déjà brûlé!"
 	prompt
 
 DefrostedOpponentText: ; 0x8124b
@@ -895,7 +895,7 @@ WontRiseAnymoreText: ; 0x81272
 	text_from_ram StringBuffer2
 	text " de"
 	line $5a
-	cont "est déja a fond!"
+	cont "est déjà à fond!"
 	prompt
 ; 0x8128f
 
@@ -964,7 +964,7 @@ GettingPumpedText: ; 0x81338
 RecoilText: ; 0x8134d
 	text $5a
 	line "se blesse en"
-	cont "frappant"
+	cont "frappant!"
 	prompt
 ; 0x81362
 
@@ -976,7 +976,7 @@ MadeSubstituteText: ; 0x81362
 
 HasSubstituteText: ; 0x81378
 	text $5a
-	line "a déja un clone!"
+	line "a déjà un clone!"
 	prompt
 ; 0x8138d
 
@@ -1031,7 +1031,7 @@ WasDisabledText: ; 0x8141d
 ; 0x81435
 
 CoinsScatteredText: ; 0x81435
-	text "Des pieces volent"
+	text "Des pièces volent"
 	line "de partout!"
 	prompt
 ; 0x81452
@@ -1046,7 +1046,7 @@ TransformedTypeText: ; 0x81452
 
 EliminatedStatsText: ; 0x81476
 	text "Toutes les altéra-"
-	line "tions de status"
+	line "tions de statut"
 	cont "sont éliminés!"
 	prompt
 ; 0x81499
@@ -1103,9 +1103,9 @@ DidntAffect2Text: ; 0x81520
 ; 0x81534
 
 HPIsFullText: ; 0x81534
-	text "Les HPs de"
+	text "Les PVs de"
 	line $59
-	cont "sont déja au max!"
+	cont "sont déjà au max!"
 	prompt
 ; 0x81544
 
@@ -1120,20 +1120,20 @@ ParalyzedText: ; 0x81558
 	text $59
 	line "est paralysé, il"
 	cont "ne pourra peut-"
-	cont "etre pas attaquer"
+	cont "être pas attaquer."
 	prompt
 ; 0x8157d
 
 FullyParalyzedText: ; 0x8157d
 	text $5a
 	line "est totalement"
-	cont "paralysé"
+	cont "paralysé!"
 	prompt
 ; 0x81592
 
 AlreadyParalyzedText: ; 0x81592
 	text $59
-	line "est déja paralysé!"
+	line "est déjà paralysé!"
 	prompt
 ; 0x815a9
 
@@ -1147,7 +1147,7 @@ ProtectedByText: ; 0x815a9
 ; 0x815c1
 
 MirrorMoveFailedText: ; 0x815c1
-	text "The MIRROR MOVE", $4e, "failed!"
+	text "La MIMIQUE", $4e, "échoue!"
 	prompt
 ; 0x815da
 
@@ -1162,14 +1162,14 @@ StoleText: ; 0x815da
 
 CantEscapeNowText: ; 0x815f7
 	text $59
-	line "ne peux plus"
+	line "ne peut plus"
 	cont "s'échapper!"
 	prompt
 ; 0x8160b
 
 StartedNightmareText: ; 0x8160b
 	text $59
-	line "commence a avoir"
+	line "commence à avoir"
 	cont "un cauchemar!"
 	prompt
 ; 0x8162b
@@ -1182,7 +1182,7 @@ WasDefrostedText: ; 0x8162b
 
 PutACurseText: ; 0x8163d
 	text $5a
-	line "diminue ses HPs et"
+	line "diminue ses PVs et"
 
 	para "maudit"
 	line $59, "!"
@@ -1223,14 +1223,14 @@ StartPerishText: ; 0x816c2
 ; 0x816e4
 
 SandstormBrewedText: ; 0x816e4
-	text "Une tempete de"
+	text "Une tempête de"
 	line "sable se prépare!"
 	prompt
 ; 0x816f9
 
 BracedItselfText: ; 0x816f9
 	text $5a
-	line "se prépare a"
+	line "se prépare à"
 	cont "encaisser!"
 	prompt
 ; 0x8170b
@@ -1297,8 +1297,8 @@ SunGotBrightText: ; 0x817b8
 
 BellyDrumText: ; 0x817d2
 	text $5a
-	line "diminue ses HPs et"
-	para "maximise son"
+	line "diminue ses PVs"
+	para "et maximise son"
 	line "ATTAQUE!"
 	prompt
 ; 0x817f6
@@ -1307,7 +1307,7 @@ CopiedStatsText: ; 0x817f6
 	text $5a
 	line "copie les change-"
 
-	para "ments de status de"
+	para "ments de statut de"
 	line $59, "!"
 	prompt
 ; 0x81817

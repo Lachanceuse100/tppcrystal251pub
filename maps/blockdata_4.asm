@@ -122,3 +122,4 @@ Route10PokeCenter1F_BlockData:
 CinnabarPokeCenter1F_BlockData:
 CeruleanPokeCenter1F_BlockData:
 INCBIN "maps/PokecenterRBPGK.blk"
+

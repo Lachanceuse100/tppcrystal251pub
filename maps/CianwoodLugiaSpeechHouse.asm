@@ -23,44 +23,44 @@ MapCianwoodLugiaSpeechHouseSignpost1Script: ; 0x9e1b9
 ; 0x9e1bc
 
 UnknownText_0x9e1bc: ; 0x9e1bc
-	text "You came from"
-	line "OLIVINE?"
+	text "Tu viens"
+	line "d'OLIVILLE?"
 
-	para "Do you remember"
-	line "the four islands"
-	cont "along the way?"
+	para "Tu te rappelles"
+	line "des quatre îles"
+	cont "sur la route?"
 
-	para "I heard that a "
-	line "mythical sea crea-"
-	cont "ture is hiding in"
-	cont "them."
+	para "J'ai entendu dire"
+	line "qu'une créature"
+	cont "marine mythique"
+	cont "s'y cache."
 	done
 ; 0x9e23f
 
 UnknownText_0x9e23f: ; 0x9e23f
-	text "I heard that you"
-	line "can only see it if"
+	text "On dit que pour la"
+	line "voir, il faut"
 
-	para "you have a SILVER"
-	line "WING."
+	para "avoir l'AILE"
+	line "ARGENT."
 
-	para "It must have the"
-	line "same scent as the"
-	cont "creature."
+	para "Elle doit avoir la"
+	line "même odeur que la"
+	cont "créature."
 	done
 ; 0x9e2a9
 
 UnknownText_0x9e2a9: ; 0x9e2a9
-	text "I've heard that"
-	line "the whirlpools"
+	text "On dit que les"
+	line "siphons autour des"
 
-	para "around the islands"
-	line "are caused by the"
-	cont "sea creature."
+	para "îles sont créés"
+	line "par la créature"
+	cont "marine."
 
-	para "You might need a"
-	line "special move to"
-	cont "get past them."
+	para "Il faut une capa-"
+	line "cité spéciale pour"
+	cont "les passer."
 	done
 ; 0x9e32b
 

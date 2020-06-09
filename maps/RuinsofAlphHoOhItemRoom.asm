@@ -27,8 +27,8 @@ MapRuinsofAlphHoOhItemRoomSignpost1Script: ; 0x59920
 ; 0x59923
 
 UnknownText_0x59923: ; 0x59923
-	text "It's a replica of"
-	line "an ancient #-"
+	text "C'est une réplique"
+	line "d'un ancien #-"
 	cont "MON."
 	done
 ; 0x59948

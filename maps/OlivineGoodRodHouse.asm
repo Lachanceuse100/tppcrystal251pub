@@ -43,48 +43,53 @@ UnknownScript_0x9c746: ; 0x9c746
 ; 0x9c749
 
 UnknownText_0x9c749: ; 0x9c749
-	text "OLIVINE is on the"
-	line "sea!"
+	text "OLIVILLE est sur"
+	line "la mer!"
 
-	para "And if it's on the"
-	line "sea, there are"
-	cont "bound to be fish!"
+	para "Et si c'est sur la"
+	line "mer<...> C'est qu'il"
+	cont "y a des poissons!"
 
-	para "I've fished here"
-	line "for 30 years."
+	para "Ca fait 30 ans que"
+	line "je pêche ici."
+	cont "C'est mon grand"
+	cont "hobby."
 
-	para "Would you like to"
-	line "face the sea and"
-	cont "fish?"
+	para "Veux-tu pêcher et"
+	line "défier la mer?"
 	done
 ; 0x9c7db
 
 UnknownText_0x9c7db: ; 0x9c7db
 	text "Ah, hahah!"
-	line "We have ourselves"
-	cont "a new angler!"
+	line "Et voici une nou-"
+	cont "velle recrue dans"
+	cont "ce super hobby!"
 	done
 ; 0x9c807
 
 UnknownText_0x9c807: ; 0x9c807
-	text "Fish aren't found"
-	line "in the sea alone."
+	text "On ne trouve pas"
+	line "seulement des"
+	cont "poisson en mer."
 
-	para "They go wherever"
-	line "there is water."
+	para "Ils sont malins et"
+	line "vont partout où il"
+	cont "y a de l'eau!"
 	done
 ; 0x9c84c
 
 UnknownText_0x9c84c: ; 0x9c84c
-	text "Whaaat? You don't"
-	line "like to fish!?"
-	cont "Incomprehensible!"
+	text "Quoiii? T'aimes"
+	line "pas la pêche!?"
+	cont "Incompréhensible!"
 	done
 ; 0x9c87f
 
 UnknownText_0x9c87f: ; 0x9c87f
-	text "How are things?"
-	line "Land the big one?"
+	text "Comment ça va?"
+	line "La pêche est"
+	cont "bonne?"
 	done
 ; 0x9c8a2
 

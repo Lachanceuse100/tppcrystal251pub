@@ -71,11 +71,11 @@ PushedDownHoleSoundScript_CinnabarVolcanoB2F:
 	end
 
 PushedDownHoleText_CinnabarVolcanoB2F:
-	text "The boulder fell"
-	line "through."
+	text "Le rocher est"
+	line "tombé."
 
-	para "The immense heat"
-	line "has diminished!"
+	para "L'immense chaleur"
+	line "a diminué!"
 	done
 
 

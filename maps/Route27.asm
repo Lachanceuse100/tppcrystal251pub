@@ -453,148 +453,143 @@ MovementData_0x1a0a69: ; 0x1a0a69
 ; 0x1a0a6b
 
 UnknownText_0x1a0a6b: ; 0x1a0a6b
-	text "Hey!"
+	text "Hé!"
 	done
 ; 0x1a0a71
 
 UnknownText_0x1a0a71: ; 0x1a0a71
-	text "Do you know what"
-	line "you just did?"
+	text "Tu sais ce que tu"
+	line "viens de faire?"
 
-	para "You've taken your"
-	line "first step into"
-	cont "KANTO-"
+	para "Tu viens de faire"
+	line "ton premier pas à"
+	cont "KANTO<...>"
 
-	para "Oh, you were born"
-	line "here?"
+	para "Oh, tu viens"
+	line "d'ici?"
 
-	para "Then welcome home!"
+	para "Bienvenue a la"
+	line "maison!"
 	done
 ; 0x1a0ad9
 
 CooltrainermBlakeSeenText: ; 0x1a0ad9
-	text "You look pretty"
-	line "strong."
-	cont "Let me battle you!"
+	text "Tu as l'air fort."
+	line "Combat!"
 	done
 ; 0x1a0b05
 
 CooltrainermBlakeBeatenText: ; 0x1a0b05
-	text "Yow!"
+	text "Huf!"
 	done
 ; 0x1a0b0b
 
 UnknownText_0x1a0b0b: ; 0x1a0b0b
-	text "If you prevail on"
-	line "this harsh trek,"
+	text "Cherche ton che-"
+	line "min, c'est ta vie,"
+	cont "c'est ton destin."
 
-	para "the truth will be"
-	line "revealed!"
-
-	para "Heh, sorry, I just"
-	line "wanted to say"
-	cont "something cool."
+	para "Euh, pardon, je"
+	line "voulais dire un"
+	cont "truc cool."
 	done
 ; 0x1a0b7c
 
 CooltrainermBrianSeenText: ; 0x1a0b7c
-	text "Hm? You're good,"
-	line "aren't you?"
+	text "Tu es costaud toi,"
+	line "non?"
 	done
 ; 0x1a0b98
 
 CooltrainermBrianBeatenText: ; 0x1a0b98
-	text "Just as I thought!"
+	text "Comme je le"
+	line "pensais."
 	done
 ; 0x1a0bac
 
 UnknownText_0x1a0bac: ; 0x1a0bac
-	text "A good trainer can"
-	line "recognize other"
-	cont "good trainers."
+	text "Les meilleurs se"
+	line "reconnaissent"
+	cont "entre eux."
 	done
 ; 0x1a0bdf
 
 CooltrainerfReena1SeenText: ; 0x1a0bdf
-	text "You shouldn't"
-	line "underestimate the"
-
-	para "wild #MON in"
-	line "these parts."
+	text "Ne sous-estime pas"
+	line "les #MON sau-"
+	cont "vages du coin."
 	done
 ; 0x1a0c19
 
 CooltrainerfReena1BeatenText: ; 0x1a0c19
-	text "Oh! You're much"
-	line "too strong!"
+	text "Oh! Tu es trop"
+	line "fort!"
 	done
 ; 0x1a0c35
 
 UnknownText_0x1a0c35: ; 0x1a0c35
-	text "You're just a kid,"
-	line "but you're not to"
-
-	para "be underestimated"
-	line "either."
+	text "Toi non plus il ne"
+	line "faut pas te sous-"
+	cont "estimer."
 	done
 ; 0x1a0c73
 
 CooltrainerfMeganSeenText: ; 0x1a0c73
-	text "It's rare to see"
-	line "anyone come here."
+	text "C'est rare de voir"
+	line "quelqu'un ici."
 
-	para "Are you training"
-	line "on your own?"
+	para "Tu t'entraînes"
+	line "en solitaire?"
 	done
 ; 0x1a0cb4
 
 CooltrainerfMeganBeatenText: ; 0x1a0cb4
-	text "Oh! You're really"
-	line "strong!"
+	text "T'es super balèze!"
 	done
 ; 0x1a0cce
 
 UnknownText_0x1a0cce: ; 0x1a0cce
-	text "I'm checking out"
-	line "pre- and post-"
-	cont "evolution #MON."
+	text "J'étudie les for-"
+	line "mes antérieures et"
+	cont "postérieures"
+	cont "aux évolutions des"
+	cont "#MON."
 
-	para "Evolution really"
-	line "does make #MON"
-	cont "stronger."
+	para "Un #MON évolué"
+	line "est toujours plus"
+	cont "fort."
 
-	para "But evolved forms"
-	line "also learn moves"
-	cont "later on."
+	para "Mais il apprnds"
+	line "des capacités plus"
+	cont "tardivement."
 	done
 ; 0x1a0d55
 
 PsychicGilbertSeenText: ; 0x1a0d55
-	text "Don't say a thing!"
+	text "Ne dis rien!"
 
-	para "Let me guess what"
-	line "you're thinking."
+	para "Je vais lire dans"
+	line "tes pensées<...>"
 
 	para "Mmmmmmm<...>"
 
-	para "I got it! You're"
-	line "on the #MON"
-	cont "LEAGUE challenge!"
+	para "Je sais! Tu veux"
+	line "te mesurer à la"
+	cont "LIGUE #MON!"
 	done
 ; 0x1a0dc1
 
 PsychicGilbertBeatenText: ; 0x1a0dc1
-	text "You're too much!"
+	text "J'en étais sûr!"
 	done
 ; 0x1a0dd2
 
 UnknownText_0x1a0dd2: ; 0x1a0dd2
-	text "With your skills,"
-	line "you'll do well at"
-	cont "the LEAGUE."
+	text "Tu vas cartonner"
+	line "à la LIGUE<...>"
 
-	para "That's what my"
-	line "premonition says."
+	para "Je le sais."
+	line "Je le sens."
 	done
 ; 0x1a0e22
 
@@ -610,20 +605,21 @@ Bird_keeperJose2BeatenText: ; 0x1a0e3a
 ; 0x1a0e42
 
 UnknownText_0x1a0e42: ; 0x1a0e42
-	text "What are you"
-	line "looking at?"
+	text "Qu'est-ce que tu"
+	line "regardes?"
 
-	para "Social media"
-	line "isn't easy"
-	cont "for everyone<...>"
+	para "Les réseaux so-"
+	line "ciaux, c'est pas"
+	cont "pour tout le"
+	cont "monde<...>"
 	done
 ; 0x1a0e7f
 
 UnknownText_0x1a0e7f: ; 0x1a0e7f
-	text "TOHJO FALLS"
+	text "CHUTES TOHJO"
 
-	para "THE LINK BETWEEN"
-	line "KANTO AND JOHTO"
+	para "Le lien entre"
+	line "KANTO et JOHTO"
 	done
 ; 0x1a0ead
 

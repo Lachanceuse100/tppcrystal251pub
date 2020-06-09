@@ -44,11 +44,11 @@ UnknownText_0x191496: ; 0x191496
 ; 0x1915a3
 
 UnknownText_0x1915a3: ; 0x1915a3
-	text "It's a photo of"
-	line "people fishing<...>"
+	text "Une photo de gens"
+	line "qui pêchent<...>"
 
-	para "They're having a"
-	line "great time<...>"
+	para "Ils passent un"
+	line "bon moment<...>"
 	done
 ; 0x1915df
 

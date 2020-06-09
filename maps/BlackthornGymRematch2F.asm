@@ -82,51 +82,52 @@ Trainer_CoolsibsMingLee2:
 
 ; <text goes here>
 BlackthornRematch_PushBoulderText: ; 0x1958a5
-	text "The boulder fell"
-	line "through!"
+	text "Le rocher est"
+	line "tombé!"
 	done
 
 CoolsibsMingLee1TextBefore:
-	text "MING: CLAIR asked"
-	line "us to stop you, no"
-	cont "matter what!"
+	text "MING: SANDRA nous"
+	line "a chargé de t'ar-"
+	cont "rêter à tout prix!"
 	done
 
 CoolsibsMingLee2TextBefore:
-	text "LEE: If the GYM"
-	line "LEADER wants you"
+	text "LEE: si la CHAM-"
+	line "PIONNE ne te veux"
 
-	para "out, there must be"
-	line "a good reason for"
-	cont "it."
+	para "pas ici, c'est qu'"
+	line "il doit y avoir"
+	cont "une bonne raison."
 	done
 
 CoolsibsMingLee1TextWin:
-	text "MING: We failed?"
+	text "MING: Nous avons"
+	line "échoué?"
 
-	para "LEE: Is it because"
-	line "you're so strong?"
+	para "LEE: Est-ce parce"
+	line "que tu es si fort?"
 	done
 
 CoolsibsMingLee2TextWin:
-	text "LEE: Is it because"
-	line "you're so strong?"
+	text "LEE: Est-ce parce"
+	line "que tu es si fort?"
 
-	para "MING: We failed?"
+	para "MING: Nous avons"
+	line "échoué?"
 	done
 
 CoolsibsMingLee1TextAfter:
-	text "MING: I guess"
-	line "there's no stop-"
-	cont "ping you now<...>"
+	text "MING: On ne peut"
+	line "plus t'arrêter<...>"
 	done
 
 CoolsibsMingLee2TextAfter:
-	text "LEE: That power<...>"
+	text "LEE: Cette puis-"
+	line "sance<...>"
 
-	para "Could it be what"
-	line "CLAIR's been mis-"
-	cont "sing?"
+	para "Est-ce donc ça que"
+	line "SANDRA n'a pas?"
 	done
 
 BlackthornGymRematch2F_MapEventHeader:

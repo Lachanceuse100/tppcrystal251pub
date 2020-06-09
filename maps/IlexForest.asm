@@ -848,232 +848,234 @@ MovementData_0x6ef58: ; 0x6ef58
 ; 0x6ef5c
 
 UnknownText_0x6ef5c: ; 0x6ef5c
-	text "Oh, man<...> My boss"
-	line "is going to be"
-	cont "steaming<...>"
+	text "Oh non<...> Mon chef"
+	line "va être furieux!"
 
-	para "The FARFETCH'D"
-	line "that CUTS trees"
+	para "Le CANARTICHO qui"
+	line "coupe des arbres"
 
-	para "for charcoal took"
-	line "off on me."
+	para "pour faire du"
+	line "charbon est parti."
 
-	para "I can't go looking"
-	line "for it here in the"
-	cont "ILEX FOREST."
+	para "Je ne peux pas le"
+	line "chercher dans le"
+	cont "BOIS AUX CHENES."
 
-	para "It's too big, dark"
-	line "and scary for me<...>"
+	para "Il fait si noir et"
+	line "c'est si grand<...>"
+
+	para "J'ai peur!"
 	done
 ; 0x6f019
 
 UnknownText_0x6f019: ; 0x6f019
-	text "Wow! Thanks a"
-	line "whole bunch!"
+	text "Woah! Merci"
+	line "beaucoup!"
 
-	para "My boss's #MON"
-	line "won't obey me be-"
-	cont "cause I don't have"
-	cont "a BADGE."
+	para "Le #MON de mon"
+	line "chef ne m'obéit"
+	cont "pas parce que je"
+	cont "n'ai pas le bon"
+	cont "BADGE."
 	done
 ; 0x6f06f
 
 UnknownText_0x6f06f: ; 0x6f06f
-	text "It's the missing"
-	line "#MON!"
+	text "C'est le #MON"
+	line "perdu!"
 	done
 ; 0x6f086
 
 UnknownText_0x6f086: ; 0x6f086
-	text "FARFETCH'D: Kwaa!"
+	text "CANARTICHO: Kwaa!"
 	done
 ; 0x6f099
 
 UnknownText_0x6f099: ; 0x6f099
-	text "Ah! My FARFETCH'D!"
+	text "Ah! CANARTICHO!"
 
-	para "You found it for"
-	line "us, kid?"
+	para "Tu nous l'as"
+	line "retrouvé?"
 
-	para "Without it, we"
-	line "wouldn't be able"
+	para "Sans lui, on ne"
+	line "peut pas COUPER"
 
-	para "to CUT trees for"
-	line "charcoal."
+	para "les arbres pour"
+	line "faire du charbon."
 
-	para "Thanks, kid!"
+	para "Merci!"
 
-	para "Now, how can I"
-	line "thank you<...>"
+	para "Comment te"
+	line "remercier<...>"
 
-	para "I know! Here, take"
-	line "this."
+	para "Je sais!"
+	line "Prends ceci."
 	done
 ; 0x6f141
 
 UnknownText_0x6f141: ; 0x6f141
-	text "That's the CUT HM."
-	line "Teach that to a"
+	text "C'est la CS COUPE"
+	line "Apprends-la à un"
 
-	para "#MON to clear"
-	line "small trees."
+	para "#MON pour cou-"
+	line "per les buissons."
 
-	para "Of course, you"
-	line "have to have the"
+	para "Il te faut le"
+	line "BADGE de l'ARENE"
 
-	para "GYM BADGE from"
-	line "AZALEA to use it."
+	para "d'ECORCIA pour"
+	line "l'utiliser."
 	done
 ; 0x6f1c0
 
 UnknownText_0x6f1c0: ; 0x6f1c0
-	text "Do you want to"
-	line "apprentice as a"
+	text "Veux-tu devenir"
+	line "pro du charbon"
+	cont "comme moi?"
 
-	para "charcoal maker"
-	line "with me?"
-
-	para "You'll be first-"
-	line "rate in ten years!"
+	para "Tu verras, c'est"
+	line "cool!"
 	done
 ; 0x6f21b
 
 UnknownText_0x6f21b: ; 0x6f21b
-	text "What am I doing?"
+	text "Ce que je fais?"
 
-	para "I'm shaking trees"
-	line "using the move"
-	cont "ZEN HEADBUTT."
+	para "Je secoue les"
+	line "arbres avec la"
+	cont "capacité"
+	cont "PSYKOUD'BOUL."
 
-	para "It's fun. Here,"
-	line "you try it too!"
+	para "C'est marrant."
+	line "Tiens, essaye!"
 	done
 ; 0x6f26d
 
 UnknownText_0x6f26d: ; 0x6f26d
-	text "Rattle trees with"
-	line "ZEN HEADBUTT!"
+	text "Secoue les arbres"
+	line "avec PSYKOUD'BOUL!"
 
-	para "Sometimes, sleep-"
-	line "ing #MON can"
-	cont "fall out!"
+	para "Des #MON endor-"
+	line "mis en tombe"
+	cont "parfois."
 
-	para "I've heard normal"
-	line "HEADBUTTs also"
-	cont "work."
+	para "Un COUP D'BOULE"
+	line "normal marche"
+	cont "aussi."
 	done
 ; 0x6f2af
 
 UnknownText_0x6f2af: ; 0x6f2af
-	text "Did something"
-	line "happen to the"
-	cont "forest's guardian?"
+	text "Est-ce quelque"
+	line "chose est arrivé"
+	cont "au gardien de la"
+	cont "forêt?"
 	done
 ; 0x6f2de
 
 UnknownText_0x6f2de: ; 0x6f2de
-	text "ILEX FOREST is"
-	line "so overgrown with"
+	text "Le BOIS AUX CHENES"
+	line "est si dense que"
 
-	para "trees that you"
-	line "can't see the sky."
+	para "les feuilles ca-"
+	line "chent le ciel."
 
-	para "Please watch out"
-	line "for items that may"
-	cont "have been dropped."
+	para "Attention aux"
+	line "objets qui ont pu"
+	cont "être perdus."
 	done
 ; 0x6f358
 
 UnknownText_0x6f358: ; 0x6f358
-	text "ILEX FOREST"
-	line "SHRINE<...>"
+	text "AUTEL du"
+	line "BOIS AU CHENE<...>"
 
-	para "It's in honor of"
-	line "the forest's"
-	cont "protector<...>"
+	para "En l'honneur du"
+	line "protecteur de la"
+	cont "forêt<...>"
 	done
 ; 0x6f394
 
 UnknownText_0x6f394: ; 0x6f394
-	text "ILEX FOREST"
-	line "SHRINE<...>"
+	text "AUTEL du"
+	line "BOIS AU CHENE<...>"
 
-	para "It's in honor of"
-	line "the forest's"
-	cont "protector<...>"
+	para "En l'honneur du"
+	line "protecteur de la"
+	cont "forêt<...>"
 
-	para "Oh? What is this?"
+	para "Oh? Qu'est-ce que"
+	cont "c'est?"
 
-	para "It's a hole."
-	line "It looks like the"
+	para "Il y a un trou."
+	line "On dirait que la"
+	cont "GS BALL y rentre."
 
-	para "GS BALL would fit"
-	line "inside it."
-
-	para "Want to put the GS"
-	line "BALL here?"
+	para "Voulez-vous mettre"
+	line "la GS BALL ici?"
 	done
 ; 0x6f43b
 
 UnknownText_0x6f43b: ; 0x6f43b
-	text "<PLAYER> put in the"
+	text "<PLAYER> dépose la"
 	line "GS BALL."
 	done
 ; 0x6f452
 
 UnknownText_0x6f452: ; 0x6f452
-	text "Whew, wasn't that"
-	line "something!"
+	text "Waouh, c'était"
+	line "quelque chose!"
 
-	para "<PLAYER>, that was"
-	line "fantastic. Thanks!"
+	para "<PLAYER>, c'était"
+	line "fantastique."
+	cont "Merci!"
 
-	para "The legends about"
-	line "that SHRINE were"
-	cont "real after all."
+	para "Les légendes sur"
+	line "cet AUTEL étaient"
+	cont "donc vraies<...>"
 
-	para "I feel inspired by"
-	line "what I just saw."
+	para "Ce que j'ai vu"
+	line "m'a inspiré."
 
-	para "It motivates me to"
-	line "make better BALLS!"
-
-	para "I'm going!"
+	para "Je vais me motiver"
+	line "pour fabriquer de"
+	cont "meilleures BALLS!"
 	done
 ; 0x6f515
 
 Bug_catcherWayneSeenText: ; 0x6f515
-	text "Don't sneak up on"
-	line "me like that!"
+	text "Ne me surprends"
+	line "pas comme ça."
 
-	para "You frightened a"
-	line "#MON away!"
+	para "Tu as apeuré un"
+	line "#MON!"
 	done
 ; 0x6f551
 
 Bug_catcherWayneBeatenText: ; 0x6f551
-	text "I hadn't seen that"
-	line "#MON before<...>"
+	text "Je n'avais jamais"
+	line "vu ce #MON<...>"
 	done
 ; 0x6f571
 
 UnknownText_0x6f571: ; 0x6f571
-	text "A #MON I've"
-	line "never seen before"
+	text "Un #MON que je"
+	line "n'avais jamais vu"
 
-	para "fell out of the"
-	line "tree when I used"
-	cont "HEADBUTT."
+	para "est tombé de l'"
+	line "arbre quand j'ai"
+	cont "utilisé"
+	cont "COUP D'BOULE."
 
-	para "I ought to use"
-	line "HEADBUTT in other"
-	cont "places too."
+	para "Je devrais essayer"
+	line "ça dans d'autres"
+	cont "endroits."
 	done
 ; 0x6f5e7
 
 Text_ReturnCelebiRelatedItems:
-	text "<PLAY_G> picked"
-	line "up the GS BALL."
+	text "<PLAY_G> ramasse"
+	line "la GS BALL."
 	done
 
 IlexForest_MapEventHeader: ; 0x6f5e7

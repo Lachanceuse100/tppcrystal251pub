@@ -44,3 +44,4 @@ MewIslandPeak_MapEventHeader:
 	; people-events
 	db 1
 	person_event SPRITE_MONSTER, $8, $a, $3, 0, 0, -1, -1, 8 + PAL_OW_RED, 0, 0, MewScript, EVENT_FOUGHT_MEW
+

@@ -96,60 +96,65 @@ MovementData_0x62d9a: ; 0x62d9a
 ; 0x62d9d
 
 UnknownText_0x62d9d: ; 0x62d9d
-	text "Oh, honey. You're"
-	line "making a #DEX?"
+	text "Oh, tu remplis"
+	line "un #DEX?"
 
-	para "It must be hard if"
-	line "#MON don't love"
-	cont "you."
-	para "Try using this TM."
+	para "Ca doit être dur"
+	line "si les #MON ne"
+	cont "t'aiment pas."
+
+	para "Essaie d'utiliser"
+	line "cette CT."
 
 	done
 ; 0x62df6
 
 UnknownText_0x62df6: ; 0x62df6
-	text "ATTRACT infatuates"
-	line "foes and makes"
+	text "ATTRACTION rends"
+	line "les #MON adver-"
+	cont "saires amoureux"
 
-	para "them unwilling to"
-	line "attack you."
+	para "et les rechignent"
+	line "à t'attaquer."
 
-	para "It won't work if"
-	line "they're the same"
-	cont "gender, though."
+	para "Ca ne marchera pas"
+	line "si ils sont du"
+	cont "même sexe."
 
-	para "#MON should"
-	line "try to be more"
-	cont "open-minded."
+	para "Les #MON"
+	line "devraient être un"
+	cont "peu plus ouvert"
+	cont "d'esprit<...>"
 	done
 ; 0x62e41
 
 UnknownText_0x62e41: ; 0x62e41
-	text "Something's wrong"
-	line "in ILEX FOREST<...>"
+	text "Quelque chose ne"
+	line "va pas dans le"
+	cont "BOIS AUX CHENES."
 
-	para "You should stay"
-	line "away right now."
+	para "Tu devrais rester"
+	line "ici."
 	done
 ; 0x62e83
 
 UnknownText_0x62e83: ; 0x62e83
-	text "BUTTERFREE: Freeh!"
+	text "PAPILUSION: Piiii!"
 	done
 ; 0x62e97
 
 UnknownText_0x62e97: ; 0x62e97
-	text "Did you see the"
-	line "shrine honoring"
-	cont "the protector?"
+	text "As-tu vu l'autel"
+	line "en l'honneur du"
+	cont "gardien?"
 
-	para "It watches over"
-	line "the FOREST from"
-	cont "across time."
+	para "Il protège le BOIS"
+	line "depuis la nuit des"
+	cont "temps."
 
-	para "I think that it"
-	line "must be a grass-"
-	cont "type #MON."
+	para "Je pense que c'est"
+	line "un #MON de"
+	cont "type PLANTE."
 	done
 ; 0x62f20
 

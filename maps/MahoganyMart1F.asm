@@ -188,74 +188,75 @@ MovementData_0x6c412: ; 0x6c412
 ; 0x6c414
 
 UnknownText_0x6c414: ; 0x6c414
-	text "Hello, kiddo!"
+	text "Salut toi!"
 
-	para "How would you like"
-	line "some RAGECANDYBAR?"
+	para "Tu veux un BONBON"
+	line "RAGE?"
 
-	para "It's the thing to"
-	line "eat in MAHOGANY!"
+	para "C'est la spéciali-"
+	line "té d'ACAJOU!"
 	done
 ; 0x6c46b
 
 UnknownText_0x6c46b: ; 0x6c46b
-	text "Arrgh<...> You found"
-	line "the secret stair-"
-	cont "way<...>"
+	text "Graaah<...> Vous avez"
+	line "trouvé l'escalier"
+	cont "secret!"
 	done
 ; 0x6c494
 
 UnknownText_0x6c494: ; 0x6c494
-	text "Heheh! The experi-"
-	line "ment worked like a"
-	cont "charm."
+	text "Héhéhé! Cette"
+	line "expérience marche"
+	cont "comme un charme."
 
-	para "MAGIKARP are just"
-	line "worthless, but"
+	para "Les MAGICARPE ne"
+	line "valent rien mais"
 
-	para "GYARADOS are big"
-	line "moneymakers."
+	para "les LEVIATOR"
+	line "rapportent gros!"
 	done
 ; 0x6c501
 
 UnknownText_0x6c501: ; 0x6c501
-	text "Urrgh<...>"
+	text "Aïe<...>"
 
-	para "That guy's dragon"
-	line "#MON are tough<...>"
+	para "Les #MON dragon"
+	line "de ce type sont"
+	cont "trop forts<...>"
 	done
 ; 0x6c52a
 
 UnknownText_0x6c52a: ; 0x6c52a
-	text "LANCE: DRAGONITE,"
-	line "HYPER BEAM."
+	text "PETER: DRACOLOSSE,"
+	line "ULTRALASER!"
 	done
 ; 0x6c549
 
 UnknownText_0x6c549: ; 0x6c549
-	text "What took you so"
-	line "long, <PLAY_G>?"
+	text "Tu en as mis du"
+	line "temps, <PLAY_G>?"
 
-	para "Just as I thought,"
-	line "that strange radio"
+	para "Comme je le pen-"
+	line "sais, l'étrange"
 
-	para "signal is coming"
-	line "from here."
+	para "signal radio vient"
+	line "d'ici."
 	done
 ; 0x6c59e
 
 UnknownText_0x6c59e: ; 0x6c59e
-	text "The stairs are"
-	line "right here."
+	text "Les escaliers sont"
+	line "par ici."
 	done
 ; 0x6c5ba
 
 UnknownText_0x6c5ba: ; 0x6c5ba
-	text "LANCE: <PLAY_G>, we"
-	line "should split up to"
+	text "PETER: <PLAY_G>,"
+	line "nous ferions mieux"
 
-	para "check this place."
-	line "I'll go first."
+	para "de nous spéarer."
+	line "Je passe devant."
 	done
 ; 0x6c5fb
 

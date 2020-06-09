@@ -23,67 +23,68 @@ MapElmsHouseSignpost2Script: ; 0x7aef4
 ; 0x7aef7
 
 UnknownText_0x7aef7: ; 0x7aef7
-	text "Hi, <PLAY_G>! My"
-	line "husband's always"
+	text "Bonjour, <PLAY_G>!"
+	line "Mon mari est tou-"
+	cont "jours occupé."
+	cont "J'espère qu'il"
+	cont "va bien."
 
-	para "so busy--I hope"
-	line "he's OK."
-
-	para "When he's caught"
-	line "up in his #MON"
-
-	para "research, he even"
-	line "forgets to eat."
+	para "Quand il est dans"
+	line "ses recherches"
+	cont "#MON, il en"
+	cont "oublie de manger."
 	done
 ; 0x7af6b
 
 UnknownText_0x7af6b: ; 0x7af6b
-	text "When I grow up,"
-	line "I'm going to help"
-	cont "my dad!"
+	text "Quand je serais"
+	line "grand, je vais"
+	cont "aider mon papa!"
 
-	para "I'm going to be a"
-	line "great #MON"
-	cont "professor!"
+	para "Je serais une"
+	line "grande professeur"
+	cont "#MON!"
 	done
 ; 0x7afbc
 
 UnknownText_0x7afbc: ; 0x7afbc
-	text "There's some food"
-	line "here. It must be"
-	cont "for the LAB."
+	text "Il y a de la nou-"
+	line "rriture ici. Ca"
+	cont "doit être pour le"
+	cont "LABORATOIRE."
 	done
 ; 0x7afec
 
 UnknownText_0x7afec: ; 0x7afec
-	text "There's some food"
-	line "here. This must be"
-	cont "for #MON."
+	text "Il y a de la nou-"
+	line "rriture ici. Ca"
+	cont "doit être pour les"
+	cont "#MON."
 	done
 ; 0x7b01b
 
 UnknownText_0x7b01b: ; 0x7b01b
-	text "#MON. Where do"
-	line "they come from? "
+	text "Les #MON, d'ou"
+	line "viennent-ils? "
 
-	para "Where are they"
-	line "going?"
+	para "Ou vont-ils?"
 
-	para "Why has no one"
-	line "ever witnessed a"
-	cont "#MON's birth?"
+	para "Pourquoi personne"
+	line "n'a vu la nai-"
+	cont "ssance d'un"
+	cont "#MON?"
 
-	para "I want to know! I"
-	line "will dedicate my"
-
-	para "life to the study"
-	line "of #MON!"
+	para "Je veux le savoir!"
+	line "Je vais dédier ma"
+	cont "vie à l'étude des"
+	cont "#MON!"
 
 	para "<...>"
 
-	para "It's a part of"
-	line "PROF.ELM's re-"
-	cont "search papers."
+	para "C'est une partie"
+	line "des papiers de re-"
+	cont "cherches du PROF."
+	cont "ORME."
 	done
 ; 0x7b0ea
 

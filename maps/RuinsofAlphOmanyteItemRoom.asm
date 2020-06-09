@@ -27,8 +27,8 @@ MapRuinsofAlphOmanyteItemRoomSignpost1Script: ; 0x59a34
 ; 0x59a37
 
 UnknownText_0x59a37: ; 0x59a37
-	text "It's a replica of"
-	line "an ancient #-"
+	text "C'est une réplique"
+	line "d'un ancien #-"
 	cont "MON."
 	done
 ; 0x59a5c

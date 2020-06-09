@@ -25,24 +25,22 @@ BirdScript_0x693ef: ; 0x693ef
 ; 0x693fa
 
 UnknownText_0x693fa: ; 0x693fa
-	text "She uses the names"
-	line "of her favorite"
-	cont "things to eat."
-
-	para "For the nicknames"
-	line "she gives to her"
-	cont "#MON, I mean."
+	text "Elle utilise les"
+	line "noms de ses plats"
+	cont "préférés pour"
+	cont "nommer ses"
+	cont "#MON."
 	done
 ; 0x6945e
 
 UnknownText_0x6945e: ; 0x6945e
-	text "I call my PIDGEY"
-	line "STRAWBERRY!"
+	text "J'ai appelé mon"
+	line "ROUCOOL: FRAISE!"
 	done
 ; 0x6947c
 
 UnknownText_0x6947c: ; 0x6947c
-	text "STRAWBERRY: Pijji!"
+	text "FRAISE: Rouuu!"
 	done
 ; 0x69490
 

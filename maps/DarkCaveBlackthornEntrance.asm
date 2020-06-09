@@ -33,32 +33,35 @@ ItemFragment_0x18c73d: ; 0x18c73d
 ; 0x18c73f
 
 UnknownText_0x18c73f: ; 0x18c73f
-	text "Whoa! You startled"
-	line "me there!"
+	text "Whoa! Tu m'as fait"
+	line "peur!"
 
-	para "I had my BLACK-"
-	line "GLASSES on, so I"
+	para "J'avais mes"
+	line "LUNETTES NOIRES<...>"
 
-	para "didn't notice you"
-	line "at all."
+	para "Je ne t'ai pas"
+	line "vu venir."
 
-	para "What am I doing"
-	line "here?"
+	para "Ce que je fais"
+	line "ici?"
 
-	para "Hey, don't you"
-	line "worry about it."
+	para "Oh, ne t'en pré-"
+	line "occupes pas."
 
-	para "I'll give you a"
-	line "pair of BLACK-"
-	cont "GLASSES, so forget"
-	cont "you saw me, OK?"
+	para "Voilà une paire de"
+	line "LUNETTES NOIRES."
+
+	para "Oublie que tu m'as"
+	cont "vu, OK?"
 	done
 ; 0x18c80c
 
 UnknownText_0x18c80c: ; 0x18c80c
-	text "BLACKGLASSES ups"
-	line "the power of dark-"
-	cont "type moves."
+	text "Les LUNET.NOIRES"
+	line "augmentent la"
+	cont "puissance des"
+	cont "capacités du type"
+	cont "TENEBRES."
 	done
 ; 0x18c83d
 

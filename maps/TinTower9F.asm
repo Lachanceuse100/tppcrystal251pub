@@ -45,3 +45,4 @@ TinTower9F_MapEventHeader: ; 0x185bab
 	person_event SPRITE_POKE_BALL, 5, 13, $1, 0, 0, -1, -1, 0, 1, 0, ItemFragment_0x185b88, EVENT_ITEM_TIN_TOWER_9F_HP_UP
 ; 0x185be1
 
+

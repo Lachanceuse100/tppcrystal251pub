@@ -71,20 +71,23 @@ SupernerdHughSeenText: ; 0x7e0ed
 ; 0x7e0fa
 
 SupernerdHughBeatenText: ; 0x7e0fa
-	text "Sorry, my mistake."
+	text "Oups. Pardon."
 	done
 ; 0x7e10e
 
 UnknownText_0x7e10e: ; 0x7e10e
-	text "I'm investigating"
-	line "MT.MORTAR, but my"
-	cont "pal's gone AWOL."
+	text "Je suis venu ex-"
+	line "plorer le MONT"
 
-	para "Have you seen a"
-	line "trainer who has a"
+	para "CREUSET mais j'ai"
+	line "perdu mon parte-"
+	cont "naire<...>"
 
-	para "STARMIE that can"
-	line "use SURF?"
+	para "As-tu vu un dres-"
+	line "seur avec un"
+
+	para "STAROSS qui"
+	line "lance SURF?"
 	done
 ; 0x7e184
 

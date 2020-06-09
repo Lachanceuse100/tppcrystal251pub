@@ -20,15 +20,13 @@ YoungsterScript_0x69990: ; 0x69990
 ; 0x69997
 
 UnknownText_0x69997: ; 0x69997
-	text "A #MON you get"
-	line "in a trade grows"
-	cont "quickly."
+	text "Un #MON échangé"
+	line "évolue rapidement."
 
-	para "But if you don't"
-	line "have the right GYM"
-
-	para "BADGE, they may"
-	line "disobey you."
+	para "Mais sans le BADGE"
+	line "d'ARENE adéquat,"
+	cont "ils peuvent te"
+	cont "désobéir."
 	done
 ; 0x69a01
 

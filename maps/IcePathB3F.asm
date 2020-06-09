@@ -35,3 +35,4 @@ IcePathB3F_MapEventHeader: ; 0x7e674
 	person_event SPRITE_ROCK, 10, 10, $18, 0, 0, -1, -1, 0, 0, 0, RockScript_0x7e671, -1
 ; 0x7e69e
 
+

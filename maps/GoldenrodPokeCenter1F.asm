@@ -96,22 +96,21 @@ UnknownScript_0x61051: ; 0x61051
 ; 0x6105a
 
 UnknownText_0x61072: ; 0x61072
-	text "Hello! Welcome to"
-	line "the #COM CENTER"
-	cont "TRADE CORNER."
+	text "Bonjour! Bienvenue"
+	line "au coin d'échange"
+	cont "du CENTRE"
+	cont "#COM."
 
-	para "You can receive"
-	line "unique #MON"
-
-	para "if you have a"
-	line "SPECIAL CODE."
+	para "Vous pouvez rece-"
+	line "voir des #MON"
+	cont "uniques avec un"
+	cont "CODE SPECIAL."
 	
-	para "<...>Oh. But it looks"
-	line "like our system"
-	cont "isn't running yet<...>"
+	para "<...>Oh. Mais notre"
+	line "système n'est pas"
+	cont "encore en ligne<...>"
 	
-	para "Please come back"
-	line "later!"
+	para "Revenez plus tard!"
 	done
 
 ;UnknownText_0x61344: ; 0x61344
@@ -150,233 +149,233 @@ UnknownText_0x61072: ; 0x61072
 ; 0x61727
 
 PccText5: ; 0x61c89
-	text "Whoa, this #MON"
-	line "CENTER is huge."
+	text "Ce CENTRE #MON"
+	line "est énorme."
 
-	para "They just built"
-	line "this place. They"
+	para "Ils viennent d'"
+	line "ouvrir cet"
+	cont "endroit."
 
-	para "installed lots of"
-	line "new machines too."
+	para "Il y a plein de"
+	line "nouvelles"
+	cont "machines."
 	done
 ; 0x61cef
 
 PccText7: ; 0x61cef
-	text "I thought up a fun"
-	line "new thing for the"
-	cont "TRADE CORNER!"
+	text "J'ai pensé à quel-"
+	line "que chose de"
+	cont "marrant!"
 
-	para "I make a NOCTOWL"
-	line "hold MAIL, then"
+	para "J'ai fais tenir"
+	line "une LETTRE a mon"
+	cont "NOARFANG et je"
+	cont "l'ai échangé pour"
+	cont "un autre NOARFANG."
 
-	para "put it up for"
-	line "trade for another"
-	cont "one!"
+	para "Si l'on faisait"
+	line "tous ça, nous pou-"
+	cont "rrions échanger"
+	cont "des LETTRES avec"
+	cont "toutes sortes de"
+	cont "personnes."
 
-	para "If everyone did"
-	line "that, MAIL could"
+	para "Ca s'appellerait<...>"
+	line "La LETTRE"
+	cont "NOARFANG!"
 
-	para "be traded with all"
-	line "sorts of people!"
-
-	para "I call it<...>"
-	line "NOCTOWL MAIL!"
-
-	para "If it becomes"
-	line "popular, I might"
-
-	para "make lots of new"
-	line "friends!"
+	para "Si ça devient po-"
+	line "pulaire, nous pou-"
+	cont "rions nous faire"
+	cont "pleins de nouveaux"
+	cont "amis!"
 	done
 ; 0x61dfd
 
 PccText8: ; 0x61f48
-	text "The #COM CENTER"
-	line "will link with all"
+	text "Le CENTRE #MON"
+	line "relie tous les"
 
-	para "#MON CENTERS in"
-	line "a wireless net."
+	para "CENTRES #MON"
+	line "avec un réseau"
+	cont "sans fil."
 
-	para "That must mean"
-	line "I'll be able to"
+	para "Je devrais pouvoir"
+	line "me connecter avec"
 
-	para "link with all"
+	para "toutes sortes"
 	line "sorts of people."
 	done
 
 PccText9: ; 0x61f48
-	text "I'm waiting for"
-	line "my friend to"
-	cont "connect!"
+	text "J'attends que mon"
+	line "ami se connecte!"
 
-	para "It's crazy that"
-	line "people from all"
+	para "C'est dingue que"
+	line "l'on puisse jouer"
 
-	para "over the world"
-	line "can play together!"
-
+	para "ensemble partout"
+	line "dans le monde!"
 	done
 ; 0x61fc9
 
 PccText2: ; 0x61fc9
-	text "The machines here"
-	line "can't be used yet."
+	text "Ces machines ne"
+	line "peuvent pas encore"
+	cont "être utilisés."
 
-	para "Still, it's nice"
-	line "coming to a trendy"
+	para "C'est tout de même"
+	line "cool de voir ces"
 
-	para "place before other"
-	line "people."
+	para "endroits modernes"
+	line "avant les autres."
 	done
 ; 0x6202c
 
 UnknownText_0x620a1: ; 0x620a1
-	text "If I get in the"
-	line "NEWS and become"
+	text "Si je passe aux"
+	line "informations, je"
+	cont "deviendrais"
+	cont "célèbre!"
 
-	para "famous, I bet I'll"
-	line "be adored."
-
-	para "I wonder how I"
-	line "could get in the"
-	cont "NEWS?"
+	para "Mais comment"
+	line "faire<...>"
 	done
 ; 0x62105
 
 PccText1: ; 0x62105
-	text "In all #MON"
-	line "CENTERS,"
+	text "Dans tous les"
+	line "CENTRE #MON,"
 
-	para "there is a PC"
-	line "on both floors."
+	para "Il y a un PC aux"
+	line "deux étages."
 
-	para "Feels like a big"
-	line "waste of money."
+	para "Quel gaspillage"
+	line "d'argent!"
 	done
 ; 0x62173
 
 PccText6: ; 0x62173
-	text "I came over here"
-	line "when I got word"
+	text "Je suis venu quand"
+	line "j'ai entendu que"
 
-	para "that GOLDENROD's"
-	line "#MON CENTER has"
+	para "le CENTRE #MON"
+	line "de DOUBLONVILLE"
 
-	para "new machines that"
-	line "no one's ever seen"
-	cont "before."
+	para "s'était équipé de"
+	line "machines inédites."
 
-	para "But it looks like"
-	line "they're still busy"
+	para "Mais je vois qu'"
+	line "ils n'en sont"
 
-	para "with all their"
-	line "preparations<...>"
+	para "encore qu'aux"
+	line "préparatifs<...>"
 	done
 
 ; 0x62222
 
 PccText3: ; 0x62222
-	text "Just seeing all"
-	line "these new things"
-
-	para "here makes me feel"
-	line "younger!"
+	text "Voir toutes ces"
+	line "nouvelles choses"
+	cont "me fait rajeunir!"
 	done
 ; 0x62260
 
 PccText4: ; 0x62260
-	text "You just came"
-	line "from training your"
-	cont "#MON too?"
+	text "J'entraîne ma"
+	line "FOUINETTE pour"
+	cont "l'arène de la"
+	cont "ville."
 
-	para "I'm training my"
-	line "SENTRET for the"
-	cont "gym around here."
+	para "Je ne sais pas"
+	line "pourquoi, mais"
 
-	para "For some weird"
-	line "reason though,"
-
-	para "she gets really"
-	line "scared when I"
-	cont "go near a PC."
+	para "elle se met à"
+	line "avoir peur lorsque"
+	cont "j'approche d'un"
+	cont "PC."
 	done
 
 PccText10: ; 0x62370
-	text "#COM CENTER"
-	line "1F INFORMATION"
+	text "CENTRE #MON et"
+	line "COMMUNICATIONS"
 
-	para "Left:"
+	para "RDC: INFORMATION"
+
+	para "A gauche:"
 	line "ADMINISTRATION"
 
-	para "Center:"
-	line "#MON CENTER"
+	para "Au centre:"
+	line "CENTRE #MON"
 
-	para "Right:"
-	line "#TRADE CORNER"
+	para "A droite:"
+	line "COIN D'ECHANGE"
+	cont "#MON"
 	done
 ; 0x623c7
 
 UnknownText_0x623c7: ; 0x623c7
-	text "It's a massive"
-	line "computer!"
+	text "C'est un ordi-"
+	line "nateur géant!"
 
-	para "It looks very"
-	line "complicated<...>"
+	para "Ca a l'air très"
+	line "compliqué<...>"
 	done
 ; 0x623fb
 
 UnknownText_0x623fb: ; 0x623fb
-	text "Oh my, your pack"
-	line "looks so heavy!"
+	text "Oh, ton sac a"
+	line "l'air lourd!"
 
-	para "Oh! Do you happen"
-	line "to have something"
-	cont "named EON MAIL?"
+	para "Dis, aurais-tu"
+	line "une LETTRE EVOLI"
+	cont "sur toi?"
 
-	para "My daughter is"
-	line "after one."
+	para "Ma fille en"
+	line "voudrait une."
 
-	para "You can part with"
-	line "one, can't you?"
+	para "Tu peux t'en sépa-"
+	line "rer d'une, hein?"
 	done
 ; 0x6248c
 
 UnknownText_0x6248c: ; 0x6248c
-	text "Give away an EON"
-	line "MAIL?"
+	text "Donner une LETTRE"
+	line "EVOLI?"
 	done
 ; 0x624a4
 
 UnknownText_0x624a4: ; 0x624a4
-	text "Oh, that's great!"
-	line "Thank you, honey!"
+	text "Oh, super! C'est"
+	line "vraiment touchant."
 
-	para "Here, this is for"
-	line "you in return!"
+	para "Voilà un petit"
+	line "quelque chose"
+	cont "en retour."
 	done
 ; 0x624e9
 
 UnknownText_0x624e9: ; 0x624e9
-	text "My daughter will"
-	line "be delighted!"
+	text "Ma fille sera"
+	line "ravie!"
 	done
 ; 0x62509
 
 UnknownText_0x62509: ; 0x62509
-	text "Oh? You don't have"
-	line "one? Too bad."
+	text "Oh? Tu n'en as"
+	line "pas? Dommage<...>"
 	done
 ; 0x6252a
 
 UnknownText_0x6252a: ; 0x6252a
-	text "Oh<...> Well, another"
-	line "time, then."
+	text "Oh<...> Bon, une"
+	line "autre fois alors."
 	done
 ; 0x62549
 
 UnknownText_0x62549: ; 0x62549
-	text "<PLAYER> gave away"
-	line "the EON MAIL."
+	text "<PLAYER> donne une"
+	line "LETTRE EVOLI."
 	done
 ; 0x62564
 
@@ -389,7 +388,7 @@ SentretCryScript_PCC: ; 0x1a9f46
 	end
 
 SentretCry_PCC: ; 0x62549
-	text "SENTRET: Nyeut!"
+	text "FOUINETTE: Nyeut!"
 	done
 
 GoldenrodPokeCenter1F_MapEventHeader: ; 0x62564

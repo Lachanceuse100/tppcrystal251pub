@@ -798,297 +798,292 @@ MovementData_0x7ce97: ; 0x7ce97
 ; 0x7ce9d
 
 UnknownText_0x7ce9d: ; 0x7ce9d
-	text "Hold it!"
+	text "Attends!"
 
-	para "I saw you, so I"
-	line "tailed you."
+	para "Je t'ai vu alors"
+	line "je t'ai suivi."
 
-	para "I don't need you"
-	line "underfoot while I"
+	para "J'ai pas besoin de"
+	line "toi pour détruire"
+	cont "la TEAM ROCKET!"
 
-	para "take care of TEAM"
-	line "ROCKET."
+	para "<...>Attends un peu!"
+	line "Tu m'as battu"
+	cont "l'autre fois, non?"
 
-	para "<...>Wait a second."
-	line "You beat me be-"
-	cont "fore, didn't you?"
+	para "C'était que de la"
+	line "chance."
 
-	para "That was just a"
-	line "fluke."
-
-	para "But I repay my"
-	line "debts!"
+	para "Cette fois, ça va"
+	line "être un carnage!"
 	done
 ; 0x7cf5d
 
 UnknownText_0x7cf5d: ; 0x7cf5d
-	text "<...>Why<...>"
-	line "Why do I lose?"
+	text "<...>Pourquoi<...>"
+	line "C'est impossible!"
 
-	para "I've assembled the"
-	line "toughest #MON."
+	para "J'ai la meilleure"
+	line "équipe #MON"
 
-	para "I didn't ease up"
-	line "on the gas."
+	para "Nous nous sommes"
+	line "entrainés à fond!"
 
-	para "So why do I lose?"
+	para "Alors pourquoi?"
 	done
 ; 0x7cfc2
 
 UnknownText_0x7cfc2: ; 0x7cfc2
-	text "<...>I don't under-"
-	line "stand<...>"
+	text "<...>Je ne comprends"
+	line "pas<...>"
 
-	para "Is what that LANCE"
-	line "guy said true?"
+	para "Est-ce que ce"
+	line "PETER à raison?"
 
-	para "That I don't treat"
-	line "#MON properly?"
+	para "Que je traite mal"
+	line "mes #MON?"
 
-	para "Love<...>"
+	para "L'amour<...>"
 
-	para "Trust<...>"
+	para "La confiance<...>"
 
-	para "Are they really"
-	line "what I lack?"
+	para "C'est parce que je"
+	line "n'en ai pas?"
 
-	para "Are they keeping"
-	line "me from winning?"
+	para "Tout ça m'empêche-"
+	line "rait de gagner?"
 
-	para "I<...> I just don't"
-	line "understand."
+	para "Je<...> Je ne"
+	line "comprends pas."
 
-	para "But it's not going"
-	line "to end here."
+	para "Mais ce n'est pas"
+	line "terminé!"
 
-	para "Not now. Not"
-	line "because of this."
+	para "C'est moi qui sera"
+	line "le meilleur"
 
-	para "I won't give up my"
-	line "dream of becoming"
-
-	para "the world's best"
-	line "#MON trainer!"
+	para "dresseur #MON"
+	line "du monde!"
 	done
 ; 0x7d102
 
 UnknownText_0x7d102: ; 0x7d102
-	text "Humph. This is my"
-	line "real power, wimp."
+	text "Pff, voilà ma"
+	line "vraie puissance."
 
-	para "I'll make TEAM"
-	line "ROCKET history."
+	para "La TEAM ROCKET"
+	line "sera de l'histoire"
+	cont "ancienne."
 
-	para "And I'm going to"
-	line "grind that LANCE"
-	cont "under my heels."
+	para "Et je vais mettre"
+	line "ce PETER à genoux."
 	done
 ; 0x7d176
 
 UnknownText_0x7d176: ; 0x7d176
-	text "I was challenged"
-	line "to a battle down-"
-	cont "stairs."
+	text "On m'a défié en"
+	line "combat en bas."
 
-	para "It's rough down"
-	line "there. You'd"
-	cont "better be careful."
+	para "C'était intense."
+	line "Un conseil: Soit"
+	cont "très prudent!"
 	done
 ; 0x7d1d0
 
 UnknownText_0x7d1d0: ; 0x7d1d0
-	text "There are some"
-	line "shops downstairs<...>"
+	text "Il y a des bouti-"
+	line "ques en bas<...>"
 
-	para "But there are"
-	line "also trainers."
+	para "Mais il y a aussi"
+	line "des dresseurs<...>"
 
-	para "I'm scared to go"
-	line "down there."
+	para "J'ai peur d'y"
+	line "aller!"
 	done
 ; 0x7d22b
 
 GruntM11SeenText: ; 0x7d22b
-	text "Open one shutter,"
-	line "another closes."
+	text "Un volet s'ouvre,"
+	line "un autre se ferme."
 
-	para "Bet you can't get"
-	line "where you want!"
+	para "Mais jamais là ou"
+	line "tu aimerais!"
 	done
 ; 0x7d26f
 
 GruntM11BeatenText: ; 0x7d26f
-	text "Drat! I was sunk"
-	line "by indecision!"
+	text "Mince! J'étais"
+	line "trop indécis!"
 	done
 ; 0x7d290
 
 UnknownText_0x7d290: ; 0x7d290
-	text "I'm confused too<...>"
-	line "The switch on the"
+	text "Je ne m'y retrou-"
+	line "ves pas<...>"
 
-	para "end is the one to"
-	line "press first, but<...>"
+	para "Il faut commencer"
+	line "par le dernier in-"
+	cont "terrupteur, mais<...>"
 	done
 ; 0x7d2d8
 
 GruntM25SeenText: ; 0x7d2d8
-	text "Kwahaha!"
+	text "Mouhahaha!"
 
-	para "Confounded by the"
-	line "shutters, are we?"
+	para "Déconcerté par les"
+	line "volets?"
 
-	para "I'll let you in on"
-	line "a secret if you"
-	cont "can beat me!"
+	para "Je te confierais"
+	line "un secret si tu"
+	cont "peux me battre!"
 	done
 ; 0x7d335
 
 GruntM25BeatenText: ; 0x7d335
-	text "Uwww<...>"
-	line "I blew it."
+	text "Euuuh<...>"
+	line "J'ai tout gâché."
 	done
 ; 0x7d347
 
 UnknownText_0x7d347: ; 0x7d347
-	text "All right. A hint!"
+	text "Voilà un conseil!"
 
-	para "Change the order"
-	line "of switching."
+	para "Inverse ta manière"
+	line "de penser."
 
-	para "That'll change the"
-	line "ways the shutters"
-	cont "open and close."
+	para "Ca changera la"
+	line "manière dont les"
+	cont "volets s'ouvrent"
+	cont "et se ferment."
 	done
 ; 0x7d3ae
 
 BurglarDuncanSeenText: ; 0x7d3ae
-	text "Fork over your"
-	line "goodies!"
+	text "Vide ton sac!"
 	done
 ; 0x7d3c7
 
 BurglarDuncanBeatenText: ; 0x7d3c7
-	text "Mercy!"
+	text "Pitié!"
 	done
 ; 0x7d3cf
 
 UnknownText_0x7d3cf: ; 0x7d3cf
-	text "Steal and sell!"
-	line "That's basic in"
-	cont "crime, kid!"
+	text "Voler et vendre."
+	line "C'est les bases"
+	cont "du crime!"
 	done
 ; 0x7d3fb
 
 BurglarEddieSeenText: ; 0x7d3fb
-	text "They ditched this"
-	line "project before"
-	cont "they finished."
+	text "Ils ont abandonné"
+	line "ce projet sans le"
+	cont "conclure."
 
-	para "I'm searching for"
-	line "leftover loot."
+	para "Je cherche ce qu'"
+	line "ils ont pu laissé."
 	done
 ; 0x7d44c
 
 BurglarEddieBeatenText: ; 0x7d44c
-	text "Over the top!"
+	text "Aberrant!"
 	done
 ; 0x7d45b
 
 UnknownText_0x7d45b: ; 0x7d45b
-	text "UNDERGROUND WARE-"
-	line "HOUSE?"
+	text "L'ENTREPOT"
+	line "SOUTERRAIN?"
 
-	para "What do you want"
-	line "to go there for?"
+	para "Pourquoi tu veux"
+	line "y aller ?"
 
-	para "There's nothing"
-	line "down there."
+	para "Y'a rien là-bas."
 	done
 ; 0x7d4b2
 
 GruntM13SeenText: ; 0x7d4b2
-	text "I don't care if"
-	line "you're lost."
+	text "Je m'en fiche si"
+	line "tu t'es perdu."
 
-	para "You show up here,"
-	line "you're nothing but"
-	cont "a victim!"
+	para "Tu n'es rien"
+	line "d'autre qu'une"
+	cont "victime ici!"
 	done
 ; 0x7d4fc
 
 GruntM13BeatenText: ; 0x7d4fc
-	text "Urk! Yeah, think"
-	line "you're cool, huh?"
+	text "Ouais, tu te crois"
+	line "trop cool, hein?"
 	done
 ; 0x7d51f
 
 UnknownText_0x7d51f: ; 0x7d51f
-	text "You must have ice"
-	line "in your veins to"
-	cont "dis TEAM ROCKET."
+	text "T'as pas froid aux"
+	line "yeux pour t'en"
+	cont "prendre à la"
+	cont "TEAM ROCKET."
 	done
 ; 0x7d554
 
 UnknownText_0x7d554: ; 0x7d554
-	text "It's labeled"
-	line "SWITCH 1."
+	text "C'est écrit:"
+	line "INTERRUPTEUR 1."
 	done
 ; 0x7d56b
 
 GruntF3SeenText: ; 0x7d56b
-	text "An intruder!?"
+	text "Un intrus!?"
 
-	para "I can't let"
-	line "you enter the"
-	cont "the warehouse."
+	para "Tu n'entreras pas"
+	line "dans l'entrepôt!"
 
-	para "I got no choice."
+	para "Je n'ai pas le"
+	cont "choix."
 
-	para "I need to use the"
-	line "BERSERK GENE!"
+	para "Je vais utiliser"
+	line "l'ADN BERZERK!"
 	done
 ; 0x7d5d6
 
 GruntF3BeatenText: ; 0x7d5d6
-	text "How could you?"
+	text "Comment as-tu pu?"
 	done
 ; 0x7d5e6
 
 UnknownText_0x7d5e6: ; 0x7d5e6
-	text "Go wherever you'd"
-	line "like! Get lost!"
-	cont "See if I care!"
+	text "Va t'en!"
+	line "Perds-toi!"
+	cont "Je m'en fiche!"
 	done
 ; 0x7d617
 
 UnknownText_0x7d617: ; 0x7d617
-	text "It's OFF."
-	line "Turn it ON?"
+	text "C'est éteint."
+	line "On l'active?"
 	done
 ; 0x7d62d
 
 UnknownText_0x7d62d: ; 0x7d62d
-	text "It's ON."
-	line "Turn it OFF?"
+	text "C'est activé."
+	line "On l'éteint?"
 	done
 ; 0x7d643
 
 UnknownText_0x7d643: ; 0x7d643
-	text "It's labeled"
-	line "SWITCH 2."
+	text "C'est écrit:"
+	line "INTERRUPTEUR 2."
 	done
 ; 0x7d65a
 
 UnknownText_0x7d65a: ; 0x7d65a
-	text "It's labeled"
-	line "SWITCH 3."
+	text "C'est écrit:"
+	line "INTERRUPTEUR 3"
 	done
 ; 0x7d671
 
 UnknownText_0x7d671: ; 0x7d671
-	text "It's labeled"
-	line "EMERGENCY."
+	text "C'est écrit:"
+	line "URGENCE."
 	done
 ; 0x7d689
 

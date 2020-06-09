@@ -315,250 +315,246 @@ MovementData_0x18c9b3: ; 0x18c9b3
 ; 0x18c9b8
 
 UnknownText_0x18c9b8: ; 0x18c9b8
-	text "Wait!"
+	text "Attends!"
 	done
 ; 0x18c9bf
 
 UnknownText_0x18c9bf: ; 0x18c9bf
-	text "CLAIR: I'm sorry"
-	line "about this."
+	text "SANDRA: Excuse-moi"
+	line "pour tout."
 
-	para "Here, take this as"
-	line "my apology."
+	para "Tiens. Pour me"
+	line "faire pardonner."
 	done
 ; 0x18c9fb
 
 ClairRematchTextBefore:
-	text "CLAIR: There you"
-	line "are."
+	text "SANDRA: Te voilà!"
 
-	para "Shall we begin?"
+	para "On y va?"
 	done
 
 ClairRematchBeatenText:
-	text "I lost?"
+	text "J'ai perdu?"
+	line "Encore?"
 
-	para "I don't believe"
-	line "it. There must be"
-	cont "some mistake<...>"
+	para "Se pourrait-il<...>"
 	done
 
 ClairRematchTextAfter:
-	text "<...>I see. So this"
-	line "is what I must've"
+	text "<...>Alors voilà ce"
+	line "qu'il me manquait"
+	cont "tout ce temps<...>"
 
-	para "been lacking this"
-	line "whole time<...>"
+	para "Merci, <PLAY_G>."
 
-	para "Thanks, <PLAY_G>."
+	para "Je crois que je"
+	line "comprends mes la-"
+	cont "cunes maintenant."
 
-	para "I think I under-"
-	line "stand my short-"
-	cont "comings now."
+	para "Je vais retourner"
+	line "à l'ARENE."
 
-	para "I'm going back to"
-	line "the GYM."
-
-	para "May we meet again."
+	para "J'espère que nous"
+	line "nous reverrons."
 	done
 
 UnknownText_0x18c9fb: ; 0x18c9fb
-	text "<PLAYER> received"
-	line "TM24."
+	text "<PLAYER> reçoit"
+	line "CT24."
 	done
 ; 0x18ca0d
 
 UnknownText_0x18ca0d: ; 0x18ca0d
-	text "That contains"
-	line "DRAGON PULSE."
+	text "Elle contient"
+	line "DRACOSOUFFLE."
 
-	para "It fires a huge"
-	line "energy blast of"
-	cont "some kind."
+	para "Hein? Non, ça n'a"
+	line "rien à voir avec"
+	cont "mon haleine."
 
-	para "If you don't want"
-	line "it, you don't have"
-	cont "to take it<...>"
+	para "Ecoute: Si tu la"
+	line "veux pas, t'as "
+	cont "qu'a la laisser!"
 	done
 ; 0x18ca8b
 
 UnknownText_0x18ca8b: ; 0x18ca8b
-	text "Oh? You don't have"
-	line "any room for this."
+	text "Quoi, tu n'as pas"
+	line "de place?"
 
-	para "I'm going back to"
-	line "the GYM, so make"
+	para "Je retourne à l'"
+	line "ARENE. Fais de la"
 
-	para "room, then come"
-	line "see me there."
+	para "place et reviens"
+	line "me voir."
 	done
 ; 0x18caf1
 
 UnknownText_0x18caf1: ; 0x18caf1
-	text "CLAIR: What's the"
-	line "matter? Aren't you"
+	text "SANDRA: Bon, qu'"
+	line "est-ce qu'il y a?"
 
-	para "going on to the"
-	line "#MON LEAGUE?"
+	para "Tu ne vas pas à"
+	line "la LIGUE #MON?"
 
-	para "Do you know how to"
-	line "get there?"
+	para "Tu sais comment y"
+	line "aller au moins?"
 
-	para "From here, go to"
-	line "NEW BARK TOWN."
+	para "Va jusqu'a BOURG"
+	line "GEON."
 
-	para "Then SURF east to"
-	line "#MON LEAGUE."
+	para "Puis surfe vers"
+	line "l'est."
 
-	para "The route there is"
-	line "very tough."
+	para "Le chemin sera"
+	line "très dur."
 
-	para "Don't you dare"
-	line "lose at the #-"
-	cont "MON LEAGUE!"
+	para "N'ose pas te faire"
+	line "battre à la LIGUE"
+	cont "#MON!"
 
-	para "If you do, I'll"
-	line "feel even worse"
+	para "Sinon, j'aurais"
+	line "l'air de quoi,"
+	cont "moi?"
 
-	para "about having lost"
-	line "to you!"
-
-	para "Give it everything"
-	line "you've got."
+	para "Donne tout ce que"
+	line "tu as."
 	done
 ; 0x18cc2e
 
 UnknownText_0x18cc2e: ; 0x18cc2e
-	text "DRAGON SHRINE"
+	text "AUTEL DRAGON"
 
-	para "A shrine honoring"
-	line "the dragon #MON"
+	para "En l'honneur des"
+	line "#MON dragons"
 
-	para "said to have lived"
-	line "in DRAGON'S DEN."
+	para "ayant vécu dans"
+	line "l'ANTRE du DRAGON."
 	done
 ; 0x18cc83
 
 UnknownText_0x18cc83: ; 0x18cc83
 	text "<...>"
-	line "What? <PLAYER>?"
+	line "Hein? <PLAYER>?"
 
-	para "<...>No, I won't"
-	line "battle you now<...>"
+	para "<...>Non, pas"
+	line "maintenant<...>"
 
-	para "My #MON aren't"
-	line "ready to beat you."
+	para "Mes #MON ne"
+	line "sont pas prêts à"
+	cont "te déchirer."
 
-	para "I can't push them"
-	line "too hard now."
+	para "Je ne peux pas"
+	line "trop leurs en"
+	cont "demander."
 
-	para "I have to be dis-"
-	line "ciplined to become"
+	para "Je dois me disci-"
+	line "pliner pour deve-"
 
-	para "the greatest #-"
-	line "MON trainer<...>"
+	para "nir le plus grand"
+	line "dresseur #MON<...>"
 	done
 ; 0x18cd2d
 
 UnknownText_0x18cd2d: ; 0x18cd2d
 	text "<...>"
 
-	para "Whew<...>"
+	para "Pfff<...>"
 
-	para "Learn to stay out"
-	line "of my way<...>"
+	para "Reste en dehors de"
+	line "mon chemin<...>"
 	done
 ; 0x18cd53
 
 CooltrainermDarinSeenText: ; 0x18cd53
-	text "You! How dare you"
-	line "enter uninvited!"
+	text "On ne veut pas de"
+	line "toi ici!"
 	done
 ; 0x18cd77
 
 CooltrainermDarinBeatenText: ; 0x18cd77
-	text "S-strong!"
+	text "Quelle puissance!"
 	done
 ; 0x18cd82
 
 UnknownText_0x18cd82: ; 0x18cd82
-	text "The SHRINE ahead"
-	line "is home to the"
+	text "Le TEMPLE est la"
+	line "demeure de notre"
 
-	para "MASTER of our"
-	line "dragon-user clan."
+	para "MAITRE, chef du"
+	line "cla, des dragons."
 
-	para "You're not allowed"
-	line "to just go in!"
+	para "Tu n'as pas le"
+	line "droit d'entrer!"
 	done
 ; 0x18cde4
 
 CooltrainerfCaraSeenText: ; 0x18cde4
-	text "You shouldn't be"
-	line "in here!"
+	text "Tu ne devrais pas"
+	line "être ici!"
 	done
 ; 0x18cdfe
 
 CooltrainerfCaraBeatenText: ; 0x18cdfe
-	text "Oh yikes, I lost!"
+	text "Oups! J'ai perdu!"
 	done
 ; 0x18ce11
 
 UnknownText_0x18ce11: ; 0x18ce11
-	text "Soon I'm going to"
-	line "get permission"
+	text "Je vais bientôt"
+	line "avoir l'accord du"
 
-	para "from our MASTER to"
-	line "use dragons."
+	para "MAITRE pour utili-"
+	line "ser des #MON"
+	cont "DRAGON."
 
-	para "When I do, I'm"
-	line "going to become an"
+	para "Je pourrais rendre"
+	line "mon MAITRE fier en"
 
-	para "admirable dragon"
-	line "trainer and gain"
-
-	para "our MASTER's"
-	line "approval."
+	para "devenant un grand"
+	line "dresseur."
 	done
 ; 0x18ceab
 
 TwinsLeaandpia1SeenText: ; 0x18ceab
-	text "It's a stranger we"
-	line "don't know."
+	text "C'est un étranger"
+	line "qu'on ne connait"
+	cont "pas!"
 	done
 ; 0x18cec9
 
 TwinsLeaandpia1BeatenText: ; 0x18cec9
-	text "Ouchies."
+	text "Ouille."
 	done
 ; 0x18ced3
 
 UnknownText_0x18ced3: ; 0x18ced3
-	text "It was like having"
-	line "to battle LANCE."
+	text "C'était comme com-"
+	line "battre PETER."
 	done
 ; 0x18cef8
 
 TwinsLeaandpia2SeenText: ; 0x18cef8
-	text "Who are you?"
+	text "T'es qui?"
 	done
 ; 0x18cf06
 
 TwinsLeaandpia2BeatenText: ; 0x18cf06
-	text "Meanie."
+	text "C'est pas gentil."
 	done
 ; 0x18cf0f
 
 UnknownText_0x18cf0f: ; 0x18cf0f
-	text "We'll tell on you."
+	text "On va le dire."
 
-	para "MASTER will be"
-	line "angry with you."
+	para "Le MAITRE ne sera"
+	line "pas content!"
 	done
 ; 0x18cf41
 
 UnknownText_0x18cf41: ; 0x18cf41
-	text "<PLAYER> found"
+	text "<PLAYER> trouve:"
 	line "@"
 	text_from_ram StringBuffer3
 	text "!"
@@ -566,9 +562,9 @@ UnknownText_0x18cf41: ; 0x18cf41
 ; 0x18cf51
 
 UnknownText_0x18cf51: ; 0x18cf51
-	text "But <PLAYER> can't"
-	line "carry any more"
-	cont "items."
+	text "Mais <PLAYER> ne"
+	line "peut plus rien"
+	cont "porter<...>"
 	done
 ; 0x18cf73
 

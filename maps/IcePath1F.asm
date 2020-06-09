@@ -42,3 +42,4 @@ IcePath1F_MapEventHeader: ; 0x7e478
 	person_event SPRITE_POKE_BALL, 13, 39, $1, 0, 0, -1, -1, 0, 1, 0, ItemFragment_0x7e476, EVENT_ITEM_ICEPATH1F_PROTEIN
 ; 0x7e4b9
 
+

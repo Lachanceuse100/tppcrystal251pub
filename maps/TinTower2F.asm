@@ -25,3 +25,4 @@ TinTower2F_MapEventHeader: ; 0x185a25
 	db 0
 ; 0x185a35
 
+

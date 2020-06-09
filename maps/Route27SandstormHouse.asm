@@ -44,58 +44,63 @@ MapRoute27SandstormHouseSignpost1Script: ; 0x7b3c3
 ; 0x7b3c6
 
 UnknownText_0x7b3c6: ; 0x7b3c6
-	text "Where are you off"
-	line "to with #MON?"
+	text "Où tu vas toi avec"
+	line "tes #MON?"
 
-	para "#MON LEAGUE?"
+	para "La LIGUE #MON?"
 
-	para "Are your #MON"
-	line "loyal enough for"
-	cont "you to win?"
+	para "Tes #MON sont"
+	line "assez confiants"
+	cont "pour y aller?"
 
-	para "Let me see<...>"
+	para "Voyons<...>"
 	done
 ; 0x7b42b
 
 UnknownText_0x7b42b: ; 0x7b42b
-	text "Ah! Your #MON"
-	line "trusts you very"
-	cont "much."
+	text "Ah! Ton #MON"
+	line "te faut vraiment"
+	cont "confiance."
 
-	para "It's nice to see a"
-	line "good trainer."
+	para "C'est agréable de"
+	line "voir un bon"
+	cont "dresseur."
 
-	para "Here. A gift for"
-	line "your journey."
+	para "Tiens! Un cadeau"
+	line "pour toi."
 	done
 ; 0x7b48f
 
 UnknownText_0x7b48f: ; 0x7b48f
-	text "TM41 happens to be"
-	line "SWORDS DANCE."
+	text "CT41 apprend"
+	line "DANSE-LAMES."
 
-	para "It builds attack"
-	line "very quickly,"
+	para "Cela monte l'"
+	line "ATTAQUE rapidement"
 
-	para "but allows other"
-	line "#MON to switch"
-	cont "in."
+	para "mais laisse le"
+	line "temps a l'adver-"
+	cont "saire de changer"
+	cont "de stratégie."
 
-	para "Use it if you"
-	line "dare. Good luck!"
+	para "Utilise-la si tu"
+	line "l'oses."
+
+	para "Bonne chance!"
 	done
 ; 0x7b51f
 
 UnknownText_0x7b51f: ; 0x7b51f
-	text "If it doesn't come"
-	line "to trust you some"
+	text "Si il ne te fais"
+	line "pas plus confian-"
 
-	para "more, it could be"
-	line "tough going."
+	para "ce, ça risque d'"
+	line "être difficile<...>"
 
-	para "Trust is the tie"
-	line "that binds #MON"
-	cont "and trainers."
+	para "La confiance est"
+	line "le lien qui unit"
+	cont "un #MON à son"
+	cont "dresseur."
 	done
 ; 0x7b592
 

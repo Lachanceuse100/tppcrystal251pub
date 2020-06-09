@@ -84,8 +84,8 @@ MapDayCareSignpost1Script: ; 0x62fd7
 ; 0x62fda
 
 UnknownText_0x62fda: ; 0x62fda
-	text "Gramps was looking"
-	line "for you."
+	text ""
+	line "pour toi."
 	done
 ; 0x62ff7
 
@@ -114,59 +114,56 @@ UnknownText_0x62fda: ; 0x62fda
 ; 0x630ce
 
 UnknownText_0x630ce: ; 0x630ce
-	text "I'm the DAY-CARE"
-	line "MAN."
+	text "Je suis l'HOMME de"
+	line "la PENSION"
 
-	para "Do you know about"
-	line "EGGS?"
+	para "Tu connais les"
+	line "OEUFS?"
 
-	para "I was raising"
-	line "#MON with my"
-	cont "wife, you see."
+	para "J'élevais des"
+	line "#MON avec ma"
+	cont "femme, tu vois<...>"
 
-	para "We were shocked to"
-	line "find an EGG!"
+	para "Et puis on a trou-"
+	line "vé un OEUF!"
 
-	para "How incredible is"
-	line "that?"
+	para "C'est pas incroy-"
+	line "able, ça?"
 
-	para "Well, wouldn't you"
-	line "like this EGG?"
+	para "Est-ce que tu veux"
+	line "prendre cet OEUF?"
 
-	para "Then fine, this is"
-	line "yours to keep!"
+	para "Super! Tu peux"
+	line "le garder!"
 	done
 ; 0x631a1
 
 UnknownText_0x631a1: ; 0x631a1
-	text "Come again."
+	text "A bientôt."
 	done
 ; 0x631ae
 
 UnknownText_0x631ae: ; 0x631ae
-	text "<PLAYER> received"
-	line "ODD EGG!"
+	text "<PLAYER> reçoit"
+	line "OEUF BIZARRE!"
 	done
 ; 0x631c3
 
 UnknownText_0x631c3: ; 0x631c3
-	text "I found that when"
-	line "I was caring for"
+	text "Je l'ai trouvé en"
+	line "m'occupant du"
 
-	para "someone's #MON"
-	line "before."
+	para "#MON de"
+	line "quelqu'un."
 
-	para "But the trainer"
-	line "didn't want the"
-
-	para "EGG, so I'd kept"
-	line "it around."
+	para "Mais le dresseur"
+	line "n'en a pas voulu<...>"
 	done
 ; 0x63237
 
 UnknownText_0x63237: ; 0x63237
-	text "You've no room for"
-	line "this."
+	text "Tu n'as plus de"
+	line "place."
 	done
 ; 0x63250
 

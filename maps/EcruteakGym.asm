@@ -109,22 +109,22 @@ MortyRejectSuicuneInTower:
 	end
 
 MortyRejectSuicuneInTowerText:
-	text "There's a distur-"
-	line "bance at TIN"
-	cont "TOWER."
+	text "Il se passe quel-"
+	line "que chose à la"
+	cont "TOUR FERAILLE."
 
-	para "Oh? That's the"
-	line "CLEAR BELL!"
+	para "Oh? C'est le"
+	line "GLAS TRANSP.!"
 
-	para "The sound of that"
-	line "bell can tame even"
+	para "Le son de ce glas"
+	line "peut dompter les"
 
-	para "the toughest of"
-	line "beasts."
+	para "bêtes les plus"
+	line "féroces."
 
-	para "Perhaps it may"
-	line "calm the beast"
-	cont "in TIN TOWER."
+	para "Peut-être qu'il"
+	line "calmera la bête de"
+	cont "la TOUR FERAILLE."
 	done
 
 MortyRejectTowerClosed:
@@ -135,67 +135,66 @@ MortyRejectTowerClosed:
 
 
 MortyRejectTowerClosedText:
-	text "RAIKOU, ENTEI, and"
+	text "RAIKOU, ENTEI, et"
 	line "SUICUNE<...>"
 
-	para "The day we first"
-	line "met in the BURNT"
+	para "Le jour de notre"
+	line "rencontre à la"
+	cont "TOUR CENDRE,"
 
-	para "TOWER, they fled"
-	line "from your pre-"
-	cont "sence."
+	line "Ils ont fuit en ta"
+	cont "présence."
 
-	para "Legends tell of"
-	line "three #MON who"
+	para "Les légendes par-"
+	line "lent de 3 #MON"
 
-	para "perished in the"
-	line "blaze that claimed"
-	cont "the tower."
+	para "ayant péri dans"
+	line "l'incendie de la"
+	cont "tour."
 
-	para "Perhaps<...>"
+	para "Peut-être<...>"
 
-	para "Could the beasts"
-	line "be reincarnations"
-	cont "of those #MON?"
+	para "Seraient-ils les"
+	line "réincarnations de"
+	cont "ces #MON?"
 
-	para "Could the RAINBOW"
-	line "#MON be wai-"
-	cont "ting for their"
-	cont "return?"
+	para "Le #MON arc-en-"
+	line "ciel attend-il"
+	cont "leurs retour?"
 	done
 
 MortyRejectTowerOpen:
-	text "I<...> I can't"
-	line "believe it!"
+	text "Je<...> Je n'y crois"
+	line "pas!"
 
-	para "It landed! The"
-	line "RAINBOW #MON"
-	cont "has returned!"
+	para "Il est ici!"
+
+	para "Le #MON arc-en-"
+	line "ciel est revenu!"
 
 	para "But<...>"
 
-	para "I admit I am not"
-	line "worthy to meet"
+	para "J'admet que je ne"
+	line "suis pas celui qui"
 
-	para "the RAINBOW #-"
-	line "MON myself<...>"
+	para "mérite de le"
+	line "rencontrer<...>"
 
 	para "<PLAYER>!"
 
-	para "You caught the 3"
-	line "beasts, did you"
-	cont "not?"
+	para "Tu as capturé les"
+	line "3 bêtes, pas vrai?"
 
-	para "Perhaps the"
-	line "RAINBOW #MON"
+	para "Le #MON arc-en-"
+	line "ciel apparaîtra"
+	cont "sûrement devant"
+	cont "toi!"
 
-	para "will appear before"
-	line "you!"
+	para "Pars a la TOUR"
+	line "FERAILLE!"
 
-	para "Go, to TIN TOWER!"
-
-	para "Go and fulfill my"
-	line "lifelong dream!"
+	para "Accomplis le rêve"
+	line "de ma vie!"
 	done
 
 UnknownScript_0x99db7: ; 0x99db7
@@ -391,265 +390,272 @@ MovementData_0x99e63: ; 0x99e63
 ; 0x99e65
 
 UnknownText_0x99e65: ; 0x99e65
-	text "Good of you to"
-	line "have come."
+	text "Bienvenue."
 
-	para "Here in ECRUTEAK,"
-	line "#MON have been"
-	cont "revered."
+	para "Ici à ROSALIA,"
+	line "les #MON sont"
+	cont "vénérés."
 
-	para "It's said that a"
-	line "rainbow-colored"
+	para "On dit qu'un"
+	line "#MON aux cou-"
 
-	para "#MON will come"
-	line "down to appear"
+	para "leurs de l'arc-en-"
+	line "ciel apparaîtra"
 
-	para "before a truly"
-	line "powerful trainer."
+	para "face à un dresseur"
+	line "d'exception."
 
-	para "I believed that"
-	line "tale, so I have"
+	para "Je crois en la"
+	line "légende et ainsi"
 
-	para "secretly trained"
-	line "here all my life."
+	para "je m'entraîne jour"
+	line "et nuit en secret."
 
-	para "As a result, I can"
-	line "now see what"
-	cont "others cannot."
+	para "Je peux désormais"
+	line "voir ce que d'"
+	cont "autres ne voient"
+	cont "pas."
 
-	para "Just a bit more<...>"
+	para "Encore un peu<...>"
 
-	para "With a little"
-	line "more, I could see"
+	para "Encore un peu et"
+	line "je pourrai voir"
 
-	para "a future in which"
-	line "I meet the #MON"
-	cont "of rainbow colors."
+	para "ce #MON aux"
+	line "plumes arc-en-"
+	cont "ciel."
 
-	para "You're going to"
-	line "help me reach that"
-	cont "level!"
+	para "Et avec ce combat,"
+	line "ma puissance sera"
+	cont "à son apogée!"
 	done
 ; 0x9a00a
 
 MortyRematchTextBefore:
-	text "Welcome back,"
+	text "Bienvenue,"
 	line "<PLAY_G>."
 
-	para "So the legend was"
-	line "true, and HO-OH"
-	cont "chose you<...>"
+	para "<...>La légende était"
+	line "donc vraie, HO-OH"
+	cont "t'a choisi<...>"
 
-	para "But that does not"
-	line "mean that I have"
-	cont "lost out on my"
-	cont "future."
+	para "Mais je n'ai pas"
+	line "perdu de vue mon"
+	cont "futur."
 
-	para "Show me the power"
-	line "I've trained for!"
+	para "Montre moi la pui-"
+	line "ssance que je"
+	cont "souhaitais défier!"
 	done
 
 MortyRematchBeatenText:
-	text "How is this"
-	line "possible<...>"
+	text "Comment est-ce"
+	line "possible<...>?"
 	done
 
 MortyAfterRematchText:
-	text "Our potentials"
-	line "aren't so"
-	cont "different."
+	text "Nos potentiels"
+	line "ne sont pas si"
+	cont "differents."
 
-	para "But you seem to"
-	line "have something<...>"
+	para "Mais tu as quelque"
+	line "chose<...>"
 
-	para "Something more"
-	line "than that<...>"
+	para "Quelque chose de"
+	line "plus<...>"
 	done
 
 UnknownText_0x9a00a: ; 0x9a00a
-	text "I'm not good"
-	line "enough yet<...>"
+	text "Toujours rien<...>"
 
-	para "All right. This"
-	line "BADGE is yours."
+	para "Je ne suis pas"
+	line "encore assez bon."
+
+	para "Très bien, ce"
+	line "BADGE est à toi."
 	done
 ; 0x9a043
 
 UnknownText_0x9a043: ; 0x9a043
-	text "<PLAYER> received"
-	line "FOGBADGE."
+	text "<PLAYER> reçoit"
+	line "le BADGE BRUME."
 	done
 ; 0x9a059
 
 UnknownText_0x9a059: ; 0x9a059
-	text "By having FOG-"
-	line "BADGE, #MON who"
-	cont "know SURF will be"
-	cont "able to use that"
-	cont "move anytime."
+	text "En possédant le"
+	line "BADGE BRUME, tes"
+	cont "#MON pourront"
+	cont "utiliser SURF"
+	cont "partout."
 
-	para "I want you to have"
-	line "this too."
+	para "Prends aussi ceci."
 	done
 ; 0x9a0ec
 
 UnknownText_0x9a0ec: ; 0x9a0ec
-	text "It's SHADOW CLAW."
-	line "It causes damage"
+	text "C'est GRIFFE"
+	line "OMBRE."
 
-	para "and is likely"
-	line "to inflict"
-	cont "critical hits."
+	para "Une attaque redou-"
+	line "table ayant plus"
+	cont "de chance d'infli-"
+	cont "ger un coup"
+	cont "critique."
 
-	para "Use it if it"
-	line "appeals to you."
+	para "Utilise là si elle"
+	line "te plaît."
 	done
 ; 0x9a145
 
 UnknownText_0x9a145: ; 0x9a145
-	text "I see<...>"
+	text "Je vois<...>"
 
-	para "Your journey has"
-	line "taken you to far-"
-	cont "away places."
+	para "Ton voyage a été"
+	line "long et"
+	cont "mouvementé."
 
-	para "And you have wit-"
-	line "nessed much more"
-	cont "than I."
+	para "Et tu as vu plus"
+	line "de choses que moi."
 
-	para "I envy you for"
-	line "that<...>"
+	para "Je t'envie pour"
+	line "ça<...>"
 	done
 ; 0x9a1bd
 
 SageJeffreySeenText: ; 0x9a1bd
-	text "Unlike most"
-	line "trainers here,"
+	text "Contrairement à la"
+	line "plupart des dre-"
+	cont "sseurs ici,"
 
-	para "the bond I have"
-	line "with my #MON"
+	para "Mon amitié avec"
+	line "mes #MON s'est"
+	cont "construit sur une"
+	cont "très longue"
+	cont "période."
 
-	para "has been built"
-	line "over a long time."
-
-	para "That is the key"
-	line "getting stronger!"
+	para "Voilà le secret"
+	line "pour être plus"
+	cont "fort!"
 	done
 ; 0x9a23d
 
 SageJeffreyBeatenText: ; 0x9a23d
-	text "Wins and losses, I"
-	line "experienced both."
+	text "J'ai connu tant de"
+	line "victoires et"
+	cont "défaites."
 	done
 ; 0x9a263
 
 UnknownText_0x9a263: ; 0x9a263
-	text "Our bond isn't"
-	line "strong enough<...>"
+	text "Notre lien n'est"
+	line "pas assez fort<...>"
 	done
 ; 0x9a27e
 
 SagePingSeenText: ; 0x9a27e
-	text "Have you prepared"
-	line "to face ghost-"
-	cont "type #MON?"
+	text "Tu t'es préparé"
+	line "pour les #MON"
+	cont "de type SPECTRE?"
 
-	para "Then you are in"
-	line "for a surprise!"
+	para "Tu vas avoir une"
+	line "sacré surprise!"
 	done
 ; 0x9a2a7
 
 SagePingBeatenText: ; 0x9a2a7
-	text "Ah! Well done!"
+	text "Ah! Bien joué!"
 	done
 ; 0x9a2b7
 
 UnknownText_0x9a2b7: ; 0x9a2b7
-	text "Only MORTY uses"
-	line "ghost #MON."
+	text "Seul MORTIMER uti-"
+	line "lise des #MON"
+	cont "SPECTRE."
 
-	para "Still, none of"
-	line "us can stand up"
-	cont "against him!"
+	para "Pourtant, aucun de"
+	line "nous ne lui arrive"
+	cont "à la cheville."
 	done
 ; 0x9a2fb
 
 MediumMarthaSeenText: ; 0x9a2fb
-	text "Defense is the"
-	line "best offense!"
+	text "La défense est la"
+	line "meilleure attaque!"
 	done
 ; 0x9a309
 
 MediumMarthaBeatenText: ; 0x9a309
-	text "Or not<...>"
+	text "Ou pas<...>"
 	done
 ; 0x9a318
 
 UnknownText_0x9a318: ; 0x9a318
-	text "MORTY is powerful."
+	text "MORTIMER est"
+	line "redoutable."
 
-	para "He changes what"
-	line "#MON he uses"
-	cont "depending on the"
-	cont "opponent's skill."
+	para "Il change ses"
+	line "#MON en"
+	cont "fonction du talent"
+	cont "de son adversaire."
 	done
 ; 0x9a33e
 
 MediumGraceSeenText: ; 0x9a33e
-	text "Dark #MON have"
-	line "an advantage"
-	cont "against ghost"
-	cont "#MON."
+	text "Les TENEBRES ont"
+	line "un avantage contre"
+	cont "les #MON"
+	cont "SPECTRE."
 
-	para "Someday, MORTY"
-	line "will be defeated!"
+	para "Un jour, MORTIMER"
+	line "sera vaincu!"
 	done
 ; 0x9a37f
 
 MediumGraceBeatenText: ; 0x9a37f
-	text "Wha-what?"
+	text "Que-quoi?"
 	done
 ; 0x9a38a
 
 UnknownText_0x9a38a: ; 0x9a38a
-	text "If I can't"
-	line "defeat you<...>"
+	text "Si je ne peut pas"
+	line "te battre<...>"
 
-	para "How will I ever"
-	line "defeat MORTY?"
+	para "Comment puis-je"
+	line "vaincre MORTIMER?"
 	done
 ; 0x9a3e8
 
 EcruteakGymGuyText: ; 0x9a3e8
-	text "This gym used to"
-	line "be a ghost-type"
-	cont "only gym."
+	text "Cette arène était"
+	line "autrefois du type"
+	cont "SPECTRE"
 
-	para "Lately though,"
-	line "it has attracted"
+	para "Mais ces derniers"
+	line "temps, elle s'est"
 
-	para "a lot of dark-"
-	line "type trainers."
+	para "mélangée aux dre-"
+	line "sseurs de type"
+	cont "TENEBRES."
 
 	done
 ; 0x9a452
 
 EcruteakGymGuyWinText: ; 0x9a452
-	text "Whew, <PLAYER>."
-	line "You did great!"
+	text "Waouh, <PLAYER>."
+	line "Tu as été génial!"
 
-	para "I was cowering in"
-	line "the corner out of"
-	cont "pure terror!"
+	para "J'étais terrorisé,"
+	line "je me suis caché"
+	cont "dans un coin!"
 	done
 ; 0x9a49c
 
 UnknownText_0x9a49c: ; 0x9a49c
-	text "MORTY, the GYM"
-	line "LEADER, is absent."
+	text "MORTIMER, le CHAM-"
+	line "PION, est absent."
 
-	para "Sorry, but you'll"
-	line "have to leave."
+	para "Tu dois partir."
 
 	para "Hohohoho."
 	done

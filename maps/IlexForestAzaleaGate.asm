@@ -15,19 +15,19 @@ GrannyScript_0x62c7d: ; 0x62c7d
 ; 0x62c80
 
 UnknownText_0x62c80: ; 0x62c80
-	text "ILEX FOREST is"
-	line "big. Be careful!"
-	cont "Don't get lost."
+	text "Le BOIS AUX CHENES"
+	line "est immense!"
+	cont "Fais attention."
 	done
 ; 0x62cb0
 
 UnknownText_0x62cb0: ; 0x62cb0
-	text "The FOREST is"
-	line "watched over by"
-	cont "its protector."
+	text "Le BOIS est pro-"
+	line "tégé par son"
+	cont "gardien."
 
-	para "Stay out of"
-	line "mischief!"
+	para "Ne fais rien de"
+	line "mal!"
 	done
 ; 0x62cf4
 

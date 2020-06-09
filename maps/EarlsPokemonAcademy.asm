@@ -127,9 +127,9 @@ MenuData2_0x68ae9: ; 0x68ae9
 UnknownText_0x68af2: ; 0x68af2
 	db "PSN@"
 	db "PAR@"
-	db "SLP@"
-	db "BRN@"
-	db "FRZ@"
+	db "SOM@"
+	db "BRU@"
+	db "GEL@"
 	db "QUIT@"
 ; 0x68b0b
 
@@ -178,278 +178,283 @@ MovementData_0x68b2d: ; 0x68b2d
 ; 0x68b3b
 
 UnknownText_0x68b3b: ; 0x68b3b
-	text "EARL, I am!"
+	text "THEOPHILE je suis!"
 
-	para "Wonderful are"
-	line "#MON, yes!"
+	para "Magnifique sont"
+	line "tes #MON!"
 
-	para "Teach you I will"
-	line "to be a better"
-	cont "trainer!"
+	para "T'enseigner je"
+	line "vais pour être un"
+	cont "meilleur dresseur!"
 
-	para "What you want to"
-	line "know? Want to be"
-	cont "a winner is you?"
+	para "Tu veux savoir"
+	line "quoi? Un gagnant"
+	cont "tu veux être?"
 	done
 ; 0x68bbd
 
 UnknownText_0x68bbd: ; 0x68bbd
-	text "Good! Teach you,"
-	line "I will!"
+	text "Bien! T'enseigner"
+	line "je vais!"
 
-	para "In battle, #MON"
-	line "top on list jump"
-	cont "out first!"
+	para "En combat, les"
+	line "#MON en haut de"
+	cont "la liste sortent"
+	cont "en premier."
 
-	para "Change order in"
-	line "list, make battle"
-	cont "easy, maybe!"
+	para "Change l'ordre,"
+	line "les combats seront"
+	cont "plus facile,"
+	cont "peut-être."
 
-	para "More from me you"
-	line "want to hear?"
+	para "En entendre plus,"
+	line "veux-tu?"
 	done
 ; 0x68c51
 
 UnknownText_0x68c51: ; 0x68c51
-	text "So, want to know"
-	line "how to raise"
-	cont "#MON well?"
+	text "Alors, comment"
+	line "élever tes #MON"
+	cont "tu veux savoir?"
 	done
 ; 0x68c7b
 
 UnknownText_0x68c7b: ; 0x68c7b
-	text "Fine! Teach you,"
-	line "I will!"
+	text "Bien! T'enseigner"
+	line "je vais!"
 
-	para "If #MON come"
-	line "out in battle even"
+	para "Si un #MON est"
+	line "en combat même"
 
-	para "briefly, some EXP."
-	line "Points it gets."
+	para "brièvement. Des"
+	line "Points d'EXP. il"
+	cont "gagne."
 
-	para "At top of list put"
-	line "weak #MON."
+	para "En haut de l'équi-"
+	line "pe, met les #-"
+	cont "MON faibles."
 
-	para "Switch in battle"
-	line "quick!"
+	para "Change rapidement"
+	line "en combat!"
 
-	para "This way, weak"
-	line "#MON strong"
-	cont "become!"
+	para "Comme ça, forts"
+	line "les #MON"
+	cont "deviennent!"
 	done
 ; 0x68d31
 
 UnknownText_0x68d31: ; 0x68d31
-	text "Oh! Smart student"
-	line "you are! Nothing"
-	cont "more do I teach!"
+	text "Oh! Intelligent"
+	line "tu es! Rien de"
+	cont "plus je peux"
+	cont "t'enseigner"
 
-	para "Good to #MON"
-	line "you must be!"
+	para "Super tes #MON"
+	line "doivent être!"
 	done
 ; 0x68d80
 
 UnknownText_0x68d80: ; 0x68d80
-	text "I'm taking notes"
-	line "of the teacher's"
-	cont "lecture."
+	text "Je prends des"
+	line "notes de la leçon"
+	cont "du professeur."
 
-	para "I'd better copy"
-	line "the stuff on the"
-	cont "blackboard too."
+	para "Je devrais aussi"
+	line "copier ce qu'il y"
+	cont "a sur le tableau."
 	done
 ; 0x68dda
 
 UnknownText_0x68dda: ; 0x68dda
-	text "I traded my best"
-	line "#MON to the"
-	cont "guy beside me."
+	text "J'ai échangé mon"
+	line "meilleur #MON"
+	cont "avec la personne à"
+	cont "côté de moi."
 	done
 ; 0x68e07
 
 UnknownText_0x68e07: ; 0x68e07
-	text "Huh? The #MON I"
-	line "just got is hold-"
-	cont "ing something!"
+	text "Hein? Le #MON"
+	line "que j'ai reçu"
+	cont "tient quelque"
+	cont "chose!"
 	done
 ; 0x68e39
 
 UnknownText_0x68e39: ; 0x68e39
-	text "A #MON holding"
-	line "a BERRY will heal"
-	cont "itself in battle."
+	text "Un #MON tenant"
+	line "une BAIE peut se"
+	cont "soigner en combat<...>"
 
-	para "Many other items"
-	line "can be held by"
-	cont "#MON<...>"
+	para "D'autres objets"
+	line "peuvent être tenus"
+	cont "par les #MON<...>"
 
-	para "It sure is tough"
-	line "taking notes<...>"
+	para "C'est dur de"
+	line "prendre des notes<...>"
 	done
 ; 0x68eb2
 
 UnknownText_0x68eb2: ; 0x68eb2
-	text "The blackboard"
-	line "describes #MON"
-
-	para "status changes in"
-	line "battle."
+	text "Le tableau décrit"
+	line "les changements de"
+	cont "STATUT des #MON"
+	cont "en combat."
 	done
 ; 0x68eeb
 
 UnknownText_0x68eeb: ; 0x68eeb
-	text "Read which topic?"
+	text "Lire quel sujet?"
 	done
 ; 0x68efe
 
 UnknownText_0x68efe: ; 0x68efe
-	text "If poisoned, a"
-	line "#MON steadily"
-	cont "loses HP."
+	text "Empoisonné, les PV"
+	line "d'un #MON des-"
+	cont "cendent lentement."
 
-	para "Poison lingers"
-	line "after the battle,"
+	para "Le poison reste"
+	line "après les combats."
 
-	para "and HP is lost as"
-	line "you walk."
-
-	para "To cure it, use an"
-	line "ANTIDOTE."
+	para "Utilisez un ANTI-"
+	line "DOTE pour soigner"
+	cont "l'empoisonnement."
 	done
 ; 0x68f80
 
 UnknownText_0x68f80: ; 0x68f80
-	text "Paralysis reduces"
-	line "speed and may"
-	cont "prevent movement."
+	text "La paralysie peut"
+	line "empêcher le #-"
+	cont "MON de bouger."
 
-	para "It's important to"
-	line "remember that"
-	cont "electric #MON"
-	cont "are immune to PRZ."
+	para "La paralysie reste"
+	line "après les combats."
 
-	para "It remains after"
-	line "battle, so use"
-	cont "a PARLYZ HEAL."
+	para "Utilisez des ANTI-"
+	line "PARA pour guérir."
 	done
 ; 0x68fe2
 
 UnknownText_0x68fe2: ; 0x68fe2
-	text "If asleep, your"
-	line "#MON can't make"
-	cont "a move."
+	text "Un #MON ne peux"
+	line "pas attaquer si"
+	cont "il dort!"
 
-	para "A sleeping #MON"
-	line "doesn't wake up"
-	cont "after battle."
+	para "Les #MON"
+	line "restent endormis"
+	cont "après les combats."
 
-	para "Wake it up with"
-	line "an AWAKENING."
+	para "Utilisez des"
+	line "REVEIL pour les"
+	cont "réveiller."
 	done
 ; 0x69055
 
 UnknownText_0x69055: ; 0x69055
-	text "A burn steadily"
-	line "consumes HP."
+	text "Une brûlure réduit"
+	line "la puissance et la"
+	cont "vitesse en plus"
+	cont "d'infliger des"
+	cont "dégâts graduels."
 
-	para "It also reduces"
-	line "attack power,"
+	para "La brûlure reste"
+	line "après les combats."
 
-	para "but fire types"
-	line "shrug it off."
-
-	para "A burn lingers"
-	line "after battle."
-
-	para "Use a BURN HEAL as"
-	line "the cure."
+	para "Elle se traite"
+	line "avec l'ANTI-BRULE."
 	done
 ; 0x690cb
 
 UnknownText_0x690cb: ; 0x690cb
-	text "If your #MON is"
-	line "frozen, it can't"
-	cont "do a thing."
+	text "Un #MON gelé"
+	line "devient totalement"
+	cont "immobile!"
 
-	para "It remains frozen"
-	line "after battle."
+	para "Le gel reste même"
+	line "après les combats."
 
-	para "Thaw it out with"
-	line "an ICE HEAL."
+	para "Elle se traite"
+	line "avec l'ANTI-GEL."
 	done
 ; 0x69136
 
 UnknownText_0x69136: ; 0x69136
-	text "It's this kid's"
-	line "notebook<...>"
+	text "Vous regardez le"
+	line "cahier!"
 
-	para "Catch #MON"
-	line "using # BALLS."
+	para "Les # BALL"
+	line "peuvent capturer"
+	cont "des #MON."
 
-	para "Up to six can be"
-	line "in your party."
+	para "Jusqu'à 6 #MON"
+	line "peuvent être"
+	cont "transportés."
 
-	para "Keep reading?"
+	para "Continuer de lire?"
 	done
 ; 0x69197
 
 UnknownText_0x69197: ; 0x69197
-	text "Before throwing a"
-	line "# BALL, weaken"
-	cont "the target first."
+	text "Avant de lancer"
+	line "une # BALL, il"
+	cont "faut affaiblir"
+	cont "la cible."
 
-	para "A poisoned or"
-	line "burned #MON is"
-	cont "easier to catch."
+	para "Un #MON brûlé"
+	line "ou empoisonné est"
+	cont "plus facile à"
+	cont "attraper."
 
-	para "Keep reading?"
+	para "Continuer de lire?"
 	done
 ; 0x69207
 
 UnknownText_0x69207: ; 0x69207
-	text "Some moves may"
-	line "cause confusion."
+	text "Certaines attaques"
+	line "peuvent rendre"
+	cont "confus."
 
-	para "Confusion may make"
-	line "a #MON attack"
-	cont "itself."
+	para "La confusion peut"
+	line "pousser un #MON"
+	cont "à s'attaquer lui-"
+	cont "même."
 
-	para "Leaving battle"
-	line "clears up any"
-	cont "confusion."
+	para "Quitter le combat"
+	line "annule l'effet de"
+	cont "la confusion."
 
-	para "Keep reading?"
+	para "Continuer de lire?"
 	done
 ; 0x69287
 
 UnknownText_0x69287: ; 0x69287
-	text "People who catch"
-	line "and use #MON"
+	text "Le but de chaque"
+	line "dresseur #MON"
+	cont "est de s'engager"
+	cont "dans des combats"
+	cont "#MON contre d'"
+	cont "autres dresseurs"
 
-	para "in battle are"
-	line "#MON trainers."
+	para "Des combats se"
+	line "tiennent en"
+	cont "permanence dans"
+	cont "les ARENES"
+	cont "#MON."
 
-	para "They are expected"
-	line "to visit #MON"
+	para "La page suivante"
+	line "est<...> Blanche!"
 
-	para "GYMS and defeat"
-	line "other trainers."
+	para "Garçon: Je, euh<...>"
 
-	para "The next page"
-	line "is<...> Blank!"
-
-	para "Boy: E-he-he<...>"
-
-	para "I haven't written"
-	line "anymore<...>"
+	para "Je n'ai encore"
+	line "rien écris<...>"
 	done
 ; 0x69344
 
 UnknownText_0x69344: ; 0x69344
-	text "This super machine"
-	line "prints data out as"
-
-	para "stickers!"
+	text "Cette machine"
+	line "imprime des"
+	cont "stickers!"
 	done
 ; 0x69375
 

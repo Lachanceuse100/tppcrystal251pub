@@ -499,9 +499,9 @@ MenuData2_17d297: ; 17d297
 	db $a0 ; flags
 	db 4
 	db "NORMAL@"
-	db "HARD@"
-	db "EXPLANATION@"
-	db "CANCEL@"
+	db "DIFFICILE@"
+	db "EXPLICATION@"
+	db "ANNULER@"
 ; 17d2b6
 
 Function17d2b6: ; 17d2b6

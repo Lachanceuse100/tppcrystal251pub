@@ -40,3 +40,4 @@ SeafoamIslandsB3F_MapEventHeader:
 
 	db 1
 	person_event SPRITE_ARTICUNO, 12, 8, $16, 0, 0, -1, -1, 1, 0, 0, ArticunoScript1, EVENT_FOUGHT_ARTICUNO
+

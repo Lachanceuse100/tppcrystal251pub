@@ -128,55 +128,57 @@ CooltrainerfFranScript: ; 0x195781
 ; 0x195789
 
 CooltrainermCodySeenText: ; 0x195789
-	text "It's not as if we"
-	line "all use dragon-"
-	cont "type #MON."
+	text "On n'utilise pas"
+	line "tous des #MON"
+	cont "DRAGON."
 	done
 ; 0x1957b6
 
 CooltrainermCodyBeatenText: ; 0x1957b6
-	text "Rats! If only I"
-	line "had a dragon!"
+	text "Zut! Il me faut"
+	line "un dragon!"
 	done
 ; 0x1957d5
 
 UnknownText_0x1957d5: ; 0x1957d5
-	text "Members of our"
-	line "dragon-user clan"
+	text "Les membres de la"
+	line "confrérie des"
 
-	para "can use dragon"
-	line "#MON only after"
+	para "dragons ne peuvent"
+	line "utiliser des #-"
 
-	para "our MASTER allows"
-	line "it."
+	para "MON DRAGON qui si"
+	line "le MAITRE le"
+	cont "permet."
 	done
 ; 0x19582b
 
 CooltrainerfFranSeenText: ; 0x19582b
-	text "Dragon-type"
-	line "#MON are rare."
+	text "Les #MON de"
+	line "type DRAGON sont"
+	cont "rares."
 
-	para "Being a dragon"
-	line "isn't all about"
-	cont "typing, though!"
+	para "Mais ils ne sont"
+	line "pas qu'un type de"
+	cont "#MON!"
 	done
 ; 0x195874
 
 CooltrainerfFranBeatenText: ; 0x195874
-	text "Awww<...> I lost<...>"
+	text "Awe<...> J'ai perdu<...>"
 	done
 ; 0x195883
 
 UnknownText_0x195883: ; 0x195883
-	text "GYARADOS is as"
-	line "strong as any"
-	cont "dragon-type!"
+	text "LEVIATOR est aussi"
+	line "fort qu'un type"
+	cont "DRAGON!"
 	done
 ; 0x1958a5
 
 UnknownText_0x1958a5: ; 0x1958a5
-	text "The boulder fell"
-	line "through!"
+	text "Le rocher est"
+	line "tombé!"
 	done
 ; 0x1958c0
 

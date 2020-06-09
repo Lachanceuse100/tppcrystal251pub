@@ -45,37 +45,39 @@ MapCianwoodPharmacySignpost1Script: ; 0x9dfca
 ; 0x9dfcd
 
 UnknownText_0x9dfcd: ; 0x9dfcd
-	text "Your #MON ap-"
-	line "pear to be fine."
+	text "Ton #MON semble"
+	line "en pleine forme."
 
-	para "Is something wor- "
-	line "rying you?"
+	para "Quelque chose te"
+	line "tracasse?"
 
 	para "<...>"
 
-	para "The LIGHTHOUSE"
-	line "#MON is in"
-	cont "trouble?"
+	para "Le #MON du"
+	line "PHARE est mal en"
+	cont "point?"
 
-	para "I got it!"
+	para "J'ai compris!"
 
-	para "This ought to do"
-	line "the trick."
+	para "J'ai quelque chose"
+	line "qui devrait faire"
+	cont "l'affaire."
 	done
 ; 0x9e056
 
 UnknownText_0x9e056: ; 0x9e056
-	text "<PLAYER> received"
-	line "SECRETPOTION."
+	text "<PLAYER> reçoit la"
+	line "POTIONSECRET."
 	done
 ; 0x9e070
 
 UnknownText_0x9e070: ; 0x9e070
-	text "My SECRETPOTION is"
-	line "a tad too strong."
+	text "Ma POTIONSECRET"
+	line "est un tantinet"
 
-	para "I only offer it in"
-	line "an emergency."
+	para "trop forte. Je ne"
+	line "l'offre qu'en cas"
+	cont "d'extrême urgence."
 	done
 ; 0x9e0b7
 

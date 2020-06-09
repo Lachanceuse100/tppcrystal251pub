@@ -341,175 +341,180 @@ MovementData_0x1a1802: ; 0x1a1802
 UnknownText_0x1a1806: ; 0x1a1806
 	text "Go, RATTATA!"
 
-	para "HYPER FANG!"
+	para "CROC DE MORT!"
 	done
 ; 0x1a181c
 
 UnknownText_0x1a181c: ; 0x1a181c
-	text "What? This is a"
-	line "big battle!"
-	cont "Leave me alone!"
+	text "Quoi? C'est un"
+	line "combat important!"
+	cont "Laisse moi!"
 	done
 ; 0x1a1849
 
 YoungsterJoey1SeenText: ; 0x1a1849
-	text "I recently moved"
-	line "to here from the"
-	cont "KANTO region!"
+	text "J'ai récemment"
+	line "déménagé depuis"
+	cont "KANTO!"
 
-	para "I brought a"
-	line "#MON that I"
-	cont "caught back home."
+	para "J'ai amené un"
+	line "#MON de chez"
+	cont "moi."
 
-	para "My RATTATA is a"
-	line "very special one!"
+	para "Mon RATTATA est"
+	line "très spécial!"
 	done
 ; 0x1a18a2
 
 ;we should modify this with rematches
 YoungsterJoey1BeatenText: ; 0x1a18a2
-	text "Ack! How could my"
-	line "RATTATA lose?!"
+	text "Comment RATTATA a"
+	line "pu perdre?!"
 	done
 ; 0x1a18c2
 YoungsterJoey5BeatenText:
-	text "No way! Even after"
-	line "it evolved?!"
+	text "Impossible! Même"
+	line "après son"
+	cont "évolution?!"
 	done
 
 UnknownText_0x1a18c2: ; 0x1a18c2
-	text "Do I have to have"
-	line "more #MON in"
+	text "Je dois avoir plus"
+	line "de #MON pour"
+	cont "mieux me battre?"
 
-	para "order to battle"
-	line "better?"
-
-	para "No! I'm sticking"
-	line "with this one no"
-	cont "matter what!"
+	para "Non! Je reste avec"
+	line "celui-là!"
 	done
 ; 0x1a1928
 
 YoungsterMikeySeenText: ; 0x1a1928
-	text "You're a #MON"
-	line "trainer, right?"
+	text "Tu es un dresseur"
+	line "#MON, non?"
 
-	para "Great! I just"
-	line "caught some new"
-	cont "#MON in the"
-	cont "mountains!"
+	para "Super! Je viens"
+	line "d'attraper des"
+	cont "nouveaux #MON"
+	cont "de la montagne!"
 	done
 ; 0x1a195f
 
 YoungsterMikeyBeatenText: ; 0x1a195f
-	text "I guess they need"
-	line "more training."
+	text "Je dois mieux les"
+	line "entraîner."
 	done
 ; 0x1a197d
 
 UnknownText_0x1a197d: ; 0x1a197d
-	text "Becoming a good"
-	line "trainer is really"
-	cont "tough."
+	text "Devenir un bon"
+	line "dresseur est dur."
 
-	para "I'm going to bat-"
-	line "tle other people"
-	cont "to get better."
+	para "Je vais me battre"
+	line "contre d'autres"
+	cont "dresseurs pour"
+	cont "m'améliorer!"
 	done
 ; 0x1a19d8
 
 Bug_catcherDonSeenText: ; 0x1a19d8
-	text "Instead of a bug"
-	line "#MON, I found"
-	cont "a trainer!"
+	text "Au lieu d'un #-"
+	line "MON INSECTE, j'ai"
+	cont "trouvé un"
+	cont "dresseur!"
 	done
 ; 0x1a1a03
 
 Bug_catcherDonBeatenText: ; 0x1a1a03
-	text "Argh! You're too"
-	line "strong for my bug"
-	cont "#MON<...>"
+	text "Argh! Tu es trop"
+	line "fort pour mon"
+	cont "#MON INSECTE<...>"
 	done
 ; 0x1a1a1c
 
 UnknownText_0x1a1a1c: ; 0x1a1a1c
-	text "This area is"
-	line "great for finding"
-	cont "bug #MON!"
+	text "Cet endroit est"
+	line "génial pour"
+	cont "trouver des"
+	cont "#MON INSECTE."
 
-	para "They vary depen-"
-	line "ding on the time"
-	cont "of the day!"
+	para "Ils varient selon"
+	line "l'heure de la"
+	cont "journée!"
 	done
 ; 0x1a1a6a
 
 UnknownText_0x1a1a6a: ; 0x1a1a6a
-	text "MR.#MON's"
-	line "house? It's a bit"
-	cont "farther ahead."
+	text "La maison de M."
+	line "#MON? C'est un"
+	cont "peu plus loin."
 	done
 ; 0x1a1a94
 
 UnknownText_0x1a1a94: ; 0x1a1a94
-	text "Everyone's having"
-	line "fun battling!"
-	cont "You should too!"
+	text "Tout le monde s'"
+	line "amuse à combattre!"
+
+	para "Tu devrais"
+	line "essayer!"
 	done
 ; 0x1a1ac4
 
 UnknownText_0x1a1ac4: ; 0x1a1ac4
-	text "I'm not a trainer."
+	text "Je ne suis pas une"
+	line "dresseuse."
 
-	para "My AZUMARILL and I"
-	line "prefer to travel"
-	cont "the seas."
+	para "Mon AZUMARILL et"
+	line "moi préféront tra-"
+	cont "verser les océans."
 	done
 ; 0x1a1b0b
 
 UnknownText_0x1a1b0b: ; 0x1a1b0b
 	text "ROUTE 30"
 
-	para "VIOLET CITY -"
-	line "CHERRYGROVE CITY"
+	para "MAUVILLE -"
+	line "VILLE GRIOTTE"
 	done
 ; 0x1a1b34
 
 UnknownText_0x1a1b34: ; 0x1a1b34
-	text "MR.#MON'S HOUSE"
-	line "STRAIGHT AHEAD!"
+	text "MAISON DE M. #-"
+	line "MON DEVANT!"
 	done
 ; 0x1a1b55
 
 UnknownText_0x1a1b55: ; 0x1a1b55
-	text "MR.#MON'S HOUSE"
+	text "MAISON M.#MON"
 	done
 ; 0x1a1b66
 
 UnknownText_0x1a1b66: ; 0x1a1b66
-	text "TRAINER TIPS"
+	text "ASTUCE:"
 
-	para "No stealing other"
-	line "people's #MON!"
+	para "Ne volez pas les"
+	line "#MON des"
+	cont "dresseurs!"
 
-	para "# BALLS are to"
-	line "be thrown only at"
-	cont "wild #MON!"
+	para "Les # BALLS ne"
+	line "doivent être en-"
+	cont "voyés que sur les"
+	cont "#MON sauvages."
 	done
 ; 0x1a1bc0
 
 UnknownText_0x1a1bc0: ; 0x1a1bc0
-	text "I lost again<...>"
-	line "Gee, you're tough!"
+	text "Encore perdu<...>"
+	line "Tu es balèze!"
 
-	para "Oh yeah, I almost"
-	line "forgot that I had"
-	cont "to give you this."
+	para "Ah, j'ai presque"
+	line "oublié que je t'"
+	cont "avais promis ça."
 
-	para "Use it to get even"
-	line "tougher, OK?"
+	para "Utilise le pour"
+	line "être plus fort!"
 
-	para "I'm going to get"
-	line "tougher too."
+	para "Je deviendrais"
+	line "plus fort aussi."
 	done
 ; 0x1a1c54
 

@@ -379,178 +379,177 @@ ItemFragment_0x1a4ec4: ; 0x1a4ec4
 ; 0x1a4ec6
 
 CooltrainermJakeSeenText: ; 0x1a4ec6
-	text "I'm making my"
-	line "final preparations"
-
-	para "for the #MON"
-	line "LEAGUE."
+	text "Je me prépare pour"
+	line "la LIGUE #MON."
 	done
 ; 0x1a4efc
 
 CooltrainermJakeBeatenText: ; 0x1a4efc
-	text "I blew it!"
+	text "Noooon!"
 	done
 ; 0x1a4f08
 
 UnknownText_0x1a4f08: ; 0x1a4f08
-	text "It's going to be"
-	line "tough to win at"
-	cont "the LEAGUE."
+	text "Ca va être dur de"
+	line "gagner à la LIGUE."
 
-	para "I need to do some"
-	line "more training."
+	para "Je dois m'entraî-"
+	line "ner plus!"
 
-	para "ROUTE 26 is said"
-	line "to be the best"
+	para "On dit que la"
+	line "ROUTE 26 est le"
 
-	para "grinding route in"
-	line "all of JOHTO."
+	para "meilleur terrain"
+	line "d'entraînement de"
+	cont "tout JOHTO."
 	done
 ; 0x1a4f97
 
 CooltrainermGaven3SeenText: ; 0x1a4f97
-	text "By experiencing"
-	line "tough battles, you"
-	cont "gain power."
+	text "C'est en gagnant"
+	line "des combats dif-"
+	cont "ficiles que l'on"
+	cont "progresse."
 	done
 ; 0x1a4fc7
 
 CooltrainermGaven3BeatenText: ; 0x1a4fc7
-	text "Gaah! Life is even"
-	line "tougher!"
+	text "Gaah! La vie est"
+	line "plus dure!"
 	done
 ; 0x1a4fe4
 
 UnknownText_0x1a4fe4: ; 0x1a4fe4
-	text "To get to #MON"
-	line "LEAGUE, you have"
+	text "Pour aller à la"
+	line "LIGUE #MON, tu"
 
-	para "to get through"
-	line "VICTORY ROAD."
+	para "dois traverser la"
+	line "ROUTE VICTOIRE."
 
-	para "But VICTORY ROAD"
-	line "is tough."
+	para "Mais ça ne sera"
+	line "pas facile."
 
-	para "Practically nobody"
-	line "goes there!"
+	para "Presque personne"
+	line "ne va là-bas!"
 	done
 ; 0x1a505c
 
 CooltrainerfJoyceSeenText: ; 0x1a505c
-	text "Since you've come"
-	line "this far, you must"
-	cont "be good."
+	text "Si tu es là, c'est"
+	line "que tu dois être"
+	cont "pas mal."
 
-	para "I'm going to give"
-	line "this battle every-"
-	cont "thing I've got!"
+	para "Je vais me donner"
+	line "à fond dans ce"
+	cont "combat!"
 	done
 ; 0x1a50bd
 
 CooltrainerfJoyceBeatenText: ; 0x1a50bd
-	text "No! I don't"
-	line "believe this!"
+	text "Non! Je n'y crois"
+	line "pas!"
 	done
 ; 0x1a50d7
 
 UnknownText_0x1a50d7: ; 0x1a50d7
-	text "I've defeated"
-	line "eight GYM LEADERS,"
+	text "J'ai battu huit"
+	line "CHAMPION d'ARENE,"
 
-	para "so I was feeling"
-	line "confident."
+	para "alors j'avais con-"
+	line "fiance en moi."
 
-	para "I'll have to try"
-	line "harder next time."
+	para "Je ferai plus"
+	line "attention la pro-"
+	cont "chaine fois"
 	done
 ; 0x1a5136
 
 CooltrainerfBeth1SeenText: ; 0x1a5136
-	text "I loved watching"
-	line "TV as a kid!"
+	text "J'adorais regarder"
+	line "la télé petite."
 
-	para "It inspired me to"
-	line "become a trainer!"
+	para "Ca m'a inspiré"
+	line "pour devenir"
+	cont "dresseur."
 
-	para "My team isn't"
-	line "really done yet,"
+	para "Je n'ai pas com-"
+	line "plété mon équipe,"
 
-	para "but I'll do"
-	line "my best!"
+	para "mais je ferais de"
+	line "mon mieux!"
 	done
 ; 0x1a51bf
 
 CooltrainerfBeth1BeatenText: ; 0x1a51bf
-	text "No worries, I"
-	line "will get stronger!"
+	text "C'est pas grave."
+	line "Je deviendrais"
+	cont "plus forte!"
 	done
 ; 0x1a51d9
 
 UnknownText_0x1a51d9: ; 0x1a51d9
-	text "I will keep"
-	line "catching #MON"
-	cont "from the past."
+	text "Je vais attraper"
+	line "des #MON du"
+	cont "passé."
 	done
 ; 0x1a5204
 
 PsychicRichardSeenText: ; 0x1a5204
-	text "Wow, look at all"
-	line "those BADGES!"
-	cont "I'm impressed."
+	text "Whoa! Regarde-moi"
+	line "tous ces BADGES!"
+	cont "Je suis bluffé."
 
-	para "But you're not"
-	line "satisfied by just"
-
-	para "collecting them,"
-	line "right?"
+	para "Mais les collec-"
+	line "tionner ne te"
+	para "suffit pas, hein?"
 	done
 ; 0x1a526a
 
 PsychicRichardBeatenText: ; 0x1a526a
-	text "Good battle!"
+	text "Trop bien<...>!"
 	done
 ; 0x1a5278
 
 UnknownText_0x1a5278: ; 0x1a5278
-	text "People and #MON"
-	line "grow from their"
-	cont "experiences."
+	text "Humains et #MON"
+	line "évoluent grâce à"
+	cont "l'expérience."
 
-	para "Don't get lazy and"
-	line "complacent."
+	para "Ne devient pas"
+	line "fainéant!"
 	done
 ; 0x1a52c4
 
 FisherScottSeenText: ; 0x1a52c4
-	text "I live close"
-	line "to this ocean."
+	text "Je vis près de"
+	line "l'océan."
 
-	para "I caught and"
-	line "raised all my"
-	cont "#MON here!"
+	para "J'ai attrapé et"
+	line "élevé tous mes"
+	cont "#MON là-bas!"
 	done
 ; 0x1a530d
 
 FisherScottBeatenText: ; 0x1a530d
-	text "I still have"
-	line "my memories<...>"
+	text "Souvenirs<...>"
 	done
 ; 0x1a5326
 
 UnknownText_0x1a5326: ; 0x1a5326
-	text "It feels so"
-	line "long ago<...>"
+	text "Ca fait tellement"
+	line "longtemps<...>"
 
-	para "When my BLASTOISE"
-	line "was a WARTORTLE."
+	para "Quand mon TORTANK"
+	line "était un"
+	cont "CARABAFFE<...>"
 	done
 ; 0x1a5364
 
 UnknownText_0x1a5364: ; 0x1a5364
 	text "ROUTE 26"
 
-	para "#MON LEAGUE"
-	line "RECEPTION GATE"
+	para "LIGUE #MON"
+	line "PORTE D'ACCES"
 	done
 ; 0x1a5389
 

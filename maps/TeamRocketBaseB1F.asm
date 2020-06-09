@@ -730,126 +730,123 @@ SecurityCameraMovement9: ; 0x6cb0c
 ; 0x6cb12
 
 CameraGrunt1SeenText: ; 0x6cb12
-	text "Hey!"
-	line "Intruder alert!"
+	text "Hé!"
+	line "Alerte intrus!"
 	done
 ; 0x6cb28
 
 CameraGrunt1BeatenText: ; 0x6cb28
-	text "Dang<...> I failed<...>"
+	text "Mince<...> Perdu<...>"
 	done
 ; 0x6cb39
 
 CameraGrunt2SeenText: ; 0x6cb39
-	text "It's my turn!"
-	line "There's no escape!"
+	text "A moi! Tu ne"
+	line "t'échapperas pas!"
 	done
 ; 0x6cb59
 
 CameraGrunt2BeatenText: ; 0x6cb59
-	text "Surveillance cams"
-	line "are in the #MON"
-	cont "statues."
+	text "Il y a des caméras"
+	line "dans les statues."
 
-	para "We'll keep appear-"
-	line "ing until you trip"
-	cont "a secret switch."
+	para "On viendra tant"
+	line "que tu n'appuie-"
+	cont "ras pas sur l'in-"
+	cont "terupteur secret."
 	done
 ; 0x6cbbb
 
 ScientistJedSeenText: ; 0x6cbbb
-	text "This was once a"
-	line "ninja hideout."
+	text "C'était une ca-"
+	line "chette ninja ici."
 
-	para "There are traps to"
-	line "confound intruders"
-	cont "like you."
+	para "Il y a des pièges"
+	line "contre les intrus"
+	cont "comme toi."
 	done
 ; 0x6cc0b
 
 ScientistJedBeatenText: ; 0x6cc0b
-	text "I get it<...>"
+	text "Je vois<...>"
 	done
 ; 0x6cc16
 
 UnknownText_0x6cc16: ; 0x6cc16
-	text "All right. I'll"
-	line "divulge a secret"
-	cont "about our hideout."
+	text "OK. Voici un"
+	line "secret sur notre"
+	cont "cachette."
 
-	para "That thing on the"
-	line "floor up ahead is"
-	cont "a warp panel."
+	para "Le truc au sol"
+	line "tout droit est un"
+	cont "téléporteur."
 
-	para "If you step on it,"
-	line "you'll be warped"
-
-	para "back to the en-"
-	line "trance."
+	para "Marche dessus et"
+	line "tu retournes à"
+	cont "l'entrée."
 	done
 ; 0x6ccb7
 
 GruntM16SeenText: ; 0x6ccb7
-	text "Heheh. Feeling"
-	line "lucky, punk?"
+	text "Tu te crois chez"
+	line "toi?"
 
-	para "Go ahead, take"
-	line "another step."
+	para "Allez, avance"
+	line "pour voir."
 
-	para "We've got traps"
-	line "set in the floor!"
+	para "Il y a des pièges"
+	line "partout!"
 	done
 ; 0x6cd12
 
 GruntM16BeatenText: ; 0x6cd12
-	text "Kaboom!"
+	text "Boum!"
 	done
 ; 0x6cd1b
 
 UnknownText_0x6cd1b: ; 0x6cd1b
-	text "I don't even know"
-	line "where the traps"
-	cont "are planted."
+	text "Je ne sais même"
+	line "pas ou sont les"
+	cont "pièges."
 
-	para "You'll just have"
-	line "to collect your"
-	cont "courage and walk."
+	para "Je te souhaite bon"
+	line "courage, camarade!"
 	done
 ; 0x6cd7c
 
 SecurityCameraText: ; 0x6cd7c
-	text "It's a PERSIAN"
-	line "statue<...>"
+	text "Une statue de"
+	line "PERSIAN<...>"
 
-	para "Its eyes are oddly"
-	line "shiny."
+	para "Ses yeux brillent"
+	line "d'un feu étrange."
 	done
 ; 0x6cdad
 
 UnknownText_0x6cdad: ; 0x6cdad
-	text "A secret switch!"
-	line "Better press it."
+	text "Un interrupteur!"
+	line "Allez, on appuie."
 	done
 ; 0x6cdd0
 
 UnknownText_0x6cdd0: ; 0x6cdd0
-	text "The switch is"
-	line "turned off."
+	text "L'interrupteur est"
+	line "éteint."
 
-	para "Oops! Now it's"
-	line "on again!"
+	para "Oups. C'est"
+	line "rallumé!"
 	done
 ; 0x6cdeb
 
 MapTeamRocketBaseB1F_DontTurnCamerasBackOnText:
-	text "The switch is"
-	line "turned off."
+	text "L'interrupteur est"
+	line "éteint."
 
-	para "Pressed the"
-	line "button", $56
+	para "Allez, on appuie"
+	line "sur le bouton<...>"
 
-	para "But nothing"
-	line "happened!"
+	para "Mais rien ne se"
+	line "passe!"
 	done
 
 TeamRocketBaseB1F_MapEventHeader: ; 0x6cdeb

@@ -272,298 +272,318 @@ UnknownScript_0x199b86: ; 0x199b86
 ; 0x199b8d
 
 UnknownText_0x199b8d: ; 0x199b8d
-	text "#MON have many"
-	line "experiences in"
+	text "Les #MON ont"
+	line "beaucoup d'aven-"
 
-	para "their lives, just "
-	line "like we do. "
+	para "tures au cours de"
+	line "leur vie, tout"
+	cont "comme nous."
 
-	para "I, too, have seen"
-	line "and suffered much"
-	cont "in my life."
+	para "Moi aussi, j'ai"
+	line "beaucoup souffert"
+	cont "dans ma vie."
 
-	para "Since I am your"
-	line "elder, let me show"
-	cont "you what I mean."
+	para "Puisque je suis"
+	line "ton aîné, laisse-"
+	cont "moi t'expliquer<...>"
 
-	para "I have been with"
-	line "#MON since"
+	para "Je suis avec les"
+	line "#MON depuis"
 
-	para "before you were"
-	line "born."
+	para "bien avant ta"
+	line "naissance."
 
-	para "I do not lose"
-	line "easily."
+	para "Je ne perds pas"
+	line "facilement."
 
-	para "I, PRYCE--the"
-	line "winter trainer--"
+	para "Moi, FREDO, le"
+	line "dresseur du froid,"
 
-	para "shall demonstrate"
-	line "my power!"
+	para "je vais te montrer"
+	line "ma puissance!"
 	done
 ; 0x199cb3
 
 PryceRematchTextBefore:
-	text "You've had some"
-	line "hard times."
+	text "Tu as eu des mo-"
+	line "ments difficiles."
 	
-	para "But my experience"
-	line "means I will not"
-	cont "fall easily."
+	para "Mais ne pense pas"
+	line "que tu me battras"
+	cont "facilement."
 
-	para "No need for words."
+	para "L'heure n'est plus"
+	line "aux mots."
 
-	para "A #MON battle"
-	line "is the way for us"
-	cont "to communicate."
+	para "Ce combat #MON"
+	line "sera notre seul"
+	cont "dialogue."
 	done
 
 PryceRematchBeatenText:
 	text "Hmm."
 
-	para "Seems as if my"
-	line "luck has run out."
+	para "Je vois que je"
+	line "n'ai plus de"
+	cont "chance<...>"
 	done
 
 PryceSilverWingText:
-	text "Yes, yes<...>"
+	text "Oui, oui<...>"
 
-	para "It was an"
-	line "impressive match."
+	para "C'était un combat"
+	line "impressionnant."
 
-	para "I want you to"
-	line "have this."
+	para "Je voudrais que tu"
+	line "ais ceci."
 
 	done
 
 PryceAfterSilverWingText:
-	text "I found this at"
-	line "the end of my"
-	cont "adventures."
+	text "J'ai trouvé ceci"
+	line "à la fin de mes"
+	cont "aventures."
 
-	para "But my time had"
-	line "come to settle"
-	cont "down."
+	para "Mais l'heure est"
+	line "venu pour moi de"
+	cont "laisser la place"
+	cont "aux jeunes."
 
-	para "Since then, you"
-	line "are the only"
+	para "Dans ce cas, tu es"
+	line "le seul dresseur à"
 	
-	para "trainer I have"
-	line "seen capable of"
-	cont "using this."
+	para "qui je pense pou-"
+	line "voir confier ceci."
 
-	para "Please finish"
-	line "what I could not."
+	para "Finis ce que je"
+	line "n'ai pu accomplir."
 
 	done
 
 PryceAfterRematchText:
-	text "You should be able"
-	line "to overcome"
-	cont "anything."
+	text "Tu devrais être"
+	line "capable de sur-"
+	cont "passer n'importe"
+	cont "quoi."
 
-	para "Even LUGIA<...>"
+	para "Même LUGIA<...>"
 
 	done
 
 UnknownText_0x199cb3: ; 0x199cb3
-	text "Ah, I am impressed"
-	line "by your prowess."
+	text "Ah, je suis très"
+	line "impressionné par"
+	cont "ta prouesse."
 
-	para "With your strong"
-	line "will, I know you"
+	para "Avec un tempéra-"
+	line "ment comme le"
 
-	para "will overcome"
-	line "life's obstacles."
+	para "tien, tu surmon-"
+	line "teras tous les"
 
-	para "You are worthy of"
-	line "this BADGE!"
+	para "obstacles de la"
+	line "vie."
+
+	para "Tu as bien mérité"
+	line "ce BADGE!"
 	done
 ; 0x199d3b
 
 UnknownText_0x199d3b: ; 0x199d3b
-	text "<PLAYER> received"
-	line "GLACIERBADGE."
+	text "<PLAYER> reçoit"
+	line "le BADGEGLACIER"
 	done
 ; 0x199d55
 
 UnknownText_0x199d55: ; 0x199d55
-	text "That BADGE will"
-	line "raise the SPECIAL"
-	cont "stats of #MON."
+	text "Ce BADGE permet à"
+	line "tes #MON de"
+	cont "développer leurs"
+	cont "SPECIAL."
 
-	para "It also lets your"
-	line "#MON use WHIRL-"
-	cont "POOL to get across"
-	cont "real whirlpools."
+	para "Il permet aussi à"
+	line "tes #MON"
+	cont "d'utiliser SIPHON"
+	cont "pour passer les"
+	cont "tourbillons."
 
-	para "And this<...> This is"
-	line "a gift from me!"
+	para "Et ça<...> C'est un"
+	line "cadeau de ma part!"
 	done
 ; 0x199def
 
 UnknownText_0x199def: ; 0x199def
-	text "That TM contains"
-	line "ICY WIND."
+	text "Cette CT contient"
+	line "VENT GLACE."
 
-	para "It inflicts damage"
-	line "and lowers speed."
+	para "Il inflige des"
+	line "dégâts et réduit"
+	cont "la VITESSE des"
+	cont "#MON."
 
-	para "It demonstrates"
-	line "the harshness of"
-	cont "winter."
+	para "Il incarne la"
+	line "rudesse du froid"
+	cont "hivernal."
 	done
 ; 0x199e59
 
 UnknownText_0x199e59: ; 0x199e59
-	text "When the ice and"
-	line "snow melt, spring"
-	cont "arrives."
+	text "Lorsque la glace"
+	line "et la neige fon-"
+	cont "dent, le printemps"
+	cont "arrive."
 
-	para "You and your #-"
-	line "MON will be to-"
+	para "Toi et tes #MON"
+	line "serez ensembles"
 
-	para "gether for many"
-	line "years to come."
+	para "pendant des"
+	line "années."
 
-	para "Cherish your time"
-	line "together!"
+	para "Profitez bien de"
+	line "ces instants."
 	done
 ; 0x199ee1
 
 BoarderRonaldSeenText: ; 0x199ee1
-	text "I'll freeze your"
-	line "#MON, so you"
-	cont "can't do a thing!"
+	text "Je vais geler tes"
+	line "#MON et tu ne"
+	
+	para "pourras plus rien"
+	line "faire!"
 	done
 ; 0x199f10
 
 BoarderRonaldBeatenText: ; 0x199f10
-	text "Darn. I couldn't"
-	line "do a thing."
+	text "Zut. Je n'ai rien"
+	line "pu faire!"
 	done
 ; 0x199f2d
 
 UnknownText_0x199f2d: ; 0x199f2d
-	text "I think there's a"
-	line "move a #MON"
+	text "Je crois qu'il"
+	line "existe une capaci-"
 
-	para "can use while it's"
-	line "frozen."
+	para "té que les #MON"
+	line "peuvent utiliser"
+	cont "même en étant"
+	cont "gelés."
 	done
 ; 0x199f65
 
 BoarderBradSeenText: ; 0x199f65
-	text "This GYM has a"
-	line "slippery floor."
+	text "Cette ARENE a le"
+	line "sol glissant."
 
-	para "It's fun, isn't"
-	line "it?"
+	para "C'est marrant,"
+	line "pas vrai?"
 
-	para "But hey--we're"
-	line "not playing games"
-	cont "here!"
+	para "Mais fini de"
+	line "jouer!"
 	done
 ; 0x199fbd
 
 BoarderBradBeatenText: ; 0x199fbd
-	text "Do you see how"
-	line "serious we are?"
+	text "Tu vois à quel"
+	line "point on est"
+	cont "sérieux ici?"
 	done
 ; 0x199fdd
 
 UnknownText_0x199fdd: ; 0x199fdd
-	text "This GYM is great."
-	line "I love boarding"
-	cont "with my #MON!"
+	text "Cette ARENE est"
+	line "superbe. J'adore"
+	cont "surfer avec mes"
+	cont "#MON!"
 	done
 ; 0x19a00f
 
 BoarderDouglasSeenText: ; 0x19a00f
-	text "I know PRYCE's"
-	line "secret."
+	text "Je connais le"
+	line "secret de FREDO."
 	done
 ; 0x19a026
 
 BoarderDouglasBeatenText: ; 0x19a026
-	text "OK. I'll tell you"
-	line "PRYCE's secret."
+	text "OK. Je vais te"
+	line "le dire."
 	done
 ; 0x19a047
 
 UnknownText_0x19a047: ; 0x19a047
-	text "The secret behind"
-	line "PRYCE's power<...>"
+	text "Le secret de la"
+	line "force de FREDO<...>"
 
-	para "He meditates under"
-	line "a waterfall daily"
+	para "Il médite derrière"
+	line "une cascade tous"
 
-	para "to strengthen his"
-	line "mind and body."
+	para "les jours pour"
+	line "accroître sa force"
+	
+	para "et développer son"
+	line "esprit."
 	done
 ; 0x19a0ae
 
 SkierRoxanneSeenText: ; 0x19a0ae
-	text "To get to PRYCE,"
-	line "our GYM LEADER,"
+	text "Pour vaincre"
+	line "FREDO, notre"
 
-	para "you need to think"
-	line "before you skate."
+	para "CHAMPION d'ARENE,"
+	line "tu dois penser"
+	cont "avant de patiner."
 	done
 ; 0x19a0f4
 
 SkierRoxanneBeatenText: ; 0x19a0f4
-	text "I wouldn't lose to"
-	line "you in skiing!"
+	text "Bah moi je te bats"
+	line "en ski!"
 	done
 ; 0x19a116
 
 UnknownText_0x19a116: ; 0x19a116
-	text "If you don't skate"
-	line "with precision,"
+	text "Si tu ne patines"
+	line "pas avec préci-"
 
-	para "you won't get far"
-	line "in this GYM."
+	para "sion, tu n'iras"
+	line "pas bien loin dans"
+	cont "cette ARENE."
 	done
 ; 0x19a157
 
 SkierClarissaSeenText: ; 0x19a157
-	text "Check out my"
-	line "parallel turn!"
+	text "Regarde ce virage"
+	line "parallèle!"
 	done
 ; 0x19a174
 
 SkierClarissaBeatenText: ; 0x19a174
-	text "No! You made me"
-	line "wipe out!"
+	text "Non! Tu m'as faite"
+	line "déraper!"
 	done
 ; 0x19a18f
 
 UnknownText_0x19a18f: ; 0x19a18f
-	text "I shouldn't have"
-	line "been bragging"
-	cont "about my skiing<...>"
+	text "Je n'aurais pas"
+	line "dû me vanter<...>"
 	done
 ; 0x19a1bf
 
 MahoganyGymGuyText: ; 0x19a1bf
-	text "PRYCE is a veteran"
-	line "who has trained"
+	text "FREDO est un vété-"
+	line "ran qui entraîne"
 
-	para "#MON for some"
-	line "50 years."
+	para "des #MON depuis"
+	line "50 ans."
 
-	para "He's said to be"
-	line "good at freezing"
+	para "Il prétends être"
+	line "bon pour geler ses"
 
-	para "opponents with"
-	line "ice-type moves."
+	para "adversaires de ses"
+	line "attaques de GLACE."
 
-	para "That means you"
-	line "should melt him"
-
-	para "with your burning"
-	line "ambition!"
+	para "Fais-le fondre"
+	line "avec ton ambition"
+	cont "brûlante!"
 	done
 ; 0x19a275
 
@@ -597,36 +617,37 @@ PrycePostgameRematchScript:
     end
 	
 PrycePostgameRematchText:
-	text "Hello, <PLAY_G>."
+	text "Bonjour, <PLAY_G>."
 
-	para "I see you've"
-	line "beaten quite a"
-	
-	para "few experienced"
-	line "trainers<...>"
+	para "Je vois que tu as"
+	line "battu plusieurs"
+	cont "dresseurs expé-"
+	line "rimentés."
 
-	para "Would you like to"
-	line "battle again?"
+	para "Veux-tu de nouveau"
+	line "te battre?"
 
 	done
 	
 PrycePostgameBeatenText:
-	text "Hmph<...>"
+	text "Pfff<...>"
 	
-	para "I guess I'm still"
-	line "not lucky enough."
+	para "Je n'ai toujours"
+	line "pas assez de"
+	cont "chance."
 	done
 	
 PrycePostgameAfterText:
 
-	text "You didn't win"
-	line "due to luck<...> no."
+	text "Tu n'as pas gagné"
+	line "grâce à la chance<...>"
+	cont "Non."
 
-	para "You're a very"
-	line "skilled trainer."
+	para "Tu es un dresseur"
+	line "de talent."
 	
-	para "Nothing can stand"
-	line "in your way!"
+	para "Rien ne peut s'op-"
+	line "poser à toi."
 	done
 	
 MahoganyGym_MapEventHeader: ; 0x19a2df

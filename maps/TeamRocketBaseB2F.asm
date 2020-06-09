@@ -658,385 +658,386 @@ MovementData_0x6d2a4: ; 0x6d2a4
 ; 0x6d2ad
 
 UnknownText_0x6d2ad: ; 0x6d2ad
-	text "Hold it right"
-	line "there!"
+	text "Reste où tu es!"
 	done
 ; 0x6d2c3
 
 UnknownText_0x6d2c3: ; 0x6d2c3
-	text "We can't have a"
-	line "brat like you on"
-	cont "the loose."
+	text "On peut pas"
+	line "laisser une peste"
+	cont "comme toi traîner"
+	cont "par ici."
 
-	para "It's harmful to"
-	line "TEAM ROCKET's"
-	cont "pride, you see."
+	para "Tu portes un coup"
+	line "a la fierté de la"
+	cont "TEAM ROCKET, tu"
+	cont "comprends?"
 
-	para "However strong you"
-	line "may be, you can't"
+	para "T'es peut-être"
+	line "fort, mais t'as"
 
-	para "take both of us at"
-	line "the same time."
+	para "aucune chance a"
+	line "deux contre un."
 
-	para "Sorry, baby. Now"
-	line "get ready to be"
-	cont "thrashed."
+	para "Désolée bébé,"
+	line "mais c'est l'heure"
+	cont "de la fessée!"
 	done
 ; 0x6d38c
 
 UnknownText_0x6d38c: ; 0x6d38c
-	text "Hey! Don't be so"
-	line "selfish. Spread"
-	cont "the fun around."
+	text "Dis donc! Moi"
+	line "aussi je veux"
+	cont "m'amuser."
 	done
 ; 0x6d3bd
 
 UnknownText_0x6d3bd: ; 0x6d3bd
-	text "What? You had an"
-	line "accomplice?"
+	text "Quoi? Tu avais un"
+	line "complice?"
 
-	para "Where is your"
-	line "sense of honor?"
+	para "Où est ton sens de"
+	line "l'honneur?"
 
-	para "As the interim"
-	line "boss in place of"
+	para "En tant que rem-"
+	line "plaçant du boss"
 
-	para "GIOVANNI, I'll"
-	line "show you how wrong"
+	para "GIOVANNI, je vais"
+	line "te montrer qu'il"
 
-	para "it is to meddle"
-	line "with TEAM ROCKET!"
+	para "faut pas te mêler"
+	line "des affaires de la"
+	cont "TEAM ROCKET!"
 	done
 ; 0x6d45c
 
 UnknownText_0x6d45c: ; 0x6d45c
-	text "Tch, you really"
-	line "are strong."
+	text "Tss, c'est vrai"
+	line "que t'es balèze."
 
-	para "It's too bad."
+	para "Dommage."
 
-	para "If you were to"
-	line "join TEAM ROCKET,"
+	para "Si tu venais à la"
+	line "TEAM ROCKET, tu"
 
-	para "you could become"
-	line "an EXECUTIVE."
+	para "deviendrais vite"
+	line "un grand"
+	cont "commandant."
 	done
 ; 0x6d4c6
 
 UnknownText_0x6d4c6: ; 0x6d4c6
-	text "<...>This hideout is"
-	line "done for<...>"
+	text "<...>Cette cachette"
+	line "est fichue<...>"
 
-	para "But that's fine."
-	line "The broadcast ex-"
-	cont "periment was a"
-	cont "total success."
+	para "C'est pas grave."
+	line "L'opération radio"
+	cont "est une réussite"
+	cont "totale."
 
-	para "It doesn't matter"
-	line "what happens to"
-	cont "this hideout now."
+	para "On se fiche de"
+	line "cette cachette"
+	cont "maintenant."
 
-	para "We have much big-"
-	line "ger plans."
+	para "Nous avons"
+	line "d'autres plans."
 
-	para "You'll come to"
-	line "appreciate TEAM"
+	para "Vous allez vite"
+	line "comprendre la"
 
-	para "ROCKET's true"
-	line "power soon enough."
+	para "puissance de la"
+	line "TEAM ROCKET."
 
-	para "Enjoy yourself"
-	line "while you can<...>"
+	para "Amusez-vous tant"
+	line "que vous le"
+	cont "pouvez."
 
-	para "Fufufufu<...>"
+	para "Hahahahahaha!"
 	done
 ; 0x6d5d8
 
 UnknownText_0x6d5d8: ; 0x6d5d8
-	text "LANCE: That did"
-	line "it. We defeated"
+	text "PETER: Terminé!"
+	line "On a battu tous"
 
-	para "all of the"
-	line "ROCKETS here."
+	para "les gars de la"
+	line "TEAM ROCKET du"
+	cont "coin."
 
-	para "But I'm concerned"
-	line "about the young"
+	para "Je m'inquiète à"
+	line "propos du jeune"
 
-	para "guy I battled in"
-	line "the process<...>"
+	para "homme que j'ai"
+	line "combattu<...>"
 	done
 ; 0x6d64e
 
 UnknownText_0x6d64e: ; 0x6d64e
-	text "Sorry, <PLAY_G>."
-	line "I saw how well you"
+	text "Pardon, <PLAY_G>."
+	line "J'étais en train"
 
-	para "were doing, so I"
-	line "just hung back."
+	para "de t'admirer en"
+	line "silence."
 
-	para "Now all there is"
-	line "left to do is to"
+	para "Bon, il faut qu'on"
+	line "éteigne cet"
 
-	para "turn off that odd"
-	line "radio signal."
+	para "étrange signal"
+	line "radio."
 	done
 ; 0x6d6cf
 
 UnknownText_0x6d6cf: ; 0x6d6cf
-	text "It's this machine"
-	line "that's causing all"
-	cont "the problems."
+	text "C'est cette machi-"
+	line "ne qui cause tous"
+	cont "ces problèmes."
 
-	para "I don't see a"
-	line "switch on it<...>"
+	para "Je ne vois pas"
+	line "d'interrupteur<...>"
 
-	para "We have no choice."
-	line "We have to make"
+	para "Il n'y a pas le"
+	line "choix: il faut"
 
-	para "all of the"
-	line "ELECTRODE faint."
+	para "mettre K.O. tous"
+	line "les ELECTRODE."
 
-	para "That should stop"
-	line "this machine from"
+	para "Cela devrait arrê-"
+	line "ter cette machine"
 
-	para "transmitting that"
-	line "strange signal."
+	para "de transmettre ce"
+	line "signal."
 
-	para "It's no fault of"
-	line "the #MON, so it"
+	para "Je n'aime pas ça,"
+	line "ce n'est pas la"
+	cont "faute des #MON<...>"
 
-	para "makes me feel"
-	line "guilty."
-
-	para "<PLAY_G>, let's"
-	line "split the job."
+	para "<PLAY_G>, on fait"
+	line "chacun un côté."
 	done
 ; 0x6d7ea
 
 UnknownText_0x6d7ea: ; 0x6d7ea
-	text "LANCE: Leave this"
-	line "side to me."
+	text "PETER: Je m'occupe"
+	line "de ce côté."
 	done
 ; 0x6d809
 
 UnknownText_0x6d809: ; 0x6d809
-	text "LANCE: That odd"
-	line "signal has finally"
-	cont "stopped."
+	text "PETER: Cet étrange"
+	line "signal s'est enfin"
+	cont "arrêté."
 
-	para "The LAKE should be"
-	line "back to normal."
+	para "Le LAC doit être"
+	line "revenu à la"
+	cont "normal."
 
-	para "You're the hero!"
-	line "Let me thank you"
+	para "Tu es formidable!"
+	line "Je te remercie au"
 
-	para "on behalf of all"
-	line "the #MON."
+	para "nom de tous les"
+	line "#MON."
 
-	para "Oh, yes. You"
-	line "should take this."
+	para "Au fait, voilà"
+	line "pour toi."
 
-	para "I found it a"
-	line "while back but I"
-	cont "don't have any need"
-	cont "for it."
+	para "Je l'ai trouvée"
+	line "par terre mais je"
+	cont "n'en ai pas"
+	cont "besoin."
 	done
 ; 0x6d8e6
 
 UnknownText_0x6d8e6: ; 0x6d8e6
-	text "<PLAYER> received"
-	line "HM03."
+	text "<PLAYER> reçoit"
+	line "CS03."
 	done
 ; 0x6d8f8
 
 UnknownText_0x6d8f8: ; 0x6d8f8
-	text "That's SURF."
-	line "Teach it to a"
+	text "C'est SURF"
+	line "Apprends-là à un"
 
-	para "#MON to get"
-	line "across water."
+	para "#MON EAU pour"
+	line "aller sur l'eau en"
+	cont "dehors des"
+	cont "combats."
 
-	para "But keep this in"
-	line "mind."
+	para "Garde ceci a"
+	line "l'esprit."
 
-	para "You can use that"
-	line "out of battle only"
-
-	para "with the BADGE"
-	line "from ECRUTEAK GYM."
+	para "Il te faudra le"
+	line "BADGE de l'ARENE"
+	cont "de ROSALIA."
 	done
 ; 0x6d994
 
 UnknownText_0x6d994: ; 0x6d994
 	text "<PLAY_G><...>"
 
-	para "The journey to be-"
-	line "coming the #MON"
+	para "Devenir le meil-"
+	line "leur dresseur"
 
-	para "MASTER is long and"
-	line "difficult."
+	para "#MON prend du"
+	line "temps et est très"
+	cont "difficile<...>"
 
-	para "Knowing that, will"
-	line "you keep going?"
+	para "Tu penses tenir"
+	line "le coup?"
 
 	para "<...>"
 
-	para "I see. No, you're"
-	line "right."
+	para "Je vois."
+	line "Tu as raison."
 
-	para "If you would give"
-	line "up that easily,"
+	para "Tu ne poursuivrais"
+	line "pas ce rêve si tu"
 
-	para "you would have"
-	line "never chased that"
+	para "abandonnais si"
+	line "facilement."
 
-	para "dream in the first"
-	line "place."
-
-	para "I look forward to"
-	line "seeing you again!"
+	para "Je suis impatient"
+	line "de te revoir!"
 	done
 ; 0x6da97
 
 UnknownText_0x6da97: ; 0x6da97
-	text "LANCE: Are you all"
-	line "right?"
+	text "PETER: Tu vas"
+	line "bien?"
 
-	para "Your #MON are"
-	line "hurt and tired."
+	para "Tes #MON ont"
+	line "l'air fatigués."
 
-	para "Here, give them"
-	line "some of my medi-"
-	cont "cine."
+	para "Tiens, soigne-les"
+	line "avec mon médica-"
+	cont "ment."
 	done
 ; 0x6daf7
 
 UnknownText_0x6daf7: ; 0x6daf7
-	text "LANCE: <PLAY_G>,"
-	line "let's give it our"
-	cont "best for #MON."
+	text "PETER: <PLAY_G>,"
+	line "ensemble pour les"
+	cont "#MON!"
 	done
 ; 0x6db22
 
 GruntM17SeenText: ; 0x6db22
-	text "Have you ever"
-	line "heard about"
-	cont "'night bat'?"
-
-	para "ZUBAT family is"
-	line "common at night!"
+	text "Les NOSFERAPTI"
+	line "sont courant la"
+	cont "nuit."
 	done
 ; 0x6db79
 
 GruntM17BeatenText: ; 0x6db79
-	text "Bringing bats"
-	line "inside wasn't"
-	cont "a good idea<...>"
+	text "Amener des chauve-"
+	line "souris ici n'était"
+	cont "pas une bonne"
+	cont "idée<...>"
 	done
 ; 0x6db88
 
 UnknownText_0x6db88: ; 0x6db88
-	text "ZUBAT family cons-"
-	line "ists of poison-"
-	cont "type #MON."
+	text "La famille des"
+	line "NOSFERAPTI consis-"
+	cont "te en des #MON"
+	cont "POISON."
 
-	para "They are weak to"
-	line "psychic-type"
-	cont "#MON like"
-	cont "STARMIE."
+	para "Ils sont faibles"
+	line "face au #MON"
+	cont "PSY comme STAROSS."
 	done
 ; 0x6dbca
 
 GruntM18SeenText: ; 0x6dbca
-	text "I'll teach you"
-	line "a thing or two"
+	text "Je vais t'appren-"
+	line "dre un truc ou"
 
-	para "about #MON"
-	line "evolution!"
+	para "deux sur l'évolu-"
+	line "tion des #MON."
 	done
 ; 0x6dc09
 
 GruntM18BeatenText: ; 0x6dc09
-	text "Not even close<...>"
+	text "Raté<...>"
 	done
 ; 0x6dc1a
 
 UnknownText_0x6dc1a: ; 0x6dc1a
-	text "If you try to"
-	line "evolve by grinding"
-	cont "your #MON,"
+	text "Tu peux facilement"
+	line "annuler l'évolu-"
+	cont "tion d'un #MON"
+	cont "qui combat."
 
-	para "it can be easy"
-	line "to cancel it."
+	para "Ce n'est pas le"
+	line "cas si tu utilises"
+	cont "un SUPER BONBON."
 
-	para "This isn't the"
-	line "case if you use"
-	cont "a RARE CANDY."
-
-	para "ONIX doesn't"
-	line "evolve by leveling"
-	cont "up alone, though."
+	para "ONIX n'évolue pas"
+	line "seulement grâce au"
+	cont "niveau en"
+	cont "revanche."
 	done
 ; 0x6dcb0
 
 GruntM19SeenText: ; 0x6dcb0
-	text "You rotten little"
-	line "pest!"
+	text "Espèce de sale"
+	line "peste!"
 	done
 ; 0x6dcc9
 
 GruntM19BeatenText: ; 0x6dcc9
-	text "Grrrr<...>"
+	text "Grrrrr<...>"
 	done
 ; 0x6dcd1
 
 UnknownText_0x6dcd1: ; 0x6dcd1
-	text "Heh, only the boss"
-	line "knows the password"
-	cont "for that door."
+	text "Seul le chef"
+	line "connaît le mot de"
+	cont "passe de la porte."
 
-	para "Where's the boss?"
-	line "Who knows? Go look"
-	cont "for yourself."
+	para "Où est le chef?"
+	line "Qui sait? Va le"
+	cont "chercher toi-même."
 	done
 ; 0x6dd39
 
 UnknownText_0x6dd39: ; 0x6dd39
-	text "The door's closed<...>"
+	text "La porte est"
+	line "fermée<...>"
 
-	para "It needs a pass-"
-	line "word to open."
+	para "Il faut un mot"
+	line "de passe."
 	done
 ; 0x6dd6b
 
 UnknownText_0x6dd6b: ; 0x6dd6b
-	text "The door's closed<...>"
+	text "La porte est"
+	line "fermée<...>"
 
-	para "<PLAYER> entered"
-	line "the password."
+	para "<PLAYER> rentre"
+	line "le mot de passe."
 
-	para "The door opened!"
+	para "La porte s'ouvre!"
 	done
 ; 0x6dda7
 
 UnknownText_0x6dda7: ; 0x6dda7
-	text "It's the radio"
-	line "transmitter that's"
+	text "C'est l'émetteur"
+	line "radio qui transmet"
 
-	para "sending the"
-	line "sinister signal."
+	para "ce sinistre"
+	line "signal."
 
-	para "It's working at"
-	line "full capacity."
+	para "Il tourne à fond"
+	line "les manettes!"
 	done
 ; 0x6de03
 
 UnknownText_0x6de03: ; 0x6de03
-	text "The radio trans-"
-	line "mitter has finally"
+	text "L'émetteur radio"
+	line "a enfin interrompu"
 
-	para "stopped its evil"
-	line "broadcast."
+	para "son signal"
+	line "maléfique."
 	done
 ; 0x6de44
 

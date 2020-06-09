@@ -55,18 +55,18 @@ DummyMap_Continue
 	end
 
 RedsHouse2FDreaming1Text:
-	text "While <PLAY_G>"
-	line "was sleeping<...>"
+	text "Pendant que"
+	line "<PLAY_G> dort<...>"
 	done
 
 RedsHouse2FDreaming2Text:
-	text "What a horrible"
-	line "nightmare!"
+	text "Quel horrible"
+	line "cauchemar!"
 	done
 
 WasItADreamText:
-	text "Was it all a"
-	line "dream<...>?"
+	text "Etait-ce un"
+	line "rêve<...>?"
 	done
 
 DummyBlankMap_MapEventHeader:

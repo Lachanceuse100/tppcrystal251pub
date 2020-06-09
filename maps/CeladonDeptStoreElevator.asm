@@ -71,3 +71,4 @@ CeladonDeptStoreElevator_MapEventHeader: ; 0x713d8
 	db 0
 ; 0x713ed
 
+

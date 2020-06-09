@@ -183,81 +183,81 @@ MovementData_0x74555: ; 0x74555
 ; 0x7455f
 
 UnknownText_0x7455f: ; 0x7455f
-	text "Hold it."
+	text "Minute."
 
-	para "<...>Are you going to"
-	line "take the #MON"
-	cont "LEAGUE challenge?"
+	para "<...>Vas-tu relever le"
+	line "défi de la LIGUE"
+	cont "#MON?"
 
-	para "<...>Don't make me"
-	line "laugh."
+	para "<...>Ne me fais pas"
+	line "rire."
 
-	para "You're so much"
-	line "weaker than I am."
+	para "Tu ne vaux rien"
+	line "face à moi."
 
-	para "I'm not like I was"
-	line "before."
+	para "Je ne suis plus"
+	line "comme avant."
 
-	para "I now have the"
-	line "best and strongest"
+	para "J'ai les #MON"
+	line "les plus forts"
 
-	para "#MON with me."
-	line "I'm invincible!"
+	para "avec moi. Je suis"
+	line "invincible!"
 
 	para "<PLAYER>!"
-	line "I challenge you!"
+	line "Tu vas perdre!"
 	done
 ; 0x7463d
 
 UnknownText_0x7463d: ; 0x7463d
-	text "<...>I couldn't win<...>"
+	text "<...>Je n'ai pas pu"
+	line "gagner<...>"
 
-	para "I gave it every-"
-	line "thing I had<...>"
+	para "J'ai donné tout ce"
+	line "que j'avais<...>"
 
-	para "What you possess,"
-	line "and what I lack<...>"
+	para "Ce que tu as que"
+	line "je n'ai pas<...>"
 
-	para "I'm beginning to"
-	line "understand what"
-
-	para "that dragon master"
-	line "said to me<...>"
+	para "Ce que m'a dit le"
+	line "maître aux"
+	cont "dragons<...>"
 	done
 ; 0x746ce
 
 UnknownText_0x746ce: ; 0x746ce
-	text "<...>I haven't given up"
-	line "on becoming the"
-	cont "greatest trainer<...>"
+	text "<...>Je ne vais pas"
+	line "abandonner mon"
+	cont "rêve ici<...>"
 
-	para "I'm going to find"
-	line "out why I can't"
+	para "Je vais trouver"
+	line "pourquoi je ne"
 
-	para "win and become"
-	line "stronger<...>"
+	para "peux pas gagner et"
+	line "je deviendrais"
+	cont "plus fort."
 
-	para "When I do, I will"
-	line "challenge you."
+	para "Je reviendrais"
+	line "te défier<...>"
 
-	para "And I'll beat you"
-	line "down with all my"
-	cont "power."
+	para "Et je t'écraserais"
+	line "de toute ma"
+	cont "puissance!"
 
-	para "<...>Humph! You keep"
-	line "at it until then."
+	para "<...>Pff, T'a intérêt"
+	line "à rien lâcher"
+	cont "avant ça."
 	done
 ; 0x747aa
 
 UnknownText_0x747aa: ; 0x747aa
-	text "<...>Humph!"
+	text "<...>Pff!"
 
-	para "When it comes down"
-	line "to it, nothing can"
-	cont "beat power."
+	para "Rien ne bat la"
+	line "force pure."
 
-	para "I don't need any-"
-	line "thing else."
+	para "Je n'ai rien be-"
+	line "soin d'autre."
 	done
 ; 0x74802
 

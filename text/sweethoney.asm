@@ -9,60 +9,55 @@
 ; The last text is associated with a second NPC, probably a Butterfree.
 
 UnusedSweetHoneyText: ; 0x5578a
-	text "My #MON is an"
-	line "expert at collect-"
-	cont "ing SWEET HONEY."
+	text "Mon #MON est un"
+	line "expert pour"
+	cont "collecter du MIEL."
 
-	para "I'll share some"
-	line "with you."
+	para "Je vais t'en"
+	line "partager."
 	done
 
 UnusedSweetHoneyBagFullText: ; 0x557d6
-	text "I want to give you"
-	line "some SWEET HONEY,"
-
-	para "but you have no"
-	line "room for it."
+	text "Je te donnerais du"
+	line "MIEL mais tu n'as"
+	cont "pas la place."
 	done
 
 UnusedSweetHoneyGiveText: ; 0x55819
-	text "Here you go! Have"
-	line "some SWEET HONEY!"
+	text "Et voilà, prends"
+	line "un peu de MIEL!"
 	done
 
 UnusedGotSweetHoneyText: ; 0x5583e
-	text $52, " received"
-	line "SWEET HONEY."
+	text $52, " reçois du"
+	line "MIEL."
 	done
 
 UnusedSweetHoneyAfterText1: ; 0x55856
-	text "My little brother"
-	line "takes SWEET HONEY"
+	text "Mon petit frère"
+	line "prends du MIEL"
+	cont "et s'en va avec<...>"
 
-	para "and goes somewhere"
-	line "with it."
-
-	para "I wonder what he's"
-	line "up to?"
+	para "Je me demande ce"
+	line "qu'il fait?"
 	done
 
 UnusedSweetHoneyAfterText2: ; 0x558b1
-	text "Did you put SWEET"
-	line "HONEY on a tree?"
+	text "As-tu mis du MIEL"
+	line "sur un arbre?"
 
-	para "What happened to"
-	line "it?"
+	para "Alors?"
 	done
 
 UnusedSweetHoneyAfterText3: ; 0x558ea
-	text "Did you put SWEET"
-	line "HONEY on a tree?"
+	text "As-tu mis du MIEL"
+	line "sur un arbre?"
 
-	para "It takes about a"
-	line "day for #MON to"
-	cont "be drawn to it."
+	para "Il faut une jour-"
+	line "née pour attirer"
+	cont "les #MON."
 	done
 
 UnusedSweetHoneyButterfreeText: ; 0x5593f
-	text "BUTTERFREE: Freeh!"
+	text "PAPILUSION: Sioon!"
 	done

@@ -100,131 +100,129 @@ MapLakeofRageMagikarpHouseSignpost1Script: ; 0x19a72b
 ; 0x19a72e
 
 UnknownText_0x19a72e: ; 0x19a72e
-	text "LAKE OF RAGE is"
-	line "actually a crater"
+	text "Le LAC COLERE est"
+	line "en fait un cratère"
 
-	para "made by rampaging"
-	line "GYARADOS."
+	para "crée par le"
+	line "déchaînement des"
+	cont "LEVIATOR."
 
-	para "The crater filled"
-	line "up with rainwater"
+	para "Le cratère s'est"
+	line "peu à peu rempli"
 
-	para "and the LAKE was"
-	line "formed."
+	para "d'eau de pluie et"
+	line "un LAC s'est"
+	cont "s'est formé."
 
-	para "That's the story"
-	line "passed on from my"
+	para "Cette histoire se"
+	line "transmet de géné-"
 
-	para "great-great-great-"
-	line "great-great-great-"
+	para "ration en généra-"
+	line "tion. Elle vient"
 
-	para "great-great-great-"
-	line "great-great-great-"
+	para "d'un de mes"
+	line "grands-pères."
 
-	para "great-great-great-"
-	line "great-grandpa."
+	para "On pouvait attra-"
+	line "per de vrais"
 
-	para "It used to be that"
-	line "you could catch"
+	para "MAGICARPE en"
+	line "pleine forme ici!"
 
-	para "lively MAGIKARP"
-	line "there, but<...>"
-
-	para "I don't understand"
-	line "what's happening."
+	para "Je ne comprends"
+	line "pas ce qu'il se"
+	cont "passe."
 	done
 ; 0x19a84d
 
 UnknownText_0x19a84d: ; 0x19a84d
-	text "The LAKE hasn't"
-	line "been normal since"
+	text "Ce LAC n'est plus"
+	line "normal depuis"
 
-	para "those men wearing"
-	line "black arrived."
+	para "l'arrivée des"
+	line "hommes en noir."
 	done
 ; 0x19a890
 
 UnknownText_0x19a890: ; 0x19a890
-	text "LAKE OF RAGE is"
-	line "back to normal."
+	text "Le LAC COLERE est"
+	line "redevenu normal."
 
-	para "The MAGIKARP have"
-	line "returned."
+	para "Les MAGICARPE sont"
+	line "de retour."
 
-	para "I may yet realize"
-	line "my dream of see-"
-	cont "ing the world's"
-	cont "largest MAGIKARP."
+	para "Mon rêve va peut-"
+	line "être se réaliser:"
+	cont "Voir le plus gros"
+	cont "MAGICARPE du"
+	cont "monde!"
 
-	para "Do you have a ROD?"
-	line "Please help me if"
-	cont "you do."
+	para "As-tu une CANNE?"
+	line "Aide-moi si tu en"
+	cont "as une."
 	done
 ; 0x19a93e
 
 UnknownText_0x19a93e: ; 0x19a93e
-	text "Ah, you have a"
-	line "MAGIKARP! Let's"
+	text "Ah, tu as un"
+	line "MAGICARPE! Laisse-"
 
-	para "see how big that"
-	line "baby is."
+	para "moi voir sa"
+	line "taille."
 	done
 ; 0x19a977
 
 UnknownText_0x19a977: ; 0x19a977
-	text "Wow! This one is"
-	line "outstanding!"
+	text "Whaou! Celui-ci"
+	line "est démesuré!"
 
-	para "I tip my hat to"
-	line "you!"
+	para "Je te tire mon"
+	line "chapeau!"
 
-	para "Take this as a"
-	line "memento!"
+	para "Accepte ceci en"
+	line "récompense!"
 	done
 ; 0x19a9c3
 
 UnknownText_0x19a9c3: ; 0x19a9c3
-	text "The record is the"
-	line "important thing."
+	text "Ce qui est impor-"
+	line "tant, c'est d'épa-"
 
-	para "Think of that as"
-	line "a bonus!"
+	para "ter la galerie!"
+	line "Suis mes conseils!"
 	done
 ; 0x19aa01
 
 UnknownText_0x19aa01: ; 0x19aa01
-	text "Wow! This one is"
-	line "outstanding!"
+	text "Pas mal du tout!"
 
-	para "<...>I wish I could"
-	line "say that, but I've"
-
-	para "seen a bigger one"
-	line "before."
+	para "Mais j'en ai déjà"
+	line "vu des plus gros<...>"
 	done
 ; 0x19aa5c
 
 UnknownText_0x19aa5c: ; 0x19aa5c
-	text "What? That's not a"
-	line "MAGIKARP!"
+	text "Hein? Ce n'est pas"
+	line "un MAGICARPE!"
 	done
 ; 0x19aa79
 
 UnknownText_0x19aa79: ; 0x19aa79
-	text "Oh<...> So you didn't"
-	line "get one good"
+	text "Ah<...> Il n'est pas"
+	line "assez bon pour"
+	cont "être montré?"
 
-	para "enough to show me?"
-	line "Maybe next time."
+	para "Plus de chance la"
+	line "prochaine fois!"
 	done
 ; 0x19aabc
 
 UnknownText_0x19aabc: ; 0x19aabc
-	text "CURRENT RECORD"
+	text "RECORD ACTUEL:"
 
 	para "@"
 	text_from_ram StringBuffer3
-	text " caught by"
+	text " par"
 	line "@"
 	text_from_ram StringBuffer4
 	db "@@"

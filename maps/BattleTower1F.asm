@@ -383,23 +383,26 @@ MovementData_0x9e5a9: ; 0x9e5a9
 ; 0x9e5ab
 
 UnknownText_0x9e5ab: ; 0x9e5ab
-	text "BATTLE TOWER"
-	line "welcomes you!"
+	text "La TOUR DE COMBAT"
+	line "vous souhaite la"
+	cont "bienvenue!"
 
-	para "I could show you"
-	line "to a BATTLE ROOM."
+	para "Je peux vous con-"
+	line "duire à une SALLE"
+	cont "DE COMBAT."
 	done
 ; 0x9e5ea
 
 UnknownText_0x9e5ea: ; 0x9e5ea
-	text "Want to go into a"
-	line "BATTLE ROOM?"
+	text "Voulez-vous parti-"
+	line "ciper à une SALLE"
+	cont "DE COMBAT?"
 	done
 ; 0x9e60a
 
 UnknownText_0x9e60a: ; 0x9e60a
-	text "Right this way to"
-	line "your BATTLE ROOM."
+	text "Suivez-moi s'il"
+	line "vous plaît."
 	done
 ; 0x9e62f
 
@@ -446,37 +449,40 @@ UnknownText_0x9e62f: ; 0x9e62f
 ; 0x9e886
 
 UnknownText_0x9e886: ; 0x9e886
-	text "BATTLE TOWER is a"
-	line "facility made for"
+	text "La TOUR DE COMBAT"
+	line "est un établisse-"
 
-	para "#MON battles"
-	line "where you can win"
+	para "ment fait pour les"
+	line "combats POKéMON où"
 
-	para "fabulous cash"
-	line "prizes."
+	para "vous pouvez gagner"
+	line "de fabuleux prix."
 
-	para "Inside you will be"
-	line "challenged by 7"
-	cont "trainers."
+	para "Vous serez défié"
+	line "par 7 dresseurs"
+	cont "consécutifs."
 
-	para "The more you win"
-	line "in a row, the"
-	cont "greater the prize!"
+	para "Plus vous rempor-"
+	line "tez de victoires,"
+	cont "plus votre prix"
+	cont "sera conséquent!"
 
-	para "These opponents"
-	line "will use parties"
+	para "Vos adversaires"
+	line "utiliseront des"
 
-	para "of similar level"
-	line "and size to yours."
+	para "équipes de taille"
+	line "et niveaux simi-"
+	cont "laires à la votre."
 
-	para "To interrupt a"
-	line "session, you must"
+	para "Pour interrompre"
+	line "une session, vous"
+	cont "devez SAUVEGARDER."
 
-	para "SAVE. If not, you"
-	line "won't be able to"
+	para "Vous ne pourrez"
+	line "pas reprendre"
 
-	para "resume your ROOM"
-	line "challenge."
+	para "votre progression"
+	line "le cas échéant."
 	done
 ; 0x9e9eb
 
@@ -499,8 +505,8 @@ UnknownText_0x9e886: ; 0x9e886
 ; 0x9ea49
 
 UnknownText_0x9ea49: ; 0x9ea49
-	text "Thanks for"
-	line "visiting!"
+	text "Merci de votre"
+	line "visite!"
 	done
 ; 0x9ea5f
 
@@ -518,11 +524,13 @@ UnknownText_0x9ea5f: ; 0x9ea5f
 ; 0x9eaef
 
 UnknownText_0x9eaef: ; 0x9eaef
-	text "Congratulations!"
-	line "You've beaten 7"
-	cont "trainers!"
+	text "Félicitations!"
+	
+	para "Vous avez battu"
+	line "7 dresseurs!"
 
-	para "You win ", $f0 ,"80000"
+	para "Vous remportez "
+	line $f0 ,"80000!"
 	done
 
 	;db $0, "Congratulations!", $51
@@ -570,21 +578,20 @@ UnknownText_0x9eaef: ; 0x9eaef
 ; 0x9ec09
 
 UnknownText_0x9ec09: ; 0x9ec09
-	text "We hope to serve"
-	line "you again."
+	text "Nous espérons"
+	line "vous revoir."
 	done
 ; 0x9ec26
 
 UnknownText_0x9ec26: ; 0x9ec26
-	text "Please step this"
-	line "way."
+	text "C'est ici."
 	done
 ; 0x9ec3d
 
 UnknownText_0x9ec3d: ; 0x9ec3d
-	text "Would you like to"
-	line "hear about the"
-	cont "BATTLE TOWER?"
+	text "Voulez vous en"
+	line "savoir plus sur la"
+	cont "TOUR DE COMBAT?"
 	done
 ; 0x9ec6d
 
@@ -617,75 +624,78 @@ UnknownText_0x9ec3d: ; 0x9ec3d
 ; 0x9ed3c
 
 UnknownText_0x9ed3c: ; 0x9ed3c
-	text "BATTLE TOWER rules"
-	line "are written here."
-
-	para "Read the rules?"
+	text "Lire les règles de"
+	line "la TOUR DE COMBAT?"
 	done
 ; 0x9ed72
 
 UnknownText_0x9ed72: ; 0x9ed72
-	text "Opponents will use"
-	line "#MON whose"
+	text "Vos adversaires"
+	line "seront de niveau"
 
-	para "level matches your"
-	line "highest level"
-	cont "#MON."
+	para "égal à votre #-"
+	line "MON le plus fort."
 
-	para "They will also use"
-	line "the same number of"
-	cont "#MON as you."
+	para "Ils utiliseront"
+	line "également le même"
+	cont "nombre de #MON"
+	cont "que vous."
 
-	para "NORMAL MODE scales"
-	line "the stats of the"
+	para "Le MODE NORMAL"
+	line "équilibre les sta-"
 
-	para "opposing party"
-	line "according to the"
+	para "tistiques de l'"
+	line "équipe adverse"
 
-	para "challenge state."
+	para "en tenant compte"
+	line "de votre"
+	cont "progression."
 
-	para "In HARD MODE,"
-	line "your foes are as"
+	para "En MODE DIFFICILE,"
+	line "vos adversaires"
 
-	para "strong as pos-"
-	line "sible from the"
-	cont "start."
+	para "donnent leurs"
+	line "maximum dès le"
+	cont "départ."
 
-	para "The prize goes up"
-	line "if you use more"
+	para "Le prix est plus"
+	line "important si vous"
 
-	para "#MON or are"
-	line "in HARD MODE."
+	para "utilisez plus de"
+	line "#MON ou si vous"
+	cont "êtes en MODE"
+	cont "DIFFICILE."
 	done
 ; 0x9ee18
 
 UnknownText_0x9ee18: ; 0x9ee18
-	text "Excuse me!"
-	line "You didn't SAVE"
+	text "Excusez-moi!"
 
-	para "before exiting"
-	line "the BATTLE ROOM."
+	para "Vous n'avez pas"
+	line "SAUVEGARDER avant"
 
-	para "I'm awfully sorry,"
-	line "but your challenge"
+	para "de quitter la"
+	line "SALLE DE COMBAT."
 
-	para "will be declared"
-	line "invalid."
+	para "Je suis désolée"
+	line "mais votre session"
+
+	para "est déclarée"
+	line "invalide."
 	done
 ; 0x9ee92
 
 UnknownText_0x9ee92: ; 0x9ee92
-	text "Your #MON will"
-	line "be healed to full"
-	cont "health."
+	text "Nous allons soi-"
+	line "gner vos #MON."
 	done
 ; 0x9eebc
 
 UnknownText_0x9eebc: ; 0x9eebc
-	text "Next up, opponent"
-	line "no.@"
+	text "Prochain adversai-"
+	line "re, le no.@"
 	text_from_ram StringBuffer3
-	text ". Ready?"
+	text ". OK?"
 	done
 ; 0x9eee0
 
@@ -699,17 +709,18 @@ UnknownText_0x9eebc: ; 0x9eebc
 ; 0x9ef1f
 
 UnknownText_0x9ef1f: ; 0x9ef1f
-	text "Before entering"
-	line "the BATTLE ROOM,"
+	text "Avant d'entrer"
+	line "dans une SALLE DE"
 
-	para "your progress will"
-	line "be saved."
+	para "COMBAT, la partie"
+	line "sera SAUVEGARDEE."
 	done
 ; 0x9ef5e
 
 UnknownText_0x9ef5e: ; 0x9ef5e
-	text "SAVE and end the"
-	line "session?"
+	text "SAUVEGARDER et"
+	line "mettre en pause"
+	cont "la session?"
 	done
 ; 0x9ef79
 
@@ -723,8 +734,9 @@ UnknownText_0x9ef5e: ; 0x9ef5e
 ; 0x9efbf
 
 UnknownText_0x9efbf: ; 0x9efbf
-	text "Cancel your BATTLE"
-	line "ROOM challenge?"
+	text "Annuler le défi"
+	line "des SALLES DE"
+	cont "COMBAT?"
 	done
 ; 0x9efe3
 
@@ -739,11 +751,11 @@ UnknownText_0x9efbf: ; 0x9efbf
 ; 0x9f037
 
 UnknownText_0x9f037: ; 0x9f037
-	text "We've been waiting"
-	line "for you. This way"
+	text "Nous vous atten-"
+	line "dions. Par ici"
 
-	para "to a BATTLE ROOM,"
-	line "please."
+	para "pour la SALLE DE"
+	line "COMBAT."
 	done
 ; 0x9f076
 
@@ -813,47 +825,48 @@ UnknownText_0x9f037: ; 0x9f037
 ; 0x9f264
 
 UnknownText_0x9f264: ; 0x9f264
-	text "Destroyed by the"
-	line "first opponent in"
+	text "Détruit par le"
+	line "premier adversai-"
 
-	para "no time at all<...>"
-	line "I'm no good<...>"
+	para "re<...> Je suis nul!"
 	done
 ; 0x9f2a4
 
 UnknownText_0x9f2a4: ; 0x9f2a4
-	text "There are lots of"
-	line "BATTLE ROOMS, but"
+	text "Il y a plein de"
+	line "SALLES DE COMBAT!"
 
-	para "I'm going to win"
-	line "them all!"
+	para "Mais je vais"
+	line "gagner!"
 	done
 ; 0x9f2e3
 
 UnknownText_0x9f2e3: ; 0x9f2e3
-	text "It's a grueling"
-	line "task, not being"
+	text "C'est difficile de"
+	line "se passer d'objets"
 
-	para "able to use items"
-	line "in battle."
+	para "pendant les"
+	line "combats<...>"
 
-	para "Making your"
-	line "#MON hold items"
+	para "Faire tenir un ob-"
+	line "jet à son #MON"
 
-	para "is the key to"
-	line "winning battles."
+	para "est la clé pour"
+	line "gagner ici."
 	done
 ; 0x9f35b
 
 UnknownText_0x9f35b: ; 0x9f35b
-	text "I'm trying to see"
-	line "how far I can go"
+	text "J'essaie de voir"
+	line "jusqu'où on peut"
 
-	para "using just bug"
-	line "#MON."
+	para "aller juste avec"
+	line "des #MON"
+	cont "INSECTE."
 
-	para "Don't let there be"
-	line "any fire #MON<...>"
+	para "Pourvu qu'il n'y"
+	line "ait pas de #MON"
+	cont "FEU."
 	done
 
 

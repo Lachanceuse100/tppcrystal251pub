@@ -22,30 +22,34 @@ CooltrainerMScript_0x6829f: ; 0x6829f
 ; 0x682a2
 
 UnknownText_0x682a2: ; 0x682a2
-	text "When you first"
-	line "catch a #MON,"
-	cont "it may be weak."
+	text "Quand tu captures"
+	line "un #MON, il est"
+	cont "peut être faible"
+	cont "au début."
 
-	para "But it will even-"
-	line "tually grow to be"
-	cont "strong."
+	para "Mais il deviendra"
+	line "un jour costaud."
 
-	para "It's important to"
-	line "treat #MON with"
-	cont "love."
+	para "C'est important de"
+	line "traiter ses #-"
+	cont "MON avec amour."
 	done
 ; 0x68323
 
 UnknownText_0x68323: ; 0x68323
-	text "#MON can hold"
-	line "items like POTION"
-	cont "and ANTIDOTE."
+	text "Les #MON"
+	line "peuvent tenir"
+	cont "des objets comme"
+	cont "une POTION ou un"
+	cont "ANTIDOTE."
 
-	para "But they don't"
-	line "appear to know how"
+	para "Mais ils n'ont pas"
+	line "l'air de savoir"
+	cont "les utiliser."
 
-	para "to use manmade"
-	line "items."
+	para "Ils sont plus à"
+	line "l'aise avec les"
+	cont "BAIES."
 	done
 ; 0x68389
 
