@@ -22,28 +22,29 @@ MapRoute4RBHiddenGreatBall:
 	dwb EVENT_ROUTE_4_RB_HIDDEN_GREAT_BALL, GREAT_BALL
 
 _Route4BattleText1:
-	text "I came to get my"
-	line "mushroom #MON!"
+	text "Je suis venu"
+	line "chercher mon #-"
+	cont "MON champignon."
 	done
 
 _Route4EndBattleText1:
-	text "Oh! My cute"
-	line "mushroom #MON!"
+	text "Oh! Mon #MON"
+	line "champignon mginon!"
 	done
 
 _Route4AfterBattleText1:
-	text "There might not"
-	line "be any more"
-	cont "mushrooms here."
+	text "On dirait qu'il"
+	line "n'y a plus de"
+	cont "champignons."
 
-	para "I think I got"
-	line "them all."
+	para "Je dois tous"
+	line "les avoir."
 	done
 
 _Route4Text6:
 	text "ROUTE 4"
-	line "MT.MOON -"
-	cont "CERULEAN CITY"
+	line "MONT SELENITE -"
+	cont "AZURIA"
 	done
 
 

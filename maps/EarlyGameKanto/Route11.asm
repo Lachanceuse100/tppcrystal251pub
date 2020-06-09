@@ -116,166 +116,172 @@ Route11RBHiddenEscapeRope:
 	dwb EVENT_ROUTE_11_HIDDEN_ESCAPE_ROPE_RB, ESCAPE_ROPE
 
 _Route11BattleText1:
-	text "Win, lose or draw!"
+	text "Victoire, défaite"
+	line "ou égalité!"
 	done
 
 _Route11EndBattleText1:
-	text "Atcha!"
-	line "Didn't go my way!"
+	text "Tu as choisis"
+	line "la victoire!"
 	done
 
 _Route11AfterBattleText1:
-	text "#MON is life!"
-	line "And to live is to"
-	cont "gamble!"
+	text "Les #MON c'est"
+	line "la vie. Et la vie"
+	cont "c'est un pari!"
 	done
 
 _Route11BattleText2:
-	text "Competition! I"
-	line "can't get enough!"
+	text "Battons-nous! J'en"
+	line "ai jamais marre!"
 	done
 
 _Route11EndBattleText2:
-	text "I had a chance!"
+	text "J'avais une"
+	line "chance."
 	done
 
 _Route11AfterBattleText2:
-	text "You can't be a"
-	line "coward in the"
-	cont "world of #MON!"
+	text "Tu ne peux pas"
+	line "être un lâche dans"
+	cont "le monde des"
+	cont "#MON!"
 	done
 
 _Route11BattleText3:
-	text "Let's go, but"
-	line "don't cheat!"
+	text "Combat, mais ne"
+	line "triche pas!"
 	done
 
 _Route11EndBattleText3:
-	text "Huh?"
-	line "That's not right!"
+	text "Hein? C'est pas"
+	line "normal!"
 	done
 
 _Route11AfterBattleText3:
-	text "I did my best! I"
-	line "have no regrets!"
+	text "J'ai fait de mon"
+	line "mieux, je n'ai pas"
+	cont "de regrets."
 	done
 
 _Route11BattleText4:
-	text "All amped up and"
-	line "ready to rock!"
+	text "T'es prêt a jouer?"
 	done
 
 _Route11EndBattleText4:
-	text "Totally metal!"
+	text "Trop métal!"
 	done
 
 _Route11AfterBattleText4:
-	text "It's important to"
-	line "keep your instru-"
-	cont "ments well tuned."
+	text "C'est important de"
+	line "calibrer tes"
+	cont "instruments."
 	done
 
 _Route11BattleText5:
-	text "I just became a"
-	line "trainer! But, I"
-	cont "think I can win!"
+	text "Je viens juste de"
+	line "devenir dresseur"
+	cont "mais je pense que"
+	cont "je peux gagner!"
 	done
 
 _Route11EndBattleText5:
-	text "My"
-	line "#MON couldn't!"
+	text "Mon #MON n'y"
+	line "est pas arrivé!"
 	done
 
 _Route11AfterBattleText5:
-	text "What do you want?"
-	line "Leave me alone!"
+	text "Tu veux quoi?"
+	line "Laisse moi seul!"
 	done
 
 _Route11BattleText6:
-	text "Fwahaha! I have"
-	line "never lost!"
+	text "Mouahaha! Je n'ai"
+	line "jamais perdu!"
 	done
 
 _Route11EndBattleText6:
-	text "My first loss!"
+	text "Ma première"
+	line "défaite!"
 	done
 
 _Route11AfterBattleText6:
-	text "Luck of the draw!"
-	line "Just luck!"
+	text "Tu as la chance"
+	line "des débutants."
 	done
 
 _Route11BattleText7:
-	text "I have never won"
-	line "before<...>"
+	text "Je n'ai jamais"
+	line "gagné<...>"
 	done
 
 _Route11EndBattleText7:
-	text "I saw this coming<...>"
+	text "Je l'ai vu venir<...>"
 	done
 
 _Route11AfterBattleText7:
-	text "It's just luck."
-	line "Luck of the draw."
+	text "Je dois être"
+	line "maudit."
 	done
 
 _Route11BattleText8:
-	text "I'm the best in"
-	line "my class!"
+	text "Je suis la tête"
+	line "de classe!"
 	done
 
 _Route11EndBattleText8:
-	text "Darn!"
-	line "I need to make my"
-	cont "#MON stronger!"
+	text "Zut! Il faut que"
+	line "je renforce mon"
+	cont "#MON!"
 	done
 
 _Route11AfterBattleText8:
-	text "There's a fat"
-	line "#MON that"
-	cont "comes down from"
-	cont "the mountains."
+	text "Il y a un gros"
+	line "#MON qui"
+	cont "descends des"
+	cont "montagnes."
 
-	para "It's strong if"
-	line "you can get it."
+	para "Il est fort si"
+	line "tu peux l'avoir."
 	done
 
 _Route11BattleText9:
-	text "#MON! Gotta"
-	line "catch 'em all!!"
+	text "#MON! Attrapez"
+	line "les tous!!"
 
 	para $56, " ", $56, " ", $56
 	line $56, " ", $56, " ", $56
 
-	para "Come on, sing with"
-	line "me!"
+	para "Allez, chante avec"
+	line "moi!"
 	done
 
 _Route11EndBattleText9:
-	text "I know it's my"
-	line "destiny!"
+	text "Ensemble pour la"
+	line "victoire!"
 	done
 
 _Route11AfterBattleText9:
-	text "Gotta catch 'em"
-	line "all!"
-	para "Gotta catch 'em"
-	line "all! #MON!!"
+	text "Attrapez les"
+	line "tous!"
+	para "Attrapez les"
+	line "tous!"
+	para "#MON!!!"
 	done
 
 _Route11BattleText10:
-	text "My #MON should"
-	line "be ready by now!"
+	text "Mon #MON est"
+	line "prêt!"
 	done
 
 _Route11EndBattleText10:
-	text "Too much, too"
-	line "young!"
+	text "C'est trop pour"
+	line "lui!"
 	done
 
 _Route11AfterBattleText10:
-	text "I better go find"
-	line "stronger ones!"
+	text "Je dois en trouver"
+	line "des plus forts!"
 	done
 
 Route11RBSignpostText: ; 0x68238

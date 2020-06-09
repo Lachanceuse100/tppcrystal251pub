@@ -1343,10 +1343,10 @@ Strings_eeab: ; eeab
 	dw .speed
 	dw .special
 
-.health  db "HEALTH@"
-.attack  db "ATTACK@"
+.health  db "PV@"
+.attack  db "ATTAQUE@"
 .defense db "DEFENSE@"
-.speed   db "SPEED@"
+.speed   db "VITESSE@"
 .special db "SPECIAL@"
 ; eed9
 
@@ -2639,7 +2639,8 @@ UnknownText_0xf576: ; 0xf576
 	jp Function13e0
 ; f58f
 Text_SnorlaxWokeUp:
-	text "SNORLAX woke up!"
+	text "RONFLEX se"
+	cont "réveille!"
 	done
 
 

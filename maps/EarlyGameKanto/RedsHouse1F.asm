@@ -131,7 +131,7 @@ MomScript2: ; 0x7a572
 ; 0x7a578
 
 RedsHouse1FRB_GearName: ; 0x7a578
-	db "#GEAR@"
+	db "#MATOS@"
 ; 0x7a57e
 
 RedsHouse1FRB_GetItem: ; 0x7a57e
@@ -220,101 +220,102 @@ MovementData_MomLookUp:
 	step_end
 
 MomText1: ; 0x7a604
-	text "Oh, <PLAYER><...>! Our"
-	line "neighbor, PROF."
+	text "Ah, <PLAYER>! Notre"
+	line "voisin, le PROF."
+	cont "CHEN, te cherche."
 
-	para "OAK, was looking"
-	line "for you."
+	para "Il a dit qu'il"
+	line "avait besoin de"
+	cont "toi pour quelque"
+	cont "chose."
 
-	para "He said he wanted"
-	line "you to do some-"
-	cont "thing for him."
+	para "Oh! J'ai failli"
+	line "oublié. Ton #-"
 
-	para "Oh! I almost for-"
-	line "got! Your #MON"
+	para "MATOS est revenu"
+	line "du réparateur."
 
-	para "GEAR is back from"
-	line "the repair shop."
-
-	para "Here you go!"
+	para "Tiens!"
 	done
 ; 0x7a6bd
 
 MomText2: ; 0x7a6bd
-	text "#MON GEAR, or"
-	line "just #GEAR."
+	text "Le MATOS #MON,"
+	line "ou #MATOS."
 
-	para "It's essential if"
-	line "you want to be a"
-	cont "good trainer."
+	para "Il est primordial"
+	line "si tu veux être un"
+	cont "bon dresseur."
 
-	para "Oh, the day of the"
-	line "week isn't set."
+	para "Oh, le jour de la"
+	line "semaine est"
+	cont "déréglé!"
 
-	para "You mustn't forget"
-	line "that!"
+	para "Voyons voir<...>"
 	done
 ; 0x7a742
 
 MomText3: ; 0x7a742
-	text "Is it Daylight"
-	line "Saving Time now?"
+	text "Est-on à l'heure"
+	line "d'été?"
 	done
 ; 0x7a763
 
 MomText4: ; 0x7a763
-	text "Come home to"
-	line "adjust your clock"
+	text "Reviens ajuster"
+	line "l'horloge à la"
 
-	para "for Daylight"
-	line "Saving Time."
+	para "maison pour"
+	line "l'heure d'été."
 	done
 
 MomText_AllBoysLeaveHomeSomeday:
-	text "Right. All boys"
-	line "leave home some-"
-	cont "day."
-	cont "It said so on TV."
+	text "Bon. Tout les"
+	line "garçons quittent"
+	cont "la maison un jour."
+	
+	para "Ils le disent à la"
+	line "télévision."
 
-	para "PROF.OAK, next"
-	line "door, was looking"
-	cont "for you."
+	para "Allez, le PROF."
+	line "CHEN t'attends!"
 	done
 
 MomText_AllGirlsLeaveHomeSomeday:
-	text "Right. All girls"
-	line "leave home some-"
-	cont "day."
-	cont "It said so on TV."
+	text "Bon. Toutes les"
+	line "filles quittent"
+	cont "la maison un jour."
+	
+	para "Ils le disent à la"
+	line "télévision."
 
-	para "PROF.OAK, next"
-	line "door, was looking"
-	cont "for you."
+	para "Allez, le PROF."
+	line "CHEN t'attends!"
 	done
 
 MomHealsYouText:
-	text "MOM: <PLAYER>!"
-	line "You should take a"
-	cont "quick rest."
+	text "MAMAN: <PLAYER>!"
+	line "Tu devrais te"
+	cont "reposer."
 	done
 
 MomAfterHealText:
-	text "MOM: Oh good!"
-	line "You and your"
-	para "#MON are"
-	line "looking great!"
-	para "Take care now!"
+	text "MAMAN: Super!"
+	line "Tes #MON et toi"
+	para "avez l'air"
+	line "en forme!"
+	para "Fais attention!"
 	done
 
 MovieOnTVText_RedsHouse1FRB:
-	text "There's a movie"
-	line "on TV."
+	text "Il y a un film"
+	line "à la télé."
 
-	para "Four boys are"
-	line "walking on rail-"
-	cont "road tracks."
+	para "Quatre garçons"
+	line "marchent sur des"
+	cont "rails de train."
 
-	para "I better go too."
+	para "<...> Je dois y aller."
 	done
 
 RedsHouse1FRB_MapEventHeader: ; 0x19b017

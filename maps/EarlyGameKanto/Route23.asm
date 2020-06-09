@@ -84,57 +84,61 @@ Movement_PlayerStepsDown_Route23RB:
 	step_end
 
 _VictoryRoadGuardText1:
-	text "You can pass here"
-	line "only if you have"
-	cont "the CASCADEBADGE!"
+	text "Tu peux seulement"
+	line "passer sous"
+	cont "présentation du"
+	cont "BADGECASCADE"
 
-	para "You don't have the"
-	line "CASCADEBADGE yet!"
+	para "Tu n'as pas le"
+	line "BADGECASCADE!"
 
-	para "You have to have"
-	line "it to get to"
-	cont "#MON LEAGUE!"
+	para "Tu dois l'avoir"
+	line "pour aller à la"
+	cont "LIGUE #MON!"
 	done
 
 _VictoryRoadGuardText2:
-	text "You can pass here"
-	line "only if you have"
-	cont "the CASCADEBADGE!"
+	text "Tu peux seulement"
+	line "passer sous"
+	cont "présentation du"
+	cont "BADGECASCADE"
 
-	para "Oh! That is the"
-	line "CASCADEBADGE!"
+	para "Oh! C'est le"
+	line "BADGECASCADE!"
 	done
 
 _VictoryRoadGuardText_513a3:
-	text "OK then! Please,"
-	line "go right ahead!"
+	text "Très bien,"
+	line "tu peux passer!"
 	done
 
 _VictoryRoadGuardText3:
-	text "You can pass here"
-	line "only if you have"
-	cont "the THUNDERBADGE!"
+	text "Tu peux seulement"
+	line "passer sous"
+	cont "présentation du"
+	cont "BADGE FOUDRE"
 
-	para "You don't have the"
-	line "THUNDERBADGE yet!"
+	para "Tu n'as pas le"
+	line "BADGE FOUDRE!"
 
-	para "You have to have"
-	line "it to get to"
-	cont "#MON LEAGUE!"
+	para "Tu dois l'avoir"
+	line "pour aller à la"
+	cont "LIGUE #MON!"
 	done
 
 _VictoryRoadGuardText4:
-	text "You can pass here"
-	line "only if you have"
-	cont "the THUNDERBADGE!"
+	text "Tu peux seulement"
+	line "passer sous"
+	cont "présentation du"
+	cont "BADGE FOUDRE"
 
-	para "Oh! That is the"
-	line "THUNDERBADGE!"
+	para "Oh! C'est le"
+	line "BADGEFOUDRE!"
 	done
 
 _Route23Text8:
-	text "VICTORY ROAD GATE"
-	line "- #MON LEAGUE"
+	text "ROUTE VICTOIRE -"
+	line "LIGUE #MON"
 	done
 
 

@@ -1,12 +1,12 @@
 ; AzumarillPokedexEntry: ; 0x1cd771
-	db "AQUARABBIT@" ; species name
+	db "AQUALAPIN@" ; species name
 	dw 207, 630 ; height, width
 
-	db   "The bubble-like"
-	next "pattern on its"
-	next "stomach helps it"
-	page "camouflage itself"
-	next "when it's in the"
-	next "water.@"
+	db   "Les motifs sur son"
+	next "ventre lui permet-"
+	next "tent de se camou-"
+	page "fler lorsqu'il est"
+	next "dans l'eau."
+	next "@"
 ; 0x1cd7d9
 

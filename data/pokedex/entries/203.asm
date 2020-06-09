@@ -1,12 +1,12 @@
 ; GirafarigPokedexEntry: ; 0x1d0446
-	db "LONG NECK@" ; species name
+	db "LONG-COU@" ; species name
 	dw 411, 910 ; height, width
 
-	db   "When it is in"
-	next "danger, its tail"
-	next "uses some sort of"
-	page "mysterious powers"
-	next "to drive away the"
-	next "enemy.@"
+	db   "Lorsqu'il est en"
+	next "danger, sa queue"
+	next "utiliserait un"
+	page "pouvoir mystérieux"
+	next "pour écarter toute"
+	next "menace.@"
 ; 0x1d04b0
 

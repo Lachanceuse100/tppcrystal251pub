@@ -1,12 +1,12 @@
 ; BayleefPokedexEntry: ; 0x1cc9e9
-	db "LEAF@" ; species name
+	db "FEUILLE@" ; species name
 	dw 311, 350 ; height, width
 
-	db   "The scent that"
-	next "wafts from the"
-	next "leaves on its neck"
-	page "causes anyone who"
-	next "smells it to"
-	next "become energetic.@"
+	db   "L'odeur épicée des"
+	next "feuilles sur son"
+	next "cou est considérée"
+	page "par les humains"
+	next "comme énergisante."
+	next "@"
 ; 0x1cca54
 

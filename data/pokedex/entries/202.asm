@@ -2,11 +2,11 @@
 	db "PATIENT@" ; species name
 	dw 403, 630 ; height, width
 
-	db   "In order to con-"
-	next "ceal its black"
-	next "tail, it lives in"
-	page "a dark cave and"
-	next "only moves about"
-	next "at night.@"
+	db   "Pour cacher sa"
+	next "queue noire, il"
+	next "vit dans une"
+	page "grotte sombre et"
+	next "ne se déplace"
+	next "que de nuit.@"
 ; 0x1d0446
 

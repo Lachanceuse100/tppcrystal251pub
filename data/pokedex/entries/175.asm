@@ -1,12 +1,12 @@
 ; TogepiPokedexEntry: ; 0x1cd396
-	db "SPIKE BALL@" ; species name
+	db "BALLE PIC@" ; species name
 	dw 100, 30 ; height, width
 
-	db   "It is considered"
-	next "to be a symbol of"
-	next "good luck. Its"
-	page "shell is said to"
-	next "be filled with"
-	next "happiness.@"
+	db   "Il est connu pour"
+	next "être un symnole de"
+	next "chance. On dit que"
+	page "sa coquille est"
+	next "remplie de joie."
+	next "@"
 ; 0x1cd402
 

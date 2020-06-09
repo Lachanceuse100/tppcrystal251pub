@@ -18,12 +18,12 @@ Route2NuggetSpeechHouseGameboyKidScript:
 	jumptextfaceplayer _Route2HouseText1
 
 _Route2HouseText1: ; 8a7b8 (22:67b8)
-	text "A fainted #MON"
-	line "can't fight."
-
-	para "But, it can still"
-	line "use moves like"
-	cont "CUT!"
+	text "Un #MON K.O ne"
+	line "peut pas se"
+	cont "battre mais il"
+	cont "peut utiliser des"
+	cont "capacités comme"
+	cont "COUPE!"
 	done
 
 

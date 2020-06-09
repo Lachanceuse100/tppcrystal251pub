@@ -1,12 +1,12 @@
 ; CaterpiePokedexEntry: ; 0x181a60
-	db "WORM@" ; species name
+	db "VER@" ; species name
 	dw 100, 60 ; height, width
 
-	db   "It crawls into"
-	next "foliage where it"
-	next "camouflages itself"
-	page "among leaves that"
-	next "are the same color"
-	next "as its body.@"
+	db   "Pour se protéger,"
+	next "il s'enfonce dans"
+	next "le sol en se cou-"
+	page "vrant de feuilles"
+	next "de la meme couleur"
+	next "que son corps.@"
 ; 0x181ace
 

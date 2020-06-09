@@ -2,11 +2,11 @@
 	db "HIBERNANT@" ; species name
 	dw 511, 2770 ; height, width
 
-	db   "Although it has a"
-	next "large body, it is"
-	next "quite skilled at"
-	page "climbing trees. It"
-	next "eats and sleeps in"
-	next "the treetops.@"
+	db   "Bien que d'une"
+	next "large corpulence,"
+	next "il grimpe aux ar-"
+	page "bres pour s'y nou-"
+	next "rrir et y dormir."
+	next "@"
 ; 0x1d0ab8
 

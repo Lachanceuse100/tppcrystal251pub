@@ -1,12 +1,12 @@
 ; TentacruelPokedexEntry: ; 0x1b8337
-	db "JELLYFISH@" ; species name
+	db "MOLLUSQUE@" ; species name
 	dw 503, 1210 ; height, width
 
-	db   "When its 80 feel-"
-	next "ers absorb water,"
-	next "it stretches to"
-	page "become like a net"
-	next "to entangle its"
-	next "prey.@"
+	db   "Ses 80 tentacules"
+	next "absorbent de l'eau"
+	next "et s'étirent sans"
+	page "fin pour enserrer"
+	next "et capturer ses"
+	next "adversaires.@"
 ; 0x1b83a1
 

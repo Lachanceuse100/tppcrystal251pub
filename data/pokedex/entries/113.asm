@@ -1,12 +1,12 @@
 ; ChanseyPokedexEntry: ; 0x1b942e
-	db "EGG@" ; species name
+	db "OEUF@" ; species name
 	dw 307, 760 ; height, width
 
-	db   "People try to"
-	next "catch it for its"
-	next "extremely"
-	page "nutritious eggs,"
-	next "but it rarely can"
-	next "be found.@"
+	db   "On essaie souvent"
+	next "de l'attraper pour"
+	next "ses oeufs."
+	page "On a cependant du"
+	next "mal à le trouver."
+	next "@"
 ; 0x1b948c
 

@@ -1,12 +1,12 @@
 ; HeracrossPokedexEntry: ; 0x1d0907
-	db "SINGLEHORN@" ; species name
+	db "UNICORNE@" ; species name
 	dw 411, 1190 ; height, width
 
-	db   "With its Herculean"
-	next "powers, it can"
-	next "easily throw arou-"
-	page "nd an object that"
-	next "is 100 times its"
-	next "own weight.@"
+	db   "Sa force hercu-"
+	next "léenne lui permet"
+	next "de soulever et de"
+	page "jeter plus de 100"
+	next "fois son poids."
+	next "@"
 ; 0x1d097a
 

@@ -1,12 +1,12 @@
 ; FarfetchDPokedexEntry: ; 0x1b876c
-	db "WILD DUCK@" ; species name
+	db "CANARD FOU@" ; species name
 	dw 207, 330 ; height, width
 
-	db   "In order to pre-"
-	next "vent their"
-	next "extinction, more"
-	page "people have made"
-	next "an effort to breed"
-	next "these #MON.@"
+	db   "Pour éviter tout"
+	next "risque d'extinc-"
+	next "tion de l'espece,"
+	page "nombreux sont ceux"
+	next "qui elevent"
+	next "ce #MON.@"
 ; 0x1b87d7
 

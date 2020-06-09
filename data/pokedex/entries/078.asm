@@ -1,12 +1,12 @@
 ; RapidashPokedexEntry: ; 0x1b855e
-	db "FIRE HORSE@" ; species name
+	db "CHEVAL FEU@" ; species name
 	dw 507, 2090 ; height, width
 
-	db   "It just loves to"
-	next "gallop. The faster"
-	next "it goes, the long-"
-	page "er the swaying"
-	next "flames of its mane"
-	next "will become.@"
+	db   "Il adore galoper."
+	next "Pendant sa course,"
+	next "ses flammes s'al-"
+	page "logent au fur et"
+	next "à mesure qu'il ga-"
+	next "gne de la vitesse.@"
 ; 0x1b85d3
 

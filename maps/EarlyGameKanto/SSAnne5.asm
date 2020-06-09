@@ -200,176 +200,183 @@ Movement_SSAnneRocketRetreat:
 	step_end
 
 RandomRocketsBeforeText1:
-	text "Annoying brats"
-	line "must be elimi-"
-	cont "nated!"
+	text "Les gamins"
+	line "ennuyeux doivent"
+	cont "être éliminés!"
 	done
 
 RandomRocketsBeforeText2:
-	text "Are you inter-"
-	line "fering with TEAM"
-	cont "ROCKET's plans?"
+	text "Tu interfères avec"
+	line "les plans de la"
+	cont "TEAM ROCKET?"
 	done
 
 RandomRocketsBeforeText3:
-	text "Were you the one"
-	line "who foiled our"
-	cont "operation in MT."
-	cont "MOON?"
+	text "C'est toi qui a"
+	line "saboté notre"
+	cont "opération au"
+	cont "MONT SELENITE?"
 	done
 
 RandomRocketsBeforeText4:
-	text "Give me your #-"
-	line "MON!"
+	text "Donne moi ton"
+	line "#MON!"
 	done
 
 RandomRocketsBeforeText5:
-	text "You shouldn't have"
-	line "come here, child."
+	text "T'aurais pas du"
+	line "venir, gamin."
 	done
 
 RandomRocketsBeforeText6:
-	text "You're quite fool-"
-	line "ish to challenge"
-	cont "TEAM ROCKET."
+	text "Tu es idiot de"
+	line "défier la TEAM"
+	cont "ROCKET."
 	done
 
 RandomRocketsBeforeText7:
-	text "I'll dispose of"
-	line "you quickly."
+	text "Je vais vite me"
+	line "débarasser de toi."
 	done
 
 RandomRocketsBeforeText8:
-	text "Get back to the"
-	line "cabins where it's"
-	cont "safe, kid."
+	text "Retourne à la"
+	line "cabine toi, c'est"
+	cont "plus sûr."
 	done
 
 RandomRocketsWinText1:
-	text "Arrgh!!"
+	text "Arrg!!"
 	done
 RandomRocketsWinText2:
-	text "No way!"
+	text "Impossible!"
 	done
 RandomRocketsWinText3:
-	text "Too good!"
+	text "Trop fort!"
 	done
 RandomRocketsWinText4:
-	text "I give up!"
+	text "J'abandonne!"
 	done
 RandomRocketsWinText5:
-	text "How are you this"
-	line "strong?"
+	text "Comment es-tu si"
+	line "fort?"
 	done
 RandomRocketsWinText6:
-	text "Beaten by a mere"
-	line "child?"
+	text "Battu par un"
+	line "enfant?"
 	done
 RandomRocketsWinText7:
-	text "Now I'm mad!"
+	text "Je suis en colère!"
 	done
 RandomRocketsWinText8:
 	text "Grrrr<...>"
 	done
 
 SSAnne5TextAfter:
-	text "Yeah, serves you"
-	line "right!"
+	text "Ca t'apprendra!"
 
-	para "No one, not even a"
-	line "child, messes with"
-	cont "TEAM ROCKET and"
-	cont "leaves unscathed!"
+	para "Personne, pas même"
+	line "un gamin, ne défie"
+	cont "la TEAM ROCKET en"
+	cont "s'en sortant"
+	cont "indemme!"
 	done
 
 SSAnne10Text_WontGetAwayWithThis:
-	text "You won't get away"
-	line "with this, you"
-	cont "little brat!"
+	text "Tu t'en sortiras"
+	line "pas comme ça,"
+	cont "avorton!"
 	done
 
 _SSAnne5Text1:
-	text "The party's over."
-	line "The ship will be"
-	cont "departing soon."
+	text "La fête est finie."
+	line "Le bateau va"
+	cont "bientôt partir."
 	done
 
 _SSAnne5Text1b:
-	text "I can't wait until"
-	line "we make land in"
-	cont "OLIVINE."
+	text "J'ai hâte que l'on"
+	line "arrive à OLIVILLE."
 
-	para "The party there is"
-	line "said to outdo the"
-	cont "VERMILION parties."
+	para "On dit que la fête"
+	line "est meilleur qu'a"
+	cont "CARMIN SUR MER."
 	done
 
 _SSAnne5Text2:
-	text "Scrubbing decks"
-	line "is hard work!"
+	text "Nettoyer le pont"
+	line "du navire c'est"
+	cont "dur<...>"
 	done
 
 _SSAnne5Text3:
-	text "Urf. I feel ill."
+	text "Urh. Je me sens"
+	line "malade."
 
-	para "I stepped out to"
-	line "get some air."
+	para "Je suis sorti"
+	line "prendre l'air."
 	done
 
 _SSAnne5BattleText1:
-	text "Hey matey!"
+	text "Hé matelot!"
 
-	para "Let's do a little"
-	line "jig!"
+	para "Une petite danse?"
 	done
 
 _SSAnne5EndBattleText1:
-	text "You're"
-	line "impressive!"
+	text "Impressionnant!"
 	done
 
 _SSAnne5AfterBattleText1:
-	text "How many kinds of"
-	line "#MON do you"
-	cont "think there are?"
+	text "Tu penses qu'il y"
+	line "a combien d'espèce"
+	cont "de #MON?"
 	done
 
 _SSAnne5BattleText2:
-	text "Ahoy there!"
-	line "Are you seasick?"
+	text "Holà toi!"
+	line "T'as le mal de"
+	cont "mer?"
 	done
 
 _SSAnne5EndBattleText2:
-	text "I was just"
-	line "careless!"
+	text "J'ai pas fais"
+	line "attention!"
 	done
 
 _SSAnne5AfterBattleText2:
-	text "My Pa said there"
-	line "are 150 kinds of"
+	text "Mon Papa dit qu'il"
+	line "y a 150 espèces de"
 	cont "#MON."
-	para "I think there are"
-	line "more."
+	para "Je pense qu'il y"
+	line "en a plus."
 	done
 
 SSAnne5ShipwreckText:
-	text "PA: All GRUNTS!"
-	line "All GRUNTS!"
+	text "Annonnce: A TOUS"
+	line "LES SBIRES!"
 
-	para "This ship is on a"
-	line "collision course."
-	cont "Abort mission!"
+	para "Le navire est sur"
+	line "le point d'entrer"
+	cont "en collision!"
 
-	para "Repeat:"
-	line "Abort mission!"
+	para "Abandonnez la"
+	line "mission!"
+
+	para "Je répète:"
+
+	para "Abandonnez la"
+	line "mission!"
 	done
 
 SSAnne5ShipwreckText2:
-	text "We gotta get out"
-	line "of here!"
+	text "On doit sortir"
+	line "d'ici!"
 
-	para "Abandon ship!"
-	line "Abando"
+	para "Abandonnez le"
+	line "navire!"
+	
+	para "Abando"
 	done
 
 SSAnne5_MapEventHeader:

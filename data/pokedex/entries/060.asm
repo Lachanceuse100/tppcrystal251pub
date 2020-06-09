@@ -1,12 +1,12 @@
 ; PoliwagPokedexEntry: ; 0x182f91
-	db "TADPOLE@" ; species name
+	db "TETARD@" ; species name
 	dw 200, 270 ; height, width
 
-	db   "The swirl on its"
-	next "belly is its"
-	next "insides showing"
-	page "through the skin."
-	next "It looks clearer"
-	next "after it eats.@"
+	db   "La spirale sur son"
+	next "ventre est son"
+	next "organisme, visible"
+	page "à travers la peau."
+	next "Il est plus clair"
+	next "après son repas.@"
 ; 0x182ffd
 

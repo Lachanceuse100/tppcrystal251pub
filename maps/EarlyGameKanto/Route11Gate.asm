@@ -11,20 +11,21 @@ Route11GateRB_OfficerScript: ; 0x19a4b5
 ; 0x19a4b8
 
 Route11GateRB_OfficerText: ; 0x19a4b8
-	text "When you catch"
-	line "lots of #MON,"
+	text "Quand tu attrapes"
+	line "plein de #MON,"
 
-	para "isn't it hard to"
-	line "think up names?"
+	para "c'est dur de leur"
+	line "trouver des noms?"
 
-	para "In LAVENDER TOWN,"
-	line "there's a man who"
+	para "A LAVANVILLE, il y"
+	line "a un homme qui"
 
-	para "rates #MON"
-	line "nicknames."
+	para "juge les surnoms"
+	line "des #MON."
 
-	para "He'll help you"
-	line "rename them too!"
+	para "Il t'aidera à"
+	line "renommer les tiens"
+	cont "aussi!"
 	done
 
 ; 0x19a4fe

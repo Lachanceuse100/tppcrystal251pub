@@ -1,12 +1,12 @@
 ; SunkernPokedexEntry: ; 0x1cda87
-	db "SEED@" ; species name
+	db "GRAINE@" ; species name
 	dw 100, 40 ; height, width
 
-	db   "It is very weak."
-	next "Its only means of"
-	next "defense is to"
-	page "shake its leaves"
-	next "desperately at its"
-	next "attacker.@"
+	db   "Il est tr", $c6, "s faible"
+	next "et a comme seule"
+	next "technique de dé-"
+	page "fense un giote-"
+	next "ment de feuilles"
+	next "nerveux.@"
 ; 0x1cdaef
 

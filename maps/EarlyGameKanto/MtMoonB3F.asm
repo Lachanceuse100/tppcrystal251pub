@@ -121,113 +121,116 @@ Movement_MiguelTakesDome:
 	step_end
 
 _MtMoon3Text_49f24:
-	text "You want the"
-	line "DOME FOSSIL?"
+	text "Tu veux le"
+	line "FOSSILE DOME?"
 	done
 
 _MtMoon3Text_49f64:
-	text "You want the"
-	line "HELIX FOSSIL?"
+	text "Tu veux le"
+	line "FOSSILE NAUTILE?"
 	done
 
 _MtMoon3Text_49f85:
-	text "Hey, stop!"
+	text "Hé, non!"
 
-	para "I found these"
-	line "fossils! They're"
-	cont "both mine!"
+	para "J'ai trouvé ces"
+	line "fossiles! Ils"
+	cont "sont à moi!"
 	done
 
 _MtMoon3Text_49f8a:
-	text "OK! I'll share!"
+	text "Bon, je partage!"
 	done
 
 _MtMoon3Text_49f8f:
-	text "We'll each take"
-	line "one!"
-	cont "No being greedy!"
+	text "Chacun le sien"
+	line "Comme ça, pas"
+	cont "de jaloux."
 	done
 
 _MtMoon3Text_49f94:
-	text "Far away, on"
-	line "CINNABAR ISLAND,"
-	cont "there's a #MON"
-	cont "LAB."
+	text "A CRAMOIS'ILE, il"
+	line "y a un LABO"
+	cont "#MON."
 
-	para "They do research"
-	line "on regenerating"
-	cont "fossils."
+	para "Ils font des"
+	line "recherches pour"
+	cont "regénérer des"
+	cont "fossiles."
 	done
 
 _MtMoon3Text_49f99:
-	text "All right. Then"
-	line "this is mine!"
+	text "OK. Je prends"
+	line "celui-là alors!"
 	done
 
 _MtMoon3BattleText2:
-	text "TEAM ROCKET will"
-	line "find the fossils,"
-	cont "revive and sell"
-	cont "them for cash!"
+	text "La TEAM ROCKET"
+	line "trouvera les"
+	cont "fossiles et fera"
+	cont "fortune en les"
+	cont "vendant!"
 	done
 
 _MtMoon3EndBattleText2:
-	text "Urgh!"
-	line "Now I'm mad!"
+	text "Argh!"
+	line "Je suis vert!"
 	done
 
 _MtMoon3AfterBattleText2:
-	text "You made me mad!"
-	line "TEAM ROCKET will"
-	cont "blacklist you!"
+	text "Tu vas voir, toi!"
+	line "T'es sur la liste"
+	cont "noire de la"
+	cont "TEAM ROCKET!"
 	done
 
 _MtMoon3BattleText3:
-	text "We, TEAM ROCKET,"
-	line "are #MON"
-	cont "gangsters!"
+	text "Nous sommes la"
+	line "TEAM ROCKET, des"
+	cont "gangsters de"
+	cont "#MON."
 	done
 
 _MtMoon3EndBattleText3:
-	text "I blew it!"
+	text "Et zut!"
 	done
 
 _MtMoon3AfterBattleText3:
-	text "Darn it all! My"
-	line "associates won't"
-	cont "stand for this!"
+	text "Et mince! Mes"
+	line "collègues me"
+	cont "vengeront!"
 	done
 
 _MtMoon3BattleText4:
-	text "We're pulling a"
-	line "big job here!"
-	cont "Get lost, kid!"
+	text "On travaille dur"
+	line "là, va-t'en!"
 	done
 
 _MtMoon3EndBattleText4:
-	text "So, you are good."
+	text "Oh, pas mal."
 	done
 
 _MtMoon3AfterBattleText4:
-	text "If you find a"
-	line "fossil, give it"
-	cont "to me and scram!"
+	text "Si tu trouves un"
+	line "fossile, donne le"
+	cont "moi et dégage!"
 	done
 
 _MtMoon3BattleText5:
-	text "Little kids"
-	line "should leave"
-	cont "grown-ups alone!"
+	text "Les enfants"
+	line "doivent laisser"
+	cont "les adultes"
+	cont "tranquilles!"
 	done
 
 _MtMoon3EndBattleText5:
-	text "I'm steamed!"
+	text "Je suis fatigué<...>"
 	done
 
 _MtMoon3AfterBattleText5:
-	text "#MON lived"
-	line "here long before"
-	cont "people came."
+	text "Les #MON"
+	line "vivaient ici bien"
+	cont "avant les humains."
 	done
 
 MtMoonB3FRB_MapEventHeader: ; 0x1ac4af

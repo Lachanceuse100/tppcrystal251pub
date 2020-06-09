@@ -1,12 +1,12 @@
 ; BellossomPokedexEntry: ; 0x1cd69a
-	db "FLOWER@" ; species name
+	db "FLEUR@" ; species name
 	dw 104, 130 ; height, width
 
-	db   "When these dance"
-	next "together, their"
-	next "petals rub against"
-	page "each other,"
-	next "making pretty,"
-	next "relaxing sounds.@"
+	db   "Si des JOLIFLOR"
+	next "dansent ensemble,"
+	next "le frottement de"
+	page "leurs feuilles"
+	next "produit un doux"
+	next "son apaisant.@"
 ; 0x1cd705
 

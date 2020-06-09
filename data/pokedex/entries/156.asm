@@ -1,12 +1,12 @@
 ; QuilavaPokedexEntry: ; 0x1ccb33
-	db "VOLCANO@" ; species name
+	db "VOLCAN@" ; species name
 	dw 211, 420 ; height, width
 
-	db   "Before battle, it"
-	next "turns its back on"
-	next "its opponent to"
-	page "demonstrate how"
-	next "ferociously its"
-	next "fire blazes.@"
+	db   "Avant chaque com-"
+	next "bat, il tourne le"
+	next "dos et montre la"
+	page "puissance de ses"
+	next "flammes."
+	next "@"
 ; 0x1ccba0
 

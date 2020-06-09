@@ -111,133 +111,139 @@ SSAnne10BedScript:
 	end
 
 _SSAnne10Text8:
-	text "MACHOKE: Gwoh!"
-	line "Goggoh!"
+	text "MACHOPEUR: Cho!"
+	line "Macho!"
 	done
 
 _SSAnne10BattleText1:
-	text "You know what they"
-	line "say about sailors"
-	cont "and fighting!"
+	text "Tu sais ce qu'on"
+	line "dit sur les marins"
+	cont "et les duels!"
 	done
 
 _SSAnne10EndBattleText1:
-	text "Right!"
-	line "Good fight, mate!"
+	text "Ouaip!"
+	line "Bon combat!"
 	done
 
 _SSAnne10AfterBattleText1:
-	text "Haha! Want to be"
-	line "a sailor, mate?"
+	text "Haha! Tu veux"
+	line "devenir un marin?"
 	done
 
 _SSAnne10BattleText2:
-	text "My sailor's pride"
-	line "is at stake!"
+	text "Ma réputation de"
+	line "marin est en jeu!"
 	done
 
 _SSAnne10EndBattleText2:
-	text "Your spirit sank"
-	line "me!"
+	text "Ton esprit m'a"
+	line "coulé!"
 	done
 
 _SSAnne10AfterBattleText2:
-	text "Did you see the"
-	line "FISHING GURU in"
-	cont "VERMILION CITY?"
+	text "Tu as rencontré"
+	line "le maître pécheur"
+	cont "à CARMIN SUR MER?"
 	done
 
 _SSAnne10BattleText3:
-	text "Us sailors have"
-	line "#MON too!"
+	text "Les marins ont"
+	line "aussi des #MON!"
 	done
 
 _SSAnne10EndBattleText3:
-	text "OK, you're not"
-	line "bad."
+	text "T'es pas nul"
+	line "dis donc."
 	done
 
 _SSAnne10AfterBattleText3:
-	text "We caught all our"
-	line "#MON while"
-	cont "out at sea!"
+	text "Tous nos #MON"
+	line "viennent de la"
+	cont "mer!"
 	done
 
 _SSAnne10BattleText4:
-	text "I like feisty"
-	line "kids like you!@@"
+	text "J'aime les p'tits"
+	line "gars comme toi!@@"
 
 _SSAnne10EndBattleText4:
-	text "Argh! Lost it!"
+	text "Argh! J'ai perdu!"
 	done
 
 _SSAnne10AfterBattleText4:
-	text "Sea #MON live"
-	line "in deep water."
-	cont "You'll need a ROD!"
+	text "Les #MON d'eau"
+	line "vivent dans les"
+	cont "fond marins."
+
+	para "Tu auras besoin"
+	line "d'une CANNE"
 	done
 
 _SSAnne10BattleText5:
-	text "Matey, you're"
-	line "walking the plank"
-	cont "if you lose!"
+	text "Si tu perds, on"
+	line "te balanche aux"
+	cont "requins!"
 	done
 
 _SSAnne10EndBattleText5:
 	text "Argh!"
-	line "Beaten by a kid!"
+	line "Battu par toi?"
 	done
 
 _SSAnne10AfterBattleText5:
-	text "Jellyfish some-"
-	line "times drift into"
-	cont "the ship."
+	text "Il y a souvent des"
+	line "méduses entraînées"
+	cont "dans le sillage"
+	cont "du bateau."
 	done
 
 _SSAnne10BattleText6:
-	text "Hello stranger!"
-	line "Stop and chat!"
+	text "Salut l'ami!"
+	line "Parlons un peu!"
 
-	para "All my #MON"
-	line "are from the sea!"
+	para "Tout mes #MON"
+	line "viennent de"
+	cont "la mer!"
 	done
 
 _SSAnne10EndBattleText6:
-	text "Darn!"
-	line "I let that one"
-	cont "get away!"
+	text "Zut!"
+	line "Celui-là s'est"
+	cont "échappé!"
 	done
 
 _SSAnne10AfterBattleText6:
-	text "I was going to"
-	line "make you my"
-	cont "assistant too!"
+	text "J'allais faire"
+	line "de toi mon"
+	cont "assistant!"
 	done
 
 _SSAnne10Text7:
-	text "My buddy, MACHOKE,"
-	line "is super strong!"
+	text "Mon copain,"
+	line "MACHOPEUR, est"
+	cont "fort!"
 
-	para "He has enough"
-	line "STRENGTH to move"
-	cont "big rocks!"
+	para "Il a assez de"
+	line "FORCE pour bouger"
+	cont "les rochers!"
 	done
 
 _SSAnne10BedText1:
-	text "It's a comfy bed."
-	line "Let's take a nap<...>"
+	text "Un lit douillet."
+	line "Allez, dodo<...>"
 	done
 
 _SSAnne10BedText2:
-	text "<PLAYER> and his"
-	line "#MON woke up"
-	cont "feeling refreshed!"
+	text "<PLAYER> et ses"
+	line "#MON se lèvent"
+	cont "en pleine forme!"
 	done
 
 _SSAnne10BedText2F:
-	text "<PLAYER> and her"
-	line "#MON woke up"
-	cont "feeling refreshed!"
+	text "<PLAYER> et ses"
+	line "#MON se lèvent"
+	cont "en pleine forme!"
 	done
 
 SSAnne10_MapEventHeader:

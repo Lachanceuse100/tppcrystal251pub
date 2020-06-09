@@ -1,12 +1,12 @@
 ; SlowpokePokedexEntry: ; 0x1b85d3
-	db "DOPEY@" ; species name
+	db "CRETIN@" ; species name
 	dw 311, 790 ; height, width
 
-	db   "It is always so"
-	next "absent-minded that"
-	next "it won't react,"
-	page "even if its"
-	next "flavorful tail is"
-	next "bitten.@"
+	db   "Il est tellement"
+	next "paresseux qu'il"
+	next "lui faut une jour-"
+	page "nee pour remarquer"
+	next "qu'on lui mord la"
+	next "queue.@"
 ; 0x1b8635
 

@@ -2,11 +2,11 @@
 	db "DRAGON@" ; species name
 	dw 511, 70 ; height, width
 
-	db   "It sheds many lay-"
-	next "ers of skin as it"
-	next "grows larger. Dur-"
-	page "ing this process,"
-	next "it is protected by"
-	next "a rapid waterfall.@"
+	db   "En grandissant, il"
+	next "perd beaucoup de"
+	next "peau."
+	page "Il se protege"
+	next "alors derriere une"
+	next "cascade.@"
 ; 0x1cc7dc
 

@@ -1,21 +1,21 @@
 ; FlareonPokedexEntry: ; 0x1cc2ec
-	db "FLAME@" ; species name
+	db "FLAMME@" ; species name
 	dw 211, 550 ; height, width
 
 	metricdex .metric
-	db   "Once it has stored"
-	next "up enough heat,"
-	next "this #MON's"
-	page "body temperature"
-	next "can reach up to"
-	next "1700 degrees.@"
+	db   "Après avoir stocké"
+	next "suffisamment de"
+	next "chaleur, sa tempé-"
+	page "rature peut faci-"
+	next "lement atteindre"
+	next "1700 degrés.@"
 ; 0x1cc353
 
 .metric
-	db   "Once it has stored"
-	next "up enough heat,"
-	next "this #MON's"
-	page "body temperature"
-	next "can reach up to"
-	next "900 degrees.@"
+	db   "Après avoir stocké"
+	next "suffisamment de"
+	next "chaleur, sa tempé-"
+	page "rature peut faci-"
+	next "lement atteindre"
+	next "900 degrés.@"
 

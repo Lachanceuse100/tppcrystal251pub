@@ -107,7 +107,6 @@ SECTION "Map Scripts 5", ROMX
 INCLUDE "maps/Route11.asm"
 INCLUDE "maps/VioletMart.asm"
 INCLUDE "maps/VioletGym.asm"
-INCLUDE "maps/EarlsPokemonAcademy.asm"
 INCLUDE "maps/VioletNicknameSpeechHouse.asm"
 INCLUDE "maps/VioletPokeCenter1F.asm"
 INCLUDE "maps/VioletOnixTradeHouse.asm"
@@ -554,6 +553,7 @@ INCLUDE "maps/SeafoamIslandsB1F.asm"
 INCLUDE "maps/SeafoamIslandsB2F.asm"
 INCLUDE "maps/SeafoamIslandsB3F.asm"
 
+
 SECTION "Map Scripts 28", ROMX
 INCLUDE "maps/EarlyGameKanto/PalletTown.asm"
 INCLUDE "maps/EarlyGameKanto/Route1.asm"
@@ -590,6 +590,7 @@ INCLUDE "maps/EarlyGameKanto/PewterGym.asm"
 SECTION "EGK Pewter Houses Events", ROMX
 INCLUDE "maps/EarlyGameKanto/PewterSnoozeSpeechHouse.asm"
 INCLUDE "maps/EarlyGameKanto/PewterNidoranSpeechHouse.asm"
+INCLUDE "maps/EarlsPokemonAcademy.asm"
 
 SECTION "EGK Pewter Museum Events", ROMX
 INCLUDE "maps/EarlyGameKanto/PewterMuseumOfScience1F.asm"

@@ -1,12 +1,12 @@
 ; QuagsirePokedexEntry: ; 0x1d00dd
-	db "WATER FISH@" ; species name
+	db "POISSON@" ; species name
 	dw 407, 1650 ; height, width
 
-	db   "Its body is always"
-	next "slimy. It often"
-	next "bangs its head on"
-	page "the river bottom"
-	next "as it swims but"
-	next "seems not to care.@"
+	db   "Il est toujours"
+	next "gluant. Il se co-"
+	next "gne souvent la te-"
+	page "te au fond des ri-"
+	next "vieres mais semble"
+	next "s'en moquer.@"
 ; 0x1d0155
 

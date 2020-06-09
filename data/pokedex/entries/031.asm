@@ -1,12 +1,12 @@
 ; NidoqueenPokedexEntry: ; 0x18232e
-	db "DRILL@" ; species name
+	db "PERCEUR@" ; species name
 	dw 403, 1320 ; height, width
 
-	db   "The hard scales"
-	next "that cover its"
-	next "strong body serve"
-	page "as excellent"
-	next "protection from"
-	next "any attack.@"
+	db   "Son corps est cou-"
+	next "vert d'écailles le"
+	next "protégeant des"
+	page "éventuelles atta-"
+	next "ques ennemies."
+	next "@"
 ; 0x182392
 

@@ -2,11 +2,11 @@
 	db "ROYAL@" ; species name
 	dw 607, 1750 ; height, width
 
-	db   "Every time it ya-"
-	next "wns, SHELLDER"
-	next "injects more poi-"
-	page "son into it. The"
-	next "poison makes it"
-	next "more intelligent.@"
+	db   "A chaque baille-"
+	next "ment, le KOKIYAS"
+	next "lui injecte une"
+	page "dose de poison,"
+	next "ceci le rendant"
+	next "plus intelligent.@"
 ; 0x1d0301
 

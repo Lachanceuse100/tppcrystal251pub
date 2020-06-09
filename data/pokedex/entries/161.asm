@@ -1,12 +1,12 @@
 ; SentretPokedexEntry: ; 0x1ccd6b
-	db "SCOUT@" ; species name
+	db "ESPION@" ; species name
 	dw 207, 130 ; height, width
 
-	db   "When acting as a"
-	next "lookout, it warns"
-	next "others of danger"
-	page "by screeching and"
-	next "hitting the ground"
-	next "with its tail.@"
+	db   "S'il fait le guet,"
+	next "il prévient les"
+	next "autres d'un danger"
+	page "en criant et en"
+	next "frappant le sol"
+	next "de sa queue.@"
 ; 0x1ccddd
 

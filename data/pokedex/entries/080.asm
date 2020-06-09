@@ -1,12 +1,12 @@
 ; SlowbroPokedexEntry: ; 0x1b8635
-	db "HERMITCRAB@" ; species name
+	db "SYMBIOSE@" ; species name
 	dw 503, 1730 ; height, width
 
-	db   "An attached"
-	next "SHELLDER won't let"
-	next "go because of the"
-	page "tasty flavor that"
-	next "oozes out of its"
-	next "tail.@"
+	db   "Le KOKIYAS accro-"
+	next "ché à sa queue est"
+	next "friand de ce qu'il"
+	page "dévore et ne veut"
+	next "pas lacher prise."
+	next "@"
 ; 0x1b869d
 

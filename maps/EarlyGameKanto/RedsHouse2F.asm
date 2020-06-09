@@ -34,17 +34,17 @@ MapRedsHouse2FRBPCScript:
 	end
 
 RedsHouse2FRB_N64Text: ; 0x19b050
-	text "<PLAYER> played the"
+	text "<PLAYER> joue à la"
 	line "N64."
 
-	para "Better get going--"
-	line "no time to lose!"
+	para "Bon, c'est l'heure"
+	line "d'y aller!"
 	done
 ; 0x19b087
 
 RedsHouse2FRBComfyBedText:
-	text "It's a comfy bed."
-	line "No time to sleep!"
+	text "Quel lit"
+	line "comfortable<...>"
 	done
 
 RedsHouse2FRB_MapEventHeader: ; 0x19b0b9

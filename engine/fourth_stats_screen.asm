@@ -21,23 +21,23 @@ TN_PrintToD
 	jr z, .print
 	ld de, .nite
 .print
-	hlcoord 5, 9
+	hlcoord 11, 9
 	jp PlaceString
 
 .caughtat
-	db "Met@"
+	db "Rencontré@"
 
 .morn
-	db "in the morning@"
+	db "le matin@"
 
 .day
-	db "during the day@"
+	db "le jour@"
 
 .nite
-	db "at night@"
+	db "la nuit@"
 
 .unknown
-	db "at unkwn time@"
+	db "???@"
 
 TN_PrintLocation:
 	ld de, .unknown
@@ -57,10 +57,10 @@ TN_PrintLocation:
 	jp PlaceString
 
 .unknown
-	db "Unknown Location@"
+	db "Endroit inconnu@"
 
 .event
-	db "Event #MON@"
+	db "Evènement #MON@"
 
 TN_PrintLV:
 	ld a, [TempMonCaughtLevel]
@@ -76,7 +76,7 @@ TN_PrintLV:
 	call PlaceString
 	ld de, Buffer2
 	ld bc, $0103
-	hlcoord 8, 13
+	hlcoord 14, 13
 	jp PrintNum
 .hatched
 	ld de, .egg
@@ -92,16 +92,16 @@ TN_PrintLV:
 	ret
 
 .metat
-	db "Met at ", $6e, "@"
+	db "Rencontré au ", $6e, "@"
 
 .egg
-	db "Hatched from EGG@"
+	db "Eclos d'un OEUF@"
 
 .str_unknown
-	db "Given in a trade@"
+	db "Obtenu en échange@"
 
 .str_max
-	db "Met at ", $6e, "63@"
+	db "Rencontré au ", $6e, "63@"
 
 TN_PrintCharacteristics:
 	ld hl, TempMonDVs
@@ -212,48 +212,45 @@ Characteristics:
 	dw Chara_SPD0, Chara_SPD1, Chara_SPD2, Chara_SPD3, Chara_SPD4
 	dw Chara_SPE0, Chara_SPE1, Chara_SPE2, Chara_SPE3, Chara_SPE4
 
-Chara_HP0:  db "Loves to eat@"
-Chara_HP1:  db "Takes plenty of"
-	next "siestas@"
-Chara_HP2:  db "Nods off a lot@"
-Chara_HP3:  db "Scatters things"
-	next "often@"
-Chara_HP4:  db "Likes to relax@"
+Chara_HP0:  db "Aime manger@"
+Chara_HP1:  db "Fais beaucoup de"
+	next "siestes@"
+Chara_HP2:  db "Somnole beaucoup@"
+Chara_HP3:  db "Eparpille souvent"
+	next "les choses@"
+Chara_HP4:  db "Aime se relaxer@"
 
-Chara_ATK0: db "Proud of its"
-	next "power@"
-Chara_ATK1: db "Likes to thrash"
-	next "about@"
-Chara_ATK2: db "A little quick"
-	next "tempered@"
-Chara_ATK3: db "Likes to fight@"
-Chara_ATK4: db "Quick tempered@"
+Chara_ATK0: db "Fier de sa"
+	next "puissance@"
+Chara_ATK1: db "Aime tout saccager@"
+Chara_ATK2: db "A un tempérament"
+	next "un peu court@"
+Chara_ATK3: db "Aime se battre@"
+Chara_ATK4: db "Tempérament tr", $c6, "s"
+	next "court@"
+Chara_DEF0: db "Corps solide@"
+Chara_DEF1: db "Capable d'encai-"
+	next "sser les coups@"
+Chara_DEF2: db "Tr", $c6, "s persistant@"
+Chara_DEF3: db "Bonne endurance@"
+Chara_DEF4: db "Bonne perséverance@"
 
-Chara_DEF0: db "Sturdy body@"
-Chara_DEF1: db "Capable of taking"
-	next "hits@"
-Chara_DEF2: db "Highly persistent@"
-Chara_DEF3: db "Good endurance@"
-Chara_DEF4: db "Good perseverance@"
+Chara_SPA0: db "Tr", $c6, "s curieux@"
+Chara_SPA1: db "Malicieux@"
+Chara_SPA2: db "Vraiment rusé@"
+Chara_SPA3: db "Souvent perdu dans"
+	next "ses pensées@"
+Chara_SPA4: db "Capricieux@"
 
-Chara_SPA0: db "Highly curious@"
-Chara_SPA1: db "Mischievous@"
-Chara_SPA2: db "Thoroughly"
-	next "cunning@"
-Chara_SPA3: db "Often lost in"
-	next "thought@"
-Chara_SPA4: db "Very finicky@"
+Chara_SPD0: db "Forte volonté@"
+Chara_SPD1: db "Un peu vain@"
+Chara_SPD2: db "Fortement rebelle@"
+Chara_SPD3: db "Déteste perdre@"
+Chara_SPD4: db "Un peu têtu@"
 
-Chara_SPD0: db "Strong willed@"
-Chara_SPD1: db "Somewhat vain@"
-Chara_SPD2: db "Strongly defiant@"
-Chara_SPD3: db "Hates to lose@"
-Chara_SPD4: db "Somewhat stubborn@"
-
-Chara_SPE0: db "Likes to run@"
-Chara_SPE1: db "Alert to sounds@"
-Chara_SPE2: db "Impetuous and"
-	next "silly@"
-Chara_SPE3: db "Somewhat of a"
-	next "clown@"
-Chara_SPE4: db "Quick to flee@"
+Chara_SPE0: db "Aime courir@"
+Chara_SPE1: db "Attentif aux sons@"
+Chara_SPE2: db "Impetueux et"
+	next "bete@"
+Chara_SPE3: db "Un peu un clown@"
+Chara_SPE4: db "Fuit rapidement@"

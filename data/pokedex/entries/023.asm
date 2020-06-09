@@ -1,12 +1,12 @@
 ; EkansPokedexEntry: ; 0x181fd4
-	db "SNAKE@" ; species name
+	db "SERPENT@" ; species name
 	dw 607, 150 ; height, width
 
-	db   "It flutters the"
-	next "tip of its tongue"
-	next "to seek out the"
-	page "scent of prey,"
-	next "then swallows the"
-	next "prey whole.@"
+	db   "Il agite le bout"
+	next "de sa langue pour"
+	next "sentir sa proie"
+	page "avant de l'avaler"
+	next "toute entiere."
+	next "@"
 ; 0x18203d
 

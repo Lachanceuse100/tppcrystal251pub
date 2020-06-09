@@ -1,211 +1,213 @@
 ElmPhoneStartText: ; 0x1b46fc
-	text "Hello, ", $14, "?"
+	text "Bonjour, ", $14, "?"
 
-	para "Try not to overdo"
-	line "it."
+	para "Ne te surmène pas!"
 
-	para "Be sure to heal"
-	line "your #MON if"
-	cont "they are hurt."
+	para "Veille a guérir"
+	line "ton #MON si il"
+	cont "est blessé."
 	done
 
 ElmPhoneSawMrPokemonText: ; 0x1b4749
-	text "Hello, ", $14, "?"
+	text "Bonjour, ", $14, "?"
 
-	para "Did you meet MR."
-	line "#MON? Great!"
-	cont "Come back safely!"
+	para "Tu as rencontré M."
+	line "#MON? Super!"
+	cont "Reviens vite!"
 	done
 
 ElmPhonePokemonStolenText: ; 0x1b4784
-	text $14, "? I'm very"
-	line "upset now."
+	text $14, "? je suis"
+	line "contrarié<...>"
 
-	para "We had a #MON"
-	line "stolen from here."
+	para "Un #MON nous a"
+	line "été volé!"
 
-	para "How could anyone"
-	line "do that?"
+	para "Comment quelqu'un"
+	line "peut-il faire ça?"
 	done
 
 ElmPhoneCheckingEggText: ; 0x1b47d5
-	text "Hello, ", $14, "?"
+	text "Bonjour, ", $14, "?"
 
-	para "We're checking the"
-	line "EGG now. It does"
+	para "Nous sommes en tr-"
+	line "ain d'étudier l'"
+	cont "l'OEUF"
 
-	para "appear to be a"
-	line "#MON EGG."
+	para "On dirait un OEUF"
+	line "de #MON."
 	done
 
 ElmPhoneAssistantText: ; 0x1b481c
-	text "Hello, ", $14, "?"
+	text "Bonjour, ", $14, "?"
 
-	para "Did you see my"
-	line "assistant? He's at"
+	para "As-tu vu mon assi-"
+	line "stant? Il est au"
 
-	para "the #MON CENTER"
-	line "in VIOLET CITY."
+	para "Centre #MON de"
+	line "MAUVILLE."
 	done
 
 ElmPhoneEggUnhatchedText: ; 0x1b4868
-	text "Hello, ", $14, "?"
+	text "Bonjour, ", $14, "?"
 
-	para "How's the EGG? Has"
-	line "anything changed?"
+	para "Comment va l'OEUF?"
+	line "quelque chose a"
+	cont "changé?"
 
-	para "If anything hap-"
-	line "pens, please call."
+	para "Si quoi que ce"
+	line "soit se produit,"
+	cont "appelle-moi!"
 	done
 
 ElmPhoneEggHatchedText: ; 0x1b48bb
-	text "Hello, ", $14, "?"
-	line "How is the EGG?"
+	text "Bonjour, ", $14, "?"
+	line "Comment va l'OEUF?"
 
-	para "What? It hatched?"
-	line "Wow! What kind of"
-	cont "#MON is it?"
+	para "Quoi ? Il a éclot?"
+	line "Quel genre de"
+	cont "#MON est-ce?"
 
-	para "Please come show"
-	line "me now!"
+	para "Pourrais-tu venir"
+	line "me le montrer?"
 	done
 
 ElmPhoneDiscovery1Text: ; 0x1b491f
-	text "Hello, ", $14, "?"
+	text "Bonjour, ", $14, "?"
 
-	para "I just made a new"
-	line "discovery."
+	para "J'ai fait une nou-"
+	line "velle découverte."
 
-	para "The time it takes"
-	line "for an EGG to"
-
-	para "hatch depends on"
-	line "the #MON."
+	para "Le temps pour qu'"
+	line "un OEUF éclot dé-"
+	cont "pend du #MON."
 	done
 
 ElmPhoneDiscovery2Text: ; 0x1b4982
-	text "Hello, ", $14, "?"
+	text "Bonjour, ", $14, "?"
 
-	para "It's still a"
-	line "mystery what kinds"
+	para "C'est encore un"
+	line "mystère le type de"
 
-	para "of moves hatched"
-	line "#MON have."
+	para "capacité qu'un"
+	line "#MON éclot pos-"
+	cont "sède."
 
-	para "We're investigat-"
-	line "ing that now."
+	para "Nous continuons"
+	line "d'enquêter"
 	done
 
 ElmPhonePokerusText: ; 0x1b49e7
-	text "Hello, ", $14, "?"
+	text "Bonjour, ", $14, "?"
 
-	para "I discovered an"
-	line "odd thing."
+	para "J'ai découvert un"
+	line "truc étrange."
 
-	para "Apparently there's"
-	line "something called"
+	para "Apparemment, un"
+	line "organisme appelé"
 
-	para "#RUS that in-"
-	line "fects #MON."
+	para "#RUS infecte-"
+	line "rait les #MON."
 
-	para "Yes, it's like a"
-	line "virus, so it's"
-	cont "called #RUS."
+	para "Oui, c'est comme"
+	line "un virus, donc on"
+	cont "l'appelle #RUS."
 
-	para "It multiplies fast"
-	line "and infects other"
+	para "Il se multiplie et"
+	line "infecte d'autres"
 
-	para "#MON too. But"
-	line "that's all."
+	para "#MON aussi."
+	line "Mais c'est tout."
 
-	para "It doesn't seem to"
-	line "do anything, and"
+	para "Il ne semble pas"
+	line "nocif et s'en va"
+	cont "avec le temps."
 
-	para "it goes away over"
-	line "time."
+	para "Je ne crois pas"
+	line "que l'on doit s'en"
+	cont "inquiéter."
 
-	para "I guess it's"
-	line "nothing to worry"
-	cont "about. Bye!"
+	para "Au revoir!"
 	done
 
 ElmPhoneDisasterText: ; 0x1b4b17
-	text "H-hello? ", $14, "?"
-	line "It's a disaster!"
+	text "A-allo? ", $14, "?"
+	line "C'est un désastre!"
 
-	para "Uh, um, it's just"
+	para "Euh, hum, C'est<...>"
 	line "terrible!"
 
-	para "What should I do?"
-	line "It<...> Oh, no<...>"
+	para "Que dois-je faire?"
+	line "Il<...> Oh, non<...>"
 
-	para "Please get back"
-	line "here now!"
+	para "Reviens vite s'il"
+	line "te plait!"
 	done
 
 ElmPhoneEggAssistantText: ; 0x1b4b87
-	text "Hello, ", $14, "? We"
-	line "discovered some-"
+	text "Bonjour, ", $14, "?"
+	line "Nous avons décou-"
 
-	para "thing about the"
-	line "EGG!"
+	para "vert quelque"
+	line "chose sur l'OEUF!"
 
-	para "My assistant is at"
-	line "the #MON CENTER"
+	para "Mon assistant est"
+	line "au centre #MON"
 
-	para "in VIOLET CITY. "
-	line "Could you talk to"
-	cont "him?"
+	para "à MAUVILLE."
+	line "Peux-tu aller lui"
+	cont "parler?"
 	done
 
 ElmPhoneRocketText: ; 0x1b4c06
-	text $14, ", how are"
-	line "things going?"
+	text $14, ", comment"
+	line "vas-tu?"
 
-	para "I called because"
-	line "something weird is"
+	para "Je t'appelle à"
+	line "cause des choses"
 
-	para "happening with the"
-	line "radio broadcasts."
+	para "étranges diffusées"
+	line "a la radio.."
 
-	para "They were talking"
-	line "about TEAM ROCKET."
+	para "Ils parlent de la"
+	line "TEAM ROCKET."
 
-	para $14, ", do you"
-	line "know anything"
-	cont "about it?"
+	para $14, ", tu en"
+	line "sais quelque"
+	cont "chose?"
 
-	para "Maybe TEAM ROCKET"
-	line "has returned. No,"
+	para "Elle est peut-être"
+	line "revenue<...>"
 
-	para "that just can't"
-	line "be true."
+	para "Non, ce n'est pas"
+	line "possible."
 
-	para "Sorry to bug you."
-	line "Take care!"
+	para "Pardon de te dé-"
+	line "ranger."
+	cont "Fais attention!"
 	done
 
 ElmPhoneGiftText: ; 0x1b4d09
-	text "Hello, ", $14, "?"
+	text "Bonjour, ", $14, "?"
 
-	para "I have something"
-	line "here for you."
+	para "J'ai quelque chose"
+	line "pour toi."
 
-	para "Could you swing by"
-	line "my LAB?"
+	para "Peux-tu passer par"
+	line "mon LABO?"
 
-	para "See you later!"
+	para "A plus tard!"
 	done
 
 ElmPhoneUnusedText: ; 0x1b4d5d
-	text "Hello, ", $14, "?"
-	line "How's it going?"
+	text "Bonjour, ", $14, "?"
+	line "Comment vas-tu?"
 
-	para "I got ahold of"
-	line "something neat."
+	para "J'ai reçu quelque"
+	line "chose de sympa."
 
-	para "Swing by my LAB"
-	line "and pick it up!"
+	para "Passe au LABO le"
+	line "récupérer!"
 
-	para "See you later!"
+	para "A plus tard!"
 	done

@@ -1,12 +1,12 @@
 ; WooperPokedexEntry: ; 0x1d0078
-	db "WATER FISH@" ; species name
+	db "POISSON@" ; species name
 	dw 104, 190 ; height, width
 
-	db   "A mucous"
-	next "membrane covers"
-	next "its body. Touching"
-	page "it barehanded will"
-	next "cause a shooting"
-	next "pain.@"
+	db   "Il est recouvert"
+	next "d'une membrane"
+	next "qui, à son seul"
+	page "contact, provoque"
+	next "une terrible dou-"
+	next "leur.@"
 ; 0x1d00dd
 

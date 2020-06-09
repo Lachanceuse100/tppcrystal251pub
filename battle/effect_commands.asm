@@ -6614,14 +6614,14 @@ GetStatName:
 	jp CopyBytes
 
 .names
-	db "ATTACK@"
+	db "ATTAQUE@"
 	db "DEFENSE@"
-	db "SPEED@"
-	db "SPCL.ATK@"
-	db "SPCL.DEF@"
-	db "ACCURACY@"
-	db "EVASION@"
-	db "ABILITY@"
+	db "VITESSE@"
+	db "ATQ. SPE@"
+	db "DEF. SPE@"
+	db "PRECISION@"
+	db "ESQUIVE@"
+	db "STATS"
 
 Table0x364e6:
 	db 25, 100

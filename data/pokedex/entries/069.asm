@@ -1,12 +1,12 @@
 ; BellsproutPokedexEntry: ; 0x1b81a1
-	db "FLOWER@" ; species name
+	db "FLEUR@" ; species name
 	dw 204, 90 ; height, width
 
-	db   "If it notices"
-	next "anything that"
-	next "moves, it"
-	page "immediately flings"
-	next "its vine at the"
-	next "object.@"
+	db   "S'il repere quel-"
+	next "que chose en mou-"
+	next "vement, il lance"
+	page "immédiatement ses"
+	next "lianes dans cette"
+	next "direction.@"
 ; 0x1b81fd
 

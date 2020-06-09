@@ -69,9 +69,9 @@ FanClubChairmanScriptRB: ; 0x1917e9
 .MenuData2: ; 0xbce5c
 	db $81 ; flags
 	db 3 ; items
-	db "FIRE STONE@"
-	db "WATER STONE@"
-	db "THUNDERSTONE@"
+	db "PIERRE FEU@"
+	db "PIERRE EAU@"
+	db "PIERREFOUDRE@"
 ; 0xbce7f
 
 
@@ -141,30 +141,31 @@ MapPokemonFanClubRBSignpost1Script: ; 0x19187e
 ; 0x191881
 
 PikachuFanText:
-	text "Won't you admire"
-	line "my PIKACHU's"
-	cont "adorable tail?"
+	text "Admire donc la"
+	line "queue de mon"
+	cont "PIKACHU."
 	done
 
 PikachuFanBetterText:
-	text "Humph! My PIKACHU"
-	line "is twice as cute"
-	cont "as that one!"
+	text "Humph! Mon PIKACHU"
+	line "est deux fois"
+	cont "plus mignon!"
 	done
 
 SeelFanText:
-	text "I just love my"
-	line "SEEL!"
+	text "J'adore mon"
+	line "OTARIA!"
 
-	para "It squeals when I"
-	line "hug it!"
+	para "Il couine quand je"
+	line "le câline!"
 	done
 
 SeelFanBetterText:
-	text "Oh dear!"
+	text "Oh, mon cher!"
 
-	para "My SEEL is far"
-	line "more attractive!"
+	para "Mon OTARIA est"
+	line "bien plus"
+	cont "attractif!"
 	done
 
 FanClubPikachuText:
@@ -173,117 +174,121 @@ FanClubPikachuText:
 	done
 
 FanClubSeelText:
-	text "SEEL: Kyuoo!"
+	text "OTARIA: Riaaa!"
 	done
 
 FanClubMeetChairText:
-	text "I chair the"
-	line "#MON Fan Club!"
+	text "Je suis le prési-"
+	line "dent du fan club"
+	cont "#MON."
 
-	para "I have collected"
-	line "over 100 #MON!"
+	para "J'ai collectionné"
+	line "plus de 100"
+	cont "#MON."
 
-	para "I'm very fussy"
-	line "when it comes to"
-	cont "#MON!"
+	para "Je suis très"
+	line "tatillon quand"
+	cont "il s'agit de"
+	cont "#MON."
 
-	para "So<...>"
+	para "Alors<...>"
 
-	para "Did you come"
-	line "visit to hear"
-	cont "about my #MON?"
+	para "Es-tu venu m'écou-"
+	line "ter parler de"
+	cont "#MON?"
 	done
 
 FanClubChairStoryText:
-	text "Good!"
-	line "Then listen up!"
+	text "Bien!"
+	line "Alors écoute!"
 
-	para "My favorite"
-	line "RAPIDASH<...>"
+	para "Mon favori,"
+	line "GALOPA<...>"
 
-	para "It<...> cute<...>"
-	line "lovely<...> smart<...>"
-	cont "plus<...> amazing<...>"
-	cont "you think so?<...>"
-	cont "oh yes<...> it<...>"
-	cont "stunning<...>"
-	cont "kindly<...>"
-	cont "love it!"
+	para "Il est mignon<...>"
+	line "beau<...> rapide<...>"
+	cont "élégant<...> en feu<...>"
+	cont "Il fait pataclop,"
+	cont "pataclop<...> quand"
+	cont "il court<...> c'est"
+	cont "super non?"
+	cont "Je l'aime!"
 
-	para "Hug it<...> when<...>"
-	line "sleeping<...> warm"
-	cont "and cuddly<...>"
-	cont "spectacular<...>"
-	cont "ravishing<...>"
+	para "Je lui fais<...> des"
+	line "câlins<...> des"
+	cont "bisous<...> des"
+	cont "gnangnans<...> des"
+	cont "zigouzigoux<...>"
 
-	para "<...> Oops! Look at"
-	line "the time! I kept"
-	cont "you too long!"
+	para "<...> Oups! Regarde"
+	line "l'heure! Je t'ai"
+	cont "trop retenu!"
 
-	para "Thanks for hearing"
-	line "me out! I want"
-	cont "you to have this!"
+	para "Merci de m'avoir"
+	line "écouté. Tiens,"
+	cont "tu peux avoir ça!"
 
-	para "Actually, there"
-	line "are three to pick"
-	cont "from."
+	para "En fait, il faut"
+	line "en choisir un"
+	cont "parmi les trois."
 
-	para "Go on, choose!"
+	para "Choisis donc!"
 	done
 
 ExplainStoneText:
-	text "That stone has"
-	line "amazing powers."
+	text "Cette pierre à de"
+	line "sacré pouvoirs!"
 
-	para "Some #MON will"
-	line "evolve when ex-"
-	cont "posed to it."
+	para "Certains #MON"
+	line "évolueront si ils"
+	cont "y sont exposés."
 
-	para "It's a valuable"
-	line "asset for any"
-	cont "#MON collector!"
+	para "C'est un atout"
+	line "pour un collec-"
+	cont "tionneur!"
 	done
 
 FanClubNoStoryText:
-	text "Oh. Come back"
-	line "when you want to"
-	cont "hear my story!"
+	text "Oh. Reviens si tu"
+	line "veux entendre d'"
+	cont "autres histoires!"
 	done
 
 FanClubChairFinalText:
-	text "Hello, <PLAYER>!"
+	text "Bonjour, <PLAYER>!"
 
-	para "Did you come see"
-	line "me about my"
-	cont "#MON again?"
+	para "Tu reviens"
+	line "m'entendre parler"
+	cont "de #MON?"
 
-	para "No? Too bad!"
+	para "Non? Dommage!"
 	done
 
 FanClubChairTryAgainItemText:
 	text "Ah, <PLAYER>!"
 
-	para "Have you made room"
-	line "for my gift?"
+	para "As-tu de la place"
+	line "pour mon cadeau?"
 
-	para "Go on, choose!"
+	para "Allez, choisis!"
 	done
 
 _FanClubText6:
-	text "Our Chairman is"
-	line "very vocal about"
+	text "Notre président"
+	line "adore parler de"
 	cont "#MON."
 	done
 
 _FanClubText7:
-	text "Let's all listen"
-	line "politely to other"
-	cont "trainers!"
+	text "Ecoutons poliment"
+	line "les autres"
+	cont "dresseurs!"
 	done
 
 _FanClubText8:
-	text "If someone brags,"
-	line "brag right back!"
+	text "Si quelqu'un se"
+	line "vante, vante toi"
+	cont "en retour!"
 	done
 
 

@@ -1,12 +1,12 @@
 ; SpinarakPokedexEntry: ; 0x1cd012
-	db "STRINGSPIT@" ; species name
+	db "CRACHE FIL@" ; species name
 	dw 108, 190 ; height, width
 
-	db   "If prey becomes"
-	next "ensnared in its"
-	next "nest of spun"
-	page "string, it waits"
-	next "motionlessly until"
-	next "it becomes dark.@"
+	db   "Si une proie se"
+	next "fait piéger dans"
+	next "sa toile, il reste"
+	page "immobile et attend"
+	next "calmement la tom-"
+	next "bée de la nuit.@"
 ; 0x1cd083
 

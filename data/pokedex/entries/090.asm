@@ -2,11 +2,11 @@
 	db "BIVALVE@" ; species name
 	dw 100, 90 ; height, width
 
-	db   "Clamping on to an"
-	next "opponent reveals"
-	next "its vulnerable"
-	page "parts, so it uses"
-	next "this move only as"
-	next "a last resort.@"
+	db   "Il se referme sur"
+	next "un ennemi pour at-"
+	next "taquer mais ceci"
+	page "le rend vulnérable"
+	next "et il ne le fait"
+	next "que rarement.@"
 ; 0x1b8ad9
 

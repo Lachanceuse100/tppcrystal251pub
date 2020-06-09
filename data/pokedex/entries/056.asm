@@ -1,12 +1,12 @@
 ; MankeyPokedexEntry: ; 0x182dbd
-	db "PIG MONKEY@" ; species name
+	db "PORSINGE@" ; species name
 	dw 108, 620 ; height, width
 
-	db   "It lives in groups"
-	next "in the treetops."
-	next "If it loses sight"
-	page "of its group, it"
-	next "becomes infuriated"
-	next "by its loneliness.@"
+	db   "Il vit en groupe"
+	next "au sommet des ar-"
+	next "bres. S'il se re-"
+	page "trouve seul, sa"
+	next "solitude le rends"
+	next "alors furieux.@"
 ; 0x182e39
 

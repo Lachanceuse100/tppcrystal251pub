@@ -23,31 +23,33 @@ PewterNidoranSpeechHouseRBUnusedGuyScript:
 	jumptextfaceplayer _PewterHouse1Text3
 
 _PewterHouse1Text2:
-	text "NIDORAN, shake!"
+	text "NIDORAN, assis!"
 	done
 
 
 _PewterHouse1Text1:
-	text "NIDORAN: Gau gau!"
+	text "NIDORAN: Nidoni!"
 	done
 
 
 _PewterHouse1Text3:
-	text "Our #MON's an"
-	line "outsider, so it's"
-	cont "hard to handle."
+	text "Notre #MON est"
+	line "un échangé, il est"
+	cont "difficile à"
+	cont "maîtriser!"
 
-	para "An outsider is a"
-	line "#MON that you"
-	cont "get in a trade."
+	para "Un échangé est un"
+	line "#MON échangé"
+	cont "avec un dresseur."
 
-	para "It grows fast, but"
-	line "it may ignore an"
-	cont "unskilled trainer"
-	cont "in battle!"
+	para "Il grandit vite"
+	line "mais il ignore les"
+	cont "commandes d'un"
+	cont "dresseur non"
+	cont "expérimenté."
 
-	para "If only we had"
-	line "some BADGEs<...>"
+	para "Si seulement nous"
+	line "avions des BADGES<...>"
 	done
 
 

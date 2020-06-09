@@ -1,12 +1,12 @@
 ; BlastoisePokedexEntry: ; 0x1819f9
-	db "SHELLFISH@" ; species name
+	db "CARAPACE@" ; species name
 	dw 503, 1890 ; height, width
 
-	db   "It firmly plants"
-	next "its feet on the"
-	next "ground before"
-	page "shooting water"
-	next "from the jets on"
-	next "its back.@"
+	db   "Il enfonce bien"
+	next "ses pattes dans le"
+	next "sol avant de pro-"
+	page "pulser ses jets"
+	next "d'eau avec les"
+	next "canon de son dos.@"
 ; 0x181a60
 

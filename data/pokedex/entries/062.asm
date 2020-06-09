@@ -1,12 +1,12 @@
 ; PoliwrathPokedexEntry: ; 0x183066
-	db "TADPOLE@" ; species name
+	db "TETARD@" ; species name
 	dw 403, 1190 ; height, width
 
-	db   "It can use its"
-	next "well-developed"
-	next "arms and legs to"
-	page "run on the surface"
-	next "of the water for a"
-	next "split second.@"
+	db   "Il peut, grace à"
+	next "ses puissant mem-"
+	next "bres, courir à la"
+	page "surface de l'eau"
+	next "pendant une demi-"
+	next "seconde.@"
 ; 0x1830d5
 

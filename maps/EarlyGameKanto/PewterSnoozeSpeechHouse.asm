@@ -18,23 +18,28 @@ MapPewterSnoozeSpeechHouseRBSignpost1Script: ; 0x1a305c
 ; 0x1a305f
 
 _PewterHouse2Text1:
-	text "#MON learn new"
-	line "techniques as"
-	cont "they grow!"
+	text "En grandissant,"
+	line "les #MON"
+	cont "apprennent"
+	cont "d'autres"
+	cont "capacités."
 
-	para "But, some moves"
-	line "must be taught by"
-	cont "the trainer!"
+	para "Mais certaines"
+	line "doivent être en-"
+	cont "seignées par le"
+	cont "dresseur!"
 	done
 
 _PewterHouse2Text2:
-	text "#MON become"
-	line "easier to catch"
-	cont "when they are"
-	cont "hurt or asleep!"
+	text "Les #MON sont"
+	line "plus faciles à"
+	cont "attraper une fois"
+	cont "endormis ou"
+	cont "blessés"
 
-	para "But, it's not a"
-	line "sure thing!"
+	para "Mais la capture"
+	line "n'est pas"
+	cont "garantie!"
 	done
 
 PewterSnoozeSpeechHouseRB_MapEventHeader: ; 0x1a308a

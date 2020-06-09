@@ -127,112 +127,107 @@ MapRoute22RBSignpost0Script:
 	jumptext _Route22FrontGateText
 
 _Route22RivalBeforeBattleText1::
-	text "<GREEN>: Hey-ya!"
+	text "<GREEN>: Salut!"
 	line "<PLAYER>!"
 
-	para "Seems like you're"
-	line "going to the"
-	cont "#MON LEAGUE."
+	para "Tu essaies d'aller"
+	line "à la LIGUE"
+	cont "#MON?"
 
-	para "Well, forget it!"
-	line "You don't have"
-	cont "any BADGEs!"
+	para "Oublie, t'as pas"
+	line "de BADGES!"
 
-	para "The guard won't"
-	line "let you through!"
+	para "Le garde te"
+	line "laissera pas"
+	cont "passer!"
 
-	para "That guard won't"
-	line "let anybody"
-	cont "through without"
-	cont "BADGEs!"
+	para "Ce garde ne laisse"
+	line "passer personne"
+	cont "sans BADGES!"
 
-	para "By the way, did"
-	line "you make your"
-	cont "#MON any"
-	cont "stronger?"
+	para "Au fait, ou en"
+	line "sont tes #MON?"
 	done
 
 _Route22RivalAfterBattleText1::
-	text "I've been hearin'"
-	line "that the #MON"
-	cont "LEAGUE has a lot"
-	cont "of elite trainers!"
+	text "J'ai entendu que"
+	line "la ligue #MON"
+	cont "renferme les"
+	cont "dresseurs d'élite."
 
-	para "I just gotta"
-	line "figure out how to"
-	cont "beat 'em!"
+	para "Je dois trouver"
+	line "comment les"
+	cont "battre."
 
-	para "You should stop"
-	line "standing around"
-	cont "and get going!"
+	para "Tu devrais arrêter"
+	line "de rester la et"
+	cont "y aller."
 	done
 
 _Route22RivalDefeatedText1::
-	text "<GREEN>: Ugh!"
-	line "You just got"
-	cont "lucky is all<...>"
+	text "<GREEN>: Bah!"
+	line "T'as juste eu de"
+	cont "la chance<...>"
 	done
 
 _Route22RivalLossText:
-	text "<GREEN>: Aw yeah!"
-	line "I'm good at this!"
+	text "<GREEN>: Ouais!"
+	line "Je suis trop fort"
+	cont "ou quoi?"
 	done
 
 _Route22RivalBeforeBattleText1F::
-	text "<GREEN>: Oh, hi"
-	line "there <PLAYER>!"
+	text "<GREEN>: Oh,"
+	line "salut <PLAYER>!"
 
-	para "Are you going"
-	line "towards the"
-	cont "#MON LEAGUE?"
+	para "Tu vas vers la"
+	line "LIGUE #MON?"
 
-	para "I hate to disap-"
-	line "point you, but<...>"
-	cont "Don't bother."
+	para "Je ne veux pas te"
+	line "décevoir mais<...>"
+	cont "Fais demi-tour."
 
-	para "They won't let you"
-	line "in without any"
-	cont "BADGEs<...>"
+	para "Personne ne passe"
+	line "sans BADGES<...>"
 
-	para "By the way, have"
-	line "you taken good"
-	cont "care of your"
+	para "Au fait, tu as"
+	line "pris soin de tes"
 	cont "#MON?"
 	done
 
 _Route22RivalAfterBattleText1F::
-	text "I've heard a lot"
-	line "of things about"
-	cont "the #MON"
-	cont "LEAGUE<...>"
+	text "J'ai entendu"
+	line "beaucoup de choses"
+	cont "sur la ligue"
+	cont "#MON<...>"
 
-	para "There are a lot of"
-	line "powerful trainers"
-	cont "up there."
+	para "Il y a des"
+	line "dresseurs puissant"
+	cont "là bas."
 
-	para "I'd really like to "
-	line "see their battling"
-	cont "techniques<...>"
+	para "J'aimerais voir"
+	line "leurs techniques"
+	cont "de combat<...>"
 
-	para "Oh, excuse me."
-	line "I'll be on my way."
+	para "Oh, Pardon."
+	line "Je continue mon"
+	cont "chemin."
 	done
 
 _Route22RivalDefeatedText1F::
-	text "<GREEN>: Oh<...>"
-	line "not bad at all."
+	text "<GREEN>: <...>"
+	line "Pas mal!"
 	done
 
 _Route22RivalLossTextF:
-	text "<GREEN>: Oh<...> I'm"
-	line "sorry. I should've"
-	cont "gone easier on"
-	cont "you<...>"
+	text "<GREEN>: Oh<...>"
+	line "J'aurais du y"
+	cont "aller moins fort<...>"
 	done
 
 _Route22FrontGateText::
-	text "#MON LEAGUE"
-	line "Front Gate"
+	text "LIGUE #MON!"
+	line "Entrée principale."
 	done
 
 Route22RB_MapEventHeader:

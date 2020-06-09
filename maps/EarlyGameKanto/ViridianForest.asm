@@ -89,146 +89,152 @@ MapViridianForestRBSignpost5Script:
 	jumptext ViridianForestRBSignpostText6
 
 _ViridianForestText1: ; 8031d (20:431d)
-	text "I came here with"
-	line "some friends!"
+	text "Je suis là avec"
+	line "des amis!"
 
-	para "They're out for"
-	line "#MON fights!"
+	para "Ils font des"
+	line "combats #MON!"
 	done
 
 BugCatcherRickSeenText: ; 80359 (20:4359)
-	text "Hey! You have"
-	line "#MON! Come on!"
-	cont "Let's battle 'em!"
+	text "Hé! Tu as des"
+	line "#MON! Allez!"
+	cont "Faisons-les"
+	cont "combattre!"
 	done
 
 BugCatcherRickBeatenText: ; 80387 (20:4387)
-	text "No!"
-	line "CATERPIE can't"
-	cont "cut it!"
+	text "Non! CHENIPAN"
+	line "n'y arrivera"
+	cont "pas!"
 	done
 
 BugCatcherRickAfterText: ; 803a2 (20:43a2)
-	text "Ssh! You'll scare"
-	line "the bugs away!"
+	text "Chut! Tu vas faire"
+	line "fuir les insectes!"
 	done
 
 BugCatcherDougSeenText: ; 803c3 (20:43c3)
-	text "Yo! You can't jam"
-	line "out if you're a"
-	cont "#MON trainer!"
+	text "Yo! Tu peux pas te"
+	line "défiler si t'es un"
+	cont "dresseur #MON!"
 	done
 
 BugCatcherDougBeatenText: ; 803f2 (20:43f2)
-	text "Huh?"
-	line "I ran out of"
+	text "Hein?"
+	line "J'ai plus de"
 	cont "#MON!"
 	done
 
 BugCatcherDougAfterText: ; 8040b (20:440b)
-	text "Darn! I'm going"
-	line "to catch some"
-	cont "stronger ones!"
+	text "Mince! Je vais en"
+	line "attraper des"
+	cont "plus forts!"
 	done
 
 BugCatcherChuckSeenText:
-	text "Bug #MON are"
-	line "great! They get"
-	cont "strong quickly!"
+	text "Les #MON"
+	line "INSECTE évoluent"
+	cont "super rapidement!"
 	done
 
 BugCatcherChuckBeatenText:
-	text "Your #MON are"
-	line "even stronger!"
+	text "Tes #MON sont"
+	line "encore plus fort!"
 	done
 
 BugCatcherChuckAfterText:
-	text "If your #MON"
-	line "evolve too early,"
+	text "Si tes #MON"
+	line "évoluent trop tôt,"
 
-	para "they may miss out"
-	line "on experience from"
-	cont "their last form."
+	para "Ils peuvent rater"
+	line "de l'expérience de"
+	cont "leur forme"
+	cont "précédente"
 	done
 
 BugCatcherSammySeenText: ; 80438 (20:4438)
-	text "Hey, wait up!"
-	line "What's the hurry?"
+	text "Hé, attends!"
+	line "Soit pas pressé!"
 	done
 
 BugCatcherSammyBeatenText: ; 80458 (20:4458)
-	text "I give! You're good"
-	line "at this!"
+	text "J'abandonne, t'es"
+	line "trop fort!"
 	done
 
 BugCatcherSammyAfterText: ; 80475 (20:4475)
-	text "Sometimes, you"
-	line "can find stuff on"
-	cont "the ground!"
+	text "Parfois, on trouve"
+	line "des trucs au sol!"
 
-	para "I'm looking for"
-	line "the stuff I"
-	cont "dropped!"
+	para "Je cherche ce"
+	line "que j'ai perdu!"
 	done
 
 _ViridianForestText8: ; 804c7 (20:44c7)
-	text "I ran out of #"
-	line "BALLs to catch"
-	cont "#MON with!"
+	text "Je n'ai plus de"
+	line "# BALL pour"
+	cont "capturer les"
+	cont "#MON."
 
-	para "You should carry"
-	line "extras!"
+	para "Tu devrais tou-"
+	line "jours en avoir en"
+	cont "réserve!"
 	done
 
 ViridianForestRBSignpostText1:
-	text "TRAINER TIPS"
+	text "ASTUCE"
 
-	para "Weaken #MON"
-	line "before attempting"
+	para "Affaiblissez les"
+	line "#MON avant"
+	cont "de tenter une"
 	cont "capture!"
 
-	para "When healthy,"
-	line "they may escape!"
+	para "Les #MON en"
+	line "pleine forme peu-"
+	cont "vent se libérer!"
 	done
 
 ViridianForestRBSignpostText2:
-	text "For poison, use"
-	line "ANTIDOTE! Get it"
-	cont "at #MON MARTs!"
+	text "Contre le poison,"
+	line "achetez des"
+	cont "ANTIDOTE à la"
+	cont "boutique #MON."
 	done
 
 ViridianForestRBSignpostText3:
-	text "TRAINER TIPS"
+	text "ASTUCE"
 
-	para "If you want to"
-	line "avoid battles,"
-	cont "stay away from"
-	cont "grassy areas!"
+	para "Pour éviter les"
+	line "combats, éloignez"
+	cont "vous des hautes"
+	cont "herbes!"
 	done
 
 ViridianForestRBSignpostText4:
-	text "TRAINER TIPS"
+	text "ASTUCE"
 
-	para "Contact PROF.OAK"
-	line "via PC to get"
-	cont "your #DEX"
-	cont "evaluated!"
+	para "Contacter le PROF."
+	line "CHEN avec le PC"
+	cont "pour faire évaluer"
+	cont "votre #DEX!"
 	done
 
 ViridianForestRBSignpostText5:
-	text "TRAINER TIPS"
+	text "ASTUCE"
 
-	para "No stealing of"
-	line "#MON from"
-	cont "other trainers!"
-	cont "Catch only wild"
-	cont "#MON!"
+	para "Ne volez pas les"
+	line "#MON des autres"
+	cont "dresseurs!"
+	cont "Capturez seulement"
+	cont "les #MON"
+	cont "sauvages!"
 	done
 
 ViridianForestRBSignpostText6:
-	text "LEAVING"
-	line "VIRIDIAN FOREST"
-	cont "PEWTER CITY AHEAD"
+	text "SORTIE DE LA FORET"
+	line "DE JADE. ARGENTA"
+	cont "DROIT DEVANT"
 	done
 
 ViridianForestRB_MapEventHeader: ; 0x1ac4af

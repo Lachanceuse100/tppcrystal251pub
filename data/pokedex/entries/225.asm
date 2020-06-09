@@ -1,12 +1,12 @@
 ; DelibirdPokedexEntry: ; 0x1d0db1
-	db "DELIVERY@" ; species name
+	db "LIVRAISON@" ; species name
 	dw 211, 350 ; height, width
 
-	db   "It always carries"
-	next "its food with it,"
-	next "wherever it goes."
-	page "If attacked, it"
-	next "throws its food at"
-	next "the opponent.@"
+	db   "Il transporte de"
+	next "la nourriture"
+	next "toute la journée"
+	page "et en jette sur"
+	next "tout attaquant."
+	next "@"
 ; 0x1d0e25
 

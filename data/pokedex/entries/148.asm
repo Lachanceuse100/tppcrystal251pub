@@ -2,11 +2,11 @@
 	db "DRAGON@" ; species name
 	dw 1301, 360 ; height, width
 
-	db   "It is called the"
-	next "divine #MON."
-	next "When its entire"
-	page "body brightens"
-	next "slightly, the"
-	next "weather changes.@"
+	db   "On l'appelle le"
+	next "#MON divin."
+	next "Quand son corps"
+	page "brille légerement,"
+	next "le climat change."
+	next "@"
 ; 0x1cc843
 

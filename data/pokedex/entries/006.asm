@@ -1,12 +1,12 @@
 ; CharizardPokedexEntry: ; 0x1818b3
-	db "FLAME@" ; species name
+	db "FLAMME@" ; species name
 	dw 507, 2000 ; height, width
 
-	db   "It uses its wings"
-	next "to fly high. The"
-	next "temperature of its"
-	page "fire increases as"
-	next "it gains exper-"
-	next "ience in battle.@"
+	db   "Il utilise ses"
+	next "ailes pour s'envo-"
+	next "ler très haut"
+	page "Sa flamme devient"
+	next "plus chaude en ga-"
+	next "gnant des combats.@"
 ; 0x181926
 

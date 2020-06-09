@@ -1,12 +1,12 @@
 ; IgglybuffPokedexEntry: ; 0x1cd32c
-	db "BALLOON@" ; species name
+	db "BOUBOULE@" ; species name
 	dw 100, 20 ; height, width
 
-	db   "Instead of walking"
-	next "with its short"
-	next "legs, it moves"
-	page "around by bouncing"
-	next "on its soft,"
-	next "tender body.@"
+	db   "Plutot que de se"
+	next "déplacer avec ses"
+	next "petites pattes, il"
+	page "rebondit avec son"
+	next "corps doux et"
+	next "moelleux.@"
 ; 0x1cd396
 

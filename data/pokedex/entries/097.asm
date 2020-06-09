@@ -1,12 +1,12 @@
 ; HypnoPokedexEntry: ; 0x1b8d80
-	db "HYPNOSIS@" ; species name
+	db "HYPNOSE@" ; species name
 	dw 503, 1670 ; height, width
 
-	db   "The longer it"
-	next "swings its"
-	next "pendulum, the"
-	page "longer the effects"
-	next "of its hypnosis"
-	next "last.@"
+	db   "Plus il balance"
+	next "son pendule, plus"
+	next "il maintient ses"
+	page "adversaires en-"
+	next "dormis."
+	next "@"
 ; 0x1b8ddd
 

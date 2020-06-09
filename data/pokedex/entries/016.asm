@@ -1,12 +1,12 @@
 ; PidgeyPokedexEntry: ; 0x181cfa
-	db "TINY BIRD@" ; species name
+	db "MINOISEAU@" ; species name
 	dw 100, 40 ; height, width
 
-	db   "It rapidly flaps"
-	next "its wings in the"
-	next "grass, stirring up"
-	page "a dust cloud that"
-	next "drives insect prey"
-	next "out into the open.@"
+	db   "Il bat vite des"
+	next "ailes au-dessus de"
+	next "l'herbe pour faire"
+	page "sortir tous les"
+	next "insectes."
+	next "@"
 ; 0x181d75
 

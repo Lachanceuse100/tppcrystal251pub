@@ -1,12 +1,12 @@
 ; BeedrillPokedexEntry: ; 0x181c8a
-	db "POISON BEE@" ; species name
+	db "GUEPOISON@" ; species name
 	dw 303, 650 ; height, width
 
-	db   "It uses sharp,"
-	next "poisonous stings"
-	next "to defeat prey,"
-	page "then takes the"
-	next "victim back to its"
-	next "nest for food.@"
+	db   "Il utilise ses"
+	next "aiguillons pour"
+	next "attaquer sa proie,"
+	page "Il la transporte"
+	next "ensuite à son nid"
+	next "pour la dévorer.@"
 ; 0x181cfa
 

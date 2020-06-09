@@ -1,12 +1,12 @@
 ; GengarPokedexEntry: ; 0x1b8c25
-	db "SHADOW@" ; species name
+	db "OMBRE@" ; species name
 	dw 411, 890 ; height, width
 
-	db   "Hiding in people's"
-	next "shadows at night,"
-	next "it absorbs their"
-	page "heat. The chill it"
-	next "causes makes the"
-	next "victims shake.@"
+	db   "Il se cache dans"
+	next "l'ombre des pas-"
+	next "sants et vole leur"
+	page "chaleur. Ses vic-"
+	next "times ressentent"
+	next "alors un frisson.@"
 ; 0x1b8c98
 

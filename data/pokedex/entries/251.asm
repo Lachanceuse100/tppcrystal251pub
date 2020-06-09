@@ -1,12 +1,12 @@
 ; CelebiPokedexEntry: ; 0x1d18cc
-	db "TIMETRAVEL@" ; species name
+	db "TEMPOREL@" ; species name
 	dw 200, 110 ; height, width
 
-	db   "Revered as a"
-	next "guardian of the"
-	next "forest, CELEBI"
-	page "appears wherever"
-	next "beautiful forests"
-	next "exist.@"
+	db   "On l'appelle le"
+	next "gardien de la"
+	next "forêt. Il apparaît"
+	page "dans chaque forêt"
+	next "luxuriante."
+	next "@"
 ; 0x1d1931
 

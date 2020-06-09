@@ -1780,9 +1780,9 @@ Function3cb36: ; 3cb36
 ; 3cb75
 
 .Your
-	db "Your@"
+	db "Ton@"
 .Enemy
-	db "Enemy@"
+	db "Ennemi@"
 ; 3cb80
 
 FadeLightScreen: ; 3cb80
@@ -3112,7 +3112,7 @@ MilitaryWaiting:
 	ld [Options], a
 	ret
 .Waiting
-	text "Waiting!"
+	text "Attente!"
 	done
 ENDC
 
@@ -4233,8 +4233,8 @@ ENDC
 	 jp .declined_forfeit
 
 .AskForfeitText:
-	 text "Forfeit your"
-	 line "challenge?"
+	 text "Abandonner le"
+	 line "défi?"
 	 done
 
 Function3da0d: ; 3da0d
@@ -6301,7 +6301,7 @@ MoveInfoBox: ; 3e6c8
 ; 3e74f
 
 .Disabled
-	db "Disabled!@"
+	db "Entrave!@"
 .Type
 	db "TYPE/@"
 ; 3e75f
@@ -9190,11 +9190,11 @@ Function3f77c: ; 3f77c
 ; 3f7f7
 
 .Win
-	db "YOU WIN@"
+	db "GAGNE@"
 .Lose
-	db "YOU LOSE@"
+	db "PERDU@"
 .Draw
-	db "  DRAW@"
+	db "EGALITE@"
 ; 3f80f
 
 Function3f80f: ; 3f80f
@@ -9208,7 +9208,7 @@ Function3f80f: ; 3f80f
 ; 3f821
 
 .Invalid
-	db "INVALID BATTLE@"
+	db "COMBAT INVALIDE"
 ; 3f830
 
 Function3f830: ; 3f830
@@ -9363,11 +9363,11 @@ Function3f85f: ; 3f85f
 .Format ; 3f947
 	db "  ---  ", $22, "         -    -    -@"
 .Record ; 3f964
-	db $52, "'s RECORD@"
+	db "RECORD de ", $52, "@"
 .Result ; 3f96e
-	db "RESULT WIN LOSE DRAW@"
+	db "RES GAGNE PERDU NUL@"
 .Total ; 3f983
-	db "TOTAL  WIN LOSE DRAW@"
+	db "TOT GAGNE PERDU NUL@"
 ; 3f998
 
 Function3f998: ; 3f998

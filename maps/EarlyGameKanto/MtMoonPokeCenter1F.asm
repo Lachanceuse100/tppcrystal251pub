@@ -58,62 +58,62 @@ FisherScript1_MtMoonPokeCenter1FRB:
 	end
 
 FisherText1_MtMoonPokeCenter1FRB:
-	text "Hey, you!"
+	text "Hé toi!"
 
-	para "Listen up, this is"
-	line "the deal of a"
-	cont "lifetime here."
+	para "Ecoute, j'ai une"
+	line "super offre pour"
+	cont "toi."
 
-	para "What I have here"
-	line "is a super-rare"
-	cont "#MON!"
+	para "Un #MON"
+	line "super-rare!"
 
-	para "And for only ¥500,"
-	line "it can be yours!"
+	para "Et pour ¥500, il"
+	line "est à toi!"
 
-	para "Don't you want"
-	line "this #MON?"
+	para "Tu le veux?"
 	done
 
 FisherText2_MtMoonPokeCenter1FRB:
-	text "Then here you go!"
+	text "Alors tiens!"
 
-	para "<PLAY_G> received"
-	line "a MAGIKARP!"
+	para "<PLAY_G> reçoit"
+	line "un MAGICARPE!"
 	done
 
 FisherText3_MtMoonPokeCenter1FRB:
-	text "Well, that's it."
-	line "No refunds."
+	text "Voilà. Offre"
+	line "non remboursée!"
 	done
 
 FisherText4_MtMoonPokeCenter1FRB:
-	text "Are you sure?"
-	line "You're missing out."
+	text "Sérieusement?"
+	line "Tu rates quelque"
+	cont "chose!"
 	done
 
 FisherText5_MtMoonPokeCenter1FRB:
-	text "WHAT?!"
+	text "QUOI?!"
 
-	para "You have no room"
-	line "in your party"
-	cont "or PC box!"
+	para "T'as pas de place"
+	line "dans ton équipe"
+	cont "ou ta boîte!"
 	done
 
 FisherText6_MtMoonPokeCenter1FRB:
-	text "Your party is"
-	line "full, so I sent"
-	cont "it to the PC!"
+	text "Ton équipe est"
+	line "pleine alors je"
+	cont "l'envois dans"
+	cont "le PC."
 
-	para "<PLAY_G> received"
-	line "a MAGIKARP!"
+	para "<PLAY_G> reçoit"
+	line "un MAGICARPE!"
 	done
 
 FisherText7_MtMoonPokeCenter1FRB:
-	text "WHAT?!"
+	text "HEIN?!"
 
-	para "You don't have"
-	line "enough money!"
+	para "T'as pas assez"
+	line "d'argent!"
 	done
 
 MtMoonPokeCenter1FRB_GentlemanScript:
@@ -126,34 +126,33 @@ MtMoonPokeCenter1FRB_GentlemanScript:
 	end
 	
 MtMoonRBGentlemanText:
-	text "TEAM ROCKET"
-	line "attacks CERULEAN"
-	cont "citizens<...>"
+	text "La TEAM ROCKET"
+	line "attaque les"
+	cont "citoyens d'AZURIA<...>"
 	
-	para "TEAM ROCKET is"
-	line "always in the"
-	cont "news!"
+	para "Ils sont toujours"
+	line "aux informations<...>"
 	done
 	
 MtMoonPokeCenter1FRB_Youngster1Script:
 	jumptextfaceplayer MtMoonRBYoungster1Text
 	
 MtMoonRBYoungster1Text:
-	text "I've 6 # BALLs"
-	line "set in my belt."
+	text "J'ai 6 # BALLs"
+	line "à ma ceinture."
 	
-	para "At most, you can"
-	line "carry 6 #MON."
+	para "Au plus, tu peux"
+	line "porter 6 #MON."
 	done
 	
 MtMoonPokeCenter1FRB_Youngster2Script:
 	jumptextfaceplayer MtMoonRBYoungster2Text
 	
 MtMoonRBYoungster2Text:
-	text "If you have too"
-	line "many #MON, you"
-	cont "should store them"
-	cont "via PC!"
+	text "Si tu as trop de"
+	line "#MON, tu dois"
+	cont "les déposer dans"
+	cont "le PC!"
 	done
 
 MtMoonPokeCenter1FRB_LinkScript:

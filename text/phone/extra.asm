@@ -1,363 +1,371 @@
 
 UnknownText_0x64000: ; 0x64000
-	text "I hate having to"
-	line "hang up on you!"
+	text "Je déteste devoir"
+	line "raccrocher!"
 
-	para "Call you later!"
+	para "On se rappelle"
+	cont "plus tard!"
 	done
 ; 0x64032
 
 UnknownText_0x64032: ; 0x64032
-	text $14, ", have you"
-	line "heard?"
+	text $14, ", tu as"
+	line "entendu?"
 
-	para "GOLDENROD's RADIO"
-	line "TOWER has been"
+	para "La TOUR RADIO de"
+	line "DOUBLONVILLE a"
 
-	para "taken over by TEAM"
-	line "ROCKET!"
+	para "été prise par la"
+	line "TEAM ROCKET!"
 
-	para "<...>Um<...> What's TEAM"
-	line "ROCKET?"
+	para "<...> Mais c'est quoi"
+	line "une TEAM ROCKET?"
 	done
 ; 0x64099
 
 UnknownText_0x64099: ; 0x64099
-	text $14, ", I heard!"
+	text $14, ", j'ai"
+	line "entendu!"
 
-	para "You defeated that"
-	line "WHITNEY?"
+	para "Tu as battu"
+	line "BLANCHE?"
 
-	para "It makes me proud"
-	line "to be your friend!"
+	para "Ca me rend si fier"
+	line "d'être ton ami!"
 	done
 ; 0x640e6
 
 UnknownText_0x640e6: ; 0x640e6
-	text "Hey, I heard about"
-	line "you!"
+	text "Hé, j'ai entendu"
+	line "parler de toi!"
 
-	para "You saved that"
-	line "#MON at the"
+	para "Tu as sauvé ce"
+	line "#MON au phare,"
 
-	para "LIGHTHOUSE, didn't"
-	line "you?"
+	para "n'est-ce pas?"
 
-	para $14, ", I wish"
-	line "you'd come see me"
+	para "J'adorerais que tu"
+	line "me rendes visite"
 
-	para "when I'm sick in"
-	line "bed with a cold!"
+	para "quand je suis au"
+	line "lit avec un rhume!"
 	done
 ; 0x6416d
 
 UnknownText_0x6416d: ; 0x6416d
-	text "I heard, I heard,"
-	line "I heard!"
+	text "J'ai entendu, j'ai"
+	line "entendu!"
 
-	para "You smashed TEAM"
-	line "ROCKET's hideout!"
+	para "Tu as écrasé la"
+	line "cachette de la"
+	cont "TEAM ROCKET!"
 
-	para "You're like a"
-	line "movie hero, even!"
+	para "T'es vraiment un"
+	line "héros comme dans"
+	cont "les films!"
 
-	para "But um<...> What was"
-	line "TEAM ROCKET?"
+	para "Mais euh<...> C'était"
+	line "quoi la TEAM"
+	cont "ROCKET?"
 	done
 ; 0x641e8
 
 UnknownText_0x641e8: ; 0x641e8
-	text "I heard, I heard,"
-	line "I heard!"
+	text "J'ai entendu, j'ai"
+	line "entendu!"
 
-	para "About your heroic"
-	line "liberation of the"
+	para "Tes actions hé-"
+	line "roïques a la TOUR"
 
-	para "RADIO TOWER! You"
-	line "rock so hard!"
+	para "RADIO. T'es trop"
+	line "cool!"
 	done
 ; 0x64247
 
 UnknownText_0x64247: ; 0x64247
-	text "I saw, I saw!"
+	text "J'ai vu, j'ai vu!"
 
-	para "I saw you go into"
-	line "the DRAGON'S DEN!"
+	para "Je t'ai vu allé"
+	line "dans l'ANTRE DU"
+	cont "DRAGON"
 
-	para "I'm certain you"
-	line "passed! Aww, no"
+	para "Oh, pas besoin"
+	line "d'être modeste, je"
 
-	para "need to be modest!"
-	line "You can't fail!"
+	para "suis sûr que tu as"
+	line "réussis! Tu n'é-"
+	cont "choues jamais!"
 	done
 ; 0x642bb
 
 UnknownText_0x642bb: ; 0x642bb
-	text "Yesterday, I went"
-	line "out to NEW BARK"
+	text "Hier, je suis allé"
+	line "à BOURG GEON. Il y"
 
-	para "TOWN.  There was a"
-	line "lady who looked a"
+	para "avait une dame qui"
+	line "te ressemblait"
 
-	para "lot like you,"
-	line $14, "."
+	para "beaucoup, ", $14, "."
 
-	para "What? That lady"
-	line "was your mom?"
+	para "Quoi? Cette dame"
+	line "est ta maman?"
 
-	para "Aww, I should've"
-	line "introduced myself!"
+	para "Oh, j'aurais du"
+	line "me présenter!"
 
-	para "I bet your mom's"
-	line "really proud of"
+	para "Je pari que ta ma-"
+	line "man est fière de"
 
-	para "all that you've"
-	line "accomplished."
+	para "tout ce que tu as"
+	line "accomplis."
 
-	para "Heh, put it this"
-	line "way. I'd be proud"
+	para "Crois-moi, si j'"
+	line "étais ta maman,"
 
-	para "if I were your"
-	line "mom, believe me!"
+	para "je serais super"
+	line "fier de toi!"
 	done
 ; 0x643d4
 
 UnknownText_0x643d4: ; 0x643d4
-	text "I saw, I saw,"
-	line "I saw!"
+	text "J'ai vu, j'ai vu!"
 
-	para "You striding onto"
-	line "a ship, ", $14, "!"
+	para "Tu marchais sur un"
+	line "bateau, ", $14, "!"
 
-	para "I can't get over"
-	line "how good you look"
+	para "Tu es vraiment su-"
+	line "per avec le décor"
 
-	para "with the sea as"
-	line "your backdrop!"
+	para "de la mer en fond!"
 	done
 ; 0x64448
 
 UnknownText_0x64448: ; 0x64448
-	text "I heard, I heard!"
+	text "J'ai entendu!"
 
-	para "You got a MAGNET"
-	line "TRAIN PASS!"
+	para "Tu as eu un PASSE"
+	line "TRAIN!"
 
-	para "When I saw you"
-	line "departing on the"
+	para "Quand je t'ai vu"
+	line "partir sur le ba-"
 
-	para "ship, I felt sad"
-	line "that I wouldn't be"
+	para "teau, j'étais tri-"
+	line "ste de ne plus te"
 
-	para "able to see you"
-	line "for a while."
+	para "voir pendant un"
+	line "moment."
 
-	para "But since you have"
-	line "that PASS, you can"
+	para "Mais comme tu as"
+	line "ce PASSE, tu peux"
 
-	para "zip back anytime!"
-	line "That's reassuring!"
+	para "revenir a tout mo-"
+	line "ment, ça me"
+	cont "rassure!"
 
-	para "What? You can FLY"
-	line "back anytime?"
+	para "Hein? Tu peux re-"
+	line "venir en volant?"
 
-	para "What do you mean"
-	line "by FLY?"
+	para "Comment ça en"
+	line "volant?"
 	done
 ; 0x6455b
 
 UnknownText_0x6455b: ; 0x6455b
-	text "I saw, I saw!"
+	text "J'ai vu, j'ai vu!"
 
-	para "You waking up"
-	line "SNORLAX!"
+	para "Tu as réveillé"
+	line "RONFLEX!"
 
-	para "I was watching you"
-	line "from afar, so I"
+	para "Je te regardais de"
+	line "loin alors je n'ai"
 
-	para "couldn't tell what"
-	line "you did exactly."
+	para "pas vu ce que tu"
+	line "as fais exacte-"
+	cont "ment."
 
-	para "Did you play a"
-	line "flute to wake it?"
+	para "Tu as joué de la"
+	line "flûte pour le ré-"
+	cont "veiller?"
 
-	para "Wow! That's like"
-	line "magic!"
+	para "Woah! C'est comme"
+	line "de la magie!"
 	done
 ; 0x645ff
 
 UnknownText_0x645ff: ; 0x645ff
-	text "I hear rumors"
-	line "about you all over"
-	cont "the place."
+	text "J'ai entendu tant"
+	line "de rumeurs sur"
+	cont "toi."
 
-	para "It just makes me"
-	line "sigh, ", $14, "."
+	para "Ca me fait soupirer,"
+	line $14, "."
 
-	para "How did you get so"
-	line "strong?"
+	para "Comment es-tu deve-"
+	line "nu si fort?"
 
-	para "Go for the world"
-	line "championship now!"
+	para "Part au chamionnat"
+	line "du monde!"
 
-	para "I'll always be"
-	line "cheering you on!"
+	para "Je serais toujours"
+	line "la à t'encourager!"
 	done
 ; 0x646a3
 
 UnknownText_0x646a3: ; 0x646a3
-	text "Hehe, I called"
-	line "right away!"
+	text "Héhé, j'ai appelé"
+	line "tout de suite!"
 
-	para "I think we can be"
-	line "good friends!"
+	para "Je pense qu'on"
+	line "sera de bons amis!"
 	done
 ; 0x646df
 
 UnknownText_0x646df: ; 0x646df
-	text "I saw, I heard!"
+	text "J'ai vu, j'ai"
+	cont "entendu!"
 
-	para "You beat MORTY of"
-	line "ECRUTEAK GYM!"
+	para "Tu as battu MORTI-"
+	line "MER à ROSALIA!"
 
-	para "Th-that's just"
-	line "incredible!"
+	para "C-c'est vraiment"
+	line "incroyable!"
 
-	para "I actually went to"
-	line "the GYM's entrance"
+	para "Je voulais aller à"
+	line "l'entrée de"
 
-	para "to cheer you on."
-	line "Did you know that?"
+	para "l'arène pour t'en-"
+	line "courager, tu sais?"
 
-	para "But everyone was"
-	line "floating, and"
+	para "Mais tout le mon-"
+	line "de flottait et il"
 
-	para "there were ghosts"
-	line "all over! So I"
+	para "y avait des fantô-"
+	line "mes partout!"
 
-	para "chickened out and"
-	line "took off for home<...>"
+	para "Alors j'ai eu la"
+	line "trouille et je"
+	cont "suis rentré<...>"
 	done
 ; 0x647d8
 
 UnknownText_0x647d8: ; 0x647d8
-	text $14, ", I heard!"
+	text $14, ","
+	cont "j'ai entendu!"
 
-	para "You're kicking up"
-	line "a mighty ruckus"
+	para "Tu fais parler de"
+	line "toi à KANTO!"
 
-	para "over in KANTO!"
-	line "What a glorious"
+	para "Ca doit être quel-"
+	line "que chose!"
 
-	para "rampage it must"
-	line "be!"
-
-	para "You so rock!"
+	para "T'es incroyable!"
 	done
 ; 0x64846
 
 UnknownText_0x64846: ; 0x64846
-	text "Hearing about your"
-	line "escapades rocks my"
+	text "Entendre de tes"
+	line "escapades fait"
 
-	para "soul!"
-	line "It sure does!"
+	para "vraiment embraser"
+	line "mon âme!"
 	done
 ; 0x64881
 
 UnknownText_0x64881: ; 0x64881
-	text "I'm so glad you"
-	line "called!"
+	text "Je suis si content"
+	line "que tu m'appelles!"
 
-	para "I was just about"
-	line "to call you too!"
+	para "J'étais sur le"
+	line "point d'en faire"
+	cont "de même!"
 
-	para "I guess we must be"
-	line "a good match!"
+	para "Je crois qu'on"
+	line "s'entends vraiment"
+	cont "bien!"
 	done
 ; 0x648dc
 
 UnknownText_0x648dc: ; 0x648dc
-	text "How are you?"
+	text "Comment vas-tu?"
 
-	para "What are you"
-	line "doing?"
+	para "Tu fais quoi?"
 
-	para "Where are you?"
+	para "Ou es-tu?"
 
-	para "How many BADGES do"
-	line "you have now?"
+	para "Combien de BADGES"
+	line "as-tu?"
 
-	para "How much money"
-	line "have you saved?"
+	para "Combien de sous tu"
+	line "as épargné?"
 
-	para "How's your mom?"
+	para "Comment va ta"
+	cont "MAMAN?"
 
-	para "Have you got lots"
-	line "of #MON?"
+	para "Tu as eu beaucoup"
+	line "de #MON?"
 
-	para "Is it going to be"
-	line "sunny tomorrow?"
+	para "Il va faire beau"
+	line "demain?"
 
-	para "Arrgh, there's so"
-	line "much I want to"
+	para "Raaah, Il y a trop"
+	line "de choses dont j'"
 
-	para "chat about! This"
-	line "is going nowhere!"
+	para "aimerais discuter."
+	line "Ca ne va nul part!"
 	done
 ; 0x649dc
 
 UnknownText_0x649dc: ; 0x649dc
-	text "I'm always with my"
-	line "@"
+	text "Je suis toujours"
+	line "avec @"
 	text_from_ram StringBuffer4
 	text "!"
 
-	para "It's so cute!"
-	line "I just love it!"
+	para "Il est si mignon!"
+	line "Je l'aime!"
 	done
 ; 0x64a13
 
 UnknownText_0x64a13: ; 0x64a13
-	text "Changing the topic"
-	line "here, I saw this"
+	text "Changeons de"
+	line "sujet, J'ai vu ce"
 
 	para "@"
 	text_from_ram StringBuffer4
-	text " for the"
-	line "first time."
+	text " pour la"
+	line "première fois."
 
-	para "It was easy to"
-	line "beat, actually."
+	para "Il était facile à"
+	line "battre en fait."
 	done
 ; 0x64a71
 
 UnknownText_0x64a71: ; 0x64a71
-	text "I was wondering,"
-	line "do you happen to"
-	cont "have @"
+	text "Je me demandais,"
+	line "si tu avais un"
+	cont "@"
 	text_from_ram StringBuffer4
 	text "?"
 
-	para "I can't seem to"
-	line "catch one. What is"
+	para "Je n'arrive pas a"
+	line "en attraper un. Je"
 
-	para "its weakness, I"
-	line "wonder."
+	para "me demande quelle"
+	line "est sa faiblesse."
 	done
 ; 0x64ada
 
 UnknownText_0x64ada: ; 0x64ada
-	text "Hey, let's battle"
-	line "our #MON!"
+	text "Hé, faisons un"
+	line "combat #MON!"
 
-	para "I won't lose to"
-	line "you battling or in"
+	para "Je ne perdrais pas"
+	line "en combat ou au"
 
-	para "the Bug-Catching"
-	line "Contest!"
+	para "concours de"
+	line "capture!"
 
-	para "I'll be here on"
+	para "Je serais la à"
 	line "@"
 	text_from_ram StringBuffer5
 	text "!"
@@ -365,34 +373,35 @@ UnknownText_0x64ada: ; 0x64ada
 ; 0x64b48
 
 UnknownText_0x64b48: ; 0x64b48
-	text "Let's talk again,"
-	line "huh?"
+	text "Parlons encore,"
+	line "hein?"
 	done
 ; 0x64b5f
 
 UnknownText_0x64b5f: ; 0x64b5f
-	text "Boy, am I glad I"
-	line "caught you!"
+	text "Je suis content de"
+	line "t'avoir!"
 
-	para "A whole bunch of"
+	para "Tout un tas de"
 	line "@"
 	text_from_ram StringBuffer4
-	text " have"
+	text " sont"
 
-	para "appeared around"
+	para "apparus autour de"
 	line "@"
 	text_from_ram StringBuffer5
 	text "!"
 
-	para "You have to see"
-	line "this!"
+	para "Il faut que tu"
+	line "vois ça!"
 	done
 ; 0x64bc6
 
 UnknownText_0x64bc6: ; 0x64bc6
-	text "I haven't had any"
-	line "luck seeing rare"
-	cont "#MON lately<...>"
+	text "Je n'ai pas eu la"
+	line "chance de voir des"
+	para "#MON rares ces"
+	cont "temps-ci!"
 
 	para "But I know they're"
 	line "out there!"
@@ -400,117 +409,119 @@ UnknownText_0x64bc6: ; 0x64bc6
 ; 0x64c13
 
 UnknownText_0x64c13: ; 0x64c13
-	text "Hey, where are you"
-	line "now?"
+	text "Hé, tu es ou la ?"
 
-	para "Let's battle. I'll"
-	line "be waiting for you"
-	cont "on @"
+	para "Battons-nous! Je"
+	line "t'attendrais sur"
+	cont "la @"
 	text_from_ram StringBuffer5
 	text "!"
 	done
 ; 0x64c5a
 
 UnknownText_0x64c5a: ; 0x64c5a
-	text "Hello? Are you"
-	line "coming or what?"
+	text "Alors? Tu arrives"
+	line "ou pas?"
 
-	para "You're missing out"
-	line "on seeing YANMA!"
+	para "Tu es en train de"
+	line "rater des YANMA!"
 
-	para "Get down to ROUTE"
-	line "35 right now!"
+	para "Viens sur la ROUTE"
+	line "35 maintenant!"
 	done
 ; 0x64cbd
 
 UnknownText_0x64cbd: ; 0x64cbd
-	text "My @"
+	text "Mon @"
 	text_from_ram StringBuffer4
 	text "'s"
-	line "getting stronger,"
+	line "est devenu plus"
+	cont "fort, comme je"
 
-	para "exactly as I"
-	line "calculated!"
+	para "l'avais prévu!"
 	done
 ; 0x64cf3
 
 UnknownText_0x64cf3: ; 0x64cf3
-	text "By the way, we"
-	line "knocked out a wild"
+	text "Au fait, j'ai bat-"
+	line "tu un"
 
 	para "@"
 	text_from_ram StringBuffer4
-	text " just"
-	line "the other day."
+	text " sauvage"
+	line "l'autre jour."
 
-	para "Studying up in"
-	line "advance worked!"
+	para "Etudier en avance"
+	line "a fonctionné!"
 	done
 ; 0x64d4f
 
 UnknownText_0x64d4f: ; 0x64d4f
-	text "By the way, a wild"
+	text "Au fait, un"
 	line "@"
 	text_from_ram StringBuffer4
-	text " escaped"
-	cont "on me yesterday."
+	text " sauvage"
+	para "m'a échappé"
+	cont "l'autre jour."
 
-	para "A computational"
-	line "error on my part<...>"
+	para "Erreur de calcul"
+	line "de ma part<...>"
 	done
 ; 0x64da4
 
 UnknownText_0x64da4: ; 0x64da4
-	text "I've studied quite"
-	line "a bit since then,"
+	text "J'ai pas mal étu-"
+	line "dier depuis et je"
 
-	para "and I've gotten a"
-	line "lot better!"
+	para "me suis amélioré!"
 
-	para "I'm hanging out on"
+	para "Je suis sur la"
 	line "@"
 	text_from_ram StringBuffer5
 	text "."
 
-	para "Can you come down"
-	line "for a battle?"
+	para "Tu veux venir"
+	line "faure un combat?"
 	done
 ; 0x64e1f
 
 UnknownText_0x64e1f: ; 0x64e1f
-	text "See you later!"
+	text "A plus!"
 	done
 ; 0x64e2f
 
 UnknownText_0x64e2f: ; 0x64e2f
-	text "Hehehe, I picked"
-	line "up something nice!"
+	text "Héhé, j'ai ramassé"
+	line "quelque chose de"
+	cont "sympa!"
 
-	para "You can have it!"
-	line "Why don't you come"
+	para "Je te l'offre!"
+	line "Tu peux venir à"
 
-	para "to @"
+	para "@"
 	text_from_ram StringBuffer5
 	db $0
-	line "and pick it up?"
+	line "le prendre?"
 	done
 ; 0x64e90
 
 UnknownText_0x64e90: ; 0x64e90
-	text "I haven't picked"
-	line "up anything yet."
+	text "Je n'ai encore"
+	line "rien vu."
 
-	para "I'll call you if I"
-	line "find something."
+	para "Je t'appelle si je"
+	line "trouve quoi que ce"
+	cont "soit."
 	done
 ; 0x64ed4
 
 UnknownText_0x64ed4: ; 0x64ed4
-	text "If we don't battle"
-	line "soon, I'll forget"
-	cont "my strategy!"
+	text "Si on ne se bat"
+	line "pas bientôt, je"
+	para "vais oublié ma"
+	cont "stratégie."
 
-	para "I'm waiting on"
+	para "J'attends sur"
 	line "@"
 	text_from_ram StringBuffer5
 	text "!"
@@ -518,13 +529,13 @@ UnknownText_0x64ed4: ; 0x64ed4
 ; 0x64f1a
 
 UnknownText_0x64f1a: ; 0x64f1a
-	text "I have to do my"
-	line "homework, so can"
+	text "Je dois faire mes"
+	line "devoirs, peut-tu"
 
-	para "you come get your"
-	line "gift right away?"
+	para "venir chercher ton"
+	line "cadeau?"
 
-	para "I'm waiting on"
+	para "J'attends sur la"
 	line "@"
 	text_from_ram StringBuffer5
 	text "!"
@@ -532,13 +543,13 @@ UnknownText_0x64f1a: ; 0x64f1a
 ; 0x64f74
 
 UnknownText_0x64f74: ; 0x64f74
-	text "My @"
+	text "Mon @"
 	text_from_ram StringBuffer4
-	text " is"
-	line "getting prettier!"
+	text " "
+	line "deviens si joli!"
 
-	para "I've been taking"
-	line "photos galore!"
+	para "J'ai pris des"
+	line "photos à gogo!"
 	done
 ; 0x64fb2
 
@@ -558,51 +569,50 @@ UnknownText_0x64fb2: ; 0x64fb2
 ; 0x6501c
 
 UnknownText_0x6501c: ; 0x6501c
-	text "You know what?"
-	line "A wild @"
+	text "Tu sais quoi?"
+	line "Un @"
 	text_from_ram StringBuffer4
 	text $51
-	db "got away from me"
-	line "again."
+	db "sauvage s'est"
+	line "encore enfui."
 
-	para "It was so close!"
-	line "Really, just a"
+	para "C'était pas loin!"
+	line "Encore un petit"
 
-	para "little bit more,"
-	line "and I would've<...>"
+	para "peu et j'aurais"
+	line "pu<...>"
 	done
 ; 0x65091
 
 UnknownText_0x65091: ; 0x65091
-	text "Right now, I'm on"
+	text "La, je suis à"
 	line "@"
 	text_from_ram StringBuffer5
 	text "."
 
-	para "If you're close"
-	line "by, let's battle!"
+	para "Si tu es proche,"
+	line "battons-nous!"
 
-	para "I'll be waiting"
-	line "for you!"
+	para "Je t'attendrais!"
 	done
 ; 0x650e2
 
 UnknownText_0x650e2: ; 0x650e2
-	text "See you!"
+	text "A plus!"
 	done
 ; 0x650ec
 
 UnknownText_0x650ec: ; 0x650ec
-	text "You know what?"
-	line "I got a good gift!"
+	text "Tu sais quoi?"
+	line "J'ai un cadeau!"
 
-	para "As I promised,"
-	line "it's yours!"
+	para "Comme promis,"
+	line "c'est pour toi!"
 
-	para "I'm sure you'd"
-	line "like it. Come get"
+	para "Je suis sur que"
+	line "tu vas aimer. Je"
 
-	para "it! I'm waiting on"
+	para "t'attends sur"
 	line "@"
 	text_from_ram StringBuffer5
 	text "!"
@@ -610,25 +620,24 @@ UnknownText_0x650ec: ; 0x650ec
 ; 0x65161
 
 UnknownText_0x65161: ; 0x65161
-	text "Oh! You wanted a"
-	line "gift, right?"
+	text "Oh, tu voulais un"
+	line "cadeau, c'est ça?"
 
-	para "I got one, but I"
-	line "want to keep this."
+	para "J'en ai un mais je"
+	line "préfère le garder."
 
-	para "Can you wait a bit"
-	line "longer?"
+	para "Peux-tu attendre"
+	line "un peu plus?"
 	done
 ; 0x651bf
 
 UnknownText_0x651bf: ; 0x651bf
-	text "Hi! You haven't"
-	line "forgotten about"
+	text "Yo! Tu n'as pas"
+	line "oublié ta promesse"
 
-	para "your promise to"
-	line "battle me?"
+	para "pour notre combat?"
 
-	para "I'm waiting on"
+	para "Je t'attends sur"
 	line "@"
 	text_from_ram StringBuffer5
 	text "!"
@@ -636,15 +645,16 @@ UnknownText_0x651bf: ; 0x651bf
 ; 0x6520f
 
 UnknownText_0x6520f: ; 0x6520f
-	text "Hello?"
+	text "Allo?"
 
-	para "If you don't come"
-	line "get your present"
+	para "Si tu ne viens pas"
+	line "chercher ton ca-"
 
-	para "soon, I'll give it"
-	line "to someone else."
+	para "deau, je le donne-"
+	line "rais a quelqu'un"
+	cont "d'autre."
 
-	para "I'm waiting on"
+	para "Je t'attends sur"
 	line "@"
 	text_from_ram StringBuffer5
 	text "!"
@@ -652,70 +662,71 @@ UnknownText_0x6520f: ; 0x6520f
 ; 0x65271
 
 UnknownText_0x65271: ; 0x65271
-	text "I recently began"
-	line "observing wild"
-	cont "@"
+	text "J'ai commencé à"
+	line "observer les"
+	para "@"
 	text_from_ram StringBuffer4
-	text "."
+	text ""
+	cont "sauvages."
 
-	para "I've been learning"
-	line "all sorts of new"
+	para "J'ai appris toutes"
+	line "sortes de choses"
 
-	para "things through my"
+	para "grâce à mes"
 	line "observations."
 
-	para "I wish I could"
-	line "become a #MON"
+	para "J'aimerais pouvoir"
+	line "devenir un cher-"
 
-	para "researcher like"
-	line "PROF.OAK soon."
+	para "cheur #MON"
+	line "comme le PROF.CHEN"
 	done
 ; 0x65318
 
 UnknownText_0x65318: ; 0x65318
-	text "Oh yes, I managed"
-	line "to knock out a"
+	text "Ah oui, j'ai"
+	line "réussi a battre un"
 
-	para "wild @"
+	para "@"
 	text_from_ram StringBuffer4
-	text " a"
-	line "while back."
+	text ""
+	line "sauvage."
 
-	para "Well, considering"
-	line "all the studying I"
+	para "Enfin, j'ai étudié"
+	line "longtemps donc c'"
 
-	para "do every day, it"
-	line "was inevitable."
+	para "était inévitable."
 	done
 ; 0x65399
 
 UnknownText_0x65399: ; 0x65399
-	text "Oh yes, I came"
-	line "close to catching"
+	text "Oh, j'ai failli"
+	line "attraper un"
 
-	para "a wild @"
+	para "@"
 	text_from_ram StringBuffer4
 	text ","
-	line "but it got away."
+	line "sauvage mais il"
+	cont "s'est enfuit."
 
-	para "For the longest"
-	line "time, I've been"
+	para "Pendant longtemps"
+	line "j'ai voulu"
 
-	para "wanting to observe"
+	para "observer"
 	line "@"
 	text_from_ram StringBuffer4
-	text ". Rats<...>"
+	text ". Zut<...>"
 	done
 ; 0x65419
 
 UnknownText_0x65419: ; 0x65419
-	text "Want to battle?"
-	line "I have to battle"
+	text "Tu veux te battre?"
+	line "Je dois me battre"
 
-	para "every so often to"
-	line "avoid rusting out."
+	para "souvent pour ne"
+	line "pas rouiller."
 
-	para "I'll be on"
+	para "Je serais sur"
 	line "@"
 	text_from_ram StringBuffer5
 	text "!"
@@ -723,384 +734,398 @@ UnknownText_0x65419: ; 0x65419
 ; 0x65471
 
 UnknownText_0x65471: ; 0x65471
-	text "See you later!"
+	text "A plus!"
 	done
 ; 0x65481
 
 UnknownText_0x65481: ; 0x65481
-	text "Do you know BLUE?"
+	text "Tu connais BLUE?"
 
-	para "He's PROF.OAK's"
-	line "grandson and a"
+	para "C'est le petit-"
+	line "fils du PROF.CHEN."
 
-	para "former #MON"
-	line "LEAGUE CHAMPION!"
+	para "Et un ancien cham-"
+	line "pion de la LIGUE"
+	cont "#MON"
 
-	para "He's one super"
-	line "#MON trainer!"
+	para "C'est un dresseur"
+	line "incroyable!"
 	done
 ; 0x654ea
 
 UnknownText_0x654ea: ; 0x654ea
-	text "PROF.OAK has a"
-	line "granddaughter"
-	cont "named DAISY."
+	text "Le PROF.CHEN à"
+	line "une petite-fille"
+	cont "nommée DAISY."
 
-	para "When she's around,"
-	line "even the most"
+	para "Lorsqu'elle est"
+	line "la, même le plus"
 
-	para "ferocious #MON"
-	line "calm right down."
+	para "féroce #MON se"
+	line "calme."
 	done
 ; 0x65555
 
 UnknownText_0x65555: ; 0x65555
-	text "Everyone's talking"
-	line "about PROF.ELM."
+	text "Tout le monde par-"
+	line "le du PROF.ORME."
 
-	para "He used to be an"
-	line "assistant to the"
-	cont "great PROF.OAK!"
+	para "Il était autrefois"
+	line "un assistant du"
+	cont "grand PROF.CHEN!"
 
-	para "That is so cool!"
-	line "I envy him!"
+	para "Il est trop cool!"
+	line "Je l'envie!"
 	done
 ; 0x655c7
 
 UnknownText_0x655c7: ; 0x655c7
-	text "PROF.OAK's dream"
-	line "is to compile a"
+	text "Le rêve du PROF."
+	line "CHEN est de faire"
 
-	para "comprehensive"
-	line "#DEX."
+	para "un #DEX"
+	line "comprhénsible."
 
-	para "I envy you for"
-	line "taking part in"
-	cont "that project<...>"
+	para "Je t'envie de"
+	line "faire parti de ce"
+	cont "projet<...>"
 	done
 ; 0x65628
 
 UnknownText_0x65628: ; 0x65628
-	text "Do you know KURT,"
-	line "the BALL creator?"
+	text "Tu connais FARGAS,"
+	line "le fabriquant de"
+	cont "BALLs?"
 
-	para "He and PROF.OAK go"
-	line "back a long way."
+	para "Le PROF.CHEN et"
+	line "lui se connaissent"
+	cont "depuis longetemps."
 
-	para "I guess great"
-	line "people attract one"
-	cont "another!"
+	para "On dirait que les"
+	line "grands esprits"
+	cont "s'attirent!"
 	done
 ; 0x6569b
 
 UnknownText_0x6569b: ; 0x6569b
-	text "#MON LEAGUE is"
-	line "the great gather-"
-	cont "ing place for all"
+	text "La LIGUE #MON"
+	line "est le rassem-"
+	cont "blement des grands"
 
-	para "trainers who wish"
-	line "to become CHAMP."
+	para "dresseurs voulant"
+	line "devenir CHAMPION."
 
-	para "PROF.OAK acts as"
-	line "an advisor to the"
+	para "Le PROF.CHEN est"
+	line "un conseiller de"
 
-	para "#MON LEAGUE's"
-	line "headquarters."
+	para "leurs quartiers"
+	line "généraux."
 
-	para "He really is a"
-	line "great man."
+	para "C'est vraiment un"
+	line "grand homme."
 	done
 ; 0x6574a
 
 UnknownText_0x6574a: ; 0x6574a
-	text "PROF.OAK'S #MON"
-	line "TALK is a popular"
-	cont "radio show, right?"
+	text "La chronique #-"
+	line "MON est une émi-"
+	cont "ssion populaire"
 
-	para "Did you know that"
-	line "he was going to"
+	para "Tu savais que le"
+	line "PROF.CHEN ne vou-"
 
-	para "turn down the show"
-	line "at first?"
+	para "lait pas y parti-"
+	line "ciper au début?"
 
-	para "But MARY's energy"
-	line "and persistence"
-	cont "wore him down."
+	para "Mais la persis-"
+	line "tance de LULA l'a"
+	cont "convaincu."
 
-	para "So we have MARY to"
-	line "thank for it!"
+	para "Remercions LULA"
+	line "pour ça!"
 	done
 ; 0x65810
 
 UnknownText_0x65810: ; 0x65810
-	text "PROF.OAK used to"
-	line "be a trainer a"
-	cont "long time ago."
+	text "Le PROF.CHEN"
+	line "était un dresseur"
+	cont "il y a longtemps."
 
-	para "But rather than"
-	line "battling, he found"
+	para "Mais il s'est pris"
+	line "de passion dans"
 
-	para "#MON themselves"
-	line "to be interesting."
+	para "les recherches"
+	line "#MON. Alors il"
 
-	para "So he abandoned"
-	line "his training to"
+	para "a abandonné son"
+	line "entraînement pour"
 
-	para "focus on becoming"
-	line "a researcher."
+	para "devenir chercheur"
+	line "#MON."
 	done
 ; 0x658c6
 
 UnknownText_0x658c6: ; 0x658c6
-	text "PROF.OAK has a"
-	line "granddaughter"
-	cont "named DAISY."
+	text "Le PROF.CHEN a"
+	line "une petite-fille"
+	cont "nommée DAISY."
 
-	para "She has tea every"
-	line "day for an hour"
+	para "Elle se fait un"
+	line "thé chaque jour"
 
-	para "from three in the"
-	line "afternoon."
+	para "à 3 heures de"
+	line "l'après-midi"
 
-	para "I wish I could"
-	line "join her for tea"
+	para "J'aimerais la re-"
+	line "joindre pour son"
 
-	para "and chat about"
-	line "PROF.OAK."
+	para "thé et discuter du"
+	line "PROF.CHEN."
 	done
 ; 0x65969
 
 UnknownText_0x65969: ; 0x65969
-	text "Did you know?"
-	line "PROF.OAK traveled"
+	text "Tu savais? Le"
+	line "PROF.CHEN a voyagé"
 
-	para "all over the world"
-	line "when he was young."
+	para "tout autour du"
+	line "monde dans sa"
+	cont "jeunesse."
 
-	para "While traveling,"
-	line "he must've learned"
+	para "Il a du beaucoup"
+	line "apprendre sur les"
 
-	para "about #MON"
-	line "naturally."
+	para "#MON a cette"
+	line "époque."
 
-	para "I envy him<...>"
-	line "I'd like to travel"
+	para "Je l'envie<...>"
+	line "J'aimerais voyager"
 
-	para "and learn about"
-	line "things too<...>"
+	para "et en apprendre"
+	line "tant moi aussi<...>"
 	done
 ; 0x65a23
 
 UnknownText_0x65a23: ; 0x65a23
-	text "I'm going to study"
-	line "hard so PROF.OAK"
+	text "Je vais beaucoup"
+	line "étudier pour que"
 
-	para "will make me his"
-	line "assistant!"
+	para "le PROF.CHEN fasse"
+	line "de moi son"
+	cont "assistant."
 	done
 ; 0x65a63
 
 UnknownText_0x65a63: ; 0x65a63
-	text "Do you remember"
-	line "about our battle?"
+	text "Tu te souviens"
+	line "de notre combat?"
 
-	para "The place is"
+	para "L'endroit est à"
 	line "@"
 	text_from_ram StringBuffer5
 	text "."
 
-	para "Hurry over--I'm"
-	line "waiting."
+	para "Viens vite, je"
+	line "t'attends."
 	done
 ; 0x65ab2
 
 UnknownText_0x65ab2: ; 0x65ab2
-	text "Listen to this."
-	line "My @"
+	text "Ecoute ça."
+	line "on @"
 	text_from_ram StringBuffer4
 	text $51
-	db "grins happily when"
-	line "I pinch its cheek."
+	db "souris quand je"
+	line "pince sa joue."
 
-	para "But it never grins"
-	line "for anyone else."
+	para "Mais il ne le fait"
+	line "que pour moi."
 
-	para "I must be special."
+	para "Je doit être"
+	line "spécial."
 	done
 ; 0x65b29
 
 UnknownText_0x65b29: ; 0x65b29
-	text "Oh, and recently,"
-	line "my PIKACHU beat a"
-	cont "wild @"
+	text "Oh, récemment,"
+	line "mon PIKACHU à battu"
+	cont "un @"
 	text_from_ram StringBuffer4
 	text "!"
 
-	para "A wild @"
+	para "Un @"
 	text_from_ram StringBuffer4
 	text ","
-	line "I tell you!"
+	line "je te dis!"
 
-	para "Don't you think"
-	line "that's astounding?"
+	para "Tu ne trouves pas"
+	line "ça génial?"
 
-	para "My PIKACHU is"
-	line "awesome!"
+	para "Mon PIKACHU est"
+	line "trop top!"
 
-	para "My PIKACHU is the"
-	line "greatest!"
+	para "Mon PIKACHU est le"
+	line "meilleur!"
 	done
 ; 0x65bc8
 
 UnknownText_0x65bc8: ; 0x65bc8
-	text "Oh, and I saw a"
-	line "wild @"
+	text "Oh et j'ai vu un"
+	line "@"
 	text_from_ram StringBuffer4
-	text " a"
-	cont "little while ago."
+	text " il"
+	cont "y a un moment."
 
-	para "But it wasn't very"
-	line "cute, so I left"
+	para "Mais il était pas"
+	line "mignon alors je"
 
-	para "it<...>"
-	line "#MON have to be"
+	para "l'ai laissé<...>"
+	line "Les #MON doi-"
 
-	para "cute. They're no"
-	line "good otherwise."
+	para "vent être mignons"
+	line "ou ils ne sont pas"
+	cont "bons sinon."
 	done
 ; 0x65c4e
 
 UnknownText_0x65c4e: ; 0x65c4e
-	text "Well, let's talk"
-	line "again!"
+	text "Bon, parlons une"
+	line "autre fois!"
 	done
 ; 0x65c66
 
 UnknownText_0x65c66: ; 0x65c66
-	text "Did you remember?"
-	line "The Bug-Catching"
-	cont "Contest is today."
+	text "Tu te souviens?"
+	line "Le concours de"
+	cont "capture est"
 
-	para "You're going to"
-	line "go, aren't you?"
+	para "aujourd'hui. Tu"
+	line "iras, pas vrai?"
 
-	para "I think I'll"
-	line "participate with"
+	para "Je pense parti-"
+	line "ciper avec PIKACHU"
 
-	para "PIKACHU to show"
-	line "off its cuteness."
+	para "pour montrer a "
+	line "quel point il est"
+	cont "mignon."
 	done
 ; 0x65cf9
 
 UnknownText_0x65cf9: ; 0x65cf9
-	text "I'd like you to"
-	line "have a NUGGET."
+	text "J'aimerais te do-"
+	line "nner une PEPITE."
 
-	para "My PIKACHU just"
-	line "loves it."
+	para "Mon PIKACHU"
+	line "l'adore."
 
-	para "I'm certain your"
-	line "PIKACHU will love"
-	cont "it too!"
+	para "Je suis sûr que"
+	line "ton PIKACHU aimera"
+	cont "aussi!"
 	done
 ; 0x65d5c
 
 UnknownText_0x65d5c: ; 0x65d5c
-	text "How is your"
-	line "PIKACHU doing?"
+	text "Comment vas ton"
+	line "PIKACHU?"
 
-	para "Let's get together"
-	line "and brag about our"
-	cont "PIKACHU!"
+	para "Allons nous vanter"
+	line "de nos PIKACHUs"
+	cont "ensemble!"
 	done
 ; 0x65da6
 
 UnknownText_0x65da6: ; 0x65da6
-	text "What's wrong?"
+	text "Qu'est-ce qu'il y"
+	line "a ?"
 
-	para "I'm waiting on"
+	para "Je t'attends sur"
 	line "@"
 	text_from_ram StringBuffer5
 	text "."
 
-	para "Come pick this up"
-	line "anytime."
+	para "Récupère le quand"
+	line "tu veux."
 	done
 ; 0x65de4
 
 UnknownText_0x65de4: ; 0x65de4
-	text "My @"
+	text "Mon @"
 	text_from_ram StringBuffer4
-	text " has"
-	line "grown again."
+	text " à"
+	line "encore grandit."
 
-	para "It was only about"
-	line "so big when I"
+	para "Il était déja si"
+	line "grand quand je"
 
-	para "caught it, but now"
-	line "it's way bigger."
+	para "l'ai attrapé mais"
+	line "il a encore"
+	cont "grandi."
 	done
 ; 0x65e42
 
 UnknownText_0x65e42: ; 0x65e42
-	text "Oh yeah, I KO'd a"
-	line "wild @"
+	text "Ah oui, j'ai mis"
+	line "KO un @"
 	text_from_ram StringBuffer4
 	text "."
 
-	para "It was huge, like"
-	line "this big even."
+	para "Il était gros"
+	line "comme ça."
 
-	para "Heh, I guess you"
-	line "can't tell over"
-	cont "the phone<...>"
+	para "Enfin, je crois"
+	line "que tu ne peux"
+	
+	para "pas deviner par le"
+	line "téléphone"
 	done
 ; 0x65eac
 
 UnknownText_0x65eac: ; 0x65eac
-	text "Oh yeah, I lost a"
-	line "wild @"
+	text "Ah oui, j'ai raté"
+	line "un @"
 	text_from_ram StringBuffer4
 	text "."
 
-	para "It was huge, like"
-	line "this big even."
+	para "Il était gros"
+	line "comme ça."
 
-	para "Heh, I guess you"
-	line "can't tell over"
-	cont "the phone<...>"
+	para "Enfin, je crois"
+	line "que tu ne peux"
+	
+	para "pas deviner par le"
+	line "téléphone"
 	done
 ; 0x65f17
 
 UnknownText_0x65f17: ; 0x65f17
-	text "We should get a"
-	line "battle going!"
+	text "On devrait se"
+	line "battre!"
 
-	para "I'll be fishing on"
+	para "Je pêcherais à"
 	line "@"
 	text_from_ram StringBuffer5
 	text "."
 
-	para "Swing by if you"
-	line "have the time."
+	para "Passe si tu as le"
+	line "temps."
 	done
 ; 0x65f6e
 
 UnknownText_0x65f6e: ; 0x65f6e
-	text "Well, I'll be"
-	line "seeing you."
+	text "Bon, a une pro-"
+	line "chaine fois!"
 	done
 ; 0x65f88
 
 UnknownText_0x65f88: ; 0x65f88
-	text "I picked up a good"
-	line "little thing at"
-	cont "the water's edge."
+	text "J'ai trouvé un bon"
+	line "petit truc au bord"
+	cont "de l'eau."
 
-	para "Like I promised,"
-	line "it's yours."
+	para "Comme promis,"
+	line "c'est pour toi."
 
-	para "I'll be waiting on"
+	para "Je t'attends sur"
 	line "@"
 	text_from_ram StringBuffer5
 	text "."
@@ -1108,34 +1133,36 @@ UnknownText_0x65f88: ; 0x65f88
 ; 0x65ff2
 
 UnknownText_0x65ff2: ; 0x65ff2
-	text "Have I found"
-	line "anything good?"
+	text "Est-ce que j'ai"
+	line "trouvé quelque"
+	cont "chose?"
 
-	para "Nope, not yet."
+	para "Pas encore."
 
-	para "It's like fishing,"
-	line "you need patience."
+	para "C'est comme la"
+	line "pêche, il faut de"
+	cont "la patience<...>"
 	done
 ; 0x66043
 
 UnknownText_0x66043: ; 0x66043
-	text "Yup, TULLY here<...>"
+	text "Oui, TULLY ici<...>"
 
-	para $14, "? What?"
-	line "You're lost?"
+	para $14, "? Quoi?"
+	line "Tu es perdu?"
 
-	para "Our battle will be"
-	line "on @"
+	para "Notre combat sera"
+	line "sur @"
 	text_from_ram StringBuffer5
 	text "."
 	done
 ; 0x66087
 
 UnknownText_0x66087: ; 0x66087
-	text "I've got something"
-	line "good for you."
+	text "J'ai quelque chose"
+	line "de bien pour toi."
 
-	para "Hustle over to"
+	para "Viens vite sur"
 	line "@"
 	text_from_ram StringBuffer5
 	text "."
@@ -1143,64 +1170,63 @@ UnknownText_0x66087: ; 0x66087
 ; 0x660be
 
 UnknownText_0x660be: ; 0x660be
-	text "Oh yeah, I got an"
-	line "extremely rare"
+	text "Ah oui, j'ai eu un"
+	line "#MON extrême-"
 
-	para "#MON in a trade"
-	line "a while back."
+	para "ment rare dans un"
+	line "échange."
 
-	para "Do you want to"
-	line "know what it is?"
+	para "Tu veux savoir ce"
+	line "que c'est?"
 
-	para "Hehe, I'm keeping"
-	line "it a secret!"
+	para "Héhé, je garde ça"
+	line "secret!"
 	done
 ; 0x6613c
 
 UnknownText_0x6613c: ; 0x6613c
-	text "Oh yeah, I took"
-	line "down this wild"
+	text "Ah oui, j'ai"
+	line "battu ce"
 
 	para "@"
 	text_from_ram StringBuffer4
 	text "."
-	line "It wasn't rare"
+	line "Il n'était pas"
 
-	para "enough to bother"
-	line "catching."
+	para "rare, alors je ne"
+	line "l'ai pas capturé."
 	done
 ; 0x6618c
 
 UnknownText_0x6618c: ; 0x6618c
-	text "Oh yeah, I saw a"
-	line "rare #MON about"
-	cont "an hour ago."
+	text "Ah oui, j'ai vu un"
+	line "#MON rare il y"
+	cont "a une heure."
 
-	para "It was my first"
-	line "sighting. But I"
+	para "C'était la pre-"
+	line "mière fois, mais"
 
-	para "didn't have any"
+	para "je n'avais aucune"
 	line "# BALLS<...>"
 
-	para "Would BILL laugh"
-	line "at my mistakes?"
+	para "Est-ce que LEO"
+	line "se moquera de moi?"
 	done
 ; 0x66214
 
 UnknownText_0x66214: ; 0x66214
-	text "You've got time"
-	line "like usual, right?"
+	text "Tu as un moment?"
 
-	para "Feel like having a"
-	line "battle?"
+	para "Tu te sens de te"
+	line "battre?"
 
-	para "It'll be a chance"
-	line "to see my rare"
+	para "Ce sera ma chance"
+	line "de voir mon #-"
 
-	para "#MON. It'll be"
-	line "worth your time!"
+	para "MON. Ca vaudra"
+	line "ton temps!"
 
-	para "You know where--"
+	para "Tu sais ou est--"
 	line "@"
 	text_from_ram StringBuffer5
 	text "."
@@ -1208,115 +1234,116 @@ UnknownText_0x66214: ; 0x66214
 ; 0x662a9
 
 UnknownText_0x662a9: ; 0x662a9
-	text "So that's it then."
+	text "Bien alors."
 	done
 ; 0x662bc
 
 UnknownText_0x662bc: ; 0x662bc
-	text "Did you know<...>?"
-	line "BILL's father is"
+	text "Tu savais<...>?"
+	line "Le père de LEO"
 
-	para "supposed to be a"
-	line "great #MANIAC."
+	para "est supposé être"
+	line "un #MANIAC."
 	done
 ; 0x662fc
 
 UnknownText_0x662fc: ; 0x662fc
-	text "Did you know<...>?"
-	line "Apparently BILL's"
+	text "Tu savais<...>?"
+	line "Apparamment le"
 
-	para "grandpa isn't a"
-	line "#MANIAC."
+	para "grandpère de LEO"
+	line "n'est pas un #-"
+	cont "MANIAC."
 	done
 ; 0x66335
 
 UnknownText_0x66335: ; 0x66335
-	text "Did you know<...>?"
-	line "BILL's originally"
-	cont "from GOLDENROD."
+	text "Tu savais<...>?"
+	line "LEO habitait"
+
+	para "autrefois à"
+	cont "DOUBLONVILLE"
 	done
 ; 0x66366
 
 UnknownText_0x66366: ; 0x66366
-	text "Did you know<...>?"
-	line "BILL evidently"
-
-	para "lives on ROUTE 25"
-	line "in KANTO."
+	text "Tu savais<...>?"
+	line "LEO habite à ROU-"
+	cont "TE 25 dans KANTO."
 	done
 ; 0x663a1
 
 UnknownText_0x663a1: ; 0x663a1
-	text "Did you know<...>?"
-	line "ABRA was the first"
+	text "Tu savais<...>?"
+	line "ABRA est le pre-"
 
-	para "#MON that BILL"
-	line "ostensibly caught."
+	para "mier #MON que"
+	line "LEO à capturé."
 	done
 ; 0x663e6
 
 UnknownText_0x663e6: ; 0x663e6
-	text "Did you know<...>?"
-	line "BILL's younger"
+	text "Tu savais<...>?"
+	line "La petite soeur de"
 
-	para "sister apparently"
-	line "can't wink."
+	para "LEO ne peux pas"
+	line "cligner des yeux."
 	done
 ; 0x66421
 
 UnknownText_0x66421: ; 0x66421
-	text "Did you know<...>?"
-	line "BILL supposedly"
+	text "Tu savais<...>?"
+	line "Apparamment LEO"
 
-	para "hates milk and"
-	line "can't drink it."
+	para "déteste le lait"
+	line "et n'en boit pas"
 	done
 ; 0x6645f
 
 UnknownText_0x6645f: ; 0x6645f
-	text "Did you know<...>?"
-	line "Evidently, BILL"
+	text "Tu savais<...>?"
+	line "LEO n'est pas très"
 
-	para "isn't very good at"
-	line "battling."
+	para "bon en combat."
 	done
 ; 0x6649b
 
 UnknownText_0x6649b: ; 0x6649b
-	text "Did you know<...>?"
-	line "BILL appears to"
+	text "Tu savais<...>?"
+	line "LEO a l'air"
 
-	para "like the lady at"
-	line "the FLOWER SHOP."
+	para "d'aimer la dame de"
+	line "la boutique de"
+	cont "fleurs."
 	done
 ; 0x664dd
 
 UnknownText_0x664dd: ; 0x664dd
-	text "Did you know<...>?"
-	line "BILL's mother is"
+	text "Tu savais<...>?"
+	line "Il parait que la"
 
-	para "said to have been"
-	line "a KIMONO GIRL."
+	para "mère de LEO est"
+	line "une KIMONO."
 	done
 ; 0x6651e
 
 UnknownText_0x6651e: ; 0x6651e
-	text "You wanted to hear"
-	line "about BILL?"
+	text "Tu voulais en sa-"
+	line "voir plus sur LEO."
 
-	para "Sorry, but I'm too"
-	line "busy for you."
+	para "Pardon, mais je"
+	line "occupé."
 
-	para "I'll call when I"
-	line "have time."
+	para "Je t'appelle quand"
+	line "j'ai le temps."
 	done
 ; 0x66579
 
 UnknownText_0x66579: ; 0x66579
-	text "You want to see my"
-	line "rare #MON."
+	text "Tu veux voir mon"
+	line "#MON rare."
 
-	para "Hurry over to"
+	para "Viens vite sur"
 	line "@"
 	text_from_ram StringBuffer5
 	text "."
@@ -1324,34 +1351,34 @@ UnknownText_0x66579: ; 0x66579
 ; 0x665ad
 
 UnknownText_0x665ad: ; 0x665ad
-	text "My @"
+	text "Mon @"
 	text_from_ram StringBuffer4
-	text "'s"
-	line "adorable, don't"
+	text " est"
+	line "adorable, tu ne"
 
-	para "you think so?"
-	line "I always sleep"
+	para "trouves pas? Je"
+	line "dors toujours avec"
 
-	para "with it--it's so"
-	line "fluffy and warm!"
+	para "lui. Il est si"
+	line "doux et chaud!"
 	done
 ; 0x66605
 
 UnknownText_0x66605: ; 0x66605
-	text "Oh, and we had to"
-	line "battle a wild"
+	text "Oh et on a com-"
+	line "battu un"
 
 	para "@"
 	text_from_ram StringBuffer4
-	text " a while"
-	line "ago<...>"
+	text " tout à"
+	line "l'heure<...>"
 
-	para "My CLEFAIRY came"
-	line "close to fainting!"
+	para "Mon MELOFEE a"
+	line "failli être K.O!"
 
-	para "Isn't that awful?"
+	para "C'était méchant!"
 
-	para "I hate those nasty"
+	para "Je déteste ces"
 	line "@"
 	text_from_ram StringBuffer4
 	text "!"
@@ -1359,35 +1386,37 @@ UnknownText_0x66605: ; 0x66605
 ; 0x66688
 
 UnknownText_0x66688: ; 0x66688
-	text "Oh, and we had to"
-	line "battle a wild"
+	text "Oh et on a com-"
+	line "battu un"
 
 	para "@"
 	text_from_ram StringBuffer4
-	text " a while"
-	line "ago<...>"
+	text " tout à"
+	line "l'heure<...>"
 
-	para "My CLEFAIRY got"
-	line "frightened, so we"
+	para "Mon MELOFEE a eu"
+	line "peur alors on a"
 
-	para "ran away as fast"
-	line "as we could!"
+	para "fui aussi vite qu'"
+	line "on pouvait!"
 
-	para "I just can't help"
-	line "feeling protective"
-	cont "of my CLEFAIRY."
+	para "Je ne peux pas m'"
+	line "empêcher d'être"
+	
+	para "protectrice envers"
+	line "mon MELOFEE"
 	done
 ; 0x66730
 
 UnknownText_0x66730: ; 0x66730
-	text "I know this might"
-	line "surprise you, but"
+	text "Ca va te sur-"
+	line "prendre mais,"
 
-	para "would you like to"
-	line "battle?"
+	para "voudrais-tu"
+	line "combattre?"
 
-	para "I'll be waiting"
-	line "with CLEFAIRY on"
+	para "MELOFEE et moi"
+	line "t'attendons à"
 	cont "@"
 	text_from_ram StringBuffer5
 	text "."
@@ -1398,35 +1427,38 @@ UnknownText_0x66796: ; 0x66796
 	text_from_ram StringBuffer4
 	text "!"
 
-	para "It's awful."
-	line "My CLEFAIRY<...>"
+	para "C'est terrible"
+	line "Mon MELOFEE<...>"
 
-	para "Huh? ", $14, "?"
+	para "Hein? ", $14, "?"
 
-	para "Oh, sorry! I was"
-	line "in a hurry, and I<...>"
+	para "Oh, pardon!"
+	line "J'étais pressé"
+	cont "et je<...>"
 
-	para "I have to go!"
-	line "Bye-bye!"
+	para "Je dois y aller!"
+	line "A plus!"
 	done
 ; 0x667f7
 
 UnknownText_0x667f7: ; 0x667f7
-	text "Bye-bye!"
+	text "A plus!"
 	done
 ; 0x66801
 
 UnknownText_0x66801: ; 0x66801
-	text "I bought some PINK"
-	line "BOWS at GOLDENROD"
+	text "J'ai acheté des"
+	line "RUBAN ROSE au"
 
-	para "DEPT.STORE for my"
-	line "CLEFAIRY."
+	para "centre commercial"
+	line "de DOUBLONVILLE"
+	cont "pour mon MELOFEE."
 
-	para "I got too many, so"
-	line "I'll give you one!"
+	para "J'en ai en trop"
+	line "alors je t'en"
+	cont "donnerais un!"
 
-	para "Come collect it on"
+	para "Viens vite sur"
 	line "@"
 	text_from_ram StringBuffer5
 	text "."
@@ -1434,22 +1466,24 @@ UnknownText_0x66801: ; 0x66801
 ; 0x66882
 
 UnknownText_0x66882: ; 0x66882
-	text "I love dressing up"
-	line "my CLEFAIRY!"
+	text "J'adore habiller"
+	line "mon MELOFEE!"
 	done
 ; 0x668a3
 
 UnknownText_0x668a3: ; 0x668a3
-	text "What's wrong?"
-	line "Can't you visit?"
+	text "Ca ne vas pas?"
+	line "Tu ne peux pas"
+	cont "venir?"
 
-	para "CLEFAIRY got tired"
-	line "and fell asleep."
+	para "MELOFEE a fini par"
+	line "s'endormir<...>"
 
-	para "I'm not sure if I"
-	line "can wake it up<...>"
+	para "Je ne sais pas si"
+	line "je peux le"
+	cont "réveiller<...>"
 
-	para "Please hurry to"
+	para "Viens vite sur"
 	line "@"
 	text_from_ram StringBuffer5
 	text "!"
@@ -1457,14 +1491,15 @@ UnknownText_0x668a3: ; 0x668a3
 ; 0x6691d
 
 UnknownText_0x6691d: ; 0x6691d
-	text "What's wrong?"
-	line "Can't you visit?"
+	text "Ca ne vas pas?"
+	line "Tu ne peux pas"
+	cont "venir?"
 
-	para "I'm sure this will"
-	line "look good on your"
-	cont "CLEFAIRY."
+	para "Je suis sûr que ça"
+	line "ira bien à ton"
+	cont "MELOFEE."
 
-	para "Please hurry to"
+	para "Viens vite sur"
 	line "@"
 	text_from_ram StringBuffer5
 	text "!"
@@ -1472,308 +1507,312 @@ UnknownText_0x6691d: ; 0x6691d
 ; 0x66980
 
 UnknownText_0x66980: ; 0x66980
-	text "My @"
+	text "Mon @"
 	text_from_ram StringBuffer4
-	text "'s"
-	line "become tougher."
+	text ""
+	line "est devenu plus"
+	cont "fort."
 
-	para "We've achieved"
-	line "liftoff!"
+	para "On a décollé!"
 	done
 ; 0x669b2
 
 UnknownText_0x669b2: ; 0x669b2
-	text "We can easily beat"
-	line "@"
+	text "On bat facilement"
+	line "un @"
 	text_from_ram StringBuffer4
 	text "!"
 
-	para "<...>Huh? You too?"
-	line "Isn't that great?"
+	para "<...>Hein? Toi aussi?"
+	line "C'est pas génial?"
 	done
 ; 0x669ed
 
 UnknownText_0x669ed: ; 0x669ed
-	text "But get this, a"
-	line "wild @"
+	text "Mais écoute ça, un"
+	line "@"
 	text_from_ram StringBuffer4
 	text $51
-	db "just barely eluded"
-	line "us."
+	db "nous a échappé de"
+	line "peu."
 
-	para "I wanted to FLY"
-	line "after it<...>"
+	para "Je voulais lui"
+	line "voler après<...>"
 	done
 ; 0x66a3a
 
 UnknownText_0x66a3a: ; 0x66a3a
-	text "Right now, I'm on"
+	text "La je suis sur"
 	line "@"
 	text_from_ram StringBuffer5
 	text "."
 
-	para "You know, where I"
-	line "first met you?"
+	para "Tu sais, la où je"
+	line "t'ai rencontré?"
 
-	para "Want to battle?"
-	line "I'll wait here."
+	para "Tu veux te battre?"
+	line "J'attendrais ici."
 	done
 ; 0x66a93
 
 UnknownText_0x66a93: ; 0x66a93
-	text "OK, bye for now!"
+	text "OK, A plus!"
 	done
 ; 0x66aa5
 
 UnknownText_0x66aa5: ; 0x66aa5
-	text "I'll be looking"
-	line "forward to our"
-	cont "next battle!"
+	text "J'attends avec"
+	line "impatience notre"
+	cont "prochain combat!"
 	done
 ; 0x66ad1
 
 UnknownText_0x66ad1: ; 0x66ad1
 	text "Oh, ", $14, "!"
-	line "Hurry, hurry!"
+	line "Vite, vite!"
 
 	para "@"
 	text_from_ram StringBuffer5
 	text "!"
-	line "FLY over now!"
+	line "VOL jusqu'ici!"
 	done
 ; 0x66afc
 
 UnknownText_0x66afc: ; 0x66afc
-	text "My @"
+	text "Mon @"
 	text_from_ram StringBuffer4
-	text "'s"
-	line "grown impressive!"
+	text ""
+	line "est impressionant!"
 
-	para "My fishing skills"
-	line "have improved too!"
+	para "Ma pêche aussi"
+	line "s'est amélioré!"
 	done
 ; 0x66b3e
 
 UnknownText_0x66b3e: ; 0x66b3e
-	text "We beat a wild"
+	text "On a battu un"
 	line "@"
 	text_from_ram StringBuffer4
 	text "<...>"
 
-	para "You know, I have"
-	line "more fun fishing"
+	para "Tu sais, je m'a-"
+	line "muse plus a pêcher"
 
-	para "than beating wild"
-	line "#MON."
+	para "qu'a combattre des"
+	line "#MON sauvages."
 	done
 ; 0x66b8f
 
 UnknownText_0x66b8f: ; 0x66b8f
-	text "But a while back,"
-	line "we came this close"
+	text "Il y a un moment,"
+	line "j'étais proche"
 
-	para "to landing a wild"
+	para "d'aterrir sur un"
 	line "@"
 	text_from_ram StringBuffer4
 	text "."
 
-	para "I tell you, it was"
-	line "huge. Believe me."
+	para "Je te le dis, il"
+	line "était gros."
+	cont "Crois moi!"
 	done
 ; 0x66bf3
 
 UnknownText_0x66bf3: ; 0x66bf3
-	text "I'm fishing on"
+	text "Je pêche sur"
 	line "@"
 	text_from_ram StringBuffer5
 	text ","
 
-	para "but nothing's"
-	line "biting today."
+	para "Mais rien ne mord"
+	line "aujourd'hui."
 
-	para "Help me while my"
-	line "time away, come"
-	cont "over for a battle."
+	para "Tu veux venir te"
+	line "battre pour passer"
+	cont "le temps?"
 	done
 ; 0x66c58
 
 UnknownText_0x66c58: ; 0x66c58
-	text "All right, later."
+	text "Très bien, a tout"
+	line "à l'heure."
 	done
 ; 0x66c6b
 
 UnknownText_0x66c6b: ; 0x66c6b
-	text "I snagged an item"
-	line "while fishing."
+	text "J'ai attrapé un"
+	line "objet en pêchant."
 
-	para "Come pick it up on"
+	para "Viens le chercher,"
 	line "@"
 	text_from_ram StringBuffer5
 	text "."
+	cont "Je ne bouge pas."
 	done
 ; 0x66ca7
 
 UnknownText_0x66ca7: ; 0x66ca7
-	text "Nah, I haven't"
-	line "found anything"
+	text "Non, je n'ai rien"
+	line "trouvé qui vaille"
+	cont "ton temps."
 
-	para "that's worth your"
-	line "time."
-
-	para "You have to have"
-	line "patience."
+	para "Tu dois être plus"
+	line "patient."
 	done
 ; 0x66cf7
 
 UnknownText_0x66cf7: ; 0x66cf7
-	text "Sigh<...>"
-	line "They're not biting"
+	text "<...>"
+	line "Ca ne mord pas<...>"
 
-	para "like before on"
+	para "Comme toujours sur"
 	line "@"
 	text_from_ram StringBuffer5
 	text "<...>"
 
-	para "You have to come"
-	line "for a battle!"
+	para "Viens si tu veux"
+	line "te battre!"
 	done
 ; 0x66d45
 
 UnknownText_0x66d45: ; 0x66d45
-	text "Don't you want"
-	line "this item?"
+	text "Tu ne veux pas cet"
+	line "objet?"
 
-	para "Hah? You don't"
-	line "know where?"
+	para "Ah? Tu ne sais pas"
+	line "ou je suis?"
 
 	para "@"
 	text_from_ram StringBuffer5
 	text "<...>"
-	line "Just head from"
+	line "Dirige toi depuis"
 
-	para "MAHOGANY toward"
-	line "BLACKTHORN!"
+	para "ACAJOU vers"
+	line "EBENELLE!"
 	done
 ; 0x66dab
 
 UnknownText_0x66dab: ; 0x66dab
-	text "Anyway, we'll chat"
-	line "again!"
+	text "Bref, on se re-"
+	line "parle plus tard!"
 	done
 ; 0x66dc5
 
 UnknownText_0x66dc5: ; 0x66dc5
-	text "Are you still on"
-	line "your journey?"
+	text "Toujours à"
+	line "l'aventure?"
 
-	para "I remain dedicated"
-	line "to my training."
+	para "Je reste dédié à"
+	line "mon entrainement."
 
-	para "Oooooaaarrrgh!"
+	para "Yaaaaaarrrgh!"
 	done
 ; 0x66e17
 
 UnknownText_0x66e17: ; 0x66e17
-	text "I'm in training"
-	line "now. I apologize,"
+	text "Je m'entraine la."
+	line "Désolé mais tu"
 
-	para "but call me back"
-	line "another time."
+	para "devras me rappeler"
+	line "une autre fois."
 
-	para "Oooooaaarrrgh!"
+	para "Yaaaaaarrrgh!"
 	done
 ; 0x66e67
 
 UnknownText_0x66e67: ; 0x66e67
-	text "I apologize, but I"
-	line "don't have time to"
+	text "Pardon mais je ne"
+	line "peux pas discuter"
+	cont "en m'entrainant."
 
-	para "chat while I am in"
-	line "training!"
-
-	para "I'll have time to"
-	line "chat tomorrow!"
+	para "On parlera demain!"
 
 	para "Yiiihah!"
 	done
 ; 0x66ed3
 
 UnknownText_0x66ed3: ; 0x66ed3
-	text "I plan to take a"
-	line "lunch break, so"
+	text "J'ai l'intention"
+	line "de faire une pause"
+	cont "déjeuner."
 
-	para "come see me then!"
-	line "Ayiiiyah!"
+	para "Viens me voir a ce"
+	line "moment-là!"
+	cont "Ayiiiyah!"
 	done
 ; 0x66f11
 
 UnknownText_0x66f11: ; 0x66f11
-	text "I'm taking a break"
-	line "on ROUTE 45!"
+	text "Je fais une pause"
+	line "sur ROUTE 45!"
 
-	para "Why not drop by if"
-	line "you are free?"
+	para "Pourquoi ne pas"
+	line "passer si tu es"
+	cont "libre?"
 	done
 ; 0x66f52
 
 UnknownText_0x66f52: ; 0x66f52
-	text "I rested up over"
-	line "my lunch break."
+	text "J'ai bien profité"
+	line "de ma pause."
 
-	para "Now it's time to"
-	line "resume training!"
+	para "C'est l'heure de"
+	line "reprendre"
+	cont "l'entrainement"
 
 	para "Oooryaah!"
 	done
 ; 0x66f9f
 
 UnknownText_0x66f9f: ; 0x66f9f
-	text "Nothing can match"
-	line "my @"
+	text "Rien ne battra mon"
+	line "@"
 	text_from_ram StringBuffer4
-	text " now."
+	text ""
+	cont "maintenant!"
 	done
 ; 0x66fc0
 
 UnknownText_0x66fc0: ; 0x66fc0
-	text "Yeah, we KO'd a"
-	line "wild @"
+	text "Ouais, on a mis KO"
+	line "un @"
 	text_from_ram StringBuffer4
 	text "!"
 
-	para "That was OK, but I"
-	line "wanted to get it<...>"
+	para "C'était super mais"
+	line "je le voulais<...>"
 	done
 ; 0x67001
 
 UnknownText_0x67001: ; 0x67001
-	text "And yesterday, we"
-	line "spotted a wild"
+	text "Et hier, on a"
+	line "croisé un"
 
 	para "@"
 	text_from_ram StringBuffer4
 	text "."
-	line "We were debating"
+	line "On se décidait de"
 
-	para "whether to catch"
-	line "it or beat it."
+	para "savoir si on le"
+	line "capturait ou si"
+	cont "on le mettait K.O"
 
-	para "When along came"
-	line "another guy who"
+	para "Puis un autre gars"
+	line "est arrivé et l'a"
 
-	para "caught it!"
-	line "How about that!"
+	para "attrapé!"
+	line "Du coup voilà!"
 	done
 ; 0x67096
 
 UnknownText_0x67096: ; 0x67096
-	text "You're thinking"
-	line "you'd like to"
+	text "Tu es en train de"
+	line "penser à vouloir"
 
-	para "battle me. Am I"
-	line "right or what?"
+	para "me combattre, j'ai"
+	line "pas raison?"
 
-	para "Yep! We'll meet on"
+	para "On se voit sur"
 	line "@"
 	text_from_ram StringBuffer5
 	text "!"
@@ -1781,72 +1820,75 @@ UnknownText_0x67096: ; 0x67096
 ; 0x670eb
 
 UnknownText_0x670eb: ; 0x670eb
-	text "OK, give me a call"
-	line "again!"
+	text "OK, appelle moi"
+	line "encore!"
 	done
 ; 0x67106
 
 UnknownText_0x67106: ; 0x67106
-	text "You'll battle with"
-	line "me again, right?"
+	text "Tu te battras de"
+	line "nouevau avec moi,"
+	cont "hein?"
 	done
 ; 0x6712a
 
 UnknownText_0x6712a: ; 0x6712a
-	text "Haven't you gotten"
-	line "to @"
+	text "Tu n'es pas sur"
+	line "@"
 	text_from_ram StringBuffer5
 	text "?"
 
-	para "Waiting here isn't"
-	line "bad, but I'd sure"
-	cont "like to battle!"
+	para "Attendre ici n'est"
+	line "pas mal, mais"
+	
+	para "j'aimerais me"
+	cont "battre!"
 	done
 ; 0x6717a
 
 UnknownText_0x6717a: ; 0x6717a
 	text_from_ram StringBuffer3
-	text "'s @"
+	text " de @"
 	text_from_ram StringBuffer4
 	db $0
-	line "is much stronger"
-	cont "than before!"
+	line "est bien plus fort"
+	cont "qu'avant!"
 	done
 ; 0x671a4
 
 UnknownText_0x671a4: ; 0x671a4
-	text "And, and<...>"
-	line "I just battled and"
-	cont "beat @"
+	text "Et, et<...>"
+	line "J'ai réussi à com-"
+	cont "battre @"
 	text_from_ram StringBuffer4
 	text "!"
 
-	para "I've raised my"
-	line "#MON properly!"
+	para "J'ai élevé mon"
+	line "#MON propement!"
 	done
 ; 0x671eb
 
 UnknownText_0x671eb: ; 0x671eb
-	text "But, but<...>"
+	text "Mais, mais<...>"
 
-	para "A wild @"
+	para "Un @"
 	text_from_ram StringBuffer4
 	db $0
-	line "got away from me"
+	line "S'est encore"
 
-	para "again. It's just"
-	line "not fair!"
+	para "enfui<...> C'est"
+	line "pas juste!"
 	done
 ; 0x6722e
 
 UnknownText_0x6722e: ; 0x6722e
-	text "I'm ERIN. Want to"
-	line "battle me again?"
+	text "C'est ERIN. Tu"
+	line "veux te battre?"
 
-	para "I won't lose this"
-	line "time!"
+	para "Je ne perdrais pas"
+	line "cette fois!"
 
-	para "I'll be waiting on"
+	para "J'attendrais sur"
 	line "@"
 	text_from_ram StringBuffer5
 	text "!"
@@ -1854,25 +1896,26 @@ UnknownText_0x6722e: ; 0x6722e
 ; 0x67281
 
 UnknownText_0x67281: ; 0x67281
-	text "See you. Bye-bye!"
+	text "A plus!"
 	done
 ; 0x67294
 
 UnknownText_0x67294: ; 0x67294
-	text "I'm working hard"
-	line "to raise my"
+	text "Je travaille dur"
+	line "pour élever mon"
 	cont "#MON!"
 
-	para "Come back for"
-	line "another battle!"
+	para "Reviens pour un"
+	line "autre combat!"
 	done
 ; 0x672d5
 
 UnknownText_0x672d5: ; 0x672d5
 	text "Oh, ", $14, "!"
-	line "Come battle ERIN!"
+	line "Viens combattre"
+	cont "ERIN!"
 
-	para "I'll be waiting on"
+	para "Je t'attends sur"
 	line "@"
 	text_from_ram StringBuffer5
 	text "!"

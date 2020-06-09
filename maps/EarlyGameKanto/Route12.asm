@@ -9,11 +9,11 @@ Route12RBSnorlaxScript:
 	jumptext Route12RBSnorlaxText
 
 Route12RBSnorlaxText:
-	text "A large #MON"
-	line "sleeps soundly."
+	text "Un gros #MON"
+	line "dort profondément."
 
-	para "When will it wake"
-	line "up?"
+	para "Quand est-ce qu'il"
+	line "se réveillera?"
 	done
 
 Route12RB_MapEventHeader: ; 0x68242

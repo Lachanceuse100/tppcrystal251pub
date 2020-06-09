@@ -364,310 +364,304 @@ Movement_CeruleanGrampsRBPartialRetreat_playerright:
 
 _CeruleanCityText_19668F:
 	text "<GREEN>: <PLAYER>!"
-	line "Good to see you"
-	cont "again!"
+	line "Contente de te"
+	cont "voir!"
 
-	para "How are you doing?"
-	line "Your #MON look"
-	cont "happy with you."
+	para "Comment vas-tu?"
+	line "Tes #MON ont"
+	cont "l'air heureux!"
 
-	para "I've caught a"
-	line "bunch of cute"
-	cont "#MON since we"
-	cont "last fought."
+	para "Moi j'en ai eu"
+	line "plein depuis la"
+	cont "dernière fois."
 
-	para "Let me show you"
-	line "just how cute they"
-	cont "are!"
+	para "Je vais te"
+	line "montrer comment"
+	cont "ils sont mignons!"
 	done
 
 _CeruleanCityText_19668:
-	text "<GREEN>: Yo!"
+	text "<GREEN>: Salut!"
 	line "<PLAYER>!"
 
-	para "You're still"
-	line "struggling along"
-	cont "back here?"
+	para "Tu traînes encore?"
 
-	para "I'm doing great!"
-	line "I caught a bunch"
-	cont "of strong and"
-	cont "smart #MON!"
+	para "Moi ça va!"
+	line "J'ai capturé plein"
+	cont "de #MON forts!"
 
-	para "Here, let me see"
-	line "what you caught,"
-	cont "<PLAYER>!"
+	para "Et toi, t'as"
+	line "attrapé quoi,"
+	cont "<PLAYER>?"
 	done
 
 _CeruleanCityText_1966dF:
-	text "Wow, your #MON"
-	line "have grown strong!"
+	text "Woah, tes #MON"
+	line "ont bien grandi!"
 	done
 
 _CeruleanCityText_1966d:
-	text "Hey! Take it easy!"
-	line "You won already!"
+	text "Hé! Du calme!"
+	line "C'est bon! T'as"
+	cont "gagné!"
 	done
 
 _CeruleanCityText_19672F:
-	text "Aww<...> Looks like"
-	line "my #MON won"
-	cont "this time!"
+	text "Ah! C'est mes"
+	line "#MON qui"
+	cont "gagnent cette"
+	cont "fois!"
 	done
 
 _CeruleanCityText_19672:
-	text "Heh! You're no"
-	line "match for my"
-	cont "genius!"
+	text "Ha! Tu fais pas"
+	line "le poids face à"
+	cont "mon génie!"
 	done
 
 _CeruleanCityText_19677F:
-	text "<GREEN>: So, I was"
-	line "just at the cape,"
+	text "<GREEN>: Alors,"
+	line "j'étais au cap,"
 
-	para "and I met this"
-	line "really nice man"
-	cont "named BILL."
+	para "et j'ai rencontré"
+	line "le fameux LEO"
 
-	para "He's quite the"
-	line "collector, and he"
-	cont "showed me his"
-	cont "cutest catches."
+	para "C'est un grand"
+	line "collectionneur et"
+	cont "il m'a montré ses"
+	cont "meilleurs prises."
 
-	para "Oh, did you know?"
-	line "BILL runs the"
-	cont "#MON Storage"
-	cont "System on PC!"
+	para "Et tu savais?"
+	line "Il est responsable"
+	cont "du système de"
+	cont "stockage de #-"
+	cont "MON sur PC."
 
-	para "You should go"
-	line "introduce yourself"
-	cont "to him."
+	para "Tu devrais te"
+	line "présenter à lui."
 
-	para "Alright, I should"
-	line "get going."
-	cont "Nice seeing you!"
+	para "Bon, j'y vais."
+	line "C'était sympa"
+	cont "de te voir!"
 	done
 
 _CeruleanCityText_19677:
-	text "<GREEN>: Hey,"
-	line "guess what?"
+	text "<GREEN>: Devine"
+	line "quoi?"
 
-	para "I went to BILL's"
-	line "and got him to"
-	cont "show me his rare"
-	cont "#MON!"
+	para "J'ai vu LEO et"
+	line "il m'a montré ses"
+	cont "#MON rares!"
 
-	para "That added a lot"
-	line "of pages to my"
-	cont "#DEX!"
+	para "Ca a ajouté plein"
+	line "a mon #DEX!"
 
-	para "After all, BILL's"
-	line "world famous as a"
+	para "Après tout, LEO"
+	line "est un célèbre"
 	cont "#MANIAC!"
 
-	para "He invented the"
-	line "#MON Storage"
-	cont "System on PC!"
+	para "Il a inventé le"
+	line "stockage de #-"
+	cont "MON sur PC!"
 
-	para "Since you're using"
-	line "his system, go"
-	cont "thank him!"
+	para "Puisque tu"
+	line "utilises son"
+	cont "système, va le"
+	cont "remercier!"
 
-	para "Well, I better"
-	line "get rolling!"
-	cont "Smell ya later!"
+	para "Bon, moi je trace!"
+	line "A plus!"
 	done
 
 _CeruleanCityText3:
-	text "You're a trainer"
-	line "too?"
+	text "Tu es aussi"
+	line "un dresseur?"
 
-	para "I got it! You're"
-	line "here to challenge"
-	cont "MISTY, is that it?"
+	para "Je pari que tu vas"
+	line "aller défier"
+	cont "ONDINE, pas vrai?"
 
-	para "Best of luck!"
+	para "Bonne chance!"
 	done
 
 _CeruleanCityText4:
-	text "That SLOWBRO in"
-	line "front of the shop"
-	cont "is in the way."
+	text "Ce FLAGADOSS"
+	line "devant le magasin"
+	cont "est sur le chemin."
 
-	para "There might be a"
-	line "way around."
+	para "On doit pouvoir"
+	line "le contourner."
 	done
 
 _CeruleanCityText4After:
-	text "#MON have fee-"
-	line "lings, too."
+	text "Les #MON ont"
+	line "aussi des"
+	cont "sentiments."
 
-	para "If you let them"
-	line "faint too often,"
-	cont "they'll be un-"
-	cont "happy with you."
+	para "Si tu les laisses"
+	line "être K.O trop"
+	cont "souvent, ils"
+	cont "seront malheureux."
 	done
 
 _CeruleanCityText5:
-	text "The GYM LEADER is"
-	line "out-of-this-world"
-	cont "tough. You better"
-	cont "watch yourself!"
+	text "La CHAMPIONNE est"
+	line "hors de ce monde."
+	cont "Fais attention!"
 	done
 
 _CeruleanCityText_19730:
-	text "OK! SLOWBRO!"
-	line "Use SONICBOOM!"
-	cont "Come on, SLOWBRO"
-	cont "pay attention!"
+	text "OK! FLAGADOSS!"
+	line "Lance SONICBOOM!"
+	cont "Allez, FLAGADOSS,"
+	cont "concentre toi!"
 	done
 
 _CeruleanCityText_19735:
-	text "SLOWBRO punch!"
-	line "No! You blew it"
-	cont "again!"
+	text "Poing FLAGADOSS!"
+	line "Non! Encore raté!"
 	done
 
 _CeruleanCityText_1973a:
-	text "SLOWBRO, WITHDRAW!"
-	line "No! That's wrong!"
+	text "FLAGADOSS, REPLI!"
+	line "Mais non, pas ça!"
 	done
 
 _CeruleanCityText_1973a_2:
-	text "It's so hard to"
-	line "control #MON!"
+	text "C'est si dur de"
+	line "contrôler des"
+	cont "#MON!"
 
-	para "Your #MON's"
-	line "obedience depends"
-	cont "on your abilities"
-	cont "as a trainer!"
+	para "L'obéissance de"
+	line "tes #MON"
+	cont "dépends de tes"
+	cont "compétences de"
+	cont "dresseur."
 	done
 
 _CeruleanCityText_1976f:
-	text "SLOWBRO took a"
-	line "snooze<...>"
+	text "FLAGADOSS fait une"
+	line "sieste<...>"
 	done
 
 _CeruleanCityText_19774:
-	text "SLOWBRO is"
-	line "loafing around<...>"
+	text "FLAGADOSS se"
+	line "tourne les pouces<...>"
 	done
 
 _CeruleanCityText_19779:
-	text "SLOWBRO turned"
-	line "away<...>"
+	text "FLAGADOSS tourne"
+	line "la tête<...>"
 	done
 
 _CeruleanCityText_1977e:
-	text "SLOWBRO"
-	line "ignored orders<...>"
+	text "FLAGADOSS ignore"
+	line "les ordres<...>"
 	done
 
 _CeruleanCityText9:
-	text "I want a bright"
-	line "red BICYCLE!"
+	text "Je veux une"
+	line "BICYCLETTE rouge!"
 
-	para "When will the"
-	line "shop's OWNER"
-	cont "return?"
+	para "Quand est-ce que"
+	line "le gérant revient?"
 	done
 
 _CeruleanCityText12:
-	text "CERULEAN CITY"
-	line "A Mysterious,"
-	cont "Blue Aura"
-	cont "Surrounds It"
+	text "AZURIA"
+	line "Une aura bleue"
+	cont "mystérieuse"
+	cont "l'entoure<...>"
 	done
 
 _CeruleanCityText13:
-	text "TRAINER TIPS"
+	text "ASTUCE"
 
-	para "Pressing B Button"
-	line "during evolution"
-	cont "cancels the whole"
-	cont "process."
+	para "Appuyer sur B"
+	line "durant une évolu-"
+	cont "tion annule le"
+	cont "processus."
 	done
 
 _CeruleanCityText16:
-	text "Grass and caves"
-	line "handled easily!"
-	cont "BIKE SHOP"
+	text "Plus vite dans le"
+	line "vent, plus vite"
+	cont "dans les villes."
+	cont "CYCLES A GOGO"
 
-	para "  CLOSED FOR THE"
-	line "      HOLIDAY"
+	para " Fermé durant les"
+	line "   les vacances"
 	done
 
 _CeruleanCityText17:
-	text "CERULEAN CITY"
-	line "#MON GYM"
-	cont "LEADER: MISTY"
+	text "ARENE #MON"
+	line "D'AZURIA"
+	para "CHAMPIONNE:"
+	line "ONDINE"
 
-	para "The Tomboyish"
-	line "Mermaid!"
+	para "La sirène"
+	line "garçon manqué!"
 	done
 
 Text_CeruleanCityRBLockedDoor:
-	text "It's locked<...>"
+	text "C'est fermé<...>"
 	done
 
 CeruleanCityRBRocketText1:
-	text "So that's where he"
-	line "keeps it<...>"
+	text "C'est ici qu'il"
+	line "la garde<...>"
 	done
 
 CeruleanCityRBRocketText2:
-	text "What? I was just"
-	line "muttering to my-"
-	cont "self."
+	text "Quoi? Je me parle"
+	line "à moi même."
 
-	para "I'm innocent! Don't"
-	line "you believe me?"
+	para "J'ai rien fait!"
+	line "Tu me crois pas?"
 	done
 
 CeruleanCityRBRocketWinText:
-	text "Stop! I give up!"
-	line "I'll leave quiet-"
-	cont "ly!"
+	text "Arrête!"
+	line "J'abandonne! Je"
+	cont "vais m'en aller!"
 	done
 
 CeruleanCityRBRocketText3:
-	text "Darn it all! I'll"
-	line "make sure you pay"
-	cont "dearly for this!"
+	text "Bon sang! Je te"
+	line "ferais payer cher!"
 	done
 
 CeruleanCityRBRocketText4:
-	text "What was all that"
-	line "commotion?"
+	text "C'était quoi ce"
+	line "boucan?"
 
-	para "<...> Oh? Was that man"
-	line "after my TM?"
+	para "<...> Oh? Cet homme"
+	line "était après ma CT?"
 
-	para "Thank you for cha-"
-	line "sing him off."
+	para "Merci de l'avoir"
+	line "chassé."
 
-	para "If I were just a"
-	line "few years younger<...>"
+	para "Si j'étais plus"
+	line "jeune<...>"
 
-	para "Ah, it can't be"
-	line "helped."
+	para "Enfin, j'y"
+	line "peux rien."
 
-	para "Here, let me thank"
-	line "you for your trou-"
-	cont "ble."
+	para "Tiens, pour te"
+	line "remercier."
 	done
 
 CeruleanCityRBRocketText5:
-	text "That TM teaches"
-	line "THIEF."
+	text "Cette CT contient"
+	line "LARCIN."
 
-	para "Not that you"
-	line "should become one."
+	para "Attention, voler"
+	line "c'est mal."
 	done
 
 CeruleanCityRBRocketText6:
-	text "There you are! I've"
-	line "held this for you!"
+	text "Te voilà! J'ai"
+	line "gardé ça pour toi!"
 	done
 
 CeruleanCityRB_MapEventHeader: ; 0x18445d

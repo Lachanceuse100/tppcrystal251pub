@@ -1,165 +1,171 @@
 MomPhoneGreetingText: ; 0x1b4000
-	text "Hello?"
+	text "Allo?"
 
-	para "Oh, hi, ", $52, "!"
-	line "Working hard?"
+	para "Oh, ", $52, "!"
+	line "Tu travailles dur?"
 	done
 
 UnknownText_0x1b4021: ; 0x1b4021
-	text "Oh, so you're in"
+	text "Oh, tu es sur"
 	line "@"
 	TX_RAM StringBuffer3
 	text "<...>"
 
-	para "Isn't that where"
+	para "C'est pas la que"
 	line "@"
 	TX_RAM StringBuffer4
 	text $51
-	db "is? Did you go"
-	line "take a look?"
+	db "est? Tu y as"
+	line "jeté un oeil?"
 	done
 
 MomPhoneGenericAreaText: ; 0x1b406b
-	text "Really, you're in"
+	text "Vraiment, tu es à"
 	line "@"
 	TX_RAM StringBuffer3
 	text "?"
 
-	para "I've never gone"
-	line "there. That's kind"
-	cont "of neat, ", $52, "."
+	para "Je ne connais pas"
+	line "ce coin. Tu as de"
+	cont "la chance, ", $52, "."
 	done
 
 MomPhoneNewBarkText: ; 0x1b40b1
-	text "What? You're in"
+	text "Quoi? Tu es à"
 	line "@"
 	TX_RAM StringBuffer3
 	text "?"
 
-	para "Come see your MOM"
-	line "sometime!"
+	para "Viens voir ta"
+	line "MAMAN si tu peux!"
 	done
 
 MomPhoneCherrygroveText: ; 0x1b40e4
-	text "You're visiting"
+	text "Tu visites"
 	line "@"
 	TX_RAM StringBuffer3
 	text "?"
 
-	para "How about coming"
-	line "home for a bit?"
+	para "Et si tu passais"
+	line "à la maison un"
+	cont "moment?"
 	done
 
 UnknownText_0x1b411c: ; 0x1b411c
-	text "Wow, you're in"
+	text "Woah, tu es à"
 	line "@"
 	TX_RAM StringBuffer3
 	text "?"
 
-	para "Good luck on your"
-	line "#MON quest!"
+	para "Bonne chance dans"
+	line "ta quête #MON!"
 	done
 
 UnknownText_0x1b4150: ; 0x1b4150
-	text "That sounds really"
-	line "tough."
+	text "Ca a l'air dur."
 
-	para "But, ", $52, ", I"
-	line "know you're really"
+	para "Mais, ", $52, ", je"
+	line "sais que tu es"
 
-	para "determined. You'll"
-	line "be OK, right?"
+	para "déterminer. Ca va"
+	line "aller, d'accord?"
 	done
 
 UnknownText_0x1b41a7: ; 0x1b41a7
-	text "By the way, you've"
-	line "saved up ¥@"
+	text "Au fait, tu as"
+	line "économisé ¥@"
 	TX_RAM StringBuffer3
 	text "."
 
-	para "Do you want to"
-	line "keep on saving?"
+	para "Tu veux continuer"
+	line "à économiser?"
 	done
 
 UnknownText_0x1b41ea: ; 0x1b41ea
-	text "It's important to"
-	line "save your money."
+	text "C'est important"
+	line "d'économiser ton"
+	cont "argent!"
 	done
 
 UnknownText_0x1b420d: ; 0x1b420d
 	text "Oh, ", $52, ","
-	line "you're not saving"
+	line "tu n'économises"
 
-	para "any money. Would"
-	line "you like to save?"
+	para "pas d'argent."
+	line "Tu voudrais"
+	cont "commencer?"
 	done
 
 UnknownText_0x1b4249: ; 0x1b4249
-	text "By the way, you've"
-	line "saved up ¥@"
+	text "Au fait, tu as"
+	line "économisé ¥@"
 	TX_RAM StringBuffer3
 	text "."
 
-	para "Want to start"
-	line "saving again?"
+	para "Tu veux de nou-"
+	line "veau économiser?"
 	done
 
 UnknownText_0x1b4289: ; 0x1b4289
-	text "OK. I'll save your"
-	line "money."
+	text "Très bien j'écono-"
+	line "miserais ton"
+	cont "argent."
 	done
 
 MomPhoneWontSaveMoneyText: ; 0x1b42a3
-	text "OK. I won't save"
-	line "your money."
+	text "D'accord, je n'é-"
+	line "conomiserais pas"
+	cont "ton argent."
 	done
 
 MomPhoneHangUpText: ; 0x1b42c0
-	text $52, ", keep it"
-	line "up! I'm rooting"
-	cont "for you, baby!"
+	text $52, ", continue"
+	line "je t'encourage"
+	cont "mon chou!"
 	done
 
 MomPhoneNoPokemonText: ; 0x1b42ea
-	text "Hello?"
+	text "Allo?"
 
-	para "Oh, hi, ", $52, "!"
-	line "Wasn't PROF.ELM"
-	cont "waiting for you?"
+	para "Oh, ", $52, "!"
+	line "Le PROF.ORME. ne"
+	cont "t'attendais pas?"
 	done
 
 MomPhoneNoPokedexText: ; 0x1b431d
-	text "Hello?"
+	text "Allo?"
 
-	para "Oh, hi, ", $52, "!"
-	line "You're on a big"
+	para "Oh, ", $52, "!"
+	line "Tu as une grande"
 
-	para "mission for PROF."
-	line "ELM? Be good!"
+	para "mission du PROF."
+	line "ORME? Soit sage!"
 	done
 
 MomPhoneNoGymQuestText: ; 0x1b435f
-	text "Hello?"
+	text "Allo?"
 
-	para "Hi, ", $52, "! If"
-	line "you're done with"
+	para "Bonjour, ", $52, "!"
+	line "Si tu as fini ta"
 
-	para "your errand come"
-	line "on home, dear."
+	para "course, reviens à"
+	line "la maison"
 	done
 
 MomPhoneLectureText: ; 0x1b43a1
-	text "Hello?"
+	text "Allo?"
 
 	para "<...><...> ", $52, "?"
-	line "I heard from PROF."
+	line "J'ai entendu par"
 
-	para "ELM that you went"
-	line "on a long trip."
+	para "le PROF.ORME que"
+	line "partais pour un"
+	cont "long voyage"
 
-	para "I wish you would"
-	line "have told me<...>"
+	para "J'aurais aimé que"
+	line "tu m'en parles<...>"
 
-	para "What about money?"
-	line "Should I save it?"
+	para "Et ton argent?"
+	line "Je dois l'écono-"
+	cont "miser?"
 	done

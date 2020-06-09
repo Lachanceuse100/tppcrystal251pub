@@ -27,31 +27,33 @@ MapVermilionMagnetTrainSpeechHouseRBSignpost1Script: ; 0x191ebd
 ; 0x191ec0
 
 _VermilionHouse1Text1:
-	text "You can use MAIL"
-	line "to send messages"
-	para "by giving it to a"
-	line "#MON and tra-"
-	cont "ding it away."
-	para "I'm getting my"
-	line "PIDGEY to fly a"
-	para "letter to SAFFRON"
-	line "in the north!"
+	text "Tu peux envoyer"
+	line "des messages en"
+	para "donnant une LETTRE"
+	line "au #MON et en"
+	cont "l'échangeant."
+	para "J'envoie mon ROU-"
+	line "COOL envoyer une"
+	para "LETTRE à SAFRANIA"
+	line "dans le nord!"
 	done
 
 _VermilionHouse1Text2:
-	text "PIDGEY: Kurukkoo!"
+	text "ROUCOOL: Rouuu!"
 	done
 
 _VermilionHouse1Text3:
-	text "Dear PIPPI, I hope"
-	line "to see you soon."
+	text "Cher PIPPI,"
+	line "j'espère te voir"
+	cont "bientôt."
 
-	para "I heard SAFFRON"
-	line "has problems with"
-	cont "TEAM ROCKET."
+	para "Il parait que"
+	line "SAFRANIA à des"
+	cont "problèmes avec"
+	cont "la TEAM ROCKET."
 
-	para "VERMILION appears"
-	line "to be safe."
+	para "CARMIN SUR MER"
+	line "semble en sûreté."
 	done
 
 VermilionMagnetTrainSpeechHouseRB_MapEventHeader: ; 0x191f48

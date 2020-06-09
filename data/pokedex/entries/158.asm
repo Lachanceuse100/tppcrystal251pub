@@ -1,12 +1,12 @@
 ; TotodilePokedexEntry: ; 0x1ccc14
-	db "BIG JAW@" ; species name
+	db "MACHOIRE@" ; species name
 	dw 200, 210 ; height, width
 
-	db   "This rough critter"
-	next "chomps at any"
-	next "moving object it"
-	page "sees. Turning your"
-	next "back on it is not"
-	next "recommended.@"
+	db   "Ce petit teigneux"
+	next "machouille tout ce"
+	next "qui lui passe sous"
+	page "le nez. Ne lui"
+	next "tournez jamais le"
+	next "dos!@"
 ; 0x1ccc84
 

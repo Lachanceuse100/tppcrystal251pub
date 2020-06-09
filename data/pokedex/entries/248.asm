@@ -1,12 +1,12 @@
 ; TyranitarPokedexEntry: ; 0x1d177b
-	db "ARMOR@" ; species name
+	db "ARMURE@" ; species name
 	dw 607, 4450 ; height, width
 
-	db   "In just one of its"
-	next "mighty hands, it"
-	next "has the power to"
-	page "make the ground"
-	next "shake and moun-"
-	next "tains crumble.@"
+	db   "D'une main seule-"
+	next "ment il a assez de"
+	next "force pour faire"
+	page "trembler la terre"
+	next "et s'écrouler une"
+	next "montagne.@"
 ; 0x1d17e9
 

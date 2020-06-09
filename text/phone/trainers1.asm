@@ -1,419 +1,421 @@
 UnknownText_0x1b4dc5: ; 0x1b4dc5
-	text "Hello. This is"
+	text "Allo, c'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "<...>"
 
-	para "Good morning,"
+	para "Bonjour,"
 	line $14, "!"
 	done
 
 UnknownText_0x1b4ded: ; 0x1b4ded
-	text "Hello. This is"
+	text "Allo, c'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "<...>"
 
-	para "How's it going,"
+	para "Comment vas-tu,"
 	line $14, "?"
 	done
 
 UnknownText_0x1b4e16: ; 0x1b4e16
-	text "Hello. This is"
+	text "Allo, c'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "<...>"
 
-	para "Good evening,"
+	para "Bonsoir,"
 	line $14, "!"
 	done
 
 UnknownText_0x1b4e3e: ; 0x1b4e3e
-	text $14, ", good"
-	line "morning!"
+	text $14, ", bonjour!"
 
-	para "It's me, @"
+	para "C'est moi, @"
 	TX_RAM StringBuffer3
 	text "."
-	line "How are you doing?"
+	line "Comment vas-tu?"
 	done
 
 UnknownText_0x1b4e72: ; 0x1b4e72
-	text $14, ", howdy!"
+	text $14, ", salut!"
 
-	para "It's me, @"
+	para "C'est moi, @"
 	TX_RAM StringBuffer3
 	text "."
-	line "Isn't it nice out?"
+	line "Il faut beau"
+	cont "dehors non?"
 	done
 
 UnknownText_0x1b4e9e: ; 0x1b4e9e
-	text $14, ", good"
-	line "evening!"
+	text $14, ", bonsoir"
 
-	para "It's me, @"
+	para "C'est moi, @"
 	TX_RAM StringBuffer3
 	text "."
-	line "Got a minute?"
+	line "Tu as une minute?"
 	done
 
 UnknownText_0x1b4ecd: ; 0x1b4ecd
-	text "How are your"
-	line "#MON doing?"
+	text "Comment vas ton"
+	line "#MON?"
 
-	para "My @"
+	para "Mon @"
 	TX_RAM StringBuffer4
-	text " is"
-	line "so curious, it's a"
+	text ""
+	line "est si curieux,"
 
-	para "problem. Maybe"
-	line "it's like me<...>"
+	para "c'est un problème"
+	line "Il est comme moi<...>"
 	done
 
 UnknownText_0x1b4f21: ; 0x1b4f21
-	text "Hello, this is"
+	text "Allo, c'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "."
 
-	para "Oh! Good morning,"
+	para "Oh! Bonjour,"
 	line $52, "."
 	done
 
 UnknownText_0x1b4f4d: ; 0x1b4f4d
-	text "Hello, this is"
+	text "Allo, c'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "."
 
-	para "Oh! Good day,"
+	para "Oh! Bonjour,"
 	line $52, "."
 	done
 
 UnknownText_0x1b4f75: ; 0x1b4f75
-	text "Hello, this is"
+	text "Allo, c'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "."
 
-	para "Oh! Good evening,"
+	para "Oh! Bonsoir,"
 	line $52, "."
 	done
 
 UnknownText_0x1b4fa1: ; 0x1b4fa1
-	text "Hello, ", $52, "."
-	line "Good morning."
+	text "Allo, ", $52, "."
+	line "Bonjour."
 
-	para "This is @"
+	para "C'est @"
 	TX_RAM StringBuffer3
 	text "."
-	line "Were you asleep?"
+	line "Tu dormais?"
 	done
 
 UnknownText_0x1b4fda: ; 0x1b4fda
-	text "Hi, ", $52, "."
-	line "This is @"
+	text "Allo, ", $52, "."
+	line "C'est @"
 	TX_RAM StringBuffer3
 	text "."
 
-	para "How are you doing?"
+	para "Comment vas-tu?"
 	done
 
 UnknownText_0x1b5004: ; 0x1b5004
-	text "Hi, ", $52, "."
-	line "This is @"
+	text "Allo, ", $52, "."
+	line "C'est @"
 	TX_RAM StringBuffer3
 	text "."
 
-	para "Were you awake?"
+	para "Tu es debout?"
 	done
 
 UnknownText_0x1b502b: ; 0x1b502b
-	text "Keeping your"
-	line "#MON happy?"
+	text "Ton #MON est"
+	line "heureux?"
 
-	para "My @"
+	para "Mon @"
 	TX_RAM StringBuffer4
-	text " is"
-	line "healthy. It eats a"
-	cont "lot every day."
+	text ""
+	line "est en bonne san-"
+	cont "té."
 	done
 
 UnknownText_0x1b5073: ; 0x1b5073
-	text "Yeah, this is"
+	text "Oui, c'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "."
 
-	para "Huh? What's up,"
-	line $52, "?"
+	para "Hein, qu'est-ce"
+	line "qu'il y a,"
+	cont $52, "?"
 	done
 
 UnknownText_0x1b509b: ; 0x1b509b
-	text "Yeah, this is"
+	text "Oui, c'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "."
 
-	para "Huh? What's up"
-	line $52, "?"
+	para "Hein, qu'est-ce"
+	line "qu'il y a,"
+	cont $52, "?"
 	done
 
 UnknownText_0x1b50c2: ; 0x1b50c2
-	text "Yeah, this is"
+	text "Oui, c'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "."
 
-	para "Huh? What's up"
-	line $52, "?"
+	para "Hein, qu'est-ce"
+	line "qu'il y a,"
+	cont $52, "?"
 	done
 
 UnknownText_0x1b50e9: ; 0x1b50e9
 	text "Yo, ", $52, "!"
-	line "You awake?"
+	line "T'es debout?"
 
-	para "It's me, @"
+	para "C'est moi, @"
 	TX_RAM StringBuffer3
 	text "!"
-	line "How's it going?"
+	line "Comment ça va?"
 	done
 
 UnknownText_0x1b511a: ; 0x1b511a
 	text "Yo, ", $52, "! You"
 	line "free right now?"
 
-	para "It's me, @"
+	para "C'est moi, @"
 	TX_RAM StringBuffer3
 	text "!"
-	line "How's it going?"
+	line "Comment ça va?"
 	done
 
 UnknownText_0x1b5154: ; 0x1b5154
 	text "Yo, ", $52, "!"
-	line "Were you asleep?"
+	line "Tu dormais?"
 
-	para "It's me, @"
+	para "C'est moi, @"
 	TX_RAM StringBuffer3
 	text "!"
-	line "How's it going?"
+	line "Comment ça va?"
 	done
 
 UnknownText_0x1b518b: ; 0x1b518b
-	text "How are your"
-	line "#MON doing?"
+	text "Comment vont tes"
+	line "#MON?"
 
-	para "My #MON are a"
-	line "bit too energetic."
+	para "Mon #MON est"
+	line "trop énergique."
 
 	para "@"
 	TX_RAM StringBuffer4
 	text ","
-	line "especially."
+	line "particulièrement."
 
-	para "Every time it"
-	line "spots a trainer,"
-	cont "it has to battle."
+	para "A chaque fois qu'"
+	line "il voit un dre-,"
+	
+	para "sseur, il veut se"
+	cont "battre."
 
-	para "It gets to be a"
-	line "bit much for me!"
+	para "Ca commence à"
+	line "m'ennuyer<...>"
 	done
 
 UnknownText_0x1b522b: ; 0x1b522b
-	text "My @"
+	text "Mon @"
 	TX_RAM StringBuffer4
-	text "'s"
-	line "looking tougher"
-	cont "than ever."
+	text ""
+	line "a l'air plus fort"
+	cont "qu'avant."
 
-	para "It looks even"
-	line "tougher than me!"
+	para "Il a l'air plus"
+	line "fort que moi!"
 	done
 
 UnknownText_0x1b5270: ; 0x1b5270
-	text "Hello, this is"
+	text "Allo, c'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text " speaking<...>"
 
-	para "Hi, ", $14, "!"
-	line "Good morning!"
+	para "Salut, ", $14, "!"
+	line "Bonne matinée!"
 	done
 
 UnknownText_0x1b52a5: ; 0x1b52a5
-	text "Hello, this is"
+	text "Allo, c'est"
 	line "@"
 	TX_RAM StringBuffer3
-	text " speaking<...>"
+	cont "a l'appareil<...>"
 
-	para "Hi, ", $14, "!"
+	para "Salut, ", $14, "!"
 	done
 
 UnknownText_0x1b52cc: ; 0x1b52cc
-	text "Hello, this is"
+	text "Allo, c'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text " speaking<...>"
 
-	para "Hi, ", $14, "!"
-	line "Good evening!"
+	para "Salut, ", $14, "!"
+	line "Bon soir!"
 	done
 
 UnknownText_0x1b5301: ; 0x1b5301
-	text $14, ", good"
-	line "morning!"
+	text $14, ", bonjour!"
 
-	para "It's me, @"
+	para "C'est moi, @"
 	TX_RAM StringBuffer3
 	text "."
-	line "How are you doing?"
+	line "Comment vas-tu?"
 	done
 
 UnknownText_0x1b5335: ; 0x1b5335
-	text "Hi, ", $14, "!"
+	text "Salut, ", $14, "!"
 
-	para "It's me, @"
+	para "C'est moi, @"
 	TX_RAM StringBuffer3
 	text "."
-	line "How are you doing?"
+	line "Comment vas-tu?"
 	done
 
 UnknownText_0x1b535f: ; 0x1b535f
-	text $14, ", good"
-	line "evening!"
+	text $14, ", bonsoir!"
 
-	para "It's me, @"
+	para "C'est moi, @"
 	TX_RAM StringBuffer3
 	text "."
-	line "How are you doing?"
+	line "Comment vas-tu?"
 	done
 
 UnknownText_0x1b5393: ; 0x1b5393
-	text "How are your"
-	line "#MON doing?"
+	text "Comment vas ton"
+	line "#MON?"
 
-	para "My @"
+	para "Mon @"
 	TX_RAM StringBuffer4
-	text "'s"
-	line "doing as great as"
-	cont "ever."
+	text ""
+	line "vont toujours"
+	cont "aussi bien."
 
-	para "Let's keep at it"
-	line "and become #MON"
-	cont "CHAMPS!"
+	para "Gardons la forme"
+	line "et devenons des"
+	cont "champions #MON!"
 	done
 
 UnknownText_0x1b53f7: ; 0x1b53f7
-	db $0, "Hello, this is", $4f
+	db $0, "Allo, c'est", $4f
 	db "@"
 	TX_RAM StringBuffer3
 	db $0, ".", $51
 	db "Oh, ", $14, ".", $4f
-	db "Good morning.", $51
+	db "Bonne matinée!", $51
 	db $57
 
 UnknownText_0x1b5424: ; 0x1b5424
-	text "Hello, this is"
+	text "Allo, c'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "."
 
-	para "Oh. Hi, ", $14, "."
+	para "Oh. Salut, ", $14, "."
 	done
 
 UnknownText_0x1b5446: ; 0x1b5446
-	text "Hello, this is"
+	text "Allo, c'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "."
 
 	para "Oh, ", $14, "."
-	line "Good evening."
+	line "Bonsoir."
 	done
 
 UnknownText_0x1b5472: ; 0x1b5472
-	text "Good morning,"
+	text "Bonjour,"
 	line $14, "!"
 
-	para "This is @"
+	para "C'est @"
 	TX_RAM StringBuffer3
 	text "."
-	line "Were you sleeping?"
+	line "Tu dormais?"
 	done
 
 UnknownText_0x1b54a6: ; 0x1b54a6
-	text $14, ", hi!"
-	line "This is @"
+	text $14, ", salut!"
+	line "C'est @"
 	TX_RAM StringBuffer3
 	text "."
 
-	para "Do you have some"
-	line "time?"
+	para "Tu as un peu de"
+	line "temps?"
 	done
 
 UnknownText_0x1b54d4: ; 0x1b54d4
-	text "Hi, ", $14, "."
-	line "Good evening."
+	text "Salut, ", $14, "."
+	line "Bonsoir."
 
-	para "This is @"
+	para "C'est @"
 	TX_RAM StringBuffer3
 	text "."
 
-	para "I hope you were"
-	line "awake."
+	para "J'espère que tu es"
+	line "réveillé."
 	done
 
 UnknownText_0x1b5510: ; 0x1b5510
-	text "Are you the kind"
-	line "of person who goes"
+	text "Tu es le genre de"
+	line "personne qui va"
 
-	para "to #MON CENTERS"
-	line "often?"
+	para "souvent dans un"
+	line "centre #MON?"
 
-	para "I go every day."
-	line "Watching out for"
+	para "J'y vais tout les."
+	line "jours. Surveiller"
 
-	para "the health of your"
-	line "#MON is a basic"
+	para "la santé d'un"
+	line "#MON est la base"
 
-	para "part of being a"
-	line "#MON trainer."
+	para "d'être pour être"
+	line "dresseur #MON"
 	done
 
 UnknownText_0x1b55ae: ; 0x1b55ae
-	text "Hello, this is"
+	text "Allo, c'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "<...>"
 
 	para "Oh, ", $14, "?"
-	line "Good morning!"
+	line "Bonjour!"
 	done
 
 UnknownText_0x1b55da: ; 0x1b55da
-	text "Hello, this is"
+	text "Allo, c'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "<...>"
 
-	para "Oh, ", $14, "? Hi!"
+	para "Oh, ", $14, "? Salut!"
 	done
 
 UnknownText_0x1b55fc: ; 0x1b55fc
-	text "Hello, this is"
+	text "Allo, c'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "<...>"
 
 	para "Oh, ", $14, "?"
-	line "Good evening!"
+	line "Bonsoir!"
 	done
 
 UnknownText_0x1b5628: ; 0x1b5628
 	text "Oh, ", $14, "?"
 
-	para "Tweet! Yeah, it's"
-	line "me, @"
+	para "Cui! Ouais, c'est"
+	line "moi, @"
 	TX_RAM StringBuffer3
 	text "."
 	done
@@ -421,8 +423,8 @@ UnknownText_0x1b5628: ; 0x1b5628
 UnknownText_0x1b564c: ; 0x1b564c
 	text "Oh, ", $14, "?"
 
-	para "Tweet! Yeah, it's"
-	line "me, @"
+	para "Cui! Ouais, c'est"
+	line "moi, @"
 	TX_RAM StringBuffer3
 	text "."
 	done
@@ -430,1178 +432,1203 @@ UnknownText_0x1b564c: ; 0x1b564c
 UnknownText_0x1b5670: ; 0x1b5670
 	text "Oh, ", $14, "?"
 
-	para "Tweet! Yeah, it's"
-	line "me, @"
+	para "Cui! Ouais, c'est"
+	line "moi, @"
 	TX_RAM StringBuffer3
 	text "."
 	done
 
 UnknownText_0x1b5694: ; 0x1b5694
-	text "Are your #MON"
-	line "still cooking?"
+	text "Ton #MON a tou-"
+	line "jours la pêche?"
 
-	para "My @"
+	para "Mon @"
 	TX_RAM StringBuffer4
-	text " has"
-	line "too much energy."
+	text " a"
+	line "trop d'énergie."
 
-	para "Once it takes off,"
-	line "it won't come back"
-	cont "for a while."
+	para "Une fois qu'il"
+	line "commence, on ne"
+	cont "l'arrête plus."
 	done
 
 UnknownText_0x1b5702: ; 0x1b5702
-	text "Hello, this is"
+	text "Allo, c'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "<...>"
 
-	para "Oh. Hi, ", $52, "."
-	line "What's up?"
+	para "Oh, salut, ", $52, ","
+	line "Ca va?"
 	done
 
 UnknownText_0x1b572e: ; 0x1b572e
-	text "Hello, this is"
+	text "Allo, c'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "<...>"
 
-	para "Oh, hi, ", $52, ","
-	line "what's up?"
+	para "Oh, salut, ", $52, ","
+	line "Ca va?"
 	done
 
 UnknownText_0x1b575a: ; 0x1b575a
-	text "Hello, this is"
+	text "Allo, c'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "<...>"
 
-	para "Oh, hi, ", $52, ","
-	line "what's up?"
+	para "Oh, salut, ", $52, ","
+	line "Ca va?"
 	done
 
 UnknownText_0x1b5786: ; 0x1b5786
-	text "You're slow! Hurry"
-	line "up and answer!"
+	text "Tu es lent! Dépê-"
+	line "che toi de"
+	cont "répondre!"
 
-	para "It's me, @"
+	para "C'est moi, @"
 	TX_RAM StringBuffer3
 	text "!"
 	done
 
 UnknownText_0x1b57b7: ; 0x1b57b7
-	text "You're slow! Hurry"
-	line "up and answer!"
+	text "Tu es lent! Dépê-"
+	line "che toi de"
+	cont "répondre!"
 
-	para "It's me, @"
+	para "C'est moi, @"
 	TX_RAM StringBuffer3
 	text "!"
 	done
 
 UnknownText_0x1b57e8: ; 0x1b57e8
-	text "You're slow! Hurry"
-	line "up and answer!"
+	text "Tu es lent! Dépê-"
+	line "che toi de"
+	cont "répondre!"
 
-	para "It's me, @"
+	para "C'est moi, @"
 	TX_RAM StringBuffer3
 	text "!"
 	done
 
 UnknownText_0x1b5819: ; 0x1b5819
-	text "Hey, how are your"
-	line "#MON doing?"
+	text "Hé! Comment vas"
+	line "ton #MON?"
 
-	para "What? Great?"
-	line "I see<...>"
+	para "Quoi? Super?"
+	line "Je vois<...>"
 
-	para "What? My #MON?"
+	para "Quoi? Mon #MON?"
 
-	para "Of course they're"
-	line "doing great! What"
+	para "Bien sûr qu'il va"
+	line "bien, quelle"
 
-	para "kind of a question"
-	line "is that?"
+	para "question!"
 	done
 
 UnknownText_0x1b589a: ; 0x1b589a
-	text "Hi, @"
+	text "Salut, ici @"
 	TX_RAM StringBuffer3
-	text " here!"
+	text "!"
 
-	para "Oh, ", $52, "? You"
-	line "doing well?"
+	para "Oh, ", $52, "? Tu"
+	line "vas bien?"
 	done
 
 UnknownText_0x1b58c2: ; 0x1b58c2
-	text "Hi, @"
+	text "Salut, ici @"
 	TX_RAM StringBuffer3
-	text " here!"
+	text "!"
 
-	para "Oh, ", $52, "? You"
-	line "doing well?"
+	para "Oh, ", $52, "? Tu"
+	line "vas bien?"
 	done
 
 UnknownText_0x1b58ea: ; 0x1b58ea
-	text "Hi, @"
+	text "Salut, ici @"
 	TX_RAM StringBuffer3
-	text " here!"
+	text "!"
 
-	para "Oh, ", $52, "? You"
-	line "doing well?"
+	para "Oh, ", $52, "? Tu"
+	line "vas bien?"
 	done
 
 UnknownText_0x1b5912: ; 0x1b5912
 	text "Yo, ", $52, "!"
-	line "How're you doing?"
+	line "Comment tu vas?"
 
-	para "This is @"
+	para "C'est @"
 	TX_RAM StringBuffer3
 	text ","
-	line "got a minute?"
+	line "tu as une minute?"
 	done
 
 UnknownText_0x1b5948: ; 0x1b5948
-	text "Yo, ", $52, "! How's"
-	line "it going?"
+	text "Yo, ", $52, "! Ca"
+	line "va?"
 
-	para "This is @"
+	para "C'est @"
 	TX_RAM StringBuffer3
 	text "."
-	line "Got a minute?"
+	line "Tu as une minute?"
 	done
 
 UnknownText_0x1b597c: ; 0x1b597c
 	text "Yo, ", $52, "!"
-	line "How're you doing?"
+	line "Comment vas-tu?"
 
-	para "This is @"
+	para "C'est @"
 	TX_RAM StringBuffer3
-	text ","
-	line "got a minute?"
+	text "."
+	line "Tu as une minute?"
 	done
 
 UnknownText_0x1b59b2: ; 0x1b59b2
-	text "How are your"
-	line "#MON doing?"
+	text "Comment vas ton"
+	line "#MON?"
 
-	para "My @"
+	para "Mon @"
 	TX_RAM StringBuffer4
-	text "'s"
-	line "raring to go, just"
-	cont "like always."
+	text ""
+	line "veut en découdre"
+	cont "comme toujours."
 
-	para "It's the only one"
-	line "I have. I'm going"
+	para "C'est le seul que"
+	line "j'ai. Je vais de-"
 
-	para "to become a great"
-	line "trainer with it!"
+	para "venir un grand"
+	line "dresseur avec lui!"
 	done
 
 UnknownText_0x1b5a3b: ; 0x1b5a3b
-	text "Hello? This is"
+	text "Allo? C'est"
 	line "@"
 	TX_RAM StringBuffer3
-	text " speaking."
+	text ""
+	cont "a l'appareil"
 
-	para "Oh. Hi, ", $14, "!"
-	line "Good morning!"
+	para "Oh. Salut, ", $14, "!"
+	line "Bonne matinée!"
 	done
 
 UnknownText_0x1b5a74: ; 0x1b5a74
-	text "Hello? This is"
+	text "Allo? C'est"
 	line "@"
 	TX_RAM StringBuffer3
-	text " speaking."
+	text ""
+	cont "a l'appareil"
 
-	para "Oh, hi, ", $14, "!"
+	para "Oh, salut, ", $14, "!"
 	done
 
 UnknownText_0x1b5a9f: ; 0x1b5a9f
-	text "Hello? This is"
+	text "Allo? C'est"
 	line "@"
 	TX_RAM StringBuffer3
-	text " speaking."
+	text ""
+	cont "a l'appareil"
 
-	para "Oh, hi, ", $14, "!"
-	line "Good evening!"
+	para "Oh, salut, ", $14, "!"
+	line "Bonsoir!"
 	done
 
 UnknownText_0x1b5ad8: ; 0x1b5ad8
-	text $14, ", good"
-	line "morning!"
+	text $14, ", bonjour"
 
-	para "It's me, @"
+	para "C'est moi, @"
 	TX_RAM StringBuffer3
 	text "."
-	line "Isn't it nice out?"
+	line "Il fait beau"
+	cont "dehors?"
 	done
 
 UnknownText_0x1b5b0b: ; 0x1b5b0b
-	text $14, ", howdy!"
+	text $14, ", salut!"
 
-	para "It's me, @"
+	para "C'est moi, @"
 	TX_RAM StringBuffer3
 	text "."
-	line "Isn't it nice out?"
+	line "Il fait beau"
+	cont "dehors?"
 	done
 
 UnknownText_0x1b5b37: ; 0x1b5b37
-	text "Good evening,"
+	text "Bonsoir,"
 	line $14, "!"
 
-	para "It's me, @"
+	para "C'est moi, @"
 	TX_RAM StringBuffer3
 	text "."
-	line "Were you awake?"
+	line "Tu es debout?"
 	done
 
 UnknownText_0x1b5b68: ; 0x1b5b68
-	text "How are your"
-	line "#MON doing?"
+	text "Comment vas ton"
+	line "#MON?"
 
-	para "My #MON have"
-	line "too much energy to"
+	para "Le mien a trop"
+	line "d'énergie à re-"
 
-	para "burn. It gets to"
-	line "be a problem."
+	para "vendre. C'est un"
+	line "problème."
 
-	para "Of all my #MON,"
-	line "@"
+	para "De tout mes #-"
+	line "MON, @"
 	TX_RAM StringBuffer4
-	text " is the"
-	cont "hardest to handle."
+	text " est"
+	para "le plus dur à"
+	cont "maîtriser."
 
-	para "Working with it is"
-	line "exhausting."
+	para "Travailler avec"
+	line "lui est épuisant."
 	done
 
 UnknownText_0x1b5c10: ; 0x1b5c10
-	text "Yes? Ah, ", $14, "."
+	text "Oui? Ah, ", $14, "."
 
-	para "You're courteous"
-	line "enough to state"
+	para "Tu es suffisament"
+	line "courtois pour dire"
 
-	para "your name when you"
-	line "call on the phone."
+	para "ton nom quand tu"
+	line "es au téléphone."
 	done
 
 UnknownText_0x1b5c63: ; 0x1b5c63
-	text "Yes? Ah, ", $14, "."
+	text "Oui? Ah, ", $14, "."
 
-	para "You're courteous"
-	line "enough to state"
+	para "Tu es suffisament"
+	line "courtois pour dire"
 
-	para "your name when you"
-	line "call on the phone."
+	para "ton nom quand tu"
+	line "es au téléphone."
 	done
 
 UnknownText_0x1b5cb6: ; 0x1b5cb6
-	text "Yes? Ah, ", $14, "."
+	text "Oui? Ah, ", $14, "."
 
-	para "You're courteous"
-	line "enough to state"
+	para "Tu es suffisament"
+	line "courtois pour dire"
 
-	para "your name when you"
-	line "call on the phone."
+	para "ton nom quand tu"
+	line "es au téléphone."
 	done
 
 UnknownText_0x1b5d09: ; 0x1b5d09
-	text "Hiya, it's Uncle"
+	text "Yo, c'est l'oncle"
 	line "@"
 	TX_RAM StringBuffer3
 	text "."
 	done
 
 UnknownText_0x1b5d21: ; 0x1b5d21
-	text "Hiya, it's Uncle"
+	text "Yo, c'est l'oncle"
 	line "@"
 	TX_RAM StringBuffer3
 	text "."
 	done
 
 UnknownText_0x1b5d39: ; 0x1b5d39
-	text "Hiya, it's Uncle"
+	text "Yo, c'est l'oncle"
 	line "@"
 	TX_RAM StringBuffer3
 	text "."
 	done
 
 UnknownText_0x1b5d51: ; 0x1b5d51
-	text "Are you taking"
-	line "good care of your"
+	text "Tu prends soin de"
+	line "ton #MON?"
 
-	para "#MON? You have"
-	line "to be good to your"
-	cont "partners!"
+	para "Tu dois être"
+	line "gentil pour être"
+
+	para "partenaire avec"
+	line "lui!"
 	done
 
 UnknownText_0x1b5d9f: ; 0x1b5d9f
-	text "Hello, @"
+	text "Allo, @"
 	TX_RAM StringBuffer3
 	db $0
-	line "speaking."
+	line "à l'appareil."
 
 	para "Oh, ", $14, "."
-	line "Good morning."
+	line "Bonjour."
 	done
 
 UnknownText_0x1b5dcc: ; 0x1b5dcc
-	text "Hello, @"
+	text "Allo, @"
 	TX_RAM StringBuffer3
 	db $0
-	line "speaking."
+	line "à l'appareil."
 
 	para "Oh, ", $14, "."
-	line "How are you?"
+	line "Comment vas-tu?"
 	done
 
 UnknownText_0x1b5df8: ; 0x1b5df8
-	text "Hello, @"
+	text "Allo, @"
 	TX_RAM StringBuffer3
 	db $0
-	line "speaking."
+	line "à l'appareil."
 
 	para "Oh, ", $14, "."
-	line "Good evening."
+	line "Bonsoir."
 	done
 
 UnknownText_0x1b5e25: ; 0x1b5e25
-	text "Good morning,"
+	text "Bonjour,"
 	line $14, "."
 
-	para "This is @"
+	para "C'est @"
 	TX_RAM StringBuffer3
 	text "."
-	line "Were you sleeping?"
+	line "Tu dormais?"
 	done
 
 UnknownText_0x1b5e59: ; 0x1b5e59
-	text "Hi, ", $14, "."
-	line "This is @"
+	text "Salut, ", $14, "."
+	line "C'est @"
 	TX_RAM StringBuffer3
 	text "."
 
-	para "How are things"
-	line "going for you?"
+	para "Comment ça se"
+	line "passe pour toi?"
 	done
 
 UnknownText_0x1b5e8e: ; 0x1b5e8e
-	text "Good evening,"
+	text "Bonsoir,"
 	line $14, "."
 
-	para "This is @"
+	para "C'est @"
 	TX_RAM StringBuffer3
 	text "."
-	line "Are you awake?"
+	line "Tu es debout?"
 	done
 
 UnknownText_0x1b5ebe: ; 0x1b5ebe
-	text "I had some time,"
-	line "so I called you."
+	text "J'avais du temps,"
+	line "alors je t'ai"
+	cont "appelé."
 
-	para "So anyway, how are"
-	line "your #MON?"
+	para "Bref, comment vas"
+	line "ton #MON?"
 
-	para "Me, I take my"
+	para "Moi, j'emmène"
 	line "@"
 	TX_RAM StringBuffer4
-	text " to the"
+	text " au"
 
-	para "#MON CENTER in"
-	line "VIOLET every day,"
+	para "centre #MON de"
+	line "MAUVILLE tout les"
+	cont "jours."
 
-	para "so it's doing just"
-	line "fantastic!"
+	para "Alors il à la"
+	line "pêche!"
 
-	para "I'm friends with"
-	line "the receptionist!"
+	para "Je suis ami avec"
+	line "la réceptionniste!"
 	done
 
 UnknownText_0x1b5f7a: ; 0x1b5f7a
-	text "Yeah, @"
+	text "Ouais, @"
 	TX_RAM StringBuffer3
-	text " the"
-	line "HIKER here."
+	text " le"
+	line "MONTAGNARD à"
+	cont "l'appareil."
 
 	para "Ah, ", $52, "!"
 	done
 
 UnknownText_0x1b5f9e: ; 0x1b5f9e
-	text "Yeah, @"
+	text "Ouais, @"
 	TX_RAM StringBuffer3
-	text " the"
-	line "HIKER here."
+	text " le"
+	line "MONTAGNARD à"
+	cont "l'appareil."
 
-	para "Ah, ", $52, ","
-	line "right?"
+	para "Ah, ", $52, "!"
+	line "c'est ça?"
 	done
 
 UnknownText_0x1b5fc9: ; 0x1b5fc9
-	text "Yeah, @"
+	text "Ouais, @"
 	TX_RAM StringBuffer3
-	text " the"
-	line "HIKER here."
+	text " le"
+	line "MONTAGNARD à"
+	cont "l'appareil."
 
-	para "Ah, ", $52, ", isn't"
-	line "it?"
+	para "Ah, ", $52, "!"
+	line "n'est-ce pas?"
 	done
 
 UnknownText_0x1b5ff6: ; 0x1b5ff6
 	text "Yo, ", $52, "?"
 
-	para "This is @"
+	para "C'est @"
 	TX_RAM StringBuffer3
 	db $0
-	line "the HIKER!"
+	line "le MONTAGNARD!"
 	done
 
 UnknownText_0x1b6017: ; 0x1b6017
-	text "Hey, is this"
+	text "Est-ce que c'est"
 	line $52, "?"
 
-	para "This is @"
+	para "C'est @"
 	TX_RAM StringBuffer3
 	db $0
-	line "the HIKER!"
+	line "le MONTAGNARD!"
 	done
 
 UnknownText_0x1b6041: ; 0x1b6041
-	text $52, ", you still"
-	line "awake?"
+	text $52, ", tu es"
+	line "debout?"
 
-	para "This is @"
+	para "C'est @"
 	TX_RAM StringBuffer3
 	db $0
-	line "the HIKER!"
+	line "le MONTAGNARD!"
 	done
 
 UnknownText_0x1b606f: ; 0x1b606f
-	text "Are your #MON"
-	line "as feisty as ever?"
+	text "Ton #MON a tou-"
+	line "jours aussi faim?"
 
-	para "My @"
+	para "Mon @"
 	TX_RAM StringBuffer4
-	text " and"
-	line "me--we have energy"
+	text " et"
+	line "moi pouvons en"
 
-	para "to burn. We hike"
-	line "up mountains every"
+	para "découdre. Nous"
+	line "grimpons des mon-"
 
-	para "day to work out"
-	line "all our energy."
+	para "tagnes tous les"
+	line "jours pour nous"
+	cont "dépenser."
 	done
 
 UnknownText_0x1b60f5: ; 0x1b60f5
-	text "Yes? This is"
+	text "Oui? C'est"
 	line "@"
 	TX_RAM StringBuffer3
-	text " speaking."
+	cont "à l'appareil."
 
-	para "Hey, ", $14, "!"
+	para "Oh, ", $14, "!"
 	done
 
 UnknownText_0x1b611b: ; 0x1b611b
-	text "Yes? This is"
+	text "Oui? C'est"
 	line "@"
 	TX_RAM StringBuffer3
-	text " speaking."
+	cont "à l'appareil."
 
-	para "This must be"
-	line $14, "."
+	para "Est-ce que c'est"
+	line $14, "?"
 	done
 
 UnknownText_0x1b6149: ; 0x1b6149
-	text "Yes? This is"
+	text "Oui? C'est"
 	line "@"
 	TX_RAM StringBuffer3
-	text " speaking."
+	cont "à l'appareil."
 
 	para "Ah, ", $14, "!"
 	done
 
 UnknownText_0x1b616e: ; 0x1b616e
-	text "Hello, this is"
+	text "Allo, c'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "."
 
-	para $14, ", right?"
+	para $14, ", c'est ça?"
 	done
 
 UnknownText_0x1b618f: ; 0x1b618f
-	text "Hello, this is"
+	text "Allo, c'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "."
 
-	para $14, ", what are"
-	line "you doing?"
+	para $14, ", tu fais"
+	line "quoi?"
 	done
 
 UnknownText_0x1b61bd: ; 0x1b61bd
-	text "Hello, this is"
+	text "Allo, c'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "."
 
-	para $14, ", sorry to"
-	line "call you so late."
+	para $14, ", désolé de"
+	line "t'appeler si tard."
 	done
 
 UnknownText_0x1b61f2: ; 0x1b61f2
-	text "How do you raise"
-	line "your #MON?"
+	text "Comment élèves-tu"
+	line "tes #MON?"
 
-	para "I do all sorts"
-	line "of things, like"
+	para "Je fais toute"
+	line "sorte de choses"
 
-	para "leaving them in"
-	line "DAY-CARE and"
+	para "comme les laisser"
+	line "à la PENSION ou"
 
-	para "toughening them up"
-	line "with items."
+	para "les renforcer avec"
+	line "des objets."
 	done
 
 UnknownText_0x1b626a: ; 0x1b626a
-	text "Hello? This is"
+	text "Allo? C'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "<...>"
 
 	para "Oh, ", $14, "!"
-	line "Good morning!"
+	line "Bonjour!"
 	done
 
 UnknownText_0x1b6296: ; 0x1b6296
-	text "Hello? This is"
+	text "Allo? C'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "<...>"
 
 	para "Oh, ", $14, "!"
-	line "Hi, how are you?"
+	line "Salut, comment"
+	cont "vas-tu"
 	done
 
 UnknownText_0x1b62c5: ; 0x1b62c5
-	text "Hello? This is"
+	text "Allo? C'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "<...>"
 
 	para "Oh, ", $14, "!"
-	line "Good evening!"
+	line "Bonsoir!"
 	done
 
 UnknownText_0x1b62f1: ; 0x1b62f1
 	text $14, "?"
 
-	para "It's @"
+	para "C'est @"
 	TX_RAM StringBuffer3
 	text "."
-	line "Good morning!"
+	line "Bonjour!"
 	done
 
 UnknownText_0x1b630e: ; 0x1b630e
 	text $14, "?"
 
-	para "It's @"
+	para "C'est @"
 	TX_RAM StringBuffer3
-	text ". Is"
-	line "this a bad time?"
+	text "."
+	line "Je ne dérange pas?"
 	done
 
 UnknownText_0x1b6331: ; 0x1b6331
 	text $14, "?"
 
-	para "It's @"
+	para "C'est @"
 	TX_RAM StringBuffer3
 	text "."
-	line "Got time to chat?"
+	line "Tu as le temps de"
+	cont "discuter?"
 	done
 
 UnknownText_0x1b6352: ; 0x1b6352
-	text "Are your #MON"
-	line "still tough?"
+	text "Ton #MON est"
+	line "toujours fort"
 
-	para "I train every day"
-	line "with @"
+	para "Je m'entraine tous"
+	line "les jours avec"
+	cont "@"
 	TX_RAM StringBuffer4
 	text "."
 	done
 
 UnknownText_0x1b638c: ; 0x1b638c
-	text "Hello? @"
+	text "Allo? @"
 	TX_RAM StringBuffer3
 	db $0
-	line "here<...>"
+	line "à l'appareil<...>"
 
 	para "Hey, ", $14, "!"
 	done
 
 UnknownText_0x1b63a8: ; 0x1b63a8
-	text "Hello? @"
+	text "Allo? @"
 	TX_RAM StringBuffer3
 	db $0
-	line "here<...>"
+	line "à l'appareil<...>"
 
-	para "Wow, ", $14, "!"
+	para "Woah, ", $14, "!"
 	done
 
 UnknownText_0x1b63c4: ; 0x1b63c4
-	text "Hello? @"
+	text "Allo? @"
 	TX_RAM StringBuffer3
 	db $0
-	line "here<...>"
+	line "à l'appareil<...>"
 
-	para "Yippee, ", $14, "!"
+	para "Youpi, ", $14, "!"
 	done
 
 UnknownText_0x1b63e3: ; 0x1b63e3
-	text "Uh, hello."
+	text "Euh, allo."
 	line $14, "?"
 
-	para "It's your pal,"
+	para "C'est ton copain,"
 	line "@"
 	TX_RAM StringBuffer3
 	text "!"
 	done
 
 UnknownText_0x1b6407: ; 0x1b6407
-	text "Uh, hello,"
+	text "Euh, allo,"
 	line $14, "?"
 
-	para "It's your buddy"
+	para "C'est ton pote,"
 	line "@"
 	TX_RAM StringBuffer3
 	text "!"
 	done
 
 UnknownText_0x1b642c: ; 0x1b642c
-	text "Uh, hello,"
+	text "Euh, allo,"
 	line $14, "?"
 
-	para "It's your sidekick"
+	para "C'est ton acolyte,"
 	line "@"
 	TX_RAM StringBuffer3
 	text "!"
 	done
 
 UnknownText_0x1b6454: ; 0x1b6454
-	text "Yeah, hello."
-	line "This is @"
+	text "Ouais, salut."
+	line "C'est @"
 	TX_RAM StringBuffer3
 	text "."
 
-	para "<...>Huh, ", $14, "? Yo!"
+	para "<...>Euh, ", $14, "? Yo!"
 	done
 
 UnknownText_0x1b647e: ; 0x1b647e
-	text "Yeah, hello, you"
-	line "got @"
+	text "Bonjour, vous avez"
+	line "atteint @"
 	TX_RAM StringBuffer3
 	text "."
 
-	para "<...>Huh, ", $14, "? Yo!"
+	para "<...>Euh, ", $14, "? Yo!"
 	done
 
 UnknownText_0x1b64a8: ; 0x1b64a8
-	text "Yeah, hello, you"
-	line "got @"
+	text "Bonjour, vous avez"
+	line "atteint @"
 	TX_RAM StringBuffer3
 	text "."
 
-	para "<...>Huh, ", $14, "? Yo!"
+	para "<...>Euh, ", $14, "? Yo!"
 	done
 
 UnknownText_0x1b64d2: ; 0x1b64d2
-	text "Yeah, hello?"
+	text "Ouais, allo?"
 	line "@"
 	TX_RAM StringBuffer3
-	text " calling."
+	cont "à l'appareil."
 
-	para "What are you up"
-	line "to, ", $14, "?"
+	para "Tu fais quoi,"
+	line $14, "?"
 	done
 
 UnknownText_0x1b6506: ; 0x1b6506
-	text "Yeah, hello?"
+	text "Ouais, allo?"
 	line "@"
 	TX_RAM StringBuffer3
-	text " calling."
+	cont "à l'appareil."
 
-	para "Where are you now,"
+	para "Tu es ou là,"
 	line $14, "?"
 	done
 
 UnknownText_0x1b6539: ; 0x1b6539
-	text "Yeah, hello?"
+	text "Ouais, allo?"
 	line "@"
 	TX_RAM StringBuffer3
-	text " calling."
+	cont "à l'appareil."
 
-	para "Are you awake now,"
+	para "Tu es debout,"
 	line $14, "?"
 	done
 
 UnknownText_0x1b656c: ; 0x1b656c
-	text "I bet your #MON"
-	line "are a lot stronger"
-	cont "than before."
+	text "Je pari que ton"
+	line "#MON est plus fort"
+	cont "qu'avant."
 	done
 
 UnknownText_0x1b659d: ; 0x1b659d
-	text "Yup, it's @"
+	text "Yep, c'est @"
 	TX_RAM StringBuffer3
 	text "!"
 
-	para "Is this ", $14, "?"
-	line "Good morning!"
+	para "C'est ", $14, "?"
+	line "Bonjour!"
 	done
 
 UnknownText_0x1b65c7: ; 0x1b65c7
-	text "Yup, it's @"
+	text "Yep, c'est @"
 	TX_RAM StringBuffer3
 	text "!"
 
-	para "Is that ", $14, "?"
+	para "Est-ce que c'est"
+	line $14, "?"
 	done
 
 UnknownText_0x1b65e3: ; 0x1b65e3
-	text "Yup, it's @"
+	text "Yep @"
 	TX_RAM StringBuffer3
 	text "!"
 
-	para "Is that ", $14, "?"
-	line "Good evening!"
+	para "C'est ", $14, "?"
+	line "Bonsoir!"
 	done
 
 UnknownText_0x1b660d: ; 0x1b660d
-	text "Hello! It's me,"
+	text "Allo? C'est moi,"
 	line "@"
 	TX_RAM StringBuffer3
 	text "!"
 	done
 
 UnknownText_0x1b6624: ; 0x1b6624
-	text "Hello! It's me,"
+	text "Allo? C'est moi,"
 	line "@"
 	TX_RAM StringBuffer3
 	text "!"
 	done
 
 UnknownText_0x1b663b: ; 0x1b663b
-	text "Hello! It's me,"
+	text "Allo? C'est moi,"
 	line "@"
 	TX_RAM StringBuffer3
 	text "!"
 	done
 
 UnknownText_0x1b6652: ; 0x1b6652
-	text $14, ", are you"
-	line "raising your"
-	cont "#MON properly?"
+	text $14, ", tu élèves"
+	line "ton #MON"
+	cont "proprement?"
 
-	para "I read in a book"
-	line "that you should"
+	para "J'ai lu dans un"
+	line "livre que tu dois"
 
-	para "raise any #MON"
-	line "you catch with"
-	cont "love and care."
+	para "traiter ton #-"
+	line "MON avec amour"
 	done
 
 UnknownText_0x1b66c8: ; 0x1b66c8
-	text "Hi, @"
+	text "Salut, @"
 	TX_RAM StringBuffer3
-	text " on the"
-	line "line."
+	text " en"
+	line "ligne."
 
-	para "Hey! It's ", $14, "!"
+	para "Hé! C'est ", $14, "!"
 	done
 
 UnknownText_0x1b66ec: ; 0x1b66ec
-	text "Hi, @"
+	text "Salut, @"
 	TX_RAM StringBuffer3
-	text " on the"
-	line "line."
+	text " en"
+	line "ligne."
 
-	para "I know!"
-	line "It's ", $14, "!"
+	para "Je sais!"
+	line "C'est ", $14, "!"
 	done
 
 UnknownText_0x1b6713: ; 0x1b6713
-	text "Hi, @"
+	text "Salut, @"
 	TX_RAM StringBuffer3
-	text " on the"
-	line "line."
+	text " en"
+	line "ligne."
 
 	para $14, "?"
-	line "What's up?"
+	line "Ca va?"
 	done
 
 UnknownText_0x1b6738: ; 0x1b6738
-	text "Uh, ", $14, "?"
+	text "Euh, ", $14, "?"
 
-	para "It's me!"
-	line "It's me, @"
+	para "C'est moi!"
+	line "C'est moi, @"
 	TX_RAM StringBuffer3
 	text "!"
 	done
 
 UnknownText_0x1b6757: ; 0x1b6757
-	text "Uh, ", $14, "?"
+	text "Euh, ", $14, "?"
 
-	para "It's me!"
-	line "It's me, @"
+	para "C'est moi!"
+	line "C'est moi, @"
 	TX_RAM StringBuffer3
 	text "!"
 	done
 
 UnknownText_0x1b6776: ; 0x1b6776
-	text "Uh, ", $14, "?"
+	text "Euh, ", $14, "?"
 
-	para "It's me!"
-	line "It's me, @"
+	para "C'est moi!"
+	line "C'est moi, @"
 	TX_RAM StringBuffer3
 	text "!"
 	done
 
 UnknownText_0x1b6795: ; 0x1b6795
-	text "My @"
+	text "Mon @"
 	TX_RAM StringBuffer4
-	text " is"
-	line "so full of energy,"
+	text " est"
+	line "plein d'énergie,"
 
-	para "it's a little"
-	line "scary."
+	para "Ca fait un peu"
+	line "peur."
 
-	para "How are your"
-	line "#MON doing?"
+	para "Comment vas ton"
+	line "#MON?"
 	done
 
 UnknownText_0x1b67e2: ; 0x1b67e2
-	text "Hello, this is"
+	text "Allo, c'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "<...>"
 
-	para "Hi, ", $14, "!"
-	line "Good morning!"
+	para "Salut, ", $14, "!"
+	line "Bonne matinée!"
 	done
 
 UnknownText_0x1b680e: ; 0x1b680e
-	text "Hello, this is"
+	text "Allo, c'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "<...>"
 
-	para "Hi, ", $14, ", good"
-	line "day!"
+	para "Hé, ", $14, ","
+	line "Bonjour!"
 	done
 
 UnknownText_0x1b6836: ; 0x1b6836
-	text "Hello, this is"
+	text "Allo, c'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "<...>"
 
-	para "Hi, ", $14, ", good"
-	line "evening!"
+	para "Hé, ", $14, ","
+	line "Bonsoir!"
 	done
 
 UnknownText_0x1b6862: ; 0x1b6862
-	text "Hi, ", $14, ", good"
-	line "morning!"
+	para "Hé, ", $14, ","
+	line "Bonjour!"
 
-	para "It's @"
+	para "C'est @"
 	TX_RAM StringBuffer3
 	text "."
-	line "How are you?"
+	line "Comment vas-tu?"
 	done
 
 UnknownText_0x1b6890: ; 0x1b6890
-	text "Hi, ", $14, ", good"
-	line "day!"
+	text "Hé, ", $14, ","
+	line "bonjour!"
 
-	para "It's @"
+	para "C'est @"
 	TX_RAM StringBuffer3
 	text "."
-	line "How are you?"
+	line "Comment vas-tu?"
 	done
 
 UnknownText_0x1b68ba: ; 0x1b68ba
-	text "Hi, ", $14, ", good"
-	line "evening!"
+	text "Hé, ", $14, ","
+	line "bonsoir!"
 
-	para "It's @"
+	para "C'est @"
 	TX_RAM StringBuffer3
 	text "."
-	line "How are you?"
+	line "Comment vas-tu?"
 	done
 
 UnknownText_0x1b68e8: ; 0x1b68e8
-	text "How are your"
-	line "#MON doing?"
+	text "Comment vas"
+	line "ton #MON?"
 
-	para "You know PROF.OAK,"
-	line "so of course your"
-	cont "#MON are fine!"
+	para "Tu connais le"
+	line "PROF.CHEN. Evi-"
 
-	para "My #MON are"
-	line "doing well too."
+	para "Evidemment que"
+	line "tes #MON vont"
+	cont "bien."
 
-	para "But then, I am"
-	line "trying to become a"
+	para "Les miens aussi!"
 
-	para "#MON professor,"
-	line "so that shouldn't"
-	cont "be a big surprise."
+	para "Mais bon, j'essaie"
+	line "de devenir un"
+
+	para "professeur #MON"
+	line "alors ce n'est pas"
+	cont "une surprise."
 	done
 
 UnknownText_0x1b69a8: ; 0x1b69a8
-	text "Hi, ", $14, "?"
+	text "Salut, ", $14, "?"
 
-	para "Good morning pika."
-	line "What's up pika?"
+	para "Bonjour pika."
+	line "Ca va pika?"
 	done
 
 UnknownText_0x1b69d2: ; 0x1b69d2
-	text "Hi, ", $14, "?"
+	text "Salut, ", $14, "?"
 
-	para "Good day pika,"
-	line "what's up pika?"
+	para "Bonjour pika."
+	line "Ca va pika?"
 	done
 
 UnknownText_0x1b69f8: ; 0x1b69f8
-	text "Hi, ", $14, "?"
+	text "Salut, ", $14, "?"
 
-	para "Good evening pika,"
-	line "what's up pika?"
+	para "Bonsoir pika."
+	line "Ca va pika?"
 	done
 
 UnknownText_0x1b6a22: ; 0x1b6a22
-	text $14, " pika, good"
-	line "morning!"
+	text $14, " pika,"
+	line "bonjour!"
 
-	para "It's @"
+	para "C'est @"
 	TX_RAM StringBuffer3
-	text ", how"
-	line "pika are you?"
+	text ", pika"
+	line "comment vas-tu?"
 	done
 
 UnknownText_0x1b6a56: ; 0x1b6a56
-	text $14, " pika, good"
-	line "pika day!"
+	text $14, " pika,"
+	line "pikajour!"
 
-	para "It's @"
+	para "C'est @"
 	TX_RAM StringBuffer3
-	text ", how"
-	line "pika are you?"
+	text ", pika"
+	line "comment pika vas-"
+	cont "tu?"
 	done
 
 UnknownText_0x1b6a8b: ; 0x1b6a8b
-	text $14, " pika, good"
-	line "evening!"
+	text $14, " pika,"
+	line "bonsoir!"
 
-	para "It's @"
+	para "C'est @"
 	TX_RAM StringBuffer3
-	text ". Were"
-	line "you pika awake?"
+	text ". Tu"
+	line "es pikaveillé ?"
 	done
 
 UnknownText_0x1b6ac2: ; 0x1b6ac2
-	text "You have to hear"
-	line "this! My lovable"
+	text "Tu dois entendre"
+	line "ça! Mon"
 
 	para "@"
 	TX_RAM StringBuffer4
-	text " looked"
-	line "at me and grinned!"
+	text " d'amour"
+	line "m'a souri!"
 
-	para "It must be because"
-	line "our hearts beat"
-	cont "together as one!"
+	para "Ca doit être parce"
+	line "que nos coeurs"
+	cont "sont connectés!"
 	done
 
 UnknownText_0x1b6b39: ; 0x1b6b39
-	text "Hello, this is"
+	text "Allo, c'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "<...>"
 
-	para "Oh, Good morning,"
+	para "Oh, bonjour,"
 	line $14, "."
 	done
 
 UnknownText_0x1b6b65: ; 0x1b6b65
-	text "Hello, this is"
+	text "Allo, c'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "<...>"
 
-	para "That voice<...>"
-	line $14, ", right?"
+	para "Cette voix<...>"
+	line $14, "?"
 	done
 
 UnknownText_0x1b6b92: ; 0x1b6b92
-	text "Hello, this is"
+	text "Allo? C'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "<...>"
 
-	para "This must be"
+	para "Est-ce que c'est"
 	line $14, "!"
 	done
 
 UnknownText_0x1b6bb9: ; 0x1b6bb9
-	text "Hello!"
+	text "Allo? Ici"
 	line "@"
 	TX_RAM StringBuffer3
-	text " here<...>"
+	text "<...>"
 
-	para "Good morning! The"
-	line "weather's great!"
+	para "Bonjour, le temps"
+	line "est bon!"
 	done
 
 UnknownText_0x1b6bef: ; 0x1b6bef
-	text "Hello!"
+	text "Allo? C'est"
 	line "@"
 	TX_RAM StringBuffer3
-	text " here<...>"
+	text "<...>"
 
-	para "What a perfect day"
-	line "for fishing!"
+	para "Quelle journée"
+	line "pour aller pêcher!"
 	done
 
 UnknownText_0x1b6c23: ; 0x1b6c23
-	text "Hello!"
+	text "Allo? C'est"
 	line "@"
 	TX_RAM StringBuffer3
-	text " here<...>"
+	text "<...>"
 
-	para "It's a great night"
-	line "for fishing!"
+	para "Quelle belle nuit"
+	line "pour pêcher!"
 	done
 
 UnknownText_0x1b6c56: ; 0x1b6c56
-	text "How's your trip"
-	line "coming along?"
+	text "Comment se passe"
+	line "ton voyage?"
 
-	para "I can't complain"
-	line "about my fishing!"
+	para "Je ne peux pas me"
+	line "plaindre de ma"
+	cont "pêche!"
 	done
 
 UnknownText_0x1b6c96: ; 0x1b6c96
-	text "Yes? @"
+	text "Oui? Ici @"
 	TX_RAM StringBuffer3
-	text " here<...>"
+	text "<...>"
 
-	para "Ah, ", $52, ". What"
-	line "can I do for you?"
+	para "Ah, ", $52, ". Que"
+	line "puis-je faire pour"
+	cont "toi?"
 	done
 
 UnknownText_0x1b6cc6: ; 0x1b6cc6
-	text "Yes? @"
+	text "Oui? Ici @"
 	TX_RAM StringBuffer3
-	text " here<...>"
+	text "<...>"
 
-	para "Ah, ", $52, ". What"
-	line "can I do for you?"
+	para "Ah, ", $52, ". Que"
+	line "puis-je faire pour"
+	cont "toi?"
 	done
 
 UnknownText_0x1b6cf6: ; 0x1b6cf6
-	text "Yes? @"
+	text "Oui? Ici @"
 	TX_RAM StringBuffer3
-	text " here<...>"
+	text "<...>"
 
-	para "Ah, ", $52, ". What"
-	line "can I do for you?"
+	para "Ah, ", $52, ". Que"
+	line "puis-je faire pour"
+	cont "toi?"
 	done
 
 UnknownText_0x1b6d26: ; 0x1b6d26
-	text "Hiya, ", $52, ". How"
-	line "are you doing?"
+	text "Salut, ", $52, "."
+	line "Comment ça va?"
 
-	para "Hey! It's me,"
+	para "Hé, c'est moi,"
 	line "@"
 	TX_RAM StringBuffer3
 	text "."
 	done
 
 UnknownText_0x1b6d57: ; 0x1b6d57
-	text "Hiya, ", $52, ", how"
-	line "are you doing?"
+	text "Salut, ", $52, "."
+	line "Comment ça va?"
 
-	para "Hey, it's me,"
+	para "Hé, c'est moi,"
 	line "@"
 	TX_RAM StringBuffer3
 	text "."
 	done
 
 UnknownText_0x1b6d88: ; 0x1b6d88
-	text "Hiya, ", $52, ", how"
-	line "are you doing?"
+	text "Salut, ", $52, "."
+	line "Comment ça va?"
 
-	para "Hey, it's me,"
+	para "Hé, c'est moi,"
 	line "@"
 	TX_RAM StringBuffer3
 	text "."
 	done
 
 UnknownText_0x1b6db9: ; 0x1b6db9
-	text "Oh yeah, I saw you"
-	line "coming out of a"
+	text "Ah oui, je t'ai vu"
+	line "sortir d'un centre"
 
-	para "#MON CENTER the"
-	line "other day."
+	para "#MON l'autre jour."
 
-	para "You heal your"
-	line "#MON regularly,"
+	para "Tu soignes tes"
+	line "#MON régulière-"
+	cont "ment?"
 
-	para "don't you?"
-	line "I'm impressed."
+	para "Ca m'étonne!"
 
-	para "Heh, my @"
+	para "Mon @"
 	TX_RAM StringBuffer4
 	db $0
-	line "is so tough, it"
+	line "est si fort qu'il"
 
-	para "doesn't need to go"
-	line "to #MON CENTERS"
-	cont "often. Heheh!"
+	para "ne va pas souvent"
+	line "aux centres #-"
+	cont "MON. Héhé!"
 	done
 
 UnknownText_0x1b6e7c: ; 0x1b6e7c
-	text "Yes? This is"
+	text "Oui? C'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "."
 
 	para "Oh, ", $14, "."
-	line "Good morning."
+	line "Bonjour."
 	done
 
 UnknownText_0x1b6ea6: ; 0x1b6ea6
-	text "Yes? This is"
+	text "Oui? C'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "."
 
 	para "Oh, ", $14, "."
-	line "Hello."
+	line "Bonjour."
 	done
 
 UnknownText_0x1b6ec9: ; 0x1b6ec9
-	text "Yes? This is"
+	text "Oui? C'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "."
 
-	para "Oh, ", $14, ", good"
-	line "evening."
+	para "Oh, ", $14, "."
+	line "Bonsoir."
 	done
 
 UnknownText_0x1b6ef3: ; 0x1b6ef3
-	text "Is this ", $14, "?"
+	text "Est-ce que c'est"
+	line $14, "?"
 
 	para "Good morning. This"
 	line "is @"
@@ -1610,130 +1637,136 @@ UnknownText_0x1b6ef3: ; 0x1b6ef3
 	done
 
 UnknownText_0x1b6f1c: ; 0x1b6f1c
-	text "Is this ", $14, "?"
+	text "Est-ce que c'est"
+	line $14, "?"
 
-	para "Hi, it's @"
+	para "Salut, c'est @"
 	TX_RAM StringBuffer3
 	text "."
 	done
 
 UnknownText_0x1b6f37: ; 0x1b6f37
-	text "Is this ", $14, "?"
+	text "Est-ce que c'est"
+	line $14, "?"
 
-	para "Good evening. This"
-	line "is @"
+	para "Bonsoir, c'est"
+	line "@"
 	TX_RAM StringBuffer3
 	text "."
 	done
 
 UnknownText_0x1b6f60: ; 0x1b6f60
-	text "Are your #MON"
-	line "doing well?"
+	text "Ton #MON va"
+	line "bien?"
 
-	para "I hope you take"
-	line "them to a #MON"
-	cont "CENTER every day."
+	para "J'espère que tu"
+	line "l'emmène au centre"
 
-	para "Don't push them"
-	line "too hard."
+	para "#MON tous les"
+	line "jours."
 
-	para "My @"
+	para "Ne les pousses pas"
+	line "trop."
+
+	para "Mon @"
 	TX_RAM StringBuffer4
-	text " is"
-	line "cute and lively"
+	text " est"
+	line "mignon et plein"
+	cont "de vie justement"
 
-	para "precisely because"
-	line "I take it to a"
+	para "parce que je"
+	line "l'emmène tous les"
 
-	para "#MON CENTER"
-	line "every day."
+	para "jours dans un"
+	line "centre #MON."
 	done
 
 UnknownText_0x1b7019: ; 0x1b7019
-	text "Yes, hello?"
+	text "Oui, allo? Ici"
 	line "@"
 	TX_RAM StringBuffer3
-	text " here!"
+	text "!"
 
-	para "Morning, ", $14, "!"
+	para "Salut, ", $14, "!"
 
-	para "Are you using bird"
-	line "#MON?"
+	para "Tu utilises des"
+	line "#MON oiseaux?"
 	done
 
 UnknownText_0x1b7057: ; 0x1b7057
-	text "Yes, hello?"
+	text "Oui, allo? Ici"
 	line "@"
 	TX_RAM StringBuffer3
-	text " here!"
+	text "!"
 
-	para "Hi, ", $14, "!"
+	para "Salut, ", $14, "!"
 
-	para "Are your bird"
-	line "#MON flying?"
+	para "Est-ce que tes"
+	line "#MON oiseaux"
+	cont "volent?"
 	done
 
 UnknownText_0x1b7092: ; 0x1b7092
-	text "Yes, hello?"
+	text "Oui, allo? Ici"
 	line "@"
 	TX_RAM StringBuffer3
-	text " here!"
+	text "!"
 
-	para "Evening, ", $14, "!"
-	line "Are you letting"
+	para "Bonsoir, ", $14, "!"
+	line "Est-ce que tu"
 
-	para "your bird #MON"
-	line "see some action?"
+	para "laisses tes #-"
+	line "MON oiseaux voler?"
 	done
 
 UnknownText_0x1b70e7: ; 0x1b70e7
-	text "Good morning,"
+	text "Allo,"
 	line $14, "!"
 
-	para "It's @"
+	para "C'est @"
 	TX_RAM StringBuffer3
 	text "!"
-	line "Good morning!"
+	line "Bonjour!"
 	done
 
 UnknownText_0x1b7112: ; 0x1b7112
-	text "Hi, ", $14, "!"
+	text "Salut, ", $14, "!"
 
-	para "It's @"
+	para "C'est @"
 	TX_RAM StringBuffer3
 	text "!"
-	line "Remember me?"
+	line "Tu te souviens?"
 	done
 
 UnknownText_0x1b7132: ; 0x1b7132
-	text "Good evening,"
+	text "Bonsoir,"
 	line $14, "!"
 
-	para "It's @"
+	para "C'est @"
 	TX_RAM StringBuffer3
 	text "!"
-	line "Are you free now?"
+	line "Tu es libre là?"
 	done
 
 UnknownText_0x1b7161: ; 0x1b7161
-	text "Are you and your"
-	line "#MON fine?"
+	text "Toi et tes #-"
+	line "MON allez bien?"
 
-	para "My @"
+	para "Mon @"
 	TX_RAM StringBuffer4
 	db $0
-	line "looks like it will"
+	line "veut-être assez"
 
-	para "get tough enough"
-	line "to face and beat"
+	para "fort pour faire"
+	line "face aux #MON"
 
-	para "the legendary bird"
-	line "#MON!"
+	para "oiseaux"
+	cont "légendaires!"
 	done
 
 UnknownText_0x1b71d5: ; 0x1b71d5
-	text "Hello, you have"
-	line "reached @"
+	text "Bonjour, vous avez"
+	line "atteint @"
 	TX_RAM StringBuffer3
 	text "<...>"
 
@@ -1741,248 +1774,248 @@ UnknownText_0x1b71d5: ; 0x1b71d5
 	done
 
 UnknownText_0x1b71fc: ; 0x1b71fc
-	text "Hello, you have"
-	line "reached @"
+	text "Bonjour, vous avez"
+	line "atteint @"
 	TX_RAM StringBuffer3
 	text "<...>"
 
-	para "Ah, ", $14, ", is"
-	line "it?"
+	para "Ah, ", $14, ", c'est"
+	line "ça?"
 	done
 
 UnknownText_0x1b722a: ; 0x1b722a
-	text "Hello, you have"
-	line "reached @"
+	text "Bonjour, vous avez"
+	line "atteint @"
 	TX_RAM StringBuffer3
 	text "<...>"
 
-	para "Ah, if it isn't"
+	para "Ah, si ce n'est pas"
 	line $14, "."
 	done
 
 UnknownText_0x1b725c: ; 0x1b725c
-	text "Ah, it's @"
+	text "Ah, c'est @"
 	TX_RAM StringBuffer3
 	text "<...>"
 
-	para "Have you got a"
-	line "moment?"
+	para "Tu as un moment?"
 	done
 
 UnknownText_0x1b7283: ; 0x1b7283
-	text "Ah, it's @"
+	text "Ah, c'est @"
 	TX_RAM StringBuffer3
 	text "<...>"
 
-	para "Can you talk now?"
+	para "Tu peux parler?"
 	done
 
 UnknownText_0x1b72a5: ; 0x1b72a5
-	text "Ah, it's @"
+	text "Ah, c'est @"
 	TX_RAM StringBuffer3
 	text "<...>"
 
-	para "Sorry for calling"
-	line "so late."
+	para "Désolé d'appeler"
+	line "si tard."
 	done
 
 UnknownText_0x1b72d0: ; 0x1b72d0
-	text "Have your #MON"
-	line "grown any?"
+	text "Ton #MON"
+	line "grandi bien?"
 
-	para "My @"
+	para "Mon @"
 	TX_RAM StringBuffer4
-	text " has"
-	line "grown quite a bit."
+	text " a"
+	line "un peu grandi."
 	done
 
 UnknownText_0x1b730b: ; 0x1b730b
 	TX_RAM StringBuffer3
-	text " here<...>"
+	text " à"
+	line "l'appareil!"
 
-	para $52, "! Beautiful"
-	line "morning, hey?"
+	para $52, "! Jolie"
+	line "matinée, hein?"
 	done
 
 UnknownText_0x1b7331: ; 0x1b7331
 	TX_RAM StringBuffer3
-	text " here<...>"
+	text " à"
+	line "l'appareil!"
 
-	para $52, "! Beautiful"
-	line "weather, hey?"
+	para $52, "! Beau"
+	line "temps, hein?"
 	done
 
 UnknownText_0x1b7357: ; 0x1b7357
 	TX_RAM StringBuffer3
-	text " here<...>"
+	text " à"
+	line "l'appareil!"
 
-	para $52, "! Beautiful"
-	line "moonlight, hey?"
+	para $52, "! Belle"
+	line "lune, hein?"
 	done
 
 UnknownText_0x1b737f: ; 0x1b737f
-	text "Hey, ", $52, "!"
-	line "This is @"
+	text "Hé, ", $52, "!"
+	line "C'est @"
 	TX_RAM StringBuffer3
 	text "!"
 	done
 
 UnknownText_0x1b7397: ; 0x1b7397
-	text "Hey, ", $52, "!"
-	line "This is @"
+	text "Hé, ", $52, "!"
+	line "C'est @"
 	TX_RAM StringBuffer3
 	text "!"
 	done
 
 UnknownText_0x1b73af: ; 0x1b73af
-	text "Hey, ", $52, "!"
-	line "This is @"
+	text "Hé, ", $52, "!"
+	line "C'est @"
 	TX_RAM StringBuffer3
 	text "!"
 	done
 
 UnknownText_0x1b73c7: ; 0x1b73c7
-	text "Yup, yup!"
-	line "It's @"
+	text "Ouais!"
+	line "C'est @"
 	TX_RAM StringBuffer3
 	text "!"
 
-	para "Hah, and here's"
+	para "Ah, et voilà"
 	line $14, "!"
 	done
 
 UnknownText_0x1b73ef: ; 0x1b73ef
-	text "Yup, yup!"
-	line "It's @"
+	text "Ouais!"
+	line "C'est @"
 	TX_RAM StringBuffer3
 	text "!"
 
-	para "Hah, and here's"
+	para "Ah, et voilà"
 	line $14, "!"
 	done
 
 UnknownText_0x1b7417: ; 0x1b7417
-	text "Yup, yup!"
-	line "It's @"
+	text "Ouais!"
+	line "C'est @"
 	TX_RAM StringBuffer3
 	text "!"
 
-	para "Hah, and here's"
+	para "Ah, et voilà"
 	line $14, "!"
 	done
 
 UnknownText_0x1b743f: ; 0x1b743f
-	text $14, ", it's"
+	text $14, ", c'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "!"
 
-	para "Have you had a"
-	line "proper breakfast?"
+	para "Tu as bien pris"
+	line "le petit-déjeuner?"
 	done
 
 UnknownText_0x1b746f: ; 0x1b746f
-	text $14, ", it's"
+	text $14, ", c'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "!"
 
-	para "Have you had a"
-	line "proper lunch?"
+	para "Tu as bien"
+	line "déjeuner?"
 	done
 
 UnknownText_0x1b749b: ; 0x1b749b
-	text $14, ", it's"
+	text $14, ", c'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "!"
 
-	para "Have you had a"
-	line "proper dinner?"
+	para "Tu as bien dîner?"
 	done
 
 UnknownText_0x1b74c8: ; 0x1b74c8
-	text "Are your #MON"
-	line "looking good?"
+	text "Tes #MON sont"
+	line "en forme?"
 
-	para "My @"
+	para "Mon @"
 	TX_RAM StringBuffer4
-	text " and"
-	line "me--we're looking"
+	text " et"
+	line "moi on a trop la"
 
-	para "mighty dandy!"
-	line "Hahahah!"
+	para "pêche! Hahaha!"
 	done
 
 UnknownText_0x1b751a: ; 0x1b751a
-	text "Yes, this is"
+	text "Oui, c'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "<...>"
 
-	para "Oh. Hi, ", $14, "!"
-	line "Good morning!"
+	para "Oh. ", $14, "!"
+	line "Bonjour!"
 	done
 
 UnknownText_0x1b7548: ; 0x1b7548
-	text "Yes, this is"
+	text "Oui, c'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "<...>"
 
-	para "Oh, hi, ", $14, "!"
+	para "Oh. Salut, ", $14, "!"
 	line "Yahoo!"
 	done
 
 UnknownText_0x1b756f: ; 0x1b756f
-	text "Yes, this is"
+	text "Oui, c'est"
 	line "@"
 	TX_RAM StringBuffer3
 	text "<...>"
 
-	para "Oh, hi, ", $14, "!"
+	para "Oh. Salut, ", $14, "!"
 	done
 
 UnknownText_0x1b758f: ; 0x1b758f
 	text $14, "!"
 
-	para "It's @"
+	para "C'est @"
 	TX_RAM StringBuffer3
 	text "!"
-	line "Good morning!"
+	line "Bonjour!"
 	done
 
 UnknownText_0x1b75ac: ; 0x1b75ac
 	text $14, "!"
 
-	para "It's @"
+	para "C'est @"
 	TX_RAM StringBuffer3
 	text "!"
-	line "Working hard?"
+	line "Tu travailles dur?"
 	done
 
 UnknownText_0x1b75c9: ; 0x1b75c9
 	text $14, "!"
 
-	para "It's @"
+	para "C'est @"
 	TX_RAM StringBuffer3
 	text "!"
-	line "Were you up?"
+	line "Tu es debout?"
 	done
 
 UnknownText_0x1b75e5: ; 0x1b75e5
-	text "Are you raising"
-	line "your #MON?"
+	text "Tu élèves ton"
+	line "#MON?"
 
-	para "Hey, @"
+	para "Hé, le @"
 	TX_RAM StringBuffer3
-	text "'s"
+	text " de "
 	line "@"
 	TX_RAM StringBuffer4
-	text " is"
-	cont "looking good!"
+	text " à"
+	cont "l'air en forme!"
 	done
 
 UnusedPhoneText: ; 0x1b7624
-	text "Good morning."
+	text "Bonjour."
 	done

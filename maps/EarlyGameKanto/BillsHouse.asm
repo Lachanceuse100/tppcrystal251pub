@@ -154,92 +154,94 @@ Movement_ResetBill:
 	step_end
 
 _BillsHouseText_1e865:
-	text "Hiya! I'm a"
+	text "Salut! Je suis un"
 	line "#MON<...>"
-	cont "<...>No I'm not!"
+	cont "<...>En fait non<...>"
 
-	para "Call me BILL!"
-	line "I'm a true blue"
-	cont "#MANIAC! Hey!"
-	cont "What's with that"
-	cont "skeptical look?"
+	para "Moi c'est LEO!"
+	line "Je suis un vrai"
+	cont "#MANIAC! Hé!"
+	cont "C'est quoi ce"
+	cont "regard sceptique?"
 
-	para "I'm not joshing"
-	line "you, I screwed up"
-	cont "an experiment and"
-	cont "got combined with"
-	cont "a #MON!"
+	para "C'est vrai! J'ai"
+	line "raté une expérien-"
+	cont "ce et me voilà"
+	cont "transformé en"
+	cont "#MON!"
 
-	para "So, how about it?"
-	line "Help me out here!"
+	para "Alors? Aide moi"
+	line "s'il te plaît!"
 	done
 
 _BillsHouseText_1e86a:
-	text "When I'm in the"
-	line "TELEPORTER, go to"
-	cont "my PC and run the"
-	cont "Cell Separation"
-	cont "System!"
+	text "Quand je suis dans"
+	line "le TELEPORTEUR,"
+	cont "Lance le programme"
+	cont "de séparation"
+	cont "du PC!"
 	done
 
 _BillsHouseText_1e86f:
-	text "No!? Come on, you"
-	line "gotta help a guy"
-	cont "in deep trouble!"
+	text "Non!? Allez, tu"
+	line "peux bien aider un"
+	cont "mec cool!"
 
-	para "What do you say,"
-	line "chief? Please?"
-	cont "OK? All right!"
+	para "Allez, s'il te"
+	line "plaît? Pitié?"
+	cont "Oui? Super!"
 	done
 
 _BillThankYouText:
-	text "BILL: Yeehah!"
-	line "Thanks, bud! I"
-	cont "owe you one!"
+	text "BILL: Yahoo!"
+	line "Merci, je t'en"
+	cont "dois une!"
 
-	para "So, did you come"
-	line "to see my #MON"
-	cont "collection?"
-	cont "You didn't?"
-	cont "That's a bummer."
+	para "Tu es venu voir"
+	line "ma collection de"
+	cont "#MON? Ah bon?"
+	cont "C'est dommage<...>"
 
-	para "I've got to thank"
-	line "you<...> Oh here,"
-	cont "maybe this'll do."
+	para "Je dois te remer-"
+	line "cier<...> Oh tiens,"
+	cont "ça fera l'affaire."
 	done
 
 _BillsHouseText_1e8cb:
-	text "That cruise ship,"
-	line "S.S.ANNE, is in"
-	cont "VERMILION CITY."
-	cont "Its passengers"
-	cont "are all trainers!"
+	text "Ce paquebot,"
+	line "l'OCEANE, est à"
+	cont "CARMIN SUR MER."
+	cont "Les passagers sont"
+	cont "tous dresseurs!"
 
-	para "They invited me"
-	line "to their party,"
-	cont "but I can't stand"
-	cont "fancy do's. Why"
-	cont "don't you go"
-	cont "instead of me?"
+	para "Ils m'ont invité"
+	line "à leur fête, mais"
+	cont "je ne supporte pas"
+	cont "ces mariolles."
+	cont "Si tu veux y"
+	cont "aller à ma place,"
+	cont "fais-toi plaisir!"
 	done
 
 _BillsHouseText_1e8da:
-	text "BILL: Look, bud,"
-	line "just check out"
-	cont "some of my rare"
-	cont "#MON on my PC!"
+	text "LEO: Tu peux"
+	line "regarder ma"
+	cont "collection de"
+	cont "#MON rares sur"
+	cont "mon PC."
 	done
 
 _BillsHouseMonitorText:
-	text "TELEPORTER is"
-	line "displayed on the"
-	cont "PC monitor."
+	text "Le TELEPORTEUR est"
+	line "affiché sur"
+	cont "l'écran du PC."
 	done
 
 _BillsHouseInitiatedText:
-	text "<PLAYER> initiated"
-	line "TELEPORTER's Cell"
-	cont "Separator!"
+	text "<PLAYER> enclenche"
+	line "le séparateur de"
+	cont "cellules du"
+	cont "TELEPORTEUR."
 	done
 
 BillsHouseRB_MapEventHeader:

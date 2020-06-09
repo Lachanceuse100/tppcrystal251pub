@@ -1,12 +1,12 @@
 ; MukPokedexEntry: ; 0x1b89fc
-	db "SLUDGE@" ; species name
+	db "DEGUEU@" ; species name
 	dw 311, 660 ; height, width
 
-	db   "As it moves, a"
-	next "very strong poison"
-	next "leaks from it,"
-	page "making the ground"
-	next "there barren for"
-	next "three years.@"
+	db   "En bougeant, il"
+	next "laisse un puissant"
+	next "poison derriere"
+	page "lui et rend la"
+	next "terre sterile pour"
+	next "3 ans.@"
 ; 0x1b8a68
 

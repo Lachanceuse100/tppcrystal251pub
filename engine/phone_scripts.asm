@@ -3119,12 +3119,12 @@ UnknownScript_0xbe63a:
 ; be643
 
 
-String_be643: db "Grandma@"
-String_be64b: db "Grandpa@"
-String_be653: db "Mom@"
-String_be657: db "Dad@"
-String_be65b: db "Sister@"
-String_be662: db "Brother@"
+String_be643: db "Mamie@"
+String_be64b: db "Papy@"
+String_be653: db "Maman@"
+String_be657: db "Papa@"
+String_be65b: db "Soeur@"
+String_be662: db "Frere@"
 
 
 UnknownScript_0xbe66a:: ; 0xbe66a

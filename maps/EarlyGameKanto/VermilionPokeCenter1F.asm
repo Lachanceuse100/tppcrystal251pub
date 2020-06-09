@@ -23,41 +23,39 @@ VermilionPokeCenter1FRB_BugCatcherScript: ; 0x19161d
 ; 0x191620
 
 _VermilionPokecenterText1:
-	text "Even if they are"
-	line "the same level,"
-	cont "#MON can have"
-	cont "very different"
-	cont "abilities."
+	text "Même à niveau"
+	line "égal, les #MON"
+	cont "ont des capacités"
+	cont "différentes."
 
-	para "A #MON raised"
-	line "by a trainer is"
-	cont "stronger than one"
-	cont "in the wild."
+	para "Un #MON élevé"
+	line "par un dresseur"
+	cont "est plus fort"
+	cont "qu'un sauvage."
 	done
 
 _VermilionPokecenterText2:
-	text "My #MON was"
-	line "poisoned!"
+	text "Mon #MON était"
+	line "empoisonné!"
 
-	para "It eventually wore"
-	line "off, but man was"
-	cont "it scary!"
+	para "Ca s'est en allé"
+	line "mais j'ai eu peur!"
 	done
 
 _VermilionPokecenterGuyText:
-	text "It is true that a"
-	line "higher level"
-	cont "#MON will be"
-	cont "more powerful<...>"
+	text "C'est vrai qu'un"
+	line "#MON plus haut"
+	cont "niveau sera plus"
+	cont "puissant<...>"
 
-	para "But, all #MON"
-	line "will have weak"
-	cont "points against"
-	cont "specific types."
+	para "Mais tous les"
+	line "#MON ont un"
+	cont "point faible face"
+	cont "à certains types."
 
-	para "So, there is no"
-	line "universally"
-	cont "strong #MON."
+	para "Il n'y a pas"
+	line "vraiment de"
+	cont "#MON ultime."
 	done
 
 VermilionPokeCenter1FRB_LinkScript:

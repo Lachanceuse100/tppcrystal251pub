@@ -2,11 +2,11 @@
 	db "COBRA@" ; species name
 	dw 1106, 1430 ; height, width
 
-	db   "To intimidate"
-	next "foes, it spreads"
-	next "its chest wide and"
-	page "makes eerie sounds"
-	next "by expelling air"
-	next "from its mouth.@"
+	db   "Pour apeurer ses"
+	next "ennemis, il gonfle"
+	next "sa poitrine et"
+	page "émet d'étranges"
+	next "sons avec sa"
+	next "bouche.@"
 ; 0x1820ad
 

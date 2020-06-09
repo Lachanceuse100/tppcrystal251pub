@@ -1,12 +1,12 @@
 ; MewtwoPokedexEntry: ; 0x1cc8ae
-	db "GENETIC@" ; species name
+	db "GENETIQUE@" ; species name
 	dw 607, 2690 ; height, width
 
-	db   "Said to rest qui-"
-	next "etly in an"
-	next "undiscovered cave,"
-	page "this #MON was"
-	next "created solely for"
-	next "battling.@"
+	db   "On dit qu'il se"
+	next "repose dans une"
+	next "grotte inconnue."
+	page "Il a été créé"
+	next "uniquement pour le"
+	next "combat.@"
 ; 0x1cc915
 

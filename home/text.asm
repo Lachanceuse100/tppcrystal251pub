@@ -421,14 +421,14 @@ Function126a:: ; 126a
 	jp NextChar
 ; 0x1273
 
-Char5CText:: db "TM@" ; 1273
-Char5DText:: db "TRAINER@" ; 1276
+Char5CText:: db "CT@" ; 1273
+Char5DText:: db "DRESS.@" ; 1276
 Char5BText:: db "PC@" ; 127e
 Char5EText:: db "ROCKET@" ; 1281
 Char54Text:: db "POKé@" ; 1288
 Char23Text:: db "?@" ; 128d
 Char56Text:: db "<...><...>@" ; 1292
-Char5AText:: db "Enemy @" ; 1295
+Char5AText:: db "Ennemi @" ; 1295
 Char4AText:: db $e1, $e2, "@" ; PK MN ; 129c
 Char24Text:: db $70, $71, "@" ; PO KE ; 129f
 String12a2:: db " @" ; 12a2
@@ -1135,12 +1135,12 @@ Text_15:: ; 1582
 	dw .Fri
 	dw .Satur
 
-.Sun    db "SUN@"
-.Mon    db "MON@"
-.Tues   db "TUES@"
-.Wednes db "WEDNES@"
-.Thurs  db "THURS@"
-.Fri    db "FRI@"
-.Satur  db "SATUR@"
-.Day    db "DAY@"
+.Sun    db "DIMANCHE@"
+.Mon    db "LUNDI@"
+.Tues   db "MARDI@"
+.Wednes db "MERCREDI@"
+.Thurs  db "JEUDI@"
+.Fri    db "VENDREDI@"
+.Satur  db "SAMEDI@"
+.Day    db "@"
 ; 15d8

@@ -1,12 +1,12 @@
 ; KoffingPokedexEntry: ; 0x1b9276
-	db "POISON GAS@" ; species name
+	db "GAZ MORTEL@" ; species name
 	dw 200, 20 ; height, width
 
-	db   "If one gets close"
-	next "enough to it when"
-	next "it expels poison-"
-	page "ous gas, the gas"
-	next "swirling inside it"
-	next "can be seen.@"
+	db   "Si l'on s'approche"
+	next "suffisament quand"
+	next "il envoie du"
+	page "gaz, on peut voir"
+	next "ses réserves de"
+	next "poison.@"
 ; 0x1b92ec
 

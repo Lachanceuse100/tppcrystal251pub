@@ -1,12 +1,12 @@
 ; JumpluffPokedexEntry: ; 0x1cd998
-	db "COTTONWEED@" ; species name
+	db "PISSENLIT@" ; species name
 	dw 207, 70 ; height, width
 
-	db   "Even in the fierc-"
-	next "est wind, it can"
-	next "control its fluff"
-	page "to make its way to"
-	next "any place in the"
-	next "world it wants.@"
+	db   "Meme sous un vent"
+	next "tr", $c6, "s violent, il"
+	next "controle sa desti-"
+	page "nation en bougeant"
+	next "ses appendices."
+	next "@"
 ; 0x1cda11
 

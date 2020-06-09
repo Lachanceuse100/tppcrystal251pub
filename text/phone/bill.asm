@@ -1,120 +1,123 @@
 BillPhoneMornGreetingText: ; 0x1b4427
-	text "Good morning!"
+	text "Bonjour!"
 
-	para "This is the #-"
-	line "MON STORAGE SYSTEM"
+	para "Ici le service d'"
+	line "administration du"
 
-	para "ADMINISTRATION"
-	line "SERVICE."
+	para "système de stock-"
+	line "age #MON."
 	done
 
 BillPhoneDayGreetingText: ; 0x1b4470
-	text "Good day!"
+	text "Bonjour!"
 
-	para "This is the #-"
-	line "MON STORAGE SYSTEM"
+	para "Ici le service d'"
+	line "administration du"
 
-	para "ADMINISTRATION"
-	line "SERVICE."
+	para "système de stock-"
+	line "age #MON."
 	done
 
 BillPhoneNiteGreetingText: ; 0x1b44b5
-	text "Good evening!"
+	text "Bonsoir!"
 
-	para "This is the #-"
-	line "MON STORAGE SYSTEM"
+	para "Ici le service d'"
+	line "administration du"
 
-	para "ADMINISTRATION"
-	line "SERVICE."
+	para "système de stock-"
+	line "age #MON."
 	done
 
 BillPhoneGeneriText: ; 0x1b44fe
-	db $0, "Who's calling?", $51
-	db $14, ", is it?", $4f
-	db "Hang on a sec<...>", $51
+	db $0, "Qui est-ce?", $51
+	db $14, ", c'est ça?", $4f
+	db "Un moment<...>", $51
 	db $56, $4f
 	db $56, $57
 
 BillPhoneNotFullText: ; 0x1b452a
-	text "Thanks for"
-	line "waiting!"
+	text "Merci d'avoir"
+	line "patienté!"
 
-	para $14, ", your BOX"
-	line "has room for @"
+	para $14, ", ta boîte"
+	line "peut acceuillir @"
 	TX_RAM StringBuffer3
-	text $55
-	db "more #MON."
+	text $55 
+	db "#MON de plus."
 
-	para "Get out there and"
-	line "fill it up!"
+	para "Va donc la"
+	line "remplir!"
 	done
 
 BillPhoneNearlyFullText: ; 0x1b4587
-	text "Thanks for"
-	line "waiting!"
+	text "Merci d'avoir"
+	line "patienté!"
 
-	para $14, ", your BOX"
-	line "has room for only"
-	cont "@"
+	para $14, ", ta boîte"
+	line "peut acceuillir @"
 	TX_RAM StringBuffer3
-	text " more #MON."
+	text $55 
+	db "#MON de plus."
 
-	para "Maybe you should"
-	line "switch your BOX."
+	para "Il faudrait peut-"
+	line "être en changer..."
 	done
 
 BillPhoneFullText: ; 0x1b45ed
-	text "Thanks for"
-	line "waiting!"
+	text "Merci d'avoir"
+	line "patienté!"
 
-	para $14, ", your BOX"
-	line "is full!"
+	para $14, ", ta boîte"
+	line "est pleine!"
 	prompt
 
 BillPhoneNewlyFullText: ; 0x1b4652
-	text "Hi, ", $14, "?"
-	line "It's me, BILL!"
+	text "Salut, ", $14, "?"
+	line "C'est moi, LEO!"
 
-	para "Thanks for using"
-	line "my STORAGE SYSTEM."
+	para "Merci d'utiliser"
+	line "mon système de"
+	cont "stockage!"
 
-	para "That last #MON"
-	line "you sent filled"
-	cont "your BOX up."
+	para "Ce dernier #-"
+	line "MON a fini remplir"
+	cont "ta boîte!"
 	prompt
 
 BillWholePCFullText:
-	text "Wow, you filled"
-	line "a whole server."
+	text "Wouah, tu as rem-"
+	line "pli un serveur"
+	cont "entier!"
 
-	para "You'll have to"
-	line "release #MON"
-	cont "to make space."
+	para "Il faudra relâch-"
+	line "er des #MON"
+
+	para "pour faire de la"
+	line "place."
 	done
 
 BillWantNextBox:
-	text "I'll swap to the"
-	line "next BOX with"
-	cont "space for you."
+	text "Je vais mettre la"
+	line "suivante par"
+	cont "défaut pour toi."
 
-	para "However<...>"
+	para "Par contre<...>"
 	prompt
 
 BillThankYouText:
-	text "Thank you for"
-	line "using the PC"
-	cont "STORAGE SYSTEM!"
+	text "Merci d'utiliser"
+	line "le système de sto-"
+	cont "ckage!"
 	done
 
 BillCallMeToSwitch:
-	text "Okay, I'll leave"
-	line "it alone."
+	text "OK, je la laisse"
+	line "tranquille alors."
 
-	para "Call me back if"
-	line "you change your"
-	cont "mind."
+	para "Rappelle moi si tu"
+	line "changes d'avis."
 
-	para "You can also"
-	line "change boxes your-"
-	cont "self via PC."
+	para "Tu peux aussi toi-"
+	line "même changer de"
+	cont "boîte via le PC."
 	prompt

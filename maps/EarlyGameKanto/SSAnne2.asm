@@ -138,132 +138,134 @@ SSAnne2GentlemanScript:
 	jumptextfaceplayer _SSAnne2Text1
 
 _SSAnne2Text1:
-	text "This ship, she is"
-	line "a luxury liner"
-	cont "for trainers!"
+	text "Ce bateau est une"
+	line "croisière de luxe"
+	cont "pour les"
+	cont "dresseurs."
 
-	para "At every port, we"
-	line "hold parties with"
-	cont "invited trainers!"
+	para "A chaque port,"
+	line "nous tenons des"
+	cont "fêtes avec les"
+	cont "dresseurs invités."
 	done
 
 _SSAnneRivalBeforeBattleText:
 	text "<GREEN>: Bonjour!"
 	line "<PLAYER>!"
 
-	para "Imagine seeing"
-	line "you here!"
+	para "Si je m'attendais"
+	line "à te voir!"
 
-	para "<PLAYER>, were you"
-	line "really invited?"
+	para "<PLAYER>, tu as été"
+	line "invitée? Toi?"
 
-	para "So how's your"
-	line "#DEX coming?"
+	para "Comment avance"
+	line "ton #DEX?"
 
-	para "I already caught"
-	line "40 kinds, pal!"
+	para "J'en ai capturé"
+	line "une quarantaine"
+	cont "d'espèces!"
 
-	para "Different kinds"
-	line "are everywhere!"
+	para "Il y en a partout."
+	line "Faut juste ramper"
 
-	para "Crawl around in"
-	line "grassy areas!"
+	para "dans les hautes"
+	line "herbes!"
 	done
 
 _SSAnneRivalDefeatedText:
-	text "Humph!"
+	text "Hmph!"
 
-	para "At least you're"
-	line "raising your"
-	cont "#MON!"
+	para "Au moins tu élèves"
+	line "tes #MON."
 	done
 
 _SSAnneRivalWonText:
-	text "<PLAYER>! What are"
-	line "you, seasick?"
+	text "<PLAYER>! T'as"
+	line "le mal de mer?"
 
-	para "You should shape"
-	line "up, pal!"
+	para "Ressaisis-toi!"
 	done
 
 _SSAnneRivalCaptainText:
-	text "<GREEN>: I heard"
-	line "there was a CUT"
-	cont "master on board."
+	text "<GREEN>: Il y a"
+	line "le maître de la"
+	cont "CS COUPE a bord."
 
-	para "But, he was just a"
-	line "seasick, old man!"
+	para "Mais c'est juste"
+	line "un vieux qui a le"
+	cont "mal de mer."
 
-	para "But, CUT itself is"
-	line "really useful!"
+	para "Mais COUPE est"
+	line "vraiment utile!"
 
-	para "You should go see"
-	line "him! Smell ya!"
+	para "Tu devrais le"
+	line "voir! A plus!"
 	done
 
 _SSAnneRivalBeforeBattleTextF:
 	text "<GREEN>: <PLAYER>,"
 	line "bonjour!"
 
-	para "You were invited"
-	line "too? That's awe-"
-	cont "some!"
+	para "Tu étais aussi"
+	line "invité? Génial!"
 
-	para "So how's your"
-	line "#DEX coming?"
+	para "Comment avance"
+	line "ton #DEX?"
 
-	para "Mine's filling up"
-	line "nicely. I think I'm"
-	cont "at 40 or some-"
-	cont "thing."
+	para "Le mien se remplit"
+	line "bien, je dois en"
+	cont "être à 40."
 
-	para "There's such a huge"
-	line "variety of #-"
+	para "Il y a une telle"
+	line "variété de #-"
 	cont "MON!"
 
-	para "What kinds have"
-	line "you caught,"
+	para "Quelles espèces"
+	line "as-tu attrapées"
 	cont "<PLAYER>?"
 	done
 
 _SSAnneRivalDefeatedTextF:
-	text "Wow, you've found"
-	line "some pretty tough"
-	cont "#MON!"
+	text "Waouh! Tu en as"
+	line "attrapé des"
+	cont "costaud!"
 	done
 
 _SSAnneRivalWonTextF:
-	text "Aww, <PLAYER><...>"
+	text "Ohh, <PLAYER><...>"
 
-	para "Are you seasick?"
-	line "You should've told"
-	cont "me<...>"
+	para "Tu as le mal de"
+	line "mer? Tu aurais du"
+	cont "me le dire<...>"
 	done
 
 _SSAnneRivalCaptainTextF:
-	text "<GREEN>: I heard"
-	line "there was a CUT"
-	cont "master on board."
+	text "<GREEN>: Il paraît"
+	line "qu'il y avait le"
+	cont "maître de la CS"
+	cont "COUPE à bord"
 
-	para "But, he seems to"
-	line "be seasick. Poor"
-	cont "guy<...>"
+	para "Mais, on dirait"
+	line "qu'il a le mal de"
+	cont "mer le pauvre<...>"
 
-	para "The HM is pretty"
-	line "handy, though."
+	para "Cette CS est tout"
+	line "de même pratique."
 
-	para "You should go see"
-	line "him. Really!"
+	para "Tu devrais aller"
+	line "le voir."
 
-	para "See you around!"
+	para "On se voit plus"
+	line "tard!"
 	done
 
 SSAnne2RocketText:
-	text "The mutiny was a"
-	line "success!"
+	text "La mutinerie est"
+	line "une réussite!"
 
-	para "BOSS will be so"
-	line "pleased!"
+	para "Le CHEF sera"
+	line "content!"
 	done
 
 SSAnne2_MapEventHeader:

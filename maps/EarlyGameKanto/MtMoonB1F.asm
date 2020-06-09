@@ -103,119 +103,120 @@ Item_MtMoonB1FRBTMSunnyDay:
 	db TM_SUNNY_DAY, 1
 
 _MtMoon1BattleText2:
-	text "WHOA! You shocked"
-	line "me! Oh, you're"
-	cont "just a kid!"
+	text "WOAH! Tu m'as sur-"
+	line "pris! Oh mais t'es"
+	cont "just un gosse!"
 	done
 
 _MtMoon1EndBattleText2:
-	text "Wow! Shocked"
-	line "again!"
+	text "Ah! Encore"
+	line "surpris!"
 	done
 
 _MtMoon1AfterBattleText2:
-	text "Kids like you"
-	line "shouldn't be"
-	cont "here!"
+	text "Les gosses ne"
+	line "devraient pas"
+	cont "être ici!"
 	done
 
 _MtMoon1BattleText3:
-	text "Did you come to"
-	line "explore too?"
+	text "Tu es venu"
+	line "explorer aussi?"
 	done
 
 _MtMoon1EndBattleText3:
-	text "Losing stinks!"
+	text "Ca craint!"
 	done
 
 _MtMoon1AfterBattleText3:
-	text "I came down here"
-	line "to show off to"
-	cont "girls."
+	text "Je suis venu"
+	line "frimer devant"
+	cont "les filles."
 	done
 
 _MtMoon1BattleText4:
-	text "Wow! It's way"
-	line "bigger in here"
-	cont "than I thought!"
+	text "Waouh! C'est plus"
+	line "grand ici que ce"
+	cont "que je croyais!"
 	done
 
 _MtMoon1EndBattleText4:
-	text "Oh! I lost it!"
+	text "Oh! j'ai perdu!"
 	done
 
 _MtMoon1AfterBattleText4:
-	text "How do you get"
-	line "out of here?"
+	text "Comment on"
+	line "sort d'ici?"
 	done
 
 _MtMoon1BattleText5:
-	text "What! Don't sneak"
-	line "up on me!"
+	text "Quoi! Ne me"
+	line "surprends pas!"
 	done
 
 _MtMoon1EndBattleText5:
-	text "My #MON won't"
-	line "do!"
+	text "Mon #MON n'y"
+	line "arrivera pas!"
 	done
 
 _MtMoon1AfterBattleText5:
-	text "I have to find"
-	line "stronger #MON."
+	text "Je dois trouver de"
+	line "meilleurs #MON."
 	done
 
 _MtMoon1BattleText6:
-	text "What? I'm waiting"
-	line "for my friends to"
-	cont "find me here."
+	text "Quoi? J'attends"
+	line "mes amis ici."
 	done
 
 _MtMoon1EndBattleText6:
-	text "I lost?"
+	text "J'ai perdu?"
 	done
 
 _MtMoon1AfterBattleText6:
-	text "I heard there are"
-	line "some very rare"
-	cont "fossils here."
+	text "J'ai entendu qu'il"
+	line "y avait des"
+	cont "fossiles rares."
 	done
 
 _MtMoon1BattleText7:
-	text "Suspicious men"
-	line "are in the cave."
-	cont "What about you?"
+	text "Des hommes"
+	line "suspicieux sont"
+	cont "dans la cave."
+	cont "Tu es avec eux?"
 	done
 
 _MtMoon1EndBattleText7:
-	text "You got me!"
+	text "Tu m'as eu!"
 	done
 
 _MtMoon1AfterBattleText7:
-	text "I saw them! I'm"
-	line "sure they're from"
+	text "J'en suis sûr."
+	line "Ils étaient de là"
 	cont "TEAM ROCKET!"
 	done
 
 _MtMoon1BattleText8:
-	text "Go through this"
-	line "cave to get to"
-	cont "CERULEAN CITY!"
+	text "Va à travers cette"
+	line "cave pour aller à"
+	cont "AZURIA!"
 	done
 
 _MtMoon1EndBattleText8:
-	text "I lost."
+	text "J'ai perdu."
 	done
 
 _MtMoon1AfterBattleText8:
-	text "ZUBAT is tough!"
-	line "But, it can be"
-	cont "useful if you"
-	cont "catch one."
+	text "NOSEFRAPTI est"
+	line "puissant! En"
+	cont "attraper un"
+	cont "est utile!"
 	done
 
 _MtMoon1Text14:
-	text "Beware! ZUBAT is"
-	line "a blood sucker!"
+	text "Attention! Les"
+	line "NOSFERAPTI sont"
+	cont "des vampires!"
 	done
 
 MtMoonB1FRB_MapEventHeader: ; 0x1ac4af

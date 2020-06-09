@@ -54,55 +54,54 @@ MapVermilionHouseFishingSpeechHouseRBSignpost0Script: ; 0x191490
 ; 0x191496
 
 _VermilionHouse2Text_560b1:
-	text "I'm the FISHING"
-	line "GURU!"
+	text "Je suis le"
+	line "MAITRE PECHEUR!"
 
-	para "I simply Looove"
-	line "fishing!"
+	para "J'adoooooooore"
+	line "pêcher!"
 
-	para "Do you like to"
-	line "fish?"
+	para "Tu aimes la pêche?"
 	done
 
 _VermilionHouse2Text_560b6:
-	text "Grand! I like"
-	line "your style!"
+	text "Terrible! J'adore"
+	line "ton style!"
 
-	para "Take this and"
-	line "fish, young one!"
+	para "Prends ça et"
+	line "pêche donc!"
 
-	para "<PLAYER> received"
-	line "an OLD ROD!"
+	para "<PLAYER> reçoit"
+	line "une CANNE!"
 	done
 
 _VermilionHouse2Text_560bb:
-	text "Fishing is a way"
-	line "of life!"
+	text "La pêche est un"
+	line "style de vie."
 
-	para "From the seas to"
-	line "rivers, go out"
-	cont "and land the big"
-	cont "one, young one!"
+	para "Des mers aux"
+	line "rivières, va"
+	cont "pêcher le gros"
+	cont "poisson!"
 	done
 
 _VermilionHouse2Text_560c0:
-	text "Oh<...> That's so"
-	line "disappointing<...>"
+	text "Oh<...> C'est"
+	line "décevant<...>"
 	done
 
 _VermilionHouse2Text_560c5:
-	text "Hello there,"
+	text "Tiens donc,"
 	line "<PLAYER>!"
 
-	para "How are the fish"
-	line "biting?"
+	para "Ca mords?"
 	done
 
 _VermilionHouse2Text_560ca:
-	text "Oh no!"
+	text "Oh non!"
 
-	para "You have no room"
-	line "for my gift!"
+	para "Tu n'as plus de"
+	line "place pour mon"
+	cont "cadeau!"
 	done
 
 

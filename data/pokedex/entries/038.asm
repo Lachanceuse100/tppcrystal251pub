@@ -1,12 +1,12 @@
 ; NinetalesPokedexEntry: ; 0x18260c
-	db "FOX@" ; species name
+	db "RENARD@" ; species name
 	dw 307, 440 ; height, width
 
-	db   "It is said to live"
-	next "a thousand years,"
-	next "and each of its"
-	page "tails is loaded"
-	next "with supernatural"
-	next "powers.@"
+	db   "On dit qu'il vit"
+	next "100 ans et que"
+	next "chacune de ses"
+	page "queues a un pou-"
+	next "voir magique."
+	next "@"
 ; 0x182673
 

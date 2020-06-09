@@ -1,12 +1,12 @@
 ; TyroguePokedexEntry: ; 0x1d124b
-	db "SCUFFLE@" ; species name
+	db "BAGARREUR@" ; species name
 	dw 204, 460 ; height, width
 
-	db   "To brush up on its"
-	next "fighting skills,"
-	next "it will challenge"
-	page "anyone. It has a"
-	next "very strong com-"
-	next "petitive spirit.@"
+	db   "Pour augmenter ses"
+	next "capacités, il,"
+	next "cherche à se bat-"
+	page "tre contre n'im-"
+	next "porte qui. Il est"
+	next "tr", $c6, "s courageux.@"
 ; 0x1d12c0
 

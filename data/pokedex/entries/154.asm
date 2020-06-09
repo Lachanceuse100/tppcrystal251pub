@@ -1,12 +1,12 @@
 ; MeganiumPokedexEntry: ; 0x1cca54
-	db "HERB@" ; species name
+	db "HERBE@" ; species name
 	dw 511, 2220 ; height, width
 
-	db   "Anyone who stands"
-	next "beside it becomes"
-	next "refreshed, just as"
-	page "if they were"
-	next "relaxing in a"
-	next "sunny forest.@"
+	db   "Toute personne se"
+	next "tenant pres de lui"
+	next "se sent instanta-"
+	page "nément rafraichie."
+	next "comme dans une fo-"
+	next "ret en été.@"
 ; 0x1ccabd
 

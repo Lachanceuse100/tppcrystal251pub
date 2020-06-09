@@ -1,12 +1,12 @@
 ; NidorinaPokedexEntry: ; 0x1822b6
-	db "POISON PIN@" ; species name
+	db "VENEPIC@" ; species name
 	dw 207, 440 ; height, width
 
-	db   "It has a docile"
-	next "nature. If it is"
-	next "threatened with"
-	page "attack, it raises"
-	next "the barbs that are"
-	next "all over its body.@"
+	db   "Il est de nature"
+	next "docile. S'il se"
+	next "sent menacé, il"
+	page "dresse les pics"
+	next "qui couvrent son"
+	next "corps.@"
 ; 0x18232e
 

@@ -1,12 +1,12 @@
 ; TeddiursaPokedexEntry: ; 0x1d09da
-	db "LITTLE BEAR@" ; species name
+	db "MINI OURS@" ; species name
 	dw 200, 190 ; height, width
 
-	db   "It always licks"
-	next "honey. Its palm"
-	next "tastes sweet"
-	page "because of all the"
-	next "honey it has"
-	next "absorbed.@"
+	db   "Il aime le miel."
+	next "Ses paumes sont"
+	next "sucrées tant il"
+	page "se goinfre de miel"
+	next "toute la journée."
+	next "@"
 ; 0x1d0a41
 

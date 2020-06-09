@@ -1,12 +1,12 @@
 ; SuicunePokedexEntry: ; 0x1d1642
-	db "AURORA@" ; species name
+	db "AURORE@" ; species name
 	dw 607, 4120 ; height, width
 
-	db   "This divine"
-	next "#MON blows"
-	next "around the world,"
-	page "always in search"
-	next "of a pure"
-	next "reservoir.@"
+	db   "Ce #MON divin"
+	next "file autour du"
+	next "monde, à la re-"
+	page "cherche d'un point"
+	next "d'eau pure."
+	next "@"
 ; 0x1d169c
 

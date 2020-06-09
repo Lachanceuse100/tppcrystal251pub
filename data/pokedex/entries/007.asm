@@ -1,12 +1,12 @@
 ; SquirtlePokedexEntry: ; 0x181926
-	db "TINYTURTLE@" ; species name
+	db "MINITORTUE@" ; species name
 	dw 108, 200 ; height, width
 
-	db   "When it feels"
-	next "threatened, it"
-	next "draws its legs"
-	page "inside its shell"
-	next "and sprays water"
-	next "from its mouth.@"
+	db   "S'il est menacé,"
+	next "il rétracte ses"
+	next "pattes dans sa"
+	page "carapace et crache"
+	next "de l'eau."
+	next "@"
 ; 0x181993
 

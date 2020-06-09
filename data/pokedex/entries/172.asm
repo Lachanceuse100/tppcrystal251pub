@@ -1,12 +1,12 @@
 ; PichuPokedexEntry: ; 0x1cd243
-	db "TINY MOUSE@" ; species name
+	db "MINISOURIS@" ; species name
 	dw 100, 40 ; height, width
 
-	db   "It is unskilled at"
-	next "storing electric"
-	next "power. Any kind of"
-	page "shock causes it to"
-	next "discharge energy"
-	next "spontaneously.@"
+	db   "Il ne sait pas"
+	next "encore stocker"
+	next "l'électricité. Il"
+	page "envoie des dé-"
+	next "charges souvent"
+	next "sans le vouloir.@"
 ; 0x1cd2bc
 

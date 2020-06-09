@@ -1,12 +1,12 @@
 ; MantinePokedexEntry: ; 0x1d0e25
-	db "KITE@" ; species name
+	db "CERVOLANT@" ; species name
 	dw 611, 4850 ; height, width
 
-	db   "It swims along"
-	next "freely, eating"
-	next "things that swim"
-	page "into its mouth."
-	next "Its whole body is"
-	next "very coarse.@"
+	db   "Il nage la bouche"
+	next "ouverte pour ava-"
+	next "ler tout et n'im-"
+	page "porte quoi."
+	next "Son corps est tr", $c6, "s"
+	next "granuleux.@"
 ; 0x1d0e8c
 

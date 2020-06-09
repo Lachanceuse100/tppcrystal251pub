@@ -1,12 +1,12 @@
 ; SnorlaxPokedexEntry: ; 0x1cc5cf
-	db "SLEEPING@" ; species name
+	db "PIONCEUR@" ; species name
 	dw 611, 10140 ; height, width
 
-	db   "This #MON's"
-	next "stomach is so"
-	next "strong, even"
-	page "eating moldy or"
-	next "rotten food will"
-	next "not affect it.@"
+	db   "L'estomac de ce"
+	next "#MON est si"
+	next "résistant qu'il"
+	page "peut meme digérer"
+	next "de la nourriture"
+	next "avariée.@"
 ; 0x1cc632
 

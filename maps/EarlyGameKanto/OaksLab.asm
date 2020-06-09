@@ -649,524 +649,538 @@ Movement_RivalTakesOneStepRight:
 	step_end
 
 _OaksLabGaryText1:
-	text "<GREEN>: Hey-ya,"
-	line "<PLAYER>! Ol' Pappy"
-	cont "ain't around!"
+	text "<GREEN>: Yo,"
+	line "<PLAYER>! Pépé"
+	cont "n'est pas là."
 	done
 
 _OaksLabText40:
-	text "<GREEN>: Meh, I"
-	line "don't need to be"
-	cont "in a rush like"
-	cont "you!"
+	text "<GREEN>: Bah, je"
+	line "suis pas pressé"
+	cont "comme toi!"
 
-	para "Go right ahead,"
-	line "and pick, <PLAYER>!"
+	para "Vas-y, choisis,"
+	line "<PLAYER>!"
 	done
 
 _OaksLabText41:
-	text "<GREEN>: This"
-	line "#MON I picked"
-	cont "looks a lot"
-	cont "stronger."
+	text "<GREEN>: Ce"
+	line "#MON a l'air"
+	cont "beaucoup plus"
+	cont "fort."
 	done
 
 _OaksLabGaryText1F:
-	text "<GREEN>: Oh, hello"
+	text "<GREEN>: Oh, salut"
 	line "<PLAYER>."
 
-	para "The professor's"
-	line "not around."
+	para "Le professeur"
+	line "n'est pas là."
 	done
 
 _OaksLabText40F:
-	text "<GREEN>: Oh, me?"
-	line "I'm not in a rush."
+	text "<GREEN>: Oh, moi?"
+	line "Je ne suis pas"
+	cont "pressée."
 
-	para "Go right ahead,"
-	line "<PLAYER>."
+	para "Vas-y, <PLAYER>."
 	done
 
 _OaksLabText41F:
-	text "<GREEN>: I wanted"
-	line "this #MON"
-	cont "anyway<...>"
+	text "<GREEN>: Je vou-"
+	line "lais ce #MON"
+	cont "de toute façon<...>"
 	done
 
 _OaksLabText39:
-	text "Those are #"
-	line "BALLs. They"
-	cont "contain #MON!"
+	text "Ce sont des #"
+	line "BALLs. Elles con-"
+	cont "tiennent des"
+	cont "#MON!"
 	done
 
 _OaksLabCharmanderText:
-	text "So! You want the"
-	line "fire #MON,"
-	cont "CHARMANDER?"
+	text "Tu veux le #MON"
+	line "de feu,"
+	cont "SALAMECHE?"
 	done
 
 _OaksLabSquirtleText:
-	text "So! You want the"
-	line "water #MON,"
-	cont "SQUIRTLE?"
+	text "Tu veux le #MON"
+	line "d'eau,"
+	cont "CARAPUCE?"
 	done
 
 _OaksLabBulbasaurText:
-	text "So! You want the"
-	line "plant #MON,"
-	cont "BULBASAUR?"
+	text "Tu veux le #MON"
+	line "plante,"
+	cont "BULBIZARRE?"
 	done
 
 _OaksLabMonEnergeticText:
-	text "This #MON is"
-	line "really energetic!"
+	text "Ce #MON est"
+	line "très énergique!"
 	done
 
 _OaksLabReceivedMonText:
-	text "<PLAYER> received"
-	line "a @"
+	text "<PLAYER> reçoit"
+	line "un @"
 	text_from_ram StringBuffer3
 	text "!"
 	done
 
 _OaksLabLastMonText:
-	text "That's PROF.OAK's"
-	line "last #MON!"
+	text "Le dernier #MON"
+	line "du PROF. CHEN!"
 	done
 
 _OaksLabText_1d2f0:
-	text "OAK: Now, <PLAYER>,"
-	line "which #MON do"
-	cont "you want?"
+	text "CHEN: <PLAYER>,"
+	line "quel #MON"
+	cont "veux-tu?"
 	done
 
 _OaksLabText_1d2f5:
-	text "OAK: If a wild"
-	line "#MON appears,"
-	cont "your #MON can"
-	cont "fight against it!"
+	text "CHEN: Si un #-"
+	line "MON sauvage appa-"
+
+	para "raît, ton #-"
+	line "MON pourra le"
+	cont "combattre!"
 	done
 
 _OaksLabText_1d2fa:
-	text "OAK: <PLAYER>,"
-	line "raise your young"
-	cont "#MON by making"
-	cont "it fight!"
+	text "CHEN: <PLAYER>,"
+	line "élève ton #MON"
+	cont "en le faisant"
+	cont "combattre!"
 	done
 
 _OaksLabDeliverParcelText1:
-	text "OAK: Oh, <PLAYER>!"
+	text "CHEN: Oh, <PLAYER>!"
 
-	para "How is my old"
+	para "Comment va mon"
 	line "#MON?"
 
-	para "Well, it seems to"
-	line "like you a lot."
+	para "Il a l'air de"
+	line "beaucoup t'aimer."
 
-	para "You must be"
-	line "talented as a"
-	cont "#MON trainer!"
+	para "Tu dois être un"
+	line "dresseur #MON"
+	cont "talentueux!"
 
-	para "What? You have"
-	line "something for me?"
+	para "Quoi? Tu as"
+	line "quelque chose"
+	cont "pour moi?"
 
-	para "<PLAYER> delivered"
-	line "OAK'S PARCEL."
+	para "<PLAYER> donne le"
+	line "COLIS DE CHEN."
 	done
 
 _OaksLabDeliverParcelText2:
-	text "Ah! This is the"
-	line "custom # BALL"
-	cont "I ordered!"
-	cont "Thank you!"
+	text "Ah! C'est la #-"
+	line "BALL personnalisée"
+	cont "que j'ai commandé!"
+	cont "Merci!"
 	done
 
 _OaksLabAroundWorldText:
-	text "#MON around the"
-	line "world wait for"
-	cont "you, <PLAYER>!"
+	text "Les #MON du"
+	line "monde entier t'at-"
+	cont "tendent, <PLAYER>!"
 	done
 
 _OaksLabGivePokeballsText1:
-	text "OAK: You can't get"
-	line "detailed data on"
-	cont "#MON by just"
-	cont "seeing them."
+	text "CHEN: Tu n'auras"
+	line "pas les détails du"
+	cont "#MON juste en"
+	cont "les observant."
 
-	para "You must catch"
-	line "them! Use these"
-	cont "to capture wild"
-	cont "#MON."
+	para "Tu dois les captu-"
+	line "rer! Utilise ceci"
+	cont "pour attraper les"
+	cont "#MON sauvages."
 
-	para "<PLAYER> received"
+	para "<PLAYER> reçoit 5"
 	line "# BALL!"
 	done
 
 _OaksLabGivePokeballsText2:
-	text "When a wild"
-	line "#MON appears,"
-	cont "it's fair game."
+	text "Lorsqu'un #MON"
+	line "sauvage apparaît,"
+	cont "tout est permis."
 
-	para "Just throw a #"
-	line "BALL at it and try"
-	cont "to catch it!"
+	para "Lancez une #-"
+	line "BALL et tentez de"
+	cont "l'attraper!"
 
-	para "This won't always"
-	line "work, though."
+	para "Mais ce n'est pas"
+	line "toujours garanti"
+	cont "de marcher."
 
-	para "A healthy #MON"
-	line "could escape. You"
-	cont "have to be lucky!"
+	para "Un #MON en"
+	line "bonne santé peut"
+	cont "s'échapper!"
 	done
 
 _OaksLabPleaseVisitText:
-	text "OAK: Come see me"
-	line "sometimes."
+	text "CHEN: Viens me"
+	line "voir parfois."
 
-	para "I want to know how"
-	line "your #DEX is"
-	cont "coming along."
+	para "J'aimerais savoir"
+	line "comment ton #-"
+	cont "DEX avance."
 	done
 
 _OaksLabText_1d31d:
-	text "OAK: Good to see "
-	line "you! How is your "
-	cont "#DEX coming? "
-	cont "Here, let me take"
-	cont "a look!"
+	text "CHEN: C'est bon de"
+	line "te voir!"
+	cont "Comment ton #-"
+	cont "DEX avance, je"
+	cont "peux voir?"
 	done
 
 _OaksLabText_1d32c:
-	text "It's encyclopedia-"
-	line "like, but the"
-	cont "pages are blank!"
+	text "On dirait une"
+	line "encyclopédie."
+
+	para "Mais les pages"
+	line "sont blanches!"
 	done
 
 _OaksLabText_1d340:
-	text "PROF.OAK is the"
-	line "authority on"
-	cont "#MON!"
+	text "Le PROF.CHEN est"
+	line "la plus haute"
+	cont "autorité #MON."
 
-	para "Many #MON"
-	line "trainers hold him"
-	cont "in high regard!"
+	para "Beaucoup de"
+	line "dresseurs #MON"
+	cont "le portent en"
+	cont "haute estime!"
 	done
 
 _OaksLabRivalWaitingText:
-	text "<GREEN>: Come"
-	line "on Pappy! I'm"
-	cont "tired of waiting!"
+	text "<GREEN>: Allez"
+	line "pépé! J'en ai"
+	cont "marre d'attendre!"
 	done
 
 _OaksLabRivalWaitingTextF:
-	text "<GREEN>: Oh,"
-	line "there you are!"
-	cont "Are we getting"
-	cont "#MON now?"
+	text "<GREEN>: Ah,"
+	line "te voilà!"
+	cont "On va avoir des"
+	cont "#MON alors?"
 	done
 
 _OaksLabChooseMonText:
-	text "OAK: <GREEN>?"
-	line "Let me think<...>"
+	text "CHEN: <GREEN>?"
+	line "<...>"
 
-	para "Oh, that's right,"
-	line "I told you to"
-	cont "come! Just wait!"
+	para "Ah c'est vrai,"
+	line "Je t'ai dis de"
+	cont "venir! Un instant!"
 
-	para "Here, <PLAYER>!"
+	para "Tiens, <PLAYER>!"
 
-	para "There are 3"
-	line "#MON here!"
+	para "Voici 3 #MON."
 
 	para "Haha!"
 
-	para "They are inside"
-	line "the # BALLs."
+	para "Ils sont dans les"
+	line "# BALLs."
 
-	para "When I was young,"
-	line "I was a serious"
-	cont "#MON trainer!"
+	para "Quand j'étais"
+	line "jeune, j'étais un"
+	cont "dresseur #MON"
+	cont "de choc!"
 
-	para "In my old age, I"
-	line "have only a few"
-	cont "left, but you can"
-	cont "have one! Choose!"
+	para "Mais à mon âge, ce"
+	line "sont les seuls qu'"
+	cont "il me reste. Mais"
+	cont "tu peux en avoir"
+	cont "un. Choisis!"
 	done
 
 _OaksLabRivalInterjectionText:
-	text "<GREEN>: Hey!"
-	line "Pop! What about"
-	cont "me?"
+	text "<GREEN>: Hé!"
+	line "Pépé! Et moi"
+	cont "alors?"
 	done
 
 _OaksLabRivalInterjectionTextF:
-	text "<GREEN>: Will"
-	line "I get my turn"
-	cont "after him?"
+	text "<GREEN>: Ce"
+	line "sera mon tour"
+	cont "après?"
 	done
 
 _OaksLabBePatientText:
-	text "OAK: Be patient!"
-	line "<GREEN>, you can"
-	cont "have one too!"
+	text "CHEN: Patience!"
+	line "<GREEN>, tu peux"
+	cont "en avoir un aussi!"
 	done
 
 _OaksLabLeavingText:
-	text "OAK: Hey! Don't go"
-	line "away yet!"
+	text "CHEN: Hé, ne t'en"
+	line "vas pas!"
 	done
 
 _OaksLabRivalPickingMonText:
-	text "<GREEN>: I'll be"
-	line "taking this one,"
-	cont "then!"
+	text "<GREEN>: Je vais"
+	line "prendre celui-là,"
+	cont "alors!"
 	done
 
 _OaksLabRivalPickingMonTextF:
-	text "<GREEN>: Then"
-	line "I will just take"
-	cont "this one<...>"
+	text "<GREEN>: Bon,"
+	line "je vais juste"
+	cont "prendre celui-là<...>"
 	done
 
 _OaksLabRivalReceivedMonText:
-	text "<GREEN> received"
-	line "a @"
+	text "<GREEN> reçois"
+	line "@"
 	text_from_ram StringBuffer4
 	text "!"
 	done
 
 _OaksLabRivalChallengeText:
-	text "<GREEN>: Hey!"
+	text "<GREEN>: Hé!"
 	line "<PLAYER>!"
 
-	para "Let's duke it"
-	line "out with our"
-	cont "#MON!"
+	para "Faisons combattre"
+	line "nos #MON."
 
-	para "Bring it on!"
+	para "Amène toi!"
 	done
 
 _OaksLabText_1d3be:
-	text "HUH!?"
-	line "How'd I lose?"
+	text "HEIN!?"
+	line "J'ai perdu?"
 	done
 
 _OaksLabText_1d3c3:
-	text "<GREEN>: Aw yeah!"
-	line "Am I good or what?"
+	text "<GREEN>: Ouaiiis!"
+	line "Je suis trop fort"
+	cont "ou quoi?"
 	done
 
 _OaksLabRivalToughenUpText:
-	text "<GREEN>: Well,"
-	line "I'm gonna make"
-	cont "my #MON"
-	cont "tougher from"
-	cont "now on!"
+	text "<GREEN>: Bon,"
+	line "Je vais renforcer"
+	cont "mon #MON dès"
+	cont "maintenant."
 
-	para "<PLAYER>! Pops!"
-	line "See ya later!"
+	para "<PLAYER>! Pépé!"
+	line "A plus!"
 	done
 
 _OaksLabRivalChallengeTextF:
-	text "<GREEN>: Wait"
-	line "a minute,"
+	text "<GREEN>: Attends"
+	line "une minute,"
 	cont "<PLAYER>!"
 
-	para "Let's try battling"
-	line "our #MON"
+	para "Essayons un combat"
+	line "#MON comme on"
 
-	para "like we always"
-	line "wanted!"
+	para "l'a toujours"
+	line "voulu!"
 
-	para "Alright! Here I"
-	line "come!"
+	para "Très bien!"
+	line "Me voilà!"
 	done
 
 _OaksLabText_1d3beF:
-	text "Oh my<...>"
-	line "It looks like"
-	cont "I have more to"
-	cont "learn about this."
+	text "Waouh<...>"
+	line "J'ai encore"
+	cont "beaucoup à"
+	cont "apprendre."
 	done
 
 _OaksLabText_1d3c3F:
-	text "<GREEN>: Oh, um<...>"
-	line "Should I have gone"
-	cont "easier on you?"
+	text "<GREEN>: Oh, hum<...>"
+	line "Aurais-je du y"
+	cont "aller moins fort?"
 	done
 
 _OaksLabRivalToughenUpTextF:
-	text "<GREEN>: Okay!"
-	line "I'll work hard"
-	cont "to raise my"
-	cont "#MON with love"
-	cont "and care!"
+	text "<GREEN>: OK!"
+	line "Je travaillerais"
+	cont "dur pour élever"
+	cont "mon #MON avec"
+	cont "soin et amour!"
 
 	para "<PLAYER>! Profes-"
-	line "sor!"
-	cont "See you later!"
+	line "seur!"
+	cont "A plus tard!"
 	done
 
 _OaksLabText21:
-	text "<GREEN>: Pops!"
+	text "<GREEN>: Pépé!"
 	done
 
 _OaksLabText22:
-	text "<GREEN>: What did"
-	line "you call me for?"
+	text "<GREEN>: Pourquoi"
+	line "tu m'as appelé?"
 	done
 
 _OaksLabText21F:
-	text "<GREEN>: Hey<...>!"
+	text "<GREEN>:"
+	line "Professeur!"
 	done
 
 _OaksLabText22F:
-	text "<GREEN>: You"
-	line "called for me?"
+	text "<GREEN>: Vous"
+	line "m'avez appelé?"
 	done
 
 _OaksLabText23:
-	text "OAK: Oh right! I"
-	line "have a request"
-	cont "of you two."
+	text "CHEN: Ah oui! J'ai"
+	line "une requête pour"
+	cont "vous deux."
 	done
 
 _OaksLabText24:
-	text "On the desk there"
-	line "is my invention,"
-	cont "#DEX!"
+	text "Sur mon bureau se"
+	line "trouve mon inven-"
+	cont "tion, le #DEX!"
 
-	para "It automatically"
-	line "records data on"
-	cont "#MON you've"
-	cont "seen or caught!"
+	para "Il enregistre les"
+	line "données des"
+	cont "#MON vus ou"
+	cont "capturés."
 
-	para "It's a hi-tech"
-	line "encyclopedia!"
+	para "C'est une encyclo-"
+	line "pédie hi-tech!"
 	done
 
 _OaksLabText25:
-	text "OAK: <PLAYER> and"
-	line "<GREEN>! Take"
-	cont "these with you!"
+	text "CHEN: <PLAYER> et"
+	line "<GREEN>! Prenez"
+	cont "les avec vous."
 
-	para "<PLAYER> got"
-	line "#DEX from OAK!"
+	para "<PLAYER> reçoit"
+	line "#DEX de CHEN."
 	done
 
 _OaksLabText26:
-	text "To make a complete"
-	line "guide on all the"
-	cont "#MON in the"
-	cont "world<...>"
+	text "Faire un guide"
+	line "sur tous les"
+	cont "#MON du monde<...>"
 
-	para "That was my dream!"
+	para "C'était mon rêve!"
 
-	para "But, I'm too old!"
-	line "I can't do it!"
+	para "Mais je suis trop"
+	line "vieux, je ne peux"
+	cont "plus le faire<...>"
 
-	para "So, I want you two"
-	line "to fulfill my"
-	cont "dream for me!"
+	para "Alors je voudrais"
+	line "que vous rempli-"
+	cont "ssiez ce rêve pour"
+	cont "moi. Allez,"
+	cont "roulez jeunesse!"
 
-	para "Get moving, you"
-	line "two!"
-
-	para "This is a great"
-	line "undertaking in"
-	cont "#MON history!"
+	para "Votre grande"
+	line "aventure #MON"
+	cont "commence!"
 	done
 
 _OaksLabText27:
-	text "<GREEN>: Alright"
-	line "Pappy! Leave the"
-	cont "catching to me!"
+	text "<GREEN>: D'accord"
+	line "Pépé! Laisse"
+	cont "moi faire!"
 
-	para "<PLAYER>, I hate"
-	line "saying this, but I"
+	para "<PLAYER>, Ca me"
+	line "plaît pas mais je"
 
-	para "don't need your"
-	line "help here!"
+	para "n'ai pas besoin"
+	line "de ton aide."
 
-	para "Heh, I know! I'll"
-	line "borrow a MAP CARD"
-	cont "from my sis!"
+	para "Héhé, Je sais! Je"
+	line "vais emprunter une"
+	cont "CARTE à ma soeur."
 
-	para "I'll ask her not"
-	line "to give you one,"
-	cont "<PLAYER>! Haha!"
+	para "Je lui dirais de"
+	line "ne pas t'en donner"
+	cont "une <PLAYER>!"
+	cont "Haha!"
 	done
 
 _OaksLabText27F:
-	text "<GREEN>: Okay,"
-	line "this sounds like"
-	cont "fun."
+	text "<GREEN>: OK,"
+	line "ça à l'air"
+	cont "amusant."
 
-	para "Oh, I know!"
-	line "<PLAYER>, I'll"
-	cont "race you to"
-	cont "completing one!"
+	para "Oh, je sais!"
+	line "<PLAYER>, on a"
+	cont "qu'à faire la"
+	cont "course pour le"
+	cont "compléter!"
 
-	para "I don't want"
-	line "things to be"
-	cont "unfair for you<...>"
+	para "Je ne veux pas"
+	line "te désavantager<...>"
 
-	para "<...>so I'll ask my"
-	line "sister to lend you"
-	cont "a MAP CARD."
+	para "<...>donc je vais"
+	line "dire à ma soeur de"
+	cont "te prêter une"
+	cont "CARTE."
 
-	para "I'll be seeing"
-	line "you!"
+	para "On se revoit"
+	line "plus tard!"
 	done
 
 _OaksLabText_1d405:
-	text "I study #MON as"
-	line "PROF.OAK's AIDE."
+	text "J'étudie les #-"
+	line "MON sous la"
+	cont "tutelle du PROF."
+	cont "CHEN!"
 	done
 
 _OakLabEmailText:
-	text "There's an e-mail"
-	line "message here!"
+	text "Il y a un e-mail"
+	line "à l'écran!"
 
 	para "<...>"
 
-	para "Calling all"
-	line "#MON trainers!"
+	para "Appel à tous les"
+	line "dresseurs #MON!"
 
-	para "The elite trainers"
-	line "of #MON LEAGUE"
-	cont "are ready to take"
-	cont "on all comers!"
+	para "Le CONSEIL des 4"
+	line "est prêt à défier"
+	cont "tout concurrent!"
 
-	para "Bring your best"
-	line "#MON and see"
-	cont "how you rate as a"
-	cont "trainer!"
+	para "Présentez vos"
+	line "meilleurs #MON"
+	cont "et découvez votre"
+	cont "niveau en tant que"
+	cont "dresseur!"
 
-	para "#MON LEAGUE HQ"
-	line "INDIGO PLATEAU"
+	para "QG LIGUE #MON,"
+	line "PLATEAU INDIGO"
 
-	para "PS: PROF.OAK,"
-	line "please visit us!"
-	cont "<...>"
+	para "PS: PROF. CHEN,"
+	line "votre visite est"
+	cont "attendue<...>"
 	done
 
 _PushStartText:
-	text "Push START to"
-	line "open the MENU!"
+	text "Appuie sur START"
+	line "pour ouvrir le"
+	cont "MENU!"
 	done
 
 _SaveOptionText:
-	text "The SAVE option is"
-	line "on the MENU"
-	cont "screen."
+	text "L'option pour"
+	line "sauvegarder est"
+	cont "dans le MENU!"
 	done
 
 _StrengthsAndWeaknessesText:
-	text "All #MON types"
-	line "have strong and"
-	para "weak points"
-	line "against others."
+	text "Tous les types de"
+	line "#MON ont des"
+
+	para "points forts et"
+	line "points faibles"
+	cont "face aux autres."
 	done
 
 

@@ -56,24 +56,23 @@ VictoryRoadGateRB_PlayerStepsDown:
 	step_end
 
 _Route22GateText_1e704:
-	text "Only truly skilled"
-	line "trainers are"
-	cont "allowed through."
+	text "Seuls les dre-"
+	line "sseurs de talent"
+	cont "peuvent passer."
 
-	para "You don't have the"
-	line "BOULDERBADGE yet!"
+	para "Tu n'as pas encore"
+	line "le BADGE ROCHE!"
 	done
 
 _Route22GateText_1e715:
-	text "The rules are"
-	line "rules. I can't"
-	cont "let you pass."
+	text "Les règles sont"
+	line "les règles. Tu ne"
+	cont "peux pas passer."
 	done
 
 _Route22GateText_1e71a:
-	text "Oh! That is the"
-	line "BOULDERBADGE!"
-	cont "Go right ahead!"
+	text "Oh! Le BADGEROCHE"
+	line "Allez-y!"
 	done
 
 VictoryRoadGateRB_MapEventHeader: ; 0x9bb9b

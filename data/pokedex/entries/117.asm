@@ -2,11 +2,11 @@
 	db "DRAGON@" ; species name
 	dw 311, 550 ; height, width
 
-	db   "The male raises"
-	next "the young. If it"
-	next "is approached, it"
-	page "uses its toxic"
-	next "spikes to fend off"
-	next "the intruder.@"
+	db   "Le male éleve son"
+	next "petit. S'il est"
+	next "approché, il lance"
+	page "ses pics empoison-"
+	next "nés pour repousser"
+	next "l'ennemi.@"
 ; 0x1b9626
 

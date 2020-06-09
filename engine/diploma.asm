@@ -39,17 +39,17 @@ Function1dd709: ; 1dd709
 ; 1dd760
 
 String_1dd760:
-	db "PLAYER@"
+	db "JOUEUR@"
 
 String_1dd767:
 	db "@"
 
 String_1dd768:
-	db   "This certifies"
-	next "that you have"
-	next "completed the"
-	next "new #DEX."
-	next "Congratulations!"
+	db   "Ceci certifie"
+	next "que votre nou-"
+	next "veau #DEX"
+	next "est complet."
+	next "Félicitations!!!"
 	db   "@"
 ; 1dd7ae
 
@@ -80,7 +80,7 @@ Function1dd7ae: ; 1dd7ae
 	ret
 ; 1dd7f0
 
-String_1dd7f0: db "PLAY TIME@"
+String_1dd7f0: db "TEMPS JEU@"
 String_1dd7fa: db "GAME FREAK@"
 ; 1dd805
 

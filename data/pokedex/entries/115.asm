@@ -1,12 +1,12 @@
 ; KangaskhanPokedexEntry: ; 0x1b94f6
-	db "PARENT@" ; species name
+	db "MATERNEL@" ; species name
 	dw 703, 1760 ; height, width
 
-	db   "To avoid"
-	next "crushing the"
-	next "baby it carries in"
-	page "its pouch, it"
-	next "always sleeps"
-	next "standing up.@"
+	db   "Pour ne pas écra-"
+	next "ser le petit qu'il"
+	next "transpore,"
+	page "il dort toujours"
+	next "debout."
+	next "@"
 ; 0x1b9553
 

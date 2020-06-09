@@ -1,12 +1,12 @@
 ; GoldeenPokedexEntry: ; 0x1b9626
-	db "GOLDFISH@" ; species name
+	db "POISSON@" ; species name
 	dw 200, 330 ; height, width
 
-	db   "During spawning"
-	next "season, they swim"
-	next "gracefully in the"
-	page "water, searching"
-	next "for their perfect"
-	next "mate.@"
+	db   "Pendant la saison"
+	next "des amours, il"
+	next "nage avec grace et"
+	page "cherche le parte-"
+	next "naire idéal."
+	next "@"
 ; 0x1b9690
 

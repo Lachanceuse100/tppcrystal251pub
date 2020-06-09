@@ -1,12 +1,12 @@
 ; TyphlosionPokedexEntry: ; 0x1ccba0
-	db "VOLCANO@" ; species name
+	db "VOLCAN@" ; species name
 	dw 507, 1750 ; height, width
 
-	db   "When heat from its"
-	next "body causes the"
-	next "air around it to"
-	page "shimmer, this is a"
-	next "sign that it is"
-	next "ready to battle.@"
+	db   "Quand la chaleur"
+	next "de son corps fait"
+	next "miroiter l'air,"
+	page "c'est qu'il est"
+	next "pret à combattre."
+	next "@"
 ; 0x1ccc14
 

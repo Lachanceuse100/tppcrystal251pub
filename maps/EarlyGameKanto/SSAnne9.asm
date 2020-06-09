@@ -81,114 +81,118 @@ SSAnne9PokefanFScript:
 	jumptextfaceplayer _SSAnne9Text_61c4c
 
 _SSAnne9Text_61bf2:
-	text "In all my travels"
-	line "I've never seen"
-	cont "any #MON sleep"
-	cont "like this one!"
+	text "De tout mes"
+	line "voyages, je n'ai"
+	cont "jamais vu un"
+	cont "#MON comme"
+	cont "celui-là."
 
-	para "It was something"
-	line "like this!"
+	para "Il ressemblait"
+	line "à ça!"
 	done
 
 _SSAnne9Text_61c01:
-	text "Ah yes, I have"
-	line "seen some #MON"
-	cont "ferry people"
-	cont "across the water!"
+	text "Oui!, j'ai vu des"
+	line "gens transporter"
+	cont "des #MON par-"
+	cont "delà les eaux!"
 	done
 
 _SSAnne9Text_61c10:
-	text "#MON can CUT"
-	line "down small bushes."
+	text "Les #MON"
+	line "peuvent couper des"
+	cont "petits buissons."
 	done
 
 _SSAnne9Text_61c1f:
-	text "Have you gone to"
-	line "the SAFARI ZONE"
-	cont "in FUCHSIA CITY?"
+	text "Tu es allé au"
+	line "PARC SAFARI de"
+	cont "PARMANIE?"
 
-	para "It had many rare"
-	line "kinds of #MON!!"
+	para "Il y a plein de"
+	line "#MON rares!!"
 	done
 
 _SSAnne9Text_61c2e:
-	text "Me and my Daddy"
-	line "think the SAFARI"
-	cont "ZONE is awesome!"
+	text "Moi et mon papa,"
+	line "on pense que le"
+	cont "PARC SAFARI est"
+	cont "génial!"
 	done
 
 _SSAnne9Text_61c3d:
-	text "The CAPTAIN looked"
-	line "really sick and"
-	cont "pale!"
+	text "Le CAPITAINE a"
+	line "l'air tout pâlot."
 	done
 
 _SSAnne9Text_61c4c:
-	text "I hear many people"
-	line "get seasick!"
+	text "Il y a plein de"
+	line "gens qui ont le"
+	cont "mal de mer!"
 	done
 
 _SSAnne9BattleText1:
-	text "Competing against"
-	line "the young keeps"
-	cont "me youthful."
+	text "Ces compétitions"
+	line "face aux jeunes me"
+	cont "rajeunis."
 	done
 
 _SSAnne9EndBattleText1:
-	text "Good fight!"
-	line "Ah, I feel"
-	cont "young again!"
+	text "Beau combat!"
+	line "Je me sens"
+	cont "rajeunir!"
 	done
 
 _SSAnne9AfterBattleText1:
-	text "15 years ago, I"
-	line "would have won!"
+	text "Il y a 15 ans,"
+	line "j'aurais gagné!"
 	done
 
 _SSAnne9BattleText2:
-	text "Check out what I"
-	line "fished up!"
+	text "Regarde ce que"
+	line "j'ai pêché!"
 	done
 
 _SSAnne9EndBattleText2:
-	text "I'm all out!"
+	text "Je suis fait!"
 	done
 
 _SSAnne9AfterBattleText2:
-	text "Party?"
+	text "Une fête?"
 
-	para "The cruise ship's"
-	line "party should be"
-	cont "over by now."
+	para "La fête devrait"
+	line "déjà être"
+	cont "terminée.."
 	done
 
 _SSAnne9BattleText3:
-	text "Which do you like,"
-	line "a strong or a"
-	cont "rare #MON?"
+	text "Tu préfères quoi?"
+	line "Un #MON fort"
+	cont "ou rare?"
 	done
 
 _SSAnne9EndBattleText3:
-	text "I must salute you!"
+	text "Tu es très fort!"
 	done
 
 _SSAnne9AfterBattleText3:
-	text "I prefer strong"
-	line "and rare #MON."
+	text "Je préfère les"
+	line "#MON forts et"
+	cont "rares."
 	done
 
 _SSAnne9BattleText4:
-	text "I never saw you"
-	line "at the party."
+	text "Je ne t'ai pas vu"
+	line "à la fête."
 	done
 
 _SSAnne9EndBattleText4:
-	text "Take it easy!"
+	text "T'énèrves pas!"
 	done
 
 _SSAnne9AfterBattleText4:
-	text "Oh, I adore your"
-	line "strong #MON!"
+	text "Oh, j'adore ton"
+	line "#MON fort!"
 	done
 
 

@@ -151,141 +151,139 @@ SSAnne7_GiovanniRunsUpToCaptain:
 	step_end
 
 _SSAnne7RubText:
-	text "CAPTAIN: Ooargh<...>"
-	line "I feel hideous<...>"
-	cont "Urrp! Seasick<...>"
+	text "CAPITAINE: Beuuuh<...>"
+	line "Je suis malade<...>"
+	cont "Urrp! Mal de mer<...>"
 
-	para "<PLAYER> rubbed"
-	line "the CAPTAIN's"
-	cont "back!"
+	para "<PLAYER> masse"
+	line "le dos du"
+	cont "CAPITAINE!"
 
-	para "Rub-rub<...>"
-	line "Rub-rub<...>"
+	para "Scratch<...>"
+	line "Scratch<...>"
 	done
 
 _NotReceivingHM01Text:
-	text "CAPTAIN: Whew!"
-	line "Thank you! I"
-	cont "feel much better!"
+	text "CAPITAINE: Woaw!"
+	line "Merci! Je me sens"
+	cont "tellement mieux!"
 
-	para "You want to see"
-	line "my CUT technique?"
+	para "Tu veux voir ma"
+	line "technique COUPE?"
 
-	para "I could show you"
-	line "if I wasn't ill<...>"
+	para "Je voudrais bien"
+	line "si j'étais pas"
+	cont "malade<...>"
 
-	para "I know! Let me"
-	line "heal your #MON."
+	para "Je sais! Laisse"
+	line "moi soigner tes"
+	cont "#MON."
 
-	para "It's the least I"
-	line "can do to thank"
-	cont "you for healing"
-	cont "me."
+	para "C'est le moins que"
+	line "je puisse faire"
+	cont "pour m'avoir aidé!"
 	done
 
 _SSAnne7Text_61932:
-	text "CAPTAIN: Whew!"
+	text "CAPITAINE: Waouw!"
 
-	para "Now that I'm not"
-	line "sick any more, I"
-	cont "guess it's time."
+	para "Maintenant que je"
+	line "vais mieux, c'est"
+	cont "l'heure!"
 	done
 
 SSAnne7Text_CaptainSetsSail1:
-	text "All set for depar-"
-	line "ture?"
+	text "Prêt à partir?"
 	done
 
 SSAnne7Text_CaptainSetsSail2:
-	text "PA: Aye-aye, cap-"
-	line "tain!"
+	text "ANNONCE: Aye-aye"
+	line "capitaine!"
 	done
 
 SSAnne7Text_CaptainSetsSail3:
-	text "Then let's get out"
-	line "to sea, lads!"
+	text "Alors en mer!"
 	done
 
 SSAnne7Text_CaptainSetsSail4:
-	text "And we're off!"
+	text "Et c'est parti!"
 
 	para $56, " ", $56, " ", $56
-	line $56, " ", $56, "Huh?"
+	line $56, " ", $56, "Hein?"
 
-	para "You wanted to get"
-	line "off in VERMILION?"
+	para "Tu voulais sortir"
+	line "à CARMIN SUR MER?"
 
-	para "Oh, this is un-"
-	line "usual<...>"
+	para "C'est inhabituel<...>"
 
-	para "If we go back now,"
-	line "other passengers"
-	cont "will be upset."
+	para "Si on fait demi-"
+	line "tour, les autres"
+	cont "passagers vont"
+	cont "râler."
 
-	para "It'll be another"
-	line "year before we"
-	cont "can return."
+	para "Il nous faudra une"
+	line "année avant de"
+	cont "revenir."
 
-	para "Our next port of"
-	line "call is OLIVINE"
-	cont "CITY in around"
-	cont "a week's time."
+	para "Nous amarrerons"
+	line "à OLIVILLE dans"
+	cont "une semaine."
 
-	para "If you get off in"
-	line "OLIVINE, we can"
-	cont "arrange FAST SHIP"
-	cont "passage back to"
-	cont "VERMILION CITY."
+	para "On pourras t'y"
+	line "arranger un BATEAU"
+	cont "RAPIDE pour"
+	cont "retourner à"
+	cont "CARMIN SUR MER."
 
-	para "Meanwhile, you're"
-	line "welcome to enjoy"
-	cont "our onboard"
-	cont "luxury services."
+	para "En attendant,"
+	line "profites donc de"
+	cont "nos services de"
+	cont "luxe."
 
-	para "According to your"
+	para "D'après ton"
 	line "ticket<...>"
 
-	para "Your cabin is on"
-	line "the lower deck."
+	para "Ta cabine est au"
+	line "niveau en dessous."
 
-	para "Feel free to rest"
-	line "up there."
+	para "Sens-toi libre de"
+	line "t'y reposer."
 	done
 
 SSAnne7Text_CaptainSetsSail5:
 	text "Ah, <PLAYER>!"
 
-	para "Are you enjoying"
-	line "your stay aboard"
-	cont "the S.S.ANNE?"
+	para "Tu apprécies ton"
+	line "séjour à l'OCEANE?"
 	done
 
 SSAnne7Text_RocketsText:
-	text "Not another word,"
-	line "CAPTAIN."
-	cont "This is a mutiny."
+	text "Pas un mot de"
+	line "plus, CAPITAINE."
+	
+	para "Ceci est une"
+	line "mutinerie!"
 
-	para "Come quietly, or"
-	line "you will expe-"
-	cont "rience a world of"
-	cont "pain."
+	para "Restez calme ou"
+	line "vous connaîtrez un"
+	cont "monde de douleur!"
 	done
 
 SSAnne7Text_CaptainConfused:
-	text "Wh-what's this"
-	line "about? Mutiny?!"
+	text "Q-Quoi? Comment"
+	line "ça une mutinerie?"
 	done
 
 _SSAnne7Text2:
-	text "Yuck! Shouldn't"
-	line "have looked!"
+	text "Beurk! Je n'aurais"
+	line "pas du regarder!"
 	done
 
 _SSAnne7Text3:
-	text "How to Conquer"
-	line "Seasickness<...>"
-	para "The CAPTAIN's"
-	line "reading this!"
+	text "Conquérir le"
+	line "mal de mer<...>"
+	para "Le CAPITAINE"
+	line "lisait ça!"
 	done
 
 SSAnne7_MapEventHeader:

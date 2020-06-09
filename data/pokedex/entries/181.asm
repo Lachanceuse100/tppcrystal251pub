@@ -1,12 +1,12 @@
 ; AmpharosPokedexEntry: ; 0x1cd626
-	db "LIGHT@" ; species name
+	db "LUMIERE@" ; species name
 	dw 407, 1360 ; height, width
 
-	db   "When it gets dark,"
-	next "the light from its"
-	next "bright, shiny tail"
-	page "can be seen from"
-	next "far away on the"
-	next "ocean's surface.@"
+	db   "Le bout de sa"
+	next "queue brille si"
+	next "fort qu'il peut"
+	page "être vu de tr", $c6, "s"
+	next "loin sur la surfa-"
+	next "ce de l'eau.@@"
 ; 0x1cd69a
 

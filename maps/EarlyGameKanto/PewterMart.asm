@@ -22,21 +22,22 @@ PewterMartRBSuperNerdScript: ; 0x1a2dd5
 ; 0x1a2dd8
 
 _PewterMartText_74cc6:
-	text "A shady, old man"
-	line "got me to buy"
-	cont "this really weird"
-	cont "fish #MON!"
+	text "Un monsieur"
+	line "bizarre m'a fait"
+	cont "acheter ce #MON"
+	cont "poisson!"
 
-	para "It's totally weak"
-	line "and it cost ¥500!"
+	para "Il est trop nul"
+	line "et m'a coûté ¥500!"
 	done
 
 _PewterMartText_74cd5:
-	text "Good things can"
-	line "happen if you"
-	cont "raise #MON"
-	cont "diligently, even"
-	cont "the weak ones!"
+	text "Si tu élèves bien"
+	line "tes #MON, même"
+	cont "les plus faibles,"
+	cont "Il ne se passera"
+	cont "que des bonnes"
+	cont "choses!"
 	done
 
 

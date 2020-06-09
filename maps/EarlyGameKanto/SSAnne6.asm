@@ -67,79 +67,83 @@ SSAnne6CookingUpTroubleScript:
 	jumptextfaceplayer _SSAnne6Text_CookingUpTrouble
 
 _SSAnne6Text1:
-	text "You, mon petit!"
-	line "We're busy here!"
-	cont "Out of the way!"
+	text "Toi, mon chou!"
+	line "On est occupé là!"
+	cont "Hors du chemin!"
 	done
 
 _SSAnne6Text2:
-	text "I saw an odd ball"
-	line "in the trash."
+	text "J'ai vu une BALL"
+	line "bizarre dans la"
+	cont "poubelle."
 	done
 
 _SSAnne6Text3:
-	text "I'm so busy I'm"
-	line "getting dizzy!"
+	text "Je suis tellement"
+	line "occupé, je me sens"
+	cont "pas bien."
 	done
 
 _SSAnne6Text4:
-	text "Hum-de-hum-de-"
-	line "ho<...>"
+	text "Dum-di-doo<...>"
 
-	para "I peel spuds"
-	line "every day!"
+	para "Je pêle des"
+	line "patates!"
 	cont "Hum-hum<...>"
 	done
 
 _SSAnne6Text5:
-	text "Did you hear about"
-	line "SNORLAX?"
+	text "Tu as entendu"
+	line "parler de RONFLEX?"
 
-	para "All it does is"
-	line "eat and sleep!"
+	para "Tout ce qu'il fait"
+	line "c'est manger et"
+	cont "dormir!"
 	done
 
 _SSAnne6Text6:
-	text "Snivel<...> Sniff<...>"
+	text "Sniff<...>"
 
-	para "I only get to"
-	line "peel onions<...>"
-	cont "Snivel<...>"
+	para "Y'a que moi qui"
+	line "pêle les oignons<...>"
+	cont "pleurniche<...>"
 	done
 
 _SSAnne6Text_61807:
-	text "Er-hem! Indeed I"
-	line "am le CHEF!"
+	text "Ar-hem! Oui, c'est"
+	line "bien moi le CHEF!"
 
-	para "Le main course is"
+	para "Le plat du jour"
+	line "est:"
 	done
 
 _SSAnne6Text_6180c:
-	text "Salmon du Salad!"
+	text "Salade au saumon!"
 
-	para "Les guests may"
-	line "gripe it's fish"
-	cont "again, however!"
+	para "Les invités vont"
+	line "encore râler que"
+	cont "c'est du poisson<...>"
 	done
 
 _SSAnne6Text_61811:
-	text "Eels au Barbecue!"
+	text "Anguilles au"
+	line "barbecue"
 
-	para "Les guests will"
-	line "mutiny, I fear."
+	para "Ca sent la"
+	line "mutinerie<...>"
 	done
 
 _SSAnne6Text_61816:
-	text "Prime Beef Steak!"
+	text "Steak de boeuf!"
 
-	para "But, have I enough"
-	line "fillets du beef?"
+	para "Mais en aurais-je"
+	line "suffisament?"
 	done
 
 _SSAnne6Text_CookingUpTrouble:
-	text "Les men in noir"
-	line "are cooking up"
-	cont "trouble!"
+	text "Les hommes en noir"
+	line "cuisinent quelque"
+	cont "chose de mauvais!"
 	done
 
 SSAnne6TrashcanIfSet:

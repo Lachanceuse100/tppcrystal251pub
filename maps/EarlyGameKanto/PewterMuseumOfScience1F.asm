@@ -137,119 +137,120 @@ PewterMuseumOfScience1FKabutopsFossilScript:
 	end
 
 _Museum1FText_5c21a:
-	text "Come again!"
+	text "A bientôt!"
 	done
 
 _Museum1FText_5c21f:
-	text "It's ¥50 for a"
-	line "child's ticket."
+	text "C'est ¥50 pour"
+	line "un enfant."
 
-	para "Would you like to"
-	line "come in?"
+	para "Voulez-vous"
+	line "entrer?"
 	done
 
 _Museum1FText_5c224:
-	text "Right, ¥50!"
-	line "Thank you!"
+	text "¥50, c'est bon."
+	line "Merci!"
 	done
 
 _Museum1FText_5c229:
-	text "You don't have"
-	line "enough money."
+	text "Tu n'as pas"
+	line "assez d'argent."
 	done
 
 _Museum1FText_5c22e:
-	text "You can't sneak"
-	line "in the back way!"
+	text "Hé! Tu ne peux pas"
+	line "rentre par<...>"
 
-	para "Oh, whatever!"
-	line "Do you know what"
-	cont "AMBER is?"
+	para "Oh, peu importe<...>"
+	line "Tu sais ce qu'est"
+	cont "une AMBRE?"
 	done
 
 _Museum1FText_5c233:
-	text "There's a lab"
-	line "somewhere trying"
-	cont "to resurrect"
-	cont "ancient #MON"
-	cont "from AMBER."
+	text "Il y a un labo"
+	line "qui essaie de"
+	cont "réssusciter un"
+	cont "#MON antique"
+	cont "de l'AMBRE."
 	done
 
 _Museum1FText_5c238:
-	text "AMBER is fossil-"
-	line "ized tree sap."
+	text "L'AMBRE est"
+	line "fossilisé."
 	done
 
 _Museum1FText_5c23d:
-	text "Please go to the"
-	line "other side!"
+	text "Retourne de"
+	line "l'autre côté!"
 	done
 
 _Museum1FText_5c242:
-	text "Take plenty of"
-	line "time to look!"
+	text "Prends ton temps"
+	line "pour visiter!"
 	done
 
 _Museum1FText_5c251:
-	text "That is one"
-	line "magnificent"
-	cont "fossil!"
+	text "Quel fossile"
+	line "magnifique!"
 	done
 
 _Museum1FText_5c28e:
-	text "Ssh! I think that"
-	line "this chunk of"
-	cont "AMBER contains"
-	cont "#MON DNA!"
+	text "Chut! Je crois que"
+	line "ce morceau d'AMBRE"
+	cont "contient de l'ADN"
+	cont "de #MON!"
 
-	para "It would be great"
-	line "if #MON could"
-	cont "be resurrected"
+	para "On pourrait"
+	line "réssusciter un"
+	cont "#MON avec ça"
 	cont "from it!"
 
-	para "But, my colleagues"
-	line "just ignore me!"
+	para "Mais mes collègues"
+	line "m'ignorent!"
 
-	para "So I have a favor"
-	line "to ask!"
+	para "J'ai une faveur à"
+	line "te demander!"
 
-	para "Take this to a"
-	line "#MON LAB and"
-	cont "get it examined!"
+	para "Prends ça et fait"
+	line "le examiner dans"
+	cont "un LABO #MON"
 	done
 
 _Museum1FText_5c299:
-	text "Ssh! Get the OLD"
-	line "AMBER checked!"
+	text "Chut! va faire"
+	line "vérifier ce VIEIL"
+	cont "AMBRE!"
 	done
 
 _Museum1FText_5c29e:
-	text "You don't have"
-	line "space for this!"
+	text "Tu n'as pas de"
+	line "place pour ça!"
 	done
 
 _Museum1FText_5c2ad:
-	text "We are proud of 2"
-	line "fossils of very"
-	cont "rare, prehistoric"
-	cont "#MON!"
+	text "Nous sommes fières"
+	line "de nos fossiles de"
+	cont "#MON rares et pré-"
+	cont "historiques!"
 	done
 
 _Museum1FText_5c2bc:
-	text "The AMBER is"
-	line "clear and gold!"
+	text "Cet AMBRE est"
+	line "clair et doré!"
 	done
 
 _AerodactylFossilText:
-	text "AERODACTYL Fossil"
-	line "A primitive and"
-	cont "rare #MON."
+	text "Fossile de PTERA."
+	line "Un #MON rare et"
+	cont "primitif."
 	done
 
 _KabutopsFossilText:
-	text "KABUTOPS Fossil"
-	line "A primitive and"
-	cont "rare #MON."
+	text "Fossile de"
+	line "KAUBTOPS."
+	para "Un #MON rare et"
+	line "primitif."
 	done
 
 

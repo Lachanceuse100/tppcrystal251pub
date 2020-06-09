@@ -13,23 +13,25 @@ ViridianForestNorthRB_GrampsScript:
 	jumptextfaceplayer _ViridianForestExitText2
 
 _ViridianForestExitText1: ; 8a6fd (22:66fd)
-	text "Many #MON live"
-	line "only in forests "
-	cont "and caves."
+	text "Plein de #MON"
+	line "ne vivent que dans"
+	cont "les forêts ou"
+	cont "les caves."
 
-	para "You need to look"
-	line "everywhere to get"
-	cont "different kinds!"
+	para "Tu dois regarder"
+	line "partout pour en"
+	cont "avoir de toutes"
+	cont "sortes."
 	done
 
 _ViridianForestExitText2: ; 8a75d (22:675d)
-	text "Have you noticed"
-	line "the bushes on the"
-	cont "roadside?"
+	text "Tu as vu les"
+	line "buissons sur la"
+	cont "route?"
 
-	para "They can be cut"
-	line "down by a special"
-	cont "#MON move."
+	para "Un #MON peut"
+	line "le couper avec une"
+	cont "capacité spéciale."
 	done
 
 

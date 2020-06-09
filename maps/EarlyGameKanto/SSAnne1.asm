@@ -48,55 +48,55 @@ Movement_SSAnne1PlayerWalksBack:
 
 _SSAnne1Text1:
 	text "Bonjour!"
-	line "I am le waiter on"
-	cont "this ship!"
+	line "Je suis votre"
+	cont "serveur."
 
-	para "I will be happy"
-	line "to serve you any-"
-	cont "thing you please!"
+	para "Je serais ravi de"
+	line "servir ce qu'il"
+	cont "vous plaira!"
 
-	para "Ah! Le strong"
-	line "silent type!"
+	para "Ah! Un caractère"
+	line "silencieux?"
 	done
 
 _SSAnne1Text2:
-	text "The passengers"
-	line "are restless!"
+	text "Les passagers"
+	line "sont en ébulition!"
 
-	para "You might be"
-	line "challenged by the"
-	cont "more bored ones!"
+	para "Tu risques d'être"
+	line "défié par ceux qui"
+	cont "s'ennuient!"
 	done
 
 SSAnne1SailorDepartedText:
-	text "We'll make land at"
-	line "OLIVINE in a few"
-	cont "days' time."
+	text "Nous arriverons à"
+	line "OLIVILLE dans"
+	cont "quelques jours."
 	done
 
 SSAnne1Rocket1Text:
-	text "We don't want you"
-	line "to get hurt, so"
-	cont "please return to"
-	cont "your cabin."
+	text "On te veut pas de"
+	line "mal, alors regagne"
+	cont "ta cabine s'il te"
+	cont "plaît."
 	done
 
 SSAnne1Sailor2Text:
-	text "What do you think"
-	line "you're doing?"
+	text "Qu'est-ce que tu"
+	line "crois faire?"
 
-	para "You're not getting"
-	line "away with this!"
+	para "Tu t'en tireras"
+	line "pas comme ça!"
 	done
 
 SSAnne1Rocket2Text:
-	text "Such big talk for"
-	line "someone with such"
-	cont "weak #MON."
+	text "Tu parles fort"
+	line "pour quelqu'un qui"
+	cont "à des #MON"
+	cont "faibles."
 
-	para "It's not even"
-	line "worth my energy to"
-	cont "steal them."
+	para "T'en vaut même pas"
+	line "la peine."
 	done
 
 SSAnne1_MapEventHeader:

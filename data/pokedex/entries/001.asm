@@ -1,12 +1,12 @@
 ; BulbasaurPokedexEntry: ; 0x181695
-	db "SEED@" ; species name
+	db "GRAINE@" ; species name
 	dw 204, 150 ; height, width
 
-	db   "While it is young,"
-	next "it uses the"
-	next "nutrients that are"
-	page "stored in the"
-	next "seeds on its back"
-	next "in order to grow.@"
+	db   "Jeune il absorbe,"
+	next "les nutriments"
+	next "gardés dans"
+	page "son dos pour"
+	next "grandir et se"
+	next "développer.@"
 ; 0x181702
 

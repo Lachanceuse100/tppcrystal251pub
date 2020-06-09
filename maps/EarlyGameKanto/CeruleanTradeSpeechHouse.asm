@@ -20,13 +20,14 @@ CeruleanTradeSpeechHouseRBGrampsScript: ; 0x188136
 ; 0x188139
 
 CeruleanTradeSpeechHouseRBGrannyText: ; 0x18814d
-	text "My husband likes"
-	line "trading #MON."
+	text "Mon mari aime"
+	line "échanger les"
+	cont "#MON."
 
-	para "If you are a"
-	line "collector, would"
-	cont "you please trade"
-	cont "with him?"
+	para "Si tu les"
+	line "collectionnes, tu"
+	cont "voudrais bien"
+	cont "échanger avec lui?"
 	done
 ; 0x18818a
 

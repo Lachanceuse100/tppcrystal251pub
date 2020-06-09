@@ -1,12 +1,12 @@
 ; MagnemitePokedexEntry: ; 0x1b869d
-	db "MAGNET@" ; species name
+	db "MAGNETIQUE@" ; species name
 	dw 100, 130 ; height, width
 
-	db   "The electricity"
-	next "emitted by the"
-	next "units on each side"
-	page "of its body cause"
-	next "it to become a"
-	next "strong magnet.@"
+	db   "Le courant émis"
+	next "par les unités de"
+	next "chaque coté de son"
+	page "corps fait de lui"
+	next "un tr", $c6, "s puissant"
+	next "aimant.@"
 ; 0x1b870a
 

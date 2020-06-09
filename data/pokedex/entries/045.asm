@@ -1,12 +1,12 @@
 ; VileplumePokedexEntry: ; 0x182918
-	db "FLOWER@" ; species name
+	db "FLEUR@" ; species name
 	dw 311, 410 ; height, width
 
-	db   "By shaking its big"
-	next "petals, it scat-"
-	next "ters toxic pollen"
-	page "into the air,"
-	next "turning the air"
-	next "yellow.@"
+	db   "En gigotant ses"
+	next "pétales, il émet"
+	next "du pollen toxique"
+	page "et s'entoure ainsi"
+	next "d'un nuage jaune."
+	next "@"
 ; 0x18297f
 

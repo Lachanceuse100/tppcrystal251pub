@@ -1,12 +1,12 @@
 ; DodrioPokedexEntry: ; 0x1b884a
-	db "TRIPLEBIRD@" ; species name
+	db "TROISEAU@" ; species name
 	dw 511, 1880 ; height, width
 
-	db   "An enemy that"
-	next "takes its eyes off"
-	next "any of the three"
-	page "heads--even for a"
-	next "second--will get"
-	next "pecked severely.@"
+	db   "Un ennemi ne fai-"
+	next "sant pas attention"
+	next "à l'une des trois"
+	page "têtes pendant une"
+	next "seconde se fait"
+	next "picorer.@"
 ; 0x1b88bf
 

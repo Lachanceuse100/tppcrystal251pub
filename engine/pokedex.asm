@@ -1132,13 +1132,13 @@ Function4074c: ; 4074c (10:474c)
 ; 407e1 (10:47e1)
 
 Unknown_407e1: ; 407e1
-	db "SEEN", $ff
+	db "VUS", $ff
 Unknown_407e6: ; 407e6
-	db "OWN", $ff
+	db "PRIS", $ff
 Unknown_407ea: ; 407ea
-	db $3b, $48, $49, $4a, $44, $45, $46, $47, $3c ; SELECT > OPTION
+	db $3b, $41, $42, $43, $44, $45, $46, $47, $ff ; SELECT > OPTION
 Unknown_407f2: ; 407f2
-	db $3b, $41, $42, $43, $4b, $4c, $4d, $4e, $ff ; START > SEARCH
+	db $3b, $48, $49, $4a, $4b, $4c, $4d, $4e, $ff ; START > SEARCH
 ; 407fd
 
 Function407fd: ; 407fd
@@ -1189,15 +1189,15 @@ Function407fd: ; 407fd
 Unknown_4084f: ; 4084f
 	db $5c, $5d, $ff ; No.
 Unknown_40852: ; 40852
-	db "HT  ?", $5e, "??", $5f, $ff ; HT  ?'??"
+	db "TAI  ", $5e, "   ", $5f, $ff ; HT  ?'??"
 Unknown_4085c: ; 4085c
-	db "WT   ???lb", $ff ; WT   ???lb
+	db "PDS     lb", $ff ; WT   ???lb
 Unknown_40852_2: ; 40852
-	db "HT   ???m", $ff ; HT   ???m"
+	db "TAI     m", $ff ; HT   ???m"
 Unknown_4085c_2: ; 4085c
-	db "WT   ???kg", $ff ; WT   ???kg
+	db "PDS     kg", $ff ; WT   ???kg
 Unknown_40867: ; 40867
-	db $3b, " PAGE AREA CRY PRNT", $ff
+	db $3b, " PAGE ZONE CRI IMPR", $ff
 ; 4087c
 
 Function4087c: ; 4087c (10:487c)
@@ -1224,17 +1224,17 @@ Function4087c: ; 4087c (10:487c)
 ; 408b2 (10:48b2)
 
 Unknown_408b2: ; 408b2
-	db $3b, " OPTION ", $3c, $ff
+	db $3b, "OPTIONS ", $3c, $ff
 ; 408bd
 
 String_408bd: ; 408bd
-	db "NEW #DEX MODE", $4e
-	db "OLD #DEX MODE", $4e
-	db "A to Z MODE@"
+	db "NOUVEAU MODE", $4e
+	db "ANCIEN MODE", $4e
+	db "MODE A a Z@"
 ; 408e5
 
 String_408e5: ; 408e5
-	db "UNOWN MODE@"
+	db "MODE ZARBI@"
 ; 408f0
 
 Function408f0: ; 408f0 (10:48f0)
@@ -1261,7 +1261,7 @@ Function408f0: ; 408f0 (10:48f0)
 ; 4092a (10:492a)
 
 Unknown_4092a: ; 4092a
-	db $3b, " SEARCH ", $3c, $ff
+	db $3b, "CHERCHER", $3c, $ff
 ; 40925
 
 Unknown_40935: ; 40935
@@ -1275,8 +1275,8 @@ String_40940: ; 40940
 ; 4094c
 
 String_4094c: ; 4094c
-	db   "BEGIN SEARCH!!"
-	next "CANCEL"
+	db   "LANCER RECHERCHE"
+	next "RETOUR"
 	db   "@"
 ; 40962
 
@@ -1312,9 +1312,9 @@ Function40962: ; 40962 (10:4962)
 ; 409ae (10:49ae)
 
 String_409ae: ; 409ae
-	db   "SEARCH RESULTS"
-	next "  TYPE"
-	next "    FOUND!"
+	db   "RESULTAT RECHERCHE"
+	next "TYPE:"
+	next "    TROUVES!"
 	db   "@"
 ; 409cf
 
@@ -1782,23 +1782,23 @@ Unknown_40e7d: ; 40e7d
 ; 40e85
 
 String_40e85: ; 40e85
-	db $e1, $e2, " are listed by", $4e
-	db "evolution type.@"
+	db $e1, $e2, " listés par", $4e
+	db "type d'évolution.@"
 ; 40ea6
 
 String_40ea6: ; 40ea6
-	db $e1, $e2, " are listed by", $4e
-	db "official type.@"
+	db $e1, $e2, " listés de", $4e
+	db "facon officielle.@"
 ; 40ec6
 
 String_40ec6: ; 40ec6
-	db $e1, $e2, " are listed", $4e
-	db "alphabetically.@"
+	db $e1, $e2, " listés", $4e
+	db "alphabétiquement.@"
 ; 40ee4
 
 String_40ee4: ; 40ee4
-	db "UNOWN are listed", $4e
-	db "in catching order.@"
+	db "ZARBI listés par", $4e
+	db "ordre de capture.@"
 ; 40f08
 
 Function40f08: ; 40f08 (10:4f08)
@@ -1822,7 +1822,7 @@ Function40f08: ; 40f08 (10:4f08)
 ; 40f32 (10:4f32)
 
 String_40f32: ; 40f32
-	db "Changing modes.", $4e, "Please wait.@"
+	db "Chang. de mode.", $4e, "Patientez.@"
 ; 40f4f
 
 Function40f4f: ; 40f4f (10:4f4f)
@@ -1930,23 +1930,23 @@ Function40fcd: ; 40fcd (10:4fcd)
 Strings_40fe4: ; 40fe4
 	db "  ----  @"
 	db " NORMAL @"
-	db "  FIRE  @"
-	db " WATER  @"
-	db " GRASS  @"
-	db "ELECTRIC@"
-	db "  ICE   @"
-	db "FIGHTING@"
+	db "  FEU   @"
+	db "  EAU   @"
+	db " PLANTE @"
+	db "ELECTRIK@"
+	db " GLACE  @"
+	db " COMBAT @"
 	db " POISON @"
-	db " GROUND @"
-	db " FLYING @"
-	db "PSYCHIC @"
-	db "  BUG   @"
-	db "  ROCK  @"
-	db " GHOST  @"
+	db "  SOL   @"
+	db "  VOL   @"
+	db "  PSY   @"
+	db "INSECTE @"
+	db " ROCHE  @"
+	db "SPECTRE @"
 	db " DRAGON @"
-	db "  DARK  @"
-	db " STEEL  @"
-	db " FAIRY  @"
+	db "TENEBRES@"
+	db " ACIER  @"
+	db "  FEE   @"
 ; 41086
 
 Function41086: ; 41086
@@ -2062,8 +2062,8 @@ Function41107: ; 41107
 ; 41126
 
 String_41126: ; 41126
-	db "The specified type", $4e
-	db "was not found.@"
+	db "Le type spécifié", $4e
+	db "est introuvable.@"
 ; 41148
 
 Function41148: ; 41148 (10:5148)
@@ -2922,12 +2922,13 @@ Function4424d: ; 4424d
 .Unknown
 	db "?????@"
 	dw 0, 0
-	db   "No information is"
-	next "available for this"
-	next "#MON currently."
-	page "Please ensure the"
-	next "latest data pack"
-	next "is installed.@"
+	db   "Aucune information"
+	next "sur ce #MON"
+	next "pour le moment."
+	page "Assurez vous que"
+	next "la derniere mise"
+	next "à jour soit"
+	next "installé.@"
 
 Mul16:
 	;[hTmpd][hTmpe]hl = bc * de

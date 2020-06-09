@@ -10,21 +10,22 @@ Route2GateRBScientistScript:
 	jumptextfaceplayer Route2GateRBScientistText
 
 Route2GateRBScientistText:
-	text "Hi, I'm an unused"
-	line "object."
+	text "Bonjour, je suis "
+	line "un objet non"
+	cont "utilisé."
 
-	para "The devs put me in"
-	line "here assuming you"
-	cont "would be unable to"
-	cont "reach me."
+	para "J'ai été mis là"
+	line "en pensant que"
+	cont "personne ne pou-"
+	cont "rrait m'atteindre."
 
-	para "And yet, here you"
-	line "are! Well done!"
+	para "Mais te voilà!"
+	line "Bien joué!"
 
-	para "Don't forget to"
-	line "turn off your"
-	cont "cheat codes on"
-	cont "your way out!"
+	para "N'oublie pas"
+	line "d'éteindre tes"
+	cont "codes triche en"
+	cont "sortant!"
 	done
 
 Route2GateRB_MapEventHeader: ; 0x9b9ca

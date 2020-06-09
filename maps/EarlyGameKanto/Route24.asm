@@ -140,168 +140,179 @@ Route24RBTM45:
 	db TM_THUNDER_WAVE, 1
 
 Route24RBRocketText1a:
-	text "Congratulations!"
-	para "You beat our 5"
-	line "contest trainers!@"
+	text "Félicitations!"
+	para "Tu as battu les"
+	line "5 dresseurs!@"
 	sound0x02
 	text_waitsfx
 	db "@"
 
 Route24RBRocketText1b:
-	text "You just earned a"
-	line "fabulous prize!"
+	text "Tu remportes ce"
+	line "fabuleux prix!"
 	done
 
 Route24RBRocketText2a:
-	text "By the way, would"
-	line "you like to join"
-	cont "TEAM ROCKET?"
+	text "Au fait, ça"
+	line "t'intéresserais"
+	cont "pas de rejoindre"
+	cont "la TEAM ROCKET?"
 
-	para "We're a group"
-	line "dedicated to evil"
-	cont "using #MON!"
+	para "On est des"
+	line "méchants qui"
+	cont "utilisent les"
+	cont "#MON."
 
-	para "Want to join?"
+	para "Alors?"
 	done
 
 Route24RBRocketText2b:
-	text "Are you sure?"
+	text "T'es sûr?"
 	done
 
 Route24RBRocketText2c:
-	text "Come on, join us!"
+	text "Allez, viens!"
 	done
 
 Route24RBRocketText2d:
-	text "I'm telling you"
-	line "to join!"
+	text "Je te dis de"
+	line "nous joindre!"
 	done
 
 Route24RBRocketText3:
-	text "OK, you need"
-	line "convincing!"
+	text "OK, il faut te"
+	line "convaincre!"
 
-	para "I'll make you an"
-	line "offer you can't"
-	cont "refuse!"
+	para "Je vais te faire"
+	line "une offre que tu"
+	cont "vas pas refuser!"
 	done
 
 Route24RBOakIntervenesText:
-	text "OAK's words echoed<...>"
+	text "Les mots du PROF."
+	line "CHEN résonnent<...>"
 
-	para "<PLAYER>! Is this"
-	line "the right thing to"
-	cont "do?"
+	para "<PLAYER>! Est-ce"
+	line "vraiment la bonne"
+	cont "chose à faire?"
 
 	para $56, $56, $56
 	line $56, $56, $56
 
-	para "Why are you hesi-"
-	line "tating? This is"
-	cont "a great offer!"
-	cont "Take it!"
+	para "Pourquoi hésiter?"
+	line "Allez, c'est une"
+	cont "super offre!"
 	done
 
 Route24RBRocketWinText:
 	text "Arrgh!"
-	line "You are good!"
+	line "Pas mauvais!"
 	done
 
 Route24RBRocketText4:
-	text "With your ability,"
-	line "you could become"
-	cont "a top leader in"
+	text "Avec ton talent,"
+	line "tu pourrais être"
+	cont "chef de la"
 	cont "TEAM ROCKET!"
 	done
 
 _Route24BattleText1:
-	text "I saw your feat"
-	line "from the grass!"
+	text "J'ai vu tes"
+	line "exploits depuis"
+	cont "la!"
 	done
 
 _Route24EndBattleText1:
-	text "I thought not!"
+	text "J'y crois pas!"
 	done
 
 _Route24AfterBattleText1:
-	text "I hid because the"
-	line "people on the"
-	cont "bridge scared me!"
+	text "Je me suis caché"
+	line "parce que les gens"
+	cont "sur le pont me"
+	cont "font peur."
 	done
 
 _Route24BattleText2:
-	text "OK! I'm No. 5!"
-	line "I'll stomp you!"
+	text "OK! Je suis No. 5!"
+	line "Je vais t'écraser!"
 	done
 
 _Route24EndBattleText2:
-	text "Whoa! Too much!"
+	text "Waouh! C'est trop!"
 	done
 
 _Route24AfterBattleText2:
-	text "I did my best, I"
-	line "have no regrets!"
+	text "J'ai fais de mon"
+	line "mieux, j'ai pas"
+	cont "de regrets!"
 	done
 
 _Route24BattleText3:
-	text "I'm No. 4!"
-	line "Getting tired?"
+	text "Je suis No. 4!"
+	line "Tu fatigues?"
 	done
 
 _Route24EndBattleText3:
-	text "I lost too!"
+	text "J'ai perdu aussi!"
 	done
 
 _Route24AfterBattleText3:
-	text "I did my best, so"
-	line "I've no regrets!"
+	text "J'ai fais de mon"
+	line "mieux, j'ai pas"
+	cont "de regrets!"
 	done
 
 _Route24BattleText4:
-	text "Here's No. 3!"
-	line "I won't be easy!"
+	text "No. 3! Ce"
+	line "sera pas facile!"
 	done
 
 _Route24EndBattleText4:
-	text "Ow! Stomped flat!"
+	text "Aïe! Ecrasé!"
 	done
 
 _Route24AfterBattleText4:
-	text "I did my best, I"
-	line "have no regrets!"
+	text "J'ai fais de mon"
+	line "mieux, j'ai pas"
+	cont "de regrets!"
 	done
 
 _Route24BattleText5:
-	text "I'm second!"
-	line "Now it's serious!"
+	text "Je suis No. 2!"
+	line "C'est sérieux!"
 	done
 
 _Route24EndBattleText5:
-	text "How could I lose?"
+	text "Comment ai-je"
+	line "pu perdre?"
 	done
 
 _Route24AfterBattleText5:
-	text "I did my best, I"
-	line "have no regrets!"
+	text "J'ai fais de mon"
+	line "mieux, j'ai pas"
+	cont "de regrets!"
 	done
 
 _Route24BattleText6:
-	text "This is NUGGET"
-	line "BRIDGE! Beat us 5"
-	cont "trainers and win"
-	cont "a fabulous prize!"
+	text "C'est le PONT"
+	line "PEPITE! Bat 5"
+	cont "dresseurs et"
+	cont "gagne un fabuleux"
+	cont "prix!"
 
-	para "Think you got"
-	line "what it takes?"
+	para "Tu penses que t'as"
+	line "ce qu'il te faut?"
 	done
 
 _Route24EndBattleText6:
-	text "Whoo! Good stuff!"
+	text "Ouh! Pas mal!"
 	done
 
 _Route24AfterBattleText6:
-	text "I did my best, I"
-	line "have no regrets!"
+	text "J'ai fais de mon"
+	line "mieux, j'ai pas"
+	cont "de regrets!"
 	done
 
 Route24RB_MapEventHeader: ; 0x1adf50

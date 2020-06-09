@@ -65,113 +65,121 @@ GymBadgeSpeechHouseRBScript: ; 0x188002
 .MenuData2
 	db $a0 ; flags
 	db 8
-	db "BOULDERBADGE@"
-	db "CASCADEBADGE@"
-	db "THUNDERBADGE@"
-	db "RAINBOWBADGE@"
-	db "SOULBADGE@"
-	db "MARSHBADGE@"
-	db "VOLCANOBADGE@"
-	db "EARTHBADGE@"
+	db "BADGE ROCHE@"
+	db "BADGECASCADE@"
+	db "BADGE FOUDRE@"
+	db "BADGE PRISME@"
+	db "BADGE AME@"
+	db "BADGE MARAIS@"
+	db "BADGE VOLCAN@"
+	db "BADGE TERRE@"
 
 _CeruleanHouse2Text_74e77:
-	text "#MON BADGEs"
-	line "are owned only by"
-	cont "skilled trainers."
+	text "Les BADGES #MON"
+	line "sont tenus par des"
+	cont "dresseurs"
+	cont "talentueux."
 
-	para "I see you have"
-	line "at least one."
+	para "Je vois que tu en"
+	line "as au moins un."
 
-	para "Those BADGEs have"
-	line "amazing secrets!"
+	para "Ces BADGES"
+	line "renferment des"
+	cont "des secrets!"
 	done
 
 _CeruleanHouse2Text_74e7c:
-	text "Now then<...>"
+	text "Bien alors<...>"
 
-	para "Which of the 8"
-	line "BADGEs should I"
-	cont "describe?"
+	para "Lequel des BADGES"
+	line "veux-tu que je"
+	cont "décrive?"
 
 	para ""
 	done
 
 _CeruleanHouse2Text_74e81:
-	text "Come visit me any"
-	line "time you wish."
+	text "Reviens me voir"
+	line "quand tu veux."
 	done
 
 _CeruleanHouse2Text_74e96:
-	text "The ATTACK of all"
-	line "#MON increases"
-	cont "a little bit."
+	text "L'ATTAQUE de tes"
+	line "#MON augmente"
+	cont "un peu."
 
-	para "It also lets you"
-	line "use FLASH any"
-	cont "time you desire."
+	para "Tu peux aussi"
+	line "utiliser FLASH"
+	cont "quand tu veux."
 	done
 
 _CeruleanHouse2Text_74e9b:
-	text "#MON up to L30"
-	line "will obey you."
+	text "Les #MON jusqu'"
+	line "au niveau 30"
+	cont "t'obéiront."
 
-	para "Any higher, they"
-	line "become unruly!"
+	para "Plus haut et ils"
+	line "n'en feront qu'à"
+	cont "leur tête."
 
-	para "It also lets you"
-	line "use CUT outside"
-	cont "of battle."
+	para "Tu peux aussi"
+	line "utiliser COUPE"
+	cont "quand tu veux."
 	done
 
 _CeruleanHouse2Text_74ea0:
-	text "The SPEED of all"
-	line "#MON increases"
-	cont "a little bit."
+	text "La VITESSE de tes"
+	line "#MON augmente"
+	cont "un peu."
 
-	para "It also lets you"
-	line "use FLY outside"
-	cont "of battle."
+	para "Tu peux aussi"
+	line "utiliser VOL"
+	cont "quand tu veux."
 	done
 
 _CeruleanHouse2Text_74ea5:
-	text "#MON up to L50"
-	line "will obey you."
+	text "Les #MON jusqu'"
+	line "au niveau 50"
+	cont "t'obéiront."
 
-	para "Any higher, they"
-	line "become unruly!"
+	para "Plus haut et ils"
+	line "n'en feront qu'à"
+	cont "leur tête."
 
-	para "It also lets you"
-	line "use STRENGTH out-"
-	cont "side of battle."
+	para "Tu peux aussi"
+	line "utiliser FORCE"
+	cont "quand tu veux."
 	done
 
 _CeruleanHouse2Text_74eaa:
-	text "The DEFENSE of all"
-	line "#MON increases"
-	cont "a little bit."
+	text "La DEFENSE de tes"
+	line "#MON augmente"
+	cont "un peu."
 
-	para "It also lets you"
-	line "use SURF outside"
-	cont "of battle."
+	para "Tu peux aussi"
+	line "utiliser SURF"
+	cont "quand tu veux."
 	done
 
 _CeruleanHouse2Text_74eaf:
-	text "#MON up to L70"
-	line "will obey you."
+	text "Les #MON jusqu'"
+	line "au niveau 70"
+	cont "t'obéiront."
 
-	para "Any higher, they"
-	line "become unruly!"
+	para "Plus haut et ils"
+	line "n'en feront qu'à"
+	cont "leur tête."
 	done
 
 _CeruleanHouse2Text_74eb4:
-	text "Your #MON's"
-	line "SPECIAL ATTACK"
-	cont "increases a bit."
+	text "L'ATQ.SPE. de tes"
+	line "#MON augmente"
+	cont "un peu."
 	done
 
 _CeruleanHouse2Text_74eb9:
-	text "All #MON will"
-	line "obey you!"
+	text "Tous les #MON"
+	line "t'obéiront!"
 	done
 
 CeruleanGymBadgeSpeechHouseRB_MapEventHeader: ; 0x18802b

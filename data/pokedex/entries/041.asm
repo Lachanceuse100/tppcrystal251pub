@@ -1,12 +1,12 @@
 ; ZubatPokedexEntry: ; 0x18275d
-	db "BAT@" ; species name
+	db "CHOVSOURIS@" ; species name
 	dw 207, 170 ; height, width
 
-	db   "During the day, it"
-	next "gathers with"
-	next "others and hangs"
-	page "from the ceilings"
-	next "of old buildings"
-	next "and caves.@"
+	db   "La journée, il se"
+	next "joint à d'autres"
+	next "et s'accroche au"
+	page "plafond ou dans"
+	next "les grottes."
+	next "@"
 ; 0x1827c4
 

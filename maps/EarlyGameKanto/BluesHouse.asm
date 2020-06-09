@@ -39,48 +39,50 @@ TownMapScript_EGKBluesHouse:
 	jumptext Text_MapCard
 
 Text_DaisyGiveTownMap:
-	text "PROF. OAK asked"
-	line "you to run an"
-	cont "errand for him?"
+	text "Le PROF.CHEN t'a"
+	line "demandé de faire"
+	cont "une course pour"
+	cont "lui?"
 
-	para "Here, this will"
-	line "help you!"
+	para "Tiens, ça va"
+	line "t'aider!"
 	done
 
 Text_ReceivedMapCard:
-	text "<PLAYER> received"
-	line "the MAP CARD!"
+	text "<PLAYER> reçoit"
+	line "la CARTE."
 	done
 
 Text_DaisyExplainMapCard:
-	text "Use the MAP CARD"
-	line "on your #GEAR"
+	text "Utilise la CARTE"
+	line "dans ton #MATOS"
 
-	para "to find out where"
-	line "you are."
+	para "pour savoir ou"
+	line "tu es."
 	done
 
 Text_MapCard:
-	text "It looks like a"
-	line "CARD for the #-"
-	cont "GEAR."
+	text "On dirait une"
+	line "CARTE pour le"
+	cont "#MATOS."
 
-	para "Perhaps this will"
-	line "be useful?"
+	para "Peut-être que ce"
+	line "sera utile?"
 	done
 
 Text_DaisyBeforePokedex:
-	text "Hi, <PLAYER>!"
-	line "<GREEN> is out at"
-	cont "the PROF's lab."
+	text "Salut, <PLAYER>!"
+	line "<GREEN> se trouve"
+	cont "dans le labo du"
+	cont "PROF."
 	done
 
 Text_DaisyAfterMapCard:
-	text "#MON are living"
-	line "things!"
+	text "Les #MON sont"
+	line "des êtres vivants!"
 
-	para "If they get tired,"
-	line "give them a rest!"
+	para "Veille à leur"
+	line "santé!"
 	done
 
 BluesHouseRB_MapEventHeader: ; 0x19b3a8

@@ -1,12 +1,12 @@
 ; PinsirPokedexEntry: ; 0x1b99fb
-	db "STAGBEETLE@" ; species name
+	db "SCARABEE@" ; species name
 	dw 411, 1210 ; height, width
 
-	db   "When the tempera-"
-	next "ture drops at"
-	next "night, it sleeps"
-	page "on treetops or"
-	next "among roots where"
-	next "it is well hidden.@"
+	db   "La nuit, quand il"
+	next "fait plus froid,"
+	next "il dort au sommet"
+	page "des arbres ou pres"
+	next "des racines ou il"
+	next "peut se cacher.@"
 ; 0x1b9a6f
 

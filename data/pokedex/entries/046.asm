@@ -2,11 +2,11 @@
 	db "MUSHROOM@" ; species name
 	dw 100, 120 ; height, width
 
-	db   "The tochukaso"
-	next "growing on this"
-	next "#MON's back"
-	page "orders it to"
-	next "extract juice from"
-	next "tree trunks.@"
+	db   "Le tochukaso sur"
+	next "son dos l'incite"
+	next "à aspirer la seve"
+	page "des arbres pour"
+	next "se nourrir."
+	next "@"
 ; 0x1829e2
 

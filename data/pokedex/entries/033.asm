@@ -1,12 +1,12 @@
 ; NidorinoPokedexEntry: ; 0x1823fd
-	db "POISON PIN@" ; species name
+	db "VENEPIC@" ; species name
 	dw 211, 430 ; height, width
 
-	db   "It is easily"
-	next "agitated and uses"
-	next "its horn for"
-	page "offense as soon as"
-	next "it notices an"
-	next "attacker.@"
+	db   "Il s'agite facile-"
+	next "ment et utilise sa"
+	next "corne pour atta-"
+	page "quer s'il repere"
+	next "un ennemi."
+	next "@"
 ; 0x182463
 

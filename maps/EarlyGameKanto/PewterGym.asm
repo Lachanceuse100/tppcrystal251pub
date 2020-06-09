@@ -102,169 +102,173 @@ PewterGymRB_StatueScript:
 	jumpstd gymstatue2
 
 PewterGymRB_BrockIntroText:
-	text "I'm BROCK!"
-	line "I'm PEWTER's GYM"
-	cont "LEADER!"
+	text "Je suis PIERRE!"
+	line "Le CHAMPION"
+	cont "D'ARGENTA!"
 
-	para "I believe in rock"
-	line "hard defense and"
-	cont "determination!"
+	para "Je crois en la"
+	line "résistance de la"
+	cont "pierre!"
 
-	para "That's why my"
-	line "#MON are all"
-	cont "the ROCK-type!"
+	para "C'est pourquoi"
+	line "mes #MON sont"
+	cont "de type ROCHE!"
 
-	para "Do you still want"
-	line "to challenge me?"
+	para "Tu veux toujours"
+	line "me défier?"
 
-	para "Fine then! Show"
-	line "me your best!"
+	para "Très bien! Montre"
+	line "moi ce que tu sais"
+	cont "faire!"
 	done
 
 PewterGymRB_BrockLostText:
 
-	text "BROCK: I took"
-	line "you for granted."
+	text "PIERRE : Je t'ai"
+	line "sous-estimé."
 
-	para "As proof of your"
-	line "victory, here's"
-	cont "the BOULDERBADGE!"
+	para "Comme preuve de ta"
+	line "victoire, voici le"
+	cont "BADGE ROCHE!"
 	done
 
 PewterGymRB_GotBadgeText:
-	text "<PLAYER> received"
-	line "BOULDERBADGE."
+	text "<PLAYER> reçoit le"
+	line "BADGE ROCHE."
 	done
 
 PewterGymRB_BrockCongratsText:
 
-	text "BROCK: <PLAY_G>,"
-	line "thanks. I enjoyed"
+	text "BROCK: Merci,"
+	line "<PLAY_G>. J'ai aimé"
+	cont "me battre avec toi"
+	cont "même si j'ai"
+	cont "perdu."
 
-	para "battling you, even"
-	line "though I am a bit"
-	cont "upset."
+	para "Ce BADGE ROCHE"
+	line "rendra tes #MON"
 
-	para "That BOULDERBADGE"
-	line "will make your"
+	para "encore plus"
+	line "puissants."
 
-	para "#MON even more"
-	line "powerful."
-
-	para "Here, have this as"
-	line "well."
+	para "Tiens, prends ça"
+	line "aussi."
 	done
 
 PewterGymRB_BrockAfterText:
-	text "There are all"
-	line "kinds of trainers"
-	cont "in the world!"
+	text "Il y a toutes"
+	line "sortes de dre-"
+	cont "sseurs dans le"
+	cont "monde."
 
-	para "You appear to be"
-	line "very gifted as a"
-	cont "#MON trainer!"
+	para "Tu sembles être"
+	line "un dresseur"
+	cont "#MON de talent!"
 
-	para "Go to the GYM in"
-	line "CERULEAN and test"
-	cont "your abilities!"
+	para "Va tester tes"
+	line "compétences à"
+	cont "l'arène d'AZURIA!"
 	done
 
 PewterGymRB_TMText:
-	text "A TM contains a"
-	line "technique that"
-	para "can be taught to"
-	line "#MON!"
+	text "Une CT contient"
+	line "une capacité pou-"
+	para "vant être apprise"
+	line "à un #MON!"
 
-	para "What's more, you"
-	line "can use that TM"
+	para "De plus, tu peux"
+	line "utiliser cette CT"
+	cont "autant de fois que"
+	cont "tu le souhaites."
 
-	para "as many times as"
-	line "you'd like, so"
-	cont "don't be stingy!"
+	para "La CT37 contient"
+	line "TEMPETESABLE!"
 
-	para "TM37 contains"
-	line "SANDSTORM!"
+	para "Elle abat une"
+	line "tempête de sable"
+	cont "qui inflige des"
+	cont "dégâts aux #MON"
+	cont "pendant 5 tours."
 
-	para "It whips up a"
-	line "sandstorm that"
-	cont "damages #MON"
-	cont "for 5 turns."
-
-	para "Some #MON are"
-	line "immune, so use it"
-	cont "with caution."
+	para "Certains #MON"
+	line "n'y sont pas"
+	cont "sensible alors"
+	cont "fais attention!"
 	done
 
 
 CamperJerryRBSeenText:
-	text "Stop right there,"
-	line "kid!"
+	text "Arrête-toi là!"
 
-	para "You're still light"
-	line "years from facing"
-	cont "BROCK!"
+	para "Tu es à des années"
+	line "-lumière de pouv-"
+	cont "voir battre"
+	cont "PIERRE!"
 	done
 
 CamperJerryRBBeatenText:
-	text "Darn!"
+	text "Mince!"
 
-	para "Light years isn't"
-	line "time! It measures"
-	cont "distance!"
+	para "Années-lumière"
+	line "c'est pour la"
+	cont "distance, pas le"
+	cont "temps!"
 	done
 
 CamperJerryRBAfterText:
-	text "You're pretty hot,"
-	line "but not as hot"
-	cont "as BROCK!"
+	text "Tu es fort, mais"
+	line "pas autant que"
+	cont "PIERRE!"
 	done
 
 PewterGymRB_GymGuyText:
-	text "Hiya! I can tell"
-	line "you have what it"
-	cont "takes to become a"
-	cont "#MON champ!"
+	text "Salut! Je sens que"
+	line "tu as ce qu'il"
+	cont "faut pour devenir"
+	cont "un champion"
+	cont "#MON!"
 
-	para "I'm no trainer,"
-	line "but I can tell"
-	cont "you how to win!"
+	para "Je ne suis pas un"
+	line "dresseur mais je"
+	cont "peux te dire"
+	cont "comment gagner!"
 
-	para "Let me take you"
-	line "to the top!"
+	para "Laisse moi t'em"
+	line "mener au sommet!"
 	done
 
 PewterGymRB_GymGuyYesText:
-	text "All right! Let's"
-	line "get happening!"
+	text "OK, c'est parti!"
 	done
 
 PewterGymRB_AdviceText:
-	text "The 1st #MON"
-	line "out in a match is"
-	para "at the top of the"
-	line "#MON LIST!"
+	text "Le 1er #MON"
+	line "envoyé dans un"
+	para "match est en haut"
+	line "de ton équipe!"
 
-	para "By changing the"
-	line "order of #MON,"
-	para "matches could be"
-	line "made easier!"
+	para "En changeant"
+	line "l'ordre de tes"
+	para "#MON, le match"
+	line "peut être plus"
+	cont "facile!"
 	done
 
 PewterGymRB_GymGuyNoText:
-	text "It's a free"
-	line "service! Let's"
-	cont "get happening!"
+	text "C'est un service"
+	line "gratuit! C'est"
+	cont "parti!"
 	done
 
 PewterGymRB_GymGuyWinText:
-	text "Just as I thought!"
-	line "You're #MON"
-	cont "champ material!"
+	text "Je le savais!"
+	line "Tu as l'étoffe"
+	cont "d'un champion!"
 
-	para "The way you took"
-	line "charge was really"
-	para "inspiring. I mean"
-	line "that seriously."
+	para "La façon dont tu"
+	line "t'es battu<...>"
+	para "C'était vraiment"
+	line "inspirant!"
 	done
 
 PewterGymRB_MapEventHeader:

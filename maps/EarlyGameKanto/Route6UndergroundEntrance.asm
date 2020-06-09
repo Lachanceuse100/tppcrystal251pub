@@ -10,9 +10,9 @@ Route6UndergroundEntranceRBLassScript:
 	jumptextfaceplayer Route6UndergroundEntranceRBLassText
 
 Route6UndergroundEntranceRBLassText:
-	text "People often lose"
-	line "things in that"
-	cont "UNDERGROUND PATH."
+	text "Les gens perdent"
+	line "souvent des objets"
+	cont "au SOUTERRAIN."
 	done
 
 Route6UndergroundEntranceRB_MapEventHeader: ; 0x192830

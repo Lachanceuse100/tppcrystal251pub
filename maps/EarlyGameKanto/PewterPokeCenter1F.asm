@@ -66,32 +66,35 @@ PewterPokecenterTrueCreditsScript:
     end
 
 _PewterPokecenterText1: ; 0x1a2f01
-	text "What!?"
+	text "Quoi!?"
 
-	para "TEAM ROCKET is"
-	line "at MT.MOON? Huh?"
-	cont "I'm on the phone!"
+	para "La TEAM ROCKET est"
+	line "au MONT SELENITE?"
 
-	para "Scram!"
+	para "Hein? Je suis au"
+	line "téléphone!"
+
+	para "Oust!"
 	done
 
 ; 0x1a2f5d
 
 _PewterPokecenterText5: ; 0x1a2f5d
-	text "JIGGLYPUFF: Puu"
-	line "pupuu!"
+	text "RONDOUDOU: Dou"
+	line "doudouuu!"
 	done
 ; 0x1a2f75
 
 _PewterCityPokecenterGuyText: ; 0x1a2f75
-	text "Yawn!"
+	text "(baille)!"
 
-	para "When JIGGLYPUFF"
-	line "sings, #MON"
-	cont "get drowsy<...>"
+	para "Quand RONDOUDOU"
+	line "chante, tous les"
+	cont "#MON piquent"
+	cont "du nez<...>"
 
-	para "<...>Me too<...>"
-	line "Snore<...>"
+	para "<...>Moi aussi<...>"
+	line "Zzz<...>"
 	done
 ; 0x1a2ff4
 
@@ -100,24 +103,24 @@ _PewterPokeCenterDebugLUAText:
     done
 
 _PewterPokeCenterDebugLUAText2:
-    text "Waiting<...>"
+    text "Attente<...>"
     done
 
 _PewterPokeCenterDebugLUAText3:
-    text "What's that,"
-    line "soldier? This"
-    cont "isn't a MILITARY"
-    cont "game?"
+    text "Soldat, ce n'est"
+    line "pas un mode de jeu"
+    cont "MILITAIRE?"
 
-    para "I'll have you know"
-    line "I was in the front"
-    cont "lines. LT.SURGE"
-    cont "was my CO!"
+    para "Je te ferais"
+    line "savoir que j'étais"
+    cont "au front! Le MAJOR"
+    cont "BOB était mon"
+	cont "commandant!"
     done
 
 _PewterPokeCenterDebugTrueCredits:
-    text "Initiate true"
-    line "credits?"
+    text "Lancer les"
+    line "vrais crédits?"
     done
 
 PewterPokeCenter1FRB_LinkScript:

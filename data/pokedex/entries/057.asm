@@ -1,12 +1,12 @@
 ; PrimeapePokedexEntry: ; 0x182e39
-	db "PIG MONKEY@" ; species name
+	db "PORSINGE@" ; species name
 	dw 303, 710 ; height, width
 
-	db   "It will beat up"
-	next "anyone who makes"
-	next "it mad, even if it"
-	page "has to chase them"
-	next "until the end of"
-	next "the world.@"
+	db   "Il cherchera à"
+	next "castagner celui"
+	next "qui le dérange,"
+	page "meme s'il doit le"
+	next "poursuivre jusqu'"
+	next "au bout du monde.@"
 ; 0x182eaa
 

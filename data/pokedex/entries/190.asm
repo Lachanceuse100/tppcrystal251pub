@@ -1,12 +1,12 @@
 ; AipomPokedexEntry: ; 0x1cda11
-	db "LONG TAIL@" ; species name
+	db "LONGQUEUE@" ; species name
 	dw 207, 250 ; height, width
 
-	db   "It uses its tail"
-	next "to hang on to tree"
-	next "branches. It uses"
-	page "its momentum to"
-	next "swing from one"
-	next "branch to another.@"
+	db   "Sa queue est si"
+	next "forte qu'il peut"
+	next "s'accrocher aux"
+	page "branches et se"
+	next "balancer d'arbre"
+	next "en arbre.@"
 ; 0x1cda87
 

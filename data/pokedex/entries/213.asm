@@ -1,12 +1,12 @@
 ; ShucklePokedexEntry: ; 0x1d088e
-	db "MOLD@" ; species name
+	db "POURRI@" ; species name
 	dw 200, 450 ; height, width
 
-	db   "The fluid secreted"
-	next "by its toes carves"
-	next "holes in rocks for"
-	page "nesting and can be"
-	next "mixed with BERRIES"
-	next "to make a drink.@"
+	db   "Le fludie sécrété"
+	next "par ses pattes"
+	next "perce la roche"
+	page "pour créer un nid"
+	next "et peut se boire"
+	next "avec des baies.@"
 ; 0x1d0907
 

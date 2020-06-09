@@ -60,27 +60,29 @@ SSAnneSimonMovementData3:
 	step_end
 
 _SSAnne3Text1:
-	text "Our CAPTAIN is a"
-	line "sword master!"
+	text "Notre CAPITAINE"
+	line "est un maître"
+	cont "d'épées!"
 
-	para "He even teaches"
-	line "CUT to #MON!"
+	para "Il enseigne COUPE"
+	line "aux #MON!"
 	done
 
 SSAnneSimonText:
-	text "Whoops!"
-	line "Excuse me!"
+	text "Ouuups!"
+	line "Excuse moi!"
 	done
 
 SSAnneBadgesGoneText:
-	text "<PLAYER>'s BADGE"
-	line "CASE had fallen!"
+	text "La BOITE A BADGES"
+	line "de <PLAYER>"
+	cont "est tombé!"
 
-	para "<PLAYER> went to"
-	line "pick it up<...>"
+	para "<PLAYER> le"
+	line "ramasse<...>"
 
-	para "But the BADGES are"
-	line "gone!"
+	para "Mais les BADGES"
+	line "ont disparus!"
 	done
 
 SSAnne3_MapEventHeader:

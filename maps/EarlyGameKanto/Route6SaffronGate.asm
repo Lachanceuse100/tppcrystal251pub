@@ -22,11 +22,11 @@ Route6SaffronGateRB_TriggerScript:
 	end
 
 SaffronGateRBThirstyText:
-	text "Gee, I sure am"
-	line "thirsty<...>"
+	text "Bon sang, j'ai"
+	line "soif<...>"
 
-	para "Oh, wait there,"
-	line "the road's closed."
+	para "Oh, toi là, la"
+	line "route est fermée."
 	done
 
 SaffronGateRBPushDown:

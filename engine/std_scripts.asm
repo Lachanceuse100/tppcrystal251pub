@@ -351,31 +351,31 @@ UnknownScript_0xbc200: ; 0xbc200
 ; 0xbc205
 
 UnknownRawText_0xbc205: ; bc205
-	db "SUNDAY@"
+	db "DIMANCHE@"
 ; bc20c
 
 UnknownRawText_0xbc20c: ; bc20c
-	db "MONDAY@"
+	db "LUNDI@"
 ; bc213
 
 UnknownRawText_0xbc213: ; bc213
-	db "TUESDAY@"
+	db "MARDI@"
 ; bc21b
 
 UnknownRawText_0xbc21b: ; bc21b
-	db "WEDNESDAY@"
+	db "MERCREDI@"
 ; bc225
 
 UnknownRawText_0xbc225: ; bc225
-	db "THURSDAY@"
+	db "JEUDI@"
 ; bc22e
 
 UnknownRawText_0xbc22e: ; bc22e
-	db "FRIDAY@"
+	db "VENDREDI@"
 ; bc235
 
 UnknownRawText_0xbc235: ; bc235
-	db "SATURDAY@"
+	db "SAMEDI@"
 ; bc23e
 
 GoldenrodRocketsScript: ; 0xbc23e
@@ -753,47 +753,46 @@ UnknownScript_0xbc380: ; 0xbc380 ;clear contestent flags that are not active?
 	end
 
 FirstPlaceQuestion:
-	text $52, ", the No.1"
-	line "finisher, has"
-	cont "won a SUN STONE!"
+	text $52, ", le No.1"
+	line "a gagné une"
+	cont "PIERRE SOLEIL!"
 
-	para "However, you may"
-	line "choose to take a"
-	cont "different prize."
+	para "Mais vous pouvez"
+	line "choisir une récom-"
+	cont "pense différente."
 
-	para "Do you want the"
-	line "SUN STONE?"
+	para "Veux-tu la"
+	line "PIERRE SOLEIL?"
 	done
 
 SunStoneChosenText:
-	text "Please accept"
-	line "your prize."
+	text "Acceptez donc"
+	line "votre prix."
 	done
 
 ContestAlreadyHolding
-	text "We are already"
-	line "holding a"
+	text "Nous tenons déjà"
+	line "la récompense"
 
 	para "@"
 	text_from_ram StringBuffer4
 	text ""
-	line "for you."
+	line "pour vous."
 
-	para "You'll have to take"
-	line "another prize."
+	para "Il vous faudra"
+	line "choisir une autre."
+	cont "récompense."
 	done
 
 BallsChosenText:
-	text "In that case"
-	line "please accept"
-	para "these Apricorn"
-	line "Balls."
+	text "Acceptez donc"
+	line "ceci."
 	done
 
 ContestSecondPrizeText:
-	text $52, ", the No.2"
-	line "finisher, wins"
-	cont "8 Apricorn Balls."
+	text $52, ", le No.2"
+	line "gagne 8"
+	cont "NOIGRUME BALLS."
 	done
 ; 0xbc3db
 
@@ -2633,7 +2632,7 @@ MenuData2_0xbce5c: ; 0xbce5c
 	db 3 ; items
 	db " 50 :  ¥1000@"
 	db "500 : ¥10000@"
-	db "CANCEL@"
+	db "RETOUR@"
 ; 0xbce7f
 
 

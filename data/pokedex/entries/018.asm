@@ -1,21 +1,21 @@
 ; PidgeotPokedexEntry: ; 0x181dd7
-	db "BIRD@" ; species name
+	db "OISEAU@" ; species name
 	dw 411, 870 ; height, width
 
 	metricdex .metric
-	db   "Its outstanding"
-	next "vision allows it"
-	next "to spot splashing"
-	page "MAGIKARP, even"
-	next "while flying at"
-	next "3300 feet.@"
+	db   "Son incroyable vue"
+	next "lui permet de"
+	next "repérer un"
+	page "MAGICARPE faisant"
+	next "trempette jusqu'à"
+	next "3300 pieds.@"
 ; 0x181e3d
 
 .metric
-	db   "Its outstanding"
-	next "vision allows it"
-	next "to spot splashing"
-	page "MAGIKARP, even"
-	next "while flying at"
-	next "1000 meters.@"
+	db   "Son incroyable vue"
+	next "lui permet de"
+	next "repérer un"
+	page "MAGICARPE faisant"
+	next "trempette jusqu'à"
+	next "1000 metres.@"
 

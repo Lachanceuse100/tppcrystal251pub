@@ -175,223 +175,230 @@ Route3RBMovement_StepUp
 	step_end
 
 _Route3Text1:
-	text "Whew<...> I better"
-	line "take a rest<...>"
-	cont "Groan<...>"
+	text "Pfou<...> Je vais"
+	line "faire une sieste<...>"
 
-	para "That tunnel from"
-	line "CERULEAN takes a"
-	cont "lot out of you!"
+	para "Ce tunnel d'AZURIA"
+	line "est beaucoup trop"
+	cont "épuisant."
 	done
 
 _Route3BattleText1:
-	text "Hey! I met you in"
-	line "VIRIDIAN FOREST!"
+	text "Hé! On s'est vu"
+	line "à la FORET DE"
+	cont "JADE!"
 	done
 
 _Route3EndBattleText1:
-	text "You beat me again!"
+	text "Tu m'as encore eu!"
 	done
 
 _Route3AfterBattleText1:
-	text "There are other"
-	line "kinds of #MON"
-	cont "than those found"
-	cont "in the forest!"
+	text "Il y a plein"
+	line "d'autres #MON"
+	cont "que ceux qu'on"
+	cont "trouve dans la"
+	cont "forêt!"
 	done
 
 _Route3BattleText2:
-	text "Hi! I like shorts!"
-	line "They're comfy and"
-	cont "easy to wear!"
+	text "J'aime les"
+	line "shorts! Ils sont"
+	cont "faciles à porter!"
 	done
 
 _Route3EndBattleText2:
-	text "I don't believe"
-	line "it!"
+	text "Je le crois pas!"
 	done
 
 _Route3AfterBattleText2:
-	text "Are you storing"
-	line "your #MON on"
-	cont "PC? Each BOX can"
-	cont "hold 20 #MON!"
+	text "Tu stockes tes"
+	line "#MON dans les"
+	cont "PC? Chaque boîte"
+	cont "peut contenir"
+	cont "20 #MON."
 	done
 
 _Route3BattleText3:
-	text "You looked at me,"
-	line "didn't you?"
+	text "Tu m'as regardé,"
+	line "là?"
 	done
 
 _Route3EndBattleText3:
-	text "You're mean!"
+	text "Méchant!"
 	done
 
 _Route3AfterBattleText3:
-	text "Quit staring if"
-	line "you don't want to"
-	cont "fight!"
+	text "Evite les regards"
+	line "si tu ne veux pas"
+	cont "te battre!"
 	done
 
 _Route3BattleText4:
-	text "Are you a trainer?"
-	line "Let's fight!"
+	text "Tu es un dresseur?"
+	line "Combat!"
 	done
 
 _Route3EndBattleText4:
-	text "If I had new"
-	line "#MON, I would've"
-	cont "won!"
+	text "Si j'avais"
+	line "d'autres #MON,"
+	cont "j'aurais gagné!"
 	done
 
 _Route3AfterBattleText4:
-	text "If a #MON BOX"
-	line "on the PC gets"
-	cont "full, just switch"
-	cont "to another BOX!"
+	text "Si une boîte #-"
+	line "MON du PC est"
+	cont "pleine, change"
+	cont "de boîte."
 	done
 
 _Route3BattleText5:
-	text "That look you"
-	line "gave me, it's so"
-	cont "intriguing!"
+	text "Ce regard<...>"
+	line "C'est intriguant!"
 	done
 
 _Route3EndBattleText5:
-	text "Be nice!"
+	text "Soit sympa!"
 	done
 
 _Route3AfterBattleText5:
-	text "Avoid fights by"
-	line "not letting"
-	cont "people see you!"
+	text "Evite les combats"
+	line "en évitant les"
+	cont "regards!"
 	done
 
 _Route3BattleText6:
-	text "Hey! You're not"
-	line "wearing shorts!"
+	text "Tu ne portes"
+	line "pas de shorts?"
 	done
 
 _Route3EndBattleText6:
-	text "Lost! Lost! Lost!"
+	text "Perdu! Perdu!"
+	line "Perdu!"
 	done
 
 _Route3AfterBattleText6:
-	text "I always wear"
-	line "shorts, even in"
-	cont "winter!"
+	text "Je porte toujours"
+	line "des shorts! Même"
+	cont "en hiver!"
 	done
 
 _Route3BattleText7:
-	text "You can fight my"
-	line "new #MON!"
+	text "Tu vas combattre"
+	line "mon nouveau"
+	cont "#MON!"
 	done
 
 _Route3EndBattleText7:
-	text "Done like dinner!"
+	text "J'en ai assez!"
 	done
 
 _Route3AfterBattleText7:
-	text "Trained #MON"
-	line "are stronger than"
-	cont "the wild ones!"
+	text "Les #MON en-"
+	line "traînés sont plus"
+	cont "forts que les"
+	cont "#MON sauvages."
 	done
 
 _Route3BattleText8:
-	text "Eek! Did you"
-	line "touch me?"
+	text "Hii! Tu m'as"
+	line "touché?"
 	done
 
 _Route3EndBattleText8:
-	text "That's it?"
+	text "C'est tout?"
 	done
 
 _Route3AfterBattleText8:
-	text "ROUTE 4 is at the"
-	line "foot of MT.MOON."
+	text "ROUTE 4 est au"
+	line "pied du MONT"
+	cont "SELENITE."
 	done
 
 _Route3Text10:
 	text "ROUTE 3"
-	line "MT.MOON AHEAD"
+	line "MONT SELENITE"
+	cont "DEVANT"
 	done
 
 Route3RBRocketsText1:
 	text "<...>"
 
-	para "So BOSS wants us"
-	line "to go down there"
-	cont "for some dirty old"
-	cont "rocks?"
+	para "Le boss veut qu'on"
+	line "aille déterrer des"
+	cont "vieux caillous?"
 	done
 
 Route3RBRocketsText2:
-	text "I don't get it"
-	line "either."
+	text "Ouais, j'ai pas"
+	line "compris non plus."
 
-	para "It's almost like he"
-	line "worships them."
+	para "On dirait qu'il"
+	line "les vénère."
 	done
 
 Route3RBRocketsText3:
-	text "Hey! This is a"
-	line "private conver-"
-	cont "sation! Get lost!"
+	text "Hé! C'est une"
+	line "conversation"
+	cont "privée! Dégage!"
 	done
 
 Route3RBRocketsText4:
-	text "Hey! Were you"
-	line "eavesdropping?"
+	text "Oh! Tu nous"
+	line "écoutais?"
 
-	para "You've heard far"
-	line "too much, squirt."
+	para "T'en a trop"
+	line "entendu, avorton."
 
-	para "Now prepare to"
-	line "feel the wrath of"
+	para "Prépare toi à la"
+	line "colère de la"
 	cont "TEAM ROCKET!"
 	done
 
 Route3RBRocketsWinText1:
-	text "What the-?"
+	text "Que-?"
 	done
 
 Route3RBRocketsText5:
-	text "Now it's my turn."
-	line "I'll make you cry!"
+	text "A moi."
+	line "Tu vas pleurer!"
 	done
 
 Route3RBRocketsWinText2:
-	text "This power<...>"
+	text "Comment<...>"
 	done
 
 Route3RBRocketsText6:
-	text "We're TEAM ROCKET."
-	line "We exist to con-"
-	cont "trol all #MON."
+	text "On est la TEAM"
+	line "ROCKET. On"
+	cont "contrôlera tous"
+	cont "les #MON."
 
-	para "You dare to meddle"
-	line "in our BOSS's"
-	cont "schemes?"
-	cont "Bring it on!"
+	para "Tu veux te mêler"
+	line "des affaires du"
+	cont "BOSS?"
+	cont "Amène toi!"
 
-	para "<...> I'd say that, but"
-	line "you trashed us"
-	cont "good, kid. We'll"
-	cont "remember you."
+	para "<...>"
+
+	para "<...> Enfin, je dis"
+	line "ça mais tu nous as"
+	cont "allumés là. On"
+	cont "se souviendra de"
+	cont "toi."
 	done
 
 Route3RBLassTextBeforeRockets:
-	text "Those shady-"
-	line "looking men<...>"
+	text "Ces gens bizarres<...>"
 
-	para "What are they"
-	line "talking about?"
+	para "De quoi ils"
+	line "parlent?"
 	done
 
 Route3RBLassText:
-	text "Ouch! I tripped"
-	line "over a rocky"
-	cont "#MON, GEODUDE!"
+	text "Aïe! J'ai trébuché"
+	line "sur un #MON de"
+	cont "pierre, RACAILLOU!"
 	done
 
 Route3RB_MapEventHeader: ; 0x1ae18a

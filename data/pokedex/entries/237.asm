@@ -1,12 +1,12 @@
 ; HitmontopPokedexEntry: ; 0x1d12c0
-	db "HANDSTAND@" ; species name
+	db "POIRIER@" ; species name
 	dw 407, 1060 ; height, width
 
-	db   "After doing a"
-	next "handstand to"
-	next "throw off the"
-	page "opponent's timing,"
-	next "it presents its"
-	next "fancy kick moves.@"
+	db   "Après avoir effec-"
+	next "tué un poirier"
+	next "pour déstabiliser"
+	page "l'adversaire, il,"
+	next "lance des coups de"
+	next "pied furieux.@"
 ; 0x1d132b
 

@@ -1,12 +1,12 @@
 ; GloomPokedexEntry: ; 0x1828a6
-	db "WEED@" ; species name
+	db "RACINE@" ; species name
 	dw 207, 190 ; height, width
 
-	db   "The smell from its"
-	next "drool-like syrup"
-	next "and the pollen on"
-	page "its petals is so"
-	next "bad, it may make"
-	next "opponents faint.@"
+	db   "L'odeur de son si-"
+	next "rop buccal et du"
+	next "pollen de ses pé-"
+	page "tales est si mau-"
+	next "vaise qu'elle met"
+	next "facilement K.O.@"
 ; 0x182918
 

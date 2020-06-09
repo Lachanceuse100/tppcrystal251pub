@@ -24,27 +24,27 @@ ViridianNicknameSpeechHouseRBMoltresScript: ; 0x9ae40
 ; 0x9ae4a
 
 _ViridianHouseText1:
-	text "Coming up with"
-	line "nicknames is fun,"
-	cont "but hard."
+	text "Trouver des sur-"
+	line "noms est difficile"
+	cont "mais amusant."
 
-	para "Simple names are"
-	line "the easiest to"
-	cont "remember."
+	para "Les noms simples"
+	line "se retiennent plus"
+	cont "facilement."
 	done
 
 _ViridianHouseText2:
-	text "My Daddy loves"
-	line "#MON too."
+	text "Papa aime aussi"
+	line "les #MON."
 	done
 
 _ViridianHouseText_1d5b1:
-	text "SPEARY: Tetweet!"
+	text "PIAFFY: Tetweet!"
 	done
 
 _ViridianHouseText4:
-	text "SPEAROW"
-	line "Name: SPEARY"
+	text "PIAFABEC"
+	line "Nom: PIAFFY"
 	done
 
 

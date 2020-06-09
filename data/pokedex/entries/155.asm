@@ -1,12 +1,12 @@
 ; CyndaquilPokedexEntry: ; 0x1ccabd
-	db "FIRE MOUSE@" ; species name
+	db "SOURIS FEU@" ; species name
 	dw 108, 170 ; height, width
 
-	db   "The fire that"
-	next "spouts from its"
-	next "back burns hottest"
-	page "when it is angry."
-	next "The flaring flames"
-	next "intimidate foes.@"
+	db   "Les flammes éma-"
+	next "nant de son dos"
+	next "grandissent s'il"
+	page "est en colere. Il"
+	next "impressionne ainsi"
+	next "ses ennemis.@"
 ; 0x1ccb33
 

@@ -22,23 +22,24 @@ CeruleanMartRBLassScript: ; 0x188aca
 ; 0x188acd
 
 _CeruleanMartText2:
-	text "Use REPEL to keep"
-	line "bugs and weak"
-	cont "#MON away."
+	text "Utilise un"
+	line "REPOUSSE pour"
+	cont "éloigner les #-"
+	cont "MON faibles."
 
-	para "Put your strongest"
-	line "#MON at the"
-	cont "top of the list"
-	cont "for best results!"
+	para "Met ton plus fort"
+	line "#MON en haut de"
+	cont "ta liste pour le"
+	cont "meilleur résultat!"
 	done
 
 _CeruleanMartText3:
-	text "Have you seen any"
-	line "RARE CANDY?"
+	text "Tu as vu des"
+	line "SUPER BONBON?"
 
-	para "It's supposed to"
-	line "make #MON go"
-	cont "up one level!"
+	para "C'est supposé"
+	line "monter le niveau"
+	cont "de ton #MON."
 	done
 
 CeruleanMartRB_MapEventHeader: ; 0x188b9b

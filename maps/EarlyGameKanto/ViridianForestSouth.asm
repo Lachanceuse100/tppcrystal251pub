@@ -13,19 +13,20 @@ ViridianForestSouthRB_TwinScript:
 	jumptextfaceplayer _ViridianForestEntranceText2
 
 _ViridianForestEntranceText1: ; 8a868 (22:6868)
-	text "Are you going to"
-	line "VIRIDIAN FOREST?"
+	text "Tu vas dans la"
+	line "FORET DE JADE?"
 
-	para "Be careful, it's"
-	line "a natural maze!"
+	para "Fais attention,"
+	line "c'est un vrai"
+	cont "labyrinthe!"
 	done
 
 _ViridianForestEntranceText2: ; 8a8ab (22:68ab)
-	text "RATTATA may be"
-	line "small, but its"
+	text "RATTATA est petit"
+	line "mais sa MORSURE"
 
-	para "bite is wicked!"
-	line "Did you get one?"
+	para "est vicieuse!"
+	line "Tu en as un?"
 	done
 
 

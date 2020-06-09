@@ -1,12 +1,12 @@
 ; AerodactylPokedexEntry: ; 0x1cc576
-	db "FOSSIL@" ; species name
+	db "FOSSILE@" ; species name
 	dw 511, 1300 ; height, width
 
-	db   "In prehistoric"
-	next "times, this"
-	next "#MON flew"
-	page "freely and"
-	next "fearlessly through"
-	next "the skies.@"
+	db   "A la préhistoire,"
+	next "ce #MON volait"
+	next "librement et sans"
+	page "crainte d'être"
+	next "chassé."
+	next "@"
 ; 0x1cc5cf
 

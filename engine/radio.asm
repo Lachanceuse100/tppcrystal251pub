@@ -682,7 +682,7 @@ Functionb89a9: ; b89a9 (2e:49a9)
 ; b89b9 (2e:49b9)
 
 String_b89b9:
-	db "#MON Channel@"
+	db "Chaine #MON@"
 ; b89c6
 
 Functionb89c6: ; b89c6 (2e:49c6)
@@ -1838,11 +1838,11 @@ Unknown_b9019: db 1, 12, POTION, ANTIDOTE, PARLYZ_HEAL
 Unknown_b901e: db 1, 12, POKE_BALL, GREAT_BALL, ULTRA_BALL
 Unknown_b9023: db 0, 10, PIKACHU, RATTATA, GEODUDE
 Unknown_b9028: db 0, 10, HOOTHOOT, SPINARAK, DROWZEE
-Unknown_b902d: db 3, 16, "NEW BARK TOWN@", "CHERRYGROVE CITY@", "AZALEA TOWN@"
-Unknown_b905a: db 3, 6,  "FLYING@", "BUG@", "GRASS@"
-Unknown_b906d: db 2, 12, TACKLE, GROWL, MUD_SLAP
-Unknown_b9072: db 1, 12, X_ATTACK, X_DEFEND, X_SPEED
-Unknown_b9077: db 3, 13, "#MON Talk@", "#MON Music@", "Lucky Channel@"
+Unknown_b902d: db 3, 16, "BOURG GEON@", "VILLE GRIOTTE@", "ECORCIA@"
+Unknown_b905a: db 3, 8,  "VOL@", "INSECTE@", "PLANTE@"
+Unknown_b906d: db 2, 14, TACKLE, GROWL, MUD_SLAP
+Unknown_b9072: db 1, 15, X_ATTACK, X_DEFEND, X_SPEED
+Unknown_b9077: db 3, 15, "Chronique", $e1, $e2, " CHEN@", "Musique #MON@", "Antenne chance@"
 ; b909c
 
 Functionb909c: ; b909c (2e:509c)
@@ -1968,7 +1968,7 @@ Functionb9169: ; b9169 (2e:5169)
 ; b9171 (2e:5171)
 
 String_b9171:
-	db "BUENA'S PASSWORD@"
+	db "MOT DE PASSE@"
 ; b9182
 
 UnknownText_0xb9182: ; 0xb9182

@@ -34,14 +34,15 @@ FossilMenu:
 	ret
 
 .WhatllItBe
-	text "Oh? You have a"
-	line "FOSSIL? Great!"
+	text "Oh? Tu as un"
+	line "fossile? Super!"
 
-	para "Leave it with me,"
-	line "and I'll revive it"
+	para "Laisse le moi et"
+	line "je le ranimerais"
 
-	para "from the genetic"
-	line "material within!"
+	para "grâce au matériel"
+	line "génétique à"
+	cont "l'intérieur"
 	done
 
 .MenuDataHeader_OneFossil
@@ -72,10 +73,10 @@ FossilMenu:
 	dw Function1f79
 	dw .strings
 .strings
-	db "HELIX FOSSIL@"
-	db "DOME FOSSIL@"
-	db "OLD AMBER@"
-	db "CANCEL@"
+	db "NAUTILE@"
+	db "FOSSILE DOME@"
+	db "VIEIL AMBRE@"
+	db "ANNULER@"
 
 IsAFossil:
 	; Checks to see whether item (a) is a fossil.  Sets carry and returns the index in the fossil list in b: 0 = Helix, 1 = Dome, 2 = Amber.  If not found, clears carry.

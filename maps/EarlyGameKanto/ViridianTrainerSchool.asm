@@ -72,9 +72,9 @@ ViridianTrainerSchoolRBBlackboardScript:
 .Strings
 	db "PSN@"
 	db "PAR@"
-	db "SLP@"
-	db "BRN@"
-	db "FRZ@"
+	db "SOM@"
+	db "BRU@"
+	db "GEL@"
 	db "QUIT@"
 ; 0x68b0b
 
@@ -106,162 +106,172 @@ ViridianTrainerSchoolRB_NotebookScript
 	end
 
 _SchoolText1:
-	text "Whew! I'm trying"
-	line "to memorize all"
-	cont "my notes."
+	text "Pfiou! J'essaie"
+	line "de mémoriser"
+	cont "mes notes."
 	done
 
 _SchoolText2:
-	text "Okay!"
+	text "Très bien!"
 
-	para "Be sure to read"
-	line "the blackboard"
-	cont "carefully!"
+	para "Attention de bien"
+	line "lire le tableau!"
 	done
 
 _ViridianSchoolBlackboardText1:
-	text "The blackboard"
-	line "describes #MON"
-	cont "STATUS changes"
-	cont "during battles."
+	text "Le tableau décrit"
+	line "les changements de"
+	cont "STATUT durant les"
+	cont "combats."
 	done
 
 _ViridianSchoolBlackboardText2:
-	text "Which heading do"
-	line "you want to read?"
+	text "Lequel veux-tu"
+	line "lire?"
 	done
 
 _ViridianBlackboardSleepText:
-	text "A #MON can't"
-	line "attack if it's"
-	cont "asleep!"
+	text "Un #MON ne peux"
+	line "pas attaquer si"
+	cont "il dort!"
 
-	para "#MON will stay"
-	line "asleep even after"
-	cont "battles."
+	para "Les #MON"
+	line "restent endormis"
+	cont "après les combats."
 
-	para "Use AWAKENING to"
-	line "wake them up!"
+	para "Utilisez des"
+	line "REVEIL pour les"
+	cont "réveiller."
 	done
 
 _ViridianBlackboardPoisonText:
-	text "When poisoned, a"
-	line "#MON's health"
-	cont "steadily drops."
+	text "Empoisonné, les PV"
+	line "d'un #MON des-"
+	cont "cendent lentement."
 
-	para "Poison lingers"
-	line "after battles."
+	para "Le poison reste"
+	line "après les combats."
 
-	para "Use an ANTIDOTE"
-	line "to cure poison!"
+	para "Utilisez un ANTI-"
+	line "DOTE pour soigner"
+	cont "l'empoisonnement."
 	done
 
 _ViridianBlackboardPrlzText:
-	text "Paralysis could"
-	line "make #MON"
-	cont "moves misfire!"
+	text "La paralysie peut"
+	line "empêcher le #-"
+	cont "MON de bouger."
 
-	para "Paralysis remains"
-	line "after battles."
+	para "La paralysie reste"
+	line "après les combats."
 
-	para "Use PARLYZ HEAL"
-	line "for treatment!"
+	para "Utilisez des ANTI-"
+	line "PARA pour guérir."
 	done
 
 _ViridianBlackboardBurnText:
-	text "A burn reduces"
-	line "power and speed."
-	cont "It also causes"
-	cont "ongoing damage."
+	text "Une brûlure réduit"
+	line "la puissance et la"
+	cont "vitesse en plus"
+	cont "d'infliger des"
+	cont "dégâts graduels."
 
-	para "Burns remain"
-	line "after battles."
+	para "La brûlure reste"
+	line "après les combats."
 
-	para "Use BURN HEAL to"
-	line "cure a burn!"
+	para "Elle se traite"
+	line "avec l'ANTI-BRULE."
 	done
 
 _ViridianBlackboardFrozenText:
-	text "If frozen, a"
-	line "#MON becomes"
-	cont "totally immobile!"
+	text "Un #MON gelé"
+	line "devient totalement"
+	cont "immobile!"
 
-	para "It stays frozen"
-	line "even after the"
-	cont "battle ends."
+	para "Le gel reste même"
+	line "après les combats."
 
-	para "Use ICE HEAL to"
-	line "thaw out #MON!"
+	para "Elle se traite"
+	line "avec l'ANTI-GEL."
 	done
 
 _TurnPageText:
-	text "Turn the page?"
+	text "Tourner la page?"
 	done
 
 _ViridianSchoolNotebookText5:
-	text "GIRL: Hey! Don't"
-	line "look at my notes!"
+	text "FILLE: Hé! Ne"
+	line "regarde pas mes"
+	cont "notes."
 	done
 
 _ViridianSchoolNotebookText1:
-	text "Looked at the"
-	line "notebook!"
+	text "Vous regardez le"
+	line "cahier!"
 
-	para "First page<...>"
+	para "Première page<...>"
 
-	para "# BALLs are"
-	line "used to catch"
+	para "Les # BALL"
+	line "peuvent capturer"
+	cont "des #MON."
+
+	para "Jusqu'à 6 #MON"
+	line "peuvent être"
+	cont "transportés."
+
+	para "Les personnes"
+	line "élevant les #-"
+	cont "MON sont appelés"
+	cont "les dresseurs de"
 	cont "#MON."
-
-	para "Up to 6 #MON"
-	line "can be carried."
-
-	para "People who raise"
-	line "and make #MON"
-	cont "fight are called"
-	cont "#MON trainers."
 	done
 
 _ViridianSchoolNotebookText2:
-	text "Second page<...>"
+	text "Seconde page<...>"
 
-	para "A healthy #MON"
-	line "may be hard to"
-	cont "catch, so weaken"
-	cont "it first!"
+	para "Un #MON en"
+	line "forme peut être"
+	cont "dur à attraper, il"
+	cont "faut d'abord"
+	cont "l'affaiblir."
 
-	para "Poison, burns and"
-	line "other damage are"
-	cont "effective!"
+	para "Poison, brûlure et"
+	line "autres dégâts sont"
+	cont "efficaces!"
 	done
 
 _ViridianSchoolNotebookText3:
-	text "Third page<...>"
+	text "Troisième page<...>"
 
-	para "#MON trainers"
-	line "seek others to"
-	cont "engage in #MON"
-	cont "fights."
+	para "Le but de chaque"
+	line "dresseur #MON"
+	cont "est de s'engager"
+	cont "dans des combats"
+	cont "#MON contre d'"
+	cont "autres dresseurs"
 
-	para "Battles are"
-	line "constantly fought"
-	cont "at #MON GYMs."
+	para "Des combats se"
+	line "tiennent en"
+	cont "permanence dans"
+	cont "les ARENES"
+	cont "#MON."
 	done
 
 _ViridianSchoolNotebookText4:
-	text "Fourth page<...>"
+	text "Quatrième page<...>"
 
-	para "The goal for"
-	line "#MON trainers"
-	cont "is to beat the "
-	cont "top 8 #MON"
-	cont "GYM LEADERs."
+	para "Le rêve de chaque"
+	line "dresseur est de"
+	cont "battre les 8 cham-"
+	cont "pions d'ARENE"
+	cont "#MON."
 
-	para "Do so to earn the"
-	line "right to face<...>"
+	para "Ces victoires"
+	line "donnent le droit"
+	cont "d'affronter<...>"
 
-	para "The ELITE FOUR of"
-	line "#MON LEAGUE!"
+	para "Le CONSEIL des 4 à"
+	line "la LIGUE #MON!"
 	done
 
 

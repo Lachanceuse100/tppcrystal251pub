@@ -22,29 +22,31 @@ VermilionMartRBBuenaScript: ; 0x191f88
 ; 0x191f8b
 
 _VermilionMartText2: ; 0x191f8b
-	text "There are evil"
-	line "people who will"
-	cont "use #MON for"
-	cont "criminal acts."
+	text "Il y a des cri-"
+	line "minels qui se"
+	cont "sevent des #MON"
+	cont "pour des actes"
+	cont "criminels."
 
-	para "TEAM ROCKET"
-	line "traffics in rare"
-	cont "#MON."
+	para "La TEAM ROCKET"
+	line "fait du trafic de"
+	cont "#MON rares."
 
-	para "They also abandon"
-	line "#MON that they"
-	cont "consider not to"
-	cont "be popular or"
-	cont "useful."
+	para "Ils abandonnent"
+	line "les #MON qu'ils"
+	cont "ne considèrent pas"
+	cont "populaires ou"
+	cont "utiles."
 	done
 
 ; 0x191fca
 
 _VermilionMartText3: ; 0x191fca
-	text "I think #MON"
-	line "can be good or"
-	cont "evil. It depends"
-	cont "on the trainer."
+	text "Je pense que les"
+	line "#MON peuvent"
+	cont "être bons ou"
+	cont "mauvais selon"
+	cont "leur dresseur."
 	done
 
 ; 0x191ff8

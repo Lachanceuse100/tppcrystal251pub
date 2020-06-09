@@ -1,12 +1,12 @@
 ; XatuPokedexEntry: ; 0x1cd4e9
-	db "MYSTIC@" ; species name
+	db "MYSTIQUE@" ; species name
 	dw 411, 330 ; height, width
 
-	db   "Once it begins to"
-	next "meditate at sun-"
-	next "rise, the entire"
-	page "day will pass"
-	next "before it will"
-	next "move again.@"
+	db   "Il peut rester"
+	next "à méditer sans"
+	next "bouger, du lever"
+	page "du soleil jusqu'à"
+	next "la tombée de la"
+	next "nuit.@"
 ; 0x1cd551
 

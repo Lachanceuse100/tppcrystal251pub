@@ -1,12 +1,12 @@
 ; GrimerPokedexEntry: ; 0x1b89a2
-	db "SLUDGE@" ; species name
+	db "DEGUEU@" ; species name
 	dw 211, 660 ; height, width
 
-	db   "When two of these"
-	next "#MON's bodies"
-	next "are combined"
-	page "together, new"
-	next "poisons are"
-	next "created.@"
+	db   "Quand les corps de"
+	next "2 TADMORV se com-"
+	next "binent, de nou-"
+	page "veaux poisons sont"
+	next "crees."
+	next "@"
 ; 0x1b89fc
 

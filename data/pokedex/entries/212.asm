@@ -1,12 +1,12 @@
 ; ScizorPokedexEntry: ; 0x1d0821
-	db "SCISSORS@" ; species name
+	db "CISEAUX@" ; species name
 	dw 511, 2600 ; height, width
 
-	db   "This #MON's"
-	next "pincers, which"
-	next "contain steel, can"
-	page "crush any hard"
-	next "object it gets a"
-	next "hold of into bits.@"
+	db   "Les pinces de ce"
+	next "#MON contien-"
+	next "nent de l'acier et"
+	page "peuvent réduire en"
+	next "miettes quasiment"
+	next "n'importe quoi.@"
 ; 0x1d088e
 

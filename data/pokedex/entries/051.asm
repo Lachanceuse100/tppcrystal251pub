@@ -1,20 +1,20 @@
 ; DugtrioPokedexEntry: ; 0x182b9d
-	db "MOLE@" ; species name
+	db "TAUPE@" ; species name
 	dw 204, 730 ; height, width
 
 	metricdex .metric
-	db   "These DIGLETT"
-	next "triplets dig over"
-	next "60 miles below sea"
-	page "level. No one"
-	next "knows what it's"
-	next "like underground.@"
+	db   "Ces triplés de"
+	next "TAUPIQUEUR creu-"
+	next "sent à plus de 60"
+	page "miles sous terre,"
+	next "vers l'inconnu."
+	next "@"
 ; 0x182c08
 
 .metric
-	db   "These DIGLETT"
-	next "triplets dig over"
-	next "100km below sea"
-	page "level. No one"
-	next "knows what it's"
-	next "like underground.@"
+	db   "Ces triplés de"
+	next "TAUPIQUEUR creu-"
+	next "sent à plus de 100"
+	page "km sous terre,"
+	next "vers l'inconnu."
+	next "@"

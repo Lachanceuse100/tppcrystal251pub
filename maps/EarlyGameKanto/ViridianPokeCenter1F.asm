@@ -22,27 +22,28 @@ ViridianPokeCenter1FBugCatcherScript: ; 0x9b6aa
 ; 0x9b6ad
 
 _ViridianPokeCenterText1:
-	text "You can use that"
-	line "PC in the corner."
+	text "Tu peux utiliser"
+	line "le PC là bas."
 
-	para "The receptionist"
-	line "told me. So kind!"
+	para "C'est l'hôtesse"
+	line "qui me l'a dit."
+	cont "Elle est cool."
 	done
 
 _ViridianPokeCenterText3:
-	text "There's a #MON"
-	line "CENTER in every"
-	cont "town ahead."
+	text "Il y a un centre"
+	line "#MON dans chaque"
+	cont "ville."
 
-	para "They don't charge"
-	line "any money either!"
+	para "C'est gratuit"
+	line "en plus!"
 	done
 
 _ViridianCityPokecenterGuyText::
-	text "#MON CENTERs"
-	line "heal your tired,"
-	cont "hurt or fainted"
-	cont "#MON!"
+	text "Les centres #-"
+	line "MON soignent tous"
+	cont "les #MON blessés"
+	cont "ou K.O!"
 	done
 
 ViridianPokeCenter1FRB_LinkScript:

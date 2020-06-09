@@ -1,12 +1,12 @@
 ; SlugmaPokedexEntry: ; 0x1d0ab8
-	db "LAVA@" ; species name
+	db "LAVE@" ; species name
 	dw 204, 770 ; height, width
 
-	db   "These group to-"
-	next "gether in areas"
-	next "that are hotter"
-	page "than normal. If it"
-	next "cools off, its"
-	next "skin hardens.@"
+	db   "Il vit en groupe"
+	next "dans les endroits"
+	next "chauds."
+	page "Si la température"
+	next "baisse, sa peau se"
+	next "solidifie.@"
 ; 0x1d0b21
 

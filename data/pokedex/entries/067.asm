@@ -1,12 +1,12 @@
 ; MachokePokedexEntry: ; 0x1b80cb
-	db "SUPERPOWER@" ; species name
+	db "COLOSSE@" ; species name
 	dw 411, 1550 ; height, width
 
-	db   "This tough #MON"
-	next "always stays in"
-	next "the zone. Its"
-	page "muscles become"
-	next "thicker after"
-	next "every battle.@"
+	db   "Il se donne tou-"
+	next "jours à fond."
+	next "Ses muscles sont"
+	page "plus importants"
+	next "après chaque com-"
+	next "bat.@"
 ; 0x1b8133
 

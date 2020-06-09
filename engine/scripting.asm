@@ -720,13 +720,13 @@ GetPocketName: ; 96ffe
 	dw .TM
 
 .Item
-	db "ITEM POCKET@"
+	db "POCHE OBJ@"
 .Key
-	db "KEY POCKET@"
+	db "POCHE RARES@"
 .Ball
-	db "BALL POCKET@"
+	db "POCHE BALLS@"
 .TM
-	db "TM POCKET@"
+	db "POCHE CT@"
 ; 97051
 
 CurItemName: ; 97051

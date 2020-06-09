@@ -1,12 +1,12 @@
 ; VictreebelPokedexEntry: ; 0x1b826e
-	db "FLYCATCHER@" ; species name
+	db "CARNIVORE@" ; species name
 	dw 507, 340 ; height, width
 
-	db   "Once ingested into"
-	next "this #MON's"
-	next "body, even the"
-	page "hardest object"
-	next "will melt into"
-	next "nothing.@"
+	db   "Tout corps ingéré"
+	next "par ce #MON est"
+	next "systématiquement"
+	page "dissout en bouil-"
+	next "lie."
+	next "@"
 ; 0x1b82d1
 

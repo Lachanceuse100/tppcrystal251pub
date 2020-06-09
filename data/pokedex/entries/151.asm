@@ -1,12 +1,12 @@
 ; MewPokedexEntry: ; 0x1cc915
-	db "NEW SPECIE@" ; species name
+	db "NOUVEAU@" ; species name
 	dw 104, 90 ; height, width
 
-	db   "Because it can"
-	next "learn any move,"
-	next "some people began"
-	page "research to see if"
-	next "it is the ancestor"
-	next "of all #MON.@"
+	db   "Etant donné qu'il"
+	next "peut apprendre"
+	next "toutes les capaci-"
+	page "tés, on le prend"
+	next "pour l'ancetre des"
+	next "#MON.@"
 ; 0x1cc988
 

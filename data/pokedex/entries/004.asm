@@ -1,12 +1,12 @@
 ; CharmanderPokedexEntry: ; 0x1817db
-	db "LIZARD@" ; species name
+	db "LEZARD@" ; species name
 	dw 200, 190 ; height, width
 
-	db   "If it's healthy,"
-	next "the flame on the"
-	next "tip of its tail"
-	page "will burn vigor-"
-	next "ously, even if it"
-	next "gets a bit wet.@"
+	db   "S'il est en bonne"
+	next "santé, la flamme"
+	next "sur sa queue est"
+	page "importante, meme"
+	next "s'il pleut."
+	next "@"
 ; 0x18184a
 

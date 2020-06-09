@@ -10,12 +10,14 @@ VermilionDockTruckScript:
 	jumptext VermilionDockTruckText
 
 VermilionDockTruckText:
-	text "A cat-like #MON"
-	line "is sleeping under-"
-	cont "neath the truck."
+	text "Un #MON chat"
+	line "dort sous le"
+	cont "camion."
 
-	para "Better leave it"
-	line "alone."
+	para "<...>"
+
+	para "Mieux vaut le"
+	line "laisser dormir."
 	done
 
 VermilionDock_MapEventHeader:

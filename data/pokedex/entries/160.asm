@@ -1,12 +1,12 @@
 ; FeraligatrPokedexEntry: ; 0x1cccf9
-	db "BIG JAW@" ; species name
+	db "MACHOIRE@" ; species name
 	dw 707, 1960 ; height, width
 
-	db   "Although it has a"
-	next "massive body, its"
-	next "powerful hind legs"
-	page "enable it to move"
-	next "quickly, even on"
-	next "the ground.@"
+	db   "Bien qu'étant tr", $c6, "s"
+	next "massif, ses puis-"
+	next "santes pattes ar-"
+	page "riere lui permet-"
+	next "tent de se dépla-"
+	next "cer rapidement.@"
 ; 0x1ccd6b
 

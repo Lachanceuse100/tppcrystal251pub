@@ -1,12 +1,12 @@
 ; FurretPokedexEntry: ; 0x1ccddd
-	db "LONG BODY@" ; species name
+	db "ALLONGE@" ; species name
 	dw 511, 720 ; height, width
 
-	db   "It lives in narrow"
-	next "burrows that fit"
-	next "its slim body. The"
-	page "deeper the nests"
-	next "go, the more maze-"
-	next "like they become.@"
+	db   "Il fabrique un nid"
+	next "souterrain tr", $c6, "s"
+	next "étroit et consti-"
+	page "tué de galeries"
+	next "labyrinthiques."
+	next "@"
 ; 0x1cce58
 

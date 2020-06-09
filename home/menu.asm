@@ -189,8 +189,8 @@ YesNoMenuDataHeader:: ; 1e1d
 YesNoMenuData2:: ; 1e25
 	db $c0 ; flags
 	db 2
-	db "YES@"
-	db "NO@"
+	db "OUI@"
+	db "NON@"
 ; 1e2e
 
 Function1e2e:: ; 1e2e

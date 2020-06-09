@@ -1,12 +1,12 @@
 ; GeodudePokedexEntry: ; 0x1b83a1
-	db "ROCK@" ; species name
+	db "ROCHE@" ; species name
 	dw 104, 440 ; height, width
 
-	db   "Proud of their"
-	next "sturdy bodies,"
-	next "they bash against"
-	page "each other in a"
-	next "contest to prove"
-	next "whose is harder.@"
+	db   "Fiers de leur"
+	next "corps résistant,"
+	next "ils se jettent les"
+	page "uns contre les"
+	next "autres pour être"
+	next "les plus forts.@"
 ; 0x1b840c
 

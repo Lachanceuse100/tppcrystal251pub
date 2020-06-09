@@ -1,12 +1,12 @@
 ; SpearowPokedexEntry: ; 0x181f03
-	db "TINY BIRD@" ; species name
+	db "MINOISEAU@" ; species name
 	dw 100, 40 ; height, width
 
-	db   "To protect its"
-	next "territory, it"
-	next "flies around"
-	page "ceaselessly,"
-	next "making high-"
-	next "pitched cries.@"
+	db   "Pour protéger son"
+	next "territoire, il"
+	next "vole sans répit"
+	page "et pousse de"
+	next "grands cris aigus."
+	next "@"
 ; 0x181f64
 

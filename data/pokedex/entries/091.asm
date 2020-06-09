@@ -2,11 +2,11 @@
 	db "BIVALVE@" ; species name
 	dw 411, 2920 ; height, width
 
-	db   "Even a missile"
-	next "can't break the"
-	next "spikes it uses to"
-	page "stab opponents."
-	next "They're even hard-"
-	next "er than its shell.@"
+	db   "Un missile ne peut"
+	next "pas détruire les"
+	next "pics qu'il jette"
+	page "sur ses ennemis."
+	next "Ils sont plus durs"
+	next "que sa coquille.@"
 ; 0x1b8b4a
 

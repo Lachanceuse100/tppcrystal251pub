@@ -1,12 +1,12 @@
 ; DonphanPokedexEntry: ; 0x1d10ac
-	db "ARMOR@" ; species name
+	db "ARMURE@" ; species name
 	dw 307, 2650 ; height, width
 
-	db   "Because this"
-	next "#MON's skin is"
-	next "so tough, a normal"
-	page "attack won't even"
-	next "leave a scratch on"
-	next "it.@"
+	db   "Sa peau est si"
+	next "épaisse et résis-"
+	next "tante qu'une atta-"
+	page "que normale ne"
+	next "peut l'atteindre."
+	next "@"
 ; 0x1d110c
 

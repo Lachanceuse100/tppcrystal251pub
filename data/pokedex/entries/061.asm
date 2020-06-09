@@ -1,12 +1,12 @@
 ; PoliwhirlPokedexEntry: ; 0x182ffd
-	db "TADPOLE@" ; species name
+	db "TETARD@" ; species name
 	dw 303, 440 ; height, width
 
-	db   "Though it is"
-	next "skilled at walk-"
-	next "ing, it prefers to"
-	page "live underwater"
-	next "where there is"
-	next "less danger.@"
+	db   "Bien qu'il sache"
+	next "parfaitement mar-"
+	next "cher, il préfére"
+	page "les fonds marins,"
+	next "bien moins dange-"
+	next "reux.@"
 ; 0x183066
 

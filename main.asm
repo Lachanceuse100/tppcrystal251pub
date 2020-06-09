@@ -833,7 +833,7 @@ OakSpeech: ; 0x5f99
 .MenuData2: ; 0x48e04
 	db $a1 ; flags
 	db 2 ; items
-	db "Garcon@"
+	db "Garçon@"
 	db "Fille@"
 ; 0x48e0f
 
@@ -11661,7 +11661,7 @@ NameInputUpper:
 BoxNameInputUpper:
 	db "A B C D E F G H I"
 	db "J K L M N O P Q R"
-	db "S T U V W X Y Z  "
+	db "S T U V W X Y Z ", $c6
 	db "× ( ) : ; [ ] ", $e1, " ", $e2
 	db "- ? ! ♂ ♀ / . , &"
 	db " min   SUP   FIN "
@@ -13072,11 +13072,11 @@ StartMenu:: ; 125cd
 .QuitString    	db "QUITTER@"
 .PokedexDesc 	db "Infos", $4e, "#MON@"
 .PartyDesc   	db "Statut de", $4e, "l'équipe@"
-.PackDesc    	db "Ton sac", $4e, "a objets@"
+.PackDesc    	db "Ton sac", $4e, "à objets@"
 .PokegearDesc	db "Le MATOS", $4e, "essentiel@"
 .StatusDesc  	db "Ta pro-", $4e, "gression@"
 .SaveDesc    	db "Sauvegarde", $4e, "la partie@"
-.OptionDesc  	db "Changer", $4e, "parametres@"
+.OptionDesc  	db "Changer", $4e, "paramètres@"
 .ExitDesc    	db "Fermer ce", $4e, "menu@"
 .QuitDesc    	db "On te", $4e, "jugera.@"
 .OpenMenu ; 127e5
@@ -19430,11 +19430,11 @@ Unknown_155e6: ; 155e6
 ; 155fa
 
 String_155fa:	db "PC de <PLAYER>@"
-String_15600:	db "PC de BILL@"
+String_15600:	db "PC de LEO@"
 String_15609:	db "PC du PROF. CHEN@"
 String_15616:	db "CELEBRITES@"
 String_15623:	db "ETEINDRE@"
-String_SomeonesPC: db "PC de quelqu'un@"
+String_SomeonesPC: db "PC de ???@"
 ; 1562c
 
 Unknown_1562c: ; 1562c
@@ -22855,7 +22855,7 @@ Function16a3b: ; 16a3b
 ; 16be0
 
 String_16be0: ; 16be0
-	db "EGG@"
+	db "OEUF@"
 ; 16be4
 
 Function16be4: ; 16be4
@@ -31945,7 +31945,7 @@ StringMoveIncompatibleText: ; 28ece
 	text ""
 	cont "de ton ami connait"
 	cont "une attaque qui ne"
-	cont "peut etre échangé"
+	cont "peut être échangé"
 	done
 
 StringMoveIncompatibleYou: ; 0x4d3fe
@@ -32973,7 +32973,7 @@ Function295a1: ; 295a1
 ; 295c2
 
 String295c2: ; 295c2
-	db "EGG", $4e
+	db "OEUF", $4e
 	db "OT/?????", $4e
 	db $73, "№.?????@"
 ; 295d8
@@ -34866,10 +34866,10 @@ TrainerClassNames:: ; 2c1ef
  	db "CHAMPION@"
  	db "SAVANT FOU@"
  	db "CHAMPION@"
- 	db "JEUNE@"
+ 	db "GAMIN@"
  	db "ECOLIER@"
  	db "ORNITHOLOGUE@"
- 	db "DAME@"
+ 	db "FILLETTE@"
  	db "CHAMPION@"
  	db "COOL DRESS.@"
  	db "COOL DRESS.@"
@@ -34891,7 +34891,7 @@ TrainerClassNames:: ; 2c1ef
  	db "MONTAGNARD@"
  	db "MOTARD@"
  	db "CHAMPION@"
- 	db "VOLEUR@"
+ 	db "PILLEUR@"
  	db "PYROMANE@"
  	db "JONGLEUR@"
  	db "KARATEKA@"
@@ -34904,7 +34904,7 @@ TrainerClassNames:: ; 2c1ef
  	db "MEDIUM@"
  	db "SURFEUR@"
  	db "#FAN@"
- 	db "DAME KIMONO@"
+ 	db "KIMONO@"
  	db "JUMEAUX@"
  	db "#FAN@"
  	db $4a, " DRESS.@"
@@ -34921,7 +34921,7 @@ TrainerClassNames:: ; 2c1ef
  	db "RIVAL@"
  	db "CHAMPION@"
  	db "CHAMPION@"
-	db "COACH ELFES@"
+	db "COACH ELFE@"
 	db "ROCKET@"
  	; db $4a, " TRAINER@" ; Uncomment this if the above is rejected
 
@@ -35708,7 +35708,7 @@ Function2c9e2: ; 2c9e2 (b:49e2)
 	push af
 	sub $32
 	ld [wd265], a
-	ld [hl], $87
+	ld [hl], $92
 	inc hl
 	ld de, wd265
 	ld bc, $4102
@@ -38094,7 +38094,7 @@ Function44654:: ; 44654
 	jr .CompareStrings
 
 .OTName
-	db "RANDY@"
+	db "BOBBY@"
 .Nickname
 	db "ALFRED@"
 
@@ -39062,7 +39062,7 @@ String_4848d: db "Addresse@"
 String_48495: db "Code Postal@"
 String_4849e: db "OK@"
 String_484a1: db "Profile Changé@"
-String_484b1: db "Garcon ou fille?@"
+String_484b1: db "Garçon ou fille?@"
 String_484be: db "Quel age as-tu?@"
 String_484cf: db "Ou habites-tu?@"
 String_484e2: db "Ton code postal?@"
@@ -46936,21 +46936,21 @@ FiveQMarkString: ; 4e3c4
 	db "?????@"
 EggSoonString: ; 0x4e3ca
 	db   "Il y a des bruits"
-	next "a l'intérieur, ca"
+	next "a l'intérieur, ça"
 	next "va bientot éclore!@"
 EggCloseString: ; 0x4e3fd
 	db   "Ca bouge a l'inté-"
 	next "rieur parfois."
 	next "Ca ne devrais plus"
-	next "etre long!@"
+	next "être long!@"
 EggMoreTimeString: ; 0x4e43d
 	db   "Tu te demandes ce"
 	next "qu'il y a dedans?"
 	next "Il faudra plus de"
-	next "temps par contre!@"
+	next "temps!@"
 EggALotMoreTimeString: ; 0x4e46e
 	db   "Il faudra beaucoup"
-	next "de temps a cet"
+	next "de temps à cet"
 	next "OEUF pour éclore!@"
 ; 0x4e497
 
@@ -47174,7 +47174,7 @@ DudeString: ; 4e5da
 	db "MEC@"
 ; 4e5df
 OldManString:
-	db "VIEUX@"
+	db "VIEILLARD@"
 
 AutoInput_4e5df: ; 4e5df
 	db NO_INPUT, $ff ; end
@@ -48375,11 +48375,11 @@ String_502ee: ; 502ee
 ; 502f5
 
 String_502f5: ; 502f5
-	db "♀<...>FEMELLE@"
+	db "♀<...>FEM.@"
 ; 502fe
 
 String_502fe: ; 502fe
-	db "<...>INCONNU@"
+	db "<...>???@"
 ; 50307
 
 Function50307: ; 50307
@@ -49897,7 +49897,7 @@ Function50d2e: ; 50d2e
 	ret
 ; 50d5b
 
-SlpString: db "Zzz@"
+SlpString: db "SOM@"
 PsnString: db "PSN@"
 ToxString: db "TOX@"
 BrnString: db "BRU@"
@@ -55038,7 +55038,7 @@ Function84817: ; 84817 (21:4817)
 ; 84865 (21:4865)
 
 String_84865:
-	db "LISTE DES #MONS@"
+	db "LISTE DES #MON@"
 ; 8486f
 
 Function8486f: ; 8486f (21:486f)
@@ -56410,7 +56410,7 @@ Unknown_882c9: ; 882c9
 	db "DUSTIN@"
 	db "EVAN@"
 	db 2 ; displacement
-	db " NAME @" ; title
+	db " NOM @" ; title
 ; 882e5
 
 KrisNameMenuHeader: ; 882e5
@@ -56432,7 +56432,7 @@ Unknown_882f9: ; 882f9
 	db "DAPHNE@"
 	db "AURORE@"
 	db 2 ; displacement
-	db " NAME @" ; title
+	db " NOM @" ; title
 ; 88318
 
 Function88318: ; 88318
@@ -61140,9 +61140,9 @@ Function8ae68: ; 8ae68
 ; 8aebc
 
 Unknown_8aebc: ; 8aebc
-	db $08, $44, $04, $00, $2e, $08, $ff
-	db $26, $20, $0c, $0e, $46, $ff
-	db $4c, $00, $46, $08, $42, $ff
+	db $44, $2c, $42, $46, $20, $08, $ff
+	db $26, $48, $28, $20, $08, $42, $08, $ff
+	db $08, $00, $48, $ff
 	db $0e, $2c, $64, $2c, $0e, $ff
 	db $02, $20, $42, $06, $44, $ff
 ; 8aed5
@@ -61153,12 +61153,12 @@ MenuDataHeader_0x8aed5: ; 0x8aed5
 	db 09, 16 ; end coords
 MenuDataHeader_0x8aeda: ; 0x8aeda
 	db $40 ; flags
-	db 04, 04 ; start coords
-	db 09, 15 ; end coords
+	db 04, 02 ; start coords
+	db 09, 17 ; end coords
 MenuDataHeader_0x8aedf: ; 0x8aedf
 	db $40 ; flags
-	db 04, 04 ; start coords
-	db 09, 15 ; end coords
+	db 04, 06 ; start coords
+	db 09, 13 ; end coords
 MenuDataHeader_0x8aee4: ; 0x8aee4
 	db $40 ; flags
 	db 04, 04 ; start coords
@@ -66528,7 +66528,7 @@ Unknown_903d6: ; 903d6
 
 String_903e2: db "----------@"
 String_903ed: db "MAMAN:@"
-String_903f2: db "BILL:@"
+String_903f2: db "LEO:@"
 String_903f8: db "PROF. ORME:@"
 String_90402: db "CYCLES A GOGO:@"
 String_9040d: db "BUENA:", $22, "   ANIMATRICE@"
@@ -69339,7 +69339,7 @@ NoRadioName: ; 918a9 (24:58a9)
 	ret
 ; 918bf
 
-OaksPkmnTalkName:     db "Chronique ", $e1, $e2, "@"
+OaksPkmnTalkName:     db "Chronique", $e1, $e2, " CHEN@"
 PokedexShowName:      db "Show #DEX@"
 PokemonMusicName:     db "Musique #MON@"
 LuckyChannelName:     db "Antenne Chance@"
@@ -80561,13 +80561,13 @@ PCMailGFX:  INCBIN "gfx/pc_mail.2bpp"
 
 String_e34dd: db "Choisis un ", $e1, $e2, ".@"
 String_e34ea: db "Oui?      @"
-String_e34f4: db "Relacher ", $e1, $e2, "?@"
+String_e34f4: db "Relâcher ", $e1, $e2, "?@"
 String_e3500: db "Déplacer ou? @"
 String_e350f: db "C'est ton seul ", $e1, $e2, "!@"
 String_e3521: db "Pas de place!   @"
 String_e3531: db "Aucun ", $e1, $e2, "!@"
 String_e3544: db "Retirez la LETTRE.@"
-String_e3551: db "Le ", $e1, $e2, " est relaché.@"
+String_e3551: db "Le ", $e1, $e2, " est relâché.@"
 String_e355e: db "Adieu,@"
 String_e3563: db "Stocké @"
 String_e356b: db "Obtenu @"
@@ -80967,15 +80967,15 @@ Functione36f9: ; e36f9 (38:76f9)
 
 .AreYouSure
 	text "ATTENTION : Vous"
-	line "etes sur le point"
+	line "êtes sur le point"
 
-	para "de relacher tout"
+	para "de relâcher tout"
 	line "le contenu de la"
-	cont "boite."
+	cont "boîte."
 
 	para "Une fois relachés,"
 	line "les #MON ne"
-	cont "pourront plus etre"
+	cont "pourront plus être"
 
 	para "récupérés."
 	line "Continuer ?"
@@ -81031,7 +81031,7 @@ Functione379c: ; e379c (38:779c)
 ; e37a1 (38:77a1)
 
 String_e37a1: ; e37a1
-	db "Choisis une boite.@"
+	db "Choisis une boîte.@"
 ; e37af
 
 Functione37af: ; e37af (38:77af)
@@ -81175,7 +81175,7 @@ StringOptions: ; e4241
 StringOptions2:
 	db "INFO BULLE", $22
 	db "        :", $22
-	db "BARRE HP RAPIDE", $22
+	db "BARRE PV RAPIDE", $22
 	db "        :", $22
 	db "FORMAT HORLOGE", $22
 	db "        :", $22

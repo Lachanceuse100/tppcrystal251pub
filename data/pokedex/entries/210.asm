@@ -1,12 +1,12 @@
 ; GranbullPokedexEntry: ; 0x1d074a
-	db "FAIRY@" ; species name
+	db "FEE@" ; species name
 	dw 407, 1070 ; height, width
 
-	db   "It can make most"
-	next "any #MON run"
-	next "away simply by"
-	page "opening its mouth"
-	next "wide to reveal its"
-	next "big fangs.@"
+	db   "Il peut faire fuir"
+	next "presque tous les"
+	next "#MON en ouvrant"
+	page "tr", $c6, "s largement sa"
+	next "machoire."
+	next "@"
 ; 0x1d07b1
 

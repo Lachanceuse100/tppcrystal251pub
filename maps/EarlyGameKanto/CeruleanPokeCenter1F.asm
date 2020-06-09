@@ -19,37 +19,38 @@ CeruleanPokeCenter1FRBYoungsterScript:
 	jumptextfaceplayer _CeruleanPokecenterGuyText
 
 _CeruleanPokecenterText1:
-	text "That BILL!"
+	text "Ce LEO!"
 
-	para "I heard that"
-	line "he'll do whatever"
-	cont "it takes to get"
-	cont "rare #MON!"
+	para "J'ai entendu qu'il"
+	line "ferait n'importe"
+	cont "quoi pour avoir"
+	cont "des #MON rares!"
 	done
 
 _CeruleanPokecenterGuyText:
-	text "BILL has lots of"
-	line "#MON!"
+	text "LEO a des tas"
+	line "de #MON!"
 
-	para "He collects rare"
-	line "ones too!"
+	para "Il collectionne"
+	line "aussi les rares!"
 	done
 
 
 _CeruleanPokecenterText3:
-	text "Have you heard"
-	line "about BILL?"
+	text "Tu as entendu"
+	line "parler de LEO?"
 
-	para "Everyone calls"
-	line "him a #MANIAC!"
+	para "Tout le monde dit"
+	line "que c'est un"
+	cont "#MANIAC"
 
-	para "I think people"
-	line "are just jealous"
-	cont "of BILL, though."
+	para "Je crois que les"
+	line "gens sont juste"
+	cont "jaloux."
 
-	para "Who wouldn't want"
-	line "to boast about"
-	cont "their #MON?"
+	para "Qui ne se vante-"
+	line "rait pas de ses"
+	cont "#MON?"
 	done
 	
 CeruleanPokeCenter1FRB_LinkScript:

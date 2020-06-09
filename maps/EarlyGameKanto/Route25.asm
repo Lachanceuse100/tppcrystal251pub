@@ -108,154 +108,161 @@ Route25RB_BillsHouseSignScript:
 	jumptext _Route25Text11
 
 _Route25BattleText1:
-	text "Local trainers"
-	line "come here to"
-	cont "practice!"
+	text "Les dresseurs du"
+	line "coin viennent ici"
+	cont "pour s'entraîner!"
 	done
 
 _Route25EndBattleText1:
-	text "You're decent."
+	text "Pas mal."
 	done
 
 _Route25AfterBattleText1:
-	text "All #MON have"
-	line "weaknesses. It's"
-	cont "best to raise"
-	cont "different kinds."
+	text "Tous les #MON"
+	line "possèdent des"
+	cont "fabilesses."
+
+	para "Il vaut mieux en"
+	line "élever de tout"
+	cont "types."
 	done
 
 _Route25BattleText2:
-	text "Dad took me to a"
-	line "great party on"
-	cont "S.S.ANNE at"
-	cont "VERMILION CITY!"
+	text "Papa m'a emmené"
+	line "à une grande fête"
+	cont "a l'OCEANE de"
+	cont "CARMIN SUR MER!"
 	done
 
 _Route25EndBattleText2:
-	text "I'm not mad!"
+	text "Je ne suis pas"
+	line "en colère!"
 	done
 
 _Route25AfterBattleText2:
-	text "On S.S.ANNE, I"
-	line "saw trainers from"
-	cont "around the world."
+	text "A l'OCEANE, j'ai"
+	line "vu des dresseurs"
+	cont "du monde entier."
 	done
 
 _Route25BattleText3:
-	text "I'm a cool guy."
-	line "I've got a girl"
-	cont "friend!"
+	text "Je suis cool."
+	line "J'ai une petite-"
+	cont "amie!"
 	done
 
 _Route25EndBattleText3:
-	text "Aww, darn<...>"
+	text "Ohh, mince<...>"
 	done
 
 _Route25AfterBattleText3:
-	text "Oh well. My girl"
-	line "will cheer me up."
+	text "Ma petite-amie"
+	line "me réconfortera."
 	done
 
 _Route25BattleText4:
-	text "Hi! My boy"
-	line "friend is cool!"
+	text "Salut! Mon petit"
+	line "copain est cool!"
 	done
 
 _Route25EndBattleText4:
-	text "I was in bad"
-	line "condition!"
+	text "J'étais pas"
+	line "en forme!"
 	done
 
 _Route25AfterBattleText4:
-	text "I wish my guy was"
-	line "as good as you!"
+	text "J'aimerais que mon"
+	line "mec soit aussi"
+	cont "fort!"
 	done
 
 _Route25BattleText5:
-	text "I knew I had to"
-	line "fight you!"
+	text "Je savais qu'on"
+	line "devrait se battre!"
 	done
 
 _Route25EndBattleText5:
-	text "I knew I'd lose,"
-	line "too!"
+	text "Je savais que je"
+	line "perdrais aussi!"
 	done
 
 _Route25AfterBattleText5:
-	text "If your #MON"
-	line "gets confused or"
-	cont "falls asleep,"
-	cont "switch it!"
+	text "Si ton #MON"
+	line "est confus ou"
+	cont "s'endort,"
+	cont "retire-le!"
 	done
 
 _Route25BattleText6:
-	text "My friend has a"
-	line "cute #MON."
-	cont "I'm so jealous!"
+	text "Mon ami a un"
+	line "#MON mignon."
+	cont "Je suis jaloux!"
 	done
 
 _Route25EndBattleText6:
-	text "I'm not so"
-	line "jealous!"
+	text "Je suis pas"
+	line "si jaloux!"
 	done
 
 _Route25AfterBattleText6:
-	text "You came from MT."
-	line "MOON? May I have"
-	cont "a CLEFAIRY?"
+	text "Tu viens du MONT"
+	line "SELENITE? Je peux"
+	cont "avoir un MELOFEE?"
 	done
 
 _Route25BattleText7:
-	text "I just got down"
-	line "from MT.MOON,"
-	cont "but I'm ready!"
+	text "Je reviens du MONT"
+	line "SELENITE et je"
+	cont "suis prêt!"
 	done
 
 _Route25EndBattleText7:
-	text "You worked hard!"
+	text "Tu travailles dur!"
 	done
 
 _Route25AfterBattleText7:
-	text "Drat!"
-	line "A ZUBAT bit me"
-	cont "back in there."
+	text "Oh non!"
+	line "Un NOSFERAPTI"
+	cont "m'avait mordu<...>"
 	done
 
 _Route25BattleText8:
-	text "I'm off to see a"
-	line "#MON collector"
-	cont "at the cape!"
+	text "Je vais voir un"
+	line "collectionneur de"
+	cont "#MON au cap!"
 	done
 
 _Route25EndBattleText8:
-	text "You got me."
+	text "Tu m'as eu."
 	done
 
 _Route25AfterBattleText8:
-	text "The collector has"
-	line "many rare kinds"
-	cont "of #MON."
+	text "Ce collectionneur"
+	line "a plein de #-"
+	cont "MON rares."
 	done
 
 _Route25BattleText9:
-	text "You're going to"
-	line "see BILL? First,"
-	cont "let's fight!"
+	text "Tu vas voir LEO?"
+	line "D'abord, on va"
+	cont "se battre!"
 	done
 
 _Route25EndBattleText9:
-	text "You're something."
+	text "T'es quelque"
+	line "chose!"
 	done
 
 _Route25AfterBattleText9:
-	text "The trail below"
-	line "is a shortcut to"
-	cont "CERULEAN CITY."
+	text "Le chemin en"
+	line "dessous est un"
+	cont "raccourci vers"
+	cont "AZURIA."
 	done
 
 _Route25Text11:
-	text "SEA COTTAGE"
-	line "BILL lives here!"
+	text "VILLA"
+	line "LEO habite ici!"
 	done
 
 Route25RB_MapEventHeader: ; 0x19f58f

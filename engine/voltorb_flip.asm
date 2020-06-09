@@ -173,9 +173,9 @@ VoltorbFlip_InitStrings:
 	jp VoltorbFlip_PrintLevel
 
 .Coins
-	db "COINS@"
+	db "PIECES@"
 .Payout
-	db "PAYOUT@"
+	db " GAIN @"
 
 VoltorbFlip_InitBoardPals:
 	ld a, [rSVBK]
@@ -342,12 +342,13 @@ VoltorbFlip_NotEnoughCoins:
 	ret
 
 .NotEnoughCoinsText
-	text "You don't have"
-	line "enough coins."
+	text "Tu n'as pas assez"
+	line "de pièces."
 	done
 
 VoltorbFlip_PlayWithThreeCoinsText
-	text "Play with 3 coins?"
+	text "Jouer avec 3"
+	line "pièces?"
 	done
 
 VoltorbFlip_StartGame:
@@ -365,8 +366,8 @@ VoltorbFlip_StartGame:
 	jp VoltorbFlip_Next
 
 .PickACardText
-	text "A: Choose"
-	line "SELECT: Flag"
+	text "A: Retourner"
+	line "SELECT: Drapeau"
 	done
 
 VoltorbFlip_HandleJoypad:
@@ -530,8 +531,8 @@ VoltorbFlip_CheckTile:
 	ret
 
 .BummerText
-	text "Bummer! Dropped"
-	line "to level @"
+	text "Mince ! Descendu"
+	line "au niveau @"
 	deciram wVoltorbFlipLevel, $12
 	text "."
 	done
@@ -601,13 +602,13 @@ VoltorbFlip_HandleOutcome:
 	jp VoltorbFlip_Next
 
 .EndRoundText
-	text "You found all the"
-	line "coins this round!"
+	text "Vous avez trouvé"
+	line "toutes les pièces!"
 	done
 
 .AdvancedLevelText
-	text "Yes! Advanced to"
-	line "level @"
+	text "Oui! Monté au"
+	line "niveau @"
 	deciram wVoltorbFlipLevel, $12
 	text "!"
 	done
@@ -655,12 +656,12 @@ VoltorbFlip_PlayAgain:
 	ret
 
 .PlayAgainText
-	text "Play again?"
+	text "Rejouer?"
 	done
 
 .NotEnoughCoinsText
-	text "You've run out of"
-	line "coins."
+	text "Vous n'avez plus"
+	line "de pièces."
 	done
 
 VoltorbFlip_RevealBoard:
@@ -1201,18 +1202,18 @@ VoltorbFlip_CheckSquare:
 .MultiplierText
 	text "×@"
 	deciram wVoltorbFlipMultiplier, $11
-	text "! Won @"
+	text "! Gagné @"
 	deciram wVoltorbFlipPayout, $24
 	text ""
-	line "coins!"
+	line "pièces!"
 	done
 
 .KAPOW
-	text "KAPOW!!"
+	text "BOOM!!!"
 	done
 
 .NotThisTime
-	text "Not this time."
+	text "Pas cette fois."
 	done
 
 VoltorbFlip_Cursor2Tile:

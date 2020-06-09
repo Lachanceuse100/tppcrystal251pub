@@ -2,11 +2,11 @@
 	db "SUPERPOWER@" ; species name
 	dw 503, 2870 ; height, width
 
-	db   "With four arms"
-	next "that react more"
-	next "quickly than it"
-	page "can think, it can"
-	next "execute many"
-	next "punches at once.@"
+	db   "Balancant ses 4"
+	next "bras plus vite que"
+	next "l'éclair, il peut"
+	page "donner plusieurs"
+	next "coup de poing"
+	next "en meme temps.@"
 ; 0x1b81a1
 

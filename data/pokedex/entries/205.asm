@@ -1,12 +1,12 @@
 ; ForretressPokedexEntry: ; 0x1d0524
-	db "BAGWORM@" ; species name
+	db "VER CACHE@" ; species name
 	dw 311, 2770 ; height, width
 
-	db   "Usually found"
-	next "hanging on to a"
-	next "fat tree trunk. It"
-	page "shoots out bits of"
-	next "its shell when it"
-	next "sees action.@"
+	db   "On le trouve ac-"
+	next "croché au tronc"
+	next "des grands arbres."
+	page "Il crache des mor-"
+	next "ceaux de sa cara-"
+	next "pace sur l'ennemi.@"
 ; 0x1d0593
 

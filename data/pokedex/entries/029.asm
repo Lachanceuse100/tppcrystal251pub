@@ -1,12 +1,12 @@
 ; NidoranFPokedexEntry: ; 0x18224b
-	db "POISON PIN@" ; species name
+	db "VENEPIC@" ; species name
 	dw 104, 150 ; height, width
 
-	db   "Small and very"
-	next "docile, it pro-"
-	next "tects itself with"
-	page "its small, poison-"
-	next "ous horn when"
-	next "attacked.@"
+	db   "Petit et docile,"
+	next "il se protége avec"
+	next "sa minuscule corne"
+	page "empoisonnée lors-"
+	next "qu'il est attaqué."
+	next "@"
 ; 0x1822b6
 

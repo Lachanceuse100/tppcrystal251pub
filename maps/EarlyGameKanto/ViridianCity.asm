@@ -128,147 +128,148 @@ ViridianCityRB_PlayerJumpsDown:
 	step_end
 
 _ViridianCityText1:
-	text "Those # BALLs"
-	line "at your waist!"
-	cont "You have #MON!"
+	text "Ces # BALLs"
+	line "à ta ceinture<...>"
+	cont "C'est des #MON?"
 
-	para "It's great that"
-	line "you can carry and"
-	cont "use #MON any"
-	cont "time, anywhere!"
+	para "C'est cool de"
+	line "pouvoir s'en"
+	cont "servir quand on"
+	cont "veut, hein?"
 	done
 
 _ViridianCityText_19122:
-	text "This #MON GYM"
-	line "is always closed."
+	text "L'arène #MON"
+	line "est toujours"
+	cont "fermée."
 
-	para "I wonder who the"
-	line "LEADER is?"
+	para "Je me demande qui"
+	line "en est le"
+	cont "CHAMPION<...>"
 	done
 
 _ViridianCityText_1914d:
-	text "You want to know"
-	line "about the 2 kinds"
-	cont "of caterpillar"
+	text "Tu veux tout"
+	line "savoir sur les 2"
+	cont "types de chenille"
 	cont "#MON?"
 	done
 
 _ViridianCityText_19152:
-	text "Oh, OK then!"
+	text "Bon, OK!"
 	done
 
 _ViridianCityText_19157:
-	text "CATERPIE has no"
-	line "poison, but"
-	cont "WEEDLE does."
+	text "Contrairement à"
+	line "CHENIPAN, ASPICOT"
+	cont "est venimeux."
 
-	para "Watch out for its"
-	line "POISON STING!"
+	para "Attention à son"
+	line "DARD-VENIN!"
 	done
 
 _ViridianCityText_19175:
-	text "Oh Grandpa! Don't"
-	line "be so mean!"
-	cont "He hasn't had his"
-	cont "coffee yet."
+	text "Rooh, grand-père,"
+	line "soit pas méchant!"
+	cont "Il n'a pas encore"
+	cont "eu son café."
 	done
 
 _ViridianCityText_1917a:
-	text "When I go shop in"
-	line "PEWTER CITY, I"
-	cont "have to take the"
-	cont "winding trail in"
-	cont "VIRIDIAN FOREST."
+	text "Quand je vais aux"
+	line "courses à ARGENTA,"
+	cont "je dois passer par"
+	cont "la forêt de JADE."
 	done
 
 _ViridianCityText_19191:
-	text "You can't go"
-	line "through here!"
+	text "Oh! On ne passe"
+	line "pas!"
 
-	para "This is private"
-	line "property!"
+	para "C'est une"
+	line "propriété privée!"
 	done
 
 _ViridianCityText_1920a:
-	text "Ahh, I've had my"
-	line "coffee now and I"
-	cont "feel great!"
+	text "Ahh, J'ai enfin eu"
+	line "mon café. Ca va"
+	cont "mieux!"
 
-	para "Sure you can go"
-	line "through!"
+	para "Bien sûr que tu"
+	line "peux passer!"
 
-	para "Are you in a"
-	line "hurry?"
+	para "Es-tu pressé?"
 	done
 
 _ViridianCityText_1920f:
-	text "I see you're using"
-	line "a #DEX."
+	text "Je vois que tu as"
+	line "un #DEX."
 
-	para "When you catch a"
-	line "#MON, #DEX"
-	cont "is automatically"
-	cont "updated."
+	para "Quand tu attrapes"
+	line "un #MON, le"
+	cont "#DEX se met"
+	cont "aussitôt à jour."
 
-	para "What? Don't you"
-	line "know how to catch"
+	para "Quoi? Tu ne sais"
+	line "pas attraper des"
 	cont "#MON?"
 
-	para "I'll show you"
-	line "how to then."
+	para "Je vais te"
+	line "montrer alors."
 	done
 
 _ViridianCityText_19214:
-	text "Time is money<...>"
-	line "Go along then."
+	text "Le temps, c'est de"
+	line "l'argent. Va."
 	done
 
 _ViridianCityText_19219:
-	text "First, you need"
-	line "to weaken the"
-	cont "target #MON."
+	text "Il faut d'abord"
+	line "affaiblir le"
+	cont "#MON ciblé."
 	done
 
 _ViridianCityText8:
-	text "VIRIDIAN CITY "
-	line "The Eternally"
-	cont "Green Paradise"
+	text "JADIELLE"
+	line "Le paradis vert"
+	cont "éternel!"
 	done
 
 _ViridianCityText9:
-	text "TRAINER TIPS"
+	text "ASTUCE"
 
-	para "Catch #MON"
-	line "and expand your"
-	cont "collection!"
+	para "Attrapez des #-"
+	line "MON pour agrandir"
+	cont "votre collection."
 
-	para "The more you have,"
-	line "the easier it is"
-	cont "to fight!"
+	para "Plus vous en avez,"
+	line "plus vos combats"
+	cont "seront faciles!"
 	done
 
 _ViridianCityText10:
-	text "TRAINER TIPS"
+	text "ASTUCE"
 
-	para "The battle moves"
-	line "of #MON are"
-	cont "limited by their"
-	cont "POWER POINTs, PP."
+	para "Les capacités des"
+	line "#MON sont"
+	cont "limitées par leurs"
+	cont "Points de Pouvoir"
+	cont "ou PP."
 
-	para "To replenish PP,"
-	line "rest your tired"
-	cont "#MON at a"
-	cont "#MON CENTER!"
+	para "Rechargez donc les"
+	line "PPs de vos #MON"
+	cont "dans un centre"
+	cont "#MON!"
 	done
 
 _ViridianCityText13:
-	text "VIRIDIAN CITY"
-	line "#MON GYM"
+	text "ARENE #MON"
+	line "de JADIELLE."
 	done
 
 _ViridianCityText14:
-	text "The GYM's doors"
-	line "are locked<...>"
+	text "Les portes sont"
+	line "fermées<...>"
 	done
 
 ViridianCityRB_MapEventHeader: ; 0x1a9ec9

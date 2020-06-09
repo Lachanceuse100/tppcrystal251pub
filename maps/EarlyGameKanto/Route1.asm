@@ -36,40 +36,45 @@ MapRoute1RBSignpost0Script:
 Route1RBSignpost0Text: ; 0x1ac675
 	text "ROUTE 1"
 
-	para "PALLET TOWN -"
-	line "VIRIDIAN CITY"
+	para "BOURG PALETTE -"
+	line "JADIELLE"
 	done
 ; 0x1ac69a
 
 Route1RBGivePotionText:
-	text "Hi! I work at a"
-	line "#MON MART!"
+	text "Salut! Je "
+	line "travaille à la"
+	cont "BOUTIQUE #MON."
 
-	para "It's a convenient"
-	line "shop, so please"
-	cont "stop by."
+	para "Nous avons plein"
+	line "d'articles! Viens"
+	cont "nous voir à"
+	cont "JADIELLE."
 
-	para "Here, I'll give"
-	line "you a sample!"
+	para "Tiens, voilà un"
+	line "échantillon!"
 	done
 
 Route1RBGavePotionText:
-	text "We also sell #"
-	line "BALLS for catching"
-	cont "#MON."
+	text "Nous vendons aussi"
+	line "des # BALL"
+	cont "pour capturer les"
+	cont "#MON!"
 	done
 
 Route1RB_CoolTrainerFText:
-	text "See those ledges"
-	line "along the road?"
+	text "Tu vois ces"
+	line "rebords le long"
+	cont "de la route?"
 
-	para "It's a bit scary,"
-	line "but you can jump"
-	cont "from them."
+	para "Ca fait un peu"
+	line "peur mais tu peux"
+	cont "sauter par dessus."
 
-	para "You can get back"
-	line "to PALLET TOWN"
-	cont "quicker that way."
+	para "Tu peux revenir"
+	line "plus vite à"
+	cont "BOURG PALETTE"
+	cont "comme ça!"
 	done
 
 Route1RB_MapEventHeader: ; 0x1ac69a

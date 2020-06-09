@@ -1,12 +1,12 @@
 ; ArcaninePokedexEntry: ; 0x182f1c
-	db "LEGENDARY@" ; species name
+	db "LEGENDAIRE@" ; species name
 	dw 603, 3420 ; height, width
 
-	db   "An ancient picture"
-	next "scroll shows that"
-	next "people were"
-	page "attracted to its"
-	next "movement as it ran"
-	next "through prairies.@"
+	db   "Une vieille estam-"
+	next "pe montre que les"
+	next "humains suivaient"
+	page "ses mouvements"
+	next "lorsqu'il courait"
+	next "dans les champs.@"
 ; 0x182f91
 

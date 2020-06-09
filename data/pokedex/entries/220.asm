@@ -1,12 +1,12 @@
 ; SwinubPokedexEntry: ; 0x1d0b8d
-	db "PIG@" ; species name
+	db "COCHON@" ; species name
 	dw 104, 140 ; height, width
 
-	db   "It uses the tip of"
-	next "its nose to dig"
-	next "for food. Its nose"
-	page "is so tough that"
-	next "even frozen ground"
-	next "poses no problem.@"
+	db   "Il creuse le sol"
+	next "avec le bout de"
+	next "son nez pour trou-"
+	page "ver de la nourri-"
+	next "ture. Il perce me-"
+	next "me la glace.@"
 ; 0x1d0c01
 

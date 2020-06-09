@@ -349,15 +349,15 @@ ChooseMoveToLearn:
 
 .Types
 	db "NORM@"
-	db "FIGH@"
-	db " FLY@"
+	db "COMB@"
+	db " VOL@"
 	db "POIS@"
-	db "GRND@"
-	db "ROCK@"
+	db " SOL@"
+	db "ROCH@"
 	db "BIRD@"
-	db " BUG@"
-	db "GHST@"
-	db " STL@"
+	db "INSC@"
+	db "SPTR@"
+	db "ACIE@"
 
 	db "TP10@"
 	db "TP11@"
@@ -370,15 +370,15 @@ ChooseMoveToLearn:
 	db "TP18@"
 	db "CRSE@"
 
-	db "FIRE@"
-	db "WATR@"
-	db "GRAS@"
+	db " FEU@"
+	db " EAU@"
+	db "PLNT@"
 	db "ELEC@"
-	db "PSYC@"
-	db " ICE@"
+	db " PSY@"
+	db "GLAC@"
 	db "DRGN@"
-	db "DARK@"
-	db " FRY@"
+	db "TENE@"
+	db " FEE@"
 .Classes
 	db "PHYS@"
 	db "SPEC@"
@@ -418,53 +418,56 @@ PrintMoveRelearnerText:
 	dw .NoMovesToLearn
 
 .Intro
-	text "Hello! I am the"
-	line "MOVE RELEARNER."
+	text "Bonjour, je suis"
+	line "le maitre des ca-"
+	cont "pacités."
 
-	para "But you can call"
-	line "me HOLDEN."
+	para "Mais appelle moi"
+	line "HOLDEN."
 
-	para "I know all the"
-	line "moves that can be"
+	para "Je connais les ca-"
+	line "pacités que chaque"
 
-	para "learned for each"
-	line "#MON."
+	para "#MON peut"
+	line "apprendre."
 
-	para "For just ¥1000, I"
-	line "can share that"
+	para "Pour ¥1000, je"
+	line "partegerais ma"
 
-	para "knowledge with"
-	line "you. How about it?"
+	para "connaissance avec"
+	line "toi. Alors?"
 	done
 .WhichMon
-	text "Excellent! Which"
-	line "#MON should"
-	cont "remember a move?"
+	text "Excellent! Quelle"
+	line "#MON doit se"
+	cont "souvenir d'une"
+	cont "capacité?"
 	done
 .WhichMove
-	text "Which move should"
-	line "it remember?"
+	text "Quelle capacité"
+	line "se rappeler?"
 	done
 .ComeAgain
-	text "If you want your"
-	line "#MON to remem-"
-	cont "ber moves, come"
-	cont "back to me."
+	text "Si tu veux te"
+	line "rappeler d'autres"
+	cont "capacités, reviens"
+	cont "me voir."
 	done
 .Egg
-	text "An EGG can't learn"
-	line "moves."
+	text "Un oeuf ne peut"
+	line "pas apprendre de"
+	cont "capacités."
 	done
 .NotMon
-	text "What?! That's not"
-	line "a #MON!"
+	text "Hein ? C'est pas"
+	line "un #MON!"
 	done
 .NotEnoughMoney
-	text "You don't have"
-	line "enough money."
+	text "Tu n'as pas assez"
+	line "d'argent."
 	done
 .NoMovesToLearn
-	text "This #MON can't"
-	line "learn any moves"
-	cont "from me."
+	text "Ce #MON n'a"
+	line "plus rien à ap-"
+	cont "prendre de moi."
 	done

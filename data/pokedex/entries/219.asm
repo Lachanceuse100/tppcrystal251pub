@@ -1,12 +1,12 @@
 ; MagcargoPokedexEntry: ; 0x1d0b21
-	db "LAVA@" ; species name
+	db "LAVE@" ; species name
 	dw 207, 1210 ; height, width
 
-	db   "Its body is as hot"
-	next "as lava and is"
-	next "always billowing."
-	page "Flames will"
-	next "occasionally burst"
-	next "from its shell.@"
+	db   "Son corps en ébul-"
+	next "lition est aussi"
+	next "chaud que de la"
+	page "lave. Des flammes"
+	next "sortent de sa"
+	next "coquille.@"
 ; 0x1d0b8d
 

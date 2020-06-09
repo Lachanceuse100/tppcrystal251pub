@@ -1,12 +1,12 @@
 ; AriadosPokedexEntry: ; 0x1cd083
-	db "LONG LEG@" ; species name
+	db "LONG-PATTE@" ; species name
 	dw 307, 740 ; height, width
 
-	db   "Rather than mak-"
-	next "ing a nest in one"
-	next "specific spot, it"
-	page "wanders in search"
-	next "of food after"
-	next "darkness falls.@"
+	db   "Plutot que de tis-"
+	next "ser une toile à un"
+	next "endroit précis, il"
+	page "traverse les"
+	next "forets et chasse"
+	next "tel un prédateur.@"
 ; 0x1cd0f5
 

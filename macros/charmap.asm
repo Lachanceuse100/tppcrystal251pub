@@ -125,6 +125,16 @@
 	charmap "ä",        $c3
 	charmap "ö",        $c4
 	charmap "ü",        $c5
+	charmap "è",        $c6
+	charmap "ç",        $c7
+	charmap "à",        $c8
+	charmap "ù",        $c9
+	charmap "â",        $ca
+	charmap "ê",        $cb
+	charmap "î",        $cc
+	charmap "û",        $cd
+	charmap "ô",        $ce
+	charmap "ï",		$cf
 
 	charmap "'d",       $d0
 	charmap "'l",       $d1
@@ -133,6 +143,7 @@
 	charmap "'s",       $d4
 	charmap "'t",       $d5
 	charmap "'v",       $d6
+	charmap "+",		$d7
 
 	charmap "←",        $df
 	charmap "'",        $e0

@@ -1,12 +1,12 @@
 ; FlaaffyPokedexEntry: ; 0x1cd5b8
-	db "WOOL@" ; species name
+	db "LAINE@" ; species name
 	dw 207, 290 ; height, width
 
-	db   "Because of its"
-	next "rubbery, electric-"
-	next "ity-resistant"
-	page "skin, it can store"
-	next "lots of electric-"
-	next "ity in its fur.@"
+	db   "San peau étant"
+	next "caoutchouteuse et"
+	next "isolante, il peut"
+	page "garder du courant"
+	next "dans sa fourrure"
+	next "sans danger.@"
 ; 0x1cd626
 

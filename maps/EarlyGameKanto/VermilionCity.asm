@@ -111,108 +111,108 @@ Movement_VermilionPlayerStepsUp:
 	step_end
 
 _VermilionCityText1:
-	text "We're careful"
-	line "about pollution!"
+	text "On fait attention"
+	line "à la pollution!"
 
-	para "We've heard GRIMER"
-	line "multiplies in"
-	cont "toxic sludge!"
+	para "Les TADMORV se"
+	line "multiplient dans"
+	cont "les déchets."
 	done
 
 _VermilionCityText_198a7:
-	text "Did you see S.S."
-	line "ANNE moored in"
-	cont "the harbor?"
+	text "As-tu vu l'OCEANE"
+	line "amarré au port?"
 	done
 
 _SSAnneWelcomeText4:
-	text "Welcome to S.S."
-	line "ANNE!"
+	text "Bienvenue sur"
+	line "l'OCEANE!"
 	done
 
 _SSAnneWelcomeText9:
-	text "Welcome to S.S."
-	line "ANNE!"
+	text "Bienvenue sur"
+	line "l'OCEANE!"
 
-	para "Excuse me, do you"
-	line "have a ticket?"
+	para "Excusez moi, vous"
+	line "avez un ticket?"
 	done
 
 _SSAnneFlashedTicketText:
-	text "<PLAYER> flashed"
-	line "the S.S.TICKET!"
+	text "<PLAYER> crâne avec"
+	line "son PASSE BATEAU!"
 
-	para "Great! Welcome to"
-	line "S.S.ANNE!"
+	para "Super! Bienvenue"
+	line "sur l'OCEANE!"
 	done
 
 _SSAnneNoTicketText:
-	text "<PLAYER> doesn't"
-	line "have the needed"
-	cont "S.S.TICKET."
+	text "<PLAYER> n'a pas"
+	line "le PASSE BATEAU!"
 
-	para "Sorry!"
+	para "Désolé!"
 
-	para "You need a ticket"
-	line "to get aboard."
+	para "Il faut un ticket"
+	line "pour monter."
 	done
 
 _VermilionCityText4:
-	text "I'm putting up a"
-	line "building on this"
-	cont "plot of land."
+	text "Je vais construire"
+	line "un bâtiment ici."
 
-	para "My #MON is"
-	line "tamping the land."
+	para "Mon #MON"
+	line "prépare le"
+	cont "terrain."
 	done
 
 _VermilionCityText5:
-	text "MACHOP: Guoh!"
-	line "Gogogoh!"
+	text "MACHOC: Cho!"
+	line "Chochoc!"
 	done
 
 _VermilionCityText14:
-	text "A MACHOP is"
-	line "stomping the land"
-	cont "flat."
+	text "Un MACHOC façonne"
+	line "le terrain."
 	done
 
 _VermilionCityText6:
-	text "S.S.ANNE is a"
-	line "famous luxury"
-	cont "cruise ship."
+	text "L'OCEANE est un"
+	line "paquebot de luxe."
 
-	para "We visit VERMILION"
-	line "once a year."
+	para "On visite CARMIN"
+	line "SUR MER une fois"
+	cont "par an."
 	done
 
 _VermilionCityText7:
-	text "VERMILION CITY"
-	line "The Port of"
-	cont "Exquisite Sunsets"
+	text "CARMIN SUR MER"
+	line "Le port des cré-"
+	cont "puscules excquis."
 	done
 
 _VermilionCityText11:
-	text "#MON FAN CLUB"
-	line "All #MON fans"
-	cont "welcome!"
+	text "FAN CLUB #MON"
+	line "Tout les fans de"
+	cont "#MON sont la"
+	cont "bienvenue!"
 	done
 
 _VermilionCityText12:
-	text "VERMILION CITY"
-	line "#MON GYM"
-	cont "LEADER: LT.SURGE"
+	text "CARMIN SUR MER"
+	line "ARENE #MON"
+	cont "CHAMPION:"
+	cont "MAJOR BOB"
 
-	para "The Lightning "
-	line "American!"
+	para "L'américain"
+	line "électrique!"
 	done
 
 _VermilionCityText13:
-	text "VERMILION HARBOR"
+	text "PORT DE CARMIN"
+	line "SUR MER"
 	done
 
 _VermilionCityText15:
-	text "DIGLETT'S CAVE"
+	text "CAVE TAUPIQUEUR"
 	done
 
 VermilionCityRB_MapEventHeader: ; 0x1aae77

@@ -1,12 +1,12 @@
 ; SunfloraPokedexEntry: ; 0x1cdaef
-	db "SUN@" ; species name
+	db "SOLEIL@" ; species name
 	dw 207, 190 ; height, width
 
-	db   "As the hot season"
-	next "approaches, the"
-	next "petals on this"
-	page "#MON's face"
-	next "become more vivid"
-	next "and lively.@"
+	db   "A l'approche des"
+	next "beaux jours, les"
+	next "pétales entourant"
+	page "sa tete deviennent"
+	next "plus chatoyants."
+	next "@"
 ; 0x1cdb51
 

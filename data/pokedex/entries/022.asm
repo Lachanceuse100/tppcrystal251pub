@@ -1,12 +1,12 @@
 ; FearowPokedexEntry: ; 0x181f64
-	db "BEAK@" ; species name
+	db "BEC-OISEAU@" ; species name
 	dw 311, 840 ; height, width
 
-	db   "It uses its long"
-	next "beak to attack. It"
-	next "has a surprisingly"
-	page "long reach, so it"
-	next "must be treated"
-	next "with caution.@"
+	db   "Il se sert de son"
+	next "long bec pour"
+	next "attaquer."
+	page "Il a une portée"
+	next "impressionnante."
+	next "@"
 ; 0x181fd4
 

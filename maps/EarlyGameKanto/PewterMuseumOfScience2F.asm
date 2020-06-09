@@ -25,49 +25,54 @@ PewterMuseumOfScience2FMeteoriteSignScript
 	jumptext _Museum2FText7
 
 _Museum2FText1:
-	text "MOON STONE?"
+	text "PIERRE LUNE?"
 
-	para "What's so special"
-	line "about it?"
+	para "Elle a quoi de"
+	line "spécial?"
 	done
 
 _Museum2FText2:
-	text "February 12, 2015!"
+	text "12 Février 2015!"
 
-	para "The 1st anniver-"
-	line "sary run started!"
+	para "#MON ROUGE"
+	line "anniversaire va"
+	cont "commencer sur"
+	cont "TwitchPlaysPokemon"
 
-	para "I bought a tablet"
-	line "to watch it!"
+	para "J'ai acheté une"
+	line "tablette pour le"
+	cont "regarder!"
 	done
 
 _Museum2FText3:
-	text "We have a space"
-	line "exhibit now."
+	text "Nous faisons une"
+	line "exposition sur"
+	cont "l'espace!"
 	done
 
 _Museum2FText4:
-	text "I want a PIKACHU!"
-	line "It's so cute!"
+	text "Je veux un PIKACHU"
+	line "trop mignon!"
 
-	para "I asked my Daddy"
-	line "to catch me one!"
+	para "J'ai demandé à"
+	line "Papa de m'en"
+	cont "trouver un!"
 	done
 
 _Museum2FText5:
-	text "Yeah, a PIKACHU"
-	line "soon, I promise!"
+	text "Oui, tu auras ton"
+	line "PIKACHU, promis!"
 	done
 
 _Museum2FText6:
-	text "SPACE SHUTTLE"
+	text "NAVETTE SPATIALE"
 	line "COLUMBIA"
 	done
 
 _Museum2FText7:
-	text "Meteorite that"
-	line "fell on MT.MOON."
-	cont "(MOON STONE?)"
+	text "Météorite tombée"
+	line "au MONT SELENITE"
+	cont "(PIERRE LUNE?)"
 	done
 
 

@@ -60,32 +60,35 @@ ViridianMartRB_PlayerWalksUp:
 	step_end
 
 _ViridianMartText1:
-	text "Okay! Say hi to"
-	line "PROF.OAK for me!"
+	text "OK! Dis bonjour au"
+	line "PROF.CHEN de ma"
+	cont "part!"
 	done
 
 _ViridianMartText4:
-	text "Hey! You came from"
-	line "PALLET TOWN?"
+	text "Hé toi! Tu viens"
+	line "de BOURG PALETTE?"
 	done
 
 ViridianMartParcelQuestText:
-	text "You know PROF."
-	line "OAK, right?"
+	text "Tu connais le"
+	line "PROF.CHEN?"
 
-	para "His order came in."
-	line "Will you take it"
-	cont "to him?"
+	para "Sa commande vient"
+	line "d'arriver. Tu peux"
+	cont "lui apporter?"
 	done
 
 _ViridianMartText2:
-	text "This shop sells"
-	line "many ANTIDOTEs."
+	text "Cette boutique"
+	line "vends plein"
+	cont "d'ANTIDOTES"
 	done
 
 _ViridianMartText3:
-	text "No! POTIONs are"
-	line "all sold out."
+	text "Zut, il n'y a plus"
+	line "de POTIONS en"
+	cont "stock<...>"
 	done
 
 ViridianMartRB_MapEventHeader: ; 0x9b657

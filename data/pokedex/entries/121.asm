@@ -1,12 +1,12 @@
 ; StarmiePokedexEntry: ; 0x1b9776
-	db "MYSTERIOUS@" ; species name
+	db "MYSTERIEUX@" ; species name
 	dw 307, 1760 ; height, width
 
-	db   "It is said that it"
-	next "uses the seven-"
-	next "colored core of"
-	page "its body to send"
-	next "electric waves"
-	next "into outer space.@"
+	db   "On dit qu'il peut"
+	next "envoyer des ondes"
+	next "dans l'espace avec"
+	page "la partie centrale"
+	next "et colorée de son"
+	next "corps.@"
 ; 0x1b97ea
 

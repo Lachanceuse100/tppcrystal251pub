@@ -1,12 +1,12 @@
 ; MurkrowPokedexEntry: ; 0x1d021e
-	db "DARKNESS@" ; species name
+	db "TENEBRES@" ; species name
 	dw 108, 50 ; height, width
 
-	db   "It hides any shiny"
-	next "object it finds in"
-	next "a secret location."
-	page "MURKROW and"
-	next "MEOWTH loot one"
-	next "another's stashes.@"
+	db   "Il vole tous les"
+	next "objets brillants"
+	next "qu'il voit."
+	page "Les CORNEBRE et"
+	next "les MIAOUSS se vo-"
+	next "lent mutuellement.@"
 ; 0x1d0292
 

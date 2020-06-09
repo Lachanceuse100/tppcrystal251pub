@@ -1,12 +1,12 @@
 ; JigglypuffPokedexEntry: ; 0x182673
-	db "BALLOON@" ; species name
+	db "BOUBOULE@" ; species name
 	dw 108, 120 ; height, width
 
-	db   "It rolls its cute"
-	next "eyes as it sings a"
-	next "soothing lullaby."
-	page "Its gentle song"
-	next "puts anyone who"
-	next "hears it to sleep.@"
+	db   "Il roule des yeux"
+	next "et chante une"
+	next "longue berceuse"
+	page "qui peut endormir"
+	next "ses adversaires."
+	next "@"
 ; 0x1826e9
 

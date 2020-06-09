@@ -38,29 +38,30 @@ SpecialPokeSeer: ; 4f0bc
 ; 4f0ee
 
 .Intro
-	text "I'm the STATS"
-	line "JUDGE."
+	text "Je suis le #-"
+	line "DEVIN."
 
-	para "I can reveal the"
-	line "hidden potential"
-	cont "of your #MON."
+	para "Je peux réveler"
+	line "le potentiel caché"
+	cont "de ton #MON."
 
-	para "Want me to judge"
-	line "one of your #-"
-	cont "MON?"
+	para "Veux-tu que je"
+	line "juge un de tes"
+	cont "#MON?"
 	done
 
 .Which
-	text "Which #MON"
-	line "should I judge?"
+	text "Quel #MON"
+	line "dois-je juger?"
 	done
 .Cancel
-	text "Oh, okay. Come"
-	line "again sometime."
+	text "Oh, tr", $c6, "s bien,"
+	line "reviens une autre"
+	cont "fois."
 	done
 .Egg
-	text "I can't judge an"
-	line "EGG."
+	text "Je ne peux pas"
+	line "juger un OEUF."
 	done
 
 ReadDVs:
@@ -145,22 +146,22 @@ JudgePokemon:
 	ret
 
 .InitJudge
-	text "Let's see", $56
+	text "Voyons", $56
 	line $56, " ", $56, " ", $56
 	done
 
 .Incidentally
-	text "Incidentally<...>"
+	text "Egalement<...>"
 	done
 
 .Conclude
-	text "That's how I judge"
-	line "it."
+	text "C'est comme ça que"
+	line "je le juge."
 	done
 
 .Finish
-	text "Come again some-"
-	line "time."
+	text "Reviens une autre"
+	line "fois."
 	done
 
 GetDVTotal:
@@ -200,43 +201,45 @@ JudgeDVTotal:
 	ret
 
 .AbsoluteWorst
-	text "Oh my! Your #-"
-	line "MON has so little"
-	cont "potential!"
+	text "Oh<...> Ton #-"
+	line "MON a si peu de"
+	cont "potentiel!"
 
-	para "I've never seen a"
-	line "#MON so weak!"
+	para "Je n'ai jamais vu"
+	line "un #MON si"
+	cont "faible<...>"
 	done
 .Poor
-	text "Your #MON"
-	line "seems to be lac-"
-	cont "king in potential."
+	text "Ton #MON semble"
+	line "semble manquer de"
+	cont "pontentiel."
 	done
 
 .Unremarkable
-	text "Your #MON's"
-	line "potential is"
-	cont "unremarkable."
+	text "Ton #MON"
+	line "n'est pas"
+	cont "extraordinaire."
 	done
 
 .Decent
-	text "Your #MON seems"
-	line "to be decent"
-	cont "overall."
+	text "Ton #MON"
+	line "semble être"
+	cont "décent en général."
 	done
 
 .Strong
-	text "Your #MON seems"
-	line "to be spectacular"
-	cont "overall."
+	text "Ton #MON semble"
+	line "être plutot"
+	cont "spectaculaire!"
 	done
 
 .Perfect
-	text "I don't even need"
-	line "to look closely"
+	text "Je n'ai pas bes-"
+	line "oin de regarder"
 
-	para "to see your #-"
-	line "MON's perfection!"
+	para "pour voir la per-"
+	line "fection de ton"
+	cont "#MON."
 	done
 
 GetMaxDV:
@@ -319,15 +322,15 @@ InformMaxDVs:
 	dw .spd
 	dw .spc
 .hp
-	db "HP@"
+	db "ses PV@"
 .atk
-	db "ATTACK@"
+	db "son ATTAQUE@"
 .def
-	db "DEFENSE@"
+	db "sa DEFENSE@"
 .spd
-	db "SPEED@"
+	db "sa VITESSE@"
 .spc
-	db "SPECIAL@"
+	db "son SPECIAL@"
 
 .WhichStatTexts
 	dw .FirstStatText
@@ -337,40 +340,40 @@ InformMaxDVs:
 	dw .FifthStatText
 
 .FirstStatText
-	text "Its greatest po-"
-	line "tential lies in"
-	cont "its @"
+	text "Son plus grand po-"
+	line "tentiel réside en"
+	cont "@"
 	TX_RAM StringBuffer1
 	text "."
 	done
 
 .SecondStatText
-	text "Its @"
+	text "Mh, @"
 	TX_RAM StringBuffer1
-	text " is"
-	line "equally good."
+	text " est"
+	line "également bien."
 	done
 
 .ThirdStatText
-	text "Its @"
+	text "Ah, @"
 	TX_RAM StringBuffer1
-	text " is"
-	line "also impressive."
+	text " est"
+	line "aussi impressio-"
+	cont "nant."
 	done
 
 .FourthStatText
-	text "Its @"
+	text "@"
 	TX_RAM StringBuffer1
-	text " is"
-	line "good as well."
+	text " est"
+	line "aussi bon."
 	done
 
 .FifthStatText
-	text "Well, its @"
+	text "Ah, @"
 	TX_RAM StringBuffer1
 	text ""
-	line "is worth mention-"
-	cont "ing also."
+	line "est aussi a noter."
 	done
 
 JudgeMaxDV:
@@ -391,24 +394,23 @@ JudgeMaxDV:
 	ret
 
 .Decent
-	text "It has rather"
-	line "decent stats, I'd"
-	cont "say."
+	text "Il a des stats"
+	line "décentes, je"
+	cont "dirais."
 	done
 .Good
-	text "It's definitely"
-	line "got some good"
-	cont "stats."
+	text "Il a défintivement"
+	line "de bonnes stats."
 	done
 .Fantastic
-	text "This #MON has"
-	line "some pretty fan-"
-	cont "tastic stats."
+	text "Ce #MON a"
+	line "des stats fantas-"
+	cont "tiques!"
 	done
 .Perfect
-	text "Stats like those<...>"
-	line "They simply can't"
-	cont "be beat!"
+	text "De tels stats<...>"
+	line "Elles ne peuvent"
+	cont "etres battus!"
 	done
 
 GetMinDV:
@@ -480,15 +482,15 @@ InformMinDVs:
 	dw .spd
 	dw .spc
 .hp
-	db "HP@"
+	db "ses PV@"
 .atk
-	db "ATTACK@"
+	db "son ATTAQUE@"
 .def
-	db "DEFENSE@"
+	db "sa DEFENSE@"
 .spd
-	db "SPEED@"
+	db "sa VITESSE@"
 .spc
-	db "SPECIAL@"
+	db "son SPECIAL@"
 
 .WhichStatTexts
 	dw .FirstStatText
@@ -498,44 +500,45 @@ InformMinDVs:
 	dw .FifthStatText
 
 .FirstStatText
-	text "But its @"
+	text "Mais @"
 	TX_RAM StringBuffer1
 	text "<...>"
-	line "It's pretty dis-"
-	cont "mal, you know?"
+	line "C'est assez lugu-"
+	cont "bre, tu sais?"
 	done
 
 .SecondStatText
-	text "And its @"
+	text "Et @"
 	TX_RAM StringBuffer1
 	text ""
-	line "is pretty disap-"
-	cont "pointing, too."
+	line "est aussi"
+	cont "décevant."
 	done
 
 .ThirdStatText
-	text "I'm afraid its"
+	text "J'ai peur que"
 	line "@"
 	TX_RAM StringBuffer1
-	text " is pretty"
-	cont "bad, too<...>"
+	text " "
+	line "soit mauvaise"
+	cont "aussi<...>"
 	done
 
 .FourthStatText
-	text "I'm not too happy"
-	line "with its @"
+	text "Je ne suis pas"
+	line "sur @"
 	TX_RAM StringBuffer1
 	text ""
-	cont "either."
+	cont "non plus."
 	done
 
 .FifthStatText
-	text "Well, its @"
+	text "Mh, @"
 	TX_RAM StringBuffer1
 	text ""
-	line "is nothing to brag"
-	cont "about, that's for"
-	cont "sure."
+	line "n'est rien à"
+	cont "vanter non plus,"
+	cont "c'est sûr<...>"
 	done
 
 GetCaughtGender: ; 4f301

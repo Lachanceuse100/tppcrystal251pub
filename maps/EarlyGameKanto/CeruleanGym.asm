@@ -97,136 +97,144 @@ CeruleanGymRB_StatueScript:
 	jumpstd gymstatue2
 
 CeruleanGymRB_MistyIntroText:
-	text "Hi, you're a new"
-	line "face!"
+	text "Tiens, une"
+	line "nouvelle tête!"
 
-	para "Trainers who want"
-	line "to turn pro have"
-	para "to have a policy"
-	line "about #MON!"
+	para "Si tu veux être un"
+	line "vrai dresseur, il"
+	para "te faut une vraie"
+	line "stratégie pour"
+	cont "tes #MON!"
 
-	para "What is your"
-	line "approach when you"
-	cont "catch #MON?"
+	para "C'est quoi ta"
+	line "tactique?"
 
-	para "My policy is an"
-	line "all-out offensive"
-	para "with WATER-type"
-	line "#MON!"
+	para "Moi je fonce dans"
+	line "le tas avec mes"
+	para "#MON EAU!"
 	done
 
 CeruleanGymRB_MistyLostText:
-	text "Wow!"
-	line "You're too much!"
+	text "Woah! T'es trop!"
 
-	para "All right!"
+	para "D'accord!"
 
-	para "You can have the"
-	line "CASCADEBADGE to"
-	cont "show you beat me!"
+	para "Tu peux avoir le"
+	line "BADGECASCADE pour"
+	cont "te vanter de"
+	cont "m'avoir battue!"
 	done
 
 CeruleanGymRB_GotBadgeText:
-	text "<PLAYER> received"
-	line "CASCADEBADGE."
+	text "<PLAYER> reçoit le"
+	line "BADGECASCADE."
 	done
 
 CeruleanGymRB_MistyCongratsText:
-	text "The CASCADEBADGE"
-	line "makes all #MON"
-	cont "up to L30 obey!"
+	text "Le BADGECASCADE"
+	line "fait obéir tes"
+	cont "#MON jusqu'au"
+	cont "niveau 30."
 
-	para "That includes"
-	line "even outsiders!"
+	para "Cela inclue"
+	line "les échangés!"
 
-	para "There's more, you"
-	line "can now use CUT"
-	cont "any time!"
+	para "En plus, tu"
+	line "pourras utiliser"
+	cont "COUPE à tout"
+	cont "moment!"
 
-	para "You can CUT down"
-	line "small bushes to"
-	cont "open new paths!"
+	para "Tu pourras couper"
+	line "les petits"
+	cont "buissons et ouvrir"
+	cont "de nouveaux"
+	cont "chemins!"
 
-	para "You can also have"
-	line "my favorite TM!"
+	para "Tu peux aussi"
+	line "avoir ma CT"
+	cont "favorite!"
 	done
 
 CeruleanGymRB_TMText:
-	text "TM18 teaches"
-	line "RAIN DANCE!"
+	text "La CT18 contient"
+	line "DANSE PLUIE!"
 
-	para "Use it on an"
-	line "aquatic #MON!"
+	para "C'est bien pour"
+	line "les #MON"
+	cont "aquatique!"
 	done
 
 CeruleanGymRB_NeedTMText:
-	text "You better make"
-	line "room for this TM!"
+	text "Il te faut de la"
+	line "place pour la CT!"
 	done
 
 CeruleanGymRB_BattleText1:
-	text "I'm more than good"
-	line "enough for you!"
+	text "Je suis plus"
+	line "qu'assez pour toi!"
 
-	para "MISTY can wait!"
+	para "ONDINE attendra!"
 	done
 
 CeruleanGymRB_EndBattleText1:
-	text "You totally"
-	line "overwhelmed me!"
+	text "Argh, tu m'as"
+	line "écrasé!"
 	done
 
 CeruleanGymRB_AfterBattleText1:
-	text "You have to face"
-	line "other trainers to"
-	cont "find out how good"
-	cont "you really are."
+	text "Combat d'autres"
+	line "dresseurs pour"
+	cont "savoir ce que tu"
+	cont "vaux vraiment."
 	done
 
 CeruleanGymRB_BattleText2:
-	text "Splash!"
+	text "Plouf!"
 
-	para "I'm first up!"
-	line "Let's do it!"
+	para "Moi d'abord!"
+	line "C'est parti!"
 	done
 
 CeruleanGymRB_EndBattleText2:
-	text "That can't be!"
+	text "Impossible!"
 	done
 
 CeruleanGymRB_AfterBattleText2:
-	text "MISTY is going to"
-	line "keep improving!"
+	text "ONDINE ne cesse"
+	line "de s'améliorer!"
 
-	para "She won't lose to"
-	line "someone like you!"
+	para "Elle ne perdra pas"
+	line "contre quelqu'un"
+	cont "comme toi!"
 	done
 
 CeruleanGymRB_GymGuyText:
-	text "Yo! Champ in"
-	line "making!"
+	text "Salut! Futur"
+	line "champion!"
 
-	para "Here's my advice!"
+	para "Voilà mon conseil!"
 
-	para "The LEADER, MISTY,"
-	line "is a pro who uses"
-	cont "WATER #MON!"
+	para "La CHAMPIONNE"
+	line "ONDINE, est une"
+	cont "pro des #MON"
+	cont "EAU."
 
-	para "You can drain all"
-	line "their water with"
-	cont "GRASS #MON!"
+	para "Tu peux les"
+	line "drainer avec tes"
+	cont "#MON PLANTE!"
 
-	para "Or, zap them with"
-	line "electricity!"
+	para "Ou bien les"
+	line "électrocuter!"
 	done
 
 CeruleanGymRB_GymGuyWinText:
-	text "You beat MISTY!"
-	line "What'd I tell ya?"
+	text "T'as battu ONDINE!"
+	line "Qu'est-ce que je"
+	cont "te disais?"
 
-	para "You and me kid,"
-	line "we make a pretty"
-	cont "darn good team!"
+	para "Toi et mon fils,"
+	line "vous feriez une"
+	cont "sacré équipe!"
 	done
 
 

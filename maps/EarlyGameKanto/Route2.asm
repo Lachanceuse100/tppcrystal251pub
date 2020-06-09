@@ -21,12 +21,12 @@ Route2RBSignpost1Script:
 
 _Route2Text3: ; 8d745 (23:5745)
 	text "ROUTE 2"
-	line "VIRIDIAN CITY -"
-	cont "PEWTER CITY"
+	line "JADIELLE -"
+	cont "ARGENTA"
 	done
 
 _Route2Text4: ; 8d76a (23:576a)
-	text "DIGLETT's CAVE"
+	text "CAVE TAUPIQUEUR"
 	done
 
 Route2RB_MapEventHeader:

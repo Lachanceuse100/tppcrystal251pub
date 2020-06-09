@@ -126,72 +126,74 @@ PalletTownRB_FisherScript:
 	jumptextfaceplayer PalletTownRB_FisherText
 
 PalletTownRB_OakText1:
-	text "<PLAY_G>, wait!"
+	text "<PLAY_G>, attends!"
 	done
 
 PalletTownRB_OakText2:
-	text "It's unsafe! Wild"
-	line "#MON can jump"
+	text "C'est dangereux!"
+	line "Des #MON"
 
-	para "out and attack"
-	line "you!"
+	para "peuvent t'attaquer"
+	line "dehors!"
 
-	para "You need your own"
-	line "#MON for your"
-	cont "protection!"
+	para "Tu auras besoin"
+	line "d'un #MON pour"
+	cont "te protéger!"
 
-	para "I know! Here, come"
-	line "with me."
+	para "Je sais! Viens"
+	line "avec moi."
 	done
 
 PalletTownRB_TeacherText1:
-	text "I wish I had a"
-	line "#MON."
+	text "J'aimerais avoir"
+	line "un #MON."
 
-	para "Then I could tra-"
-	line "vel, and it could"
-	cont "protect me."
+	para "Je pourrais"
+	line "voyager et il me"
+	cont "protégera."
 	done
 
 PalletTownRB_TeacherText2:
-	text "Oh, you have a"
-	line "#MON from"
-	cont "PROF.OAK?"
+	text "Oh, tu as un"
+	line "#MON du"
+	cont "PROF.CHEN?"
 
-	para "I'm so jealous!"
+	para "Tu en as de"
+	line "la chance<...>"
 	done
 
 PalletTownRB_FisherText:
-	text "Technology is"
-	line "incredible!"
+	text "C'est dingue la"
+	line "technologie!"
 
-	para "You can now store"
-	line "and retrieve #-"
-	cont "MON while they are"
-	cont "holding items!"
+	para "Tu peux stocker et"
+	line "retirer des #-"
+	cont "MON même si ils"
+	cont "tiennent des"
+	cont "objets."
 	done
 
 PalletTownRB_TownSignText: ; 0x1ac76b
-	text "PALLET TOWN"
+	text "BOURG PALETTE"
 
-	para "A Tranquil Setting"
-	line "of Peace & Purity"
+	para "Un endroit de"
+	line "paix et de pureté."
 	done
 ; 0x1ac79d
 
 PalletTownRB_PlayerHouseSignText: ; 0x1ac79d
-	text "<PLAYER>'S HOUSE"
+	text "MAISON de <PLAYER>."
 	done
 ; 0x1ac7aa
 
 PalletTownRB_OakLabSignText: ; 0x1ac7aa
-	text "OAK #MON"
-	line "RESEARCH LAB"
+	text "LABO DE RECHERCHE"
+	line "PROF. #MON CHEN"
 	done
 ; 0x1ac7c1
 
 PalletTownRB_GreenHouseSignText: ; 0x1ac7c1
-	text "<GREEN>'S HOUSE"
+	text "MAISON DE <GREEN>."
 	done
 ; 0x1ac7cf
 

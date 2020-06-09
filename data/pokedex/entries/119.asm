@@ -1,12 +1,12 @@
 ; SeakingPokedexEntry: ; 0x1b9690
-	db "GOLDFISH@" ; species name
+	db "POISSON@" ; species name
 	dw 403, 860 ; height, width
 
-	db   "When autumn comes,"
-	next "the males patrol"
-	next "the area around"
-	page "their nests in"
-	next "order to protect"
-	next "their offspring.@"
+	db   "A l'automne, le"
+	next "male fait sa ronde"
+	next "autour du nid pour"
+	page "protéger les"
+	next "petits."
+	next "@"
 ; 0x1b9702
 

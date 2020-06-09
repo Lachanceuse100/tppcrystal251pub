@@ -1,12 +1,12 @@
 ; HoOhPokedexEntry: ; 0x1d185d
-	db "RAINBOW@" ; species name
+	db "ARCENCIEL@" ; species name
 	dw 1206, 4390 ; height, width
 
-	db   "It will reveal"
-	next "itself before a"
-	next "pure-hearted"
-	page "trainer by shining"
-	next "its bright rain-"
-	next "bow-colored wings.@"
+	db   "Il ne se montre"
+	next "qu'à un dresseur"
+	next "au coeur pur en"
+	page "dévoilant ses"
+	next "magnifiques ailes"
+	next "colorées.@"
 ; 0x1d18cc
 

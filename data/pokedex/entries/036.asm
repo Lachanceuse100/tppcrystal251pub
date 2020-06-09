@@ -1,12 +1,12 @@
 ; ClefablePokedexEntry: ; 0x182530
-	db "FAIRY@" ; species name
+	db "FEE@" ; species name
 	dw 403, 880 ; height, width
 
-	db   "Said to live in"
-	next "quiet, remote"
-	next "mountains, this"
-	page "type of fairy has"
-	next "a strong aversion"
-	next "to being seen.@"
+	db   "On dit qu'il vit"
+	next "dans de lointaines"
+	next "montagnes."
+	page "Il déteste"
+	next "être vu."
+	next "@"
 ; 0x18259b
 

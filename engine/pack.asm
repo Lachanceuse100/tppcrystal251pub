@@ -158,8 +158,8 @@ MenuDataHeader_0x10124: ; 0x10124
 MenuData2_0x1012c: ; 0x1012c
 	db $c0 ; flags
 	db 2 ; items
-	db "USE@"
-	db "QUIT@"
+	db "UTIL@"
+	db "RET@"
 ; 0x10137
 
 Jumptable_10137: ; 10137
@@ -178,9 +178,9 @@ MenuDataHeader_0x1013b: ; 0x1013b
 MenuData2_0x10143: ; 0x10143
 	db $c0 ; flags
 	db 3 ; items
-	db "USE@"
-	db "GIVE@"
-	db "QUIT@"
+	db "UTIL@"
+	db "DON@"
+	db "RET@"
 ; 0x10153
 
 Jumptable_10153: ; 10153
@@ -310,12 +310,12 @@ MenuDataHeader_0x10249: ; 0x10249
 MenuData2_0x10251: ; 0x10251
 	db $c0 ; flags
 	db 6 ; items
-	db "USE@"
-	db "GIVE@"
-	db "TOSS@"
+	db "UTIL@"
+	db "DON@"
+	db "JET@"
 	db "SEL@"
 	db "DESEL@"
-	db "QUIT@"
+	db "RET@"
 ; 0x1026a
 
 Jumptable_1026a: ; 1026a
@@ -338,10 +338,10 @@ MenuDataHeader_0x10274: ; 0x10274
 MenuData2_0x1027c: ; 0x1027c
 	db $c0 ; flags
 	db 4 ; items
-	db "USE@"
-	db "GIVE@"
-	db "TOSS@"
-	db "QUIT@"
+	db "UTIL@"
+	db "DON@"
+	db "JET@"
+	db "RET@"
 ; 0x10291
 
 Jumptable_10291: ; 10291
@@ -362,8 +362,8 @@ MenuDataHeader_0x10299: ; 0x10299
 MenuData2_0x102a1: ; 0x102a1
 	db $c0 ; flags
 	db 2 ; items
-	db "USE@"
-	db "QUIT@"
+	db "UTIL@"
+	db "RET@"
 ; 0x102ac
 
 Jumptable_102ac: ; 102ac
@@ -382,10 +382,10 @@ MenuDataHeader_0x102b0: ; 0x102b0
 MenuData2_0x102b8: ; 0x102b8
 	db $c0 ; flags
 	db 4 ; items
-	db "USE@"
+	db "UTIL@"
 	db "SEL@"
 	db "DESEL@"
-	db "QUIT@"
+	db "RET@"
 ; 0x102c7
 
 Jumptable_102c7: ; 102c7
@@ -406,11 +406,11 @@ MenuDataHeader_0x102cd: ; 0x102cd
 MenuData2_0x102d5: ; 0x102d5
 	db $c0 ; flags
 	db 5 ; items
-	db "GIVE@"
-	db "TOSS@"
+	db "DON@"
+	db "JET@"
 	db "SEL@"
 	db "DESEL@"
-	db "QUIT@"
+	db "RET@"
 ; 0x102ea
 
 Jumptable_102ea: ; 102ea
@@ -432,8 +432,8 @@ MenuDataHeader_0x102f2: ; 0x102f2
 MenuData2_0x102fa: ; 0x102fa
 	db $c0 ; flags
 	db 3 ; items
-	db "GIVE@"
-	db "TOSS@"
+	db "DON@"
+	db "JET@"
 	db "QUIT@"
 ; 0x1030b
 
@@ -875,8 +875,8 @@ MenuDataHeader_0x10601: ; 0x10601
 MenuData2_0x10609: ; 0x10609
 	db $c0 ; flags
 	db 2 ; items
-	db "USE@"
-	db "QUIT@"
+	db "UTIL@"
+	db "RET@"
 ; 0x10614
 
 Jumptable_10614: ; 10614
@@ -895,7 +895,7 @@ MenuDataHeader_0x10618: ; 0x10618
 MenuData2_0x10620: ; 0x10620
 	db $c0 ; flags
 	db 1 ; items
-	db "QUIT@"
+	db "RET@"
 ; 0x10627
 
 Jumptable_10627: ; 10627
