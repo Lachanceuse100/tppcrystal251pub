@@ -547,7 +547,7 @@ JugglerIrwin1SeenText: ; 0x19cd1e
 
 JugglerIrwin1BeatenText: ; 0x19cd42
 	text "Oups! Elles sont"
-	cont "tombées."
+	line "tombées."
 	done
 ; 0x19cd5a
 

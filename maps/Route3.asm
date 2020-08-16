@@ -129,89 +129,93 @@ MapRoute3PokecenterSign:
 	jumpstd pokecentersign
 
 FirebreatherOtisSeenText: ; 0x1adfb8
-	text "Ah! The weather's"
-	line "as fine as ever."
+	text "Ah! Quelle belle"
+	line "journée!"
 	done
 ; 0x1adfdb
 
 FirebreatherOtisBeatenText: ; 0x1adfdb
-	text "It's sunny, but"
-	line "I'm all wet<...>"
+	text "Il fait beau mais"
+	line "je suis tout"
+	cont "mouillé<...>"
 	done
 ; 0x1adff7
 
 UnknownText_0x1adff7: ; 0x1adff7
-	text "When it rains,"
-	line "it's hard to get"
-	cont "ignition<...>"
+	text "Dur dur de m'al-"
+	line "lumer quand il"
+	cont "pleut."
 	done
 ; 0x1ae021
 
 YoungsterWarrenSeenText: ; 0x1ae021
-	text "Hmmm<...> I don't know"
-	line "what to do<...>"
+	text "Euuh<...> Je sais pas"
+	line "quoi faire<...>"
 	done
 ; 0x1ae040
 
 YoungsterWarrenBeatenText: ; 0x1ae040
-	text "I knew I'd lose<...>"
+	text "Je savais que"
+	line "j'allais perdre<...>"
 	done
 ; 0x1ae051
 
 UnknownText_0x1ae051: ; 0x1ae051
-	text "You looked strong."
+	text "T'es balèze."
 
-	para "I was afraid to"
-	line "take you on<...>"
+	para "J'avais peur de"
+	line "t'affronter<...>"
 	done
 ; 0x1ae082
 
 YoungsterJimmySeenText: ; 0x1ae082
-	text "I can run like the"
-	line "wind!"
+	text "Je cours comme le"
+	line "vent!"
 	done
 ; 0x1ae09c
 
 YoungsterJimmyBeatenText: ; 0x1ae09c
-	text "Blown away!"
+	text "Je suis soufflé!"
 	done
 ; 0x1ae0a9
 
 UnknownText_0x1ae0a9: ; 0x1ae0a9
-	text "I wear shorts the"
-	line "whole year round."
+	text "Je porte des"
+	line "shorts toute"
+	cont "l'année."
 
-	para "That's my fashion"
-	line "policy."
+	para "C'est mon sens de"
+	line "la mode."
 	done
 ; 0x1ae0e7
 
 FirebreatherBurtSeenText: ; 0x1ae0e7
-	text "Step right up and"
-	line "take a look!"
+	text "Avance et regarde!"
 	done
 ; 0x1ae107
 
 FirebreatherBurtBeatenText: ; 0x1ae107
-	text "Yow! That's hot!"
+	text "Yow! C'est chaud!"
 	done
 ; 0x1ae118
 
 UnknownText_0x1ae118: ; 0x1ae118
-	text "The greatest fire-"
-	line "breather in KANTO,"
-	cont "that's me."
+	text "Je suis le plus"
+	line "grand crache-feu"
+	cont "de KANTO."
 
-	para "But not the best"
-	line "trainer<...>"
+	para "Mais pas le plus"
+	line "grand dresseur<...>"
 	done
 ; 0x1ae163
 
 UnknownText_0x1ae163: ; 0x1ae163
-	text "MT.MOON SQUARE"
+	text "SQUARE du MONT"
+	line "SELENITE:"
 
-	para "Go right and then"
-	line "up the ladder!"
+	para "En haut puis à"
+	line "droite des"
+	cont "escaliers."
 	done
 ; 0x1ae18a
 

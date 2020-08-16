@@ -69,84 +69,80 @@ BlueReject:
 	end
 
 BlueRejectText:
-	text "BLUE: 3 months"
-	line "ago<...>"
+	text "BLUE: Il y a 3"
+	line "mois<...>"
 
-	para "I had a RIVAL."
+	para "J'avais un RIVAL."
 
-	para "He was the only"
-	line "TRAINER who could"
-	para "match my power in"
-	line "battle."
+	para "C'était le seul a"
+	line "égaler ma puis-"
+	cont "sance en combat."
 
-	para "If you think you"
-	line "are my equal, then"
-	para "conquer his grea-"
-	line "test feat!"
+	para "Si tu penses avoir"
+	line "le niveau,"
 
-	para "Catch 151 species"
-	line "of #MON!"
+	para "accomplis son plus"
+	line "grand exploit!"
+
+	para "Capture 151 espè-"
+	line "ces de #MON."
 	done
 
 BlueRematchTextBefore:
-	text "BLUE: You caught"
-	line "plenty of #MON"
-	cont "I see<...>"
+	text "BLUE: Voilà un"
+	line "#DEX bien"
+	cont "rempli<...>"
 
-	para "Just as I expec-"
-	line "ted!"
+	para "Comme je m'y"
+	line "attendais."
 
-	para "Now!"
+	para "Très bien!"
 
-	para "Let me show you"
-	line "the true power of"
-
-	para "the best of KANTO's"
-	line "best!"
+	para "Je vais te montrer"
+	line "la crème de la"
+	cont "crème de KANTO."
 	done
 
 BlueRematchBeatenText:
-	text "BLUE: You're the"
-	line "real deal!"
+	text "BLUE: T'es pas"
+	line "de la camelote!"
 	done
 
 BlueAfterRematchText:
-	text "BLUE: You're tough,"
-	line "I'll give you"
-	cont "that."
+	text "BLUE: T'es balèze,"
+	line "je te l'accorde."
 
-	para "But there's always"
-	line "someone better."
+	para "Mais il y a tou-"
+	line "jours quelqu'un au"
+	cont "dessus de toi."
 
-	para "You have to be"
-	line "more dedicated!"
+	para "Il faut que tu t'"
+	line "investisses plus!"
 
-	para "Legends tell of a"
-	line "truly powerful"
+	para "Les légendes par-"
+	line "lent d'un #MON"
 
-	para "#MON deep with-"
-	line "in CERULEAN CAVE."
+	para "monstrueux dans la"
+	line "CAVERNE AZUREE."
 
-	para "Most trainers are"
-	line "forbidden to enter"
+	para "C'est un endroit"
+	line "super dangereux et"
+	cont "interdit."
 
-	para "because it is so"
-	line "dangerous."
+	para "Même moi je galère"
+	line "là-bas."
 
-	para "Even I've had trou-"
-	line "ble against it."
+	para "Mais t'as prouvé"
+	line "que tu peux te"
+	cont "gérer."
 
-	para "But you've proven"
-	line "you can handle"
-	cont "yourself."
+	para "Je vais appeler le"
+	line "garde pour qu'il"
+	cont "te laisse entrer."
 
-	para "I'll call the"
-	line "guard there to let"
-	cont "you in."
-
-	para "You better not"
-	line "lose to that #-"
-	cont "MON, you hear?"
+	para "T'as pas intérêt"
+	line "à perdre contre ce"
+	cont "#MON, pigé?"
 	done
 
 ; 0x9aa51
@@ -283,240 +279,233 @@ UnknownScript_0x9aa74: ; 0x9aa74
 ; 0x9aa7b
 
 UnknownText_0x9aa7b: ; 0x9aa7b
-	text "BLUE: Yo! Finally"
-	line "got here, huh?"
+	text "BLUE: Yo! Te voilà"
+	line "enfin!"
 
-	para "I wasn't in the"
-	line "mood at CINNABAR,"
+	para "J'avais pas le"
+	line "moral à CRAMOIS'"
 
-	para "but now I'm ready"
-	line "to battle you."
+	para "ILE mais là je"
+	line "vais te battre."
 
 	para "<...>"
 
-	para "You're telling me"
-	line "you conquered all"
-	cont "the GYMS in JOHTO?"
+	para "Tu dis quoi? Tu as"
+	line "passé toutes les"
+	cont "ARENES de JOHTO?"
 
-	para "Heh! JOHTO's GYMS"
-	line "must be pretty"
-	cont "pathetic then."
+	para "C'est qu'ils doi-"
+	line "vent être pathé-"
+	cont "thiques là-bas."
 
-	para "Hey, don't worry"
-	line "about it."
+	para "Mais t'inquiètes"
+	line "pas<...>"
 
-	para "I'll know if you"
-	line "are good or not by"
+	para "Je vais tout de"
+	line "suite te dire si"
 
-	para "battling you right"
-	line "now."
+	para "tu as du talent"
+	line "ou non."
 
-	para "Ready, JOHTO"
-	line "CHAMP?"
+	para "Allez, MAITRE de"
+	line "JOHTO, allons-y!"
 	done
 ; 0x9abae
 
 UnknownText_0x9abae: ; 0x9abae
-	text "BLUE: What?"
+	text "BLUE: Quoi?"
 
-	para "How the heck did I"
-	line "lose to you?"
+	para "Comment j'ai pu"
+	line "perdre face à toi?"
 
 	para "<...>"
 
-	para "Tch, all right<...>"
-	line "Here, take this--"
-	cont "it's EARTHBADGE."
+	para "Pfff<...> D'accord."
+	line "Tiens, prends ce"
+	cont "BADGE TERRE."
 	done
 ; 0x9ac0f
 
 UnknownText_0x9ac0f: ; 0x9ac0f
-	text "<PLAYER> received"
-	line "EARTHBADGE."
+	text "<PLAYER> reçoit"
+	line "le BADGE TERRE."
 	done
 ; 0x9ac27
 
 UnknownText_0x9ac27: ; 0x9ac27
 	text "BLUE: <...>"
 
-	para "All right, I was"
-	line "wrong. You're the"
+	para "D'accord, j'avais"
+	line "tort, t'es pas de"
+	cont "la camelote<...>"
 
-	para "real deal. You are"
-	line "a good trainer."
-
-	para "I'm going to call"
-	line "CELADON and tell"
+	para "Je vais appeler"
+	line "CELADOPOLE et"
 	
-	para "them they can open"
-	line "the TM DEPOT for"
-	cont "you."
+	para "demander à ce qu'"
+	line "ils t'ouvrent le"
+	cont "BAZAR à CT."
 
-	para "Someday I'm going"
-	line "to beat you."
+	para "Je te battarais"
+	line "un jour."
 
-	para "Don't you forget"
-	line "it!"
+	para "Oublie-pas!"
 	done
 ; 0x9acab
 
 UnknownText_0x9acab: ; 0x9acab
-	text "BLUE: Listen, you."
+	text "BLUE: Ecoute voir."
 
-	para "You'd better not"
-	line "lose until I beat"
-	cont "you. Got it?"
+	para "T'as pas intérêt à"
+	line "perdre contre qui-"
+	cont "conque à part moi,"
+	cont "pigé?"
 	done
 ; 0x9acee
 
 ViridianGymGuyText: ; 0x9acee
-	text "Yo, CHAMP!"
+	text "Salut, champion en"
+	line "herbe!"
 
-	para "How's it going?"
+	para "Comment ça va?"
 
-	para "The GYM LEADER is"
-	line "a guy who battled"
+	para "Le CHAMPION est"
+	line "celui qui a com-"
 	
-	para "the CHAMPION three"
-	line "months ago."
+	para "battu le MAITRE il"
+	line "y a trois ans."
 
-	para "He's no pushover."
+	para "C'est pas un"
+	line "tendre."
 
-	para "Give it everything"
-	line "you've got,"
+	para "Donne tout ce que"
+	line "tu as parce que"
 	
-	para "because you're in"
-	line "for a wild ride!"
+	para "tu pars pour les"
+	line "montagnes russes,"
+	cont "là."
 	done
 ; 0x9ada0
 
 ViridianGymGuyWinText: ; 0x9ada0
-	text "Man, you are"
-	line "really tough<...>"
+	text "Fiiou! Alors toi,"
+	line "on ne t'arrête"
+	cont "plus!"
 
-	para "That was an"
-	line "inspirational"
-	cont "battle!"
+	para "Ca c'était du"
+	line "combat!"
 	
-	para "It brought tears"
-	line "to my eyes!"
+	para "J'en ai les larmes"
+	line "aux yeux."
 	done
 ; 0x9ae04
 
 CooltrainerFSalmaSeenText:
-	text "What do you think?"
+	text "T'en penses quoi?"
 
-	para "You've never seen"
-	line "such a wonderful"
+	para "T'as jamais vu une"
+	line "si belle arène,"
+	cont "hein?"
 
-	para "GYM before, have"
-	line "you?"
 	done
 
 CooltrainerFSalmaBeatenText:
-	text "Whatever!"
+	text "Pffff!"
 	done
 
 CooltrainerFSalmaText:
-	text "There are many"
-	line "kinds of GYMs in"
+	text "Il y a toute sorte"
+	line "d'ARENE dans le"
 
-	para "the world, but I"
-	line "really like this"
-	cont "one!"
+	para "monde, mais je"
+	line "préfère celle-là!"
 	done
 
 CoolSibsAraBellaSeenText1:
-	text "ARA: Anyway, fight"
-	line "me and see!"
+	text "ARA: Bref, on va"
+	line "se battre!"
 	done
 
 CoolSibsAraBellaSeenText2:
-	text "BELLA: Want to"
-	line "know why they call"
-	cont "us COOL SIBLINGS?"
+	text "BELLA: Tu sais"
+	line "pourquoi on nous"
+	cont "appelle les"
+	cont "JUMEAUX TROP COOL?"
 	done
 
 CoolSibsAraBellaBeatenText:
-	text "ARA: I was"
-	line "deceived!"
+	text "ARA: Argh!"
 
-	para "BELLA: Too strong!"
+	para "BELLA: Trop"
+	line "balèze!"
 	done
 
 CoolSibsAraBella1Text:
-	text "ARA: Me, I should"
-	line "be a pretty good"
-	cont "practice partner<...>"
+	text "ARA: Je suis au"
+	line "moins un bon"
+	cont "partenaire d'en-"
+	cont "traînement<...>"
 	done
 
 CoolSibsAraBella2Text:
-	text "BELLA: You"
-	line "shouldn't say that"
-	cont "about yourself!"
+	text "BELLA: Oh, mais"
+	line "non, tu n'es pas"
+	cont "que ça!"
 	done
 
 CoolSibsElanIdaSeenText1:
-	text "IDA: I'm IDA! Next"
-	line "to me is ELAN!"
+	text "IDA: Je suis IDA!"
+	line "Et lui c'est ELAN!"
 
-	para "Together we are"
-	line "COOL SIBLINGS!"
+	para "Ensemble on est"
+	line "des JUMEAUX trop"
+	cont "cool!"
 	done
 
 CoolSibsElanIdaSeenText2:
-	text "ELAN: All right,"
-	line "let's get this"
-	cont "fight started!"
-
-	para "Come on!"
+	text "ELAN: Allez, com-"
+	line "mençons ce combat!"
 	done
 
 CoolSibsElanIdaBeatenText:
-	text "IDA: Wow. You're"
-	line "really something."
+	text "IDA: Wow. t'es"
+	line "incroyable."
 
-	para "ELAN: Well, this"
-	line "is surprising."
+	para "ELAN: Et bien,"
+	line "quelle surprise."
 	done
 
 CoolSibsElanIda1Text:
-	text "IDA: If the only"
-	line "thing GYM TRAIN-"
-	cont "ERs have is"
-	cont "strength, they"
-	cont "won't do well."
+	text "IDA: J'espère que"
+	line "tu as plus que de"
+	cont "la force, sinon tu"
+	cont "ne vas pas faire"
+	cont "long feu!"
 
-	para "Bringing out your"
-	line "opponent's"
-	cont "strength is also"
-	cont "important!"
 	done
 
 CoolSibsElanIda2Text:
-	text "ELAN: You're"
-	line "stronger than we"
-	cont "anticipated!"
+	text "ELAN: T'étais"
+	line "plus costaud que"
+	cont "prévu!"
 	done
 
 CooltrainerMBonitaSeenText:
-	text "Looking around the"
-	line "room like that,"
+	text "Ca ne te rends"
+	line "pas malade d'es-"
 
-	para "doesn't it make"
-	line "you a little"
-	cont "dizzy?"
+	para "sayer de naviguer"
+	line "dans la salle?"
 	done
 
 CooltrainerMBonitaBeatenText:
-	text "All of my #MON"
-	line "are dizzy<...>"
+	text "Mes #MON ont le"
+	line "tournis<...>"
 	done
 
 CooltrainerMBonitaText:
-	text "Looks like you've"
-	line "still got some"
-	cont "energy left."
+	text "On dirait qu'il te"
+	line "reste des forces."
 	done
 
 BluePostgameRematchScript:
@@ -536,30 +525,30 @@ BluePostgameRematchScript:
     end
 
 BluePostgameRematchText:
-	text "BLUE: Yo CHAMP."
+	text "BLUE: Yo, MAITRE!"
 	
-	para "What are you doing"
-	line "back here?"
+	para "Qu'est-ce que tu"
+	line "fais ici?"
 	
-	para "Couldn't get"
-	line "enough of my wild"
-	cont "GYM maze? Haha!"
+	para "T'en as pas eu"
+	line "assez du labyrhin-"
+	cont "te de l'ARENE?"
+	cont "Haha!"
 	
-	para "<...>Oh! You want"
-	line "a rematch?"
+	para "<...>Oh! Tu veux te"
+	line "rebattre?"
 	done
 
 BluePostgameAfterText:
-	text "BLUE: Well, what"
-	line "can I say?"
+	text "BLUE: Que dire de"
+	line "plus?"
 
-	para "You're stronger"
-	line "than I've ever"
-	cont "been."
+	para "T'es encore plus"
+	line "balèze qu'avant."
 
-	para "I can see now why"
-	line "you're still the"
-	cont "CHAMPION!"
+	para "Je comprends pour-"
+	line "quoi t'es encore"
+	cont "MAITRE!"
 	done
 	
 ViridianGym_MapEventHeader: ; 0x9ae04

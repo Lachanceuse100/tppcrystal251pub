@@ -235,7 +235,7 @@ UnknownText_0x6c52a: ; 0x6c52a
 
 UnknownText_0x6c549: ; 0x6c549
 	text "Tu en as mis du"
-	line "temps, <PLAY_G>?"
+	line "temps, <PLAY_G>."
 
 	para "Comme je le pen-"
 	line "sais, l'étrange"

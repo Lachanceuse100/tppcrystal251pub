@@ -11,8 +11,9 @@ PokefanMScript_0x188002: ; 0x188002
 ; 0x188005
 
 UnknownText_0x188005: ; 0x188005
-	text "Are you collecting"
-	line "KANTO GYM BADGES?"
+	text "Tu collectionnes"
+	line "les BADGES des"
+	cont "ARENES de KANTO?"
 	done
 ; 0x18802b
 

@@ -38,49 +38,50 @@ MapSafariZoneWardensHomeSignpost1Script: ; 0x1965e3
 ; 0x1965e6
 
 UnknownText_0x1965e6: ; 0x1965e6
-	text "My grandpa is the"
-	line "SAFARI ZONE WAR-"
-	cont "DEN."
+	text "Mon grand-père est"
+	line "le GARDIEN du PARC"
+	cont "SAFARI."
 
-	para "At least he was<...>"
+	para "Enfin, il l'était<...>"
 
-	para "He decided to go"
-	line "on a vacation and"
+	para "Il a décidé d'un"
+	line "coup de partir en"
 
-	para "took off overseas"
-	line "all by himself."
+	para "vacances à"
+	line "l'étranger."
 
-	para "He quit running"
-	line "SAFARI ZONE just"
-	cont "like that."
+	para "Il a fermé le PARC"
+	line "SAFARI, juste"
+	cont "comme ça<...>"
 	done
 ; 0x196691
 
 UnknownText_0x196691: ; 0x196691
-	text "Many people were"
-	line "disappointed that"
+	text "Les gens étaient"
+	line "déçus d'apprendre"
 
-	para "SAFARI ZONE closed"
-	line "down, but Grandpa"
-	cont "is so stubborn<...>"
+	para "la fermeture du"
+	line "PARC SAFARI mais"
+	cont "pépé est si têtu<...>"
 	done
 ; 0x1966ea
 
 UnknownText_0x1966ea: ; 0x1966ea
-	text "It's a photo of a"
-	line "grinning old man"
+	text "C'est la photo"
+	line "d'un vieil homme"
 
-	para "who's surrounded"
-	line "by #MON."
+	para "souriant entouré"
+	line "de #MON."
 	done
 ; 0x196726
 
 UnknownText_0x196726: ; 0x196726
-	text "It's a photo of a"
-	line "huge grassy plain"
+	text "C'est la photo"
+	line "d'une grande plai-"
 
-	para "with rare #MON"
-	line "frolicking in it."
+	para "ne verdoyante avec"
+	line "des #MON rares"
+	cont "tout partout."
 	done
 ; 0x19676b
 

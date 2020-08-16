@@ -130,117 +130,125 @@ MapRoute2SignpostItem5: ; 0x1ac311
 ; 0x1ac314
 
 Bug_catcherRobSeenText: ; 0x1ac314
-	text "My bug #MON are"
-	line "tough. Prepare to"
-	cont "lose!"
+	text "Mes #MON "
+	line "insectes sont ba-"
+	cont "lèzes! Prépare toi"
+	cont "à perdre!"
 	done
 ; 0x1ac33d
 
 Bug_catcherRobBeatenText: ; 0x1ac33d
-	text "I was whipped<...>"
+	text "Je me suis fait"
+	line "fouetter<...>"
 	done
 ; 0x1ac34d
 
 UnknownText_0x1ac34d: ; 0x1ac34d
-	text "I'm going to look"
-	line "for stronger bug"
-	cont "#MON."
+	text "Je vais chercher"
+	line "des meilleurs"
+	cont "#MON insectes."
 	done
 ; 0x1ac376
 
 Bug_catcherEdSeenText: ; 0x1ac376
-	text "If you walk in"
-	line "tall grass wearing"
+	text "Tu ne te coupes"
+	line "pas quand tu"
 
-	para "shorts, do you get"
-	line "nicks and cuts?"
+	para "marche dans l'"
+	line "herbe en short?"
 	done
 ; 0x1ac3bc
 
 Bug_catcherEdBeatenText: ; 0x1ac3bc
-	text "Ouch, ouch, ouch!"
+	text "Aïe, aïe, aïe!"
 	done
 ; 0x1ac3cf
 
 UnknownText_0x1ac3cf: ; 0x1ac3cf
-	text "They'll really"
-	line "sting when you"
-	cont "take a bath."
+	text "Ca pique quand tu"
+	line "prends un bain."
 	done
 ; 0x1ac3fa
 
 Bug_catcherDougSeenText: ; 0x1ac3fa
-	text "Why don't girls"
-	line "like bug #MON?"
+	text "Pourquoi les"
+	line "filles n'aiment"
+	cont "pas les #MON"
+	cont "insectes?"
 	done
 ; 0x1ac419
 
 Bug_catcherDougBeatenText: ; 0x1ac419
-	text "No good!"
+	text "Oh non!"
 	done
 ; 0x1ac423
 
 UnknownText_0x1ac423: ; 0x1ac423
-	text "Bug #MON squish"
-	line "like plush toys"
+	text "Les #MON"
+	line "insectes c'est"
 
-	para "when you squeeze"
-	line "their bellies."
+	para "comme des grosses"
+	line "peluches quand tu"
 
-	para "I love how they"
-	line "feel!"
+	para "appuies sur leur"
+	line "estomac!"
 	done
 ; 0x1ac47a
 
 ViridianForestSignpostText1:
-	text "TRAINER TIPS"
+	text "ASTUCE"
 
-	para "Weaken #MON"
-	line "before attempting"
+	para "Affaiblissez les"
+	line "#MON avant"
+	cont "de tenter une"
 	cont "capture!"
 
-	para "When healthy,"
-	line "they may escape!"
+	para "Les #MON en"
+	line "pleine forme peu-"
+	cont "vent se libérer!"
 	done
 
 ViridianForestSignpostText2:
-	text "For poison, use"
-	line "ANTIDOTE! Get it"
-	cont "at #MON MARTs!"
+	text "Contre le poison,"
+	line "achetez des"
+	cont "ANTIDOTE à la"
+	cont "boutique #MON."
 	done
 
 ViridianForestSignpostText3:
-	text "TRAINER TIPS"
+	text "ASTUCE"
 
-	para "If you want to"
-	line "avoid battles,"
-	cont "stay away from"
-	cont "grassy areas!"
+	para "Pour éviter les"
+	line "combats, éloignez"
+	cont "vous des hautes"
+	cont "herbes!"
 	done
 
 ViridianForestSignpostText4:
-	text "TRAINER TIPS"
+	text "ASTUCE"
 
-	para "Contact PROF.OAK"
-	line "via PC to get"
-	cont "your #DEX"
-	cont "evaluated!"
+	para "Contacter le PROF."
+	line "CHEN avec le PC"
+	cont "pour faire évaluer"
+	cont "votre #DEX!"
 	done
 
 ViridianForestSignpostText5:
-	text "TRAINER TIPS"
+	text "ASTUCE"
 
-	para "No stealing of"
-	line "#MON from"
-	cont "other trainers!"
-	cont "Catch only wild"
-	cont "#MON!"
+	para "Ne volez pas les"
+	line "#MON des autres"
+	cont "dresseurs!"
+
+	para "Capturez seulement"
+	line "les #MON"
+	cont "sauvages!"
 	done
 
 ViridianForestSignpostText6:
-	text "LEAVING"
-	line "VIRIDIAN FOREST"
-	cont "PEWTER CITY AHEAD"
+	text "SORTIE DE LA FORET"
+	line "DE JADE. ARGENTA"
+	cont "DROIT DEVANT"
 	done
 
 MapViridianForestSignpost0Script:

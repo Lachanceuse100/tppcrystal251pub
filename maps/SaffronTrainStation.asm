@@ -139,101 +139,100 @@ MovementData_0x18a8a1: ; 0x18a8a1
 ; 0x18a8a9
 
 UnknownText_0x18a8a9: ; 0x18a8a9
-	text "I'm sorry, but the"
-	line "MAGNET TRAIN isn't"
-	cont "operating now."
+	text "Le TRAIN MAGNET ne"
+	line "fonctionne pas"
+	cont "pour l'instant."
 	done
 ; 0x18a8dd
 
 UnknownText_0x18a8dd: ; 0x18a8dd
-	text "We'll soon depart"
-	line "for GOLDENROD."
+	text "Nous partons bien-"
+	line "tôt pour DOUBLON-"
+	cont "VILLE."
 
-	para "Are you coming on"
-	line "board?"
+	para "Veux-tu monter à"
+	line "bord?"
 	done
 ; 0x18a917
 
 UnknownText_0x18a917: ; 0x18a917
-	text "May I see your"
-	line "rail PASS, please?"
+	text "Puis-je voir votre"
+	line "PASSE train, s'il"
+	cont "vous plaît?"
 
-	para "OK. Right this"
-	line "way, please."
+	para "Merci, c'est par"
+	line "là."
 	done
 ; 0x18a956
 
 UnknownText_0x18a956: ; 0x18a956
-	text "Sorry, but you"
-	line "don't have a PASS."
+	text "Désolé, tu n'as"
+	line "pas de PASSE."
 	done
 ; 0x18a978
 
 UnknownText_0x18a978: ; 0x18a978
-	text "We hope to see you"
-	line "again."
+	text "A bientôt."
 	done
 ; 0x18a993
 
 UnknownText_0x18a993: ; 0x18a993
-	text "We have arrived in"
-	line "SAFFRON."
+	text "Nous sommes arri-"
+	line "vés à SAFRANIA."
 
-	para "We hope to see you"
-	line "again."
+	para "A bientôt."
 	done
 ; 0x18a9ca
 
 UnknownText_0x18a9ca: ; 0x18a9ca
-	text "The MAGNET TRAIN"
-	line "is a super-modern"
+	text "Le TRAIN MAGNET"
+	line "est un train super"
 
-	para "rail liner that"
-	line "uses electricity"
+	para "moderne qui utili-"
+	line "se l'énergie"
 
-	para "and magnets to"
-	line "attain incredible"
-	cont "speed."
+	para "magnétique pour"
+	line "aller à toute"
+	cont "vitesse."
 
-	para "However, if there"
-	line "isn't any elec-"
-	cont "tricity<...>"
+	para "Mais si il n'y a"
+	line "pas d'électricité<...>"
 	done
 ; 0x18aa61
 
 UnknownText_0x18aa61: ; 0x18aa61
-	text "Whew<...>"
+	text "Fouiiii<...>"
 
-	para "How many times"
-	line "have I gone back"
+	para "Mais combien de"
+	line "fois j'ai fais la"
 
-	para "and forth between"
-	line "KANTO and JOHTO?"
+	para "navette entre JOH-"
+	line "TO et KANTO moi<...>"
 	done
 ; 0x18aaab
 
 UnknownText_0x18aaab: ; 0x18aaab
-	text "Before the MAGNET"
-	line "TRAIN STATION was"
+	text "Il y avait une"
+	line "maison avant la"
 
-	para "built, there was a"
-	line "house there."
+	para "construction de la"
+	line "STATION du TRAIN."
 
-	para "A little girl"
-	line "named COPYCAT used"
-	cont "to live there."
+	para "Une petite fille,"
+	line "appelée COPIEUSE,"
+	cont "y vivait."
 	done
 ; 0x18ab20
 
 UnknownText_0x18ab20: ; 0x18ab20
-	text "Hi. Do you have a"
-	line "rail PASS? I have"
+	text "Salut. Tu as un"
+	line "PASSE? Moi j'en ai"
 
-	para "one. All the peo-"
-	line "ple in SAFFRON who"
+	para "un. Tous ceux de"
+	line "SAFRANIA qui pren-"
 
-	para "ride the MAGNET"
-	line "TRAIN have PASSES."
+	para "nent le TRAIN en"
+	line "ont un."
 	done
 ; 0x18ab8d
 

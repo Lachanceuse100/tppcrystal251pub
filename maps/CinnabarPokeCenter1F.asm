@@ -19,19 +19,18 @@ FisherScript_0x1ab332: ; 0x1ab332
 ; 0x1ab335
 
 UnknownText_0x1ab335: ; 0x1ab335
-	text "CINNABAR GYM's"
-	line "BLAINE apparently"
+	text "AUGUSTE de l'ARENE"
+	line "de CRAMOIS'ILE vit"
 
-	para "lives alone in the"
-	line "SEAFOAM ISLANDS"
-	cont "cave<...>"
+	para "seul dans la grot-"
+	line "te des ILES ECUME<...>"
 	done
 ; 0x1ab37f
 
 UnknownText_0x1ab37f: ; 0x1ab37f
-	text "It's been a month"
-	line "since the volcano"
-	cont "erupted."
+	text "Cela fait un mois"
+	line "depuis l'éruption"
+	cont "du volcan."
 	done
 ; 0x1ab3ab
 

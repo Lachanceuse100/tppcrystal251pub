@@ -138,83 +138,84 @@ MovementData_0x195f27_2:
 	step_end
 
 InvisibleTrainerFoundText:
-	text "Fufufu!"
+	text "Héhéhé!"
 
-	para "You have finally"
-	line "found me!"
+	para "Tu m'as enfin"
+	line "trouvé!"
 	done
 
 FakeJanine1Text:
-	text "Anyways, I'm not"
-	line "JANINE<...>"
+	text "Bref, je ne suis"
+	line "pas JEANNINE<...>"
 	done
 
 FakeJanine2Text:
-	text "Your LEADER is in"
-	line "another room<...>"
+	text "Ta CHAMPIONNE est"
+	line "dans un autre"
+	cont "château."
+
+	para "Euh, je veux dire"
+	line "une autre pièce."
 	done
 
 JanineBeforeRematchText:
-	text "JANINE: The true"
-	line "essence of a"
-	cont "ninja's moves<...>"
+	text "JEANNINE: La véri-"
+	line "table essence des"
+	cont "techniques de"
+	cont "ninja<...>"
 
-	para "Honed and trained"
-	line "to perfection<...>"
+	para "Aiguisé à la"
+	line "perfection<...>"
 
-	para "Prepare to expe-"
-	line "rience the horror"
+	para "Tu vas connaître"
+	line "la véritable puis-"
 
-	para "of the poison-type"
-	line "#MON that have"
-
-	para "mastered these"
-	line "techniques!"
+	para "sance des #MON"
+	line "poison!"
 	done
 ; 0x1960e6
 
 JanineRematchBeatenText:
 	text "<...>!!!"
-	line "So<...> So strong!"
+	line "Trop<...> fort!"
 
 	done
 
 JanineAfterRematchText:
-	text "JANINE: While I do"
-	line "admire your"
-	cont "victory,"
+	text "JEANNINE: Même si"
+	line "j'admire ta vic-"
+	cont "toire, je suis"
 
-	para "I'm disappointed"
-	line "that I lost<...>"
+	para "déçue d'avoir"
+	line "perdu<...>"
 
-	para "I'll train with my"
-	line "father to become"
+	para "Je vais m'entraî-"
+	line "ner avec mon père"
 	
-	para "better than before"
-	line "and challenge you"
-	cont "again!"
+	para "jusqu'à pouvoir te"
+	line "battre!"
 	done
 
 FuchsiaGym2GuyText: ; 0x196299
-	text "Yo, CHAMP!"
+	text "Salut, MAITRE!"
 
-	para "Having a hard time"
-	line "finding JANINE?"
+	para "T'as du mal à"
+	line "trouver JEANNINE?"
 
-	para "I assure you she's"
-	line "here somewhere,"
+	para "Promis, elle est"
+	line "bien là, quelque"
 
-	para "hiding in this new"
-	line "invisible maze."
+	para "part dans ce laby-"
+	line "rinthe invisible!"
 
-	para "She's even made"
-	line "herself invisible!"
+	para "Elle est totale-"
+	line "ment camouflé!"
 	done
 ; 0x196325
 
 FuchsiaGym2GuyWinText: ; 0x196325
-	text "That was a great"
-	line "battle, trainer!"
+	text "C'était un beau"
+	line "combat!"
 	done
 ; 0x196353
 
@@ -237,32 +238,35 @@ JaninePostgameRematchScript:
     end
 	
 JaninePostgameRematchText:
-	text "JANINE: I suppose"
-	line "it's a bit easier"
-	cont "finding me now."
+	text "JEANNINE: C'est"
+	line "plus facile de me"
+	cont "trouver, hein?"
 
-	para "Let's keep this"
-	line "talking short."
+	para "Bon, ne passons"
+	line "pas par quatre"
+	cont "chemins."
 
-	para "Do you want to"
-	line "battle again?"
+	para "On se fait un"
+	line "petit combat?"
 	done
 	
 JaninePostgameBeatenText:
 	text "<...>!!!"
 	
-	para "Still! So strong!!"
+	para "Toujours trop"
+	line "fort!!"
 	done
 	
 JaninePostgameAfterText:
-	text "JANINE: And again,"
-	line "I lose."
+	text "JEANNINE: J'ai"
+	line "encore perdu."
 
-	para "You have truly"
-	line "honed your skills."
+	para "Tes talents sont"
+	line "super aiguisés."
 	
-	para "I can only hope to"
-	line "be that precise!"
+	para "J'espère un jour"
+	line "t'arriver à la"
+	cont "cheville!"
 	done
 
 FuchsiaGym2_MapEventHeader:

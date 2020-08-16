@@ -2,7 +2,7 @@
 	db "GRAINE@" ; species name
 	dw 204, 150 ; height, width
 
-	db   "Jeune il absorbe,"
+	db   "Jeune, il absorbe"
 	next "les nutriments"
 	next "gardés dans"
 	page "son dos pour"

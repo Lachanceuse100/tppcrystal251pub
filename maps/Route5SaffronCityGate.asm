@@ -11,14 +11,14 @@ OfficerScript_0x18b5b9: ; 0x18b5b9
 ; 0x18b5bc
 
 UnknownText_0x18b5bc: ; 0x18b5bc
-	text "You're from JOHTO,"
-	line "aren't you?"
+	text "Tu es de JOHTO,"
+	line "non?"
 
-	para "How do you like"
-	line "KANTO?"
+	para "Alors? Que penses-"
+	line "tu de KANTO?"
 
-	para "<...> Wait, you are"
-	line "from here?"
+	para "<...> Ah, tu viens"
+	line "d'ici?"
 	done
 ; 0x18b60b
 

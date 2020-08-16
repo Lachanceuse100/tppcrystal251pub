@@ -76,80 +76,80 @@ MovementData_0x71e6b: ; 0x71e6b
 ; 0x71e70
 
 UnknownText_0x71e70: ; 0x71e70
-	text "ERIKA is a master"
-	line "of grass #MON."
+	text "ERIKA est la"
+	line "maîtresse des"
+	cont "#MON PLANTES."
 
-	para "She'll make you"
-	line "pay if you don't"
-	cont "watch yourself."
+	para "Fais attention ou"
+	line "tu le regretteras."
 	done
 ; 0x71ec1
 
 UnknownText_0x71ec1: ; 0x71ec1
-	text "TEAM ROCKET's"
-	line "hideout is in the"
+	text "La planque de la"
+	line "TEAM ROCKET est au"
 
-	para "basement of the"
-	line "GAME CORNER."
+	para "sous-sol du"
+	line "CASINO."
 
-	para "Oh, wait. That was"
-	line "three months ago."
+	para "Attends<...> C'était"
+	line "il y a 3 mois, ça."
 	done
 ; 0x71f22
 
 UnknownText_0x71f22: ; 0x71f22
-	text "EUSINE: Hi!"
+	text "EUSINE: Salut!"
 
-	para "I'm back visiting"
-	line "my hometown."
+	para "Je reviens visiter"
+	line "ma ville natale."
 
-	para "It's been quite a"
-	line "while."
+	para "Ca faisait un"
+	line "moment!"
 	done
 ; 0x71f65
 
 UnknownText_0x71f65: ; 0x71f65
-	text "<PLAYER>, have you"
-	line "heard?"
+	text "<PLAYER>, tu es au"
+	line "courant?"
 
-	para "There have been"
-	line "fresh rumors of a"
+	para "Des rumeurs cou-"
+	line "rent qu'un #MON"
 
-	para "rainbow-colored"
-	line "#MON appearing"
-	cont "at TIN TOWER."
+	para "arc-en-ciel est"
+	line "apparue à la TOUR"
+	cont "FERAILLE."
 
-	para "I've just had my"
-	line "party healed, so"
+	para "Je viens de soi-"
+	line "gner mon équipe et"
 
-	para "now I'm headed to"
-	line "ECRUTEAK."
+	para "je vais partir"
+	line "pour ROSALIA."
 
-	para "I'll be seeing"
-	line "you, <PLAYER>!"
+	para "A plus tard,"
+	line "<PLAYER>!"
 	done
 ; 0x7201a
 
 UnknownText_0x7201a: ; 0x7201a
-	text "Oh, by the way,"
+	text "Oh, au fait,"
 	line "<PLAYER>."
 
-	para "Have you caught"
-	line "the legendary"
+	para "As-tu capturé les"
+	line "#MON légen-"
 
-	para "#MON RAIKOU and"
+	para "daires RAIKOU et"
 	line "ENTEI?"
 
 	para $56, $56, $56
 
-	para "Okay<...>"
+	para "D'accord<...>"
 
-	para "If you catch even"
-	line "one, I hope that"
-	cont "you'll inform me."
+	para "Si tu en attrapes"
+	line "un, j'espère que"
+	cont "tu me le diras."
 
-	para "I'm counting on"
-	line "you, <PLAYER>!"
+	para "Je compte sur toi,"
+	line "<PLAYER>!"
 	done
 ; 0x720b8
 

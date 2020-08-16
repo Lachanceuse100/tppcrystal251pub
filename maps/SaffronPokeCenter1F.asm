@@ -67,105 +67,107 @@ PokefanMScript_GiveFlute:
 	end
 
 SnorlaxInTheWayText:
-	text "Have you seen the"
-	line "SNORLAX around"
-	cont "here?"
+	text "Tu as vu le"
+	line "RONFLEX par ici?"
 
-	para "They've been cau-"
-	line "sing trouble for"
-	cont "the locals."
+	para "Il cause des en-"
+	line "nuis aux gens du"
+	cont "coin."
 	done
 
 TryGiveFluteText:
-	text "Have you seen the"
-	line "SNORLAX around"
-	cont "here?"
+	text "Tu as vu le"
+	line "RONFLEX par ici?"
 
-	para "If you try playing"
-	line "this, they might"
-	cont "wake up."
+	para "Essaye donc de"
+	line "jouer ça, il se"
+	cont "réveillera peut-"
+	cont "être."
 	done
 
 GotFluteAlreadyText:
-	text "That flute plays"
-	line "a sublime sound."
+	text "Cette flûte joue"
+	line "un son sublime."
 
-	para "#MON hearing"
-	line "it will surely"
-	cont "wake up."
+	para "Il réveille les"
+	line "#MON endormis."
 
-	para "It's so effective,"
-	line "they play it non-"
-	cont "stop on the RADIO."
+	para "C'est si efficace"
+	line "que c'est joué"
+	cont "sans arrêt à la"
+	cont "RADIO."
 	done
 
 UnknownText_0x18a4a3: ; 0x18a4a3
-	text "Have you heard"
-	line "about the KANTO"
-	cont "CHOIR GROUP?"
+	text "Tu as entendu par-"
+	line "ler de la CHORALE"
+	cont "de KANTO?"
 
-	para "They get their in-"
-	line "spiration from a"
+	para "Ils se sont inspi-"
+	line "rés de l'aventure"
 
-	para "famous trainer"
-	line "and his journey."
+	para "d'un dresseur"
+	line "très célèbre."
 
-	para "Nobody knows where"
-	line "that trainer is"
-	cont "now, though."
+	para "Mais personne ne"
+	line "sait ce qu'il est"
+	cont "advenu de lui."
 	done
 ; 0x18a532
 
 UnknownText_0x18a532: ; 0x18a532
-	text "What are JOHTO's"
-	line "#MON CENTERS"
-	cont "like?"
+	text "Comment sont les"
+	line "CENTRES #MON"
+	cont "de JOHTO?"
 
-	para "<...>Oh, I see."
-	line "So they let you"
+	para "<...>Je vois."
+	line "Ils vous laissent"
 
-	para "link with people"
-	line "far away?"
+	para "être reliés avec"
+	line "des gens venant"
+	cont "de loin?"
 
-	para "Then I'll get my"
-	line "friend in JOHTO to"
+	para "Je vais demander à"
+	line "mon ami de JOHTO"
 
-	para "catch a MARILL and"
-	line "trade it to me!"
+	para "d'attraper un"
+	line "MARILL et de me"
+	cont "l'échanger!"
 	done
 ; 0x18a5d3
 
 UnknownText_0x18a5d3: ; 0x18a5d3
-	text "I just happened to"
-	line "come through ROCK"
+	text "Je viens de tra-"
+	line "verser la GROTTE."
 
-	para "TUNNEL. There was"
-	line "some commotion at"
-	cont "the POWER PLANT."
+	para "Il y avait du gra-"
+	line "buge à la CENTRALE"
+	cont "on dirait<...>"
 	done
 ; 0x18a62e
 
 UnknownText_0x18a62e: ; 0x18a62e
-	text "Caves are sturdy."
+	text "Les grottes sont"
+	line "solides."
 
-	para "I thought the one"
-	line "outside CERULEAN"
-	cont "was about to cave"
-	cont "in, but it still"
-	cont "stands today!"
+	para "J'ai cru que celle"
+	line "d'AZURIA allait"
+	cont "s'effondrer, mais"
+	cont "elle est encore"
+	cont "debout!"
 
 	done
 ; 0x18a6c5
 
 UnknownText_0x18a6c5: ; 0x18a6c5
-	text "SILPH CO.'s HEAD"
-	line "OFFICE and the"
+	text "Les BUREAUX de la"
+	line "SYLPHE SARL et la"
 
-	para "MAGNET TRAIN STA-"
-	line "TION--they're the"
+	para "STATION du TRAIN"
+	line "MAGNET sont les"
 
-	para "places to see in"
-	line "SAFFRON."
+	para "choses à voir à"
+	line "SAFRANIA."
 	done
 ; 0x18a722
 

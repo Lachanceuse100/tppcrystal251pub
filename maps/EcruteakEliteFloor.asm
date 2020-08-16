@@ -324,7 +324,7 @@ MortyAfterRematchText2:
 
 SageZekeBeforeText:
 	text "J'aime bien les"
-	cont "pique-nique."
+	line "pique-nique."
 
 	para "Ca me fait sentir"
 	line "bien."
@@ -344,9 +344,9 @@ SageZekeText:
 	para "Je n'ai pas com-"
 	line "pris toutes les"
 
-	para "paroles elle me"
-	line "motivait a faire"
-	cont "de mon mieux<...>"
+	para "paroles mais elle"
+	line "me motivait a"
+	cont "tout donner<...>"
 
 	para "<...>Je ne me rappelle"
 	line "pas du nom de"
@@ -363,7 +363,7 @@ MediumMartha2BeforeText:
 	done
 
 MediumMartha2WinText:
-	text "Aiiiiiie"
+	text "Aiiiiiie!"
 	done
 
 MediumMartha2Text:

@@ -164,120 +164,129 @@ FruitTreeScript_0x6c06c: ; 0x6c06c
 ; 0x6c06e
 
 BikerDwayneSeenText: ; 0x6c06e
-	text "We're the KANTO"
-	line "CHOIR trainers"
+	text "Nous sommes la"
+	line "CHORALE de KANTO!"
 
-	para "No JOHTO brat"
-	line "is taking us down!"
+	para "C'est pas un mor-"
+	line "veux de JOHTO qui"
+	cont "nous fera tomber!"
 	done
 ; 0x6c0be
 
 BikerDwayneBeatenText: ; 0x6c0be
-	text "Wait, you said you"
-	line "are from KANTO?"
+	text "Ah, mais tu es de"
+	line "KANTO en fait?"
 	done
 ; 0x6c0c8
 
 UnknownText_0x6c0c8: ; 0x6c0c8
-	text "Many comrades"
-	line "have fallen over"
-	cont "the years."
+	text "Beaucoup de nos"
+	line "camarades sont"
+	cont "tombés au cours"
+	cont "des années<...>"
 	done
 ; 0x6c0f4
 
 BikerHarrisSeenText: ; 0x6c0f4
-	text "The cops shut down"
-	line "our UNDERGROUND"
-	cont "PATH!"
+	text "Les flics ont fer-"
+	line "més notre"
+	cont "SOUTERRAIN!"
 
-	para "We demand it back!"
+	para "Nous voulons sa"
+	line "réouverture!"
 	done
 ; 0x6c134
 
 BikerHarrisBeatenText: ; 0x6c134
-	text "Was I forsaken?"
+	text "Ai-je été aban-"
+	line "donné?"
 	done
 ; 0x6c143
 
 UnknownText_0x6c143: ; 0x6c143
-	text "We lost our home"
-	line "UNDERGROUND<...>"
+	text "Nous avons perdu"
+	line "notre SOUTERRAIN."
 
-	para "All I have left is"
-	line "the CHOIR GROUP."
+	para "Il ne me reste que"
+	line "notre groupe de"
+	cont "CHORALE<...>"
 	done
 ; 0x6c167
 
 BikerZekeSeenText: ; 0x6c167
-	text "We're the KANTO"
-	line "CHOIR GROUP!"
+	text "Nous sommes la"
+	line "CHORALE de KANTO!"
 
-	para "We sing loudly!"
+	para "On chante fort!"
 	done
 ; 0x6c194
 
 BikerZekeBeatenText: ; 0x6c194
-	text "Oh no!"
+	text "Oh non!"
 	done
 ; 0x6c1a3
 
 UnknownText_0x6c1a3: ; 0x6c1a3
-	text "We do this for"
-	line "freedom!"
+	text "Nous voulons notre"
+	line "liberté!"
 
-	para "This isn't a riot."
+	para "Ce n'est pas une"
+	line "émeute!"
 	done
 ; 0x6c1d0
 
 SupernerdSamSeenText: ; 0x6c1d0
-	text "I'm on my way"
-	line "home from CELADON!"
+	text "Je reviens de"
+	line "CELADOPOLE!"
 	done
 ; 0x6c1f3
 
 SupernerdSamBeatenText: ; 0x6c1f3
-	text "Not slimy enough!"
+	text "Pas assez gluant!"
 	done
 ; 0x6c219
 
 UnknownText_0x6c219: ; 0x6c219
-	text "CELADON has a pond"
-	line "full of GRIMER!"
+	text "Il y a une étang"
+	line "plein de TADMORV!"
 
-	para "I fell down<...>"
+	para "Je suis tombé<...>"
 	done
 ; 0x6c23d
 
 SupernerdTomSeenText: ; 0x6c23d
-	text "Ghosts are common"
-	line "here since the"
-	para "#MON TOWER"
-	line "was closed."
+	text "Il y a des fan-"
+	line "tômes partout"
+	para "depuis que la TOUR"
+	line "#MON a fermé."
 	done
 ; 0x6c25d
 
 SupernerdTomBeatenText: ; 0x6c25d
-	text "Scary, right?"
+	text "Ca fait peur,"
+	line "hein?"
 	done
 ; 0x6c27e
 
 UnknownText_0x6c27e: ; 0x6c27e
-	text "Rumors say ghosts"
-	line "still live in the"
-	cont "RADIO TOWER<...>"
+	text "Les rumeurs disent"
+	line "qu'il y a des fan-"
+	cont "tômes à la TOUR"
+	cont "RADIO<...>"
 	done
 ; 0x6c2aa
 
 UnknownText_0x6c2aa: ; 0x6c2aa
-	text "It's locked<...>"
+	text "C'est fermé<...>"
 	done
 ; 0x6c2b7
 
 UnknownText_0x6c2b7: ; 0x6c2b7
-	text "The flyer's torn."
+	text "L'affiche est"
+	line "arrachée."
 
-	para "It's impossible to"
-	line "read<...>"
+	para "Impossible de la"
+	line "lire<...>"
 	done
 
 Snorlax8:
@@ -317,26 +326,27 @@ WakeSnorlax8:
 	end
 
 Snorlax8WakeyWakeyPrompt:
-	text "SNORLAX is snoring"
-	line "peacefully<...>"
+	text "RONFLEX dort"
+	line "paisiblement<...>"
 
-	para "Play the #"
+	para "Jouer de la #"
 	line "FLUTE?"
 	done
 
 Snorlax8Text:
-	text "SNORLAX is snoring"
-	line "peacefully<...>"
+	text "RONFLEX dort"
+	line "paisiblement<...>"
 	done
 
 Snorlax8WakeText:
-	text "The #GEAR was"
-	line "placed near the"
-	cont "sleeping SNORLAX<...>"
+	text "Vous mettez votre"
+	line "# MATOS près du"
+	cont "RONFLEX endormi<...>"
 
 	para "<...>"
 
-	para "SNORLAX woke up!"
+	para "RONFLEX se"
+	line "réveille!"
 	done
 
 ; 0x6c2e1

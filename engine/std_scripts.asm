@@ -668,15 +668,18 @@ ContestResults_ThirdPlaceScript: ; 0xbc343
 ; 0xbc354
 
 ContestThirdPlaceText
-	text $52, ", the No.3"
-	line "finisher, wins"
+	text $52, ", le No.3"
+	line "remporte", $f0, "4000!"
 	cont $f0, "4000!"
 	done
 
 BagFullPrizeText:
-	text "As we can't give"
-	line "you anything else,"
-	cont "take ", $f0, "8000."
+	text "Nous ne pouvons"
+	line "pas vous le don-"
+	cont "ner. Veuillez"
+	cont "accepter ces"
+	cont $f0, "8000 en compen-"
+	cont "sation!"
 	done
 
 UnknownScript_0xbc354: ; 0xbc354

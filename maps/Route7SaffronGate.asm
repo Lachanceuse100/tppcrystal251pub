@@ -25,24 +25,23 @@ UnknownScript_0x73526: ; 0x73526
 ; 0x7352c
 
 UnknownText_0x7352c: ; 0x7352c
-	text "Did you hear about"
-	line "the accident at"
-	cont "the POWER PLANT?"
+	text "Tu as entendu pour"
+	line "l'accident à la"
+	cont "CENTRALE?"
 
-	para "It's located in"
-	line "the east, close to"
-	cont "LAVENDER TOWN."
+	para "C'est à l'est d'"
+	line "ici, près de"
+	cont "LAVANVILLE."
 	done
 ; 0x73592
 
 UnknownText_0x73592: ; 0x73592
-	text "The UNDERGROUND"
-	line "PATH has been"
-	cont "closed down."
+	text "Le SOUTERRAIN"
+	line "a été fermé."
 
-	para "The CHOIR GROUP"
-	line "extremists are"
-	cont "at it again!"
+	para "Encore un coup des"
+	line "extrêmistes de la"
+	cont "chorale ça<...>"
 
 	done
 ; 0x735e0

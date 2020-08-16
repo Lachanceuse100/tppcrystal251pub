@@ -218,207 +218,213 @@ UnknownScript_0x19213b: ; 0x19213b
 ; 0x192142
 
 Text_FoundSwitch:
-	text "A switch beneath"
-	line "the trash can?"
+	text "Un interrupteur en"
+	line "dessous de la"
+	cont "poubelle?"
 
-	para "Let's push it!"
+	para "Appuyons!"
 	done
 
 Text_FoundFirstSwitch:
-	text "The first electric"
-	line "lock opened!"
+	text "La première bar-"
+	line "rière électrique"
+	cont "s'ouvre!"
 	done
 
 Text_FoundSecondSwitch:
-	text "The second elec-"
-	line "tric lock opened!"
+	text "La seconde bar-"
+	line "rière électrique"
+	cont "s'ouvre!"
 	done
 
 Text_ResetSwitches:
-	text "Oh no! The locks"
-	line "reset!"
+	text "Oh non! Les bar-"
+	line "rières se reme"
 	done
 
 UnknownText_0x192142: ; 0x192142
-	text "SURGE: Hey, you"
-	line "little tyke!"
+	text "BOB: Hé! P'tite"
+	line "tête!"
 
-	para "I have to hand it"
-	line "to you. It may not"
+	para "C'est pas malin de"
+	line "me défier, mais ça"
 
-	para "be very smart to"
-	line "challenge me, but"
-	cont "it takes guts!"
+	para "demande du cran,"
+	line "je te l'accorde!"
 
-	para "When it comes to"
-	line "electric #MON,"
-	cont "I'm number one!"
+	para "Moi j'suis le boss"
+	line "des #MON"
+	cont "électriques!"
 
-	para "I've never lost on"
-	line "the battlefield."
+	para "Je n'ai jamais"
+	line "perdu sur le champ"
+	cont "de bataille."
 
-	para "I'll zap you just"
-	line "like I did my"
-	cont "enemies in war!"
+	para "Je vais t'électro-"
+	line "cuter comme à la"
+	cont "guerre!"
 	done
 ; 0x192238
 
 UnknownText_0x192238: ; 0x192238
-	text "SURGE: Arrrgh!"
-	line "You are strong!"
+	text "BOB: Arrrgh!"
+	line "T'es trop fort!"
 
-	para "OK, kid. You get"
-	line "THUNDERBADGE!"
+	para "OK. Voilà ton"
+	line "BADGE FOUDRE!"
 	done
 ; 0x192277
 
 UnknownText_0x192277: ; 0x192277
-	text "<PLAYER> received"
-	line "THUNDERBADGE."
+	text "<PLAYER> reçoit"
+	line "le BADGE FOUDRE."
 	done
 ; 0x192291
 
 UnknownText_0x192291: ; 0x192291
-	text "SURGE: THUNDER-"
-	line "BADGE increases"
-	cont "#MON's speed. "
+	text "BOB: Le BADGE FOU-"
+	line "DRE augmente la"
+	cont "VITESSE de tes"
+	cont "#MON."
 
-	para "Oh, and have"
-	line "this too!"
+	para "Tiens, prends ça"
+	line "aussi!"
 	done
 
 SurgeLastText:
-	text "SURGE: That's"
-	line "WILD CHARGE."
+	text "BOB: C'est ECLAIR"
+	line "FOU."
 
-	para "An electrifying"
-	line "strike for brave"
-	cont "electric #MON."
+	para "Une bonne châtai-"
+	line "gne pour les #-"
+	cont "MON électrique!"
 
-	para "It's good for"
-	line "shock tactics!"
+	para "C'est bien pour"
+	line "les startégies de"
+	cont "choc!"
 
-	para "Consider it proof"
-	line "that you defeated"
+	para "Considère ça comme"
+	line "la preuve de ta"
+	cont "victoire."
 
-	para "me. Use it"
-	line "proudly, hear?"
+	para "Porte-le fière-"
+	line "ment, compris?!"
 
 	done
 ; 0x192303
 
 UnknownText_0x192303: ; 0x192303
-	text "SURGE: Hey, kid!"
-	line "Still slugging and"
-	cont "chugging away?"
+	text "BOB: Hé! P'tite"
+	line "tête! Tu tiens le"
+	cont "coup?"
 
-	para "My #MON and I"
-	line "are still at it!"
+	para "Moi et mes #MON"
+	line "on a la pêche!"
 	done
 ; 0x192356
 
 GentlemanGregorySeenText: ; 0x192356
-	text "You're here to"
-	line "defeat LT.SURGE?"
+	text "Tu viens défier le"
+	line "MAJOR BOB?"
 
-	para "Not if I can help"
-	line "it!"
+	para "C'est ce qu'on va"
+	line "voir!"
 	done
 ; 0x19238c
 
 GentlemanGregoryBeatenText: ; 0x19238c
-	text "Sorry I failed"
-	line "you, LT.SURGE,"
-	cont "sir!"
+	text "Pardon, MAJOR BOB!"
 	done
 ; 0x1923b0
 
 UnknownText_0x1923b0: ; 0x1923b0
-	text "When I was still"
-	line "in the army, LT."
-
-	para "SURGE saved my"
-	line "life."
+	text "A l'armée, le"
+	line "MAJOR BOB m'a"
+	cont "sauvé la vie."
 	done
 ; 0x1923e8
 
 GuitaristVincentSeenText: ; 0x1923e8
-	text "LT.SURGE recog-"
-	line "nized my potential"
+	text "Le MAJOR BOB a foi"
+	line "en mes talents de"
 
-	para "with electric"
-	line "#MON."
+	para "dresseur de #-"
+	line "MON électriques."
 
-	para "Think you can beat"
-	line "me?"
+	para "Tu crois pouvoir"
+	line "me battre?"
 	done
 ; 0x192437
 
 GuitaristVincentBeatenText: ; 0x192437
-	text "Ooh, how shocking!"
+	text "Ooh, quel choc!"
 	done
 ; 0x19244b
 
 UnknownText_0x19244b: ; 0x19244b
-	text "Even if I didn't"
-	line "beat you here,"
-	para "the GYM's traps"
-	line "surely will!"
+	text "Les pièges de"
+	line "l'ARENE t'arrête-"
+	cont "ront!"
 	done
 ; 0x192487
 
 JugglerHortonSeenText: ; 0x192487
-	text "I'm the best"
-	line "juggler in KANTO!"
+	text "J'suis le meilleur"
+	line "jongleur de KANTO!"
 	done
 ; 0x1924ba
 
 JugglerHortonBeatenText: ; 0x1924ba
-	text "Dropped my balls!"
+	text "Oups!"
 	done
 ; 0x1924d6
 
 UnknownText_0x1924d6: ; 0x1924d6
-	text "I can only juggle"
-	line "three balls"
-	cont "at once<...>"
+	text "Je ne peux en"
+	line "jongler que trois"
+	cont "en même succube."
 	done
 ; 0x192517
 
 VermilionGymGuyText: ; 0x192517
-	text "Yo, CHAMP!"
-	line "Your luck ran out."
+	text "Salut, champion en"
+	line "herbe!"
 
-	para "LT.SURGE is very"
-	line "cautious."
+	para "T'as pas de"
+	line "chance."
 
-	para "He has traps set"
-	line "all over the GYM."
+	para "Le MAJOR BOMB est"
+	line "très prudent."
 
-	para "To get through you"
-	line "need to find both"
-	cont "switches."
+	para "Il a posé des piè-"
+	line "ges dans l'ARENE."
 
-	para "But if you guess"
-	line "wrong, they reset<...>"
+	para "Tu peux les désac-"
+	line "tiver grâce aux"
+	cont "interrupteurs dans"
+	cont "les poubelles."
 
-	para "Good luck!"
+	para "Mais si tu te"
+	line "trompes, tu repars"
+	cont "à zéro."
+
+	para "Bonne chance!"
 
 	done
 ; 0x1925df
 
 VermilionGymGuyWinText: ; 0x1925df
-	text "Whew! That was an"
-	line "electrifying bout!"
+	text "Pfoui! Quel combat"
+	line "sous tension!"
 
-	para "It sure made me"
-	line "nervous."
+	para "Ca m'a rendu"
+	line "nerveux."
 	done
 ; 0x19261e
 
 UnknownText_0x19261e: ; 0x19261e
-	text "Nope! Nothing here"
-	line "but trash."
+	text "Non, rien que des"
+	line "déchets."
 	done
 ; 0x19263d
 

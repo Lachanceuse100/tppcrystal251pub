@@ -39,111 +39,112 @@ MapTrainerHouse1FSignpost2Script: ; 0x9af7c
 ; 0x9af7f
 
 UnknownText_0x9af7f: ; 0x9af7f
-	text "Welcome to TRAINER"
-	line "HOUSE, the newest"
+	text "Bienvenue au CLUB"
+	line "des DRESSEURS,"
 
-	para "and most happening"
-	line "place in VIRIDIAN."
+	para "l'attraction de"
+	line "JADIELLE."
 
-	para "We're open to"
-	line "trainers only."
+	para "Nous accueillons"
+	line "les dresseurs."
 
-	para "You can battle"
-	line "against the best"
+	para "Vous pouvez com-"
+	line "battre les meil-"
 
-	para "of the best right"
-	line "downstairs."
+	para "leurs à l'étage"
+	line "inférieur."
 	done
 ; 0x9b025
 
 UnknownText_0x9b025: ; 0x9b025
-	text "VIRIDIAN is the"
-	line "town closest to"
-	cont "INDIGO PLATEAU."
+	text "JADIELLE est la"
+	line "ville voisine du"
+	cont "PLATEAU INDIGO."
 
-	para "They built this"
-	line "place because so"
+	para "Elle a été cons-"
+	line "truite à cet en-"
 
-	para "many trainers pass"
-	line "through on their"
+	para "droit à cause du"
+	line "passage important"
 
-	para "way up to INDIGO"
-	line "PLATEAU."
+	para "des dresseurs vers"
+	line "le PLATEAU INDIGO."
 	done
 ; 0x9b0b5
 
 UnknownText_0x9b0b5: ; 0x9b0b5
-	text "They hold practice"
-	line "battles downstairs"
-	cont "here."
+	text "Des combats d'en-"
+	line "traînement se dé-"
+	cont "roulent en bas."
 
-	para "I would love to"
-	line "see how well the"
+	para "J'aimerais bien"
+	line "voir comment se"
 
-	para "champion of JOHTO"
-	line "battles."
+	para "débrouille le"
+	line "MAITRE de JOHTO."
 	done
 ; 0x9b11d
 
 UnknownText_0x9b11d: ; 0x9b11d
-	text "I guess you can't"
-	line "become the CHAMP"
+	text "J'imagine qu'on ne"
+	line "peut pas devenir"
 
-	para "unless you go all"
-	line "over the place and"
+	para "MAITRE sans avoir"
+	line "tout vu et combat-"
+	cont "tu tout le monde."
 
-	para "battle all kinds"
-	line "of people."
+	para "Le MAITRE de"
+	line "PALETTE a voyagé"
 
-	para "The CHAMPION from"
-	line "PALLET traveled to"
-
-	para "all the cities and"
-	line "towns in KANTO."
+	para "dans tous les"
+	line "coins de KANTO."
 	done
 ; 0x9b1c9
 
 UnknownText_0x9b1c9: ; 0x9b1c9
-	text "Whew<...> I'm taking a"
-	line "rest from #MON"
-	cont "battles."
+	text "Fouiii<...> j'ai trop"
+	line "combattu. Je fais"
+	cont "une pause."
 	done
 ; 0x9b1f4
 
 UnknownText_0x9b1f4: ; 0x9b1f4
-	text "Practice battles"
-	line "are held in the"
+	text "Des combats d'en-"
+	line "traînement se dé-"
+	
+	para "roulent en bas,"
+	line "dans le HALL d'EN-"
+	cont "TRAINEMENT."
 
-	para "TRAINING HALL"
-	line "downstairs."
-
-	para "Skilled trainers"
-	line "are invited to"
-	cont "participate."
+	para "Les dresseurs les"
+	line "plus talentueux"
+	cont "y sont invités."
 	done
 ; 0x9b25d
 
 UnknownText_0x9b25d: ; 0x9b25d
-	text "There are no rules"
-	line "or regulations for"
+	text "Comme pour les"
+	line "combats en exté-"
 
-	para "practice matches."
-	line "Just like in field"
+	para "rieur, il n'y a"
+	line "pas de règles spé-"
 
-	para "battles, anything"
-	line "goes!"
+	para "ciales ici. Tout"
+	line "est permis!"
 	done
 ; 0x9b2c1
 
 UnknownText_0x9b2c1: ; 0x9b2c1
-	text "<...>What's this?"
-	line "A strategy memo?"
+	text "<...>C'est quoi ça?"
+	line "Une note sur la"
+	cont "stratégie?"
 
-	para "This writing looks"
-	line "like ONIX tracks<...>"
+	para "On dirait des tra-"
+	line "cés faits par un"
+	cont "ONIX<...>"
 
-	para "It's completely"
-	line "illegible<...>"
+	para "C'est pas lisible"
+	line "en tout cas."
 	done
 ; 0x9b31f
 

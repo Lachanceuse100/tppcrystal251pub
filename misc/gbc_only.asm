@@ -336,9 +336,9 @@ INCBIN "gfx/misc/betboy_banner.w96.1bpp"
 BetBoyGFXEnd
 
 GBCOnlyString: ; 4eb38
-	db   "This Game Pak is"
-	next "designed only for"
-	next "use on the"
+	db   "Cette cartouche"
+	next "n'est à utiliser"
+	next "que sur la"
 	next "Game Boy Color.@"
 ; 4eb76
 

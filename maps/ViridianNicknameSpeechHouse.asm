@@ -33,34 +33,32 @@ GrowlitheScript_0x9ae4a: ; 0x9ae4a
 ; 0x9ae54
 
 UnknownText_0x9ae54: ; 0x9ae54
-	text "Do you put much"
-	line "thought into"
+	text "Donnes-tu des"
+	line "surnoms cool à tes"
+	cont "#MON?"
 
-	para "naming your"
-	line "#MON?"
+	para "C'est toujours"
+	line "amusant pendant"
+	cont "les échanges."
 
-	para "Having good"
-	line "nicknames adds to"
-
-	para "the fun of trading"
-	line "#MON."
 	done
 ; 0x9aecb
 
 UnknownText_0x9aecb: ; 0x9aecb
-	text "They're SPEARY--"
-	line "a SPEAROW--and"
-	cont "RATTEY--a RATTATA."
+	text "PIAFFY pour un"
+	line "PIAFABEC, ou"
+	cont "RATATOUILLE pour"
+	cont "un RATTATA."
 	done
 ; 0x9aefe
 
 UnknownText_0x9aefe: ; 0x9aefe
-	text "SPEARY: Ch-chun!"
+	text "PIAFFY: Piaaaa!"
 	done
 ; 0x9af10
 
 UnknownText_0x9af10: ; 0x9af10
-	text "RATTEY: Kikiii!"
+	text "RATATOUILLE: Raaa!"
 	done
 ; 0x9af21
 

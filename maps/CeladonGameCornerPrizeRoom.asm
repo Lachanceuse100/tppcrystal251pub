@@ -127,10 +127,10 @@ MenuDataHeader_0x72790: ; 0x72790
 MenuData2_0x72798: ; 0x72798
 	db $80 ; flags
 	db 4 ; items
-	db "LEFTIES 2000@"
-	db "POWER UP  50@"
+	db "RESTES  2000@"
+	db "ADN.      50@"
 	db "PP-UP    600@"
-	db "CANCEL@"
+	db "ANNULER@"
 ; 0x727c8
 
 
@@ -262,86 +262,86 @@ MenuData2_0x7287f: ; 0x7287f
 	db $80 ; flags
 	db 4 ; items
 	db "PORYGON2   5000@"
-	db "LUCKY EGG  3000@"
-	db "SLOWPOKETAIL300@"
+	db "OEUF CH.   3000@"
+	db "QUEUERAMOLOS300@"
 	db "CANCEL@"
 ; 0x728b8
 
 
 UnknownText_0x728b8: ; 0x728b8
-	text "I wanted PORYGON2,"
-	line "but I was short by"
-	cont "100 coins<...>"
+	text "Il me manque que"
+	line "100 jetons pour"
+	cont "PORYGON2<...>"
 	done
 ; 0x728e9
 
 UnknownText_0x728e9: ; 0x728e9
 	text "Wow<...>"
 
-	para "PORYGON2 is a"
-	line "prize here."
+	para "PORYGON2 est un"
+	line "prix ici?"
 
-	para "That #MON is"
-	line "supposed to be"
-	para "really hard to"
-	line "find."
+	para "Ce #MON est"
+	line "supposé être super"
+	cont "rare!"
 	done
 ; 0x7293e
 
 UnknownText_0x7293e: ; 0x7293e
-	text "Welcome!"
+	text "Bienvenue!"
 
-	para "We exchange your"
-	line "coins for fabulous"
-	cont "prizes!"
+	para "Nous échangeons"
+	line "vos jetons contre"
+	cont "de fabuleux prix!"
 	done
 ; 0x72974
 
 UnknownText_0x72974: ; 0x72974
-	text "Which prize would"
-	line "you like?"
+	text "Quel prix désirez-"
+	line "vous?"
 	done
 ; 0x72991
 
 UnknownText_0x72991: ; 0x72991
-	text "OK, so you wanted"
-	line "a @"
 	text_from_ram StringBuffer3
-	text "?"
+	text "."
+	line "C'est bien ça?"
 	done
 
 WantBerserkGeneText: ; 0x72991
-	text "OK, so you wanted"
-	line "a POWER UP?"
+	text "Vous voulez un"
+	line "ADN. BERSERK?"
 	done
 ; 0x729ad
 
 UnknownText_0x729ad: ; 0x729ad
-	text "Here you go!"
+	text "Voilà pour vous!"
 	done
 ; 0x729bb
 
 UnknownText_0x729bb: ; 0x729bb
-	text "You don't have"
-	line "enough coins."
+	text "Il vous faut"
+	line "plus de jetons."
 	done
 ; 0x729d8
 
 UnknownText_0x729d8: ; 0x729d8
-	text "You have no room"
-	line "for it."
+	text "Vous n'avez plus"
+	line "de place pour ça."
 	done
 ; 0x729f2
 
 UnknownText_0x729f2: ; 0x729f2
-	text "Oh. Please come"
-	line "back with coins!"
+	text "OK. Economisez"
+	line "vos jetons et"
+	cont "revenez plus tard!"
 	done
 ; 0x72a14
 
 UnknownText_0x72a14: ; 0x72a14
-	text "Oh? You don't have"
-	line "a COIN CASE."
+	text "Oh? Vous n'avez"
+	line "pas de BOITE"
+	cont "JETONS."
 	done
 ; 0x72a34
 

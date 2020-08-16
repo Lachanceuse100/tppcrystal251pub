@@ -106,6 +106,12 @@ SECTION "Credits", ROMX, BANK[CREDITS]
 	const US_COORDINATION
 	const TEXT_TRANSLATION
 	const PAAD_TESTING
+	const NICOLAS_ROBERT
+	const HIROYUKI_UESUGI
+	const MAURICE_TISDALE
+	const PATRICK_THIERET
+	const FRENCH_TESTING_TEAM
+	const RELECTURE
 
 const_value SET -7
 	const CREDITS_THEEND
@@ -1031,13 +1037,14 @@ CreditsScript: ; 10acb4
 
 	db      US_COORDINATION, 1
 	db          GAIL_TILDEN, 2
-	db        HIRO_NAKAMURA, 3
+	db      HIROYUKI_UESUGI, 3
 
 	db CREDITS_WAIT, 12
 
 	db      US_COORDINATION, 1
 	db       JUNICHI_MASUDA, 2
-	db        SETH_MCMAHILL, 3
+	db        KOHJI_NISHINO, 3
+	db      KUNIMI_KAWAMURA, 4
 
 	db CREDITS_WAIT, 12
 
@@ -1049,6 +1056,7 @@ CreditsScript: ; 10acb4
 
 	db     TEXT_TRANSLATION, 1
 	db        NOB_OGASAWARA, 2
+	db       NICOLAS_ROBERT, 3
 
 	db CREDITS_WAIT, 12
 
@@ -1058,9 +1066,10 @@ CreditsScript: ; 10acb4
 
 	db CREDITS_WAIT, 12
 
-	db         PAAD_TESTING, 1
-	db       THOMAS_HERTZOG, 2
-	db         ERIK_JOHNSON, 3
+	db         PAAD_TESTING, 0
+	db      MAURICE_TISDALE, 1
+	db      PATRICK_THIERET, 2
+	db  FRENCH_TESTING_TEAM, 3
 
 	db CREDITS_WAIT, 12
 
@@ -1085,9 +1094,8 @@ CreditsScript: ; 10acb4
 
 	db CREDITS_WAIT, 12
 
-	db       SPECIAL_THANKS, 0
-	db     KIMIKO_NAKAMICHI, 1
-	db           AKITO_MORI, 2
+	db            RELECTURE, 1
+	db     KIMIKO_NAKAMICHI, 2
 
 	db CREDITS_WAIT, 12
 
@@ -1101,6 +1109,7 @@ CreditsScript: ; 10acb4
 	db       SPECIAL_THANKS, 0
 	db    MIKIHIRO_ISHIKAWA, 1
 	db   HIDEYUKI_HASHIMOTO, 2
+	db  		 AKITO_MORI, 3
 
 	db CREDITS_WAIT, 12
 
@@ -1226,6 +1235,12 @@ CreditsStrings:
 	dw .UsCoordination
 	dw .TextTranslation
 	dw .PaadTesting
+	dw .NicolasRobert
+	dw .HiroyukiUesugi
+	dw .MauriceTisdale
+	dw .PatrcikThieret
+	dw .FrenchTestingTeam
+	dw .Relecture
 
 .SatoshiTajiri:       db "   SATOSHI TAJIRI@"         ; "たじり さとし@"
 .JunichiMasuda:       db "   JUNICHI MASUDA@"         ; "ますだ じゅんいち@"
@@ -1290,11 +1305,11 @@ CreditsStrings:
 .ShigeruMiyamoto:     db "  SHIGERU MIYAMOTO@"        ; "みやもと しげる@"
 .End:                 db "        END@"               ; "おしまい@"
 .Unknown:             db "      ????????@"            ; "????????@"
-.GailTilden:          db "    GAIL TILDEN@"
-.NobOgasawara:        db "   NOB OGASAWARA@"
+.GailTilden:          db "      KAI ZEH@"
+.NobOgasawara:        db "  JULIEN BARDAKOFF@"
 .SethMcMahill:        db "   SETH McMAHILL@"
-.HirotoAlexander:     db "  HIROTO ALEXANDER@"
-.TeresaLillygren:     db "  TERESA LILLYGREN@"
+.HirotoAlexander:     db "     TANJA BAAR@"
+.TeresaLillygren:     db "    KAI NEUMANN@"
 .ThomasHertzog:       db "   THOMAS HERTZOG@"
 .ErikJohnson:         db "    ERIK JOHNSON@"
 .HiroNakamura:        db "   HIRO NAKAMURA@"
@@ -1302,37 +1317,43 @@ CreditsStrings:
 .KazuyoshiOsawa:      db "  KAZUYOSHI OSAWA@"
 .KimikoNakamichi:     db "  KIMIKO NAKAMICHI@"
 .Staff:               db "      #MON"                 ; "ポケットモンスター"
-                    next "  CRYSTAL VERSION"          ; "  クりスタル バージョン"
-                    next "       STAFF@"              ; "    スタッフ@"
-.Director:            db "      DIRECTOR@"            ; "エグゼクティブ ディレクター@"
-.CoDirector:          db "    CO-DIRECTOR@"           ; "ディレクター@"
-.Programmers:         db "    PROGRAMMERS@"           ; "プログラム@"
-.GraphicsDirector:    db " GRAPHICS DIRECTOR@"        ; "グラフィック ディレクター@"
-.MonsterDesign:       db "   MONSTER DESIGN@"         ; "# デザイン@"
-.GraphicsDesign:      db "  GRAPHICS DESIGN@"         ; "グラフィック デザイン@"
-.Music:               db "       MUSIC@"              ; "おんがく@"
-.SoundEffects:        db "   SOUND EFFECTS@"          ; "サウンド エフ→クト@"
-.GameDesign:          db "    GAME DESIGN@"           ; "ゲームデザイン@"
-.GameScenario:        db "   GAME SCENARIO@"          ; "シナりォ@"
-.ToolProgramming:     db "  TOOL PROGRAMMING@"        ; "ツール プログラム@"
-.ParametricDesign:    db " PARAMETRIC DESIGN@"        ; "パラメーター せってい@"
-.ScriptDesign:        db "   SCRIPT DESIGN@"          ; "スクりプト せってい@"
-.MapDataDesign:       db "  MAP DATA DESIGN@"         ; "マップデータ せってい@"
-.MapDesign:           db "     MAP DESIGN@"           ; "マップ デザイン@"
-.ProductTesting:      db "  PRODUCT TESTING@"         ; "デバッグプレイ@"
-.SpecialThanks:       db "   SPECIAL THANKS@"         ; "スぺシャルサンクス@"
-.Producers:           db "     PRODUCERS@"            ; "プロデューサー@"
-.ExecutiveProducer:   db " EXECUTIVE PRODUCER@"       ; "エグゼクティブ プロデューサー@"
-.PokemonAnimation:    db " #MON ANIMATION@"           ; "# アニメーション@"
-.PokedexText:         db "    #DEX TEXT@"             ; "ずかん テキスト@"
+                    next "  VERSION CRISTAL"          ; "  クりスタル バージョン"
+                    next "       EQUIPE@"              ; "    スタッフ@"
+.Director:            db "     DIRECTEUR@"            ; "エグゼクティブ ディレクター@"
+.CoDirector:          db "   SOUS-DIRECTEUR@"           ; "ディレクター@"
+.Programmers:         db "    PROGRAMMEURS@"           ; "プログラム@"
+.GraphicsDirector:    db "DIRECTEUR GRAPHIQUE@"        ; "グラフィック ディレクター@"
+.MonsterDesign:       db "  DESIGN MONSTRES@"         ; "# デザイン@"
+.GraphicsDesign:      db " DESIGN GRAPHIQUES@"         ; "グラフィック デザイン@"
+.Music:               db "      MUSIQUE@"              ; "おんがく@"
+.SoundEffects:        db "   EFFETS SONORES@"          ; "サウンド エフ→クト@"
+.GameDesign:          db "     DESIGN JEU@"           ; "ゲームデザイン@"
+.GameScenario:        db "      SCENARIO@"          ; "シナりォ@"
+.ToolProgramming:     db "  PROGRAMME CONFIG@"        ; "ツール プログラム@"
+.ParametricDesign:    db " DESIGN PARAMETRES@"        ; "パラメーター せってい@"
+.ScriptDesign:        db "   DESIGN SCRIPT@"          ; "スクりプト せってい@"
+.MapDataDesign:       db "DESIGN DONNEE CARTE@"         ; "マップデータ せってい@"
+.MapDesign:           db "    DESIGN CARTE@"           ; "マップ デザイン@"
+.ProductTesting:      db "    TEST PRODUIT@"         ; "デバッグプレイ@"
+.SpecialThanks:       db "  UN GRAND MERCI A@"         ; "スぺシャルサンクス@"
+.Producers:           db "    PRODUCTEURS@"            ; "プロデューサー@"
+.ExecutiveProducer:   db "PRODUCTEUR EXECUTIF@"       ; "エグゼクティブ プロデューサー@"
+.PokemonAnimation:    db " ANIMATION #MON@"           ; "# アニメーション@"
+.PokedexText:         db "   TEXTE #DEX@"             ; "ずかん テキスト@"
 .MobilePrjLeader:     db " MOBILE PRJ. LEADER@"       ; "モバイルプロジ→クト りーダー@"
 .MobileSystemAd:      db " MOBILE SYSTEM AD.@"        ; "モバイル システムアドバイザー@"
 .MobileStadiumDir:    db "MOBILE STADIUM DIR.@"       ; "モバイルスタジアム ディレクター@"
 .Coordination:        db "    COORDINATION@"          ; "コーディネーター@"
-.UsVersionStaff:      db "  US VERSION STAFF@"
-.UsCoordination:      db "  US COORDINATION@"
-.TextTranslation:     db "  TEXT TRANSLATION@"
-.PaadTesting:         db "    PAAD TESTING@"
+.UsVersionStaff:      db "   EQUIPE FRANCE@"
+.UsCoordination:      db "COORDINATION EUROPE@"
+.TextTranslation:     db "  TEXTES FRANCAIS@"
+.PaadTesting:         db "    TEST PRODUIT@"
+.NicolasRobert		  db "   NICOLAS ROBERT@"
+.HiroyukiUesugi		  db "  HIROYUKI UESUGI@"
+.MauriceTisdale		  db "  MAURICE TISDALE@"
+.PatrcikThieret		  db "  PATRICK THIERET@"
+.FrenchTestingTeam	  db "FRENCH TESTING TEAM@"
+.Relecture			  db "     RELECTURE@"
 
 .Copyright:
 	; 2016 TPP

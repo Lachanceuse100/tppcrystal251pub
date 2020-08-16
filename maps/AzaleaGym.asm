@@ -435,7 +435,7 @@ BugsyAfterRematchText:
 
 	para "Aurais-je besoin"
 	line "de plus de"
-	cont "recherches ?"
+	cont "recherches?"
 	done
 
 BugsyRejectText:

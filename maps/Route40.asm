@@ -314,7 +314,7 @@ UnknownText_0x1a637b: ; 0x1a637b
 
 SwimmerfPaulaSeenText: ; 0x1a63a9
 	text "Pas de bouée pour"
-	line "moi"
+	line "moi."
 
 	para "Je m'accroche à un"
 	line "#MON marin!"

@@ -1209,8 +1209,7 @@ UnknownText_0x17602d: ; 0x17602d
 	para "en un seul coup"
 	line "l'autre fois."
 
-	para "Je me sentais"
-	line "désolé<...>"
+	para "J'ai culpabilisé<...>"
 	done
 ; 0x176095
 
@@ -1310,7 +1309,7 @@ UnknownText_0x1762c3: ; 0x1762c3
 UnknownText_0x17638a: ; 0x17638a
 	text "Ecoute, écoute!"
 
-	para "Tu connais THEO-,"
+	para "Tu connais THEO-"
 	line "PHILE, celui qui"
 
 	para "enseigne à l'ACA-"

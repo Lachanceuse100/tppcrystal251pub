@@ -11,17 +11,17 @@ ScientistScript_0x9b952: ; 0x9b952
 ; 0x9b955
 
 UnknownText_0x9b955: ; 0x9b955
-	text "Are you <PLAY_G>?"
+	text "Es-tu <PLAY_G>?"
 
-	para "I work as PROF."
-	line "OAK's AIDE."
+	para "J'suis l'assistant"
+	line "du PROF.CHEN."
 
-	para "I had no idea that"
-	line "you were out here."
+	para "Je ne pensais pas"
+	line "te trouver ici."
 
-	para "PROF.OAK's LAB is"
-	line "nearby in PALLET"
-	cont "TOWN."
+	para "Le LABO du PROF."
+	line "CHEN est au BOURG"
+	cont "PALETTE."
 	done
 ; 0x9b9ca
 

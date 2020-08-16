@@ -207,7 +207,7 @@ UnknownText_0x1a8473: ; 0x1a8473
 ; 0x1a84ac
 
 UnknownText_0x1a84ac: ; 0x1a84ac
-	text "Ooh, la la!"
+	text "Ooh, là là!"
 	line "Super!"
 	done
 ; 0x1a84cb

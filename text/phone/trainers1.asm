@@ -1428,7 +1428,7 @@ UnknownText_0x1b6a8b: ; 0x1b6a8b
 	para "C'est @"
 	TX_RAM StringBuffer3
 	text ". Tu"
-	line "es pikaveillé ?"
+	line "es pikaveillé?"
 	done
 
 UnknownText_0x1b6ac2: ; 0x1b6ac2

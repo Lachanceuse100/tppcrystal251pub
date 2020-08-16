@@ -458,8 +458,8 @@ UnknownText_0x6e267: ; 0x6e267
 	para "cape aux #MON"
 	line "DRAGON?"
 
-	para "My #MON se sont"
-	line "fait allumer."
+	para "Mes #MON se"
+	line "sont fait allumer."
 
 	para "Mais c'est pas"
 	line "grave. Je l'aurais"

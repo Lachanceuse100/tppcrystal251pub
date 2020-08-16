@@ -253,7 +253,7 @@ ClearBell: ; 0x98250
 
 BellsChimeSoul:
 	text "Le son du glas"
-	line "reflètre l'âme de"
+	line "reflète l'âme de"
 	cont "son porteur."
 
 	para "Toi<...>"

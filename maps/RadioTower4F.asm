@@ -188,7 +188,7 @@ UnknownText_0x5ec12: ; 0x5ec12
 
 UnknownText_0x5ec68: ; 0x5ec68
 	text "LULA: Pourquoi?"
-	line "Pouruqoi tant de"
+	line "Pourquoi tant de"
 	cont "haine?"
 
 	para "MIAOUSS, à l'aide!"
@@ -269,7 +269,7 @@ UnknownText_0x5ee69: ; 0x5ee69
 	text "J'ai du trop m'"
 	line "appuyer sur la"
 	cont "puissance de"
-	cont "l'ADN BERZERK<...>"
+	cont "l'ADN. BERZERK<...>"
 	done
 ; 0x5eec4
 
@@ -279,9 +279,9 @@ GruntF4SeenText: ; 0x5eec4
 	cont "scientifique?"
 
 	para "RICH a crée"
-	line "l'ADN BERZERK!"
+	line "l'ADN. BERZERK!"
 
-	para "Mais je l'ai"
+	para "Mais moi, je l'ai"
 	line "maitrisé!"
 	done
 ; 0x5ef15
@@ -294,7 +294,7 @@ GruntF4BeatenText: ; 0x5ef15
 UnknownText_0x5ef31: ; 0x5ef31
 	text "Stupide RICH<...>"
 
-	para "Son ADN BERZERK"
+	para "Son ADN. BERZERK"
 	line "a des effets"
 	cont "secondaires"
 	cont "horribles<...>"
@@ -313,14 +313,14 @@ ScientistRichSeenText: ; 0x5ef62
 ScientistRichBeatenText: ; 0x5efa3
 	text "Hmmm<...>"
 
-	para "Tout plan comprends"
+	para "Tout plan comprend"
 	line "certains accrocs."
 	done
 ; 0x5efcb
 
 UnknownText_0x5efcb: ; 0x5efcb
 	text "J'ai aidé à la"
-	line "création de l'ADN"
+	line "création de l'ADN."
 	cont "BERZERK."
 
 	para "Je le regrette"

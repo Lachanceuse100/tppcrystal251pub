@@ -27,13 +27,13 @@ ItemFragment_0x1ac304: ; 0x1ac304
 UnknownText_0x1ac47a: ; 0x1ac47a
 	text "ROUTE 2"
 
-	para "VIRIDIAN CITY -"
-	line "PEWTER CITY"
+	para "JADIELLE -"
+	line "ARGENTA"
 	done
 ; 0x1ac49f
 
 UnknownText_0x1ac49f: ; 0x1ac49f
-	text "DIGLETT'S CAVE"
+	text "CAVE TAUPIQUEUR."
 	done
 ; 0x1ac4af
 

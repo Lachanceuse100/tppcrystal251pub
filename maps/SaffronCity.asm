@@ -128,175 +128,170 @@ MapSaffronCitySignpost7Script: ; 0x19938a
 ; 0x19938d
 
 UnknownText_0x19938d: ; 0x19938d
-	text "A little girl who"
-	line "is an expert at"
+	text "Une fille experte"
+	line "en imitation vit"
+	cont "ici."
 
-	para "mimicking people"
-	line "lives here."
+	para "Elle imite même"
+	line "les gens avec qui"
 
-	para "She even mimics"
-	line "the people she's"
-
-	para "conversing with."
-	line "It's confusing."
+	para "elle parle. C'est"
+	line "un peu usant."
 	done
 ; 0x19940d
 
 UnknownText_0x19940d: ; 0x19940d
-	text "The COPYCAT girl"
-	line "looked unhappy."
+	text "La COPIEUSE semble"
+	line "malheureuse."
 
-	para "She said she lost"
-	line "her favorite #"
-	cont "DOLL--CLEFAIRY."
+	para "Elle dit avoir"
+	line "perdu sa #-"
+	cont "POUPEE préférée:"
+	cont "MELOFEE."
 	done
 ; 0x199460
 
 UnknownText_0x199460: ; 0x199460
-	text "You went to JOHTO?"
+	text "Tu viens de JOHTO?"
 
-	para "You can zip back"
-	line "if the MAGNET"
-	cont "TRAIN's running."
+	para "Tu peux rentrer"
+	line "chez toi en une"
+	cont "seconde si le"
+	cont "TRAIN MAGNET"
+	cont "fonctionne."
 	done
 ; 0x1994ae
 
 UnknownText_0x1994ae: ; 0x1994ae
-	text "You went to JOHTO?"
+	text "Tu viens de JOHTO?"
 
-	para "You can zip back"
-	line "by hopping on"
-	cont "the MAGNET TRAIN."
+	para "Tu peux rentrer"
+	line "chez toi en une"
+	cont "seconde avec le"
+	cont "TRAIN MAGNET."
 	done
 ; 0x1994fe
 
 UnknownText_0x1994fe: ; 0x1994fe
-	text "I went to the GYM,"
-	line "raring for battles"
-	cont "against trainers<...>"
+	text "J'allais à l'ARENE"
+	line "pour faire plein"
+	cont "de combats<...>"
 
-	para "It turns out, I"
-	line "stumbled into the"
+	para "Et puis je suis"
+	line "arrivé à l'ARENE"
+	cont "cassée d'à côté."
 
-	para "unused GYM next"
-	line "door."
-
-	para "Boy, I was pretty"
-	line "embarrassed."
+	para "Quel embarras<...>"
 	done
 ; 0x19958e
 
 UnknownText_0x19958e: ; 0x19958e
-	text "This is SILPH CO.,"
-	line "famous for #MON"
-	cont "merchandise."
+	text "La SYLPHE SARL est"
+	line "célèbre pour ses"
+	cont "produits #MON."
 
-	para "In the past, TEAM"
-	line "ROCKET wanted the"
+	para "C'est pour ça que"
+	line "la TEAM ROCKET"
 
-	para "company because of"
-	line "that."
+	para "voulait la contrô-"
+	line "ler<...>"
 	done
 ; 0x1995fc
 
 UnknownText_0x1995fc: ; 0x1995fc
-	text "Chew<...> Chew<...>"
+	text "Mâche<...> Mâche<...>"
 
-	para "I hear there's big"
-	line "trouble brewing at"
-	cont "the POWER PLANT."
+	para "On dit qu'il y a"
+	line "du tatouin à la"
+	cont "CENTRALE."
 
-	para "Chew<...> Chew<...>"
+	text "Mâche<...> Mâche<...>"
 	done
 ; 0x19964b
 
 UnknownText_0x19964b: ; 0x19964b
-	text "Chew<...> Chew<...>"
+	text "Mâche<...> Mâche<...>"
 
-	para "I hear there was"
-	line "big trouble at the"
-	cont "POWER PLANT."
+	para "On dit qu'il y a-"
+	line "vait du tatouin"
+	cont "à la CENTRALE."
 
-	para "Chew<...> Chew<...>"
-	line "Haaah, I'm full!"
+	text "Mâche<...> Mâche<...>"
+	line "Haaah, je suis"
+	cont "rempli!"
 	done
 ; 0x1996a5
 
 UnknownText_0x1996a5: ; 0x1996a5
-	text "Going into an"
-	line "alley for the"
+	text "Se balader dans"
+	line "une ruelle la"
 
-	para "first time makes"
-	line "me sorta anxious."
+	para "première fois me"
+	line "rends anxieux<...>"
 	done
 ; 0x1996e5
 
 UnknownText_0x1996e5: ; 0x1996e5
-	text "There's a place"
-	line "called TRAINER"
+	text "On dit que les"
+	line "dresseurs se ren-"
 
-	para "HOUSE in VIRIDIAN"
-	line "where trainers"
-
-	para "gather from all"
-	line "over the place."
+	para "contrent au CLUB"
+	line "des DRESSEURS à"
+	cont "JADIELLE."
 	done
 ; 0x199745
 
 UnknownText_0x199745: ; 0x199745
-	text "Our city was"
-	line "featured on a"
-	cont "radio program."
+	text "On a parlé de"
+	line "notre ville à la"
+	cont "radio."
 
-	para "It's nice to hear"
-	line "praise for your"
-
-	para "city, but it's a"
-	line "bit embarrassing"
-	cont "too."
+	para "Ca fait plaisir."
+	line "C'est pas tous les"
+	cont "jours."
 	done
 ; 0x1997b7
 
 UnknownText_0x1997b7: ; 0x1997b7
-	text "SAFFRON CITY"
+	text "SAFRANIA"
 
-	para "Shining, Golden"
-	line "Land of Commerce"
+	para "Le berceau doré"
+	line "du commerce."
 	done
 ; 0x1997e6
 
 UnknownText_0x1997e6: ; 0x1997e6
-	text "SAFFRON CITY"
-	line "#MON GYM"
-	cont "LEADER: SABRINA"
+	text "ARENE DE SAFRANIA"
 
-	para "The Master of"
-	line "Psychic #MON!"
+	para "CHAMPIONNE:"
+	line "MORGANE"
+
+	para "La maîtresse des"
+	line "#MON PSY!"
 	done
 ; 0x199829
 
 UnknownText_0x199829: ; 0x199829
-	text "Everyone Welcome!"
-	line "FIGHTING DOJO"
+	text "DOJO!"
+	line "Bienvenue à tous!"
 	done
 ; 0x19984a
 
 UnknownText_0x19984a: ; 0x19984a
-	text "SILPH CO."
-	line "OFFICE BUILDING"
+	text "BUREAUX de la"
+	line "SYLPHE SARL."
 	done
 ; 0x199865
 
 UnknownText_0x199865: ; 0x199865
-	text "MR.PSYCHIC'S"
-	line "HOUSE"
+	text "MAISON DE M.PSY."
 	done
 ; 0x199879
 
 UnknownText_0x199879: ; 0x199879
-	text "SAFFRON CITY"
-	line "MAGNET TRAIN"
-	cont "STATION"
+	text "STATION du"
+	line "TRAIN MAGNET"
+	cont "de SAFRANIA."
 	done
 ; 0x19989c
 

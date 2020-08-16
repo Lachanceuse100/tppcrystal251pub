@@ -184,154 +184,159 @@ MapRoute19Signpost1Script: ; 0x19ea78
 ; 0x19ea7b
 
 SwimmermHaroldSeenText: ; 0x19ea7b
-	text "Have you been"
-	line "to the volcano?"
+	text "Tu as été au"
+	line "volcan?"
 
-	para "It's hot there,"
-	line "but I found some"
-	cont "cool #MON!"
+	para "Il y fait chaud"
+	line "mais j'ai trouvé"
+	cont "des #MON trop"
+	cont "cool!"
 	done
 ; 0x19eaad
 
 SwimmermHaroldBeatenText: ; 0x19eaad
-	text "Glub<...>"
+	text "Gloup<...>"
 	done
 ; 0x19eab4
 
 UnknownText_0x19eab4: ; 0x19eab4
-	text "The volcano was"
-	line "way too hot!"
+	text "Il fait beaucoup"
+	line "trop chaud au"
+	cont "volcan."
 
-	para "I didn't dare"
-	line "explore all of it."
+	para "J'ai pas osé"
+	line "l'explorer."
 	done
 ; 0x19eafa
 
 SwimmermTuckerSeenText: ; 0x19eafa
-	text "Pant, pant<...>"
-	line "Just<...> a little<...>"
+	text "Pfff, pfff<...>"
+	line "PARMANIE<...> n'est<...>"
 
-	para "farther<...> to<...>"
-	line "FUCHSIA<...>"
+	para "plus<...> très<...>"
+	line "loin<...>!"
 	done
 ; 0x19eb2d
 
 SwimmermTuckerBeatenText: ; 0x19eb2d
-	text "I'm drowning!"
+	text "Je me noie!"
 	done
 ; 0x19eb3b
 
 UnknownText_0x19eb3b: ; 0x19eb3b
-	text "I<...> asked my girl-"
-	line "friend to swim to"
-	cont "FUCHSIA<...> Gasp<...>"
+	text "J'ai<...> demandé à ma"
+	line "copine de nager"
+	cont "jusqu'à PARMANIE."
+	cont "Pfff<...>"
 	done
 ; 0x19eb6f
 
 SwimmerfDawnSeenText: ; 0x19eb6f
-	text "I'm disgusted by"
-	line "wimpy people!"
+	text "Ca m'énerve les"
+	line "mauviettes<...>"
 	done
 ; 0x19eb8e
 
 SwimmerfDawnBeatenText: ; 0x19eb8e
-	text "I could beat you"
-	line "at swimming<...>"
+	text "Je peux te battre"
+	line "à la nage<...>"
 	done
 ; 0x19ebad
 
 UnknownText_0x19ebad: ; 0x19ebad
-	text "It's a quick swim"
-	line "between FUCHSIA"
+	text "PARMANIE et les"
+	line "ILES ECUME sont à"
 
-	para "and SEAFOAM IS-"
-	line "LANDS<...>"
+	para "deux coups de"
+	line "brasse, hein<...>?"
 
-	para "Sheesh, some big"
-	line "man my boyfriend"
+	para "Ca lui apprendra"
+	line "à se la péter à"
 
-	para "is! What a wimp!"
+	para "mon copain, quelle"
+	line "mauviette!"
 	done
 ; 0x19ec19
 
 SwimmermJeromeSeenText: ; 0x19ec19
-	text "Swimming?"
-	line "I'm lousy at it."
+	text "Nager?"
+	line "Je déteste ça."
 
-	para "I'm just splashing"
-	line "around in these"
-	cont "shallow waters."
+	para "Je patauge"
+	line "J'éclabousse."
+	cont "Ca défoule."
 	done
 ; 0x19ec66
 
 SwimmermJeromeBeatenText: ; 0x19ec66
-	text "I thought I could"
-	line "win."
+	text "Je croyais pouvoir"
+	line "gagner."
 	done
 ; 0x19ec7e
 
 UnknownText_0x19ec7e: ; 0x19ec7e
-	text "I caught these"
-	line "#MON in"
-	cont "freshwater."
+	text "J'ai attrapé ces"
+	line "#MON dans"
+	cont "l'eau."
 
-	para "Different types"
-	line "of #MON appear"
-	para "depending on"
-	line "where you SURF."
+	para "Il peut y avoir"
+	line "d'autres espèces"
+	para "selon ou tu SURF."
 	done
 ; 0x19ecaf
 
 UnknownText_0x19ecaf: ; 0x19ecaf
-	text "Sorry. This road"
-	line "is closed for"
-	cont "construction."
+	text "Cette route est"
+	line "fermée pour cause"
+	cont "de travaux."
 
-	para "If you want to get"
-	line "to CINNABAR, you'd"
+	para "Si tu veux aller à"
+	line "CRAMOIS'ILE, il"
 
-	para "better go south"
-	line "from PALLET TOWN."
+	para "faut passer au sud"
+	line "de BOURG PALETTE."
 	done
 ; 0x19ed24
 
 UnknownText_0x19ed24: ; 0x19ed24
-	text "I'm all sweaty."
-	line "Time for a swim!"
+	text "Je transpire."
+	line "Allez! A l'eau!"
 	done
 ; 0x19ed45
 
 UnknownText_0x19ed45: ; 0x19ed45
-	text "Who knows how long"
-	line "it would take to"
-	cont "move this boulder<...>"
+	text "Combien de temps"
+	line "cela prendrait-il"
+	cont "de bouger ce"
+	cont "rocher?"
 	done
 ; 0x19ed7d
 
 UnknownText_0x19ed7d: ; 0x19ed7d
-	text "The roadwork is"
-	line "finally finished."
+	text "Les travaux sont"
+	line "enfin finis."
 
-	para "Now I can go"
-	line "fishing again."
+	para "Je peux enfin re-"
+	line "tourner à la"
+	cont "pêche, youpi!"
 	done
 ; 0x19edbc
 
 UnknownText_0x19edbc: ; 0x19edbc
 	text "ROUTE 19"
 
-	para "FUCHSIA CITY -"
-	line "SEAFOAM ISLANDS"
+	para "PARAMANIE -"
+	line "ILES ECUME"
 	done
 ; 0x19ede5
 
 UnknownText_0x19ede5: ; 0x19ede5
-	text "Please be careful"
-	line "if you are swim-"
-	cont "ming to SEAFOAM"
-	cont "ISLANDS."
+	text "Soyez prudent si"
+	line "vous vous dirigez"
+	cont "vers les ILES"
+	cont "ECUME."
 
-	para "FUCHSIA POLICE"
+	para "POLICE de PARMANIE"
 	done
 ; 0x19ee31
 

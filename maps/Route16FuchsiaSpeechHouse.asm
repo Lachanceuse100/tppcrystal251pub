@@ -15,12 +15,13 @@ MapRoute16FuchsiaSpeechHouseSignpost1Script: ; 0x73376
 ; 0x73379
 
 UnknownText_0x73379: ; 0x73379
-	text "The CYCLING ROAD"
-	line "is swarmed with"
-	cont "bees this season."
+	text "La PISTE CYCLABLE"
+	line "est envahie de"
+	cont "guêpes cette"
+	cont "saison."
 
-	para "I can't even go"
-	line "outside<...>"
+	para "Je ne peux même"
+	line "pas sortir<...>"
 	done
 ; 0x733bc
 

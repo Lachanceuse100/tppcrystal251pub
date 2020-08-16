@@ -52,10 +52,10 @@ MapCeladonDeptStoreB1FSignpost1Script:
 	jumpstd elevatorbutton
 
 MapCeladonDeptStoreB1FSignpost0Text:
-	text "Teach your #MON"
-	line "new moves!"
+	text "Apprenez de nou-"
+	line "velles capacités!"
 
-	para "B1F: TM DEPOT"
+	text "SS -1: CT A GOGO"
 	done
 
 CeladonDeptStoreB1F_MapEventHeader:

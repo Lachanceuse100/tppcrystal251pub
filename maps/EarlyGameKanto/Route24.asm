@@ -219,7 +219,7 @@ Route24RBRocketText4:
 _Route24BattleText1:
 	text "J'ai vu tes"
 	line "exploits depuis"
-	cont "la!"
+	cont "là!"
 	done
 
 _Route24EndBattleText1:

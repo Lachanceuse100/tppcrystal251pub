@@ -79,7 +79,7 @@ LeechSeedSapsText: ; 0x8080e
 ; 0x80822
 
 HasANightmareText: ; 0x80822
-	text $5a, "fait"
+	text $5a, " fait"
 	line "un CAUCHEMAR!"
 	prompt
 ; 0x80836
@@ -133,7 +133,7 @@ BattleText_0x808b6: ; 0x808b6
 BattleText_0x808d2: ; 0x808d2
 	text "Le voile de"
 	line $5a
-	cont "disparait."
+	cont "disparaît."
 	prompt
 ; 0x808e7
 
@@ -147,7 +147,7 @@ BattleText_0x808e7: ; 0x808e7
 BattleText_PkmnReflectFaded: ; 0x80905
 	text "La PROTECTION de"
 	line $5a
-	cont "s'évanouit"
+	cont "s'évanouit."
 	prompt
 ; 0x8091f
 
@@ -350,10 +350,11 @@ RecoveredUsingText: ; 0x80bc2
 ; 0x80bde
 
 BattleText_0x80bde: ; 0x80bde
-	text $5a, " active"
-	line "son @"
+	text $5a, ""
+	line "active son"
+	cont "@"
 	text_from_ram StringBuffer1
-	text $55
+	text "!"
 	prompt
 ; 0x80bf3
 
@@ -447,8 +448,8 @@ WokeUpText: ; 0x80cfa
 ; 0x80d06
 
 FrozenSolidText: ; 0x80d06
-	text $5a, " est"
-	line "totalement gelé!"
+	text $5a
+	line "est gelé!"
 	prompt
 ; 0x80d1a
 
@@ -483,19 +484,20 @@ HurtItselfText: ; 0x80d5f
 ; 0x80d81
 
 ConfusedNoMoreText: ; 0x80d81
-	text $5a, " n'est"
-	line "plus confus!"
+	text $5a
+	line "n'est plus confus!"
 	prompt
 ; 0x80d97
 
 BecameConfusedText: ; 0x80d97
-	text $59, " devient"
-	line "confus!"
+	text $59, ""
+	line "devient confus!"
 	prompt
 ; 0x80dab
 FatigueConfusedText: ; 0x80d97
 	text "La fatigue rends"
-	line $5a, "confus."
+	line $5a
+	cont "confus."
 	prompt
 ; 0x80dab
 
@@ -503,7 +505,7 @@ FatigueConfusedText: ; 0x80d97
 BattleText_0x80dab: ; 0x80dab
 	text "Une @"
 	text_from_ram StringBuffer1
-	line "guéris"
+	line "guérit"
 	cont $59
 	cont "de sa confusion."
 	prompt
@@ -771,8 +773,9 @@ GotAnEncoreText: ; 0x81109
 ; 0x8111b
 
 SharedPainText: ; 0x8111b
-	text "The battlers"
-	line "shared pain!"
+	text "Les combattants"
+	line "partagent la"
+	cont "douleur."
 	prompt
 ; 0x81136
 
@@ -885,8 +888,8 @@ DefrostedOpponentText: ; 0x8124b
 
 WasFrozenText: ; 0x8125d
 	text $59
-	line "est completement"
-	cont "gelé"
+	line "est complètement"
+	cont "gelé."
 	prompt
 ; 0x81272
 
@@ -996,7 +999,7 @@ SubTookDamageText: ; 0x813ad
 SubFadedText: ; 0x813d0
 	text "Le clone de"
 	line $59
-	cont "disparait"
+	cont "disparaît"
 	prompt
 ; 0x813e6
 
@@ -1041,6 +1044,7 @@ TransformedTypeText: ; 0x81452
 	line "se transforme en"
 	cont "type @"
 	text_from_ram StringBuffer1
+	text "."
 	prompt
 ; 0x81476
 
@@ -1104,7 +1108,7 @@ DidntAffect2Text: ; 0x81520
 
 HPIsFullText: ; 0x81534
 	text "Les PVs de"
-	line $59
+	line $5a
 	cont "sont déjà au max!"
 	prompt
 ; 0x81544
@@ -1191,13 +1195,13 @@ PutACurseText: ; 0x8163d
 
 ProtectedItselfText: ; 0x81665
 	text $5a
-	line "se protege!"
+	line "se protège!"
 	prompt
 ; 0x8167a
 
 ProtectingItselfText: ; 0x8167a
 	text $59
-	line "se protege!"
+	line "se protège!"
 	done
 ; 0x81691
 

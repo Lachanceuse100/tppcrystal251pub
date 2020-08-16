@@ -240,47 +240,47 @@ MovementData_0x7563c: ; 0x7563c
 ; 0x75643
 
 CooltrainermSeanSeenText: ; 0x75643
-	text "I'm going to KANTO"
-	line "to test my skills."
+	text "Je vais à KANTO"
+	line "pour m'entraîner."
 	done
 ; 0x75669
 
 CooltrainermSeanBeatenText: ; 0x75669
-	text "I wanted to win!"
+	text "Je voulais gagner!"
 	done
 ; 0x7567b
 
 UnknownText_0x7567b: ; 0x7567b
-	text "Trainers from"
-	line "JOHTO can battle"
+	text "Les dresseurs de"
+	line "JOHTO peuvent af-"
 
-	para "with KANTO GYM"
-	line "LEADERS."
+	para "fronter les CHAM-"
+	line "PIONS de KANTO."
 	done
 ; 0x756b3
 
 CooltrainerfCarolSeenText: ; 0x756b3
-	text "I'm training to"
-	line "become the CHAMP!"
+	text "Je m'entraîne pour"
+	line "être la meilleure!"
 	done
 ; 0x756d5
 
 CooltrainerfCarolBeatenText: ; 0x756d5
-	text "What's so differ-"
-	line "ent between us?"
+	text "Qu'est-ce que tu"
+	line "as de plus?"
 	done
 ; 0x756f7
 
 UnknownText_0x756f7: ; 0x756f7
-	text "I'm going to beat"
-	line "you someday!"
+	text "Je te battrai un"
+	line "jour!"
 	done
 ; 0x75716
 
 PokemaniacEthanSeenText: ; 0x75716
-	text "Do you know LILY?"
-	line "She's a hot DJ in"
-	cont "KANTO."
+	text "Tu connais LILY?"
+	line "C'est un super DJ"
+	cont "de KANTO."
 	done
 ; 0x75741
 
@@ -290,106 +290,108 @@ PokemaniacEthanBeatenText: ; 0x75741
 ; 0x7574b
 
 UnknownText_0x7574b: ; 0x7574b
-	text "LILY's nice, but"
-	line "MARY's the best!"
+	text "LILY est cool mais"
+	line "LULA est la"
+	cont "meilleure!"
 
-	para "I want to check"
-	line "out JOHTO's radio"
-	cont "programs!"
+	para "Je veux connaître"
+	line "les stations de"
+	cont "radio de JOHTO!"
 	done
 ; 0x75797
 
 HikerNolandSeenText: ; 0x75797
-	text "Are you alone?"
-	line "Then let's battle!"
+	text "Une âme solitaire?"
+	line "Alors<...> Combat!"
 	done
 ; 0x757b9
 
 HikerNolandBeatenText: ; 0x757b9
-	text "That's too much to"
-	line "handle!"
+	text "T'es trop, toi!"
+	line "Pfouiii!"
 	done
 ; 0x757d4
 
 UnknownText_0x757d4: ; 0x757d4
-	text "I wonder if there"
-	line "are any mountains"
-
-	para "worth climbing in"
-	line "KANTO?"
+	text "Tu crois qu'il y à"
+	line "de belles monta-"
+	cont "gnes à KANTO?"
 	done
 ; 0x75812
 
 UnknownText_0x75812: ; 0x75812
-	text "Yeah, I'm a sail-"
-	line "or, all right."
+	text "Ouais, j'suis un"
+	line "marin. Un vrai"
+	cont "de vrai."
 
-	para "I wasn't goofing"
-	line "off!"
+	para "Hein? Mais non,"
+	line "je bosse là, je"
+	cont "te jure."
 
-	para "This cabin was"
-	line "vacant, so I just"
-	cont "took a quick nap!"
+	para "C'est juste que la"
+	line "cabine était vide"
+	cont "alors j'ai fait"
+	cont "une p'tite sieste."
 
-	para "Ah, forget it!"
-	line "Let's battle!"
+	para "Raaaah, oublie."
+	line "Combat!"
 	done
 ; 0x75897
 
 UnknownText_0x75897: ; 0x75897
-	text "Sorry! It's all my"
-	line "fault!"
+	text "Pardon! C'est ma"
+	line "faute!"
 	done
 ; 0x758b1
 
 UnknownText_0x758b1: ; 0x758b1
-	text "Being a sailor, I"
-	line "have to do phys-"
-	cont "ical labor. It's"
-	cont "exhausting!"
+	text "Hé, c'est épuisant"
+	line "tout le boulot qu'"
+	cont "on a, tu sais?"
+	
+	para "Bon, j'y retourne."
 	done
 ; 0x758f1
 
 GentlemanEdwardSeenText: ; 0x758f1
-	text "Oh, no. I've lost"
-	line "something that's"
-	cont "very important."
+	text "J'ai perdu un truc"
+	line "super important<...>"
 	done
 ; 0x75923
 
 GentlemanEdwardBeatenText: ; 0x75923
-	text "I<...> I can't find"
-	line "it<...>"
+	text "Je<...> Je le trouve"
+	line "pas<...>"
 	done
 ; 0x75937
 
 UnknownText_0x75937: ; 0x75937
-	text "I give up."
-	line "You don't have to"
+	text "Je laisse tomber."
+	line "Ce n'est pas la"
 
-	para "look. Just forget"
-	line "about it!"
+	para "peine de chercher."
+	line "Oublie!"
 	done
 ; 0x75970
 
 BurglarCoreySeenText: ; 0x75970
-	text "Yeehaw!"
-	line "Lucky!"
+	text "Ouaiiis!"
+	line "Le bol!"
 	done
 ; 0x75980
 
 BurglarCoreyBeatenText: ; 0x75980
-	text "How unlucky!"
-	line "I lost!"
+	text "Ohhhh!"
+	line "Pas de bol!"
 	done
 ; 0x75996
 
 UnknownText_0x75996: ; 0x75996
-	text "I found a pretty"
-	line "coin here."
+	text "J'ai trouvé une"
+	line "belle pièce."
 
-	para "Someone must have"
-	line "lost it<...>"
+	para "Quelqu'un a dû"
+	line "la perdre<...>"
 	done
 ; 0x759ce
 

@@ -101,10 +101,10 @@ MenuDataHeader_0x71203: ; 0x71203
 MenuData2_0x7120b: ; 0x7120b
 	db $80 ; flags
 	db 4 ; items
-	db "FRESH WATER  ¥200@"
-	db "SODA POP     ¥300@"
-	db "LEMONADE     ¥350@"
-	db "CANCEL@"
+	db "EAU FRAICHE  ¥200@"
+	db "SODA COOL    ¥300@"
+	db "LIMONADE     ¥350@"
+	db "ANNULER@"
 ; 0x71249
 
 
@@ -117,54 +117,53 @@ UnknownScript_0x7124d: ; 0x7124d
 ; 0x71250
 
 UnknownText_0x71250: ; 0x71250
-	text "A vending machine!"
-	line "Here's the menu."
+	text "Un distributeur!"
+	line "Voilà le menu."
 	done
 ; 0x71274
 
 UnknownText_0x71274: ; 0x71274
-	text "Clang!"
+	text "Cling!"
 
-	para "@"
+	para "Et hop!"
+	line "@"
 	text_from_ram StringBuffer3
 	db $0
-	line "popped out."
+	text "!"
 	done
 ; 0x7128e
 
 UnknownText_0x7128e: ; 0x7128e
-	text "Oops, not enough"
-	line "money<...>"
+	text "Oups, pas assez"
+	line "d'argent<...>"
 	done
 ; 0x712a7
 
 UnknownText_0x712a7: ; 0x712a7
-	text "There's no more"
-	line "room for stuff<...>"
+	text "Oups, plus de"
+	line "place<...>"
 	done
 ; 0x712c7
 
 UnknownText_0x712c7: ; 0x712c7
-	text "A vending machine"
-	line "with a prize rou-"
-	cont "lette<...>"
+	text "Un distributeur"
+	line "avec une roulette!"
 
-	para "You never see"
-	line "those anymore."
+	para "On en vois plus"
+	line "par ici."
 	done
 ; 0x71310
 
 UnknownText_0x71310: ; 0x71310
-	text "Aww! There's no"
-	line "games here!"
+	text "Y'a pas de jeux"
+	line "ici!"
 
-	para "I wanted to play<...>"
+	para "Je veux jouer<...>"
 	done
 ; 0x7133e
 
 UnknownText_0x7133e: ; 0x7133e
-	text "6F: ROOFTOP SQUARE"
-	line "VENDING MACHINES"
+	para "5EME: ESPACE TOIT"
 	done
 ; 0x71363
 

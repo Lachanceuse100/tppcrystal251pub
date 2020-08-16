@@ -267,7 +267,7 @@ MapRoute39SignpostItem3: ; 0x1a5bf6
 ; 0x1a5bf9
 
 UnknownText_0x1a5bf9: ; 0x1a5bf9
-	text "MILTANK: MEU!"
+	text "ECREMEUH: MEU!"
 	done
 ; 0x1a5c09
 

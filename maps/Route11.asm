@@ -137,45 +137,46 @@ MapRoute11SignpostItem1: ; 0x68057
 ; 0x6805a
 
 YoungsterOwenSeenText: ; 0x6805a
-	text "There's no cheat-"
-	line "ing in #MON."
+	text "Y'a pas de triche"
+	line "à #MON."
 
-	para "Let's keep it fair"
-	line "and square!"
+	para "Il faut rester"
+	line "honnête!"
 	done
 ; 0x68097
 
 YoungsterOwenBeatenText: ; 0x68097
-	text "I fought fair and"
-	line "square with honor."
+	text "J'ai combattu"
+	line "loyalement et avec"
+	cont "honneur."
 	done
 ; 0x680b2
 
 UnknownText_0x680b2: ; 0x680b2
-	text "In this grass I"
-	line "caught my IVYSAUR!"
+	text "C'est ici que j'ai"
+	line "attrapé mon"
+	cont "HERBIZARRE."
 	done
 ; 0x680f3
 
 YoungsterJasonSeenText: ; 0x680f3
-	text "It itches and"
-	line "tickles a bit when"
+	text "Porter des shorts"
+	line "dans l'herbe, ça"
 
-	para "I wear shorts in"
-	line "the grass."
+	para "pique à fond<...>"
+	line "Pas cool."
 	done
 ; 0x68131
 
 YoungsterJasonBeatenText: ; 0x68131
-	text "Aiyaaah!"
-	line "I got stomped!"
+	text "Aïe!"
 	done
 ; 0x6814a
 
 UnknownText_0x6814a: ; 0x6814a
-	text "I'm going to catch"
-	line "more #MON in"
-	cont "the grass."
+	text "Je vais choper"
+	line "d'autres #MON"
+	cont "dans les herbes."
 	done
 ; 0x68175
 
@@ -192,32 +193,32 @@ PsychicHermanBeatenText: ; 0x68178
 UnknownText_0x6817b: ; 0x6817b
 	text "<...>"
 
-	para "I lost while I had"
-	line "my eyes closed<...>"
+	para "J'ai perdu les"
+	line "yeux fermés<...>"
 	done
 ; 0x681a1
 
 PsychicFidelSeenText: ; 0x681a1
-	text "I can see it<...>"
+	text "Je vois tout<...>"
 
-	para "Everything to see"
-	line "about you<...>"
+	para "Passé, présent,"
+	line "futur<...>"
 	done
 ; 0x681cd
 
 PsychicFidelBeatenText: ; 0x681cd
-	text "I couldn't foresee"
-	line "your power<...>"
+	text "Je ne l'avais pas"
+	line "prévu<...>"
 	done
 ; 0x681ec
 
 UnknownText_0x681ec: ; 0x681ec
-	text "Strength in con-"
-	line "viction<...>"
+	text "Volonté,"
+	line "conviction<...>"
 
-	para "You're strong be-"
-	line "cause you believe"
-	cont "in your #MON."
+	para "Tu as gagné car tu"
+	line "crois en tes"
+	cont "#MON."
 	done
 ; 0x68238
 

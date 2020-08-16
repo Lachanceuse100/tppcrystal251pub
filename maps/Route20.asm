@@ -110,51 +110,51 @@ MapRoute20Signpost1Script: ; 0x1acd65
 ; 0x1acd68
 
 SwimmerfNicoleSeenText: ; 0x1acd68
-	text "I feel so much"
-	line "lighter in water."
+	text "Je me sens légère"
+	line "dans l'eau<...>"
 	done
 ; 0x1acd8a
 
 SwimmerfNicoleBeatenText: ; 0x1acd8a
-	text "Oh, no!"
+	text "Oh, non!"
 	done
 ; 0x1acd93
 
 UnknownText_0x1acd93: ; 0x1acd93
-	text "Swimming exercises"
-	line "your full body."
+	text "La nage fait gon-"
+	line "fler les muscles."
 
-	para "It's really good"
-	line "for you."
+	para "C'est prouvé!"
+	line "Je te jure!"
 	done
 ; 0x1acdd0
 
 SwimmerfLoriSeenText: ; 0x1acdd0
-	text "What an impressive"
-	line "collection of GYM"
+	text "Quelle belle"
+	line "collection de"
 
-	para "BADGES. We should"
-	line "battle!"
+	para "BADGES. On se fait"
+	line "un p'tit combat?"
 	done
 ; 0x1ace10
 
 SwimmerfLoriBeatenText: ; 0x1ace10
-	text "No!"
+	text "Non!"
 	done
 ; 0x1ace15
 
 UnknownText_0x1ace15: ; 0x1ace15
-	text "SURF is no longer"
-	line "the only HM move"
-	cont "you use in water."
+	text "SURF n'est plus la"
+	line "seule CS utili-"
+	cont "sable sur l'eau."
 	done
 ; 0x1ace4b
 
 SwimmermCameronSeenText: ; 0x1ace4b
-	text "I guess it's im-"
-	line "possible to swim"
+	text "Ca doit être"
+	line "impossible de"
 
-	para "all the way to"
+	para "nager jusqu'à"
 	line "JOHTO."
 	done
 ; 0x1ace83
@@ -165,27 +165,32 @@ SwimmermCameronBeatenText: ; 0x1ace83
 ; 0x1ace8b
 
 UnknownText_0x1ace8b: ; 0x1ace8b
-	text "Besides the sea, I"
-	line "can also swim in"
-	cont "ponds and rivers."
+	text "On peut nager dans"
+	line "la mer, les fleu-"
+	cont "ves, les lacs<...>"
 	done
 ; 0x1acec2
 
 UnknownText_0x1acec2: ; 0x1acec2
-	text "What does this"
-	line "sign say?"
+	text "Tiens! Une"
+	line "pancarte<...>"
 
-	para "CINNABAR GYM"
-	line "LEADER: BLAINE"
+	para "ARENE de CRAMOIS'"
+	line "ILE"
+
+	para "CHAMPION:"
+	line "AUGUSTE"
 	done
 ; 0x1acef8
 
 KnownText_0x1acec2:
-	text "What does this"
-	line "sign say?"
+	text "Tiens! Une"
+	line "pancarte<...>"
 
-	para "DANGER! FAST"
-	line "CURRENTS WITHIN"
+	para "DANGER!"
+
+	para "PRESENCE DE"
+	line "RAPIDES PAS LOIN."
 	done
 
 Route20_MapEventHeader: ; 0x1acef8

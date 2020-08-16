@@ -94,8 +94,7 @@ FisherArnoldScript: ; 0x1ac848
 ; 0x1ac850
 
 SwimmermSethSeenText: ; 0x1ac850
-	text "Land ho! Gotta"
-	line "keep going!"
+	text "Terre en vue!"
 	done
 ; 0x1ac86c
 
@@ -105,46 +104,48 @@ SwimmermSethBeatenText: ; 0x1ac86c
 ; 0x1ac873
 
 UnknownText_0x1ac873: ; 0x1ac873
-	text "This arrogant guy"
-	line "was at CINNABAR's"
-	cont "volcano."
+	text "Il y a un gars"
+	line "arrogant au volcan"
+	cont "de CRAMOIS'ILE"
 	done
 ; 0x1ac8a0
 
 SwimmerfNikkiSeenText: ; 0x1ac8a0
-	text "If I win, you have"
-	line "to help me with my"
-	cont "suntan lotion!"
+	text "Si je gagne, tu"
+	line "m'aides à mettre"
+	cont "ma crème solaire!"
 	done
 ; 0x1ac8d6
 
 SwimmerfNikkiBeatenText: ; 0x1ac8d6
-	text "I'm worried about"
-	line "sunburn<...>"
+	text "J'ai peur d'attra-"
+	line "per un coup de"
+	cont "soleil."
 	done
 ; 0x1ac8f1
 
 UnknownText_0x1ac8f1: ; 0x1ac8f1
-	text "I have to watch"
-	line "out for blemishes"
-	cont "caused by the sun."
+	text "Je fais attention"
+	line "que le soleil ne"
+	cont "fais pas de tâches"
+	cont "sur ma peau."
 	done
 ; 0x1ac927
 
 FisherArnoldSeenText: ; 0x1ac927
-	text "I'm bored by fish-"
-	line "ing. Let's battle!"
+	text "Je m'ennuie<...>"
+	line "Combat!"
 	done
 ; 0x1ac94c
 
 FisherArnoldBeatenText: ; 0x1ac94c
-	text "Utter failure<...>"
+	text "Quel échec<...>"
 	done
 ; 0x1ac95c
 
 UnknownText_0x1ac95c: ; 0x1ac95c
-	text "I'll just go back"
-	line "to fishing<...>"
+	text "Je retourne"
+	line "pêcher<...>"
 	done
 ; 0x1ac97a
 

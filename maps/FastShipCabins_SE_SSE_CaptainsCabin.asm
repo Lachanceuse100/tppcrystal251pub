@@ -369,257 +369,258 @@ MovementData_0x76010: ; 0x76010
 ; 0x76012
 
 UnknownText_0x76012: ; 0x76012
-	text "Whew! Thanks for"
-	line "coming along."
+	text "Ouf! Merci d'être"
+	line "venu."
 
-	para "Keeping that lit-"
-	line "tle girl amused"
-	cont "was exhausting."
+	para "Cette petite fille"
+	line "était épuisante!"
 	done
 ; 0x76064
 
 UnknownText_0x76064: ; 0x76064
-	text "How do you like"
-	line "S.S.AQUA's ride?"
+	text "Comment trouves-tu"
+	line "l'AQUARIA?"
 
-	para "She practically"
-	line "skates across the"
-	cont "waves."
+	para "C'est comme si il"
+	line "volait sur les"
+	cont "vagues<...>"
 	done
 ; 0x760ae
 
 UnknownText_0x760ae: ; 0x760ae
-	text "Oh, hello<...>"
+	text "Oh, bonjour<...>"
 
-	para "I still can't find"
-	line "my granddaughter."
+	para "Je ne trouve tou-"
+	line "jours pas ma"
+	cont "petite-fille."
 
-	para "If she's on the"
-	line "ship, that's OK."
-
-	para "She's an energetic"
-	line "child, so she may"
-
-	para "be bugging some-"
-	line "one. I'm worried<...>"
+	para "Elle à beaucoup"
+	line "d'énrgie, j'espère"
+	
+	para "qu'elle n'embête"
+	line "personne<...>"
 	done
 ; 0x76143
 
 UnknownText_0x76143: ; 0x76143
-	text "<PLAY_G>, was it?"
-	line "I heard you enter-"
-	cont "tained my grand-"
-	cont "daughter."
+	text "<PLAY_G>, c'est ça?"
+	line "On m'a dit que tu"
+	cont "as pris soin de ma"
+	cont "petite-fille."
 
-	para "I want to thank"
-	line "you for that."
+	para "Je tiens à te re-"
+	line "mercier pour ça."
 	done
 ; 0x7619b
 
 UnknownText_0x7619b: ; 0x7619b
-	text "I know! I'd like"
-	line "you to have this!"
+	text "Je sais! Je veux"
+	line "que tu acceptes"
+	cont "ceci!"
 	done
 ; 0x761be
 
 UnknownText_0x761be: ; 0x761be
-	text "We're traveling"
-	line "around the world."
+	text "Nous voyageons"
+	line "autour du monde."
 	done
 ; 0x761e0
 
 UnknownText_0x761e0: ; 0x761e0
-	text "CAPTAIN, play with"
-	line "me, please?"
+	text "Hé CAPITAINE! Tu"
+	line "joues avec moi?"
 
-	para "I'm bored! I want"
-	line "to play more!"
+	para "Steuplait?"
+	line "Steuplait m'sieur!"
 	done
 ; 0x7621f
 
 UnknownText_0x7621f: ; 0x7621f
-	text "Hi! Will you play"
-	line "with me?"
+	text "Tu viens jouer"
+	line "avec moi?"
 
 	para "<...>Oh!"
 
-	para "Grandpa's worried"
-	line "about me?"
+	para "Pépé s'inquiète"
+	line "pour moi?"
 
-	para "I have to go!"
+	para "J'y vais!"
 
-	para "I have to go find"
-	line "Grandpa!"
+	para "Je dois trouver"
+	line "mon pépé!"
 	done
 ; 0x76284
 
 UnknownText_0x76284: ; 0x76284
-	text "Grandpa, here I"
-	line "am! I was playing"
+	text "Je suis là pépé!"
+	line "Je jouais avec le"
 
-	para "with the CAPTAIN"
-	line "and this guy!"
+	para "CAPITAINE et ce"
+	line "garçon!"
 	done
 ; 0x762c6
 
 UnknownText_0x762c6: ; 0x762c6
-	text "Grandpa, here I"
-	line "am! I was playing"
+	text "Je suis là pépé!"
+	line "Je jouais avec le"
 
-	para "with the CAPTAIN"
-	line "and this big girl!"
+	para "CAPITAINE et cette"
+	line "fille!"
 	done
 ; 0x7630d
 
 UnknownText_0x7630d: ; 0x7630d
-	text "I had lots of fun"
-	line "playing!"
+	text "Je me suis bien"
+	line "amusée!"
 	done
 ; 0x76329
 
 PokefanmColinSeenText: ; 0x76329
-	text "Hey, kid! Want to"
-	line "battle with me?"
+	text "Toi, tu veux te"
+	line "battre contre moi?"
 	done
 ; 0x7634c
 
 PokefanmColinBeatenText: ; 0x7634c
-	text "SON: Dad, what"
-	line "will I get for"
-	cont "Christmas?"
+	text "FILS: Papa, j'au-"
+	line "rais quoi pour"
+	cont "Noël?"
 	done
 ; 0x7635b
 
 UnknownText_0x7635b: ; 0x7635b
-	text "We'll see what"
-	line "DELIBIRD brings"
-	cont "later, son!"
+	text "On verra ce que le"
+	line "CADOIZO nous ap-"
+	cont "porte, fiston!"
 	done
 ; 0x7638e
 
 TwinsMegandpeg1SeenText: ; 0x7638e
-	text "You think I'm a"
-	line "baby?"
-	cont "That's not fair!"
+	text "Tu me prends pour"
+	line "un bébé?"
+	cont "C'est pas juste!"
 	done
 ; 0x763b4
 
 TwinsMegandpeg1BeatenText: ; 0x763b4
-	text "Oh! We lost!"
+	text "Oh! Perdu!"
 	done
 ; 0x763c2
 
 UnknownText_0x763c2: ; 0x763c2
-	text "Baby is a rude"
-	line "name to call us"
-	cont "girls!"
+	text "On est des filles!"
+	line "Pas des bébés!"
 	done
 ; 0x763e9
 
 TwinsMegandpeg2SeenText: ; 0x763e9
-	text "I'm not a baby!"
+	text "Je suis pas un"
+	line "bébé!"
 
-	para "That's not nice to"
-	line "say to a lady!"
+	para "C'est pas beau de"
+	line "dire ça!"
 	done
 ; 0x7641a
 
 TwinsMegandpeg2BeatenText: ; 0x7641a
-	text "Oh! We lost!"
+	text "Oh! Perdu!"
 	done
 ; 0x76428
 
 UnknownText_0x76428: ; 0x76428
-	text "Sometimes, kids"
-	line "are smarter than"
-	cont "grown-ups!"
+	text "Les enfants sont"
+	line "plus malin que"
+	cont "les adultes!"
 	done
 ; 0x76455
 
 PsychicRodneySeenText: ; 0x76455
-	text "Ssh! My brain is"
-	line "picking up radio"
-	cont "signals!"
+	text "Chuut! Mon cerveau"
+	line "capte un signal"
+	cont "radio!"
 	done
 ; 0x76481
 
 PsychicRodneyBeatenText: ; 0x76481
-	text "<...>I hear some-"
-	line "thing!"
+	text "<...> J'entends"
+	line "quelque chose!"
 	done
 ; 0x76497
 
 UnknownText_0x76497: ; 0x76497
-	text "I get it. You can"
-	line "hear JOHTO's radio"
-	cont "on the FAST SHIP."
+	text "Je vois. Tu peux"
+	line "écouter la radio"
+	cont "de JOHTO sur le"
+	cont "BATEAU EXPRESS."
 	done
 ; 0x764ce
 
 PokefanmJeremySeenText: ; 0x764ce
-	text "What do you think?"
-	line "My #MON are"
-	cont "beautiful, yes?"
+	text "T'en penses quoi?"
+	line "Mes #MON sont"
+	cont "beaux, non?"
 	done
 ; 0x764fe
 
 PokefanmJeremyBeatenText: ; 0x764fe
-	text "Oh, no! My beauti-"
-	line "ful #MON!"
+	text "Oh, non! Mes beaux"
+	line "#MON!"
 	done
 ; 0x7651c
 
 UnknownText_0x7651c: ; 0x7651c
-	text "I must go to the"
-	line "#MON SALON and"
-	cont "fix them up nice!"
+	text "Je dois aller au"
+	line "SALON #MON et"
+	cont "les toiletter!"
 	done
 ; 0x7654f
 
 PokefanfGeorgiaSeenText: ; 0x7654f
-	text "I'm going to shop"
-	line "at the DEPT.STORE"
-	cont "and then<...>"
+	text "Je vais faire mes"
+	line "courses au GRAND"
+	cont "MAGASIN et puis<...>"
 	done
 ; 0x7657d
 
 PokefanfGeorgiaBeatenText: ; 0x7657d
-	text "What was I going"
-	line "to do?"
+	text "Qu'est-ce que je"
+	line "devais faire?"
 	done
 ; 0x76596
 
 UnknownText_0x76596: ; 0x76596
-	text "Oh, yes! I have to"
-	line "get my #MON out"
-	cont "of DAY-CARE!"
+	text "Ah oui! Je dois"
+	line "aller chercher mon"
+	cont "#MON à la"
+	cont "PENSION?"
 	done
 ; 0x765c7
 
 SupernerdShawnSeenText: ; 0x765c7
-	text "What kinds of #"
-	line "BALLS do you have"
-	cont "with you?"
+	text "Quels types de"
+	line "# BALLS as-tu"
+	cont "sur toi?"
 	done
 ; 0x765f4
 
 SupernerdShawnBeatenText: ; 0x765f4
-	text "Wait! Stop! Don't!"
-	line "Please!"
+	text "Attends! Stop!"
+	line "Pitié!"
 	done
 ; 0x7660f
 
 UnknownText_0x7660f: ; 0x7660f
-	text "You should use the"
-	line "right BALLS to fit"
-	cont "the situation."
+	text "Il faut utiliser"
+	line "les bonnes BALLS"
+	cont "en fonction de la"
+	cont "situation."
 	done
 ; 0x76645
 
 UnknownText_0x76645: ; 0x76645
-	text "FAST SHIP S.S.AQUA"
-	line "has arrived in"
-	cont "VERMILION CITY."
+	text "Le BATEAU EXPRESS"
+	line "AQUARIA est arrivé"
+	cont "à CARMIN SUR MER."
 	done
 ; 0x76678
 

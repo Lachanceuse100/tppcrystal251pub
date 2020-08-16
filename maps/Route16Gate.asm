@@ -51,44 +51,47 @@ MovementData_0x73405: ; 0x73405
 ; 0x73408
 
 UnknownText_0x73408: ; 0x73408
-	text "CYCLING ROAD"
-	line "starts here."
+	text "La PISTE CYCLABLE"
+	line "commence ici."
 
-	para "It's all downhill,"
-	line "so it's totally"
-	cont "exhilarating."
+	para "C'est une descente"
+	line "facile et très"
+	cont "reposante."
 
-	para "Oh, and before"
-	line "I forget."
+	para "Et avant que"
+	line "j'oublie."
 
-	para "Beeware of the"
-	line "bees. Heh."
+	para "Gare aux guêpes!"
 	done
 ; 0x73496
 
 UnknownText_0x73496: ; 0x73496
-	text "Hey! Whoa! Stop!"
+	text "Attends! Stop!"
 
-	para "You can't go out"
-	line "on the CYCLING"
+	para "Tu ne peux pas"
+	line "aller sur la PISTE"
 
-	para "ROAD without a"
-	line "BICYCLE."
+	para "CYCLABLE sans"
+	line "BICYCLETTE."
 	done
 
 Route16CyclingRoadGuardGiveBicycleText:
-	text "Thanks to a deal"
-	line "with GOLDENROD"
+	text "Grâce à un parte-"
+	line "nariat avec le"
 
-	para "BIKE STORE we have"
-	line "a special offer."
+	para "CYCLE à GOGO de"
+	line "DOUBLONVILLE,"
+	
+	para "nous avons une"
+	line "offre spéciale."
 
-	para "If you agree to"
-	line "use this BIKE on"
+	para "Si tu acceptes"
+	line "d'utiliser cette"
 
-	para "your travels, you"
-	line "may keep it for a"
-	cont "while."
+	para "BICYCLETTE pour"
+	line "voyager, tu peux"
+	cont "la garder si tu"
+	cont "fais assez de pub."
 	done
 ; 0x734df
 

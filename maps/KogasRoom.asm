@@ -101,7 +101,7 @@ KogaRematch:
 	end
 
 KogeBeforeRematchText:
-	para "Fwahahahaha!"
+	text "Fwahahahaha!"
 
 	para "Quelle détermina-"
 	line "tion dans ton"

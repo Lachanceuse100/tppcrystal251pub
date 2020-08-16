@@ -22,19 +22,18 @@ CooltrainerFScript_0x18a3c9: ; 0x18a3c9
 ; 0x18a3cc
 
 UnknownText_0x18a3cc: ; 0x18a3cc
-	text "There's a big"
-	line "RADIO TOWER in"
-	cont "LAVENDER."
+	text "Il y a une grande"
+	line "TOUR RADIO à"
+	cont "LAVANVILLE."
 	done
 ; 0x18a3f3
 
 UnknownText_0x18a3f3: ; 0x18a3f3
-	text "I want to become"
-	line "stronger, but I'm"
-	cont "not good yet<...>"
+	text "Je ne suis pas"
+	line "très douée<...>"
 
-	para "Could you show me"
-	line "how sometime?"
+	para "Tu peux me montrer"
+	line "comment faire?"
 	done
 ; 0x18a444
 

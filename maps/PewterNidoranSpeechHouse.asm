@@ -20,12 +20,13 @@ GrowlitheScript_0x1a280a: ; 0x1a280a
 ; 0x1a2814
 
 UnknownText_0x1a2814: ; 0x1a2814
-	text "NIDORAN, shake!"
+	text "NIDORAN, donne la"
+	line "patte!"
 	done
 ; 0x1a2825
 
 UnknownText_0x1a2825: ; 0x1a2825
-	text "NIDORAN: Gau gau!"
+	text "NIDORAN: Nidôô!"
 	done
 ; 0x1a2838
 

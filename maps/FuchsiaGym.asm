@@ -249,163 +249,170 @@ MovementData_0x195f27: ; 0x195f27
 ; 0x195f35
 
 UnknownText_0x195f35: ; 0x195f35
-	text "Fufufufu<...>"
+	text "Gnah ha ha ha!"
 
-	para "I'm sorry to dis-"
-	line "appoint you<...>"
+	para "Désolée de te dé-"
+	line "cevoir mais<...>"
 
-	para "I'm only joking!"
+	para "Non, je plaisante!"
 
-	para "I'm the real deal!"
+	para "C'est bien moi la"
+	line "vraie!"
 
-	para "JANINE of FUCHSIA"
-	line "GYM, that's me!"
+	para "JEANNINE de l'ARE-"
+	line "NE de PARMANIE, la"
+	cont "seule, l'unique!"
 	done
 ; 0x195fa1
 
 UnknownText_0x195fa1: ; 0x195fa1
-	text "JANINE: You're a"
-	line "tough one. You"
-	cont "definitely won<...>"
+	text "JEANNINE: T'as du"
+	line "talent, toi. Ce"
 
-	para "Here's SOULBADGE."
-	line "Take it."
+	para "n'était certaine-"
+	line "ment pas de la"
+
+	para "chance, ta"
+	line "victoire."
+
+	para "Prends ce BADGE"
+	line "AME."
 	done
 ; 0x195feb
 
 UnknownText_0x195feb: ; 0x195feb
-	text "<PLAYER> received"
-	line "SOULBADGE."
+	text "<PLAYER> reçoit"
+	line "le BADGE AME."
 	done
 ; 0x196002
 
 UnknownText_0x196002: ; 0x196002
-	text "JANINE: You're so"
-	line "tough! I have a"
-	cont "special gift!"
+	text "JEANNINE: J'ai un"
+	line "cadeau pour toi!"
 
-	para "It's TOXIC, a pow-"
-	line "erful poison that"
+	para "C'est TOXIK, un"
+	line "puissant poison"
 
-	para "steadily saps the"
-	line "victim's HP."
+	para "qui vide les PV"
+	line "de la victime."
 	done
 ; 0x196074
 
 UnknownText_0x196074: ; 0x196074
-	text "JANINE: I'm going"
-	line "to really apply"
+	text "JEANNINE: Je vais"
+	line "encore m'entraîner"
+	cont "et m'améliorer."
 
-	para "myself and improve"
-	line "my skills."
-
-	para "I want to become"
-	line "better than both"
-	cont "Father and you!"
+	para "Je serais plus"
+	line "forte que toi et"
+	cont "mon papa!"
 	done
 
 UnknownText_0x1960e6: ; 0x1960e6
-	text "Fufufu!"
+	text "Gnahaha!"
 
-	para "I'm JANINE, the"
-	line "GYM LEADER!"
+	para "Je suis JEANNINE,"
+	line "la CHAMPIONNE de"
+	cont "l'ARENE!"
 
-	para "No, I'm not!"
-	line "Gotcha, sucker!"
+	para "Non, je plaisante!"
+	line "Je t'ai bien eu!"
 	done
 ; 0x196126
 
 UnknownText_0x196126: ; 0x196126
-	text "I had you fooled<...>"
+	text "M'en fiche, je"
+	line "t'ai eu!"
 	done
 ; 0x196139
 
 UnknownText_0x196139: ; 0x196139
-	text "How will you dis-"
-	line "tinguish our real"
-	cont "LEADER?"
+	text "Comment vas-tu"
+	line "reconnaître la"
+	cont "vraie CHAMPIONNE?"
 	done
 ; 0x196166
 
 UnknownText_0x196166: ; 0x196166
-	text "Fooled you!"
-	line "Hahaha!"
+	text "Tu m'as crue!"
+	line "Hahaha! Débile!"
 	done
 ; 0x19617b
 
 UnknownText_0x19617b: ; 0x19617b
-	text "Ooh<...> I lost<...>"
-	line "You're not weak<...>"
+	text "Comme quoi, il ne"
+	line "faut pas se fier"
+	cont "aux apparences!"
 	done
 ; 0x196199
 
 UnknownText_0x196199: ; 0x196199
-	text "Well? Wasn't my"
-	line "disguise perfect?"
+	text "Alors? Il était"
+	line "comment mon"
+	cont "déguisement?"
 	done
 ; 0x1961bb
 
 UnknownText_0x1961bb: ; 0x1961bb
-	text "I'm JANINE!"
+	text "Je suis JEANNINE!"
 
-	para "How did you know I"
-	line "was real?"
+	para "<...> Tu me crois,"
+	line "pas vrai?"
 
-	para "Let's battle!"
+	para "COMBAT!"
 	done
 ; 0x1961f1
 
 UnknownText_0x1961f1: ; 0x1961f1
-	text "Darn it!"
-	line "I wanted to win!"
+	text "Zut! Je voulais"
+	line "gagner!"
 	done
 ; 0x19620c
 
 UnknownText_0x19620c: ; 0x19620c
-	text "You must be"
-	line "getting tired."
+	text "Alors?"
+	line "Tu fatigues?"
 	done
 ; 0x196228
 
 UnknownText_0x196228: ; 0x196228
 	text "Wahahaha!"
 
-	para "You betcha!"
-	line "I'm JANINE!"
+	para "Je suis JEANNINE!"
+	line "Je te jure!"
 	done
 ; 0x19624a
 
 UnknownText_0x19624a: ; 0x19624a
-	text "My disguise was"
-	line "right on! Dang!"
+	text "C'est trop bien de"
+	line "se déguiser!"
 	done
 ; 0x19626b
 
 UnknownText_0x19626b: ; 0x19626b
-	text "Hey, you. Was my"
-	line "disguise cute or"
-	cont "what, huh?"
+	text "Alors, je suis"
+	line "mimi en fille?"
 	done
 ; 0x196299
 
 FuchsiaGymGuyText: ; 0x196299
-	text "Yo, CHAMP!"
+	text "Salut, champion en"
+	cont "herbe!"
 
-	para "Whoops! Take a"
-	line "good look around"
+	para "Regarde autour de"
+	line "toi: tous les"
 
-	para "you. The trainers"
-	line "all look like the"
-	cont "LEADER, JANINE."
+	para "dresseurs ressem-"
+	line "blent à JEANNINE."
 
-	para "Which of them is"
-	line "the real JANINE?"
+	para "Sauras-tu trouver"
+	line "la vraie?"
 	done
 ; 0x196325
 
 FuchsiaGymGuyWinText: ; 0x196325
-	text "That was a great"
-	line "battle, trainer!"
+	text "C'était un beau"
+	line "combat, dresseur!"
 	done
 ; 0x196353
 

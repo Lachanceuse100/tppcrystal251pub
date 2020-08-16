@@ -93,73 +93,72 @@ SuperNerdMiguelScriptAlreadyHaveIt:
 	end
 
 SuperNerdMiguelSeenText:
-	text "Hold it!"
-	line "Not another step."
+	text "Minute! Pas un pas"
+	line "de plus."
 
-	para "You'll disturb the"
-	line "precious FOSSILs!"
+	para "Tu vas déranger"
+	line "mes précieux!"
 	done
 
 SuperNerdMiguelBeatenText:
-	text "Alright, alright!"
-	line "You can have one."
+	text "OK! d'accord!"
+	line "Tu peux en prendre"
+	cont "un."
 	done
 
 SuperNerdMiguelFirstFossilText:
-	text "I've held on to"
-	line "this FOSSIL for"
-	cont "three months now."
+	text "J'ai gardé ce"
+	line "FOSSILE pendant 3"
+	cont "mois."
 
-	para "But in my recent"
-	line "excavations, I've"
+	para "Mais dans mes der-"
+	line "nières fouilles,"
 
-	para "found many more"
-	line "just like it."
+	para "j'en ai trouvé"
+	line "d'autres."
 	done
 
 SuperNerdMiguelFoundNothingText:
-	text "Ah, good to see"
-	line "you again!"
+	text "Ah, te revoilà!"
 
-	para "I didn't find any"
-	line "fossils today."
-	cont "Sorry!"
+	para "Je n'ai pas trouvé"
+	line "de fossiles."
+	cont "Désolé!"
 	done
 
 SuperNerdMiguelFoundSomethingText:
-	text "Ah, good to see"
-	line "you again!"
+	text "Ah, te revoilà!"
 
-	para "You're in luck!"
-	line "My excavation was"
-	cont "a success!"
+	para "Tu es en veine!"
+	line "Mes fouilles sont"
+	cont "une réussite!"
 	done
 
 SuperNerdMiguelFoundHelixText:
-	text "Here, you can have"
-	line "this HELIX FOSSIL."
+	text "Tiens, prends ce"
+	line "FOSSILE NAUTILE."
 	done
 
 SuperNerdMiguelFoundDomeText:
-	text "Here, you can have"
-	line "this DOME FOSSIL."
+	text "Tiens, prends ce"
+	line "FOSSILE DOME."
 	done
 
 SuperNerdMiguelText:
-	text "Come back again"
-	line "tomorrow."
+	text "Reviens demain."
 
-	para "I'll give you any"
-	line "surplus FOSSILs"
-	cont "I find."
+	para "Je te donnerais"
+	line "des fossiles en"
+	cont "trop si j'en"
+	cont "trouve."
 	done
 
 SuperNerdMiguelAlreadyHaveItText:
-	text "Oh? You already"
-	line "one of those."
+	text "Oh? Tu en as déjà"
+	line "un."
 
-	para "I guess I'll keep"
-	line "this one."
+	para "Je vais le garder"
+	line "alors."
 	done
 
 Item_MtMoonPGKB3F1:

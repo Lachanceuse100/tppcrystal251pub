@@ -6,7 +6,7 @@
 	next "be pour délimiter"
 	next "son territoire."
 	page "On l'entends à des"
-	next "kilometres à la"
+	next "kilomètres à la"
 	next "ronde.@"
 ; 0x1d0f66
 

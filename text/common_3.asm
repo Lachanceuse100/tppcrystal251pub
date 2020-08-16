@@ -199,7 +199,7 @@ UnknownText_0x1c0396: ; 1c0396
 	line "@"
 	text_from_ram StringBuffer2
 	text ""
-	line "à un #MON?"
+	cont "à un #MON?"
 	done
 ; 1c03c2
 
@@ -373,7 +373,7 @@ _CantSurfText: ; 1c063f
 ; 1c0654
 
 _AlreadySurfingText: ; 1c0654
-	text "Tu SURF déjà"
+	text "Tu SURF déjà."
 	prompt
 ; 1c066c
 
@@ -924,8 +924,8 @@ UnknownText_0x1c0d6c: ; 1c0d6c
 ; 1c0d7a
 
 _PowerHerbText:
-	text "L'HERBE POUV."
-	line "de ", $5a 
+	text "L'HERBE POUV. de"
+	line $5a 
 	cont "s'active!"
 	prompt
 
@@ -1148,7 +1148,7 @@ UnknownText_0x1c0feb: ; 1c0feb
 	text_from_ram StringBuffer1
 	text " est"
 	line "envoyé au PC"
-	cont "de LEO"
+	cont "de LEO."
 	prompt
 ; 1c1006
 
@@ -1598,7 +1598,7 @@ _OakRating13: ; 1c1812
 
 _OakRating14: ; 1c1853
 	text "Echanges-tu des"
-	line "#MON ? C'est"
+	line "#MON? C'est"
 
 	para "dur de faire ça"
 	line "tout seul!"
@@ -1728,7 +1728,7 @@ UnknownText_0x1c1adf: ; 1c1adf
 ; 1c1b03
 
 UnknownText_0x1c1b03: ; 1c1b03
-	text "OAK: ", "<PLAYER>!"
+	text "CHEN: ", "<PLAYER>!"
 	line "Ce n'est pas le"
 	cont "moment d'utiliser"
 	cont "ça!"
@@ -1738,8 +1738,8 @@ UnknownText_0x1c1b03: ; 1c1b03
 UnknownText_0x1c1b2c: ; 1c1b2c
 	text "Pris @"
 	text_from_ram StringBuffer1
-	text " de"
-	line "@"
+	text ""
+	line "de @"
 	text_from_ram wd050
 	text " et"
 

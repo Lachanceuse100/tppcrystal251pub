@@ -170,154 +170,154 @@ MapCeruleanCitySignpostItem8: ; 0x1840b9
 ; 0x1840bc
 
 UnknownText_0x1840bc: ; 0x1840bc
-	text "KANTO's POWER"
-	line "PLANT?"
+	text "La CENTRALE de"
+	line "KANTO?"
 
-	para "It's near the end"
-	line "of ROUTE 9, the"
+	para "C'est vers le bout"
+	line "de la ROUTE 9, à"
+	cont "l'est d'ici."
 
-	para "road that heads"
-	line "east from here."
-
-	para "I think there was"
-	line "an accident of"
-	cont "some sort there."
+	para "Il paraît qu'il y"
+	line "a eu un accident?"
 	done
 ; 0x184144
 
 UnknownText_0x184144: ; 0x184144
-	text "You're collecting"
-	line "every single kind"
-	cont "of #MON?"
+	text "Tu collectionnes"
+	line "tous les #MON"
+	cont "différents?"
 
-	para "That must be quite"
-	line "a challenge, but"
-	cont "it sounds fun too."
+	para "Ca doit pas être"
+	line "super facile<...>"
+	cont "Mais ça à l'air"
+	cont "marrant."
 	done
 ; 0x1841a8
 
 UnknownText_0x1841a8: ; 0x1841a8
-	text "The CAPE in the"
-	line "north is a good"
+	text "Le CAP au nord est"
+	line "un bon endroit"
+	cont "pour un rencard!"
 
-	para "place for dates."
-	line "Girls like it!"
+	para "Les filles adorent"
+	line "ça!"
 	done
 ; 0x1841e9
 
 UnknownText_0x1841e9: ; 0x1841e9
-	text "SLOWBRO: Yarah?"
+	text "FLAGADOSS: Gaaa?"
 	done
 ; 0x1841fa
 
 UnknownText_0x1841fa: ; 0x1841fa
-	text "My SLOWBRO and I"
-	line "make an awesome"
-	cont "combination!"
+	text "Mon FLAGADOSS et"
+	line "moi on va trop"
+	cont "bien ensemble!"
 	done
 ; 0x184229
 
 UnknownText_0x184229: ; 0x184229
-	text "SLOWBRO, show me"
-	line "your CONFUSION!"
+	text "FLAGADOSS!"
+	line "CHOC MENTAL!"
 	done
 ; 0x18424b
 
 UnknownText_0x18424b: ; 0x18424b
-	text "<...>"
+	text "<...><...><...><...><...><...><...>"
 	done
 ; 0x18424e
 
 UnknownText_0x18424e: ; 0x18424e
-	text "I'm a huge fan of"
-	line "CERULEAN GYM's"
-	cont "MISTY."
+	text "Je suis un super"
+	line "fan d'ONDINE de"
+	cont "l'ARENE d'AZURIA."
 	done
 ; 0x184275
 
 UnknownText_0x184275: ; 0x184275
-	text "I saw this shady"
-	line "guy go off toward"
-	cont "CERULEAN's CAPE."
+	text "J'ai vu ce drôle"
+	line "de type aller vers"
+	cont "le CAP d'AZURIA."
 	done
 ; 0x1842a9
 
 UnknownText_0x1842a9: ; 0x1842a9
-	text "There is a cave"
-	line "here that has"
+	text "Il y a une caverne"
+	line "ici qui abrite un"
 
-	para "horribly powerful"
-	line "#MON in it."
+	para "#MON affreuse-"
+	line "ment puissant."
 	done
 ; 0x1842ee
 
 CooltrainerMText_BlocksCeruleanCave:
-	text "I'm very sorry."
+	text "Je suis désolé."
 
-	para "This cave is too"
-	line "dangerous for"
-	cont "ordinary citizens."
+	para "Cette grotte est"
+	line "trop dangereuse"
+	cont "pour les citoyens"
+	cont "ordinaires."
 	done
 
 
 UnknownText_0x1842ee: ; 0x1842ee
-	text "Ayuh?"
+	text "Hein?"
 
-	para "My ITEMFINDER is"
-	line "responding<...>"
+	para "Mon CHERCH'OBJET"
+	line "capte quelque"
+	cont "chose."
 	done
 ; 0x184312
 
 UnknownText_0x184312: ; 0x184312
-	text "CERULEAN CITY"
+	text "AZURIA"
 
-	para "A Mysterious Blue"
-	line "Aura Surrounds It"
+	para "Entourée d'une"
+	line "étrange aura bleue"
 	done
 ; 0x184345
 
 UnknownText_0x184345: ; 0x184345
-	text "CERULEAN CITY"
-	line "#MON GYM"
-	cont "LEADER: MISTY"
+	text "ARENE #MON"
+	line "d'AZURIA"
 
-	para "The Tomboyish"
-	line "Mermaid"
+	para "CHAMPIONNE:"
+	cont "ONDINE"
+
+	para "Une vraie petite"
+	line "sirène"
 	done
 ; 0x184381
 
 UnknownText_0x184381: ; 0x184381
-	text "There's a notice"
-	line "here<...>"
+	text "Il y a une affiche"
+	line "ici<...>"
 
-	para "The BIKE SHOP has"
-	line "moved to GOLDENROD"
-	cont "CITY in JOHTO<...>"
+	para "Les CYCLES A GOGO"
+	line "sont à DOUBLON-"
+	cont "VILLE à JOHTO<...>"
 	done
 ; 0x1843cc
 
 UnknownText_0x1843cc: ; 0x1843cc
-	text "There's a notice"
-	line "here<...>"
+	text "Il y a une affiche"
+	line "ici<...>"
 
-	para "Stamp out thievery"
-	line "and make the city"
+	para "Non au vol."
+	line "Oui au bonheur."
 
-	para "a friendlier, more"
-	line "cheerful place!"
-
-	para "CERULEAN POLICE"
+	para "POLICE d'AZURIA"
 	done
 ; 0x18443b
 
 UnknownText_0x18443b: ; 0x18443b
-	text "CERULEAN CAPE"
-	line "AHEAD"
+	text "CAP d'AZURIA"
+	line "Tout droit."
 	done
 ; 0x184450
 
 UnknownText_0x184450: ; 0x184450
-	text "It's locked<...>"
+	text "C'est fermé<...>"
 	done
 ; 0x18445d
 

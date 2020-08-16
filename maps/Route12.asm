@@ -155,9 +155,9 @@ MapRoute12SignpostItem2: ; 0x1a700f
 ; 0x1a7012
 
 FisherMartinSeenText: ; 0x1a7012
-	text "Patience is the"
-	line "key to both fish-"
-	cont "ing and #MON."
+	text "La patience est la"
+	line "meilleure arme"
+	cont "pour pêcher<...>"
 	done
 ; 0x1a7043
 
@@ -167,113 +167,111 @@ FisherMartinBeatenText: ; 0x1a7043
 ; 0x1a704c
 
 UnknownText_0x1a704c: ; 0x1a704c
-	text "I'm too impatient"
-	line "for fishing<...>"
+	text "Je suis trop"
+	line "impatient!"
 	done
 ; 0x1a706b
 
 FisherStephenSeenText: ; 0x1a706b
-	text "Since #MON"
-	line "TOWER closed,"
+	text "Depuis que la TOUR"
+	line "#MON a fermé,"
 
-	para "ghosts are"
-	line "common at night."
+	para "il y a des fan-"
+	line "tômes à la nuit."
 	done
 ; 0x1a70b4
 
 FisherStephenBeatenText: ; 0x1a70b4
-	text "It scares"
-	line "away the fishes!"
+	text "Ils font peur aux"
+	line "poissons!"
 	done
 ; 0x1a70d4
 
 UnknownText_0x1a70d4: ; 0x1a70d4
-	text "#MON TOWER"
-	line "is no more."
+	text "La TOUR #MON"
+	line "n'existe plus."
 
-	para "But I heard ghosts"
-	line "are still around."
+	para "Mais il paraît que"
+	line "les fantômes sont"
+	cont "toujours là."
 	done
 ; 0x1a711d
 
 FisherBarneySeenText: ; 0x1a711d
-	text "What's most impor-"
-	line "tant in our every-"
-	cont "day lives?"
+	text "Quelle est la"
+	line "chose la plus im-"
+	cont "portante dans nos"
+	cont "vies quotidiennes?"
 	done
 ; 0x1a714e
 
 FisherBarneyBeatenText: ; 0x1a714e
-	text "The answer is"
-	line "coming up next!"
+	text "La réponse va vous"
+	line "étonner!"
 	done
 ; 0x1a716d
 
 UnknownText_0x1a716d: ; 0x1a716d
-	text "I think electric-"
-	line "ity is the most"
+	text "Je crois que"
+	line "l'électricité est"
 
-	para "important thing in"
-	line "our daily lives."
+	para "la chose la plus"
+	line "importante."
 
-	para "If it weren't,"
-	line "people wouldn't"
+	para "Sinon les gens ne"
+	line "feraient pas tant"
 
-	para "have made such a"
-	line "fuss when the"
-
-	para "POWER PLANT went"
-	line "out of commission."
+	para "d'histoires à pro-"
+	line "pos de la panne de"
+	cont "la CENTRALE."
 	done
 ; 0x1a7214
 
 FisherKyleSeenText: ; 0x1a7214
-	text "Do you remember?"
+	text "Tu t'en souviens?"
 	done
 ; 0x1a7226
 
 FisherKyleBeatenText: ; 0x1a7226
-	text "You do remember?"
+	text "Tu te souviens?"
 	done
 ; 0x1a7238
 
 UnknownText_0x1a7238: ; 0x1a7238
-	text "The tug you feel"
-	line "on the ROD when"
+	text "La petite secousse"
+	line "que l'on sent"
 
-	para "you hook a #-"
-	line "MON<...>"
+	para "quand on ferre un"
+	line "#MON<...>"
 
-	para "That's the best"
-	line "feeling ever for"
-	cont "an angler like me."
+	para "C'est la plus"
+	line "belle des sensa-"
+	cont "tions!"
 	done
 ; 0x1a72a0
 
 FisherWillySeenText:
-	text "I've got a really"
-	line "good haul!"
+	text "Ah, j'ai une bonne"
+	line "prise!"
 	done
 
 FisherWillyBeatenText:
-	text "Not that good<...>"
+	text "Pas si bonne<...>"
 	done
 
 FisherWillyAfterText:
-	text "Variety is the"
-	line "spice of life!"
+	text "La variété, ça"
+	line "pimente la vie!"
 	done
 
 UnknownText_0x1a72a0: ; 0x1a72a0
 	text "ROUTE 12"
-
-	para "NORTH TO LAVENDER"
-	line "TOWN"
+	line "NORD: LAVANVILLE"
 	done
 ; 0x1a72c1
 
 UnknownText_0x1a72c1: ; 0x1a72c1
-	text "FISHING SPOT"
+	text "COIN PECHE"
 	done
 ; 0x1a72cf
 

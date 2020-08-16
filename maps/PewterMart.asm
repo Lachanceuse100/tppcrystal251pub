@@ -34,15 +34,14 @@ UnknownText_0x1a2dd8: ; 0x1a2dd8
 ; 0x1a2e3a
 
 UnknownText_0x1a2e3a: ; 0x1a2e3a
-	text "There once was a"
-	line "weird old man who"
-	cont "sold MAGIKARP."
+	text "Il y avait un type"
+	line "tout vieux et bi-"
+	cont "zarre qui vendait"
+	cont "des MAGICARPE."
 
-	para "He was saying the"
-	line "MAGIKARP from the"
-
-	para "LAKE OF RAGE were"
-	line "excellent."
+	para "Il recommandait"
+	line "les MAGICARPE du"
+	cont "LAC COLERE."
 	done
 ; 0x1a2eae
 

@@ -15,27 +15,28 @@ MapRoute7Signpost1Script: ; 0x1ad385
 ; 0x1ad388
 
 UnknownText_0x1ad388: ; 0x1ad388
-	text "What's this flyer?"
+	text "Une affiche?"
 
-	para "<...> Uncouth members"
-	line "of the CHOIR GROUP"
-	cont "have been holding"
+	para "<...> Des vilains"
+	line "membres de la CHO-"
+	cont "RALE ont livré"
 
-	para "battles in the"
-	line "UNDERGROUND PATH."
+	para "des combats dans"
+	line "le SOUTERRAIN."
 
-	para "Because of rising"
-	line "complaints, the"
-	cont "UNDERGROUND PATH"
-	cont "has been sealed"
-	cont "indefinitely."
+	para "Suite à de nom-"
+	line "breuses plaintes,"
+	cont "le SOUTERRAIN a"
+	cont "été définitivement"
+	cont "fermé."
 
-	para "CELADON POLICE"
+	para "POLICE de"
+	line "CELADOPOLE"
 	done
 ; 0x1ad456
 
 UnknownText_0x1ad456: ; 0x1ad456
-	text "It's locked<...>"
+	text "C'est fermé<...>"
 	done
 ; 0x1ad463
 

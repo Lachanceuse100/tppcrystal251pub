@@ -292,7 +292,7 @@ PicnickerErin1SeenText: ; 0x1a988f
 ; 0x1a98bb
 
 PicnickerErin1BeatenText: ; 0x1a98bb
-	text "Mince?"
+	text "Mince!"
 	done
 ; 0x1a98c6
 

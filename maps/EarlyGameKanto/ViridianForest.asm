@@ -226,8 +226,9 @@ ViridianForestRBSignpostText5:
 	para "Ne volez pas les"
 	line "#MON des autres"
 	cont "dresseurs!"
-	cont "Capturez seulement"
-	cont "les #MON"
+
+	para "Capturez seulement"
+	line "les #MON"
 	cont "sauvages!"
 	done
 

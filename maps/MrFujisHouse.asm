@@ -46,41 +46,39 @@ MapMrFujisHouseSignpost1Script: ; 0x7e8ee
 ; 0x7e8f1
 
 UnknownText_0x7e8f1: ; 0x7e8f1
-	text "MR.FUJI does live"
-	line "here, but he's not"
+	text "M.FUJI vit ici"
+	line "mais il est absent"
+	cont "pour le moment."
 
-	para "home now."
-
-	para "He should be at"
-	line "the SOUL HOUSE."
+	para "Il est à la"
+	line "MAISON DES AMES."
 	done
 ; 0x7e940
 
 UnknownText_0x7e940: ; 0x7e940
-	text "Some cold-hearted"
-	line "people stop caring"
-	cont "for their #MON."
+	text "Des gens sans"
+	line "coeur délaissent"
+	cont "leurs #MON."
 
-	para "Grandpa takes in"
-	line "the poor homeless"
+	para "Pépé s'occupe des"
+	line "#MON abandonnés"
+	cont "et les soigne."
 
-	para "#MON and takes"
-	line "care of them."
 	done
 ; 0x7e9b6
 
 UnknownText_0x7e9b6: ; 0x7e9b6
-	text "PSYDUCK: Gu-guwa?"
+	text "PSYKOKWAK: Kwa?"
 	done
 ; 0x7e9c9
 
 UnknownText_0x7e9c9: ; 0x7e9c9
-	text "NIDORINO: Gyun!"
+	text "NIDORINO: Nido!"
 	done
 ; 0x7e9da
 
 UnknownText_0x7e9da: ; 0x7e9da
-	text "PIDGEY: Pijji!"
+	text "ROUCOOL: Rrrou!"
 	done
 ; 0x7e9ea
 

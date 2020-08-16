@@ -545,7 +545,7 @@ GruntM6BeatenText: ; 0x5dbed
 ; 0x5dc00
 
 UnknownText_0x5dc00: ; 0x5dc00
-	text "L'ADN BERZERK est"
+	text "L'ADN. BERZERK est"
 	line "notre création"
 	cont "ultime!"
 

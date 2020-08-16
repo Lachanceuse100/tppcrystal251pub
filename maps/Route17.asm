@@ -145,91 +145,102 @@ MapRoute17SignpostItem1: ; 0x1ad105
 ; 0x1ad108
 
 BikerRileySeenText: ; 0x1ad108
-	text "You're from JOHTO?"
-	line "Buzz off!"
+	text "Tu es de JOHTO?"
+	line "Va t-aon!"
 	done
 ; 0x1ad12a
 
 BikerRileyBeatenText: ; 0x1ad12a
-	text "Ouch, that stings!"
+	text "Aïe, ça pique!"
 	done
 ; 0x1ad13b
 
 UnknownText_0x1ad13b: ; 0x1ad13b
-	text "Oh, you are from"
-	line "KANTO? Sorry!"
+	text "Tu es de KANTO?"
+	line "Pardon!"
 	done
 ; 0x1ad15c
 
 BikerJoelSeenText: ; 0x1ad15c
-	text "You know what my"
-	line "blood type is?"
+	text "Tu sais quel est"
+	line "mon groupe"
+	cont "sanguin?"
 
-	para "BEE positive!"
+	para "ABeille plus!"
 
-	para "<...> Heh."
+	para "<...>"
+
+	para "J'y arrive vrai-"
+	line "ment pas<...>"
 	done
 ; 0x1ad178
 
 BikerJoelBeatenText: ; 0x1ad178
-	text "You sting"
-	line "like a bee<...>"
+	text "Je peux te piquer"
+	line "une blague?"
 	done
 ; 0x1ad196
 
 UnknownText_0x1ad196: ; 0x1ad196
-	text "This grass is"
-	line "swarming of"
-	cont "BEEDRILL!"
+	text "Ces hautes herbes"
+	line "sont infestés de"
+	cont "DARDARGNAN!"
 
-	para "The water is a"
-	line "safe spot, though."
+	para "L'eau est le seul"
+	line "endroit tran-"
+	cont "quille."
 	done
 ; 0x1ad1e0
 
 BikerGlennSeenText: ; 0x1ad1e0
-	text "Beauty is in"
-	line "the eye of the"
-	cont "bee-holder!"
+	text "Pas besoin d'une"
+	line "taille de guêpe"
+	cont "pour être top"
+	cont "modèle!"
 
-	para "<...> Heh."
+	para "<...> Héhé."
 	done
 ; 0x1ad203
 
 BikerGlennBeatenText: ; 0x1ad203
-	text "Such a buzz kill!"
+	text "Tu me files le"
+	line "bourdon<...>"
 	done
 ; 0x1ad225
 
 UnknownText_0x1ad225: ; 0x1ad225
-	text "I'm covered in"
-	line "BEEDRILL stings!"
+	text "Les DARDARGNAN"
+	line "m'ont piqué par-"
+	cont "tout!"
 	done
 ; 0x1ad25c
 
 BikerCharlesSeenText: ; 0x1ad25c
-	text "I made it! I can't"
-	line "bee-lieve it!"
+	text "Subeille! J'ai"
+	line "réussi!"
 
 	para "<...>"
 
-	para "Ok, that bee pun"
-	line "didn't wing it."
+	para "Je sais, mes bla-"
+	line "gues ne volent"
+	cont "jamais très haut<...>"
 	done
 ; 0x1ad27a
 
 BikerCharlesBeatenText: ; 0x1ad27a
-	text "Quit pollen"
-	line "my leg!"
+	text "Ne me pollen pas"
+	line "ma journée!"
 	done
 ; 0x1ad293
 
 UnknownText_0x1ad293: ; 0x1ad293
-	text "This time of year"
-	line "is horrible."
+	text "Cette période de"
+	line "l'année est hor-"
+	cont "rible."
 
-	para "The puns help"
-	line "us cope with it."
+	para "On se divertit"
+	line "avec nos blagues"
+	cont "à 2 franc."
 	done
 ; 0x1ad2c5
 

@@ -313,8 +313,8 @@ GreatBallDesc:
 	next "taux de réussite.@"
 
 PokeBallDesc:
-	db   "Objet pour capturer"
-	next "les #MON.@"
+	db   "Objet pour captu-"
+	next "rer les #MON.@"
 
 PremierBallDesc:
 	db   "BALL créée pour"
@@ -530,8 +530,8 @@ GoodRodDesc:
 	next "pêcher les PKMN.@"
 
 SilverLeafDesc:
-	db   "Une étrange feuille"
-	next "argentée.@"
+	db   "Une étrange"
+	next "feuille argentée.@"
 
 SuperRodDesc:
 	db   "La meilleur canne"
@@ -563,7 +563,7 @@ SecretPotionDesc:
 
 SSTicketDesc:
 	db   "Un ticket pour"
-	next "l'AQUARIA@"
+	next "l'AQUARIA.@"
 
 MysteryEggDesc:
 	db   "Un OEUF obtenu"
@@ -676,7 +676,7 @@ WhtApricornDesc:
 	db   "Une NOIGRUME blanc.@"
 
 BlackbeltDesc:
-	db   "Renforce caoacités"
+	db   "Renforce capacités"
 	next "COMBAT. (TENU)@"
 
 BlkApricornDesc:
@@ -693,7 +693,7 @@ BlackGlassesDesc:
 	next "TENEBRES. (TENU)@"
 
 SlowpokeTailDesc:
-	db   "tr", $c6, "s bon."
+	db   "Tr", $c6, "s bon."
 	next "Se vend cher.@"
 
 PinkBowDesc:

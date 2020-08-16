@@ -206,7 +206,7 @@ UnknownText_0x1a4865: ; 0x1a4865
 
 	para "C'est incroytable!"
 
-	para "PETER est la seule"
+	para "PETER est le seul"
 	line "qui ait réussi cet"
 
 	para "exploit jusqu'à"
@@ -323,7 +323,7 @@ UnknownText_0x1a4b67: ; 0x1a4b67
 
 	para "Une montagne calme"
 	line "et retirée du"
-	cont "reste du monde"
+	cont "reste du monde."
 	done
 ; 0x1a4b91
 

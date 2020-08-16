@@ -238,194 +238,194 @@ MovementData_0x188eda: ; 0x188eda
 ; 0x188ee0
 
 UnknownText_0x188ee0: ; 0x188ee0
-	text "A thief broke into"
-	line "the POWER PLANT<...>"
+	text "Un voleur est en-"
+	line "tré par effraction"
+	cont "dans la CENTRALE."
 
-	para "What is the world"
-	line "coming to?"
+	para "Mais où va le"
+	line "monde?"
 	done
 ; 0x188f22
 
 UnknownText_0x188f22: ; 0x188f22
-	text "I just got word"
-	line "from CERULEAN."
+	text "On racontre des"
+	line "trucs à AZURIA."
 
-	para "It appears that a"
-	line "shady character"
-
-	para "has been loitering"
-	line "around."
+	para "Un drôle de type"
+	line "rôde dans les"
+	cont "environs<...>"
 	done
 ; 0x188f7f
 
 UnknownText_0x188f7f: ; 0x188f7f
-	text "Could I ask for"
-	line "your cooperation?"
+	text "Tu veux bien"
+	line "m'aider?"
 	done
 ; 0x188fa2
 
 UnknownText_0x188fa2: ; 0x188fa2
-	text "We'll have to beef"
-	line "up our security"
-	cont "presence."
+	text "Il faut renforcer"
+	line "la sécurité."
 	done
 ; 0x188fcf
 
 UnknownText_0x188fcf: ; 0x188fcf
-	text "Someone made off"
-	line "with a part that's"
+	text "Quelqu'un a volé"
+	line "une partie essen-"
 
-	para "essential for the"
-	line "generator."
+	para "tielle du généra-"
+	line "teur."
 
-	para "Without it, the"
-	line "new generator's"
-	cont "useless!"
+	para "Sans elle, rien"
+	line "ne marche."
 	done
 ; 0x189038
 
 UnknownText_0x189038: ; 0x189038
-	text "The generator's up"
-	line "and running. It's"
+	text "Le générateur est"
+	line "en marche. Il crée"
 
-	para "making electricity"
-	line "to spare."
+	para "de l'électricité"
+	line "à gogo."
 	done
 ; 0x189079
 
 UnknownText_0x189079: ; 0x189079
-	text "This POWER PLANT"
-	line "had been abandoned"
-	cont "in the past."
+	text "Cette CENTRALE a"
+	line "été abandonnée il"
+	cont "y a longtemps."
 
-	para "We got it back up"
-	line "and running to"
+	para "On l'a relancée"
+	line "pour donner de"
 
-	para "provide power to"
-	line "the MAGNET TRAIN."
+	para "l'énergie au TRAIN"
+	line "MAGNET."
 	done
 ; 0x1890ef
 
 UnknownText_0x1890ef: ; 0x1890ef
-	text "The generator's"
-	line "running again!"
+	text "Le générateur est"
+	line "en marche!"
 	done
 ; 0x18910e
 
 UnknownText_0x18910e: ; 0x18910e
-	text "The POWER PLANT's"
-	line "MANAGER is up"
-	cont "ahead."
+	text "Le PATRON de la"
+	line "CENTRALE est plus"
+	cont "loin."
 
-	para "But since someone"
-	line "wrecked the gener-"
-	cont "ator, he's been"
-	cont "both sad and"
-	cont "furious<...>"
+	para "Attention, il est"
+	line "furax depuis que"
+	cont "quelqu'un a sac-"
+	cont "cagé son joli"
+	cont "générateur<...>"
 	done
 ; 0x18917f
 
 UnknownText_0x18917f: ; 0x18917f
-	text "Since the gener-"
-	line "ator's been fixed,"
+	text "Depuis la répara-"
+	line "tion du généra-"
 
-	para "the MANAGER has"
-	line "been cheerful."
+	para "teur, le PATRON"
+	line "est très heureux."
 	done
 ; 0x1891c2
 
 UnknownText_0x1891c2: ; 0x1891c2
-	text "The MAGNET TRAIN"
-	line "consumes a lot of"
-	cont "electricity."
+	text "Le TRAIN MAGNET"
+	line "consomme beaucoup"
+	cont "d'électricité."
 
-	para "It can't move if"
-	line "the new generator"
-	cont "isn't operating."
+	para "Il ne bougera pas"
+	line "si le nouveau gé-"
+	cont "nérateur ne marche"
+	cont "pas<...>"
 	done
 ; 0x189225
 
 UnknownText_0x189225: ; 0x189225
-	text "All right! We can"
-	line "finally get the"
-
-	para "MAGNET TRAIN"
-	line "running again."
+	text "OK! On peut à nou-"
+	line "veau faire marcher"
+	cont "le TRAIN MAGNET."
 	done
 ; 0x189264
 
 UnknownText_0x189264: ; 0x189264
-	text "MANAGER: I, I, I'm"
-	line "ready to blast"
-	cont "someone!"
+	text "PATRON: Je vais"
+	line "exploser!"
 
-	para "Who would dare"
-	line "ruin my generator?"
+	para "Qui? Qui ose sabo-"
+	line "ter mon généra-"
+	cont "teur?"
 
-	para "I spent so much"
-	line "time on it!"
+	para "J'ai passé telle-"
+	line "ment de temps"
+	cont "dessus!"
 
-	para "If I catch him,"
-	line "he's going to get"
-
-	para "a taste of my"
-	line "THUNDERSHOT!"
+	para "Oh, si je l'attra-"
+	line "pe, il va sentir"
+	cont "le courant passer!"
 	done
 ; 0x189308
 
 UnknownText_0x189308: ; 0x189308
-	text "MANAGER: I won't"
-	line "forgive him!"
+	text "PATRON: J'te jure,"
+	line "il s'en tirera pas"
+	cont "comme ça!"
 
-	para "The culprit can"
-	line "cry and apologize,"
+	para "Il peut s'excuser"
+	line "si il veut mais je"
 
-	para "but I'll still"
-	line "hammer him!"
+	para "vais l'électrocu-"
+	line "ter!"
 
 	para "Gahahahah!"
 	done
 ; 0x18936e
 
 UnknownText_0x18936e: ; 0x18936e
-	text "MANAGER: Ah! Yeah!"
+	text "PATRON: Oh mais"
+	line "c'est<...>"
 
-	para "That's the missing"
-	line "PART from my be-"
-	cont "loved generator!"
-	cont "You found it?"
+	para "C'est<...>"
+
+	para "C'est la PARTIE"
+	line "manquante de mon"
+	cont "joli générateur!"
+	cont "Tu l'as trouvée?"
 	done
 ; 0x1893c4
 
 UnknownText_0x1893c4: ; 0x1893c4
-	text "Wahah! Thanks!"
+	text "Wahah! Merci!"
 
-	para "Here! Take this TM"
-	line "as a reward!"
+	para "Tiens! Prends"
+	line "cette CT!"
 	done
 ; 0x1893f4
 
 UnknownText_0x1893f4: ; 0x1893f4
-	text "MANAGER: TM25 is"
-	line "THUNDER."
+	text "PATRON: La CT25"
+	line "est FATAL-FOUDRE!"
 
-	para "It's a powerful"
-	line "technique!"
+	para "C'est super"
+	line "puissant!"
 
-	para "It's not what any-"
-	line "one would consider"
+	para "C'est pas super"
+	line "précis mais ça"
 
-	para "accurate, but it"
-	line "packs a wallop!"
+	para "dépote! Je te"
+	line "jure!"
 	done
 ; 0x189475
 
 UnknownText_0x189475: ; 0x189475
-	text "MANAGER: My be-"
-	line "loved generator!"
+	text "PATRON: Oh, mon"
+	line "petit générateur"
+	cont "chéri!"
 
-	para "Keep pumping the"
-	line "electricity out!"
+	para "Vas-y! Pompe"
+	line "l'électricité!"
 	done
 ; 0x1894b9
 

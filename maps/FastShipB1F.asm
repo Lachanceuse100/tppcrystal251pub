@@ -403,216 +403,212 @@ MovementData_0x76876: ; 0x76876
 ; 0x7687b
 
 UnknownText_0x7687b: ; 0x7687b
-	text "Hey, kid. Could I"
-	line "get you to look"
-	cont "for my buddy?"
+	text "Hé toi. Tu peux"
+	line "chercher mon pote"
+	cont "pour moi?"
 
-	para "He's goofing off"
-	line "somewhere, that"
-	cont "lazy bum!"
+	para "Il se balade dans"
+	line "le coin, ce"
+	cont "paresseux!"
 
-	para "I want to go find"
-	line "him, but I'm on"
-	cont "duty right now."
+	para "J'aimerais le"
+	line "trouver mais moi"
+	cont "j'ai du taf."
 	done
 ; 0x76907
 
 UnknownText_0x76907: ; 0x76907
-	text "Oh, gee<...>"
+	text "Oh, zut<...>"
 
-	para "The CAPTAIN will"
-	line "be furious<...>"
+	para "Le CAPITAINE va"
+	line "être furieux<...>"
 	done
 ; 0x7692e
 
 UnknownText_0x7692e: ; 0x7692e
-	text "Thanks, kid!"
-	line "I chewed him out"
+	text "Merci bien!"
+	line "J'lui ai passé un"
 
-	para "good so he'll quit"
-	line "slacking off!"
+	para "savon des familles"
+	line "et il va bosser"
+	cont "maintenant."
 	done
 ; 0x7696d
 
 UnknownText_0x7696d: ; 0x7696d
-	text "A little girl?"
+	text "Une p'tite fille?"
 
-	para "I may have seen"
-	line "her go by here."
+	para "Je crois l'avoir"
+	line "vue passer."
 	done
 ; 0x7699d
 
 UnknownText_0x7699d: ; 0x7699d
-	text "The dining room is"
-	line "up ahead."
+	text "La salle à manger"
+	line "est tout droit."
 
-	para "The stairs at the"
-	line "end lead to the"
-	cont "CAPTAIN's cabin."
+	para "Les escaliers au"
+	line "bout mènent à la"
+	cont "cabine du"
+	cont "CAPITAINE."
 	done
 ; 0x769ed
 
 SailorJeffSeenText: ; 0x769ed
-	text "Nothing beats a"
-	line "battle when I'm"
-	cont "on my break."
+	text "Rien de tel qu'un"
+	line "combat pendant la"
+	cont "pause."
 	done
 ; 0x76a1a
 
 SailorJeffBeatenText: ; 0x76a1a
-	text "Win or lose, my"
-	line "break's over!"
+	text "Bon, au boulot!"
 	done
 ; 0x76a38
 
 UnknownText_0x76a38: ; 0x76a38
-	text "I guess I can't"
-	line "win if I don't get"
-	cont "serious."
+	text "Faut que je m'en-"
+	line "traîne sérieux"
+	cont "pour progresser."
 	done
 ; 0x76a63
 
 PicnickerDebraSeenText: ; 0x76a63
-	text "I'm so bored."
-	line "Want to battle?"
+	text "Je m'ennuie<...>"
+	line "Un combat?"
 	done
 ; 0x76a81
 
 PicnickerDebraBeatenText: ; 0x76a81
-	text "Yow! You're too"
-	line "strong!"
+	text "Woah. Cool!"
 	done
 ; 0x76a99
 
 UnknownText_0x76a99: ; 0x76a99
-	text "SAFFRON, CELADON<...>"
-	line "I hear there are"
+	text "SAFRANIA, CELADO-"
+	line "POLE<...> On dit"
 
-	para "many big cities"
-	line "in KANTO."
+	para "qu'il y a plein de"
+	line "grandes villes à"
+	cont "KANTO."
 	done
 ; 0x76ad7
 
 JugglerFritzSeenText: ; 0x76ad7
-	text "Urrf<...>"
-	line "I'm seasick!"
+	text "Beuh<...> J'ai le mal"
+	line "de mer!"
 	done
 ; 0x76aea
 
 JugglerFritzBeatenText: ; 0x76aea
-	text "I can't move any-"
-	line "more<...>"
+	text "Je peux plus"
+	line "bouger<...>"
 	done
 ; 0x76b02
 
 UnknownText_0x76b02: ; 0x76b02
-	text "No more ships for"
-	line "me. Next time,"
-
-	para "I'm taking the"
-	line "MAGNET TRAIN."
+	text "La prochaine fois,"
+	line "je prendrais le"
+	cont "TRAIN MAGNET<...>"
 	done
 ; 0x76b40
 
 SailorGarrettSeenText: ; 0x76b40
-	text "This is where we"
-	line "sailors work!"
+	text "C'est ici que les"
+	line "marins bossent!"
 	done
 ; 0x76b60
 
 SailorGarrettBeatenText: ; 0x76b60
-	text "I lost on my home"
-	line "field<...>"
+	text "Perdu sur mon"
+	line "terrain natal<...>"
 	done
 ; 0x76b7a
 
 UnknownText_0x76b7a: ; 0x76b7a
-	text "We get different"
-	line "passengers from"
-
-	para "VERMILION CITY to"
-	line "OLIVINE CITY."
+	text "Les passagers sont"
+	line "de CARMIN SUR MER"
+	cont "et d'OLIVILLE."
 	done
 ; 0x76bbc
 
 FisherJonahSeenText: ; 0x76bbc
-	text "Even though we're"
-	line "out on the sea, I"
-	cont "can't fish!"
+	text "On est en mer mais"
+	line "on peut pas"
+	cont "pêcher!"
 
-	para "This is boring!"
-	line "Let's battle!"
+	para "C'est nul!"
+	line "Combat!"
 	done
 ; 0x76c08
 
 FisherJonahBeatenText: ; 0x76c08
-	text "I<...> I'm not bored"
-	line "anymore<...>"
+	text "Pfff. T'es naze<...>"
 	done
 ; 0x76c22
 
 UnknownText_0x76c22: ; 0x76c22
-	text "I plan to fish off"
-	line "VERMILION's pier."
+	text "Je vais pêcher au"
+	line "port de CARMIN SUR"
+	cont "MER."
 	done
 ; 0x76c47
 
 BlackbeltWaiSeenText: ; 0x76c47
-	text "I'm building up my"
-	line "legs by bracing"
-
-	para "against the ship's"
-	line "rocking!"
+	text "Je muscle mes"
+	line "jambes avec le"
+	cont "tangage du bateau!"
 	done
 ; 0x76c85
 
 BlackbeltWaiBeatenText: ; 0x76c85
-	text "Rocked and rolled"
-	line "over!"
+	text "Je me suis tout"
+	line "planté!"
 	done
 ; 0x76c9e
 
 UnknownText_0x76c9e: ; 0x76c9e
-	text "I couldn't find"
-	line "the KARATE KING in"
+	text "Je n'ai pas trouvé"
+	line "le ROI du KARATE à"
 	cont "JOHTO."
 
-	para "He's supposed to"
-	line "be training in a"
-	cont "cave somewhere."
+	para "On dit qu'il s'en-"
+	line "traîne dans une"
+	cont "caverne quelque"
+	cont "part."
 	done
 ; 0x76cf9
 
 SailorKennethSeenText: ; 0x76cf9
-	text "I'm a sailor man!"
+	text "J'suis un marin!"
 
-	para "But I'm training"
-	line "#MON, so I can"
-	cont "become the CHAMP!"
+	para "J'entraîne aussi"
+	line "mes #MON pour"
+	cont "devenir un MAITRE!"
 	done
 ; 0x76d3c
 
 SailorKennethBeatenText: ; 0x76d3c
-	text "My lack of train-"
-	line "ing is obvious<...>"
+	text "Je manque"
+	line "d'entraînement<...>"
 	done
 ; 0x76d5f
 
 UnknownText_0x76d5f: ; 0x76d5f
-	text "Eight BADGES!"
-	line "They must prove"
+	text "Huit BADGES!"
+	line "Tu as donc battu"
 
-	para "that you've beaten"
-	line "GYM LEADERS."
+	para "les CHAMPIONS des"
+	line "ARENES<...>"
 
-	para "No wonder you're"
-	line "so good!"
+	para "Normal que tu sois"
+	line "balèze?"
 	done
 ; 0x76db6
 
 TeacherShirleySeenText: ; 0x76db6
-	text "Don't lay a finger"
-	line "on my students!"
+	text "Touche pas à mes"
+	line "elèves!"
 	done
 ; 0x76dd9
 
@@ -622,15 +618,15 @@ TeacherShirleyBeatenText: ; 0x76dd9
 ; 0x76de1
 
 UnknownText_0x76de1: ; 0x76de1
-	text "We're on a field"
-	line "trip to the RUINS"
-	cont "outside VIOLET."
+	text "On va tous aux"
+	line "RUINES près de"
+	cont "MAUVILLE."
 	done
 ; 0x76e14
 
 SchoolboyNateSeenText: ; 0x76e14
-	text "Do you know the"
-	line "RUINS OF ALPH?"
+	text "Tu connais les"
+	line "RUINES d'ALPHA?"
 	done
 ; 0x76e34
 
@@ -640,28 +636,28 @@ SchoolboyNateBeatenText: ; 0x76e34
 ; 0x76e3d
 
 UnknownText_0x76e3d: ; 0x76e3d
-	text "Radios pick up"
-	line "strange signals"
-	cont "inside the RUINS."
+	text "Les radios captent"
+	line "d'étranges signaux"
+	cont "dans les RUINES."
 	done
 ; 0x76e6f
 
 SchoolboyRickySeenText: ; 0x76e6f
-	text "There are some odd"
-	line "stone panels in"
-	cont "the RUINS OF ALPH."
+	text "Il y a d'étranges"
+	line "panneaux dans les"
+	cont "RUINES d'ALPHA."
 	done
 ; 0x76ea6
 
 SchoolboyRickyBeatenText: ; 0x76ea6
-	text "I was done in!"
+	text "Mince!"
 	done
 ; 0x76eb6
 
 UnknownText_0x76eb6: ; 0x76eb6
-	text "I read that there"
-	line "are four of those"
-	cont "stone panels."
+	text "J'ai lu qu'il y a"
+	line "quatre panneaux"
+	cont "de pierre."
 	done
 ; 0x76ee9
 

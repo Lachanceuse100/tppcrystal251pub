@@ -200,231 +200,232 @@ UnknownScript_0x189cd8: ; 0x189cd8
 ; 0x189cdf
 
 SabrinaRejectText:
-	text "I got a vision."
+	text "J'ai eu une"
+	line "vision."
 
-	para "You were battling"
-	line "an unknown foe"
-	cont "while sleeping"
-	cont "in PALLET TOWN."
+	para "Une étrange adver-"
+	line "saire t'attends"
+	cont "dans tes rêves, à"
+	cont "ta ville natale."
 
-	para "I do not know"
-	line "the details, but"
-	cont "a vision this"
-	cont "clear must be"
-	cont "true."
+	para "Je ne connais pas"
+	line "les détails, mais"
+	cont "une vision si"
+	cont "claire doit être"
+	cont "vraie."
 
-	para "The vision keeps"
-	line "repeating, I"
-	cont "cannot battle like"
-	cont "this."
+	para "<...>"
 
-	para "You must accept"
-	line "her challenge."
+	para "Elle se répète<...>"
+	line "Je ne peux pas me"
+	cont "battre comme ça."
+
+	para "Tu dois accepter"
+	line "son défi."
 
 	done
 
 UnknownText_0x189cdf: ; 0x189cdf
-	text "SABRINA: I knew"
-	line "you were coming<...>"
+	text "MORGANE: Je savais"
+	line "que tu viendrais."
 
-	para "Three months ago I"
-	line "had a vision of"
-	cont "your arrival."
+	para "J'ai eu une vision"
+	line "il y a trois mois."
 
-	para "You're after my"
+	para "Tu es après mon"
 	line "BADGE."
 
-	para "I don't enjoy bat-"
-	line "tling, but it's my"
+	para "Je n'aime pas me"
+	line "battre mais en"
 
-	para "duty as a LEADER"
-	line "to confer BADGES"
+	para "tant que CHAMPION-"
+	line "NE, je me dois de"
 
-	para "on anyone who has"
-	line "proven him- or"
-	cont "herself worthy."
+	para "confier mon BADGE"
+	line "à celui ou celle"
+	cont "qui le mérite."
 
-	para "Since you wish it,"
-	line "I will show you my"
-	cont "psychic powers!"
+	para "Puisque tu le"
+	line "souhaites, je vais"
+	cont "te montrer mes"
+	cont "pouvoirs psy!"
 	done
 ; 0x189df4
 
 UnknownText_0x189df4: ; 0x189df4
-	text "SABRINA: Your"
-	line "power<...>"
+	text "MORGANE: Ta puis-"
+	line "sance<...>"
 
-	para "It far exceeds"
-	line "what I foresaw<...>"
+	para "Elle dépasse de"
+	line "loin ce que"
+	cont "j'avais prédis."
 
-	para "Maybe it isn't"
-	line "possible to fully"
+	para "Peut-être que l'on"
+	line "ne peux pas savoir"
 
-	para "predict what the"
-	line "future holds<...>"
+	para "ce que l'avenir"
+	line "nous réserve après"
+	cont "tout<...>"
 
-	para "OK, you win. You"
-	line "earned yourself"
-	cont "MARSHBADGE."
+	para "Tu as gagné, tu"
+	line "as bien mérité le"
+	cont "BADGE MARAIS."
 	done
 ; 0x189e95
 
 UnknownText_0x189e95: ; 0x189e95
-	text "<PLAYER> received"
-	line "MARSHBADGE."
+	text "<PLAYER> reçoit"
+	line "le BADGE MARAIS."
 	done
 ; 0x189ead
 
 UnknownText_0x189ead: ; 0x189ead
-	text "SABRINA: MARSH-"
-	line "BADGE draws out"
+	text "MORGANE: Le BADGE"
+	line "MARAIS renforce"
 
-	para "your subliminal"
-	line "powers<...>"
+	para "les pouvoirs"
+	line "occultes<...>"
 
-	para "I forsee this"
-	line "helping."
+	para "Je prédis que"
+	line "ceci t'aideras."
 	done
 
 AfterGIveRestText:
-	text "TM44 grants REST."
+	text "La CT44 accorde"
+	line "REPOS."
 
-	para "By enetering a"
-	line "trance, a #MON"
-	cont "fully recovers."
+	para "Un #MON récupè-"
+	line "re complètement en"
+	cont "état de trance."
 
-	para "Although I failed"
-	line "to accurately pre-"
-	cont "dict your power,"
-	cont "this much I know"
-	cont "to be true."
+	para "Je n'ai pas pu"
+	line "prédire ta puis-"
+	cont "sance, mais ceci"
+	cont "est la vérité."
 
-	para "You will become a"
-	line "celebrated and"
-	cont "beloved CHAMPION!"
+	para "Tu seras un MAITRE"
+	line "célébré et adoré!"
 	done
 ; 0x189f6c
 
 UnknownText_0x189f6c: ; 0x189f6c
-	text "SABRINA: Your love"
-	line "for your #MON"
+	text "MORGANE: Ton amour"
+	line "pour tes #MON a"
 
-	para "overwhelmed my"
-	line "psychic power<...>"
+	para "brouillé mes pou-"
+	line "voirs psy<...>"
 
-	para "The power of love,"
-	line "I think, is also a"
-
-	para "kind of psychic"
-	line "power<...>"
+	para "L'amour<...>"
+	line "Quelle force!"
 	done
 ; 0x189fe9
 
 MediumRebeccaSeenText: ; 0x189fe9
-	text "The power of all"
-	line "those you defeated"
-	cont "comes to me!"
+	text "Que la force soit"
+	line "avec moi!"
 	done
 ; 0x18a01b
 
 MediumRebeccaBeatenText: ; 0x18a01b
-	text "Strong<...>"
-	line "Far too strong<...>"
+	text "Quelle<...>"
+	line "Quelle force<...>"
 	done
 ; 0x18a034
 
 UnknownText_0x18a034: ; 0x18a034
-	text "What is the source"
-	line "of your power?"
+	text "Quelle est la"
+	line "source de ta"
+	cont "force?"
 	done
 ; 0x18a057
 
 PsychicFranklinSeenText: ; 0x18a057
-	text "Psychic power is"
-	line "the power of your"
-	cont "soul."
+	text "La force psychique"
+	line "est la force de"
+	cont "ton âme."
 	done
 ; 0x18a081
 
 PsychicFranklinBeatenText: ; 0x18a081
-	text "Your soul has more"
-	line "power than mine!"
+	text "Ton âme est plus"
+	line "forte que la"
+	cont "mienne."
 	done
 ; 0x18a0a6
 
 UnknownText_0x18a0a6: ; 0x18a0a6
-	text "You made your soul"
-	line "stronger, not just"
-	cont "your abilities."
+	text "Tu as renforcé ton"
+	line "âme, pas juste tes"
+	cont "capacités."
 	done
 ; 0x18a0dd
 
 MediumDorisSeenText: ; 0x18a0dd
-	text "Fufufufu<...>"
-	line "I see it clearly."
+	text "Héhéhéhé...>"
+	line "Je vois<...>"
 
-	para "I can see into"
-	line "your soul!"
+	para "Je peux lire ton"
+	line "âme!"
 	done
 ; 0x18a114
 
 MediumDorisBeatenText: ; 0x18a114
-	text "Though I read you,"
-	line "I still lost<...>"
+	text "Même si j'ai pu te"
+	line "lire, j'ai perdu"
+	cont "face à toi<...>"
 	done
 ; 0x18a136
 
 UnknownText_0x18a136: ; 0x18a136
-	text "Darn! I forgot"
-	line "that I predicted I"
-	cont "would lose to you."
+	text "Ah mais oui! J'a-"
+	line "vais prédis ma"
+	cont "défaite face à"
+	cont "toi!"
 	done
 ; 0x18a16c
 
 PsychicJaredSeenText: ; 0x18a16c
-	text "The FIGHTING DOJO"
-	line "next door was once"
-	cont "this city's GYM."
+	text "Le DOJO d'à côté"
+	line "était jadis l'ARE-"
+	cont "NE de SAFRANIA."
 	done
 ; 0x18a1a2
 
 PsychicJaredBeatenText: ; 0x18a1a2
-	text "I was no match<...>"
+	text "Je ne fais pas"
+	line "le poids<...>"
 	done
 ; 0x18a1b3
 
 UnknownText_0x18a1b3: ; 0x18a1b3
-	text "KARATE KING, the"
-	line "master of the"
+	text "Le ROI du KARATE,"
+	line "le maître du DOJO"
 
-	para "FIGHTING DOJO, was"
-	line "just destroyed by"
-	cont "SABRINA."
+	para "a été battu par"
+	line "MORGANE."
 	done
 ; 0x18a201
 
 SaffronGymGuyText: ; 0x18a201
-	text "Yo, CHAMP!"
+	text "Salut, champion en"
+	line "herbe!"
 
-	para "A trainer as"
-	line "skilled as you"
+	para "Pas besoin de te"
+	line "dire comment vain-"
 
-	para "doesn't need to be"
-	line "told how to deal"
+	para "cre des #MON"
+	line "PSY, pas vrai?"
 
-	para "with psychic-type"
-	line "#MON, right?"
+	para "Tu vas faire un"
+	line "beau combat!"
 
-	para "I expect great"
-	line "things from you!"
-
-	para "Good luck!"
+	para "Bonne chance"
 	done
 ; 0x18a2a0
 
 SaffronGymGuyWinText: ; 0x18a2a0
-	text "That was another"
-	line "fantastic battle!"
+	text "Un autre combat"
+	line "fantastique!"
 	done
 ; 0x18a2c4
 

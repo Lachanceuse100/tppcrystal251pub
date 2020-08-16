@@ -150,7 +150,7 @@ UnknownText_0x9cd5a: ; 0x9cd5a
 ; 0x9cd70
 
 UnknownText_0x9cd70: ; 0x9cd70
-	text "MILTANK: <...>Meu<...>"
+	text "ECREMEUH: <...>Meu<...>"
 	done
 ; 0x9cd80
 

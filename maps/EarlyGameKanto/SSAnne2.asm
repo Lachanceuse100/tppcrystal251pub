@@ -213,7 +213,7 @@ _SSAnneRivalBeforeBattleTextF:
 	para "Comment avance"
 	line "ton #DEX?"
 
-	para "Le mien se remplit"
+	para "Le mien se rempli"
 	line "bien, je dois en"
 	cont "être à 40."
 

@@ -44,58 +44,61 @@ MapCeladonDeptStore6FSignpost1Script: ; 0x709ec
 ; 0x709ef
 
 UnknownText_0x709ef: ; 0x709ef
-	text "Hello! Welcome to"
-	line "CELADON DEPT."
-	cont "STORE!"
+	text "Bienvenue au"
+	line "CENTRE COMMERCIAL"
+	cont "de CELADOPOLE!"
 
-	para "The directory is"
-	line "on the wall."
+	para "Les informations"
+	line "sont sur le mur."
 	done
 ; 0x70a35
 
 UnknownText_0x70a35: ; 0x70a35
-	text "This DEPT.STORE is"
-	line "part of the same"
+	text "Ce CENTRE COMMER-"
+	line "CIAL appartient à"
 
-	para "chain as the one"
-	line "in GOLDENROD CITY."
+	para "la même chaîne que"
+	line "celui de DOUBLON-"
+	cont "VILLE."
 
-	para "They were both"
-	line "renovated at the"
-	cont "same time."
+	para "Ils ont été reno-"
+	line "vés en même temps."
 	done
 ; 0x70aa9
 
 UnknownText_0x70aa9: ; 0x70aa9
-	text "This is my first"
-	line "time here."
+	text "C'est la première"
+	line "fois que je viens"
+	cont "ici."
 
-	para "It's so big<...>"
+	para "C'est grand<...>"
 
-	para "I'm afraid I'll"
-	line "get lost."
+	para "J'espère ne pas me"
+	line "perdre!"
 	done
 ; 0x70aea
 
 UnknownText_0x70aea: ; 0x70aea
-	text "B1F: TM DEPOT"
+	text "SS -1: CT A GOGO"
 	done
 
 CeladonDeptStore1F_Directory:
-	text "1F: SERVICE"
-	line "    COUNTER"
+	text "RDC:  COMPTOIR"
+	line "      SERVICE"
 
-	para "2F: TRAINER'S"
-	line "    MARKET"
+	para "1ER:  MARCHE DU"
+	line "      DRESSEUR"
 
-	para "3F: BATTLE SHOP"
+	para "2EME: MARCHE DU"
+	line "      COMBAT"
 
-	para "4F: WISEMAN GIFTS"
+	para "3EME: CADEAUX DU"
+	line "      SAGE"
 
-	para "5F: BUFF BAZAAR"
+	para "4EME: BAZAR"
+	line "      SURVITAMINE"
 
-	para "6F: ROOFTOP"
-	line "    SQUARE"
+	para "5EME: ESPACE TOIT"
 	done
 ; 0x70b60
 

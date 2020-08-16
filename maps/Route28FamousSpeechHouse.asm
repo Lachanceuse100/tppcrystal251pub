@@ -49,32 +49,35 @@ MapRoute28FamousSpeechHouseSignpost1Script: ; 0x1ae67f
 ; 0x1ae682
 
 UnknownText_0x1ae682: ; 0x1ae682
-	text "Oh, dear."
-	line "You've found me."
+	text "Oh, non."
+	line "Tu m'as trouvé."
 
-	para "Please don't tell"
-	line "anyone about me."
+	para "N'en parle à"
+	line "personne s'il te"
+	cont "plaît."
 
-	para "I'll give you this"
-	line "for keeping my"
-	cont "secret. Please?"
+	para "En échange je te"
+	line "donne ça."
+	cont "D'accord?"
 	done
 ; 0x1ae6f0
 
 UnknownText_0x1ae6f0: ; 0x1ae6f0
-	text "It's tough being a"
-	line "top celebrity."
+	text "C'est dur d'être"
+	line "une célébrité."
 
-	para "Everywhere I go,"
-	line "people chase me."
+	para "Les gens me chas-"
+	line "sent partout où je"
+	cont "vais."
 
-	para "I just want to be"
-	line "left alone<...>"
+	para "Je veux juste qu'"
+	line "on me laisse"
+	cont "tranquille<...>"
 	done
 ; 0x1ae752
 
 UnknownText_0x1ae752: ; 0x1ae752
-	text "FEAROW: Feero!"
+	text "RAPASDEPIC: Piiic!"
 	done
 ; 0x1ae762
 

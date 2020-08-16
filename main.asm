@@ -15180,7 +15180,7 @@ Function13575: ; 13575
 ._2f
 	db "1ER@"
 ._3f
-	db "2ND@"
+	db "2EME@"
 ._4f
 	db "3EME@"
 ._5f
@@ -36221,13 +36221,15 @@ PlayBattleMusic: ; 2ee6c
 	jp z, .done
 	ld de, MUSIC_VS_WCS
 	cp PROF_ELM
-	jr z, .done
+	jp z, .done
 	; really, they should have included admins and scientists here too...
 	ld de, MUSIC_ROCKET_BATTLE
 	call RocketMusicCheck
 	jr c, .okay_rocket
 	ld de, MUSIC_KANTO_TRAINER_BATTLE
 .okay_rocket
+	cp ROCKETBOSS
+	jr z, .done
 	cp GRUNTM
 	jr z, .done
 	cp GRUNTF
@@ -36260,7 +36262,7 @@ PlayBattleMusic: ; 2ee6c
 	ld a, [OtherTrainerID]
 	cp 4 ; Rival in Indigo Plateau
 	jr c, .done
-	ld de, MUSIC_CHAMPION_BATTLE
+	ld de, MUSIC_RIVAL_BATTLE
 	jr .done
 
 .scientist

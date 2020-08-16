@@ -15,23 +15,18 @@ MapCeladonMansionRoofSignpost0Script: ; 0x71a3c
 ; 0x71a3f
 
 UnknownText_0x71a3f: ; 0x71a3f
-	text "High places--I do"
-	line "love them so!"
-
-	para "I'd say the only"
-	line "thing that loves"
-
-	para "heights as much as"
-	line "me is smoke!"
+	text "J'adore la vue"
+	line "des lieux qui sont"
+	cont "très haut!"
 	done
 ; 0x71aa1
 
 UnknownText_0x71aa1: ; 0x71aa1
-	text "There's graffiti"
-	line "on the wall<...>"
+	text "Un graffiti sur le"
+	line "mur<...>"
 
-	para "<PLAYER> added a"
-	line "moustache!"
+	para "<PLAYER> dessine"
+	line "une moustache!"
 	done
 ; 0x71ad4
 

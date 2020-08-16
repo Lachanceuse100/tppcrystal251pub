@@ -7491,7 +7491,7 @@ HikerGroup:
 ; ================
 
 	; HIKER (6)
-	db "BENJAMIN@"
+	db "BENJI@"
 	db 0 ; normal
 
 	; party

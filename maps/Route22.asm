@@ -11,10 +11,10 @@ MapRoute22Signpost0Script: ; 0x7c002
 ; 0x7c005
 
 UnknownText_0x7c005: ; 0x7c005
-	text "#MON LEAGUE"
+	text "LIGUE #MON"
 
-	para "VICTORY ROAD"
-	line "ENTRANCE"
+	para "ENTREE de la"
+	line "ROUTE VICTOIRE."
 	done
 ; 0x7c028
 

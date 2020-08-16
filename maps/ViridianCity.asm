@@ -104,87 +104,91 @@ MapViridianCitySignpost5Script: ; 0x1a9aa2
 ; 0x1a9aa5
 
 UnknownText_0x1a9aa5: ; 0x1a9aa5
-	text "Hey, kid! I just"
-	line "had a double shot"
+	text "Hé, toi! Je"
+	line "viens de m'enfiler"
 
-	para "of espresso, and"
-	line "I am wired!"
+	para "un double café et"
+	line "j'ai la patate!"
 
-	para "I need to talk to"
-	line "someone, so you'll"
-	cont "have to do!"
+	para "Faut qu'je parle à"
+	line "quelqu'un alors<...>"
+	cont "Ecoute-moi!"
 
-	para "I might not look"
-	line "like much now, but"
+	para "J'en ai pas l'air"
+	line "mais je suis un"
 
-	para "I was an expert at"
-	line "catching #MON."
+	para "expert en capture"
+	line "de #MON"
 
-	para "Do you believe me?"
+	para "Tu me crois, hein?"
 	done
 ; 0x1a9b6f
 
 UnknownText_0x1a9b6f: ; 0x1a9b6f
-	text "Good, good. Yes, I"
-	line "was something out"
+	text "Et ouais, j'étais"
+	line "un crack, j'te"
+	cont "jure."
 
-	para "of the ordinary,"
-	line "let me tell you!"
+	para "J'étais une star!"
+	line "J'avais la classe!"
 	done
 ; 0x1a9bb7
 
 UnknownText_0x1a9bb7: ; 0x1a9bb7
-	text "What? You little"
-	line "whelp!"
+	text "Quoi? Espèce de<...>"
 
-	para "If I were just a"
-	line "bit younger, I'd"
+	para "Si j'étais plus"
+	line "jeune, je t'en"
 
-	para "show you a thing"
-	line "or two. Humph!"
+	para "ferais baver, moi!"
+	line "Oh oui!"
 	done
 ; 0x1a9c11
 
 GrampsText_IntroCatchingVideo:
-	text "What? You little"
-	line "whelp!"
+	text "Quoi? Espèce de<...>"
 
-	para "Lemme show you a"
-	line "thing or two."
+	para "Je vais te montrer"
+	line "un truc ou deux,"
+	cont "moi<...>"
 
-	para "Now where did I"
-	line "put it", $56, "?"
+	para "<...>"
 
-	para "Ah, there it is!"
+	para "Raaah, mais ou"
+	line "est-ce que je l'ai"
+	cont "mis<...>"
 
-	para "Feast your eyes on"
-	line "my TEACHY TV!"
+	para "Ah, voilà!"
+
+	para "Admire cet belle"
+	line "TV ABC!"
 	done
 
 GrampsText_AfterCatchingVideo:
-	text "There! Now wasn't"
-	line "that enlightening?"
+	text "Alors! Qu'est-ce"
+	line "que t'en dis?"
 	done
 
 UnknownText_0x1a9c11: ; 0x1a9c11
-	text "This GYM didn't"
-	line "have a LEADER"
-	cont "until recently."
+	text "Cette ARENE vient"
+	line "juste d'avoir un"
+	cont "nouveau CHAMPION."
 
-	para "A young man from"
-	line "PALLET became the"
+	para "Un jeune homme de"
+	line "BOURG PALETTE est"
 
-	para "LEADER, but he's"
-	line "often away."
+	para "devenu le CHAMPION"
+	line "mais il se balade"
+	cont "beaucoup."
 	done
 ; 0x1a9c7e
 
 UnknownText_0x1a9c7e: ; 0x1a9c7e
-	text "Are you going to"
-	line "battle the LEADER?"
+	text "Vas-tu affronter"
+	line "le CHAMPION?"
 
-	para "Good luck to you."
-	line "You'll need it."
+	para "Bonne chance."
+	line "T'en auras besoin."
 	done
 ; 0x1a9cc4
 
@@ -218,48 +222,48 @@ UnknownText_0x1a9d86: ; 0x1a9d86
 ; 0x1a9daa
 
 UnknownText_0x1a9daa: ; 0x1a9daa
-	text "I've heard that"
-	line "celebrities hang"
-	cont "out by the pond."
+	text "Il paraît que des"
+	line "celébrités traî-"
+	cont "nent à l'étang."
 
-	para "What kind of"
-	line "celebrities are"
-	cont "they, I wonder?"
+	para "Je me demande quel"
+	line "genre de célébri-"
+	cont "tés<...>"
 	done
 ; 0x1a9def
 
 UnknownText_0x1a9def: ; 0x1a9def
-	text "VIRIDIAN CITY"
+	text "JADIELLE"
 
-	para "The Eternally"
-	line "Green Paradise"
+	para "Le paradis vert"
+	line "éternel."
 	done
 ; 0x1a9e1b
 
 UnknownText_0x1a9e1b: ; 0x1a9e1b
-	text "VIRIDIAN CITY"
-	line "#MON GYM"
-	cont "LEADER: <...>"
+	text "ARENE #MON"
+	line "de JADIELLE."
+	
+	para "CHAMPION:"
 
-	para "The rest of the"
-	line "text is illegible<...>"
+	para "C'est illisible<...>"
 	done
 ; 0x1a9e60
 
 UnknownText_0x1a9e60: ; 0x1a9e60
-	text "WELCOME TO"
-	line "VIRIDIAN CITY,"
+	text "Bienvenue à"
+	line "JADIELLE, la"
 
-	para "THE GATEWAY TO"
-	line "INDIGO PLATEAU"
+	para "porte vers le"
+	line "PLATEAU INDIGO."
 	done
 ; 0x1a9e99
 
 UnknownText_0x1a9e99: ; 0x1a9e99
-	text "TRAINER HOUSE"
+	text "CLUB DES DRESSEURS"
 
-	para "The Club for Top"
-	line "Trainer Battles"
+	para "Réservé aux"
+	line "meilleurs."
 	done
 ; 0x1a9ec9
 

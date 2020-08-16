@@ -19,31 +19,30 @@ MapCeladonMansion2FSignpost2Script: ; 0x71536
 ; 0x71539
 
 UnknownText_0x71539: ; 0x71539
-	text "<PLAYER> turned on"
-	line "the PC."
+	text "<PLAYER> allume"
+	line "le PC."
 
 	para "<...>"
 
-	para "Someone was in the"
-	line "middle of compos-"
-	cont "ing an e-mail."
+	para "Pour le PRODUCTEUR"
 
-	para "<...>I hope you'll"
-	line "come visit KANTO."
+	para "Quelqu'un était en"
+	line "train d'écrire un"
+	cont "e-mail<...>"
 
-	para "I think you'll be"
-	line "surprised at how"
+	para "<...>J'espère que"
+	line "vous viendrez à"
+	cont "KANTO."
 
-	para "much things have"
-	line "changed here."
+	para "Vous verrez à quel"
+	line "point les choses"
+	cont "ont changé ici."
 
-	para "You'll also see"
-	line "many #MON that"
+	para "Vous verrez même"
+	line "des #MON qui"
 
-	para "aren't native to"
+	para "n'existent pas à"
 	line "JOHTO."
-
-	para "To the PRODUCER"
 
 	para "<...>"
 	done
@@ -51,7 +50,7 @@ UnknownText_0x71539: ; 0x71539
 
 UnknownText_0x7162c: ; 0x7162c
 	text "GAME FREAK"
-	line "MEETING ROOM"
+	line "SALLE de REUNION"
 	done
 ; 0x71645
 

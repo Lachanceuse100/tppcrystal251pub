@@ -57,7 +57,7 @@ UnknownText_0x1ec108: ; 0x1ec108
 UnknownText_0x1ec12a: ; 0x1ec12a
 	text "Je ne perdrais pas"
 	line "la prochaine fois,"
-	cont "d'accord ?"
+	cont "d'accord?"
 	done
 ; 0x1ec14d
 
@@ -359,7 +359,7 @@ UnknownText_0x1ec6d0: ; 0x1ec6d0
 ; 0x1ec708
 
 UnknownText_0x1ec708: ; 0x1ec708
-	text "Qui suis-je ?"
+	text "Qui suis-je?"
 	line "Je ne sais pas...<...>"
 	done
 ; 0x1ec720

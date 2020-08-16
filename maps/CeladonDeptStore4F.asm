@@ -31,26 +31,27 @@ MapCeladonDeptStore4FSignpost1Script: ; 0x70f1e
 ; 0x70f21
 
 UnknownText_0x70f21: ; 0x70f21
-	text "Some gifts can be"
-	line "given to #MON"
-	cont "to up their power."
+	text "Certains cadeaux"
+	line "peuvent renforcer"
+	cont "tes #MON."
 	done
 ; 0x70f55
 
 UnknownText_0x70f55: ; 0x70f55
-	text "This is the only"
-	line "place where you"
+	text "C'est le seul en-"
+	line "droit ou l'on peut"
 
-	para "can buy LOVELY"
-	line "MAIL."
+	para "acheter des LETR"
+	line "CHARMANT."
 	done
 ; 0x70f8c
 
 UnknownText_0x70f8c: ; 0x70f8c
-	text "Express Yourself"
-	line "With Gifts!"
+	text "Exprimez-vous avec"
+	line "des cadeaux!"
 
-	para "4F: WISEMAN GIFTS"
+	para "3EME: CADEAUX DU"
+	line "      SAGE"
 	done
 ; 0x70fbc
 

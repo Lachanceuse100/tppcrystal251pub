@@ -19,9 +19,11 @@ LassScript_0x771b0: ; 0x771b0
 ; 0x771b3
 
 UnknownText_0x771b3: ; 0x771b3
-	text "When the sun goes"
-	line "down, CLEFAIRY"
-	cont "come out to play."
+	text "Quand le soleil se"
+	line "couche, les"
+	
+	para "MELOFEE sortent"
+	line "jouer."
 	done
 ; 0x771e7
 

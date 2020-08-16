@@ -22,27 +22,25 @@ CooltrainerFScript_0x188aca: ; 0x188aca
 ; 0x188acd
 
 UnknownText_0x188acd: ; 0x188acd
-	text "You'll run into"
-	line "many trainers on"
+	text "Tu croiseras beau-"
+	line "coup de dresseurs"
 
-	para "the way to CERU-"
-	line "LEAN's CAPE."
+	para "sur la route du"
+	line "CAP d'AZURIA."
 
-	para "They want to see"
-	line "how they stack"
+	para "Ils voudront se"
+	line "mesurer à toi."
 
-	para "up against other"
-	line "trainers."
 	done
 ; 0x188b46
 
 UnknownText_0x188b46: ; 0x188b46
-	text "MISTY is about the"
-	line "only person in"
+	text "ONDINE est peut-"
+	line "être la seule à"
 
-	para "town who can beat"
-	line "the trainers at"
-	cont "CERULEAN's CAPE."
+	para "pouvoir battre les"
+	line "dresseurs du CAP"
+	cont "d'AZURIA."
 	done
 ; 0x188b9b
 

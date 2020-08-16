@@ -159,27 +159,28 @@ MapPewterCityMovementData5:
 	step_end
 
 UnknownText_0x18c042: ; 0x18c042
-	text "Have you visited"
-	line "PEWTER GYM?"
+	text "As-tu vu l'ARENE"
+	line "d'ARGENTA?"
 
-	para "The LEADER uses"
-	line "rock-type #MON."
+	para "Le CHAMPION a des"
+	line "#MON de roche."
 	done
 ; 0x18c080
 
 UnknownText_0x18c080: ; 0x18c080
-	text "At night, CLEFAIRY"
-	line "come out to play"
-	cont "at MT.MOON."
+	text "La nuit, les"
+	line "MELOFEE sortent"
+	cont "pour jouer au MONT"
+	cont "SELENITE."
 
-	para "But not every"
-	line "night."
+	para "Mais pas toutes"
+	line "les nuits."
 	done
 ; 0x18c0c6
 
 MuseumDoorText:
-	text "The door is"
-	line "locked<...>"
+	text "La porte est"
+	line "fermée<...>"
 	done
 
 ;UnknownText_0x18c0c6: ; 0x18c0c6
@@ -206,99 +207,109 @@ MuseumDoorText:
 ; 0x18c1aa
 
 UnknownText_0x18c1aa: ; 0x18c1aa
-	text "Going to new, un-"
-	line "known places and"
-	cont "seeing new people<...>"
+	text "Découvrir de nou-"
+	line "veaux endroits, de"
+	cont "nouvelles"
+	cont "personnes<...>"
 
-	para "Those are the joys"
-	line "of travel."
+	para "Ce sont les joies"
+	line "du voyage<...>"
 
-	para "I remember when"
-	line "PRYCE found that"
-	cont "rare item<...>"
+	para "Je me souviens de"
+	line "cet objet rare que"
+	cont "FREDO a trouvé<...>"
 
-	para "Had I not stopped"
-	line "I would have"
-	cont "found it instead<...>"
+	para "Si je ne m'étais"
+	line "pas arrêté, c'est"
+	cont "moi qui l'aurais"
+	cont "trouvé."
 	done
 ; 0x18c1ff
 
 UnknownText_0x18c1ff: ; 0x18c1ff
-	text "PEWTER CITY"
-	line "A Stone Gray City"
+	text "ARGENTA"
+	line "Grise comme le roc"
 	done
 ; 0x18c21e
 
 UnknownText_0x18c21e: ; 0x18c21e
-	text "PEWTER CITY"
-	line "#MON GYM"
-	cont "LEADER: BROCK"
+	text "ARENE d'ARGENTA"
 
-	para "The Rock Solid"
-	line "#MON Trainer"
+	para "CHAMPION:"
+	cont "PIERRE"
+
+	para "Le dresseur dur"
+	line "comme la roche."
 	done
 ; 0x18c25e
 
 UnknownText_0x18c25e: ; 0x18c25e
-	text "There's a notice"
-	line "here<...>"
+	text "Il y a une affiche"
+	line "ici<...>"
 
-	para "PEWTER MUSEUM OF"
-	line "SCIENCE is closed"
-	cont "for renovations<...>"
+	para "Le MUSEE DES"
+	line "SCIENCES d'ARGENTA"
+	cont "est fermé pour"
+	cont "cause de"
+	cont "rénovations."
 	done
 ; 0x18c2a9
 
 UnknownText_0x18c2a9: ; 0x18c2a9
-	text "There's a notice"
-	line "here<...>"
+	text "Il y a une affiche"
+	line "ici<...>"
 
-	para "MT.MOON GIFT SHOP"
-	line "NOW OPEN!"
+	para "La BOUTIQUE de"
+	line "SOUVENIRS du MONT"
+	cont "SELENITE est"
+	cont "ouverte!"
 	done
 ; 0x18wLinkMode
 
 UnknownText_0x18wLinkMode: ; 0x18wLinkMode
-	text "WELCOME TO"
-	line "PEWTER CITY!"
+	text "Bienvenue à"
+	line "ARGENTA!"
 	done
 ; 0x18c2f5
 
 MapPewterCitySimonText1:
-	text "You again?!"
+	text "Encore toi!?"
 
-	para "Listen, you. This"
-	line "better be the last"
-	cont "I see of you."
+	para "J'en ai marre, que"
+	line "ce soit la derniè-"
+	cont "re fois que je te"
+	cont "vois."
 
 	para "Capice?"
 	done
 
 MapPewterCitySimonLostText:
-	text "H-how? Why can I"
-	line "never beat you?"
+	text "M-Mais? Pourquoi"
+	line "je ne peux jamais"
+	cont "te battre!?"
 	done
 
 MapPewterCitySimonText2:
 	text "Arrgh!"
 
-	para "Thanks to you, my"
-	line "clean getaway is"
-	cont "ruined!"
+	para "Et voilà, encore"
+	line "une fuite ratée!"
 
-	para "Sigh<...> A loss is a"
-	line "loss, though."
+	para "<...>"
+	
+	para "Bon, une défaite"
+	line "est une défaite."
 
-	para "And to the winner"
-	line "go the spoils."
+	para "Et le gagnant"
+	line "remporte tout."
 
-	para "Besides, I doubt"
-	line "I'll have much use"
-	cont "for this anyway."
+	para "Je crois pas que"
+	line "ça me servirais de"
+	cont "toute façon<...>"
 	done
 
 MapPewterCitySimonText3:
-	text "Toodles!"
+	text "Je me casse!"
 	done
 
 PewterCity_MapEventHeader: ; 0x18c2f5

@@ -97,85 +97,90 @@ MovementData_0x740fd: ; 0x740fd
 UnknownText_0x74105: ; 0x74105
 	text $56, " ", $56, " ", $56
 
-	para "It's been a while,"
+	para "Ca fait un moment,"
 	line "<PLAYER>."
 
-	para "<...>Since I lost to"
-	line "you, I thought"
+	para "Après ma défaite,"
+	line "j'ai longtemps"
+	cont "songé<...>"
 
-	para "about what I was"
-	line "lacking with my"
-	cont "#MON<...>"
+	para "Ce qui me manquait"
+	line "avec mes #MON<...>"
 
-	para "And we came up"
-	line "with an answer."
+	para "Et nous avons"
+	line "trouvé une répon-"
+	cont "se!"
 
-	para "<PLAYER>, now we'll"
-	line "show you!"
+	para "<PLAYER>, on va te"
+	line "montrer!"
 	done
 ; 0x7419d
 
 UnknownText_0x7419d: ; 0x7419d
 	text $56, " ", $56, " ", $56
 
-	para "I thought I raised"
-	line "my #MON to be"
+	para "Je pensais avoir"
+	line "entraîner mes"
 
-	para "the best they"
-	line "could be<...>"
+	para "#MON à la"
+	line "perfection<...>"
 
-	para "<...>But it still "
-	line "wasn't enough<...>"
+	para "Mais ce n'est pas"
+	line "assez<...>"
 	done
 ; 0x741fa
 
 UnknownText_0x741fa: ; 0x741fa
 	text $56, " ", $56, " ", $56
 
-	para "<...>You won, fair"
-	line "and square."
+	para "Tu as gagné,"
+	line "loyalement<...>"
 
-	para "I admit it. But"
-	line "this isn't the"
-	cont "end."
+	para "Je l'admets, mais"
+	line "ce n'est pas"
+	cont "terminé."
 
-	para "I'm going to be"
-	line "the greatest #-"
-	cont "MON trainer ever."
+	para "C'est moi qui de-"
+	line "viendrait le meil-"
+	cont "leur dresseur de"
+	cont "#MON"
 
-	para "Because these guys"
-	line "are behind me."
+	para "Parce que ces gars"
+	line "sont derrière moi."
 
-	para "<...>Listen, <PLAYER>."
+	para "Ecoute moi bien,"
+	line "<PLAYER>."
 
-	para "One of these days"
-	line "I'm going to prove"
+	para "Un de ces jours,"
+	line "je prouverais au"
 
-	para "how good I am by"
-	line "beating you."
+	para "monde ma puissance"
+	line "en t'écrasant sans"
+	cont "pitié!"
 	done
 ; 0x742e0
 
 UnknownText_0x742e0: ; 0x742e0
 	text $56, " ", $56, " ", $56
 
-	para "I've repaid my"
-	line "debt to you."
+	para "J'ai payé ma dette"
+	line "envers toi."
 
-	para "With my #MON,"
-	line "I'm going to beat"
+	para "Avec mes #MON,"
+	line "Je battrais le"
 
-	para "the CHAMPION and"
-	line "become the world's"
-	cont "greatest trainer."
+	para "MAITRE et je se-"
+	line "rais le plus grand"
+	cont "dresseur!"
 	done
 ; 0x74356
 MtMoonB1FSignpostScript:
 	jumptext MtMoon1Text14
 
 MtMoon1Text14:
-	text "Beware! ZUBAT is"
-	line "a blood sucker!"
+	text "Attention! Les"
+	line "NOSFERAPTI sont"
+	cont "des vampires!"
 	done
 
 Item_MtMoonPGKB1F1:

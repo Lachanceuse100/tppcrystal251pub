@@ -149,8 +149,10 @@ MovementData_0x77134: ; 0x77134
 ; 0x7713b
 
 UnknownText_0x7713b: ; 0x7713b
-	text "MT.MOON SQUARE"
-	line "DON'T LITTER"
+	text "SQUARE du MONT"
+	line "SELENITE"
+
+	para "Ne rien jeter."
 	done
 ; 0x77158
 

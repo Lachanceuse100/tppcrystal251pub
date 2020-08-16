@@ -37,41 +37,41 @@ BugCatcherScript_0x9b6aa: ; 0x9b6aa
 ; 0x9b6ad
 
 UnknownText_0x9b6ad: ; 0x9b6ad
-	text "Where in the world"
-	line "is VIRIDIAN's GYM"
+	text "Où est donc le"
+	line "CHAMPION de l'ARE-"
 
-	para "LEADER? I wanted"
-	line "to challenge him."
+	para "NE de JADIELLE? Je"
+	line "veux l'affronter."
 	done
 ; 0x9b6f5
 
 UnknownText_0x9b6f5: ; 0x9b6f5
-	text "The VIRIDIAN GYM"
-	line "has gotten a lot"
+	text "L'ARENE de JADIE-"
+	line "LLE est devenue"
 
-	para "tougher since its"
-	line "new LEADER took"
-	cont "charge."
+	para "beaucoup plus"
+	line "forte depuis l'ar-"
+	cont "rivée du nouveau"
+	cont "CHAMPION."
 
-	para "Get ready for a"
-	line "wild ride!"
+	para "Vaut mieux que je"
+	line "sois prêt!"
 	done
 ; 0x9b76b
 
 UnknownText_0x9b76b: ; 0x9b76b
-	text "I work as a"
-	line "paparazzi."
+	text "Je suis paparazzi."
 
-	para "I am here to get"
-	line "some good shots of"
-	cont "the celebrities."
+	para "Je viens prendre"
+	line "quelques clichés"
+	cont "de célébrités."
 
 	done
 ; 0x9b7c8
 
 UnknownText_0x9b7c8: ; 0x9b7c8
-	text "My dream is to be-"
-	line "come a GYM LEADER."
+	text "Je rêve de devenir"
+	line "CHAMPION d'ARENE."
 	done
 ; 0x9b7ef
 

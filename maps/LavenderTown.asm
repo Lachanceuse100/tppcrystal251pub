@@ -106,74 +106,74 @@ LassMove2:
 	step_end
 
 ScaredLassText:
-	text "It's a"
-	line "G-G-G-GHOST!"
+	text "UN F-F-F-F-F"
+	line "UN FANTOME!!!"
 	done
 
 UnknownText_0x1ad702: ; 0x1ad702
-	text "That's quite some"
-	line "building, eh?"
+	text "Sacré bâtiment,"
+	line "hein?"
 
-	para "It's KANTO's RADIO"
-	line "TOWER."
+	para "C'est la TOUR"
+	line "RADIO de KANTO."
 	done
 ; 0x1ad73a
 
 UnknownText_0x1ad73a: ; 0x1ad73a
-	text "KANTO has many"
-	line "good radio shows."
+	text "KANTO a beaucoup"
+	line "d'émissions radio."
 	done
 ; 0x1ad75c
 
 UnknownText_0x1ad75c: ; 0x1ad75c
-	text "People come from"
-	line "all over to pay"
+	text "Les gens viennent"
+	line "de loin pour sa-"
 
-	para "their respects to"
-	line "the departed souls"
-	cont "of #MON."
+	para "luer le départ des"
+	line "âmes des pauvres"
+	cont "#MON."
 	done
 ; 0x1ad7ac
 
 UnknownText_0x1ad7ac: ; 0x1ad7ac
-	text "You need a #"
-	line "FLUTE to wake"
-	cont "sleeping #MON."
+	text "Il faut une #"
+	line "FLUTE pour réveil-"
+	cont "ler un #MON."
 
-	para "Every trainer has"
-	line "to know that!"
+	para "Tout dresseur doit"
+	line "savoir ça!"
 	done
 ; 0x1ad7f7
 
 UnknownText_0x1ad7f7: ; 0x1ad7f7
-	text "LAVENDER TOWN"
+	text "LAVANVILLE"
 
-	para "The Noble Purple"
-	line "Town"
+	para "La ville d'un"
+	line "pourpre royal."
 	done
 ; 0x1ad81c
 
 UnknownText_0x1ad81c: ; 0x1ad81c
-	text "KANTO RADIO"
-	line "STATION"
+	text "STATION de RADIO"
+	line "de KANTO"
 
-	para "Your Favorite"
-	line "Programs On-Air"
-	cont "Around the Clock!"
+	para "Vos émissions"
+	line "favorites!"
 	done
 ; 0x1ad861
 
 UnknownText_0x1ad861: ; 0x1ad861
-	text "LAVENDER VOLUNTEER"
-	line "#MON HOUSE"
+	text "BENEVOLAT de"
+	line "LAVANVILLE"
 	done
 ; 0x1ad880
 
 UnknownText_0x1ad880: ; 0x1ad880
-	text "SOUL HOUSE"
+	text "MAISON DES AMES"
 
-	para "May the Souls of"
-	line "#MON Rest Easy"
+	para "Que les âmes des"
+	line "#MON reposent"
+	cont "en paix."
 	done
 ; 0x1ad8ac
 

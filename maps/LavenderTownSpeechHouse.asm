@@ -15,17 +15,16 @@ MapLavenderTownSpeechHouseSignpost1Script: ; 0x7ea4a
 ; 0x7ea4d
 
 UnknownText_0x7ea4d: ; 0x7ea4d
-	text "LAVENDER is a"
-	line "tiny, quiet town"
+	text "LAVANVILLE est une"
+	line "petite ville calme"
+	cont "au pied des monta-"
+	cont "gnes."
 
-	para "at the foot of the"
-	line "mountains."
+	para "Il y a plus de"
+	line "passage depuis la"
 
-	para "It's gotten a bit"
-	line "busier since the"
-
-	para "RADIO TOWER was"
-	line "built."
+	para "construction de la"
+	line "TOUR RADIO."
 	done
 ; 0x7eac4
 

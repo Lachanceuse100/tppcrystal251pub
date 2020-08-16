@@ -73,89 +73,94 @@ FruitTreeScript_0x194b43: ; 0x194b43
 ; 0x194b45
 
 UnknownText_0x194b45: ; 0x194b45
-	text "One of the ELITE"
-	line "FOUR used to be"
+	text "Un membre du"
+	line "CONSEIL des 4"
+	cont "était le"
 
-	para "the LEADER of"
-	line "FUCHSIA's GYM."
+	para "CHAMPION de l'ARE-"
+	line "NE de PARMANIE."
 	done
 ; 0x194b83
 
 UnknownText_0x194b83: ; 0x194b83
-	text "KOGA's daughter"
-	line "succeeded him as"
+	text "La fille de KOGA"
+	line "a pris sa succes-"
 
-	para "the GYM LEADER"
-	line "after he joined"
-	cont "the ELITE FOUR."
+	para "sion en tant que"
+	line "CHAMPIONNE d'ARENE"
+	
+	para "après son départ"
+	line "pour le CONSEIL"
+	cont "des 4."
 	done
 ; 0x194bd3
 
 UnknownText_0x194bd3: ; 0x194bd3
-	text "The SAFARI ZONE is"
-	line "closed<...> It's sad,"
+	text "Le PARC SAFARI est"
+	line "fermé. C'est tris-"
 
-	para "considering it's"
-	line "FUCHSIA's main"
-	cont "attraction."
+	para "te: c'était l'at-"
+	line "traction principa-"
+	cont "le de PARMANIE."
 	done
 ; 0x194c22
 
 UnknownText_0x194c22: ; 0x194c22
-	text "FUCHSIA CITY"
+	text "PARMANIE"
 
-	para "Behold! It's"
-	line "Passion Pink!"
+	para "Le rose de la"
+	line "passion!"
 	done
 ; 0x194c4a
 
 UnknownText_0x194c4a: ; 0x194c4a
-	text "FUCHSIA CITY"
-	line "#MON GYM"
-	cont "LEADER: JANINE"
+	text "ARENE de PARMANIE"
 
-	para "The Poisonous"
-	line "Ninja Master"
+	para "CHAMPIONNE:"
+	line "JEANNINE"
+
+	para "La Ninja aux"
+	line "mille poisons."
 	done
 ; 0x194c8b
 
 UnknownText_0x194c8b: ; 0x194c8b
-	text "There's a notice"
-	line "here<...>"
+	text "Il y a une"
+	line "affiche<...>"
 
-	para "SAFARI ZONE OFFICE"
-	line "is closed until"
-	cont "further notice."
+	para "Le BUREAU du PARC"
+	line "SAFARI est fermé"
+	cont "jusqu'à nouvel"
+	cont "ordre."
 	done
 ; 0x194cd5
 
 UnknownText_0x194cd5: ; 0x194cd5
-	text "SAFARI ZONE"
-	line "WARDEN'S HOME"
+	text "MAISON DU GARDIEN"
+	line "du PARC SAFARI"
 	done
 ; 0x194cf0
 
 UnknownText_0x194cf0: ; 0x194cf0
-	text "The WARDEN is"
-	line "traveling abroad."
+	text "Le GARDIEN voyage"
+	line "à l'étranger."
 
-	para "Therefore, the"
-	line "SAFARI ZONE is"
-	cont "closed."
+	para "Ainsi, le PARC"
+	line "SAFARI est fermé."
 	done
 ; 0x194d37
 
 UnknownText_0x194d37: ; 0x194d37
-	text "No littering."
+	text "Ne rien jeter."
 
-	para "Please take your"
-	line "waste with you."
+	para "Utilisez les"
+	line "poubelles."
 	done
 ; 0x194d67
 
 FuchsiaCityDoorText:
-	text "The door is"
-	line "locked<...>"
+	text "La porte est"
+	line "fermée<...>"
 	done
 
 FuchsiaCity_MapEventHeader: ; 0x194d67

@@ -267,177 +267,183 @@ CopycatSpinMovementData: ; 0x18afd0
 ; 0x18afda
 
 CopycatPhase1MaleText: ; 0x18afda
-	text "<PLAYER>: Hi! Do"
-	line "you like #MON?"
+	text "<PLAYER>: Salut! Tu"
+	line "aimes #MON?"
 
-	para "<PLAYER>: Uh, no, I"
-	line "just asked you."
+	para "<PLAYER>: Hein?"
+	line "Non, c'est à toi"
+	cont "que je demande."
 
-	para "<PLAYER>: Huh?"
-	line "You're strange!"
+	para "<PLAYER>: Mais?"
+	line "T'es bizarre!"
 	done
 ; 0x18b028
 
 UnknownText_0x18b028: ; 0x18b028
-	text "COPYCAT: Hmm?"
-	line "Quit mimicking?"
+	text "COPIEUSE: Hein?"
+	line "Faut que j'arrête"
+	cont "de t'imiter?"
 
-	para "But that's my"
-	line "favorite hobby!"
+	para "Mais c'est mon"
+	line "passe-temps"
+	cont "favori!"
 	done
 ; 0x18b064
 
 CopycatPhase2MaleText: ; 0x18b064
-	text "<PLAYER>: Hi!"
-	line "I heard that you"
+	text "<PLAYER>: Salut!"
+	line "On dit que tu as"
 
-	para "lost your favorite"
-	line "# DOLL."
+	para "perdu ta #"
+	line "POUPEE préférée."
 
-	para "<PLAYER>: If I find"
-	line "it, you'll give me"
-	cont "a rail PASS?"
+	para "<PLAYER>: Si tu la"
+	line "trouve, tu me"
+	cont "donnes un PASSE?"
 
-	para "<PLAYER>: I'll go"
-	line "find it for you."
+	para "<PLAYER>: Je vais"
+	line "la chercher."
 
-	para "You think you lost"
-	line "it when you went"
-	cont "to VERMILION CITY?"
+	para "Tu l'as perdue en"
+	line "allant à CARMIN"
+	cont "SUR MER?"
 	done
 ; 0x18b116
 
 UnknownText_0x18b116: ; 0x18b116
-	text "COPYCAT: Pardon?"
+	text "COPIEUSE: Pardon?"
 
-	para "I shouldn't decide"
-	line "what you should"
-	cont "do?"
+	para "Tu ne veux pas que"
+	line "je te dise comment"
+	cont "faire?"
 
-	para "But I'm really"
-	line "worried<...> What if"
-	cont "someone finds it?"
+	para "Mais j'ai si peur!"
+	line "Et si quelqu'un la"
+	cont "trouve?"
 	done
 ; 0x18b17f
 
 CopycatTakeLostItemText: ; 0x18b17f
-	text "COPYCAT: Yay!"
-	line "That's my CLEFAIRY"
-	cont "# DOLL!"
+	text "COPIEUSE: Hé!"
+	line "C'est ma #"
+	cont "POUPEE MELOFEE!"
 
-	para "See the tear where"
-	line "the right leg is"
+	para "Elle est un peu"
+	line "déchirée près de"
 
-	para "sewn on? That's"
-	line "proof!"
+	para "la jambe! C'est la"
+	line "mienne!"
 	done
 ; 0x18b1e2
 
 CopycatGivePassText: ; 0x18b1e2
-	text "OK. Here's the"
-	line "MAGNET TRAIN PASS"
-	cont "like I promised!"
+	text "OK. Voilà le"
+	line "PASSE du TRAIN"
+	cont "comme promis!"
 	done
 ; 0x18b214
 
 CopycatExplainPassText: ; 0x18b214
-	text "COPYCAT: That's"
-	line "the PASS for the"
-	cont "MAGNET TRAIN."
+	text "COPIEUSE: C'est le"
+	line "PASSE pour le"
+	cont "TRAIN MAGNET."
 
-	para "The rail company"
-	line "man gave me that"
+	para "On me l'a donné"
+	line "quand ils ont tout"
 
-	para "when they tore"
-	line "down our old house"
-	cont "for the STATION."
+	para "cassé ma maison"
+	line "pour construire la"
+	cont "STATION."
 	done
 ; 0x18b298
 
 CopycatPhase3MaleText: ; 0x18b298
-	text "<PLAYER>: Hi!"
-	line "Thanks a lot for"
-	cont "the rail PASS!"
+	text "<PLAYER>: Merci!"
+	line "pour le PASSE!"
 
-	para "<PLAYER>: Pardon?"
+	para "<PLAYER>: <...>Quoi?"
 
-	para "<PLAYER>: Is it"
-	line "that fun to mimic"
-	cont "my every move?"
+	para "<PLAYER>: T'en as"
+	line "jamais marre de"
+	
+	para "répéter tout ce"
+	line "que je dis?"
 	done
 ; 0x18b2f5
 
 UnknownText_0x18b2f5: ; 0x18b2f5
-	text "COPYCAT: You bet!"
-	line "It's a scream!"
+	text "COPIEUSE: Jamais!"
+	line "Copier, c'est"
+	cont "mortel!"
 	done
 ; 0x18b316
 
 CopycatPhase1FemaleText: ; 0x18b316
-	text "<PLAYER>: Hi. You"
-	line "must like #MON."
+	text "<PLAYER>: Salut! Tu"
+	line "aimes #MON?"
 
-	para "<PLAYER>: No, not"
-	line "me. I asked you."
+	para "<PLAYER>: Hein?"
+	line "Non, c'est à toi"
+	cont "que je demande."
 
-	para "<PLAYER>: Pardon?"
-	line "You're weird!"
+	para "<PLAYER>: Mais?"
+	line "T'es bizarre!"
 	done
 ; 0x18b366
 
 CopycatPhase2FemaleText: ; 0x18b366
-	text "<PLAYER>: Hi. Did"
-	line "you really lose"
-	cont "your # DOLL?"
+	text "<PLAYER>: Salut!"
+	line "On dit que tu as"
 
-	para "<PLAYER>: You'll"
-	line "really give me a"
+	para "perdu ta #"
+	line "POUPEE préférée."
 
-	para "rail PASS if I"
-	line "find it for you?"
+	para "<PLAYER>: Si tu la"
+	line "trouve, tu me"
+	cont "donnes un PASSE?"
 
-	para "<PLAYER>: Sure,"
-	line "I'll look for it!"
+	para "<PLAYER>: Je vais"
+	line "la chercher."
 
-	para "You think you lost"
-	line "it when you were"
-	cont "in VERMILION?"
+	para "Tu l'as perdue en"
+	line "allant à CARMIN"
+	cont "SUR MER?"
 	done
 ; 0x18b415
 
 CopycatPhase3FemaleText: ; 0x18b415
-	text "<PLAYER>: Thank you"
-	line "for the rail PASS!"
+	text "<PLAYER>: Merci!"
+	line "pour le PASSE!"
 
-	para "<PLAYER>: <...>Pardon?"
+	para "<PLAYER>: <...>Quoi?"
 
-	para "<PLAYER>: Is it"
-	line "really that fun to"
-
-	para "copy what I say"
-	line "and do?"
+	para "<PLAYER>: T'en as"
+	line "jamais marre de"
+	
+	para "répéter tout ce"
+	line "que je dis?"
 	done
 ; 0x18b476
 
 UnknownText_0x18b476: ; 0x18b476
-	text "DODRIO: Gii giii!"
+	text "DODRIO: Driii!"
 	done
 ; 0x18b489
 
 UnknownText_0x18b489: ; 0x18b489
-	text "MIRROR, MIRROR ON"
-	line "THE WALL, WHO'S"
+	text "MON BEAU MIROIR,"
+	line "QUI EST LA PLUS"
 
-	para "THE FAIREST ONE OF"
-	line "ALL?"
+	para "BELLE DE TOUTES?"
+	line "HEIN? C'EST QUI?"
 	done
 ; 0x18b4c4
 
 UnknownText_0x18b4c4: ; 0x18b4c4
-	text "This is a rare"
-	line "#MON! Huh?"
+	text "C'est un #MON"
+	line "super rare! Hein?"
 
-	para "It's only a doll<...>"
+	para "Une poupée<...>"
 	done
 ; 0x18b4f0
 

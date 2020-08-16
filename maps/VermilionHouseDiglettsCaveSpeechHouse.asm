@@ -11,12 +11,14 @@ GentlemanScript_0x192031: ; 0x192031
 ; 0x192034
 
 UnknownText_0x192034: ; 0x192034
-	text "Over many years,"
-	line "DIGLETT dug a"
-	cont "large tunnel."
+	text "Les TAUPIQUEUR ont"
+	line "creusé un énorme"
+	cont "tunnel pendant des"
+	cont "années."
 
-	para "That tunnel goes"
-	line "to a distant town."
+	para "Ce tunnel va vers"
+	line "une ville loin-"
+	cont "taine."
 	done
 ; 0x192086
 

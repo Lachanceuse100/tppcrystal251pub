@@ -11,11 +11,11 @@ TeacherScript_0x18b555: ; 0x18b555
 ; 0x18b558
 
 UnknownText_0x18b558: ; 0x18b558
-	text "Many cities in"
-	line "JOHTO have long"
+	text "Les villes de JOH-"
+	line "TO sont des tré-"
 
-	para "histories. I'd"
-	line "love to visit!"
+	para "sors historiques."
+	line "Je veux les voir!"
 	done
 ; 0x18b595
 

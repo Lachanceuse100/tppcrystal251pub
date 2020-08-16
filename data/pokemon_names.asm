@@ -49,7 +49,7 @@
  	db "AEROMITE@@"
  	db "TAUPIQUEUR"
  	db "TRIOPIKEUR"
- 	db "MAIOUSS@@@"
+ 	db "MIAOUSS@@@"
  	db "PERSIAN@@@"
  	db "PSYKOKWAK@"
  	db "AKWAKWAK@@"

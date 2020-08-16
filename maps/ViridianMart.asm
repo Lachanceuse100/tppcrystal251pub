@@ -22,20 +22,21 @@ CooltrainerMScript_0x9b5f1: ; 0x9b5f1
 ; 0x9b5f4
 
 UnknownText_0x9b5f4: ; 0x9b5f4
-	text "Have you heard of"
-	line "the celebrities?"
+	text "Tu as entendu par-"
+	line "ler des"
+	cont "célébrités?"
 
-	para "It is the talk"
-	line "of the town!"
+	para "On ne parle que de"
+	line "ça en ville!"
 	done
 ; 0x9b61a
 
 UnknownText_0x9b61a: ; 0x9b61a
-	text "Have you been to"
-	line "CINNABAR?"
+	text "As-tu visité"
+	line "CRAMOIS'ILE?"
 
-	para "It's an island way"
-	line "south of here."
+	para "C'est une île"
+	line "au sud d'ici."
 	done
 ; 0x9b657
 

@@ -178,223 +178,225 @@ MapVermilionGymRematchStatuesScript:
 ; 0x192142
 
 SurgeRematchTextBefore:
-	text "SURGE: What's up?"
-	line "I'm doing great!"
+	text "BOB: Ca va toi?"
+	line "Moi je pète la"
+	cont "forme!"
 
-	para "Hey, you!"
-	line "Battle me again!"
-	cont "What do you say?"
+	para "Hé! Battons-nous"
+	line "encore!"
+	cont "T'en dis quoi?"
 	done
 
 SurgeRematchTextBeforeChallenge:
-	text "SURGE: What's up?"
-	line "I'm doing great!"
+	text "BOB: Ca va toi?"
+	line "Moi je pète la"
+	cont "forme!"
 
-	para "You want to go"
-	line "chasing MEW?"
+	para "Tu veux aller"
+	line "chasser MEW?"
 
-	para "That's no place for"
-	line "kids to just go"
-	cont "wandering around!"
+	para "C'est pas un en-"
+	line "droit pour les"
+	cont "enfants!"
 
-	para "Tell ya what, you"
-	line "prove youself on"
-	cont "the battlefield,"
+	para "Allez, si tu me"
+	line "tiens tête sur le"
+	cont "champ de bataille,"
 
-	para "and I'll give the"
-	line "all-clear."
+	para "t'auras ma"
+	line "permission."
 
-	para "Ten-hut!"
+	para "Garde-à-vous!"
 	done
 
 
 SurgeRematchBeatenText:
-	text "Arrrgh!"
-	line "You are strong!"
+	text "Raaaaah!"
+	line "T'es trop balèze!"
 	done
 
 SurgeAfterRematchText:
-	text "SURGE: You are way"
-	line "too strong!"
+	text "BOB: T'es beaucoup"
+	line "trop balèze!"
 
-	para "I'll have to go"
-	line "back to camp and"
+	para "Il va falloir que"
+	line "je retrourne au"
 	
-	para "brush up on my"
-	line "training."
+	para "camp"
+	line "d'entraînement!"
 
 	done
 
 SurgeAfterRematchTextChallenge:
-	text "SURGE: You are"
-	line "really strong!"
+	text "BOB: OK, je suis"
+	line "convaincu."
 
-	para "You should be able"
-	line "to handle GUYANA"
-	cont "no problem!"
+	para "T'as ma permission"
+	line "pour te rendre à"
+	cont "GUYANA!"
 
 	done
 
 SurgePostgameRematchText:
-	text "SURGE: Hey, kid!"
+	text "BOB: Salut!"
 
-	para "You still out"
-	line "training, yeah?"
+	para "Tu t'entraînes"
+	line "encore?"
 
-	para "Wanna go again?"
+	para "Tu veux une autre"
+	line "bataille?"
 	done
 
 SurgePostgameBeatenText:
-	text "Woah, shocking!"
+	text "Argh, quel choc!"
 	done
 
 SurgePostgameAfterText:
-	text "SURGE: You are one"
-	line "tough tyke!"
+	text "BOB: T'es un sacré"
+	line "môme!"
 
-	para "I have no choice"
-	line "but to admit my"
-	cont "defeat<...> again."
+	para "D'accord, j'admets"
+	line "encore ma défaite<...>"
 
-	para "I should have you"
-	line "come to training"
+	para "Il faudrait que tu"
+	line "viennes au camp"
 
-	para "camp to train my"
-	line "crew!"
+	para "entraîner mon"
+	line "équipe!"
 	done
 
 VermilionGymGuyRematchText:
-	text "Yo, CHAMP!"
+	text "Yo, MAITRE!"
 
-	para "LT.SURGE has amped"
-	line "up his game!"
+	para "BOB électrifie son"
+	line "jeu!"
 
-	para "You may want to"
-	line "take a moment to"
-
-	para "look around be-"
-	line "fore you charge"
-	cont "in!"
+	para "Prends un moment"
+	line "avant de charger"
+	cont "tête baissé!"
 	done
 
 VermilionGymGuyWonRematchText:
-	text "Impressive!"
+	text "Impressionant!"
 
-	para "LT.SURGE is gonna"
-	line "need to recharge"
-	cont "after that battle!"
+	para "Le MAJOR BOB va"
+	line "devoir recharger"
+	cont "ses batteries"
+	cont "après ce combat!"
 	done
 
 SchoolboyBrettBeforeText:
-	text "LT.SURGE taught me"
-	line "and my #MON a"
+	text "Le MAJOR BOB m'a"
+	line "appris plein de"
 
-	para "whole bunch of"
-	line "electric-type"
-	cont "moves."
+	para "choses sur les"
+	line "attaques"
+	cont "électriques!"
 
-	para "Can you help me"
-	line "practice them?"
+	para "Tu peux m'aider à"
+	line "m'entraîner?"
 	done
 
 SchoolboyBrettWinText:
-	text "That didn't seem"
-	line "right", $75
+	text "Quelque chose"
+	line "cloche", $75
 	done
 
 SchoolboyBrettAfterText:
-	text "I still have a lot"
-	line "to learn about"
-	cont "electric #MON."
+	text "J'ai encore beau-"
+	line "coup à apprendre"
+	cont "sur les #MON"
+	cont "électriques."
 	done
 
 JugglerHorton2BeforeText:
-	text "If you're gonna go"
-	line "down, do so with"
-	cont "honor."
+	text "Si tu perds la"
+	line "bataille, garde"
+	cont "ton honneur et ne"
+	cont "pleure pas."
 
-	para "That's LT.SURGE's"
-	line "motto!"
+	para "C'est le slogan du"
+	line "MAJOR BOB!"
 	done
 
 JugglerHorton2WinText:
-	text "KAPOW!!"
+	text "BOUM!!"
 	done
 
 JugglerHorton2AfterText:
-	text "It's fun to go out"
-	line "with a bang."
+	text "C'est marrant les"
+	line "fins explosives!"
 
-	para "But how can you"
-	line "win if your own"
+	para "Mais comment ga-"
+	line "gner si ton #-"
 
-	para "#MON also"
-	line "faints?"
+	para "MON tombe aussi"
+	line "K.O.?"
 	done
 
 CooltrainerMChaseBeforeText:
-	text "The air in this"
-	line "GYM is tense and"
-	cont "charged!"
+	text "L'air dans cette"
+	line "arène est chargée"
+	cont "en électicité!"
 	done
 
 CooltrainerMChaseWinText:
-	text "THUNDER detonates"
-	line "with a BOOM!!"
+	text "C'est un gros BOUM"
+	line "ce FATAL-FOUDRE!"
 	done
 
 CooltrainerMChaseAfterText:
-	text "It seems that my"
-	line "physical condition"
-	cont "is not so good."
+	text "On dirait que je"
+	line "tiens pas la for-"
+	cont "me, physiquement."
 	done
 
 GentlemanGregory2BeforeText:
-	text "You're here for a"
-	line "rematch with"
-	cont "LT.SURGE?"
+	text "Tu es là pour en-"
+	line "gager un combat"
+	cont "avec le MAJOR BOB?"
 
-	para "Not if I can help"
-	line "it!"
+	para "Pas si je peux t'"
+	line "en empêcher!"
 	done
 
 GentlemanGregory2WinText:
-	text "Sorry I failed you"
-	line "again, LT.SURGE,"
-	cont "sir!"
+	text "Non! Pardon,"
+	line "MAJOR BOB, je vous"
+	cont "ais encore trahi!"
 	done
 
 GentlemanGregory2AfterText:
-	text "When I was still"
-	line "in the army, LT."
+	text "Quand j'étais à"
+	line "l'armée, le MAJOR"
 
-	para "SURGE saved my"
-	line "life."
+	para "BOB m'a sauvé la"
+	line "vie."
 	done
 
 GuitaristVincent2BeforeText: ; 0x1923e8
-	text "LT.SURGE recog-"
-	line "nized my potential"
+	text "Le MAJOR BOB a"
+	line "reconnu mon poten-"
 
-	para "with electric"
-	line "#MON."
+	para "tiel avec les #"
+	line "MON électriques!"
 
-	para "Think you can beat"
-	line "me?"
+	para "Tu penses pouvoir"
+	line "me battre?"
 	done
 ; 0x192437
 
 GuitaristVincent2WinText: ; 0x192437
-	text "Ooh, how shocking!"
+	text "Oh, quel choc!"
 	done
 ; 0x19244b
 
 GuitaristVincent2AfterText: ; 0x19244b
-	text "Even if I didn't"
-	line "beat you here,"
+	text "Même si je ne t'ai"
+	line "pas battu, les"
 
-	para "the GYM's traps"
-	line "surely will!"
+	para "pièges de l'ARENE"
+	line "t'arrêteront!"
 	done
 ; 0x192487
 

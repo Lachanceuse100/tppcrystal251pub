@@ -123,105 +123,109 @@ UnknownScript_0x730db: ; 0x730db
 ; 0x730de
 
 UnknownText_0x730de: ; 0x730de
-	text "Hi!"
+	text "Salut!"
 
-	para "We're holding an"
-	line "eatathon contest."
+	para "On tient un con-"
+	line "cours de bouffe."
 
-	para "We can't serve you"
-	line "right now. Sorry."
+	para "Nous ne servons"
+	line "personne pour"
+	cont "l'instant. Désolé."
 	done
 ; 0x73129
 
 UnknownText_0x73129: ; 0x73129
-	text "<...>Snarfle, chew<...>"
+	text "<...>Tousse, crache<...>"
 	done
 ; 0x7313a
 
 UnknownText_0x7313a: ; 0x7313a
-	text "Don't talk to me!"
+	text "Me parle pas!"
 
-	para "You'll break my"
-	line "concentration!"
+	para "Tu vas casser mon"
+	line "élan!"
 	done
 ; 0x7316a
 
 UnknownText_0x7316a: ; 0x7316a
-	text "<...>Gulp<...> Chew<...>"
+	text "<...>tousse<...> mâche<...>"
 	done
 ; 0x73178
 
 UnknownText_0x73178: ; 0x73178
-	text "I take quantity"
-	line "over quality!"
+	text "Je préfère la"
+	line "quantité à la qua-"
+	cont "lité."
 
-	para "I'm happy when I'm"
-	line "full!"
+	para "Je ne suis heureux"
+	line "que rassasié!"
 	done
 ; 0x731ae
 
 UnknownText_0x731ae: ; 0x731ae
-	text "Munch, munch<...>"
+	text "Miam, bouffe<...>"
 	done
 ; 0x731bd
 
 UnknownText_0x731bd: ; 0x731bd
-	text "The food is good"
-	line "here, but GOLDEN-"
-	cont "ROD has the best"
-	cont "food anywhere."
+	text "Ici la nourriture"
+	line "est bonne mais"
+	cont "celle de DOUBLON-"
+	cont "VILLE est la"
+	cont "meilleure."
 	done
 ; 0x73201
 
 UnknownText_0x73201: ; 0x73201
-	text "Crunch<...> Crunch<...>"
+	text "Mâche<...> Croque<...>"
 	done
 ; 0x73212
 
 UnknownText_0x73212: ; 0x73212
-	text "Nobody here will"
-	line "give you a COIN"
+	text "Personne ne te"
+	line "donnera de BOITE"
 
-	para "CASE. You should"
-	line "look in JOHTO."
+	para "JETON, ici. Va"
+	line "voir à JOHTO."
 	done
 ; 0x73254
 
 UnknownText_0x73254: ; 0x73254
-	text "Crunch<...> Crunch<...>"
+	text "Croque<...> Croque<...>"
 
-	para "I can keep eating!"
+	para "J'ai pas fini!"
 	done
 ; 0x73278
 
 UnknownText_0x73278: ; 0x73278
-	text "More, CHEF!"
+	text "La suite, CHEF!"
 	done
 ; 0x73285
 
 UnknownText_0x73285: ; 0x73285
-	text "Eatathon Contest!"
-	line "No time limit!"
+	text "Concours de"
+	line "bouffe! Pas de"
 
-	para "A battle without"
-	line "end! The biggest"
+	para "temps limite!"
+	line "Une joie sans fin!"
 
-	para "muncher gets it"
-	line "all for free!"
+	para "C'est gratuit pour"
+	line "le vainqueur!"
 	done
 ; 0x732e7
 
 UnknownText_0x732e7: ; 0x732e7
-	text "<PLAYER> found"
+	text "<PLAYER> trouve:"
 	line "@"
 	text_from_ram StringBuffer3
-	text "!"
+	text "."
 	done
 ; 0x732f7
 
 UnknownText_0x732f7: ; 0x732f7
-	text "But <PLAYER> can't"
-	line "hold another item<...>"
+	text "Mais <PLAYER> ne"
+	line "peut plus rien"
+	cont "porter<...>"
 	done
 ; 0x73316
 

@@ -235,88 +235,90 @@ MovementData_0x75238: ; 0x75238
 ; 0x7523b
 
 UnknownText_0x7523b: ; 0x7523b
-	text "FAST SHIP S.S.AQUA"
-	line "is en route to"
-	cont "VERMILION CITY."
+	text "Le BATEAU EXPRESS"
+	line "AQUARIA va à"
+	cont "CARMIN SUR MER."
 
-	para "We will make an"
-	line "announcement when"
-	cont "we arrive."
+	para "Nous ferons une"
+	line "annonce à notre"
+	cont "arrivée."
 	done
 ; 0x7529b
 
 UnknownText_0x7529b: ; 0x7529b
-	text "FAST SHIP S.S.AQUA"
-	line "is en route to"
-	cont "OLIVINE CITY."
+	text "Le BATEAU EXPRESS"
+	line "AQUARIA va à"
+	cont "OLIVILLE."
 
-	para "We will make an"
-	line "announcement when"
-	cont "we arrive."
+	para "Nous ferons une"
+	line "annonce à notre"
+	cont "arrivée."
 	done
 ; 0x752f9
 
 UnknownText_0x752f9: ; 0x752f9
-	text "Here's your cabin."
+	text "Voici votre"
+	line "cabine."
 
-	para "If your #MON"
-	line "are hurt, take a"
-	cont "nap in the bed."
+	para "Si vos #MON"
+	line "sont blessés,"
+	cont "dormez et<...>"
 
-	para "That will heal"
-	line "them."
+	para "Ils seront tous"
+	line "soignés."
 	done
 ; 0x7534f
 
 UnknownText_0x7534f: ; 0x7534f
-	text "Here's your cabin."
+	text "Voici votre"
+	line "cabine."
 
-	para "You can heal your"
-	line "#MON by taking"
-	cont "a nap in the bed."
+	para "Vous pouvez soi-"
+	line "gner vos #MON"
+	cont "en vous allongeant"
+	cont "sur le lit."
 
-	para "The ship will"
-	line "arrive while"
-	cont "you're sleeping."
+	para "Le bateau arrivera"
+	line "pendant votre"
+	cont "sieste."
 	done
 ; 0x753c0
 
 UnknownText_0x753c0: ; 0x753c0
-	text "The passengers are"
-	line "all trainers."
+	text "Tous les passagers"
+	line "sont dresseurs."
 
-	para "They're all itch-"
-	line "ing to battle in"
-	cont "their cabins."
+	para "Ils veulent tous"
+	line "se battre dans"
+	cont "leur cabine."
 	done
 ; 0x75412
 
 UnknownText_0x75412: ; 0x75412
-	text "Whoa! Excuse me."
-	line "I was in a hurry!"
+	text "Whoa! Pardon."
+	line "Je suis un peu"
+	cont "pressé!"
 
-	para "My granddaughter"
-	line "is missing!"
+	para "Ma petite-fille a"
+	line "disparu!"
 
-	para "She's just a wee"
-	line "girl. If you see"
-
-	para "her, please let me"
-	line "know!"
+	para "Elle est toute"
+	line "jeune<...> Préviens-"
+	cont "moi si tu la vois!"
 	done
 ; 0x7548d
 
 UnknownText_0x7548d: ; 0x7548d
-	text "FAST SHIP S.S.AQUA"
-	line "has arrived in"
-	cont "OLIVINE CITY."
+	text "Le BATEAU EXPRESS"
+	line "AQUARIA est arrivé"
+	cont "à OLIVILLE."
 	done
 ; 0x754be
 
 UnknownText_0x754be: ; 0x754be
-	text "FAST SHIP S.S.AQUA"
-	line "has arrived in"
-	cont "VERMILION CITY."
+	text "Le BATEAU EXPRESS"
+	line "AQUARIA est arrivé"
+	cont "à CARMIN SUR MER."
 	done
 ; 0x754f1
 

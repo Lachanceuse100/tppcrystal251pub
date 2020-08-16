@@ -82,7 +82,7 @@ FisherScript_0x72144: ; 0x72144
 ; 0x72176
 
 .coinname ; 0x72176
-	db "COIN@"
+	db "JETONS@"
 ; 0x7217b
 
 UnknownScript_0x7217b: ; 0x7217b
@@ -206,191 +206,196 @@ MovementData_0x721cd: ; 0x721cd
 ; 0x721d0
 
 UnknownText_0x721d0: ; 0x721d0
-	text "Welcome!"
+	text "Bienvenue!"
 
-	para "You may exchange"
-	line "your coins for"
+	para "Vous pouvez échan-"
+	line "ger des jetons"
 
-	para "fabulous prizes"
-	line "next door."
+	para "contre de beaux"
+	line "prix au bâtiment"
+	cont "d'à côté."
 	done
 ; 0x72215
 
 UnknownText_0x72215: ; 0x72215
-	text "The slot machines"
-	line "are all state of"
-	cont "the art."
+	text "C'est tout un art,"
+	line "les roulettes."
 	done
 ; 0x72242
 
 UnknownText_0x72242: ; 0x72242
-	text "Apparently there"
-	line "is a very rare"
+	text "On dit qu'il y a"
+	line "un #MON très"
 
-	para "#MON available"
-	line "as a prize in"
+	para "rare qu'on peut"
+	line "échanger au CASINO"
 
-	para "the CELADON"
-	line "GAME CORNER<...>"
+	para "de CELADOPOLE con-"
+	line "tre des jetons<...>"
 	done
 ; 0x72295
 
 UnknownText_0x72295: ; 0x72295
-	text "I think this slot"
-	line "machine will pay"
-	cont "out<...>"
+	text "Je pense que cette"
+	line "machine va rappor-"
+	cont "ter gros<...>"
 
-	para "The odds vary"
-	line "among machines."
+	para "Chaque machine à"
+	line "des chances diffé-"
+	cont "rentes."
 	done
 ; 0x722dc
 
 UnknownText_0x722dc: ; 0x722dc
-	text "Gahahaha!"
+	text "Hahahaha!"
 
-	para "The coins just"
-	line "keep popping out!"
+	para "J'arrête pas de"
+	line "gagner!"
 
-	para "Hm? What, kid? You"
-	line "want to play?"
+	para "Hm? De quoi?"
+	line "Tu veux jouer?"
 
-	para "I'll share my luck"
-	line "with you!"
+	para "Je vais te donner"
+	line "de ma chance!"
 	done
 ; 0x72345
 
 UnknownText_0x72345: ; 0x72345
-	text "Gahahaha!"
+	text "Hahahaha!"
 
-	para "It makes me feel"
-	line "good to do nice"
-
-	para "things for other"
-	line "people!"
+	para "C'est génial de"
+	line "faire des bonnes"
+	cont "actions!"
 	done
 ; 0x7238a
 
 UnknownText_0x7238a: ; 0x7238a
-	text "Hey, you don't"
-	line "have a COIN CASE."
+	text "Hé, t'as pas de"
+	line "BOITE JETONS!"
 
-	para "How am I supposed"
-	line "to give you any"
-	cont "coins, kid?"
+	para "Et comment je vais"
+	line "te donner des"
+	cont "jetons, moi?"
 	done
 ; 0x723d9
 
 UnknownText_0x723d9: ; 0x723d9
-	text "Hey, your COIN"
-	line "CASE is full, kid."
+	text "Hé, ta BOITE"
+	line "JETONS est pleine!"
 
-	para "You must be riding"
-	line "a winning streak"
-	cont "too."
+	para "Toi aussi tu"
+	line "enchaînes les"
+	cont "victoires, hein?"
 	done
 ; 0x72425
 
 CeladonGymGuyText: ; 0x72425
-	text "Hey! CHAMP!"
+	text "Salut, champion en"
+	line "herbe!"
 
-	para "Are you playing"
-	line "the slots too?"
+	para "Tu joues aux"
+	line "machines à sous?"
 
-	para "I'm trying to get"
-	line "enough coins for a"
-	cont "prize #MON."
+	para "Je veux des jetons"
+	line "pour m'acheter un"
+	cont "#MON."
 
-	para "But I don't have"
-	line "enough coins yet<...>"
+	para "Mais j'ai pas"
+	line "encore assez<...>"
 	done
 ; 0x724ad
 
 UnknownText_0x724ad: ; 0x724ad
-	text "Hmmm<...> The odds are"
-	line "surely better for"
+	text "Hmmm<...> J'ai plus de"
+	line "chance avec la li-"
 
-	para "PIKACHU's line,"
-	line "but<...> What to do?"
+	para "gne de PIKACHU"
+	line "mais<...>"
+
+	para "Que faire<...>"
 	done
 ; 0x724f3
 
 UnknownText_0x724f3: ; 0x724f3
-	text "Hey!"
+	text "Hé!"
 
-	para "Underneath this"
-	line "poster<...>"
+	para "Dessous cette"
+	line "affiche<...>"
 
-	para "There's nothing!"
+	para "Il n'y a rien!"
 	done
 ; 0x72521
 
 UnknownText_0x72521: ; 0x72521
-	text "Hey!"
+	text "Hé!"
 
-	para "Underneath this"
-	line "poster<...>"
+	para "Dessous cette"
+	line "affiche<...>"
 
-	para "There's nothing!"
+	para "Il n'y a rien!"
 	done
 ; 0x7254f
 
 UnknownText_0x7254f: ; 0x7254f
-	text "There's a lighter"
-	line "here."
+	text "Il y a un briquet"
+	line "ici."
 	done
 ; 0x72567
 
 UnknownText_0x72567: ; 0x72567
-	text "A can of soda<...>"
+	text "Une canette de"
+	line "soda."
 
-	para "Someone must be"
-	line "coming back<...>"
+	para "Quelqu'un devrait"
+	line "revenir<...>"
 
-	para "Huh? It's empty!"
+	para "Hein? Elle est"
+	line "vide!"
 	done
 ; 0x725a4
-CeladonVoltorbFlipGuyText:
-	text "I'm trying out a"
-	line "fun new game here."
 
-	para "Sit across from me"
-	line "to play!"
+CeladonVoltorbFlipGuyText:
+	text "J'essaye un"
+	line "nouveau jeu."
+
+	para "Assieds-toi en"
+	line "face de moi pour"
+	cont "jouer."
 	done
 
 CeladonVoltorbFlipText:
-	text "Let's play some"
-	line "VOLTORB FLIP!"
+	text "Jouons à"
+	line "VOLTORBATAILLE!"
 	done
 
 CeladonVoltorbFlipNotEnoughCoinsText:
-	text "You need 3 coins"
-	line "to play this game."
+	text "Tu as besoin de 3"
+	line "jetons pour jouer."
 	done
 
 CeladonVoltorbFlipReachedHighestLevel:
-	text "Splendid! Marve-"
-	line "lous!"
+	text "Splendide!"
+	line "Merveilleux!"
 
-	para "You've reached the"
-	line "highest possible"
+	para "Tu as atteins le"
+	line "niveau maximum à"
+	cont "VOLTORBATAILLE."
 
-	para "level in VOLTORB"
-	line "FLIP!"
+	para "Tu mérites une"
+	line "récompense."
 
-	para "This deserves a"
-	line "special reward."
-
-	para "Here, take this."
+	para "Prends ceci."
 	done
 
 CeladonVoltorbFlipReceivedMasterBallText:
-	text "Come back and play"
-	line "again any time!"
+	text "Reviens jouer"
+	line "quand tu veux!"
 	done
 
 CeladonVoltorbFlipNoCoinCaseText:
-	text "You need to have a"
-	line "COIN CASE to play."
+	text "Il te faut une"
+	line "BOITE JETONS pour"
+	cont "jouer."
 	done
 
 CeladonGameCorner_MapEventHeader: ; 0x725a4

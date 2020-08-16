@@ -64,7 +64,7 @@ ElmPhoneEggHatchedText: ; 0x1b48bb
 	text "Bonjour, ", $14, "?"
 	line "Comment va l'OEUF?"
 
-	para "Quoi ? Il a éclot?"
+	para "Quoi? Il a éclot?"
 	line "Quel genre de"
 	cont "#MON est-ce?"
 

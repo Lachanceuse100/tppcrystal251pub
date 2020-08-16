@@ -73,51 +73,52 @@ FruitTreeScript_0x1ac581: ; 0x1ac581
 ; 0x1ac583
 
 SchoolboyDannySeenText: ; 0x1ac583
-	text "If trainers meet,"
-	line "the first thing to"
-	cont "do is battle."
+	text "Si 2 dresseurs se"
+	line "rencontrent, ils"
+	cont "doivent combattre."
 	done
 ; 0x1ac5b7
 
 SchoolboyDannyBeatenText: ; 0x1ac5b7
-	text "Awww<...> I've got a"
-	line "losing record<...>"
+	text "Awww<...> J'enchaîne"
+	line "les défaites<...>"
 	done
 ; 0x1ac5d7
 
 UnknownText_0x1ac5d7: ; 0x1ac5d7
-	text "For trainers, it's"
-	line "a given that we'll"
+	text "Les dresseurs doi-"
+	line "vent se battre."
 
-	para "battle whenever we"
-	line "meet."
+	para "C'est écrit."
+	line "C'est la loi."
 	done
 ; 0x1ac615
 
 CooltrainerfQuinnSeenText: ; 0x1ac615
-	text "You there!"
-	line "Want to battle?"
+	text "Toi là!"
+	line "Combat?"
 	done
 ; 0x1ac631
 
 CooltrainerfQuinnBeatenText: ; 0x1ac631
-	text "Down and out<...>"
+	text "Houlà<...>"
 	done
 ; 0x1ac640
 
 UnknownText_0x1ac640: ; 0x1ac640
-	text "You're strong."
+	text "Pas mal."
 
-	para "You obviously must"
-	line "have trained hard."
+	para "T'as dû t'entraî-"
+	line "ner d'arrache"
+	cont "pied!"
 	done
 ; 0x1ac675
 
 UnknownText_0x1ac675: ; 0x1ac675
 	text "ROUTE 1"
 
-	para "PALLET TOWN -"
-	line "VIRIDIAN CITY"
+	para "BOURG PALETTE -"
+	line "JADIELLE"
 	done
 ; 0x1ac69a
 

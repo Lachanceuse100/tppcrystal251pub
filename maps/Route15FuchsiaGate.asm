@@ -11,11 +11,11 @@ OfficerScript_0x19679e: ; 0x19679e
 ; 0x1967a1
 
 UnknownText_0x1967a1: ; 0x1967a1
-	text "You're working on"
-	line "a #DEX? That's"
+	text "Tu veux compléter"
+	line "un #DEX? C'est"
 
-	para "really something."
-	line "Don't give up!"
+	para "génial! Surtout"
+	line "n'abandonne pas!"
 	done
 ; 0x1967e1
 

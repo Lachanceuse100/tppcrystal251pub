@@ -29,58 +29,55 @@ GymGuyScript_0x18821e: ; 0x18821e
 ; 0x188221
 
 UnknownText_0x188221: ; 0x188221
-	text "For battles, I'd"
-	line "much rather use"
+	text "Pour les combats,"
+	line "je préfère utili-"
 
-	para "#MON I've been"
-	line "raising, even if"
+	para "ser des #MON"
+	line "que j'ai entraînés"
 
-	para "they're weaker"
-	line "than some newly"
-	cont "caught #MON."
+	para "plutôt que des"
+	line "#MON plus forts"
+	cont "que je viens"
+	cont "d'attraper."
 	done
 ; 0x18828c
 
 UnknownText_0x18828c: ; 0x18828c
-	text "Do you battle by"
-	line "mobile phone?"
+	text "Tu combats par té-"
+	line "léphone mobile?"
 
-	para "If time runs out"
-	line "during a battle,"
+	para "Si le temps est"
+	line "écoulé en combat,"
 
-	para "waiting to see who"
-	line "won is really"
-	cont "nerve wracking."
+	para "c'est stressant de"
+	line "savoir qui a vrai-"
+	cont "ment gagné!"
 	done
 ; 0x1882ff
 
 UnknownText_0x1882ff: ; 0x1882ff
-	text "The MAGNET TRAIN"
-	line "travels at over"
+	text "Le TRAIN MAGNER"
+	line "fait du 340 mp/h!"
 
-	para "340 mph. It goes"
-	line "between KANTO and"
+	para "Il va de KANTO à"
+	line "JOHTO en un rien"
+	cont "de temps."
 
-	para "JOHTO in almost no"
-	line "time at all."
-
-	para "It really makes"
-	line "JOHTO accessible."
+	para "Aller à JOHTO est"
+	line "alors très facile."
 	done
 ; 0x188386
 
 UnknownText_0x1882ff_Metric:
-	text "The MAGNET TRAIN"
-	line "travels at over"
+	text "Le TRAIN MAGNER"
+	line "fait du 550 km/h!"
 
-	para "550 kph. It goes"
-	line "between KANTO and"
+	para "Il va de KANTO à"
+	line "JOHTO en un rien"
+	cont "de temps."
 
-	para "JOHTO in almost no"
-	line "time at all."
-
-	para "It really makes"
-	line "JOHTO accessible."
+	para "Aller à JOHTO est"
+	line "alors très facile."
 	done
 
 CeruleanOldCenter_LinkScript:

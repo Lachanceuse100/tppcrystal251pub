@@ -352,8 +352,8 @@ UnknownText_0x603d1: ; 0x603d1
 	para "GIOVANNI de son"
 	line "entraînement solo."
 
-	para "La goire passée de"
-	line "la TEAM ROCKET"
+	para "La gloire passée"
+	line "de la TEAM ROCKET"
 	cont "sera restituée."
 
 	para "Et ce n'est pas"
@@ -485,7 +485,7 @@ UnknownText_0x608e0: ; 0x608e0
 SwitchBehindPosterText:
 	text "Hé!"
 
-	para "Un switch derrière"
+	para "Un bouton derrière"
 	line "ce poster!?"
 	cont "Appuyons<...>"
 	done

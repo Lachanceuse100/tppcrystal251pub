@@ -98,23 +98,22 @@ MapCeladonMansion3FSignpost3Script: ; 0x716cb
 ; 0x716ce
 
 UnknownText_0x716ce: ; 0x716ce
-	text "Is that right?"
+	text "Mmmmoui?"
 
-	para "I'm the GAME"
-	line "DESIGNER!"
+	para "Je suis le"
+	line "DESIGNER du JEU!"
 
-	para "Filling up your"
-	line "#DEX is tough,"
-	cont "but don't give up!"
+	para "C'est dur de rem-"
+	line "plir le #DEX,"
+	cont "mais accroche-toi!"
 	done
 ; 0x71725
 
 UnknownText_0x71725: ; 0x71725
-	text "Wow! Excellent!"
-	line "You completed your"
-	cont "#DEX!"
+	text "Whoa! Mais il est"
+	line "complet dis-donc!"
 
-	para "Congratulations!"
+	para "Félicitations!"
 	done
 ; 0x71760
 
@@ -124,102 +123,102 @@ UnknownText_0x71760: ; 0x71760
 ; 0x71763
 
 UnknownText_0x71763: ; 0x71763
-	text "The GRAPHIC ARTIST"
-	line "will print out a"
-	cont "DIPLOMA for you."
+	text "L'ARTISTE GRAPHI-"
+	line "QUE va imprimer un"
+	cont "DIPLOME pour toi."
 
-	para "You should go show"
-	line "it off."
+	para "Va te vanter,"
+	line "c'est mérité."
 	done
 
 Text_GiveMoneyMansion3F:
-	text "And here."
-	line "¥300,000, from me."
-	cont "You earned it."
+	text "Et ça c'est de ma"
+	line "part, ¥300,000."
+	cont "Tu l'as mérité."
 	done
 ; 0x717b4
 
 UnknownText_0x717b4: ; 0x717b4
-	text "I'm the GRAPHIC"
-	line "ARTIST."
+	text "Je suis l'ARTISTE"
+	line "GRAPHIQUE."
 
-	para "I drew you!"
+	para "Je t'ai dessiné!"
 	done
 ; 0x717d8
 
 UnknownText_0x717d8: ; 0x717d8
-	text "I'm the GRAPHIC"
-	line "ARTIST."
+	text "Je suis l'ARTISTE"
+	line "GRAPHIQUE."
 
-	para "Oh, you completed"
-	line "your #DEX?"
+	para "Tu as complété"
+	line "ton #DEX?"
 
-	para "Want me to print"
-	line "out your DIPLOMA?"
+	para "Tu veux que j'im-"
+	line "prime ton DIPLOME?"
 	done
 ; 0x71830
 
 UnknownText_0x71830: ; 0x71830
-	text "Give me a shout if"
-	line "you want your"
-	cont "DIPLOMA printed."
+	text "Appelle-moi si tu"
+	line "veux que j'imprime"
+	cont "ton DIPLOME."
 	done
 ; 0x71863
 
 UnknownText_0x71863: ; 0x71863
-	text "Something's wrong."
-	line "I'll have to can-"
-	cont "cel printing."
+	text "Quelque chose clo-"
+	line "che, je n'arrive"
+	cont "pas à imprimet."
 	done
 ; 0x71895
 
 UnknownText_0x71895: ; 0x71895
-	text "Who, me? I'm the"
-	line "PROGRAMMER."
+	text "Qui, moi? Je suis"
+	line "le PROGRAMMEUR."
 
-	para "Play the slot"
-	line "machines!"
+	para "Joue aux machines"
+	line "à sous!"
 	done
 ; 0x718ca
 
 UnknownText_0x718ca: ; 0x718ca
-	text "Aren't the TWINS"
-	line "adorable?"
+	text "Les JUMELLES sont"
+	line "pas trop mimi?"
 
-	para "JASMINE's pretty"
-	line "too."
+	para "JASMINE est trop"
+	line "jolie, non?"
 
-	para "Oh, I love them!"
+	para "Je les adore!"
 	done
 ; 0x7190b
 
 UnknownText_0x7190b: ; 0x7190b
 	text "GAME FREAK"
-	line "DEVELOPMENT ROOM"
+	line "SALLE de"
+	cont "DEVELOPPEMENT"
 	done
 ; 0x71928
 
 UnknownText_0x71928: ; 0x71928
-	text "It's a detailed"
-	line "drawing of a"
-	cont "pretty girl."
+	text "C'est le dessin"
+	line "d'une jolie fille."
 	done
 ; 0x71952
 
 UnknownText_0x71952: ; 0x71952
-	text "It's the game"
-	line "program. Messing"
+	text "C'est le programme"
+	line "du jeu. Si on y"
 
-	para "with it could put"
-	line "a bug in the game!"
+	para "touche, il y aura"
+	line "des bogues!"
 	done
 ; 0x71996
 
 UnknownText_0x71996: ; 0x71996
-	text "It's crammed with"
-	line "reference materi-"
-	cont "als. There's even"
-	cont "a # DOLL."
+	text "Il y a plein de"
+	line "produits dérivés."
+	cont "Il y a même une"
+	cont "# POUPEE."
 	done
 ; 0x719d5
 

@@ -41,63 +41,61 @@ MapRedsHouse1FSignpost1Script: ; 0x19aebd
 ; 0x19aec0
 
 UnknownText_0x19aec0: ; 0x19aec0
-	text "Hello there."
+	text "AIIIAAB est parti"
+	line "il y a longtemps."
 
-	para "AIIIAAB's been"
-	line "away for a long"
-	cont "time."
+	para "Il ne m'a pas"
+	line "appelé, je ne sais"
+	cont "pas du tout où il"
+	cont "est."
 
-	para "He hasn't called"
-	line "either, so I have"
-	cont "no idea what he's"
-	cont "up to."
+	para "Pas de nouvelles,"
+	line "bonne nouvelle,"
+	cont "comme on dit."
 
-	para "They say that no"
-	line "news is good news,"
-	cont "so I like to think"
-	cont "he's safe<...>"
-
-	para "But I always do"
-	line "worry about him."
+	para "Mais je m'inquiète"
+	line "quand même<...>"
 	done
 ; 0x19af81
 
 UnknownText_0x19af81: ; 0x19af81
-	text "Oh hello."
+	text "Bonjour, qui"
+	line "es-tu?"
 
-	para "Oh, you used to"
-	line "live here?"
+	para "Oh, tu habitais"
+	line "ici avec ta MAMAN"
+	cont "avant?"
 
 	para "<...>"
 
-	para "You were on"
-	line "board the S.S."
-	cont "ANNE when it"
-	cont "crashed?"
+	para "Tu étais à bord"
+	line "de l'OCEANE quand"
+	cont "il a coulé?"
 
-	para "Thank goodness"
-	line "you are safe."
+	para "Tu as l'air sauf,"
+	line "dieu merci."
 
-	para "I worry that my"
-	line "son AIIIAAB might"
-	cont "get into trouble"
-	cont "too<...>"
+	para "J'espère que mon"
+	line "fils AIIIAAB ne"
+	cont "s'est pas attiré"
+	cont "des ennuis lui non"
+	cont "plus."
 
-	para "He never has time"
-	line "to contact me,"
-	cont "since he's always"
-	cont "busy training."
+	para "Il est toujours"
+	line "occupé à s'entraî-"
+	cont "ner et il n'a ja-"
+	cont "mais le temps de"
+	cont "me parler."
 
-	para "You can look"
-	line "around the house"
-	cont "if you want."
+	para "Tu peux rester un"
+	line "peu, si tu veux."
 	done
 ; 0x19afe8
 
 UnknownText_0x19afe8: ; 0x19afe8
-	text "They have programs"
-	line "that aren't shown"
-	cont "in JOHTO<...>"
+	text "Il y a des progra-"
+	line "mmes non diffusés"
+	cont "dans JOHTO<...>"
 	done
 ; 0x19b017
 

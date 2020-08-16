@@ -186,128 +186,128 @@ MapFastShipCabins_SW_SSW_NWSignpost2Script: ; 0x75b01
 ; 0x75b04
 
 FirebreatherLyleSeenText: ; 0x75b04
-	text "I'm going to KANTO"
-	line "to put on fire-"
-	cont "breathing shows!"
+	text "Je vais à KANTO"
+	line "me donner en"
+	cont "spectacle!"
 	done
 ; 0x75b38
 
 FirebreatherLyleBeatenText: ; 0x75b38
-	text "Fizzle<...> The"
-	line "flame's tiny<...>"
+	text "Pfff<...> Ma flamme"
+	line "est miniscule<...>"
 	done
 ; 0x75b52
 
 UnknownText_0x75b52: ; 0x75b52
-	text "I guess fire is"
-	line "weak on the sea."
+	text "Le feu c'est nul"
+	line "sur l'eau, non?"
 
-	para "It doesn't matter?"
-	line "Really?"
+	para "Ca change rien?"
+	line "Vraiment?"
 	done
 ; 0x75b8e
 
 Bug_catcherKenSeenText: ; 0x75b8e
-	text "I'm visiting my"
-	line "grandma to catch"
-	cont "me some bugs!"
+	text "Je vais chez ma"
+	line "grand-mère pour"
+	para "attraper des"
+	line "insectes!"
 	done
 ; 0x75bbd
 
 Bug_catcherKenBeatenText: ; 0x75bbd
-	text "Ooh, wow."
-	line "You're tough!"
+	text "Ooh!"
+	line "Quelle force!"
 	done
 ; 0x75bd5
 
 UnknownText_0x75bd5: ; 0x75bd5
-	text "You can find lots"
-	line "of #MON in the"
-	cont "trees of JOHTO!"
+	text "Il y a plein de"
+	line "#MON dans les"
+	cont "arbres de JOHTO!"
 	done
 ; 0x75c07
 
 BeautyCassieSeenText: ; 0x75c07
-	text "I'm trying to"
-	line "forget my woes."
-	cont "Let's battle!"
+	text "J'essaie d'oublier"
+	line "mes malheurs<...>"
+	cont "COMBAT!"
 	done
 ; 0x75c32
 
 BeautyCassieBeatenText: ; 0x75c32
-	text "My heart weeps<...>"
+	text "Mon coeur est en"
+	line "pleurs<...>"
 	done
 ; 0x75c43
 
 UnknownText_0x75c43: ; 0x75c43
-	text "A voyage is best"
-	line "for getting over"
-	cont "a broken heart."
+	text "Voyager fait ou-"
+	line "blier les peines"
+	cont "de coeur."
 
-	para "But a FAST SHIP"
-	line "trip is too short"
-	cont "for grieving."
+	para "Mais un BATEAU"
+	line "EXPRESS va trop"
+	cont "vite!"
 	done
 ; 0x75ca6
 
 GuitaristClydeSeenText: ; 0x75ca6
-	text "I'm going to audi-"
-	line "tion my songs at"
+	text "Je vais audition-"
+	line "ner à la STATION"
 
-	para "GOLDENROD's RADIO"
-	line "STATION."
+	para "RADIO de DOUBLON-"
+	line "VILLE."
 	done
 ; 0x75ce4
 
 GuitaristClydeBeatenText: ; 0x75ce4
-	text "Yowza!"
-	line "Total distortion!"
+	text "Wouh!"
+	line "Un bide!"
 	done
 ; 0x75cfe
 
 UnknownText_0x75cfe: ; 0x75cfe
-	text "I was going to"
-	line "make my debut at"
-	cont "the BATTLE TOWER<...>"
+	text "Je devais faire"
+	line "débuts à la TOUR"
+	cont "de COMBAT<...>"
 
-	para "I should go back"
-	line "to VERMILION and"
-	cont "redo my training<...>"
+	para "Je vais retourner"
+	line "à CARMIN SUR MER"
+	cont "m'entraîner<...>"
 	done
 ; 0x75d65
 
 UnknownText_0x75d65: ; 0x75d65
-	text "Speaking of the"
-	line "RADIO STATION,"
-
-	para "what's this week's"
-	line "lucky number?"
+	text "Au fait, c'est"
+	line "quoi le BON NUMERO"
+	cont "de cette semaine?"
 	done
 ; 0x75da4
 
 UnknownText_0x75da4: ; 0x75da4
-	text "A comfy bed!"
-	line "Time to sleep<...>"
+	text "Un lit douillet!"
+	line "Allez, au dodo<...>"
 	done
 ; 0x75dc1
 
 UnknownText_0x75dc1: ; 0x75dc1
-	text "Ah, refreshed and"
-	line "restored!"
+	text "Ah<...> C'est la"
+	line "super pêche!"
 	done
 ; 0x75dde
 
 UnknownText_0x75dde: ; 0x75dde
-	text "FAST SHIP S.S.AQUA"
-	line "has arrived in"
-	cont "OLIVINE CITY."
+	text "Le BATEAU EXPRESS"
+	line "AQUARIA est arrivé"
+	cont "à OLIVILLE."
 	done
 ; 0x75e0f
 
 UnknownText_0x75e0f: ; 0x75e0f
-	text "FAST SHIP S.S.AQUA"
-	line "has arrived in"
-	cont "VERMILION CITY."
+	text "Le BATEAU EXPRESS"
+	line "AQUARIA est arrivé"
+	cont "à CARMIN SUR MER."
 	done
 ; 0x75e42
 

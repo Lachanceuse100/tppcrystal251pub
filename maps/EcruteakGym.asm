@@ -618,7 +618,7 @@ MediumGraceBeatenText: ; 0x9a37f
 ; 0x9a38a
 
 UnknownText_0x9a38a: ; 0x9a38a
-	text "Si je ne peut pas"
+	text "Si je ne peux pas"
 	line "te battre<...>"
 
 	para "Comment puis-je"

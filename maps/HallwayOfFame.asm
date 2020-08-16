@@ -200,62 +200,62 @@ OakRematchText:
 	line "ta victoire face"
 
 	para "aux meilleurs"
-	line "dressuers #MON"
+	line "dresseurs #MON"
 	cont "du monde."
 	done
 
 OakCheckDexAtHoF:
-	text "May I ask how your"
-	line "#DEX is coming"
-	cont "along?"
+	text "Puis-je savoir où"
+	line "en est ton"
+	cont "#DEX?"
 	prompt
 
 OakFullDex:
-	text "Wow!"
-	line "The #DEX is"
-	cont "complete!"
+	text "Wouah!"
+	line "Ton #DEX est"
+	cont "complet!"
 	done
 
 OakCongrats:
-	text "You're a true"
-	line "#MON master!"
+	text "Tu es un vrai"
+	line "MAITRE #MON!"
 
-	para "Tell you what,"
-	line "<PLAY_G>. I'll make"
+	para "Tu sais quoi,"
+	line "<PLAY_G>?"
 
-	para "arrangements so"
-	line "that you can go to"
-	cont "MT.SILVER."
+	para "Je vais m'arranger"
+	line "pour que tu ais"
+	cont "accès au MONT"
+	cont "ARGENT."
 
-	para "It's too dangerous"
-	line "for your average"
+	para "C'est un endroit"
+	line "très dangereux"
 
-	para "trainer, so it's"
-	line "off limits. But"
+	para "pour les dresseurs"
+	line "mais nous ferons"
 
-	para "we can make an"
-	line "exception in your"
-	cont "case, <PLAY_G>."
+	para "une exception pour"
+	line "toi, <PLAY_G>."
 
-	para "The gate there is"
-	line "west of ROUTE 22."
+	para "La porte est à l'"
+	line "est de la ROUTE"
+	cont "22."
 
-	para "Just remember to"
-	line "get a DIPLOMA"
-	para "from CELADON as"
-	line "proof of your"
-	cont "accomplishment."
+	para "Pense à chercher"
+	line "un DIPLOME à"
+	para "CELADOPOLE en ré-"
+	line "compense de ton"
+	cont "exploit."
 
 	done
 
 OakDexNotFull:
-	text "It seems your"
-	line "adventure is not"
-	cont "over yet."
+	text "Ton aventure n'est"
+	line "pas terminée."
 
-	para "Once you fill the"
-	line "#DEX come see"
-	cont "me in my LAB."
+	para "Repasse à mon LABO"
+	line "lorsque ton #-"
+	cont "DEX sera rempli."
 
 	done
 
@@ -306,265 +306,250 @@ MovementData_0x180f55: ; 0x180f55
 	step_end
 
 AzureBeforeBattleText:
-	text "Oh! <PLAY_G>!"
-	line "You're OK!"
+	text "<PLAY_G>!"
+	line "Tu vas bien!"
 
-	para "I'm so relieved"
-	line "that you escaped"
-	cont "from the S.S.ANNE!"
+	para "Tu as réussi à"
+	line "t'échapper de"
+	cont "l'OCEANE!"
 
-	para "I knew you were"
-	line "strong enough to"
-	cont "survive!"
+	para "Je savais que tu"
+	line "survivrais!"
 
-	para "I kept on training"
-	line "and taking care"
-	cont "of my #MON."
+	para "J'ai continué de"
+	line "prendre soin de"
+	cont "mes #MON."
 
-	para "And now<...>"
+	para "Et maintenant<...>"
 
-	para "Here I am!"
+	para "Je suis là!"
 
-	para "I have risen up"
-	line "over those who"
-	cont "called themselves"
-	cont "the ELITE FOUR!"
+	para "J'ai surmonté le"
+	line "CONSEIL des 4!"
 
-	para "I'm the new"
-	line "CHAMPION!"
+	para "Je suis la nou-"
+	line "velle MAITRE!"
 
 	para "<...>"
 
 	para "<PLAY_G>!"
 
-	para "Do you know what"
-	line "this means?"
+	para "Tu sais ce que ça"
+	line "veut dire?"
 
-	para "It means we can"
-	line "finally have"
-	cont "that battle we"
-	cont "were always meant"
-	cont "to have!"
+	para "Nous allons enfin"
+	line "disputer le combat"
+	cont "dont nous avions"
+	cont "toujours rêvé!"
 
-	para "I challenge you"
-	line "as the #MON"
-	cont "CHAMPION!"
+	para "Je te défie en"
+	line "tant que MAITRE"
+	cont "#MON!"
 	done
 
 RustBeforeBattleText:
-	text "Hey! I was lookin'"
-	line "forward to seein"
-	cont "you, <PLAY_G>!"
+	text "Hé! Je m'attendais"
+	line "a te voir ici,"
+	cont "<PLAY_G>!"
 
-	para "I always thought"
-	line "you made it off"
-	cont "the S.S.ANNE!"
+	para "Je savais que tu"
+	line "t'en étais sortie"
+	cont "à l'OCEANE."
 
-	para "No rival of mine"
-	line "would be so weak"
-	cont "as to lose to TEAM"
-	cont "ROCKET after all!"
+	para "Mon rival ne s'a-"
+	line "baisserais pas à"
+	cont "perdre face à la"
+	cont "TEAM ROCKET!"
 
-	para "Well now that"
-	line "you're here<...>"
+	para "Maintenant que tu"
+	line "es là, il faut que"
+	cont "tu saches."
 
-	para "I just wanted to"
-	line "let you know"
-	cont "something."
+	para "En améliorant mon"
+	line "#DEX, j'ai"
+	cont "recherché les"
+	cont "#MON sur-"
+	cont "puissants!"
 
-	para "While working on"
-	line "my #DEX, I "
-	cont "looked all over"
-	cont "for powerful"
+	para "J'ai ainsi crée"
+	line "l'équipe ultime,"
+	cont "efficace contre"
+	cont "tous les types de"
 	cont "#MON!"
 
-	para "Not only that, I"
-	line "assembled teams"
-	cont "that would beat"
-	cont "any #MON type!"
-
-	para "Well guess what?!"
-	line "I am now the"
-	cont "#MON LEAGUE"
-	cont "CHAMPION!"
+	para "Et tu sais quoi?!"
+	line "Je suis maintenant"
+	cont "le MAITRE #MON!"
 
 	para "<PLAY_G>!"
-	line "Do you know"
-	cont "what that means"
-	cont "for you?"
+	line "Tu sais ce que ça"
+	cont "veut dire?"
 
-	para "Well!"
-	line "I'll tell you!"
+	para "Ecoute ça."
 
-	para "I am the most"
-	line "powerful trainer"
-	cont "in the world!"
+	para "Je suis le"
+	line "dresseur le plus"
+	cont "puissant du monde!"
 	done
 
 WinVsChampAzureText:
-	text "D'aww<...> I'm not"
-	line "as good as you."
+	text "Roooh<...> Je ne suis"
+	line "pas aussi bonne"
+	cont "que toi!"
 	done
 LoseVsChampAzureText
-	text "I like your"
-    line "effort<...> but it"
-    cont "wasn't good"
-    cont "enough."
+	text "C'était un beau"
+    line "combat."
 
-    para "I hope you try"
-    line "harder next time!"
+    para "Mais c'est moi la"
+    line "meilleure!"
 	done
 
 LoseVsChampRustText:
 	text "Haha!"
-	line "I knew I was good"
-	cont "enough for champ!"
+	line "Je savais que"
+	
+	para "j'étais le plus"
+	line "fort!"
 	done
 
 WinVsChampRustText:
-	text "Aw, man<...>"
-	line "this sucks."
+	text "Raaaah<...>"
 
-	para "Why did I hafta"
-	line "lose to a chump"
-	cont "like you?"
+	para "Pourquoi j'ai per-"
+	line "du face à une"
+	cont "idiote comme toi?"
 	done
 
 AzurePostFightText:
-	text "<...>I guess I must"
-	line "concede<...>"
+	text "<...>Bon, je te"
+	line "l'accorde."
 
-	para "You are a better"
-	line "trainer than I am."
+	para "Tu es meilleur"
+	line "dresseur que moi."
 	done
 
 RustPostFightText:
-	text "Darn it!"
-	line "I guess you're"
-	cont "the new champ!"
-	para "Though I don't"
-	line "like to admit it."
+	text "Et zut alors!"
+	line "Tu es le nouveau"
+	cont "MAITRE #MON!"
+	para "Alors ça<...>"
+	line "Ca me la coupe."
 	done
 
 HallwayOfFameOakText1:
-	text "OAK: <GREEN>!"
+	text "CHEN: <GREEN>!"
 	done
 
 AzureBeforeRematchText:
-	text "<PLAYER>! You made"
-	line "it back here!"
+	text "<PLAYER>! Tu es"
+	line "là!"
 
-	para "I've been working"
-	line "hard to raise my"
+	para "J'ai travaillé dur"
+	line "pour élever mes"
 
-	para "#MON since our"
-	line "last battle."
+	para "#MON depuis"
+	line "notre dernier"
+	cont "combat."
 
-	para "And now I've bea-"
-	line "ten the ELITE FOUR"
-	cont "at their best!"
+	para "Et j'ai battu l'"
+	line "ultime défi du"
+	cont "CONSEIL des 4!"
 
-	para "Since you're here,"
-	line "that must mean you"
-	cont "beat them too!"
+	para "Je suppose que toi"
+	line "aussi puisque tu"
+	cont "es là!"
 
-	para "That's so awesome!"
-	line "Congratulations!"
+	para "C'est génial!"
+	line "Félicitations!"
 
-	para "Now, <PLAYER>!"
+	para "Bien, <PLAYER>!"
 
-	para "I challenge you to"
-	line "one more #MON"
-	cont "BATTLE!"
+	para "Je te défie une"
+	line "fois de plus dans"
+	cont "un combat #MON!"
 
-	para "I want to see just"
-	line "how far the two of"
-	cont "us have come!"
+	para "Je veux voir à"
+	line "quel point nous"
+	cont "nous sommes amé-"
+	cont "liorés!"
 	done
 
 RustBeforeRematchText:
-	text "<PLAYER>! Fancy"
-	line "seeing you back"
-	cont "here!"
+	text "<PLAYER>! Ravi de"
+	line "te revoir!"
 
-	para "While you were out"
-	line "dilly-dallying"
-	cont "with your #DEX<...>"
+	para "Pendant que tu"
+	line "faisais joujou"
+	cont "avec ton #DEX<...>"
 
-	para "I've been keeping"
-	line "up with my #MON"
-	cont "training!"
+	para "J'ai continué"
+	line "d'entraîner mes"
+	cont "#MON!"
 
-	para "And now, I'm the"
-	line "#MON LEAGUE"
-	cont "CHAMPION!"
+	para "Et me voilà MAITRE"
+	line "de la LIGUE"
+	cont "#MON!"
 
-	para "I've beaten the"
-	line "ELITE FOUR, even"
-	cont "at their best!"
+	para "J'ai battu l'ulti-"
+	line "me défi du CONSEIL"
+	cont "des 4!"
 
 	para $56, " ",$56, " ",$56
-	line "Wha?! Oh."
+	line "Hein?! Oh."
 
-	para "If you're here,"
-	line "that means you've"
+	para "Si tu es là, c'est"
+	line "que tu les as"
+	cont "battus aussi."
 
-	para "beaten them too,"
-	line "huh?"
+	para "Tu veux le titre"
+	line "de MAITRE?"
 
-	para "You want the title"
-	line "of CHAMPION?"
-
-	para "Then you'll have to"
-	line "win it from me!"
+	para "Essaie un peu de"
+	line "me le prendre!"
 	done
 
 WinVsRematchAzureText:
-	text "Wow, incredible!"
+	text "Incroyable!"
 
-	para "You're even stron-"
-	line "ger now than any-"
-	cont "one I've met!"
+	para "Tu es plus fort"
+	line "que n'importe qui"
+	cont "que je connaisse!"
 	done
 LoseVsRematchAzureText:
-	text "Giggle<...>"
+	text "Hi hi<...>"
 
-	para "Seems I'm just a"
-	line "little better than"
-	cont "you, <PLAYER>."
+	para "Je suis meilleure"
+	line "que toi, <PLAYER>."
 	done
 WinVsRematchRustText:
-	text "WHAT?!"
+	text "QUOI?!"
 
-	para "How could I have"
-	line "lost to you again?"
+	para "J'ai encore perdu"
+	line "contre toi?"
 	done
 LoseVsRematchRustText:
 	text "Ha!"
 
-	para "Seems you've been"
-	line "spending a little"
+	para "Tu passes trop de"
+	line "temps sur ton"
 
-	para "too much time with"
-	line "your #DEX, and"
+	para "#DEX et pas"
+	line "assez avec ton"
+	cont "équipe!"
 
-	para "not enough time"
-	line "raising your team!"
-
-	para "Smell ya later,"
+	para "Bon, à plus tard"
 	line "<PLAYER>!"
 	done
 
 AzurePostRematchText:
-	text "Wow, <PLAYER>."
-	line "You're so strong"
-	cont "now<...>"
+	text "Wouah, <PLAYER>."
+	line "Tu es tellement"
+	cont "fort<...>"
 
-	para "You probably could"
-	line "have beaten me"
-
-	para "with one hand tied"
-	line "behind your back<...>"
+	para "Tu pourras me"
+	line "battre avec une"
+	cont "main dans le dos<...>"
 	; Wow Deku OneHand
 	done
 
@@ -572,90 +557,90 @@ RustPostRematchText:
 	text "<......> <......> <......>"
 	line "<......> <......> <......>"
 
-	para "Arrgh! Why can I"
-	line "never beat you,"
-	cont "<PLAYER>?"
+	para "Argh! Pourquoi je"
+	line "ne peux jamais te"
+	cont "battre, <PLAYER>?"
 
-	para "You're always one"
-	line "step ahead of me!"
-	cont "It's not fair!"
+	para "Tu as toujours un"
+	line "coup d'avance!"
+	cont "C'est pas juste!"
 	done
 
 OakToRivalAfterRemtachText:
-	text "PROF.OAK: I just"
-	line "heard the news."
+	text "PROF.CHEN: Je suis"
+	line "encore déçu!"
 
-	para "I'm disappointed"
-	line "all over again!"
+	para "J'ai entendu que"
+	line "tu avais conquis"
 
-	para "I came when I"
-	line "heard you beat"
+	para "le défi suprême du"
+	line "CONSEIL des 4!"
 
-	para "the ELITE FOUR's"
-	line "ultimate chal-"
-	cont "lenge!"
+	para "Mais quand je suis"
+	line "arrivé, tu avais"
+	cont "encore perdu!"
 
-	para "But, when I got"
-	line "here, you had"
-	cont "already lost!"
+	para "Je te l'ai dit"
+	line "pourtant, tu ne"
 
-	para "Didn't I tell you"
-	line "before?"
-
-	para "If you don't treat"
-	line "your #MON with"
-	cont "trust and love,"
-
-	para "how can you pre-"
-	line "vail?"
+	para "peux pas gagner si"
+	line "tu ne traites pas"
+	cont "tes #MON avec"
+	cont "amour."
 	done
 
 UnknownText_0x18121b: ; 0x18121b
-	text "PROF.OAK: I just"
-	line "heard the news."
-	cont "I'm disappointed!"
+	text "PROF.CHEN: Je suis"
+	line "déçu, <GREEN>!"
 
-	para "I came when I"
-	line "heard you beat"
-	cont "the ELITE FOUR!"
+	para "Apprenant que tu"
+	line "avais vaincu le"
+	cont "CONSEIL des 4, je"
+	cont "suis venu en"
+	cont "vitesse!"
 
-	para "But, when I got"
-	line "here, you had"
-	cont "already lost!"
+	para "Mais le temps"
+	line "d'arriver jusqu'"
+	cont "ici, tu avais déjà"
+	cont "perdu<...>"
 
-	para "<GREEN>! Do you"
-	line "understand why"
-	cont "you lost?"
+	para "<GREEN>! As-tu"
+	line "compris pourquoi"
+	cont "ton équipe à"
+	cont "perdu?"
 
-	para "You have forgotten"
-	line "to treat your"
+	para "Tu as oublié de"
+	line "traiter tes"
 
-	para "#MON with"
-	line "trust and love!"
+	para "#MON avec"
+	line "amour!"
 
-	para "Without them, you"
-	line "will never become"
-	cont "a champ again!"
+	para "Sans ça, tu ne"
+	line "redeviendras"
+	cont "jamais MAITRE!"
 	done
 
 OakAfterRivalTalkToPlayer:
 
-	text "OAK: <PLAY_G>!"
-	para "You understand"
-	line "that your victory"
+	text "CHEN: <PLAY_G>!"
+	para "Cette victoire<...>"
+	line "Tu ne la dois pas"
 
-	para "was not just your"
-	line "own doing!"
+	para "entièrement à tes"
+	line "qualités!"
 
-	para "The bond you share"
-	line "with your #MON"
-	cont "is marvelous!"
+	para "Tu as tant baigné"
+	line "d'amour tes chers"
+	cont "petits #MON!"
+
+	para "Et ça<...>"
+	line "C'est bien."
 	done
 ; 0x18134b
 
 OakAboutToHoF:
 	text "<PLAY_G>!"
-	line "Come with me!"
+	line "Suis-moi!"
 	done
 
 

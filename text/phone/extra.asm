@@ -409,7 +409,7 @@ UnknownText_0x64bc6: ; 0x64bc6
 ; 0x64c13
 
 UnknownText_0x64c13: ; 0x64c13
-	text "Hé, tu es ou la ?"
+	text "Hé, tu es ou la?"
 
 	para "Battons-nous! Je"
 	line "t'attendrais sur"
@@ -1036,7 +1036,7 @@ UnknownText_0x65d5c: ; 0x65d5c
 
 UnknownText_0x65da6: ; 0x65da6
 	text "Qu'est-ce qu'il y"
-	line "a ?"
+	line "a?"
 
 	para "Je t'attends sur"
 	line "@"

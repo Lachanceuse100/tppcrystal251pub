@@ -554,10 +554,11 @@ HikerTimothyBeatenText: ; 0x19e4d6
 
 UnknownText_0x19e4f1: ; 0x19e4f1
 	text "Découvrir les"
-	line "#MON est la meil-"
+	line "#MON est la"
 
-	para "leure chose qui me"
-	line "soit arrivé!"
+	para "meilleure chose"
+	line "qui me soit"
+	cont "arrivé!"
 	done
 ; 0x19e52c
 

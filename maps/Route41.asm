@@ -388,7 +388,7 @@ SwimmermKirkSeenText: ; 0x1a6b26
 
 	para "J'ai volé ici avec"
 	line "mes #MON de"
-	cont "type VOL"
+	cont "type VOL!"
 	done
 ; 0x1a6b62
 

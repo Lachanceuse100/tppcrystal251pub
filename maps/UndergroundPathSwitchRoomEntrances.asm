@@ -995,7 +995,7 @@ UnknownText_0x7d45b: ; 0x7d45b
 	line "SOUTERRAIN?"
 
 	para "Pourquoi tu veux"
-	line "y aller ?"
+	line "y aller?"
 
 	para "Y'a rien là-bas."
 	done
@@ -1038,10 +1038,10 @@ GruntF3SeenText: ; 0x7d56b
 	line "dans l'entrepôt!"
 
 	para "Je n'ai pas le"
-	cont "choix."
+	line "choix."
 
 	para "Je vais utiliser"
-	line "l'ADN BERZERK!"
+	line "l'ADN. BERZERK!"
 	done
 ; 0x7d5d6
 
@@ -1077,7 +1077,7 @@ UnknownText_0x7d643: ; 0x7d643
 
 UnknownText_0x7d65a: ; 0x7d65a
 	text "C'est écrit:"
-	line "INTERRUPTEUR 3"
+	line "INTERRUPTEUR 3."
 	done
 ; 0x7d671
 

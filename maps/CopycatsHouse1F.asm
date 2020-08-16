@@ -38,41 +38,38 @@ ClefairyScript_0x18ad2a: ; 0x18ad2a
 ; 0x18ad34
 
 UnknownText_0x18ad34: ; 0x18ad34
-	text "My daughter likes"
-	line "to mimic people."
+	text "Ma fille aime"
+	line "imiter les gens."
 
-	para "Her mimicry has"
-	line "earned her the"
-
-	para "nickname COPYCAT"
-	line "around here."
+	para "On l'appelle la"
+	line "COPIEUSE."
 	done
 ; 0x18ad95
 
 UnknownText_0x18ad95: ; 0x18ad95
-	text "My daughter is so"
-	line "self-centered<...>"
+	text "Ma fille est très"
+	line "égocentrique<...>"
 
-	para "She only has a few"
-	line "friends."
+	para "Elle n'a pas beau-"
+	line "coup d'amis."
 	done
 ; 0x18add3
 
 UnknownText_0x18add3: ; 0x18add3
-	text "She recently lost"
-	line "the # DOLL that"
+	text "Elle a perdu la"
+	line "# POUPEE qu'un"
 
-	para "a boy gave her"
-	line "three months ago."
+	para "garçon lui a don-"
+	line "née il y a 3 mois."
 
-	para "Ever since then,"
-	line "she's gotten even"
-	cont "better at mimicry<...>"
+	para "Et depuis, elle"
+	line "imite encore mieux"
+	cont "qu'avant<...>"
 	done
 ; 0x18ae4b
 
 UnknownText_0x18ae4b: ; 0x18ae4b
-	text "BLISSEY: Bliisii!"
+	text "LEUPHORIE: Rriii!"
 	done
 ; 0x18ae5e
 

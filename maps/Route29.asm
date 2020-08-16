@@ -402,7 +402,7 @@ TuscanyGivesGiftText:
 
 TuscanyGaveGiftText:
 	text "MARIE: N'est-ce"
-	line "pas adorable ?"
+	line "pas adorable?"
 
 	para "Ca renforce les"
 	line "capacités NORMAL."

@@ -170,32 +170,33 @@ MapRoute13SignpostItem3: ; 0x1a249f
 ; 0x1a24a2
 
 PokefanmAlexSeenText: ; 0x1a24a2
-	text "Bow down before my"
-	line "regal #MON!"
+	text "A genoux devant"
+	line "mes #MON!"
 	done
 ; 0x1a24c2
 
 PokefanmAlexBeatenText: ; 0x1a24c2
-	text "DAD: How<...> How dare"
-	line "you mock royalty!"
+	text "PERE: Que<...> Comment"
+	line "oses-tu défier ma"
+	cont "monarchie!"
 
-	para "SON: Dad, please!"
-	line "Stop<...>"
+	para "FILS: Papa, stop!"
+	line "S'il te plaît<...>"
 	done
 ; 0x1a24e3
 
 UnknownText_0x1a24e3: ; 0x1a24e3
-	text "Doesn't everyone"
-	line "wish to someday be"
-	cont "a king?"
+	text "Il n'y a que moi"
+	line "qui veuille deve-"
+	cont "nir un roi?"
 	done
 ; 0x1a250f
 
 PokefanmJoshuaSeenText: ; 0x1a250f
-	text "Me and my son"
-	line "recently moved"
-	cont "here from a far"
-	cont "away region."
+	text "Moi et mon fils"
+	line "avons déménagé ici"
+	cont "depuis une loin-"
+	cont "taine région."
 	done
 ; 0x1a2542
 
@@ -209,113 +210,110 @@ PokefanmJoshuaBeatenText: ; 0x1a2542
 	ret
 
 .imperial
-	text "DAD: Five feet"
-	line "under<...>"
+	text "PERE: Six pieds"
+	line "sous terre<...>"
 
-	para "SON: Good job<...>"
+	para "FILS: Bravo<...>"
 	done
 ; 0x1a254f
 
 .metric
-	text "DAD: A meter and a"
-	line "half under<...>"
+	text "PERE: Six pieds"
+	line "sous terre<...>"
 
-	para "SON: Good job<...>"
+	para "FILS: Bravo<...>"
 	done
 
 UnknownText_0x1a254f: ; 0x1a254f
-	text "We're buying some"
-	line "cabbage on the"
-	cont "way home."
+	text "On viens acheter"
+	line "de la laitue avant"
+	cont "de rentrer."
 	done
 ; 0x1a2591
 
 Bird_keeperPerrySeenText: ; 0x1a2591
-	text "Agility is a key"
-	line "attribute of bird"
-	cont "#MON."
+	text "L'agilité est LA"
+	line "caractéristique"
+	cont "des #MON"
+	cont "oiseaux."
 	done
 ; 0x1a25bd
 
 Bird_keeperPerryBeatenText: ; 0x1a25bd
-	text "FARFETCH'D isn't"
-	line "fast though<...>"
+	text "CANARTICHO n'est"
+	line "pas très rapide<...>"
 	done
 ; 0x1a25db
 
 UnknownText_0x1a25db: ; 0x1a25db
-	text "Your #MON are"
-	line "remarkably well-"
-	cont "trained."
+	text "Tes #MON sont"
+	line "très bien entraî-"
+	cont "nés."
 	done
 ; 0x1a2604
 
 Bird_keeperBretSeenText: ; 0x1a2604
-	text "Check out my #-"
-	line "MON. Just look at"
-	cont "its coloring!"
+	text "Regarde mes beaux"
+	line "#MON. Regarde"
+	cont "leurs couleurs!"
 	done
 ; 0x1a2649
 
 Bird_keeperBretBeatenText: ; 0x1a2649
-	text "My bugs, no!"
+	text "Non! Mes insectes!"
 	done
 ; 0x1a2662
 
 UnknownText_0x1a2662: ; 0x1a2662
-	text "Bugs aren't birds."
+	text "Ce ne sont pas des"
+	line "oiseaux mais ils"
 
-	para "Tons more fun"
-	line "to groom though!"
+	para "sont plus marrant"
+	line "à chouchouter!"
 	done
 ; 0x1a2686
 
 HikerKennySeenText: ; 0x1a2686
-	text "I should go to"
-	line "ROCK TUNNEL to get"
-	cont "myself an ONIX."
+	text "Je vais passer à"
+	line "la GROTTE pour"
+	cont "choper un ONIX."
 	done
 ; 0x1a26b9
 
 HikerKennyBeatenText: ; 0x1a26b9
-	text "I lost<...>"
+	text "J'ai perdu<...>"
 	done
 ; 0x1a26c2
 
 UnknownText_0x1a26c2: ; 0x1a26c2
-	text "Geological fea-"
-	line "tures don't appear"
-	cont "to change."
+	text "La terre change<...>"
+	line "Petit à petit."
 
-	para "But they actually"
-	line "change, little by"
-	cont "little."
+	para "Les montagnes, les"
+	line "paysages<...> Tout"
+	cont "évolue."
 	done
 ; 0x1a271c
 
 UnknownText_0x1a271c: ; 0x1a271c
-	text "TRAINER TIPS"
+	text "ASTUCE"
 
-	para "Look! Right there,"
-	line "at the left side"
-	cont "of the post."
+	para "Regardez à gauche"
+	line "de cette pancarte."
 	done
 ; 0x1a275b
 
 UnknownText_0x1a275b: ; 0x1a275b
 	text "ROUTE 13"
 
-	para "NORTH TO SILENCE"
-	line "BRIDGE"
+	para "Nord du PONT du"
+	line "SILENCE."
 	done
 ; 0x1a277d
 
 UnknownText_0x1a277d: ; 0x1a277d
-	text "NORTH TO LAVENDER"
-	line "TOWN"
-
-	para "WEST TO FUCHSIA"
-	line "CITY"
+	text "NORD: LAVANVILLE"
+	line "OUEST: PARMANIE"
 	done
 ; 0x1a27aa
 

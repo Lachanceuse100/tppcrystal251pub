@@ -104,91 +104,93 @@ MapCeladonCitySignpostItem7: ; 0x1a9f7a
 ; 0x1a9f7d
 
 UnknownText_0x1a9f7d: ; 0x1a9f7d
-	text "This POLIWRATH is"
-	line "my partner."
+	text "Ce TARTARD est mon"
+	line "partenaire."
 
-	para "I wonder if it'll"
-	line "ever evolve into a"
-	cont "frog #MON."
+	para "Peut-il évoluer en"
+	line "un #MON"
+	cont "grenouille?"
 	done
 ; 0x1a9fcb
 
 UnknownText_0x1a9fcb: ; 0x1a9fcb
-	text "POLIWRATH: Croak!"
+	text "TARTARD: Tarr!"
 	done
 ; 0x1a9fde
 
 UnknownText_0x1a9fde: ; 0x1a9fde
-	text "I lost at the slot"
-	line "machines again<...>"
+	text "J'ai encore perdu"
+	line "aux machines à"
+	cont "sous<...>"
 
-	para "We girls also play"
-	line "the slots now."
+	para "Les filles aiment"
+	line "bien jouer aussi."
 
-	para "You should check"
-	line "them out too."
+	para "Tente ta chance,"
+	line "mon chouchou."
+
 	done
 ; 0x1aa043
 
 UnknownText_0x1aa043: ; 0x1aa043
-	text "I raise GRIMER"
-	line "here to sell to"
-	cont "the GAME CORNER"
-	cont "in GOLDENROD."
+	text "J'élève des TAD-"
+	line "MORV pour les ven-"
+	cont "dre au CASINO de"
+	cont "DOUBLONVILLE."
 
-	para "Looks like I've"
-	line "overdone it<...>"
+	para "On dirait que j'en"
+	line "ai trop fait."
 
-	para "I can't get out"
-	line "of my house now!"
+	para "Je ne peux plus"
+	line "sortir de chez"
+	cont "moi<...>"
 	done
 ; 0x1aa0dc
 
 UnknownText_0x1aa0dc: ; 0x1aa0dc
-	text "Nihihi! This GYM"
-	line "is great! Only"
+	text "Hihi! Cette ARENE"
+	line "est géniale! C'est"
 
-	para "girls are allowed"
-	line "here!"
+	para "réservé aux"
+	line "filles! Youpi!"
 	done
 ; 0x1aa115
 
 UnknownText_0x1aa115: ; 0x1aa115
-	text "Want to know a"
-	line "secret?"
+	text "Tu veux connaître"
+	line "un secret?"
 
-	para "CELADON MANSION"
-	line "has a hidden back"
-	cont "door."
+	para "Le MANOIR CELADON"
+	line "a une porte cachée"
+	cont "à l'arrière."
 	done
 ; 0x1aa155
 
 UnknownText_0x1aa155: ; 0x1aa155
-	text "They're holding an"
-	line "eating contest at"
-	cont "the restaurant."
+	text "Il y a un concours"
+	line "de bouffe au"
+	cont "restaurant."
 
-	para "Just watching them"
-	line "go at it makes me"
-	cont "feel bloated<...>"
+	para "Rien que de les"
+	line "regarder me donne"
+	cont "mal au coeur<...>"
 	done
 ; 0x1aa1bd
 
 UnknownText_0x1aa1bd: ; 0x1aa1bd
-	text "CELADON DEPT.STORE"
-	line "has the biggest"
+	text "Le CENTRE COMMER-"
+	line "CIAL de CELADOPOLE"
+	cont "vend de tout."
 
-	para "and best selection"
-	line "of merchandise."
+	para "Si tu n'y trouves"
+	line "pas ce que tu veux"
 
-	para "If you can't get"
-	line "it there, you"
+	para "alors tu ne le"
+	line "trouveras nul"
+	cont "part."
 
-	para "can't get it any-"
-	line "where."
-
-	para "Gee<...> I sound like"
-	line "a sales clerk."
+	para "<...> J'ai l'air d'une"
+	line "vendeuse."
 	done
 ; 0x1aa25b
 
@@ -213,70 +215,77 @@ UnknownText_0x1aa25b: ; 0x1aa25b
 ; 0x1aa306
 
 UnknownText_0x1aa306: ; 0x1aa306
-	text "Looking at the"
-	line "ground while I was"
+	text "J'ai mal au crâne"
+	line "à force de marcher"
 
-	para "walking made me"
-	line "dizzy."
+	para "en regardant par"
+	line "terre<...>"
 	done
 ; 0x1aa340
 
 UnknownText_0x1aa340: ; 0x1aa340
-	text "CELADON CITY"
+	text "CELADOPOLE"
 
-	para "The City of"
-	line "Rainbow Dreams"
+	para "La ville aux rêves"
+	line "arc-en-ciel."
 	done
 ; 0x1aa369
 
 UnknownText_0x1aa369: ; 0x1aa369
-	text "CELADON CITY"
-	line "#MON GYM"
-	cont "LEADER: ERIKA"
+	text "ARENE DE"
+	line "CELADOPOLE"
 
-	para "The Nature-Loving"
-	line "Princess"
+	para "CHAMPIONNE:"
+	line "ERIKA"
+
+	para "La princesse de"
+	line "la nature."
 	done
 ; 0x1aa3a9
 
 UnknownText_0x1aa3a9: ; 0x1aa3a9
-	text "Find What You"
-	line "Need at CELADON"
-	cont "DEPT.STORE!"
+	text "Tout ce dont vous"
+	line "avez besoin!"
+
+	para "CENTRE COMMERCIAL"
+	line "de CELADOPOLE!"
 	done
 ; 0x1aa3d4
 
 UnknownText_0x1aa3d4: ; 0x1aa3d4
-	text "CELADON MANSION"
+	text "MANOIR CELADON"
 	done
 ; 0x1aa3e5
 
 UnknownText_0x1aa3e5: ; 0x1aa3e5
-	text "The Playground for"
-	line "Everybody--CELADON"
-	cont "GAME CORNER"
+	text "Un terrain de jeux"
+	line "pour tous."
+
+	para "CASINO de"
+	line "CELADOPOLE."
 	done
 ; 0x1aa418
 
 UnknownText_0x1aa418: ; 0x1aa418
-	text "ATTENTION"
+	text "VOTRE ATTENTION!"
 
-	para "The BATTLE TENT"
-	line "is closed until"
-	cont "further notice."
+	para "La TENTE de COMBAT"
+	line "est fermée jusqu'à"
+	cont "nouvel ordre!"
 
-	para "Please visit our"
-	line "new facility, the"
-
-	para "BATTLE TOWER,"
-	line "located in JOHTO."
+	para "Veuillez vous ren-"
+	line "dre à la TOUR de"
+	cont "COMBAT situé à"
+	cont "JOHTO."
 	done
 
 MapCeladonCityDoorAjarText:
 	text $56, "?"
 
-	para "The door is ajar."
-	line "Someone's inside!"
+	para "La porte est"
+	line "entrouverte."
+
+	para "Il y a quelqu'un!"
 	done
 ; 0x1aa497
 

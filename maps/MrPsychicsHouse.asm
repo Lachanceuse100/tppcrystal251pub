@@ -31,21 +31,22 @@ MapMrPsychicsHouseSignpost1Script: ; 0x18a795
 UnknownText_0x18a798: ; 0x18a798
 	text "<...>"
 
-	para "<...>"
+	para "<...><...>"
 
-	para "<...>"
+	para "<...><...><...>"
 
-	para "<...>I got it!"
+	para "<...><...><...><...>Ah!"
 
-	para "You wanted this!"
+	para "Tu veux ça?"
 	done
 ; 0x18a7bb
 
 UnknownText_0x18a7bb: ; 0x18a7bb
-	text "TM29 is PSYCHIC."
+	text "CT29: PSYKO"
 
-	para "It may lower the"
-	line "target's SPCL.DEF."
+	para "Il peux baisser la"
+	line "DEFENSE SPECIALE"
+	cont "de l'ennemi."
 	done
 ; 0x18a7f0
 

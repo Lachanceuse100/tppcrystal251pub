@@ -23,26 +23,26 @@ ItemFragment_0x189b6a: ; 0x189b6a
 ; 0x189b6c
 
 UnknownText_0x189b6c: ; 0x189b6c
-	text "Hello!"
+	text "Bonjour!"
 
-	para "KARATE KING, the"
-	line "FIGHTING DOJO's"
+	para "Le ROI du KARATE,"
+	line "le maître du DOJO"
 
-	para "master, is in a"
-	line "cave in JOHTO for"
-	cont "training."
+	para "est dans une grot-"
+	line "te de JOHTO pour"
+	cont "s'entraîner."
 	done
 ; 0x189bc0
 
 UnknownText_0x189bc0: ; 0x189bc0
-	text "What goes around"
-	line "comes around!"
+	text "Le riz il est"
+	line "cuit!"
 	done
 ; 0x189be0
 
 UnknownText_0x189be0: ; 0x189be0
-	text "Enemies on every"
-	line "side!"
+	text "Ennemis de tous"
+	line "les côtés!"
 	done
 ; 0x189bf8
 

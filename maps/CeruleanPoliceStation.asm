@@ -24,24 +24,24 @@ DiglettScript_0x188050: ; 0x188050
 ; 0x18805a
 
 UnknownText_0x18805a: ; 0x18805a
-	text "I heard that some"
-	line "shady character is"
-	cont "skulking about."
+	text "On raconte qu'un"
+	line "drôle de type"
+	cont "rode dans le coin."
 
-	para "I won't stand for"
-	line "it if he turns out"
-	cont "to be a thief."
+	para "Si c'est un vo-"
+	line "leur, ça craint."
 	done
 ; 0x1880c3
 
 UnknownText_0x1880c3: ; 0x1880c3
-	text "We were held up by"
-	line "robbers before."
+	text "Nous avons déjà"
+	line "été cambriolés par"
+	cont "le passé."
 	done
 ; 0x1880e7
 
 UnknownText_0x1880e7: ; 0x1880e7
-	text "DIGLETT: Dug dug."
+	text "TAUPIQUEUR: Taupi!"
 	done
 ; 0x1880fa
 

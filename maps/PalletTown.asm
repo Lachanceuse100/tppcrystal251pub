@@ -40,45 +40,46 @@ MapPalletTownSignpost3Script: ; 0x1ac6e4
 ; 0x1ac6e7
 
 UnknownText_0x1ac6e7: ; 0x1ac6e7
-	text "I'm raising #-"
-	line "MON too."
+	text "J'entraîne des"
+	line "#MON moi aussi."
 
-	para "They serve as my"
-	line "private guards."
+	para "Ce sont mes gardes"
+	line "du corps."
 	done
 ; 0x1ac720
 
 UnknownText_0x1ac720: ; 0x1ac720
-	text "Technology is"
-	line "incredible!"
+	text "Le progrès<...>"
+	line "C'est dingue!"
 
-	para "You can now trade"
-	line "#MON across"
-	cont "time like e-mail."
+	para "Tu peux échanger"
+	line "des #MON à tra-"
+	cont "vers le temps"
+	cont "comme des e-mails."
 	done
 ; 0x1ac76b
 
 UnknownText_0x1ac76b: ; 0x1ac76b
-	text "PALLET TOWN"
+	text "BOURG PALETTE"
 
-	para "A Tranquil Setting"
-	line "of Peace & Purity"
+	para "Calme, paix et"
+	line "pureté."
 	done
 ; 0x1ac79d
 
 UnknownText_0x1ac79d: ; 0x1ac79d
-	text "AIIIAAB'S HOUSE"
+	text "CHEZ AIIIAAB."
 	done
 ; 0x1ac7aa
 
 UnknownText_0x1ac7aa: ; 0x1ac7aa
-	text "OAK #MON"
-	line "RESEARCH LAB"
+	text "LABO #MON du"
+	line "PROF. CHEN."
 	done
 ; 0x1ac7c1
 
 UnknownText_0x1ac7c1: ; 0x1ac7c1
-	text "BLUE'S HOUSE"
+	text "CHEZ BLUE."
 	done
 ; 0x1ac7cf
 

@@ -22,18 +22,19 @@ BuenaScript_0x191f88: ; 0x191f88
 ; 0x191f8b
 
 UnknownText_0x191f8b: ; 0x191f8b
-	text "TEAM ROCKET is no"
-	line "longer in KANTO."
+	text "La TEAM ROCKET"
+	line "n'est plus à"
+	cont "KANTO."
 
-	para "That alone makes"
-	line "me happy."
+	para "Voilà une bonne"
+	line "nouvelle!"
 	done
 ; 0x191fca
 
 UnknownText_0x191fca: ; 0x191fca
-	text "I'm thinking about"
-	line "going shopping in"
-	cont "SAFFRON."
+	text "J'aimerais faire"
+	line "du shopping à"
+	cont "SAFFRANIA."
 	done
 ; 0x191ff8
 

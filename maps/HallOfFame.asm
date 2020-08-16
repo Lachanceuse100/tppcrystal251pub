@@ -77,32 +77,32 @@ MovementData_0x1814a4: ; 0x1814a4
 
 UnknownText_0x1814a6: ; 0x1814a6
 
-	text "OAK: Er-hem!"
-	line "Congratulations"
+	text "CHEN: Hum-hum!"
+	line "Félicitations"
 	cont "<PLAY_G>!"
 
-	para "This floor is the"
-	line "#MON HALL OF"
-	cont "FAME!"
+	para "Cet étage est"
+	line "réservé aux célé-"
+	cont "brités #MON!"
 
-	para "#MON LEAGUE"
-	line "champions are"
-	cont "honored for their"
-	cont "exploits here!"
+	para "Les maîtres de la"
+	line "LIGUE sont consa-"
+	cont "crés ici!"
 
-	para "Their #MON are"
-	line "also recorded in"
-	cont "the HALL OF FAME!"
+	para "Leurs #MON sont"
+	line "enregistrés en"
+	cont "tant que"
+	cont "CELEBRITES!"
 
-	para "<PLAY_G>! You have"
-	line "endeavored hard"
-	cont "to become the new"
-	cont "LEAGUE champion!"
+	para "<PLAY_G>! Ton"
+	line "périple fut long"
+	cont "jusqu'à la"
+	cont "victoire!"
 
-	para "Congratulations,"
-	line "<PLAY_G>, you and"
-	cont "your #MON are"
-	cont "HALL OF FAMERs!"
+	para "Encore bravo."
+	line "Toi et tes chers"
+	cont "#MON êtes tous"
+	cont "célèbres!"
 	done
 
 

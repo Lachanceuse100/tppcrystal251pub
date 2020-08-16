@@ -247,7 +247,7 @@ UnknownText_0x1801f5: ; 0x1801f5
 	line "défi de la LIGUE"
 	cont "#MON?"
 
-	para "Hors de question"
+	para "Hors de question!"
 
 	para "Mes #MON sur-"
 	line "entraînés vont te"

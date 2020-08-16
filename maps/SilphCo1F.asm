@@ -48,53 +48,54 @@ Not300k:
 
 
 UnknownText_0x18ac03: ; 0x18ac03
-	text "Welcome. This is"
-	line "SILPH CO.'s HEAD"
-	cont "OFFICE BUILDING."
+	text "Bienvenue. Voici"
+	line "les BUREAUX de la"
+	cont "SYLPHE SARL."
 	done
 ; 0x18ac36
 
 UnknownText_0x18ac36: ; 0x18ac36
-	text "Only employees are"
-	line "permitted to go"
-	cont "upstairs."
+	text "Seuls les employés"
+	line "peuvent aller à"
+	cont "l'étage supérieur."
 
-	para "But<...>"
+	para "Mais<...>"
 
-	para "I got a few MASTER"
-	line "BALLS I swiped"
-	cont "off the shipment."
+	para "J'ai chipé quel-"
+	line "ques MASTER BALLS"
+	cont "de la cargaison."
 
-	para "I think I can"
-	line "let one vanish"
-	cont "for a<...>"
+	para "Je dois pouvoir en"
+	line "faire disparaître"
+	cont "une pour<...>"
 	
-	para "small fee"
-	line "of ", $f0, "300,000."
+	para "la modique somme"
+	line "de ", $f0, "300,000."
 	done
 ; 0x18aca8
 
 UnknownText_0x18aca8: ; 0x18aca8
-	text "Shame<...>"
+	text "Dommage<...>"
 	done
 
 BoughtMasterBallText:
-	text "Pleasure doing"
-	line "business with you!"
+	text "Au plaisir de"
+	line "faire affaire avec"
+	cont "toi!"
 
-	para "Don't waste it on"
-	line "a GOLDEEN!"
+	para "Ne le gaspille pas"
+	line "sur un POISSIRENE!"
 	done
 
 Not300kText:
-	text "No money?"
-	line "Shame<...>"
+	text "Pas d'argent?"
+	line "Dommage<...>"
 	done
 
 MasterBallBagFullText:
-	text "I can't get it in"
-	line "your PACK, make"
-	cont "some space."
+	text "Elle rentre pas"
+	line "dans ton SAC, fais"
+	cont "un peu de place."
 	done
 ; 0x18ace7
 

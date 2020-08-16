@@ -22,29 +22,27 @@ RockerScript_0x7eb26: ; 0x7eb26
 ; 0x7eb29
 
 UnknownText_0x7eb29: ; 0x7eb29
-	text "REPEL is a neces-"
-	line "sity if you are"
+	text "Le REPOUSSE est"
+	line "utile pour explo-"
+	cont "rer une caverne."
 
-	para "going to explore a"
-	line "cave."
-
-	para "Even though I like"
-	line "exploring, I still"
-
-	para "haven't made it to"
-	line "all the caves."
+	para "J'adore me bala-"
+	line "der, mais je n'ai"
+	cont "pas encore tout"
+	cont "vu."
 	done
 ; 0x7ebac
 
 UnknownText_0x7ebac: ; 0x7ebac
-	text "I heard about a"
-	line "craftsman who"
+	text "On m'a parlé d'un"
+	line "artisan qui fabri-"
 
-	para "makes custom BALLS"
-	line "in the JOHTO town"
+	para "que des # BALLS"
+	line "à ECORCIA, à"
 
-	para "of AZALEA. I wish"
-	line "I had some."
+	para "JOHTO. J'aimerais"
+	line "bien qu'il m'en"
+	cont "fabrique<...>"
 	done
 ; 0x7ec0e
 

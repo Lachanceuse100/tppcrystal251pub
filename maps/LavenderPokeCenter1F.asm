@@ -37,50 +37,52 @@ UnknownScript_0x7e6b7: ; 0x7e6b7
 ; 0x7e6bd
 
 UnknownText_0x7e6bd: ; 0x7e6bd
-	text "To the north of"
-	line "LAVENDER is ROCK"
+	text "Au nord de LAVAN-"
+	line "VILLE se trouve la"
 
-	para "TUNNEL. Go through"
-	line "it to get to the"
-	cont "POWER PLANT."
+	para "GROTTE. Traverse-"
+	line "la pour accéder"
+	cont "à la CENTRALE."
 	done
 ; 0x7e710
 
 UnknownText_0x7e710: ; 0x7e710
-	text "There's a radio"
-	line "program that plays"
-	cont "# FLUTE music."
+	text "Une émission de"
+	line "radio diffuse des"
+	cont "mélodies jouées à"
+	cont "la # FLUTE."
 
-	para "Oh? Ah, your radio"
-	line "needs an EXPN CARD"
-	cont "to tune into it."
+	para "Oh? Il faut un"
+	line "CPN EXPAN. à ta"
+	cont "radio pour pouvoir"
+	cont "l'écouter."
 	done
 ; 0x7e779
 
 UnknownText_0x7e779: ; 0x7e779
-	text "If the POWER PLANT"
-	line "isn't running, the"
+	text "Si la CENTRALE ne"
+	line "marche pas, le"
 
-	para "MAGNET TRAIN won't"
-	line "run either<...>"
+	para "TRAIN MAGNET ne"
+	line "peut pas circuler."
 
-	para "It also means the"
-	line "RADIO STATION"
-	cont "can't broadcast<...>"
+	para "La STATION RADIO"
+	line "ne peut rien"
+	cont "émettre non plus<...>"
 	done
 ; 0x7e7ed
 
 UnknownText_0x7e7ed: ; 0x7e7ed
-	text "The DIRECTOR of"
-	line "the RADIO STATION"
-	cont "sure was happy."
+	text "Le DIRECTEUR de la"
+	line "STATION de RADIO"
+	cont "était content."
 
-	para "He said they're"
-	line "back on the air"
+	para "Il dit que les"
+	line "émissions peuvent"
 
-	para "because the POWER"
-	line "PLANT is running"
-	cont "smoothly again."
+	para "reprendre depuis"
+	line "la réparation de"
+	cont "la CENTRALE."
 	done
 ; 0x7e872
 

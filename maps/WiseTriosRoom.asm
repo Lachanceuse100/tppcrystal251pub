@@ -279,7 +279,7 @@ SageGakuSeenText: ; 0x987ed
 SageGakuBeatenText: ; 0x98914
 	text "Beau combat, mais"
 	line "ce n'est que le"
-	cont "début<...>w"
+	cont "début<...>"
 	done
 ; 0x98938
 
@@ -320,7 +320,7 @@ UnknownText_0x98a35: ; 0x98a35
 	line "qui pouvait éveil-"
 
 	para "ler les #MON,"
-	line "et la TOUR FER-,"
+	line "et la TOUR FER-"
 
 	para "RAILLE où les"
 	line "#MON se"
@@ -342,7 +342,7 @@ UnknownText_0x98a35: ; 0x98a35
 	para "Cependant<...>"
 
 	para "Il y a 150 ans,"
-	line "un éclair frappe"
+	line "un éclair frappa"
 	cont "l'une des TOURS."
 
 	para "Elle prit feu et"

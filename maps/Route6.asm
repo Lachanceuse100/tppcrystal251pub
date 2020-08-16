@@ -73,67 +73,68 @@ MapRoute6Signpost0Script: ; 0x1ad954
 ; 0x1ad957
 
 UnknownText_0x1ad957: ; 0x1ad957
-	text "The road is closed"
-	line "until the problem"
+	text "La route sera"
+	line "fermée tant que le"
 
-	para "at the POWER PLANT"
-	line "is solved."
+	para "problème à la"
+	line "CENTRALE ne sera"
+	cont "pas résolu."
 	done
 ; 0x1ad99b
 
 UnknownText_0x1ad99b: ; 0x1ad99b
-	text "UNDERGROUND PATH"
+	text "SOUTERRAIN"
 
-	para "CERULEAN CITY -"
-	line "VERMILION CITY"
+	para "AZURIA -"
+	line "CARMIN SUR MER"
 	done
 ; 0x1ad9cc
 
 PokefanmRexSeenText: ; 0x1ad9cc
-	text "My PONYTA is the"
-	line "cutest in the"
-	cont "world."
+	text "Mon PONYTA est le"
+	line "plus mignon du"
+	cont "monde!"
 	done
 ; 0x1ad9f3
 
 PokefanmRexBeatenText: ; 0x1ad9f3
-	text "Dad: My PONYTA!"
+	text "Père: Mon PONYTA!"
 
-	para "Son: Please dad<...>"
+	para "Fils: Papa, stop<...>"
 	done
 ; 0x1ad9ff
 
 UnknownText_0x1ad9ff: ; 0x1ad9ff
-	text "Look how adorable"
-	line "my PONYTA acts!"
+	text "Mon PONYTA est"
+	line "adorable!"
 
-	para "Much cuter than"
-	line "any BELLSPROUT."
+	para "Plus mignon qu'un"
+	line "CHETIFLOR!"
 	done
 ; 0x1ada4f
 
 PokefanmAllanSeenText: ; 0x1ada4f
-	text "My BELLSPROUT is"
-	line "the cutest in the"
-	cont "world."
+	text "Mon CHETIFLOR est"
+	line "le plus mignon du"
+	cont "monde!"
 	done
 ; 0x1ada79
 
 PokefanmAllanBeatenText: ; 0x1ada79
-	text "Dad: BELLSPROUT!"
-	line "No!!"
+	text "Père: CHETIFLOR!"
+	line "Non!!!"
 
-	para "Son: How embar-"
-	line "rassing, Dad<...>"
+	para "Fils: Papa, c'est"
+	line "gênant<...>"
 	done
 ; 0x1ada88
 
 UnknownText_0x1ada88: ; 0x1ada88
-	text "Look how adorable"
-	line "my BELLSPROUT is!"
+	text "Mon CHETIFLOR est"
+	line "adorable!"
 
-	para "Much cuter than"
-	line "any PONYTA."
+	para "Plus mignon qu'un"
+	line "PONYTA!"
 	done
 ; 0x1adadb
 

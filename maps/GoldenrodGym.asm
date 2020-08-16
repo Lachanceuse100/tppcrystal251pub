@@ -335,8 +335,8 @@ WhitneyRematchBeatenText:
 	done
 
 WhitneyAfterRematchText:
-	text "Tu es encore si"
-	line "dur<...>"
+	text "Tu es encore trop"
+	line "pour moi<...>"
 
 	para "J'ai du mal à"
 	line "croire à quel"
@@ -361,7 +361,7 @@ UnknownText_0x541a5: ; 0x541a5
 	cont "sérieux!"
 	
 	para "Tu es très jeune"
-	cont "après tout!"
+	line "après tout!"
 	done
 ; 0x541f4
 
@@ -452,7 +452,7 @@ LassCarrieBeatenText: ; 0x543d6
 
 LassCarrieOWText: ; 0x543f6
 	text "Tu ne trouves pas"
-	line "mes #MON"
+	line "mes #MON trop"
 	cont "mignons?"
 	done
 ; 0x54411

@@ -37,35 +37,34 @@ PokefanMScript_0x1a2efa: ; 0x1a2efa
 ; 0x1a2f01
 
 UnknownText_0x1a2f01: ; 0x1a2f01
-	text "<...>Yeah, and the"
-	line "GYM in CINNABAR's"
+	text "<...>Ouais et l'ARENE"
+	line "de CRAMOIS'ILE a"
+	cont "disparu en plus<...>"
 
-	para "gone. I was really"
-	line "amazed."
-
-	para "<...>Yes? I'm on the"
-	line "phone. Go away!"
+	para "<...>Quoi? Je suis au"
+	line "téléphone, là!"
 	done
 ; 0x1a2f5d
 
 UnknownText_0x1a2f5d: ; 0x1a2f5d
-	text "JIGGLYPUFF: Puu"
-	line "pupuu."
+	text "RONDOUDOU: Douu!"
+	line "Doudoudou!"
 	done
 ; 0x1a2f75
 
 UnknownText_0x1a2f75: ; 0x1a2f75
-	text "Most #MON get"
-	line "drowsy if they"
+	text "La plupart des"
+	line "#MON s'endor-"
 
-	para "hear a JIGGLYPUFF"
-	line "singing."
+	para "ment en entendant"
+	line "RONDOUDOU chanter."
 
-	para "I hear there's a"
-	line "move that can be"
+	para "Certaines capaci-"
+	line "tés ne sont à uti-"
 
-	para "used only while a"
-	line "#MON is asleep."
+	para "liser seulement"
+	line "lorsqu'un #-"
+	cont "MON est endormi."
 	done
 ; 0x1a2ff4
 

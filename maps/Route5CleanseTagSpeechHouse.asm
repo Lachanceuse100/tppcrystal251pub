@@ -33,33 +33,33 @@ MapRoute5CleanseTagSpeechHouseSignpost1Script: ; 0x18b652
 ; 0x18b655
 
 UnknownText_0x18b655: ; 0x18b655
-	text "Eeyaaaah!"
+	text "Yaaaah!"
 
-	para "I sense a sinister"
-	line "shadow hovering"
-	cont "over you."
+	para "Je sens une pré-"
+	line "sence maléfique"
+	cont "planer sur toi."
 
-	para "Take this to ward"
-	line "it off!"
+	para "Prends donc ce"
+	line "talisman!"
 	done
 ; 0x18b6a7
 
 UnknownText_0x18b6a7: ; 0x18b6a7
-	text "You were in mortal"
-	line "danger, but you"
-	cont "are protected now."
+	text "La mort rôdait sur"
+	line "ton âme<...> Mais ça"
+	cont "ira maintenant."
 	done
 ; 0x18b6de
 
 UnknownText_0x18b6de: ; 0x18b6de
-	text "My grandma is into"
-	line "warding off what"
+	text "Ma mémé est a fond"
+	line "sur les délires"
 
-	para "she believes to be"
-	line "evil spirits."
+	para "paranormaux."
+	line "Excuse-la."
 
-	para "I'm sorry that she"
-	line "startled you."
+	para "Elle a dû te faire"
+	line "peur, je parie."
 	done
 ; 0x18b744
 

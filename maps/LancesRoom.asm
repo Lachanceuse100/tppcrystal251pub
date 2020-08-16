@@ -237,8 +237,10 @@ UnknownText_0x180f67: ; 0x180f67
 ; 0x1810a4
 
 UnknownText_0x1810a4: ; 0x1810a4
-	text "<...>C'est fini"
+	text "<...>"
 
+	para "C'est fini<...>"
+	
 	para "Je me sens<...>"
 	line "Bizarre<...>"
 
@@ -249,7 +251,7 @@ UnknownText_0x1810a4: ; 0x1810a4
 	para "Heureux d'être le"
 	line "témoin de la nais-"
 
-	para "saince d'un nouveau"
+	para "sance d'un nouveau"
 	line "MAITRE!"
 	done
 ; 0x181132
@@ -259,7 +261,7 @@ UnknownText_0x181132: ; 0x181132
 	text "<...>Woah!"
 
 	para "Tu es devenu in-"
-	line "croyable, <PLAY_G>"
+	line "croyable, <PLAY_G>!"
 
 	para "Toi et tes #MON"
 	line "êtes en parfaite"

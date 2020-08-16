@@ -29,23 +29,27 @@ UnknownScript_0x9b862: ; 0x9b862
 ; 0x9b865
 
 UnknownText_0x9b865: ; 0x9b865
-	text "Hi! Wow, I'm glad"
-	line "to see you."
+	text "Hé! J'suis content"
+	line "de te voir."
 
-	para "I'm super-happy!"
-	line "Let me give you a"
-	cont "little present."
+	para "Ca fait longtemps"
+	line "qu'on ne m'a pas"
+	cont "rendu visite."
+
+	para "Un petit cadeau"
+	line "pour toi!"
 	done
 ; 0x9b8e5
 
 UnknownText_0x9b8e5: ; 0x9b8e5
-	text "That's a NUGGET."
+	text "C'est une PEPITE."
 
-	para "I can't give you"
-	line "any nuggets of"
+	para "Je ne peux pas"
+	line "t'offrir des pépi-"
+	cont "tes de sagesse,"
 
-	para "wisdom, so that'll"
-	line "have to do!"
+	para "alors ça fera"
+	line "l'affaire!"
 	done
 ; 0x9b933
 

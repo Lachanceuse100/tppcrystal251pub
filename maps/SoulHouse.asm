@@ -23,55 +23,55 @@ GrannyScript_0x7ec50: ; 0x7ec50
 ; 0x7ec53
 
 UnknownText_0x7ec53: ; 0x7ec53
-	text "MR.FUJI: Welcome."
+	text "M.FUJI: Bienvenue."
 
-	para "Hmm<...> You appear to"
-	line "be raising your"
+	para "Hmm<...> Tu as l'air"
+	line "d'être un dresseur"
 
-	para "#MON in a kind"
-	line "and loving manner."
+	para "de #MON doux et"
+	line "attentionné."
 
-	para "#MON lovers"
-	line "come here to pay"
+	para "Ceux qui aiment"
+	line "les #MON vien-"
 
-	para "their respects to"
-	line "departed #MON."
+	para "nent ici saluer"
+	line "leur âme."
 
-	para "Please offer con-"
-	line "dolences for the"
+	para "Tu peux présenter"
+	line "ici tes condoléan-"
+	cont "ces."
 
-	para "souls of the de-"
-	line "parted #MON."
-
-	para "I'm sure that will"
-	line "make them happy."
+	para "Cela leur fera"
+	line "plaisir."
 	done
 ; 0x7ed4d
 
 UnknownText_0x7ed4d: ; 0x7ed4d
-	text "There are other"
-	line "graves of #MON"
-	cont "here, I think."
+	text "Il y a d'autres"
+	line "tombes de #MON"
+	cont "ici, je crois."
 
-	para "There are many"
-	line "chambers that only"
-	cont "MR.FUJI may enter."
+	para "Beaucoup de pièces"
+	line "ne sont réservées"
+	cont "qu'à M.FUJI."
 	done
 ; 0x7edb1
 
 UnknownText_0x7edb1: ; 0x7edb1
-	text "I came with my mom"
-	line "to visit #MON"
-	cont "graves<...>"
+	text "Je suis venue avec"
+	line "ma maman pour voir"
+	cont "les tombes des"
+	cont "#MON<...>"
 	done
 ; 0x7eddb
 
 UnknownText_0x7eddb: ; 0x7eddb
-	text "The #MON that"
-	line "lived with me<...>"
+	text "Les #MON que"
+	line "j'ai perdu<...>"
 
-	para "I loved them like"
-	line "my grandchildren<...>"
+	para "Je les aimais com-"
+	line "me mes petits-"
+	cont "enfants<...>"
 	done
 ; 0x7ee1d
 

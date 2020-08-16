@@ -43,28 +43,29 @@ MapBattleTentRuinsMonitorScript3:
 
 ; <text goes here>
 MapBattleTentRuinsDoorText:
-	text "It's locked<...>"
+	text "C'est fermé<...>"
 	done
 
 MapBattleTentRuinsMonitorText1:
-	text "SYSTEM OFFLINE<...>"
+	text "SYSTEME ETEINT<...>"
 
-	para "REASON:"
-	line "POWER OUTAGE"
+	para "RAISON:"
+	line "COUPURE DE COURANT"
 
 	done
 
 MapBattleTentRuinsMonitorText2:
-	text "LOCKDOWN INITIATED"
+	text "VEROUILLAGE"
+	line "ENCLENCHE"
 
-	para "REASON:"
-	line "GENERATOR FAILURE"
+	para "RAISON:"
+	line "ECHEC GENERATEUR"
 
 	done
 
 MapBattleTentRuinsMonitorText3:
-	text "SYSTEM STATUS:"
-	line "NORMAL"
+	text "STATUT DU SYSTEME:"
+	line "O.K."
 	done
 
 BattleTentRuins_MapEventHeader: ; -- Required

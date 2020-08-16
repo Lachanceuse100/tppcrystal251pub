@@ -460,7 +460,7 @@ UnknownText_0x1a50d7: ; 0x1a50d7
 
 	para "Je ferai plus"
 	line "attention la pro-"
-	cont "chaine fois"
+	cont "chaine fois."
 	done
 ; 0x1a5136
 

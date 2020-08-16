@@ -409,10 +409,11 @@ UnknownText_0x5c1d3: ; 0x5c1d3
 	text "Regarde mon sac!"
 
 	para "J'ai imprimé mes"
-	line "préférés de mon"
+	line "#MON préférés"
 
-	para "#DEX et je les ais"
-	line "mis sur mon sac."
+	para "de mon #DEX et"
+	line "je les ais collés"
+	cont "à mon sac!"
 	done
 ; 0x5c22e
 

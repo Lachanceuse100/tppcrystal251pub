@@ -64,38 +64,40 @@ MovementData_0x196486: ; 0x196486
 ; 0x196494
 
 UnknownText_0x196494: ; 0x196494
-	text "Badges are proof"
-	line "of your skill as"
-	cont "a trainer."
+	text "Les badges sont la"
+	line "preuve de ton ta-"
+	cont "lent en tant que"
+	cont "dresseur."
 
-	para "This skill lets"
-	line "you command newly"
-	cont "caught #MON as"
-	cont "if they were"
-	cont "trained."
+	para "Ca te permet de"
+	line "commander des"
+	cont "#MON tout juste"
+	cont "attrapés comme si"
+	cont "ils étaient"
+	cont "entraînés!"
 
 	done
 ; 0x1964dc
 
 UnknownText_0x1964dc: ; 0x1964dc
-	text "I got quite a"
-	line "shock at the GYM."
+	text "J'ai cru halluci-"
+	line "ner en allant à"
+	cont "l'ARENE!"
 
-	para "There were all"
-	line "these girls who"
-	cont "looked identical."
+	para "Toutes les filles"
+	line "ont l'air pareil."
 	done
 ; 0x19652e
 
 UnknownText_0x19652e: ; 0x19652e
-	text "I'm JANINE! Hocus-"
-	line "pocus<...> Poof!"
+	text "Je suis JEANNINE!"
+	line "Abrakadabra!"
 	done
 ; 0x19654e
 
 UnknownText_0x19654e: ; 0x19654e
-	text "See? I look just"
-	line "like her now!"
+	text "Tu vois? Je lui"
+	line "ressemble, non?"
 	done
 ; 0x19656e
 

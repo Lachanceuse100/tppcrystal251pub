@@ -123,15 +123,14 @@ PickUpResearchNotesScript:
 	end
 
 PickedUpNotesText:
-	text "<PLAY_G> found"
-	line "RESEARCH NOTES!"
+	text "<PLAY_G> trouve"
+	line "les RECHERCHES!"
 	done
 
 SimonText1_Lab:
-	text "Man, it's hot down"
-	line "here<...>"
+	text "Il fait chaud ici<...>"
 
-	para "I wonder if<...>"
+	para "Je me demande si<...>"
 	done
 
 Mewtwo_Lab:
@@ -143,82 +142,83 @@ SimonText2_Lab:
 	done
 
 SimonText3_Lab:
-	text "What? You again!"
+	text "Hein, encore toi?"
 
-	para "Help me out here,"
-	line "kid!"
+	para "Viens m'aider,"
+	line "morveux!"
 	done
 
 SimonText4_Lab:
-	text "Is<...> is that thing"
-	line "gone?"
+	text "Ce<...> Ce truc est"
+	line "parti?"
 
-	para "What was that?"
+	para "Qu'est-ce que"
+	line "c'était?"
 	done
 
 SimonText4a_Lab:
-	text "And what are YOU"
-	line "doing here too?"
+	text "Et qu'est-ce que"
+	line "TU fais ici?"
 	
-	para "Me? What am I"
-	line "down here for?"
+	para "Hein? Et moi?"
+
+	para "Tu te souviens du"
+	line "bâtiment abandonné"
 	
-	para "Remember that ab-"
-	line "andoned building"
+	para "dont je t'ai"
+	line "parlé?"
+
+	para "Ben<...>"
+
+	para "Voilà ce qu'il en"
+	line "reste<...>"
+
+	para "Je veux croire que"
+	line "mon partenaire"
+	cont "s'en est sorti"
 	
-	para "I mentioned a bit"
-	line "earlier?"
+	para "avant que le vol-"
+	line "can n'ait explosé"
 
-	para "Well<...>"
-
-	para "You're looking at"
-	line "what's left of it<...>"
-
-	para "I like to believe"
-	line "my partner made it"
-
-	para "out before the"
-	line "volcano blew<...>"
-
-	para "So I came back to"
-	line "keep looking."
+	para "Alors je suis re-"
+	line "venu chercher ici."
 	done
 
 SimonText5_Lab:
 	
-	text "I still can't find"
-	line "a single trace"
-	cont "of him though<...>"
+	text "Mais je ne trouve"
+	line "toujours pas sa"
+	cont "trace<...>"
 	done
 
 SimonText6_Lab:
 
-	text "Guess I'll just"
-	line "have to keep"
-	cont "searching!"
+	text "Il faut que je"
+	line "continue de"
+	cont "chercher!"
 
-	para "<PLAYER>, right?"
+	para "<PLAYER>, c'est ça?"
 
-	para "I'll see ya around"
-	line "elsewhere, bud!"
+	para "On se reverra!"
 	done
 
 GotResearchNotesText:
-	text "<PLAYER> found"
-	line "RESEARCHNOTE!"
+	text "<PLAYER> trouve"
+	line "les RECHERCHES!"
 	done
 
 TooFullForResearchNotes:
-	text "<PLAYER> found"
-	line "RESEARCHNOTE!"
+	text "<PLAYER> trouve"
+	line "les RECHERCHES!"
 
-	para "But the bag is"
-	line "full<...>"
+	para "Mais le sac est"
+	line "plein<...>"
 	done
 
 SimonText2_CinnabarVolcanoB3F:
-	text "I want to be"
-	line "alone for a while."
+	text "Je veux être un"
+	line "peu seul s'il te"
+	cont "plait<...>"
 	done
 
 MoveSimonToPath:

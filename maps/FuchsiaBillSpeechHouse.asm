@@ -15,18 +15,18 @@ YoungsterScript_0x1963c0: ; 0x1963c0
 ; 0x1963c3
 
 UnknownText_0x1963c3: ; 0x1963c3
-	text "My grandpa is at "
-	line "my brother BILL's"
-	cont "on CERULEAN CAPE."
+	text "Mon pépé est chez"
+	line "mon frère LEO au"
+	cont "CAP d'AZURIA."
 	done
 ; 0x1963f9
 
 UnknownText_0x1963f9: ; 0x1963f9
-	text "I saw a swarm of"
-	line "BEEDRILL on"
-	cont "CYCLING ROAD."
+	text "J'ai vu une horde"
+	line "de DARDARGNAN sur"
+	cont "la PISTE CYCLABLE."
 
-	para "It was scary."
+	para "J'ai eu peur!"
 	done
 ; 0x196428
 

@@ -297,7 +297,7 @@ MenuData2_0x56db8: ; 0x56db8
 	db $80 ; flags
 	db 4 ; items
 	db "PORYGON    2000@"
-	db "LOHKLASS   2000@"
+	db "LOKHLASS   2000@"
 	db "TADMORV     500@"
 	db "ANNULER@"
 ; 0x56df1

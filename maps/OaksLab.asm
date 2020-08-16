@@ -64,60 +64,62 @@ RematchCheck:
 	end
 
 OakBeforeBattle:
-	text "To defeat all 16"
-	line "GYM LEADERS"
+	text "Battre les 16"
+	line "CHAMPIONS d'ARENE"
 
-	para "without handicaps"
-	line "is a rare feat."
+	para "sans handicap est"
+	line "un exploit très"
+	cont "rare."
 
-	para "The ELITE FOUR"
-	line "saw your potential"
+	para "Le CONSEIL des 4 à"
+	line "vu ton potentiel"
 
-	para "and asked me to"
-	line "test you."
+	para "et m'a demandé de"
+	line "te mettre à"
+	cont "l'épreuve."
 
-	para "So far you have"
-	line "passed, but there"
+	para "Jusqu'ici tu as"
+	line "prouvé ta valeur"
 
-	para "is one more foe"
-	line "you must defeat."
+	para "mais tu as encore"
+	line "un adversaire à"
+	cont "battre."
 
-	para "Do not hold back."
+	para "Ne te retient pas."
 
 	done
 
 OakAfterBattle:
-	text "Well done."
-	line "That was an"
-	cont "amazing battle."
+	text "Bravo."
+	line "Ce fut un beau"
+	cont "combat."
 
-	para "The ELITE FOUR"
-	line "challenge you,"
+	para "Le CONSEIL des 4"
+	line "va te défier en"
 
-	para "this time using"
-	line "their strongest"
-	cont "teams."
+	para "utilisant cette"
+	line "fois leurs meil-"
+	cont "leurs équipes."
 
-	para "They await at"
-	line "INDIGO PLATEAU."
+	para "Ils attendent au"
+	line "PLATEAU INDIGO."
 
 	done
 
 OakDefeated:
-	text "Wow, I'm"
-	line "speechless!"
+	text "Je suis sans voix!"
 
-	para "You are as good as"
-	line "they say you are."
+	para "Tes exploits n'ont"
+	line "rien d'éxagéré!"
 
 	done
 
 OakAfterDefeatText:
-	text "The ELITE FOUR"
-	line "await at INDIGO"
-	cont "PLATEAU."
+	text "Le CONSEIL des 4"
+	line "t'attendent au"
+	cont "PLATEAU INDIGO."
 
-	para "Good luck!"
+	para "Bonne chance!"
 	done
 
 OakAfterDefeat: ; 0x19b3ea
@@ -146,9 +148,8 @@ OakAfterE4:
 	end
 
 OakAfterE4Text:
-	text "Keep it up! Soon"
-	line "you'll have caught"
-	cont "them all!"
+	text "Continue! Attrape-"
+	line "les tous!"
 	done
 
 OakAfterAll:
@@ -158,9 +159,9 @@ OakAfterAll:
 	end
 
 OakAfterAllText:
-	text "The path to"
-	line "MT.SILVER lies"
-	cont "west of ROUTE 22."
+	text "Le MONT ARGENT est"
+	line "à l'est de la"
+	cont "ROUTE 22."
 	done
 
 UnknownScript_0x19b3ea: ; 0x19b3ea
@@ -195,17 +196,17 @@ PGKOak_FullDex
 	end
 
 OakDexButNotE4Text:
-	text "Whoa! A perfect"
-	line "#DEX! I've"
+	text "Un #DEX par-"
+	line "fait! J'en ai"
 
-	para "dreamt about this!"
-	line "Congratulations!"
+	para "toujours rêvé!"
+	line "Félicitations!"
 
-	para "Remember to"
-	line "get a DIPLOMA"
-	para "from CELADON as"
-	line "proof of your"
-	cont "accomplishment."
+	para "Pense à chercher"
+	line "un DIPLOME à"
+	para "CELADOPOLE en ré-"
+	line "compense de ton"
+	cont "exploit."
 	done
 
 OakLabUnlock28:
@@ -271,194 +272,190 @@ MapOaksLabSignpost15Script: ; 0x19b424
 ; 0x19b427
 
 UnknownText_0x19b427: ; 0x19b427
-	text "OAK: Ah, <PLAY_G>!"
-	line "Welcome home!"
+	text "CHEN: Ah, <PLAY_G>!"
+	line "Bienvenue à la"
+	cont "maison!"
 
-	para "You've been away"
-	line "for such a long"
-	cont "time."
+	para "Tu as été absent"
+	line "un bon moment."
 
-	para "What do you think"
-	line "of the trainers"
-	cont "around here?"
+	para "Que penses-tu des"
+	line "dresseurs par ici?"
 
-	para "You're not the"
-	line "only one who's"
-	cont "gotten stronger!"
+	para "Il n'y a pas que"
+	line "toi qui te sois"
+	cont "entraîné sans"
+	cont "relache!"
 	done
 ; 0x19b4a2
 
 UnknownText_0x19b4a2: ; 0x19b4a2
-	text "How is your #-"
-	line "DEX coming?"
+	text "Ou en est ton"
+	line "#DEX?"
 
-	para "Let's see<...>"
+	para "Voyons voir<...>"
 	done
 ; 0x19b4c8
 
 UnknownText_0x19b4c8: ; 0x19b4c8
-	text "Come back once you"
-	line "defeat all 16 GYM"
-
-	para "LEADERs at their"
-	line "best."
+	text "Reviens lorsque tu"
+	line "auras battu les 16"
+	cont "CHAMPIONS d'ARENE"
 	done
 ; 0x19b4fc
 
 UnknownText_0x19b4c8_2: ; 0x19b4c8
-	text "Come back once you"
-	line "collect all 16 GYM"
-	cont "BADGES."
+	text "Reviens lorsque tu"
+	line "auras les 16"
+	cont "BADGES d'ARENE."
 	done
 
 UnknownText_0x19b4fc: ; 0x19b4fc
-	text "OAK: Wow! That's"
-	line "excellent!"
+	text "CHEN: Excellent!"
 
-	para "You collected the"
-	line "BADGES of GYMS in"
-	cont "KANTO. Well done!"
+	para "Tu as tous les"
+	line "BADGES des ARENES"
+	cont "de KANTO!"
 
-	para "I was right in my"
-	line "assessment of you."
+	para "Je ne m'étais pas"
+	line "trompé sur toi."
 
 	para "Hmm<...>"
 
-	para "Now that you have"
-	line "proven yourself as"
+	para "Maintenant que tu"
+	line "as prouvé ta"
+	cont "valeur<...>"
 
-	para "a truly remar-"
-	line "kable TRAINER<...>"
+	para "Les CHAMPIONS"
+	line "d'ARENE voudraient"
+	cont "te mettre à l'é-"
+	para "preuve."
 
-	para "The GYM LEADERS"
-	line "may want to test"
+	para "Si tu arrives à"
+	line "les battre sans"
 
-	para "again, no holds"
-	line "barred."
-
-	para "If you manage to"
-	line "defeat them all at"
-
-	para "their best, come"
-	line "back and see me."
+	para "handicap, reviens"
+	line "me voir."
 	done
 ; 0x19b6a2
 
 UnknownText_0x19b6a2: ; 0x19b6a2
-	text "OAK: Hmm? You're"
-	line "not collecting"
-	cont "KANTO GYM BADGES?"
+	text "CHEN: Tu ne pars"
+	line "pas à la quête des"
+	cont "BADGES de KANTO?"
 
-	para "The GYM LEADERS in"
-	line "KANTO are as tough"
+	para "Les CHAMPIONS"
+	line "d'ARENE de KANTO"
 
-	para "as any you battled"
-	line "in JOHTO."
+	para "sont aussi forts"
+	line "que ceux de JOHTO."
 
-	para "I recommend that"
-	line "you challenge"
-	cont "them."
+	para "Tu devrais tenter"
+	line "ta chance face à"
+	cont "eux."
 	done
 ; 0x19b73c
 
 UnknownText_0x19b73c: ; 0x19b73c
-	text "OAK: Ah, you're"
-	line "collecting KANTO"
-	cont "GYM BADGES."
+	text "CHEN: Tu"
+	line "collectionnes les"
+	cont "BADGES de KANTO."
 
-	para "I imagine that"
-	line "it's hard, but the"
+	para "Cela doit être"
+	line "difficile, mais tu"
 
-	para "experience is sure"
-	line "to help you."
+	para "as beaucoup"
+	line "d'expérience à"
+	cont "présent."
 
-	para "Come see me when"
-	line "you get them all."
+	para "Viens me voir si"
+	line "tu les as tous."
 
-	para "I'll have a gift"
-	line "for you."
+	para "J'aurai un cadeau"
+	line "pour toi."
 
-	para "Keep trying hard,"
+	para "Bonne chance,"
 	line "<PLAY_G>!"
 	done
 ; 0x19b7fb
 
 UnknownText_0x19b7fb: ; 0x19b7fb
-	text "The PROF's #MON"
-	line "TALK radio program"
+	text "La CHRONIQUE #"
+	line "MON du PROF.CHEN"
 
-	para "isn't aired here"
-	line "in KANTO."
+	para "ne passe pas ici,"
+	line "à KANTO."
 
-	para "It's a shame--I'd"
-	line "like to hear it."
+	para "C'est bête<...>"
+	line "Je l'aime tant."
 	done
 ; 0x19b859
 
 UnknownText_0x19b859: ; 0x19b859
-	text "Thanks to your"
-	line "work on the #-"
-	cont "DEX, the PROF's"
-
-	para "research is coming"
-	line "along great."
+	text "Grâce à ton tra-"
+	line "vail sur le #-"
+	
+	para "DEX, les recher-"
+	para "ches du PROF ont"
+	line "bien progressé."
 	done
 ; 0x19b8a7
 
 UnknownText_0x19b8a7: ; 0x19b8a7
-	text "Don't tell anyone,"
-	line "but PROF.OAK'S"
+	text "Ne le répète pas,"
+	line "mais la CHRONIQUE"
 
-	para "#MON TALK isn't"
-	line "a live broadcast."
+	para "#MON du PROF."
+	line "CHEN n'est pas en"
+	cont "direct."
 	done
 ; 0x19b8ea
 
 UnknownText_0x19b8ea: ; 0x19b8ea
-	text "Press START to"
-	line "open the MENU."
+	text "Appuie sur START"
+	line "pour ouvrir le"
+	cont "MENU!"
 	done
 ; 0x19b909
 
 UnknownText_0x19b909: ; 0x19b909
-	text "The SAVE option is"
-	line "on the MENU."
-
-	para "Use it in a timely"
-	line "manner."
+	text "L'option pour"
+	line "sauvegarder est"
+	cont "dans le MENU!"
 	done
 ; 0x19b945
 
 UnknownText_0x19b945: ; 0x19b945
-	text "There's nothing in"
-	line "here<...>"
+	text "Il n'y a rien"
+	line "ici<...>"
 	done
 ; 0x19b95e
 
 UnknownText_0x19b95e: ; 0x19b95e
-	text "There's an e-mail"
-	line "message on the PC."
+	text "Il y a un e-mail"
+	line "sur le PC."
 
 	para "<...>"
 
-	para "PROF.OAK, how is"
-	line "your research"
-	cont "coming along?"
+	para "PROF.CHEN, comment"
+	line "avance vos"
+	cont "recherches?"
 
-	para "I'm still plugging"
-	line "away."
+	para "Moi, je bosse"
+	line "comme un barbare."
 
-	para "I heard rumors"
-	line "that <PLAY_G> is"
+	para "On racontre que"
+	line "<PLAY_G> se fait"
 
-	para "getting quite a"
-	line "reputation."
+	para "une sacré réputa-"
+	line "tion à KANTO."
 
-	para "I'm delighted to"
-	line "hear that."
+	para "Ca fait plaisir"
+	line "à entendre."
 
-	para "ELM in NEW BARK"
-	line "TOWN 8-)"
+	para "ORME du BOURG"
+	line "GEON."
+	cont "8-)"
 	done
 ; 0x19ba33
 

@@ -71,54 +71,56 @@ BrockReject:
 	end
 
 BrockRejectText:
-	text "BROCK: <PLAY_G>?"
+	text "PIERRE: <PLAY_G>?"
 
-	para "Are you interested"
-	line "in FOSSIL #MON?"
+	para "Tu es intéressé"
+	line "par les FOSSILES"
+	cont "#MON?"
 
-	para "You should visit"
-	line "MT. MOON."
+	para "Tu devrais visiter"
+	line "le MONT SELENITE."
 
-	para "One of my friends"
-	line "is excavating for"
-	cont "fossils there."
+	para "Un de mes amis ex-"
+	line "trait des fossiles"
+	cont "de là-bas."
 
-	para "They say a lab in"
-	line "JOHTO is able to"
+	para "Il paraît qu'un"
+	line "laboratoire à"
 
-	para "restore these fos-"
-	line "sils to life."
+	para "JOHTO peut ramener"
+	line "ces fossiles à la"
+	cont "vie."
 	done
 
 BrockBeforeRematchText:
-	text "BROCK: So, you're"
-	line "here."
+	text "PIERRE: Te voilà."
 
-	para "It has been some"
-	line "time since I was"
-	para "able to go all"
-	line "out like this."
+	para "Ca fait longtemps"
+	line "que je ne me suis"
+	para "pas donné à fond"
+	line "comme ça."
 
-	para "When it comes to"
-	line "rock #MON,"
-	cont "I'm the best!"
+	para "Quand il s'agit de"
+	line "#MON ROCHE,"
+	cont "je suis imbat-"
+	cont "table!"
 
-	para "Come on!"
+	para "Allez!"
 
 	done
 
 BrockRematchBeatenText:
-	text "Ah! What a solid"
-	line "battle!"
+	text "Ah! Quel dur"
+	line "combat!"
 	done
 
 BrockAfterRematchText:
-	text "BROCK: I've lost"
-	line "again<...>"
+	text "BROCK: J'ai encore"
+	line "perdu<...>"
 
-	para "Seems you've been"
-	line "making the most of"
-	cont "your adventure!"
+	para "On dirait que ton"
+	line "aventure te fait"
+	cont "bien grandir!"
 	done
 
 TrainerCamperJerry: ; 0x1a2898
@@ -179,147 +181,146 @@ UnknownScript_0x1a28c9: ; 0x1a28c9
 ; 0x1a28d0
 
 UnknownText_0x1a28d0: ; 0x1a28d0
-	text "BROCK: Wow, it's"
-	line "not often that we"
+	text "PIERRE: Tiens?"
+	line "Ce n'est pas tous"
 
-	para "get a challenger"
-	line "from JOHTO-"
+	para "les jours que nous"
+	line "avons quelqu'un de"
+	cont "JOH-"
 
 	para "<...>"
 
-	para "So you're from"
-	line "PALLET TOWN,"
+	para "Ah, tu es de"
+	line "BOURG PALETTE,"
 	
-	para "but you lost your"
-	line "BOULDERBADGE<...>"
+	para "mais tu as perdu"
+	line "ton BADGE ROCHE<...>"
 
-	para "While I could"
-	line "simply replace it,"
+	para "Je pourrais faci-"
+	line "lement te le rem-"
+	cont "placer mais<...>"
 	
-	para "I want to see how"
-	line "much you've grown"
+	para "J'aimerais voir à"
+	line "quel point tu as"
 	
-	para "to become JOHTO's"
-	line "CHAMPION."
+	para "grandi pour deve-"
+	line "nir MAITRE de"
+	cont "JOHTO."
 
-	para "Come on!"
+	para "Allez!"
 	done
 ; 0x1a29bb
 
 UnknownText_0x1a29bb: ; 0x1a29bb
-	text "BROCK: Your #-"
-	line "MON's powerful"
+	text "PIERRE:"
+	line "Incroyable!"
 
-	para "attacks overcame"
-	line "my rock-hard"
-	cont "defense<...>"
+	para "Tu as mené ce com-"
+	line "bat et percé mes"
+	cont "défenses comme si"
+	cont "de rien n'était!"
 
-	para "You're stronger"
-	line "than I expected<...>"
-
-	para "Go ahead--take"
-	line "this BADGE."
+	para "Tu mérites bien ce"
+	line "nouveau BADGE"
+	cont "ROCHE!"
 	done
 ; 0x1a2a3d
 
 UnknownText_0x1a2a3d: ; 0x1a2a3d
-	text "<PLAYER> received"
-	line "BOULDERBADGE."
+	text "<PLAYER> reçoit"
+	line "le BADGE ROCHE."
 	done
 ; 0x1a2a57
 
 UnknownText_0x1a2a57: ; 0x1a2a57
-	text "BROCK: <PLAY_G>,"
-	line "thanks. I enjoyed"
+	text "PIERRE: <PLAY_G>,"
+	line "merci. J'ai aimé"
 
-	para "battling you, even"
-	line "though I am a bit"
-	cont "upset."
+	para "me rebattre contre"
+	line "toi, même si je"
+	cont "l'ai mauvaise."
 
-	para "That BOULDERBADGE"
-	line "will make your"
+	para "Ce BADGE ROCHE"
+	line "renforcera tes"
 
-	para "#MON even more"
-	line "powerful."
+	para "#MON, mais tu"
+	line "le savais déjà,"
+	cont "non?"
 	done
 ; 0x1a2ada
 
 UnknownText_0x1a2ada: ; 0x1a2ada
-	text "BROCK: The world"
-	line "is huge. There are"
+	text "PIERRE: Le monde"
+	line "est grand. Il y a"
 
-	para "still many strong"
-	line "trainers like you."
+	para "sûrement plein de"
+	line "dresseurs aussi"
+	cont "forts que toi."
 
-	para "Just wait and see."
-	line "I'm going to be-"
-	cont "come a lot strong-"
-	cont "er too."
+	para "Tu verras<...>"
+	line "Je vais devenir"
+	cont "encore pluis"
+	cont "puissant!"
 	done
 ; 0x1a2b62
 
 CamperJerrySeenText: ; 0x1a2b62
-	text "The trainers of"
-	line "this GYM use rock-"
-	cont "type #MON."
+	text "Les dresseurs de"
+	line "cette ARENE utili-"
+	cont "sent des #MON"
+	cont "ROCHE."
 
-	para "The rock-type has"
-	line "high DEFENSE."
+	para "Cet élément a une"
+	line "grande DEFENSE."
 
-	para "Battles could end"
-	line "up going a long"
-
-	para "time. Are you"
-	line "ready for this?"
+	para "Les combats ris-"
+	line "quent de s'éter-"
+	cont "niser, tu sais?"
 	done
 ; 0x1a2bf1
 
 CamperJerryBeatenText: ; 0x1a2bf1
-	text "I have to win"
-	line "these battles<...>"
+	text "Il faut que je"
+	line "gagne<...>"
 	done
 ; 0x1a2c0f
 
 UnknownText_0x1a2c0f: ; 0x1a2c0f
-	text "Hey, you! BROCK"
-	line "is tough. He'll"
-	cont "punish you if you"
+	text "Hé toi! PIERRE est"
+	line "super fort! Il va"
 
-	para "don't take him"
-	line "seriously."
+	para "te punir si tu le"
+	line "prends à la"
+	cont "légère!"
 	done
 ; 0x1a2c6e
 
 PewterGymGuyText: ; 0x1a2c6e
-	text "Yo, CHAMP!"
+	text "Salut, champion en"
+	line "herbe!"
 
-	para "You're really"
-	line "rocking."
-
-	para "Are you battling"
-	line "the GYM LEADERS of"
+	para "Tu affrontes les"
+	line "CHAMPIONS de"
 	cont "KANTO?"
 
-	para "They're strong and"
-	line "dedicated people,"
+	para "Ils sont tout"
+	line "aussi forts et"
 
-	para "just like JOHTO's"
-	line "GYM LEADERS."
+	para "déterminés que"
+	line "ceux de JOHTO."
 	done
 ; 0x1a2d07
 
 PewterGymGuyWinText: ; 0x1a2d07
-	text "Yo, CHAMP!"
+	text "Hé, champion en"
+	line "herbe!"
 
-	para "That GYM didn't"
-	line "give you much"
-	cont "trouble."
+	para "Cette ARENE ne t'a"
+	line "pas posé trop de"
+	cont "problèmes."
 
-	para "The way you took"
-	line "charge was really"
-
-	para "inspiring. I mean"
-	line "that, seriously!"
+	para "Tu m'as bluffé."
+	line "Sérieusement."
 	done
 ; 0x1a2d88
 
@@ -340,32 +341,31 @@ BrockPostgameRematchScript:
     end
 
 BrockPostgameRematchText:
-	text "BROCK: <PLAY_G>!"
+	text "PIERRE: <PLAY_G>!"
 	
-	para "Still making your"
-	line "rounds in KANTO?"
+	para "Tu fais un tour"
+	line "à KANTO?"
 	
-	para "What's that?"
+	para "Ah?"
 	
-	para "You came back to"
-	line "battle me again?"
+	para "Tu veux un nouveau"
+	line "combat?"
 	done
 
 BrockPostgameBeatenText:
-	text "No! My defense"
-	line "wasn't enough!"
+	text "Non! Je n'ai pas"
+	line "assez de défense!"
 	done
 
 BrockPostgameAfterText:
-	text "BROCK: I guess"
-	line "there's a reason"
+	text "PIERRE: J'imagine"
+	line "que tu n'es pas"
 	
-	line "you are JOHTO'S"
-	cont "CHAMPION."
+	line "MAITRE de JOHTO"
+	cont "pour rien."
 
-	para "You have my"
-	line "respect, that's"
-	cont "for sure!"
+	para "Tu as tout mon"
+	line "respect!"
 	done
 
 PewterGym_MapEventHeader: ; 0x1a2d88

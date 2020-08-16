@@ -67,7 +67,7 @@
 	db "POTIONSECRET@"
 	db "PASSE BATEAU@"
 	db "OEUF MYSTERE@"
-	db "GLAS TRANP.@"
+	db "GLAS TRANSP.@"
 	db "ARGENT'AILE@"
 	db "LAIT MEUMEU@"
 	db "VIVE GRIFFE@"

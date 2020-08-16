@@ -74,46 +74,49 @@ HikerJimSeenText: ; 0x1ae421
 ; 0x1ae42b
 
 HikerJimBeatenText: ; 0x1ae42b
-	text "Hahaha-hachoo!"
+	text "Ha<...> Ha<...> Ha<...>"
+	line "ATCHOUM!"
 	done
 ; 0x1ae43b
 
 UnknownText_0x1ae43b: ; 0x1ae43b
-	text "Hay fever is"
-	line "making me sneeze!"
-	cont "Ahahah-CHOO!"
+	text "J'ai le rhume des"
+	line "foins<...>"
+	para "ATCHOUM!"
 	done
 ; 0x1ae468
 
 PokefanmRobertSeenText: ; 0x1ae468
-	text "I picked this"
-	line "#MON up when"
-	cont "the #MON"
-	cont "TOWER closed."
+	text "J'ai trouvé ce"
+	line "#MON avant"
+	cont "que la TOUR #-"
+	cont "MON ne ferme."
 	done
 ; 0x1ae48a
 
 PokefanmRobertBeatenText: ; 0x1ae48a
-	text "SON: Dad, why is"
-	line "Cubone so sad?"
+	text "FILS: Papa, pour-"
+	line "quoi OSSELAIT il"
+	cont "est triste?"
 	done
 ; 0x1ae4a9
 
 UnknownText_0x1ae4a9: ; 0x1ae4a9
-	text "This CUBONE has"
-	line "had it rough."
+	text "Cet OSSELAIT a eu"
+	line "des moments"
+	cont "difficiles."
 
-	para "We are giving it"
-	line "as much love"
-	cont "as we can."
+	para "On le baigne"
+	line "d'amour autant que"
+	cont "possible."
 	done
 ; 0x1ae4dc
 
 UnknownText_0x1ae4dc: ; 0x1ae4dc
 	text "ROUTE 10"
 
-	para "CERULEAN CITY -"
-	line "LAVENDER TOWN"
+	para "AZURIA -"
+	line "LAVANVILLE"
 	done
 ; 0x1ae504
 

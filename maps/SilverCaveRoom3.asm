@@ -176,10 +176,10 @@ RuinsEntranceText:
 
     para "<...>"
 
-	para "IL ATTENDS UN"
+	para "IL ATTEND UN"
 	line "DRESSEUR."
 
-	para "IL VOUS ATTENDS."
+	para "IL VOUS ATTEND."
 
     para "<...>"
 	

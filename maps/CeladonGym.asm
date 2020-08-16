@@ -85,97 +85,97 @@ ErikaRejectNoGSBall:
 	end
 
 ErikaRejectNoGSBallText:
-	text "ERIKA: Oh, hello"
-	line "again."
+	text "ERIKA: Oh, re-"
+	line "bonjour."
 
-	para "Have you heard of"
-	line "BILL?"
+	para "As-tu entendu"
+	line "parler de LEO?"
 
-	para "He's a #MANIAC."
-	line "He developed the"
+	para "C'est un #-"
+	line "MANIAC."
 
-	para "#MON STORAGE"
-	line "SYSTEM!"
+	para "Il a développé le"
+	line "SYSTEME de STOCKA-"
+	cont "GE de #MON!"
 
-	para "He stopped by"
-	line "earlier on his"
+	para "Il est passé tout"
+	line "à l'heure à la"
 
-	para "way to the old"
-	line "BATTLE TENT."
+	para "vieille TENTE de"
+	line "COMBAT."
 
-	para "He said he had to"
-	line "fix something."
+	para "Il disait devoir"
+	line "réparer quelque"
+	cont "chose."
 
-	para "That was a few"
-	line "days ago<...>"
+	para "C'était il y a"
+	line "quelques jours<...>"
 
-	para "There are rumors"
-	line "about that place."
+	para "Il y a plein de"
+	line "rumeurs sur cet"
+	cont "endroit."
 
-	para "I'm worried that"
-	line "something may have"
-	cont "happened to him."
+	para "J'ai peur que"
+	line "quelque chose lui"
+	cont "soit arrivé."
 
-	para "Could you go over"
-	line "there and check up"
-	cont "on him?"
+	para "Pourrais-tu aller"
+	line "voir pour moi?"
 	done
 
 ErikaRejectGSBall:
-	text "ERIKA: Oh, what an"
-	line "unusual item you"
-	cont "have."
+	text "ERIKA: Oh, quel"
+	line "étrange objet tu"
+	cont "as là."
 
-	para "A gold and silver"
-	line "#BALL<...>"
+	para "Une # BALL"
+	line "d'or et d'argent<...>"
 
-	para "Legends connect"
-	line "that BALL to a"
+	para "Les légendes par-"
+	line "lent d'un #MON"
 
-	para "mythical grass-"
-	line "type #MON."
+	para "de type plante my-"
+	line "thique lié a cette"
+	cont "# BALL."
 
-	para "My friend KURT, in"
-	line "AZALEA TOWN, would"
-	cont "know more."
+	para "Mon ami FARGAS à"
+	line "ECORCIA en saurait"
+	cont "plus."
 	done
 
 ErikaRematchTextBefore:
-	text "ERIKA: What won-"
-	line "derful timing."
+	text "ERIKA: Quel mer-"
+	line "veilleux timing!"
 
-	para "This unusual"
-	line "#MON appeared"
-	cont "just now."
+	para "Ce #MON inhabi-"
+	line "tuel est apparu."
 
-	para "It's excited to"
-	line "meet you. Do you"
-	cont "know each other?"
+	para "Il semble ravi de"
+	line "te voir. Vous vous"
+	cont "conaissez?"
 
-	para "It seems to want"
-	line "a battle, would"
-	cont "you be so kind?"
+	para "Il semble vouloir"
+	line "se battre, vou-"
+	cont "drais-tu bien?"
 
-	para "Please, do not"
-	line "hold back."
+	para "Ne te retiens pas."
 
 	done
 
-
 ErikaRematchBeatenText:
-	text "We concede"
-	line "defeat."
+	text "Nous admettons"
+	line "notre défaite."
 	done
 
 ErikaAfterRematchText:
-	text "ERIKA: You have"
-	line "grown stronger<...>"
+	text "ERIKA: Tu es deve-"
+	line "nu si fort<...>"
 
-	para "It would be an"
-	line "honor to battle"
+	para "Ce serait un hon-"
+	line "neur de me battre"
 
-	para "you again some-"
-	line "time."
+	para "encore contre toi,"
+	line "un jour."
 	done
 
 
@@ -336,179 +336,182 @@ UnknownScript_0x72b21: ; 0x72b21
 ; 0x72b28
 
 UnknownText_0x72b28: ; 0x72b28
-	text "ERIKA: Hello<...>"
-	line "Lovely weather,"
+	text "ERIKA: Bonjour<...>"
+	line "Belle journée,"
+	cont "non?"
 
-	para "isn't it?"
-	line "It's so pleasant<...>"
+	para "C'est si plaisant<...>"
 
-	para "<...>I'm afraid I may"
-	line "doze off<...>"
+	para "<...>Je pourrais"
+	line "m'endormir<...>"
 
-	para "My name is ERIKA."
-	line "I am the LEADER of"
-	cont "CELADON GYM."
+	para "Moi je suis ERIKA,"
+	line "CHAMPIONNE de"
+	cont "l'ARENE de CELADO-"
+	cont "POLE."
 
-	para "<...>Oh? A native"
-	line "of KANTO, you"
-	cont "say? How nice<...>"
+	para "<...>Oh? Tu es d'ici?"
+	line "C'est bien<...>"
 
-	para "Oh. I'm sorry, I"
-	line "didn't realize"
+	para "<...>Pardon, je n'ai"
+	line "pas réalisé que tu"
 
-	para "that you wished to"
-	line "challenge me."
+	para "m'as lancé un"
+	line "défi."
 
-	para "Very well, but I"
-	line "shall not lose."
+	para "Très bien, mais je"
+	line "ne perdrais pas!"
 	done
 ; 0x72c3e
 
 UnknownText_0x72c3e: ; 0x72c3e
 	text "ERIKA: Oh!"
-	line "I concede defeat<...>"
+	line "J'admets ma"
+	cont "défaite."
 
-	para "You are remarkably"
-	line "strong<...>"
+	para "Tu as une grande"
+	line "force<...>"
 
-	para "I shall give you"
-	line "RAINBOWBADGE<...>"
+	para "Je te confie ce"
+	line "BADGE PRISME<...>"
 	done
 ; 0x72c96
 
 UnknownText_0x72c96: ; 0x72c96
-	text "<PLAYER> received"
-	line "RAINBOWBADGE."
+	text "<PLAYER> reçoit le"
+	line "BADGE PRISME."
 	done
 ; 0x72cb0
 
 UnknownText_0x72cb0: ; 0x72cb0
-	text "ERIKA: That was a"
-	line "delightful match."
+	text "ERIKA: C'était un"
+	line "beau match."
 
-	para "I felt inspired."
-	line "Please, I wish you"
-	cont "to have this TM."
+	para "Je tiens à ce que"
+	line "tu acceptes cette"
+	cont "belle CT."
 
-	para "It is GIGA DRAIN."
+	para "C'est"
+	line "GIGA-SANGSUE."
 
-	para "It is a wonderful"
-	line "move that drains"
+	para "Cette capacité"
+	line "draine la moitié"
 
-	para "half the damage it"
-	line "inflicts to heal"
-	cont "your #MON."
+	para "des dégâts infli-"
+	line "gés pour soigner"
+	cont "ton #MON."
 
-	para "Please use it if"
-	line "it pleases you<...>"
+	para "Utilise-là si elle"
+	line "te plaît<...>"
 	done
 ; 0x72d8f
 
 UnknownText_0x72d8f: ; 0x72d8f
-	text "ERIKA: Losing"
-	line "leaves a bitter"
-	cont "aftertaste<...>"
+	text "ERIKA: Perdre fait"
+	line "toujours un peu"
+	cont "mal, mais<...>"
 
-	para "But knowing that"
-	line "there are strong"
-
-	para "trainers spurs me"
-	line "to do better<...>"
+	para "Combattre un bon"
+	line "adversaire est"
+	cont "stimulant<...>"
 	done
 ; 0x72dfc
 
 LassMichelleSeenText: ; 0x72dfc
-	text "Do you think a"
-	line "girls-only GYM"
-	cont "is rare?"
+	text "Ca t'étonne une"
+	line "ARENE remplie"
+	cont "de filles?"
 	done
 ; 0x72e24
 
 LassMichelleBeatenText: ; 0x72e24
-	text "Oh, bleah!"
+	text "Oh!"
 	done
 ; 0x72e30
 
 UnknownText_0x72e30: ; 0x72e30
-	text "I just got care-"
-	line "less, that's all!"
+	text "Je ne faisais pas"
+	line "attention, c'est"
+	cont "tout!"
 	done
 ; 0x72e53
 
 PicnickerTanyaSeenText: ; 0x72e53
-	text "I used to train"
-	line "under SABRINA, the"
-	cont "SAFFRON CITY GYM"
-	cont "LEADER."
+	text "Je m'entraînais"
+	line "avec MORGANE, la"
+	cont "CHAMPIONNE de l'"
+	cont "ARENE de SAFRANIA"
+	cont "autrefois."
 
-	para "We have the same"
+	para "On a les mêmes"
 	line "#MON!"
 	done
 ; 0x72e7f
 
 PicnickerTanyaBeatenText: ; 0x72e7f
-	text "EXEGGUTOR, no<...>"
+	text "NOADKOKO, non<...>"
 	done
 ; 0x72e8e
 
 UnknownText_0x72e8e: ; 0x72e8e
-	text "ERIKA, the leader"
-	line "of this gym,"
-	cont "doesn't use it."
+	text "ERIKA, la cham-"
+	line "pionne de cette"
+	cont "arène, ne"
+	cont "l'utilise pas."
 	done
 ; 0x72ec5
 
 BeautyJuliaSeenText: ; 0x72ec5
-	text "Were you looking"
-	line "at these flowers"
-	cont "or at me?"
+	text "C'est moi que tu"
+	line "mates ou c'est les"
+	cont "fleurs?"
 	done
 ; 0x72ef2
 
 BeautyJuliaBeatenText: ; 0x72ef2
-	text "How annoying!"
+	text "C'est pas bien!"
 	done
 ; 0x72f01
 
 UnknownText_0x72f01: ; 0x72f01
-	text "How do I go about"
-	line "becoming ladylike"
-	cont "like ERIKA?"
+	text "Comment devenir"
+	line "aussi jolie fille"
+	cont "qu'ERIKA?"
 	done
 ; 0x72f32
 
 TwinsJoandzoe1SeenText: ; 0x72f32
-	text "We'll show you"
-	line "#MON moves that"
-	cont "ERIKA taught us!"
+	text "ERIKA nous a ap-"
+	line "pris plein de"
+	cont "nouveaux tours!"
 	done
 ; 0x72f62
 
 TwinsJoandzoe1BeatenText: ; 0x72f62
-	text "Oh<...> We lost<...>"
+	text "Oh<...> On a perdu<...>"
 	done
 ; 0x72f70
 
 UnknownText_0x72f70: ; 0x72f70
-	text "ERIKA will get you"
-	line "back for us!"
+	text "ERIKA!"
+	line "Venge-nous!"
 	done
 ; 0x72f91
 
 TwinsJoandzoe2SeenText: ; 0x72f91
-	text "We're going to"
-	line "protect ERIKA!"
+	text "On protègera"
+	line "ERIKA!"
 	done
 ; 0x72faf
 
 TwinsJoandzoe2BeatenText: ; 0x72faf
-	text "We couldn't win<...>"
+	text "On a pas réussi<...>"
 	done
 ; 0x72fc0
 
 UnknownText_0x72fc0: ; 0x72fc0
-	text "ERIKA is much,"
-	line "much stronger!"
+	text "ERIKA est plus"
+	line "forte que toi!"
 	done
 ; 0x72fdf
 
@@ -531,39 +534,41 @@ ErikaPostgameRematchScript:
 ErikaPostgameRematchText:
 	text "<...>"
 
-	para "ERIKA: <...>Yawn<...>"
+	para "ERIKA: <...>Baille<...>"
 	
 	para "Oh! <PLAYER>!"
 	
-	para "I'm so sorry about"
-	line "that! I must have"
-	cont "dozed off!"
+	para "Pardonne-moi! J'ai"
+	line "failli m'endormir!"
 
-	para "What's that? You"
-	line "want to battle?"
+	para "Qu'est-ce qu'il y"
+	line "a? Tu veux com-"
+	cont "battre?"
 	done
 	
 ErikaPostgameBeatenText:
-	text "Amazing battle!"
+	text "Quel combat!"
 	
-	para "Maybe I'm not"
-	line "fully awake yet<...>"
+	para "Je crois que je ne"
+	line "suis pas complète-"
+	cont "ment réveillée<...>"
 	done
 	
 ErikaPostgameAfterText:
-	text "ERIKA: <...>Yawn<...>"
+	text "ERIKA: <...>Baille<...>"
 
-	para "Congrats again,"
-	line "<PLAYER>!"
+	para "Encore mes félici-"
+	line "tations, <PLAYER>!"
 	
-	para "You continue to"
-	line "show your power."
+	para "Tu n'en finis pas"
+	line "de montrer ta"
+	cont "force!"
 	
-	para "Now if you'll"
-	line "excuse me<...>"
+	para "Maintenant, si tu"
+	line "veux bien m'excu-"
 	
-	para "I'm going to take"
-	line "a nice nap<...>"
+	para "ser, je vais faire"
+	line "une petite sieste<...>"
 	done
 	
 CeladonGym_MapEventHeader: ; 0x72fdf

@@ -122,34 +122,39 @@ MistyAfterRematch:
 	end
 
 MistyRematchTextBefore:
-	text "MISTY: My dream"
-	line "was to go on a"
+	text "ONDINE: J'avais"
+	line "pour rêve de par-"
 	
-	para "great journey"
-	line "and battle power-"
-	cont "ful trainers."
+	para "tir à l'aventure"
+	line "et d'affronter les"
+	
+	para "dresseurs les plus"
+	line "puissants."
 
-	para "I made my dream"
-	line "come true."
+	para "J'ai fais de mon"
+	line "rêve une réalité."
 
-	para "And now<...>"
+	para "Et maintenant<...>"
 
-	para "My next dream is"
-	line "to defeat you!"
+	para "Mon rêve est de te"
+	line "battre!"
 	done
 
 MistyRematchBeatenText:
-	text "First my date,"
-	line "now my dreams<...>"
+	text "D'abord mon ren-"
+	line "card."
+
+	para "Et maintenant mon"
+	line "rêve<...>"
 	done
 
 MistyAfterRematchText:
-	text "MISTY: I guess"
-	line "you are really"
-	cont "strong<...>"
+	text "ONDINE: Tu es"
+	line "vraiment quelque"
+	cont "chose<...>"
 
-	para "I'll admit<...>"
-	line "you've got skills."
+	para "Je l'admets, tu"
+	line "as du talent."
 	done
 
 GiveRainBranch:
@@ -341,218 +346,225 @@ MovementData_0x1884f7: ; 0x1884f7
 ; 0x1884fb
 
 UnknownText_0x1884fb: ; 0x1884fb
-	text "Oops! I so sorry!"
-	line "You not hurt,"
-	cont "okay?"
+	text "Oups! Moi désolé!"
+	line "Toi pas blessé,"
+	cont "OK?"
 
-	para "I very busy."
-	line "No time for talk-"
-	cont "ing with you. Not"
-	cont "good for me if"
-	cont "seen by somebody."
+	para "Jé souis occupé."
+	line "Moi faire vite"
+	cont "sinon quelqu'un"
+	cont "me voir."
 	done
 ; 0x188574
 
 UnknownText_0x188574: ; 0x188574
-	text "Oh no! You seen"
-	line "me already! I make"
-	cont "big mistake!"
+	text "Oh non! Té m'a"
+	line "vu déjà! Jé fais"
+	cont "grosse erreur!"
 	done
 ; 0x1885a5
 
 UnknownText_0x1885a5: ; 0x1885a5
-	text "Hey, you! Forget"
-	line "you see me, okay?"
+	text "Hé, toué! Té rien"
+	line "vu et rien enten-"
+	cont "du, OK?"
 
-	para "You see, hear,"
-	line "know nothing,"
+	para "Rien du tout"
 
-	para "okay?"
-	line "Bye, kid! Nothing!"
-
-	para "Bye-bye a go-go!"
+	para "Ciao-ciao!"
+	line "Bye-bye!"
 	done
 ; 0x188610
 
 UnknownText_0x188610: ; 0x188610
-	text "Sorry, I'll be out"
-	line "for a while."
-	cont "MISTY, GYM LEADER"
+	text "Sortie pour un"
+	line "moment<...>"
+	
+	para "ONDINE, CHAMPIONNE"
+	line "de l'ARENE."
 	done
 ; 0x188642
 
 UnknownText_0x188642: ; 0x188642
-	text "Since MISTY's out,"
-	line "we'll be away too."
-	cont "GYM TRAINERS"
+	text "ONDINE est partie,"
+	line "alors nous aussi."
+
+	para "Les dresseurs de"
+	line "l'arène."
 	done
 ; 0x188674
 
 UnknownText_0x188674: ; 0x188674
-	text "MISTY: I was ex-"
-	line "pecting you, you"
-	cont "pest!"
+	text "ONDINE: Je"
+	line "t'attendais, toi!"
 
-	para "You may have a"
-	line "lot of JOHTO GYM"
+	para "Tu as peut-être"
+	line "des BADGES de"
 
-	para "BADGES, but you'd"
-	line "better not take me"
-	cont "too lightly."
+	para "JOHTO, mais tu vas"
+	line "quand même te"
+	cont "prendre une"
+	cont "bonne raclée!"
 	done
 
 TextBranchFirstMisty
-	text "My water-type"
-	line "#MON are tough!"
+	text "Mes #MON"
+	line "aquatiques sont"
+	cont "trop forts!"
 	done
 
 TextBranchSecondMisty:
-	text "What's that? Your"
-	line "badges were"
-	cont "stolen?"
+	text "Quoi? On t'a volé"
+	line "ton badge?"
 
-	para "If you want"
-	line "another, you'll"
-	cont "have to earn it!"
+	para "Pas d'excuses!"
+	line "Si t'en veux un"
+	cont "autre, il faudra"
+	cont "le gagner!"
 	done
 
 ; 0x18870c
 
 UnknownText_0x18870c: ; 0x18870c
-	text "MISTY: You really"
-	line "are good<...>"
+	text "ONDINE: D'accord,"
+	line "je veux bien croi-"
+	cont "re que tu m'ais"
+	cont "déjà battue avant."
 
-	para "I'll admit that"
-	line "you are skilled<...>"
+	para "Je vois que tu"
+	line "n'as rien lâché"
+	cont "non plus!"
 
-	para "Here you go. It's"
-	line "CASCADEBADGE."
+	para "Tiens, ton nouveau"
+	line "BADGE CASCADE. Le"
+	cont "perds pas cette"
+	cont "fois!"
 	done
 ; 0x188768
 
 UnknownText_0x188768: ; 0x188768
-	text "<PLAYER> received"
-	line "CASCADEBADGE."
+	text "<PLAYER> reçois"
+	line "BADGE CASCADE."
 	done
 ; 0x188782
 
 MistyBeforeRainDance:
-	text "MISTY: Here is"
-	line "another memento"
-	cont "from this battle."
+	text "ONDINE: Un petit"
+	line "memento de notre"
+	cont "combat."
 
-	para "Take it!"
+	para "Prends ça!"
 
 	done
 
 MistyAfterRainDance:
-	text "It contains the"
-	line "move RAIN DANCE."
+	text "La CT contient"
+	line "DANSE PLUIE."
 
-	para "It powers up"
-	line "water moves."
+	para "Ca renforce les"
+	line "capacités eau."
 
-	para "I'm sure you have"
-	line "a good use for it."
+	para "Je suis sûre que"
+	line "tu sauras t'en"
+	cont "servir."
 	done
 
 UnknownText_0x188782: ; 0x188782
-	text "MISTY: Are there"
-	line "many strong train-"
-	cont "ers in JOHTO?"
+	text "ONDINE: Est-ce qu'"
+	line "il y a des dres-"
+	cont "seurs aussi fort"
+	cont "que toi à JOHTO?"
 
-	para "I'm going to"
-	line "travel one day, so"
+	para "Je vais y aller"
+	line "un jour. Ca me"
 
-	para "I can battle some"
-	line "skilled trainers."
+	para "fera de l'entraî-"
+	line "nement."
 	done
 ; 0x18880a
 
 SwimmerfDianaSeenText: ; 0x18880a
-	text "Sorry about being"
-	line "away. Let's get on"
-	cont "with it!"
+	text "Désolée d'avoir"
+	line "été absente."
+	cont "On y va!"
 	done
 ; 0x188838
 
 SwimmerfDianaBeatenText: ; 0x188838
-	text "I give up! You're"
-	line "the winner!"
+	text "J'abandonne! T'as"
+	line "gagné!"
 	done
 ; 0x188856
 
 UnknownText_0x188856: ; 0x188856
-	text "I'll be swimming"
-	line "quietly."
+	text "Je vais nager"
+	line "tranquillement."
 	done
 ; 0x188870
 
 SwimmerfBrianaSeenText: ; 0x188870
-	text "Don't let my ele-"
-	line "gant swimming un-"
-	cont "nerve you."
+	text "Je nage trop bien."
+	line "Ca t'énerve?"
 	done
 ; 0x18889f
 
 SwimmerfBrianaBeatenText: ; 0x18889f
-	text "Ooh, you calmly"
-	line "disposed of me<...>"
+	text "Ooh!"
+	line "Impressionnant!"
 	done
 ; 0x1888c0
 
 UnknownText_0x1888c0: ; 0x1888c0
-	text "Don't be too smug"
-	line "about beating me."
+	text "Ne crâne pas trop<...>"
 
-	para "MISTY will destroy"
-	line "you if you get"
-	cont "complacent."
+	para "ONDINE va te faire"
+	line "mal!"
 	done
 ; 0x188912
 
 SwimmermParkerSeenText: ; 0x188912
-	text "Glub<...>"
+	text "Gloups<...>"
 
-	para "I'm first! Come"
-	line "and get me!"
+	para "A l'attaque!"
+	line "Glouarps!"
 	done
 ; 0x188934
 
 SwimmermParkerBeatenText: ; 0x188934
-	text "This can't be<...>"
+	text "Pas possible<...>"
 	done
 ; 0x188943
 
 UnknownText_0x188943: ; 0x188943
-	text "MISTY has gotten"
-	line "much better in the"
-	cont "past few months."
+	text "ONDINE s'est bien"
+	line "améliorée depuis"
+	cont "ces derniers mois."
 
-	para "Don't let your"
-	line "guard down, or"
-	cont "you'll be crushed!"
+	para "Fais attention ou"
+	line "tu te feras"
+	cont "écraser!"
 	done
 ; 0x1889a7
 
 CeruleanGymGuyText: ; 0x1889a7
-	text "Yo! CHAMP!"
+	text "Salut, champion en"
+	line "herbe!"
 
-	para "Since MISTY was"
-	line "away, I went out"
+	para "Quand ONDINE était"
+	line "partie, j'suis"
 
-	para "for some fun too."
-	line "He-he-he."
+	para "allé me balader."
+	line "Hé-hé-hé."
 	done
 ; 0x1889fa
 
 CeruleanGymGuyWinText: ; 0x1889fa
-	text "Hoo, you showed me"
-	line "how tough you are."
+	text "Whoa! Tu es un"
+	line "p'tit tigre!w"
 
-	para "As always, that"
-	line "was one heck of a"
-	cont "great battle!"
+	para "Comme toujours,"
+	line "c'était un sacré"
+	cont "combat!"
 	done
 ; 0x188a51
 
@@ -573,32 +585,34 @@ MistyPostgameRematchScript:
     end
 
 MistyPostgameRematchText:
-	text "Oh, look, if it"
-	line "isn't the pest!"
+	text "Voyez-vous ça, si"
+	line "ce n'est pas la"
+	cont "petite peste."
 
-	para "Ha! What?"
+	para "Ha! Quoi?"
 
-	para "You came back to"
-	line "battle again?"
+	para "Tu veux un autre"
+	line "combat?"
 	done
 
 MistyPostgameBeatenText:
-	text "No way!"
+	text "Impossible!"
 	
-	para "You beat me AGAIN!"
+	para "Tu m'as encore"
+	line "battue?!"
 	done
 
 MistyPostgameAfterText:
-	text "Oh you little"
-	line "pest<...>"
+	text "Oh, sale petite"
+	line "peste<...>"
 
-	para "I can never win"
-	line "against you, huh?"
+	para "Je ne peux jamais"
+	line "gagner contre toi,"
+	cont "hein?"
 	
-	para "Hmph."
+	para "Pfff."
 	
-	para "<...>You are pretty"
-	line "good<...>"
+	para "<...>Ok, t'es pas mal<...>"
 	done
 
 CeruleanGym_MapEventHeader: ; 0x188a51

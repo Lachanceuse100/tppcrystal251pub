@@ -69,7 +69,7 @@ GiovanniText1:
 	line "un enfant m'a"
 	cont "battu."
 
-	para "Embarassé, je suis"
+	para "Humilié, je suis"
 	line "venu ici m'entraî-"
 	cont "ner en solitaire."
 

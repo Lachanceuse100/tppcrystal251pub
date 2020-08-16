@@ -19,19 +19,19 @@ MapVermilionMagnetTrainSpeechHouseSignpost1Script: ; 0x191ebd
 ; 0x191ec0
 
 UnknownText_0x191ec0: ; 0x191ec0
-	text "Do you know about"
-	line "the MAGNET TRAIN?"
+	text "Tu connais le"
+	line "TRAIN MAGNET?"
 
-	para "It's a railway"
-	line "that goes to GOL-"
-	cont "DENROD in JOHTO."
+	para "C'est un train qui"
+	line "va à DOUBLONVILLE"
+	cont "à JOHTO."
 	done
 ; 0x191f16
 
 UnknownText_0x191f16: ; 0x191f16
-	text "I want to go to"
-	line "SAFFRON to see"
-	cont "the MAGNET TRAIN."
+	text "Je veux aller à"
+	line "SAFRANIA pour voir"
+	cont "le TRAIN MAGNET."
 	done
 ; 0x191f48
 

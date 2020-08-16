@@ -19,27 +19,31 @@ SecondGrannyPCScript: ; 0x1ae59d
 ; 0x1ae5a0
 
 SilverPokeCenterNPCText: ; 0x1ae5a0
-	text "Trainers who seek"
-	line "power climb MT."
+	text "Les dresseurs qui"
+	line "recherchent le"
 
-	para "SILVER despite its"
-	line "many dangers<...>"
+	para "pouvoir grimpent"
+	line "le MONT ARGENT"
 
-	para "With their trusted"
-	line "#MON, they must"
+	para "malgré ses nom-"
+	line "breux dangers."
 
-	para "feel they can go"
-	line "anywhere<...>"
+	para "Avec leurs #MON"
+	line "les plus forts,"
+
+	para "ils pensent être"
+	line "capable d'aller"
+	cont "n'importe où."
 	done
 
 SilverPokeCenterNPC2Text:
-	text "An item in your"
-	line "PACK may be "
+	text "Un objet du SAC"
+	line "peut être enregis-"
 
-	para "registered for use"
-	line "on SELECT Button."
+	para "tré comme fonction"
+	line "du bouton SELECT."
 
-	para "Isn't that useful?"
+	para "C'est pas génial?"
 
 	done
 

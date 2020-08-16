@@ -249,7 +249,7 @@ ExplainStoneText:
 	done
 
 FanClubNoStoryText:
-	text "Oh. Reviens si tu"
+	text "Oh<...> Reviens si tu"
 	line "veux entendre d'"
 	cont "autres histoires!"
 	done

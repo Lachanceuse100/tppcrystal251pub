@@ -69,92 +69,92 @@ UnknownScript_0x19b12a: ; 0x19b12a
 ; 0x19b130
 
 UnknownText_0x19b130: ; 0x19b130
-	text "DAISY: Hello! My"
-	line "family just moved"
-	cont "into town!"
+	text "NINA: Salut! Ma"
+	line "famille vient d'"
+	cont "arriver en ville."
 
-	para "My kid brother"
-	line "is the GYM LEADER"
-	cont "in VIRIDIAN CITY."
+	para "Mon petit frère"
+	line "est le CHAMPION de"
+	cont "l'ARENE de"
+	cont "JADIELLE."
 
-	para "But he goes out"
-	line "of town so often,"
+	para "Mais il se balade"
+	line "beaucoup, ce qui"
 
-	para "it causes problems"
-	line "for the trainers."
+	para "embête pas mal de"
+	line "dresseurs."
 	done
 ; 0x19b1b6
 
 UnknownText_0x19b1b6: ; 0x19b1b6
-	text "DAISY: Hi! Good"
-	line "timing. I'm about"
-	cont "to have some tea."
+	text "NINA: Salut! Tu"
+	line "tombes bien, j'al-"
+	cont "lais faire du thé."
 
-	para "Would you like to"
-	line "join me?"
+	para "En veux-tu?"
 
-	para "Oh, your #MON"
-	line "are a bit dirty."
+	para "Oh, tes #MON"
+	line "sont sales."
 
-	para "Would you like me"
-	line "to groom one?"
+	para "Tu veux que j'en"
+	line "bichonne un?"
 	done
 ; 0x19b244
 
 UnknownText_0x19b244: ; 0x19b244
-	text "DAISY: Which one"
-	line "should I groom?"
+	text "NINA: Lequel dois-"
+	line "je bichonner?"
 	done
 ; 0x19b266
 
 UnknownText_0x19b266: ; 0x19b266
-	text "DAISY: OK, I'll"
-	line "get it looking"
-	cont "nice in no time."
+	text "NINA: OK, je vais"
+	line "le faire beau en"
+	cont "un rien de temps."
 	done
 ; 0x19b296
 
 UnknownText_0x19b296: ; 0x19b296
 	text_from_ram StringBuffer3
-	text " looks"
-	line "content."
+	text " à l'air"
+	line "heureux."
 	done
 ; 0x19b2aa
 
 UnknownText_0x19b2aa: ; 0x19b2aa
-	text "DAISY: There you"
-	line "go! All done."
+	text "NINA: Et voilà!"
+	line "C'est fini!"
 
-	para "See? Doesn't it"
-	line "look nice?"
+	para "Alors? Il est pas"
+	line "trop beau, hein?"
 
-	para "It's such a cute"
+	para "Un joli petit"
 	line "#MON."
 	done
 ; 0x19b2fa
 
 UnknownText_0x19b2fa: ; 0x19b2fa
-	text "DAISY: I always"
-	line "have tea around"
+	text "NINA: Je me fais"
+	line "toujours du thé à"
 
-	para "this time. Come"
-	line "join me."
+	para "cette heure ci."
+	line "Tu peux rester."
 	done
 ; 0x19b334
 
 UnknownText_0x19b334: ; 0x19b334
-	text "DAISY: You don't"
-	line "want to have one"
+	text "NINA: Tu ne veux"
+	line "pas que je m'en"
 
-	para "groomed? OK, we'll"
-	line "just have tea."
+	para "occupe? OK. Un peu"
+	line "de thé alors<...>"
 	done
 ; 0x19b377
 
 UnknownText_0x19b377: ; 0x19b377
-	text "DAISY: Oh, sorry."
-	line "I honestly can't"
-	cont "groom an EGG."
+	text "NINA: Désolée, je"
+	line "ne sais pas m'oc-"
+	cont "cuper d'un OEUF."
 	done
 ; 0x19b3a8
 

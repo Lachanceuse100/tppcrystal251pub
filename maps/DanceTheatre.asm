@@ -229,8 +229,8 @@ MapDanceTheatreSignpost1Script: ; 0x9952b
 Kimono_girlNaoko2SeenText: ; 0x9952e
 	text "Tu as de jolis"
 	line "#MON. On peut"
-	cont "ce que ça donne"
-	cont "en combat?"
+	cont "voir ce que ça"
+	cont "donne en combat?"
 	done
 ; 0x9955f
 
@@ -381,7 +381,7 @@ UnknownText_0x9991a: ; 0x9991a
 	line "as combattu<...>"
 
 	para "C'était aussi joli"
-	cont "qu'une danse."
+	line "qu'une danse."
 
 	para "C'était plaisant"
 	line "à voir!"

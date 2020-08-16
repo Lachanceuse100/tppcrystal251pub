@@ -376,7 +376,7 @@ UnknownText_0x701b4: ; 0x701b4
 	line "récents évènements"
 	cont "au LAC COLERE<...>"
 
-	para "Je t'aivu com-"
+	para "Je t'ai com-"
 	line "battre, <PLAYER>."
 
 	para "Tu as l'air d'un"

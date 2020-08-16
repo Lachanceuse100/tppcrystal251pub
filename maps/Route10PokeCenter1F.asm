@@ -37,50 +37,51 @@ CooltrainerFScript_0x188bee: ; 0x188bee
 ; 0x188bf1
 
 UnknownText_0x188bf1: ; 0x188bf1
-	text "A #MON CENTER"
-	line "near a cave?"
+	text "Un CENTRE #MON"
+	line "près d'une"
+	cont "caverne?"
 
-	para "That's mighty"
-	line "convenient."
+	para "C'est super"
+	line "pratique, ça."
 	done
 ; 0x188c26
 
 UnknownText_0x188c26: ; 0x188c26
-	text "The POWER PLANT's"
-	line "MANAGER is looking"
+	text "Le PATRON de la"
+	line "CENTRALE cherche"
 
-	para "for a strong #-"
-	line "MON trainer."
+	para "un bon dresseur de"
+	line "#MON."
 
-	para "He needs help"
-	line "getting back"
+	para "Il a besoin d'aide"
+	line "pour retrouver un"
 
-	para "something that"
-	line "was stolen."
+	para "truc qui a été"
+	line "volé."
 	done
 ; 0x188c9e
 
 UnknownText_0x188c9e: ; 0x188c9e
-	text "I hear TEAM ROCKET"
-	line "got back together"
+	text "On dit que la TEAM"
+	line "ROCKET s'est re-"
 
-	para "in JOHTO but fell"
-	line "apart right away."
+	para "formée à JOHTO et"
+	line "s'est plantée à"
+	cont "nouveau."
 
-	para "I didn't know any-"
-	line "thing about that."
+	para "Je n'en savais"
+	line "rien."
 	done
 ; 0x188d0c
 
 UnknownText_0x188d0c: ; 0x188d0c
-	text "When you go out-"
-	line "side, you can see"
+	text "On peut voir le"
+	line "toit d'un très"
 
-	para "the roof of a big"
-	line "building."
+	para "grand bâtiment"
+	line "dehors."
 
-	para "That's the POWER"
-	line "PLANT."
+	para "C'est la CENTRALE."
 	done
 ; 0x188d63
 

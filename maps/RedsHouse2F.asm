@@ -52,36 +52,38 @@ MapRedsHouseBedWarpScript:
 	end
 
 UnknownText_0x19b050: ; 0x19b050
-	text "<PLAYER> played the"
+	text "<PLAYER> joue à la"
 	line "N64."
 
-	para "Better get going--"
-	line "no time to lose!"
+	para "Bon, il faut y"
+	line "aller!"
 	done
 ; 0x19b087
 
 UnknownText_0x19b087: ; 0x19b087
-	text "It looks like it"
-	line "hasn't been used"
-	cont "in a long time<...>"
+	text "Ca n'a pas été"
+	line "utilisé depuis"
+	cont "très longtemps<...>"
 	done
 ; 0x19b0b9
 
 RedsHouse2FComfyBedText:
-	text "It's a comfy bed."
-	line "Let's take a nap<...>"
+	text "Un lit douillet!"
+
+	para "Allez, une petite"
+	line "sieste<...>"
 	done
 
 RedsHouse2FBedHealedMText:
-	text "<PLAY_G> and his"
-	line "#MON were"
-	cont "fully healed!"
+	text "<PLAY_G> et ses"
+	line "#MON sont sur"
+	cont "pied!"
 	done
 
 RedsHouse2FBedHealedFText:
-	text "<PLAY_G> and her"
-	line "#MON were"
-	cont "fully healed!"
+	text "<PLAY_G> et ses"
+	line "#MON sont sur"
+	cont "pied!"
 	done
 
 RedsHouse2F_MapEventHeader: ; 0x19b0b9

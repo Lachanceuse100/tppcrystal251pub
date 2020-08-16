@@ -350,10 +350,11 @@ PryceAfterSilverWingText:
 	cont "aux jeunes."
 
 	para "Dans ce cas, tu es"
-	line "le seul dresseur à"
+	line "la seule personne"
 	
-	para "qui je pense pou-"
-	line "voir confier ceci."
+	para "à qui je pense"
+	line "pouvoir confier"
+	cont "ceci."
 
 	para "Finis ce que je"
 	line "n'ai pu accomplir."
@@ -391,7 +392,7 @@ UnknownText_0x199cb3: ; 0x199cb3
 
 UnknownText_0x199d3b: ; 0x199d3b
 	text "<PLAYER> reçoit"
-	line "le BADGEGLACIER"
+	line "le BADGEGLACIER."
 	done
 ; 0x199d55
 

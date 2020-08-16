@@ -37,46 +37,43 @@ BugCatcherScript_0x19161d: ; 0x19161d
 ; 0x191620
 
 UnknownText_0x191620: ; 0x191620
-	text "A sleeping #MON"
-	line "is lying in front"
-	cont "of DIGLETT'S CAVE."
+	text "Un #MON endormi"
+	line "est devant la"
+	cont "CAVE TAUPIQUEUR."
 
-	para "It's a fantastic"
-	line "opportunity to get"
-
-	para "it, but how do you"
-	line "wake it up?"
+	para "On pourrait l'at-"
+	line "traper, mais com-"
+	cont "ment le réveiller?"
 	done
 ; 0x191698
 
 UnknownText_0x191698: ; 0x191698
-	text "There used to be a"
-	line "sleeping #MON"
+	text "Un #MON endormi"
+	line "était devant la"
+	cont "CAVE TAUPIQUEUR."
 
-	para "lying in front of"
-	line "DIGLETT'S CAVE."
-
-	para "But it seems to"
-	line "have disappeared."
+	para "Mais il a disparu,"
+	line "on dirait."
 	done
 ; 0x1916fe
 
 UnknownText_0x1916fe: ; 0x1916fe
-	text "The FAST SHIP is a"
-	line "great place to"
+	text "Le BATEAU EXPRESS"
+	line "est un bon moyen"
 
-	para "meet and battle"
-	line "trainers."
+	para "de rencontrer et"
+	line "d'affronter des"
+	cont "dresseurs."
 	done
 ; 0x19173b
 
 UnknownText_0x19173b: ; 0x19173b
-	text "Oh? You have some"
-	line "BADGES I've never"
-	cont "seen before."
+	text "Oh? Tu as des"
+	line "BADGES que je n'ai"
+	cont "jamais vus."
 
-	para "Oh, I get it. You"
-	line "got them in JOHTO."
+	para "Ahh, tu les as"
+	line "eus à JOHTO."
 	done
 ; 0x191791
 

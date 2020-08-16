@@ -200,8 +200,8 @@ Movement_SSAnneRocketRetreat:
 	step_end
 
 RandomRocketsBeforeText1:
-	text "Les gamins"
-	line "ennuyeux doivent"
+	text "Les sales"
+	line "gosses doivent"
 	cont "être éliminés!"
 	done
 
@@ -277,15 +277,13 @@ SSAnne5TextAfter:
 
 	para "Personne, pas même"
 	line "un gamin, ne défie"
-	cont "la TEAM ROCKET en"
-	cont "s'en sortant"
-	cont "indemme!"
+	cont "la TEAM ROCKET et"
+	cont "s'en sort indemme!"
 	done
 
 SSAnne10Text_WontGetAwayWithThis:
 	text "Tu t'en sortiras"
-	line "pas comme ça,"
-	cont "avorton!"
+	line "pas comme ça!"
 	done
 
 _SSAnne5Text1:

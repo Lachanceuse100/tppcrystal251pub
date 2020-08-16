@@ -102,90 +102,103 @@ BlaineHeatedRage:
 	step_end
 
 BlaineRejectText:
-	text "BLAINE: My"
-	line "RESEARCH NOTES!"
+	text "AUGUSTE: Mes"
+	line "RECHERCHES!"
 
-	para "They're gone!"
+	para "Partis!"
 
-	para "The last traces of"
-	line "CINNABAR RESEARCH"
-	cont "LAB, gone!"
+	para "Les dernières tra-"
+	line "ces dans le LABO-"
+	cont "RATOIRE de CRAMOIS"
+	cont "'ILE<...>"
 
-	para "How could this"
-	line "have happened!?"
+	para "Comment ça a pu"
+	line "arriver!?"
 	
-	para "Once the CINNABAR"
-	line "VOLCANO erupted<...>"
+	para "Lorsque le VOLCAN"
+	line "a explosé<...>"
 	
-	para "No<...> no<...> no!"
+	para "Non<...> non<...> non!"
 	done
 
 BlaineRejectText2:
-	text "You decide it"
-	line "would be unwise"
-	
-	para "to interrupt his"
-	line "heated frenzy."
+	text "On dirait que ce"
+	line "n'est pas le mo-"
+
+	para "ment pour un"
+	line "combat."
 	done
 
 BlaineBeforeRematchText:
-	text "BLAINE: <...>!"
-	line "My RESEARCH NOTES!"
+	text "AUGUSTE: <...>!"
+	line "Mes RECHERCHES!"
 
-	para "You got them back!"
+	para "Tu les as"
+	line "retrouvés!"
 
-	para "Thanks for getting"
-	line "those for me."
+	para "Merci de me les"
+	line "avoir rapportés."
 	
-	para "They are the last"
-	line "copies of the map"
+	para "Ce sont les der-"
+	line "niers documents"
 	
-	para "to MEW's only"
-	line "known home."
+	para "rapportant l'em-"
+	line "placement de MEW!"
 
-	para "But I heard you"
-	line "want to test your-"
-	cont "self against the"
-	
-	para "the hottest flames"
-	line "I have."
+	para "Bon, j'ai entendu"
+	line "que tu voulais te"
 
-	para "Let's get cookin'!"
+	para "mesurer face à mon"
+	line "feu le plus brû-"
+	cont "lant."
+
+	para "Ca va chauffer!"
 	done
 
 BlaineRematchBeatenText:
-	text "How could this be!"
+	text "Comment cela est-"
+	line "il possible?"
 
-	para "My spirit has not"
-	line "been defeated!"
+	para "Mais tu ne battras"
+	line "pas mon esprit!"
 	done
 
 BlaineAfterRematchText:
-	text "BLAINE: I burnt"
-	line "myself out<...>"
+	text "AUGUSTE: C'est la"
+	line "surchauffe<...>"
 
-	para "I'll take my NOTES"
-	line "back, but leave"
+	para "Je vais reprendre"
+	line "mes notes, mais"
 	
-	para "you with a map to"
-	line "GUYANA, the only"
+	para "pour te remercier,"
+	line "je vais te parta-"
 	
-	para "known habitat of"
-	line "MEW, as thanks."
+	para "fer une CARTE de"
+	line "GUYANA."
 
-	para "I'll never give"
-	line "up until the day"
+	para "D'après mes nom-"
+	line "breuses recher-"
 	
-	para "I've rebuilt the"
-	line "CINNABAR GYM!"
+	para "ches, ce serait le"
+	line "seul habitat connu"
+	cont "de MEW."
+
+	para "Bonne chance!"
+
+	para "Moi non plus, je"
+	line "n'abandonnerai pas"
+	
+	para "jusqu'à recons-"
+	line "struire l'ARENE de"
+	cont "CRAMOIS'ILE."
 	done
 
 BlaineAfterRematchText2:
 	text "Gahahaha!!"
 
-	para "Battling with you"
-	line "gets me all fired"
-	cont "up!"
+	para "Me battre contre"
+	line "toi m'a gonflé à"
+	cont "bloc!"
 	done
 
 SeafoamGymGuyScript: ; 0x1ab531
@@ -226,151 +239,154 @@ SeafoamGymGuyScript: ; 0x1ab531
 ; 0x1ab548
 
 UnknownText_0x1ab548: ; 0x1ab548
-	text "BLAINE: Waaah!"
+	text "AUGUSTE: Waaah!"
 
-	para "My GYM in CINNABAR"
-	line "burned down."
+	para "Mon ARENE de CRA-"
+	line "MOIS'ILE a brûlé."
 
-	para "My fire-breathing"
-	line "#MON and I are"
+	para "Moi et mes #MON"
+	line "de feu n'avons"
 
-	para "homeless because"
-	line "of the volcano."
+	para "plus de maison à"
+	line "cause du volcan."
 
 	para "Waaah!"
 
-	para "But I'm back in"
-	line "business as a GYM"
+	para "Mais je suis tou-"
+	line "jours un CHAMPION!"
 
-	para "LEADER here in"
-	line "this cave."
+	para "Et je fais la loi"
+	line "dans cette grotte."
 
-	para "If you can beat"
-	line "me, I'll give you"
-	cont "a BADGE."
+	para "Si tu peux me bat-"
+	line "tre, je te donne-"
+	cont "rai un BADGE."
 
-	para "Ha! You'd better"
-	line "have BURN HEAL!"
+	para "J'espère que tu as"
+	line "de l'ANTI-BRULE!"
 	done
 ; 0x1ab646
 
 UnknownText_0x1ab646: ; 0x1ab646
-	text "BLAINE: Awesome."
-	line "I've burned out<...>"
+	text "AUGUSTE: Pas mal."
+	line "J'ai surchauffé<...>"
 
-	para "You've earned"
-	line "VOLCANOBADGE!"
+	para "Tu as mérité le"
+	line "BADGE VOLCAN!"
 	done
 ; 0x1ab683
 
 UnknownText_0x1ab683: ; 0x1ab683
-	text "<PLAYER> received"
-	line "VOLCANOBADGE."
+	text "<PLAYER> reçoit"
+	line "le BADGE VOLCAN!"
 	done
 ; 0x1ab69d
 
 UnknownText_0x1ab69d: ; 0x1ab69d
-	text "BLAINE: Also"
-	line "take this."
+	text "AUGUSTE: Prends"
+	line "ça aussi."
 	done
 
 AfterFireBlastText:
-	text "It contains"
-	line "FIRE BLAST!"
+	text "Ca contient"
+	line "DEFLAGRATION!"
 
-	para "Don't waste it"
-	line "on water types!"
+	para "Ne le gaspille"
+	line "pas sur un type"
+	cont "eau."
 
-	para "I'm going to win"
-	line "next time."
+	para "Je gagnerais la"
+	line "prochaine fois."
 
-	para "When I rebuild my"
-	line "CINNABAR GYM,"
+	para "Quand j'aurais"
+	line "reconstruit l'ARE-"
+	cont "NE de CRAMOIS'ILE,"
 
-	para "we'll have to have"
-	line "a rematch."
+	para "nous combattrons"
+	line "à nouveau."
 	done
 ; 0x1ab71c
 
 UnknownText_0x1ab71c: ; 0x1ab71c
-	text "BLAINE: My fire"
-	line "#MON will be"
+	text "AUGUSTE: Mes"
+	line "#MON de feu"
 
-	para "even stronger."
-	line "Just you watch!"
+	para "seront invincibles"
+	line "tu verras!"
 	done
 ; 0x1ab759
 
 SeafoamGymGuyWinText: ; 0x1ab759
 	text "Yo!"
 
-	para "<...> Huh? It's over"
-	line "already?"
+	para "<...> Hein? C'est déjà"
+	line "fini?"
 
-	para "Sorry, sorry!"
+	para "Mince!"
 
-	para "CINNABAR GYM was"
-	line "gone, so I didn't"
+	para "L'ARENE DE CRAMOI-"
+	line "S'ILE était fermé"
 
-	para "know where to find"
-	line "you."
+	para "alors je ne savais"
+	line "pas où te trouver."
 
-	para "But, hey, you're"
-	line "plenty strong even"
+	para "Mais t'es super"
+	line "balèze même sans"
 
-	para "without my advice."
-	line "I knew you'd win!"
+	para "mes conseils. Je"
+	line "savais que tu"
+	cont "gagnerais!"
 	done
 ; 0x1ab806
 
 SeafoamGymGuyWinText2: ; 0x1ab806
-	text "A #MON GYM can"
-	line "be anywhere as"
+	text "Une ARENE #MON"
+	line "peut être n'impor-"
 
-	para "long as the GYM"
-	line "LEADER is there."
+	para "te où tant que le"
+	line "CHAMPION est là."
 
-	para "There's no need"
-	line "for a building."
+	para "Pas besoin d'un"
+	line "toit."
 	done
 ; 0x1ab865
 
 SeafoamGymGuySteamedText:
-	text "Boy, BLAINE sure"
-	line "seems steamed<...>"
+	text "AUGUSTE à l'air"
+	line "en pétard<...>"
 
-	para "He needs to chill"
-	line "for a bit."
+	para "Il devrait se"
+	line "détendre un peu."
 	done
 
 SeafoamGymGuyGardenText:
-	text "Boy, BLAINE sure"
-	line "seems steamed<...>"
+	text "AUGUSTE à l'air"
+	line "en pétard<...>"
 
-	para "Oh! Hey, CHAMP!"
+	para "Oh! Dis!"
 
-	para "Listen, I heard"
-	line "this weird rumor."
+	para "Tu as entendu"
+	line "cette rumeur"
+	cont "bizarre?"
 
-	para "You know BILL? The"
+	para "Tu connais LEO, le"
 	line "#MANIAC?"
 
-	para "He used to live up"
-	line "at the cape on"
-	cont "ROUTE 25."
+	para "Il vivait au CAP"
+	line "d'AZURIA avant."
 
-	para "People say there's"
-	line "a GARDEN up there"
+	para "Les gens disent"
+	line "qu'il y a un"
 
-	para "where BILL would"
-	line "keep his rare"
-	cont "#MON."
+	para "jardin ou LEO"
+	line "garde ses #MON"
+	cont "rares."
 
-	para "If you're working"
-	line "on a #DEX, you"
+	para "Toi qui travaille"
+	line "sur un #DEX,"
 
-	para "might want to"
-	line "check it out."
+	para "ça t'intéressera"
+	line "peut-être."
 	done
 
 BlainePostgameRematchScript:
@@ -390,30 +406,31 @@ BlainePostgameRematchScript:
     end
 
 BlainePostgameRematchText:
-	text "BLAINE: Woah!"
+	text "AUGUSTE: Woah!"
 	
-	para "I didn't think I'd"
-	line "see you back here"
-	cont "in my<...>"
+	para "Je ne m'attendais"
+	line "pas à te revoir"
+	cont "dans mon<...>"
 
 	para "<...> <...> <...>"
-	line "<...>my <``>GYM<''><...>"
+	line "<...>mon <``>ARENE<''><...>"
 	
-	para "Oh? You want to"
-	line "battle again?"
+	para "Oh? Tu veux un"
+	line "nouveau combat?"
 	done
 
 BlainePostgameBeatenText:
-	text "No! It can't be!"
+	text "Impossible!"
 	done
 
 BlainePostgameAfterText:
-	text "BLAINE: Your #-"
-	line "MON are super hot!"
+	text "AUGUSTE: Tes #-"
+	line "MON sont bou-"
+	cont "illants!"
 
-	para "I guess I'm just a"
-	line "smoldering ember"
-	cont "without my GYM<...>"
+	para "Sans mon ARENE, je"
+	line "ne suis qu'une pe-"
+	cont "tite FLAMMECHE<...>"
 	done
 	
 SeafoamGym_MapEventHeader: ; 0x1ab865

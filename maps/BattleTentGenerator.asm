@@ -59,46 +59,48 @@ MapBattleTentGeneratorRandomPCScript1:
 ; <text goes here>
 
 MapBattleTentGeneratorSwitchText1:
-	text "BATTLE TENT"
-	line "GENERATOR"
-	cont "CONTROL PANEL"
+	text "TENTE DE COMBAT:"
+	line "PANNEAU DE CONTRO-"
+	cont "LE DU GENERATEUR"
 
-	para "GENERATOR STATUS:"
-	line "OFFLINE"
+	para "STATUT: HORS"
+	line "LIGNE"
 
-	para "TURN ON GENERATOR?"
+	para "ALLUMER?"
 	done
 
 MapBattleTentGeneratorSwitchText2:
-	text "BATTLE TENT"
-	line "GENERATOR"
-	cont "STARTUP OKAY"
+	text "TENTE DE COMBAT:"
+	line "ALLUMAGE DU GENE-"
+	cont "RATEUR O.K."
 
-	para "ADMIN ACCESS"
-	line "DOOR UNLOCKED"
+	para "ACCES:"
+	line "ADMINISTRATEUR"
+	
+	para "OUVERTURE DE LA"
+	line "PORTE"
 	done
 
 MapBattleTentGeneratorSwitchText3:
-	text "BATTLE TENT"
-	line "GENERATOR"
-	cont "CONTROL PANEL"
+	text "TENTE DE COMBAT:"
+	line "PANNEAU DE CONTRO-"
+	cont "LE DU GENERATEUR"
 
-	para "GENERATOR STATUS:"
-	line "NORMAL"
+	para "STATUT: O.K."
 	done
 
 MapBattleTentGeneratorSwitchText4:
 	text $56, " ", $56, " ", $56
-	line "It won't turn on."
+	line "Rien ne se passe."
 	done
 
 MapBattleTentGeneratorRandomPCText:
-	text "Various letters"
-	line "and numbers appear"
-	cont "on the screen."
+	text "Des lettres et des"
+	line "chiffres aparais-"
+	cont "sent à l'écran."
 
-	para "It's impossible to"
-	line "decipher."
+	para "Impossible de les"
+	line "déchiffrer."
 	done
 
 BattleTentGenerator_MapEventHeader:

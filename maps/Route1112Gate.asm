@@ -11,13 +11,13 @@ Route1112GateOfficerScript: ; 0x9cbd7
 ; 0x9cbda
 
 Route1112GateOfficerText: ; 0x9cbda
-	text "Did you see the"
-	line "SNORLAX blocking"
-	cont "the roads?"
+	text "Tu as vu ces"
+	line "RONFLEX qui blo-"
+	cont "quent les routes?"
 
-	para "They've been cau-"
-	line "sing problems for"
-	cont "the locals lately."
+	para "Ils causent des"
+	line "ennuis aux gens du"
+	cont "coin."
 	done
 ; 0x9cc4d
 

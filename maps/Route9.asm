@@ -191,35 +191,36 @@ MapRoute9SignpostItem1: ; 0x1aafa2
 ; 0x1aafa5
 
 CamperDeanSeenText: ; 0x1aafa5
-	text "I came to explore"
-	line "ROCK TUNNEL."
+	text "Je viens pour ex-"
+	line "plorer la GROTTE."
 	done
 ; 0x1aafc5
 
 CamperDeanBeatenText: ; 0x1aafc5
-	text "Whoa! Danger, man."
+	text "Whoa! Danger!"
 	done
 ; 0x1aafd9
 
 UnknownText_0x1aafd9: ; 0x1aafd9
-	text "My #MON were"
-	line "hurt before even"
+	text "Mes #MON ont"
+	line "été blessés avant"
 
-	para "entering ROCK"
-	line "TUNNEL."
+	para "d'entrer dans la"
+	line "GROTTE."
 
-	para "I'd better take"
-	line "them to a #MON"
-	cont "CENTER right away."
+	para "Je devrais les"
+	line "amener à un CENTRE"
+	cont "#MON."
 	done
 ; 0x1ab03f
 
 PicnickerHeidiSeenText: ; 0x1ab03f
-	text "I had a picnic in"
-	line "the POWER PLANT!"
+	text "J'ai fait un"
+	line "pique-nique à la"
+	cont "CENTRALE."
 
-	para "It was electri-"
-	line "fying! Heh."
+	para "L'ambiance était"
+	line "électrique!"
 	done
 ; 0x1ab074
 
@@ -229,108 +230,113 @@ PicnickerHeidiBeatenText: ; 0x1ab074
 ; 0x1ab07c
 
 UnknownText_0x1ab07c: ; 0x1ab07c
-	text "The POWER PLANT"
-	line "is pretty big."
+	text "La CENTRALE est"
+	line "super grande."
 
-	para "Apparently a very"
-	line "rare #MON is"
-	cont "sometimes sighted."
+	para "Il paraît qu'on"
+	line "peut y trouver un"
+	cont "#MON très rare."
 	done
 ; 0x1ab0c2
 
 CamperSidSeenText: ; 0x1ab0c2
-	text "Hey, you!"
-	line "Don't litter!"
+	text "Hé! Il y a des"
+	line "poubelle, tu sais?"
 	done
 ; 0x1ab0da
 
 CamperSidBeatenText: ; 0x1ab0da
-	text "I was just point-"
-	line "ing out<...>"
+	text "Je disais ça comme"
+	line "ça<...>"
 	done
 ; 0x1ab0f6
 
 UnknownText_0x1ab0f6: ; 0x1ab0f6
-	text "Sorry. You weren't"
-	line "littering. It was"
-	cont "my mistake."
+	text "Attention à ne"
+	line "rien jeter par"
+	cont "terre!"
 	done
 ; 0x1ab127
 
 PicnickerEdnaSeenText: ; 0x1ab127
-	text "People shouldn't"
-	line "leave any litter"
-	cont "behind."
+	text "Les gens ne de-"
+	line "vraient pas jeter"
+	cont "de déchets."
 	done
 ; 0x1ab151
 
 PicnickerEdnaBeatenText: ; 0x1ab151
-	text "WEEZING helps with"
-	line "keeping it clean."
+	text "Les SMOGOGO aident"
+	line "à garder la nature"
+	cont "propre."
 
-	para "It sucks all"
-	line "the litter up!"
+	para "Ils absorbent les"
+	line "déchets!"
 	done
 ; 0x1ab15f
 
 UnknownText_0x1ab15f: ; 0x1ab15f
-	text "Conserving energy"
-	line "is important, but"
+	text "Conserver nos"
+	line "énergies est im-"
+	cont "portant mais"
 
-	para "the environment is"
-	line "even more vital."
+	para "l'environnement"
+	line "est plus impor-"
+	cont "tant!"
 	done
 ; 0x1ab1a8
 
 HikerTimSeenText: ; 0x1ab1a8
-	text "She'll be coming"
-	line "'round MT.SILVER"
-	cont "when she comes<...>"
+	text "Elle descend du"
+	line "MONT ARGENT à"
+	cont "cheval<...>"
+	cont "La la la la la<...>"
 
-	para "MT.SILVER is in"
-	line "JOHTO, right?"
+	para "Le MONT ARGENT est"
+	line "à JOHTO, non?"
 	done
 ; 0x1ab1f7
 
 HikerTimBeatenText: ; 0x1ab1f7
-	text "I was too busy"
-	line "singing<...>"
+	text "J'étais occupé à"
+	line "chanter<...>"
 	done
 ; 0x1ab210
 
 UnknownText_0x1ab210: ; 0x1ab210
-	text "Battles are about"
-	line "concentration."
+	text "Il faut que je me"
+	line "concentre plus en"
+	cont "combat."
 	done
 ; 0x1ab232
 
 HikerSidneySeenText: ; 0x1ab232
-	text "I'll tell you a"
+	text "Je vais te dire un"
 	line "secret."
 
-	para "But first, we"
-	line "battle!"
+	para "Mais d'abord,"
+	line "combat!"
 	done
 ; 0x1ab260
 
 HikerSidneyBeatenText: ; 0x1ab260
-	text "Oh, dang!"
-	line "I lost that<...>"
+	text "Ah, zut!"
+	line "Perdu<...>"
 	done
 ; 0x1ab278
 
 UnknownText_0x1ab278: ; 0x1ab278
-	text "The POWER PLANT is"
-	line "across a small"
-	cont "river."
+	text "La CENTRALE est de"
+	line "l'autre côté d'une"
+	cont "rivière."
 	done
 ; 0x1ab2a2
 
 UnknownText_0x1ab2a2: ; 0x1ab2a2
 	text "ROUTE 9"
 
-	para "CERULEAN CITY -"
-	line "ROCK TUNNEL"
+	para "AZURIA -"
+	line "GROTTE"
 	done
 ; 0x1ab2c7
 

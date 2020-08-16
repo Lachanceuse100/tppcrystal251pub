@@ -244,72 +244,71 @@ BillsHouseGardenDoor:
 	jumptext Text_gardendoorlocked
 
 UnknownText_0x1896ce: ; 0x1896ce
-	text "Hm? You know BILL?"
-	line "He's my grandson."
+	text "Tu connais LEO?"
+	line "C'est mon petit-"
+	cont "fils."
+	
+	para "Il est à JOHTO."
+	line "Il s'occupe des"
+	cont "PCs."
 
-	para "He's in JOHTO. He"
-	line "does something"
-
-	para "with PCs, so I'm"
-	line "house-sitting."
+	para "Alors moi je m'oc-"
+	line "cupe de la maison."
 	done
 ; 0x189732
 
 UnknownText_0x189732: ; 0x189732
-	text "If you have that"
-	line "#MON, may I see"
-	cont "it, please?"
+	text "Si tu as ce #"
+	line "MON, peux-tu me"
+	cont "le montrer?"
 	done
 ; 0x189760
 
 UnknownText_0x189760: ; 0x189760
-	text "You will show me?"
-	line "How good of you!"
+	text "Tu vas me le mon-"
+	line "trer? Cool!"
 	done
 ; 0x189784
 
 UnknownText_0x189784: ; 0x189784
-	text "You don't have it?"
-	line "That's too bad<...>"
+	text "Tu ne l'as pas?"
+	line "Dommage<...>"
 	done
 ; 0x1897a6
 
 UnknownText_0x1897a6: ; 0x1897a6
-	text "Ah, so that is"
+	text "Alors c'est"
 	line "@"
 	text_from_ram StringBuffer3
 	text "?"
 
-	para "Isn't it cute!"
-	line "That's so kind of"
-	cont "you."
+	para "Il est mimi!"
+	line "Merci mon enfant!"
 	done
 ; 0x1897e1
 
 UnknownText_0x1897e1: ; 0x1897e1
-	text "Thanks!"
-
-	para "This is a token of"
-	line "my appreciation."
+	para "Voilà une petite"
+	line "récompense."
 	done
 ; 0x18980e
 
 UnknownText_0x18980e: ; 0x18980e
-	text "Come visit again"
-	line "sometime."
+	text "Rends-moi visite"
+	line "des fois."
 	done
 ; 0x18982a
 
 UnknownText_0x18982a: ; 0x18982a
-	text "Thanks for showing"
-	line "me so many cute"
-	cont "#MON."
+	text "Merci de me mon-"
+	line "trer autant de"
+	cont "#MON tout mimi."
 
-	para "I really enjoyed"
-	line "myself. I'm glad"
+	para "C'est vraiment"
+	line "très amusant. Ma"
 
-	para "I've lived such a"
-	line "long life."
+	para "vie est belle"
+	line "grâce à toi."
 
 	; para "Feel free to ex-"
 	; line "plore out back."
@@ -335,94 +334,92 @@ UnknownText_0x18982a: ; 0x18982a
 ; 0x189891
 
 UnknownText_0x189891: ; 0x189891
-	text "Hm?"
+	text "Hmm?"
 
-	para "That's not the"
-	line "#MON that I was"
-	cont "told about."
+	para "Ce n'est pas le"
+	line "#MON dont il"
+	cont "m'a parlé."
 	done
 ; 0x1898c0
 
 UnknownText_0x1898c0: ; 0x1898c0
-	text "My grandson BILL"
-	line "told me about a"
+	text "Mon petit-fils LEO"
+	line "m'a parlé d'un"
 
-	para "#MON that has a"
-	line "long tongue."
+	para "#MON avec une"
+	line "longue langue."
 	done
 ; 0x1898ff
 
 UnknownText_0x1898ff: ; 0x1898ff
-	text "Ah, my grandson"
-	line "mentioned a round,"
+	text "Mon petit-fils m'a"
+	line "parlé d'un #MON"
 
-	para "green #MON that"
-	line "has leaves growing"
-	cont "on its head."
+	para "vert et rond avec"
+	line "des feuilles sur"
+	cont "sa tête."
 	done
 ; 0x189953
 
 UnknownText_0x189953: ; 0x189953
-	text "Do you know of a"
-	line "sea #MON that"
+	text "Tu connais un"
+	line "#MON marin avec"
 
-	para "has a red sphere"
-	line "in its body?"
+	para "une sphère rouge"
+	line "dans le corps?"
 
-	para "You know, the one"
-	line "that's shaped like"
-	cont "a star?"
+	para "Tu sais<...> Celui"
+	line "qui est en forme"
+	cont "d'étoile?"
 
-	para "I heard that it"
-	line "appears at night."
+	para "On dit qu'il appa-"
+	line "raît la nuit."
 
-	para "I would surely"
-	line "like to see it."
+	para "J'aimerais tant"
+	line "le voir."
 	done
 ; 0x1899fe
 
 UnknownText_0x1899fe: ; 0x1899fe
-	text "BILL told me about"
-	line "a #MON that is"
+	text "LEO m'a parlé d'un"
+	line "#MON très loyal"
 
-	para "very loyal to its"
-	line "trainer."
+	para "envers son dres-"
+	line "seur."
 
-	para "It's supposed to"
-	line "ROAR well."
+	para "On dit qu'il HURLE"
+	line "très bien."
 	done
 ; 0x189a57
 
 UnknownText_0x189a57: ; 0x189a57
-	text "I heard about a"
-	line "cute #MON that"
-	cont "has six tails."
+	text "J'ai entendu"
+	line "parler d'un #-"
+	cont "MON a six queues."
 
-	para "I would love to"
-	line "hug a cute #MON"
-	cont "like that."
+	para "J'adorerais câli-"
+	line "ner un #MON mi-"
+	cont "mi comme ça."
 	done
 ; 0x189ab1
 
 UnknownText_0x189ab1: ; 0x189ab1
-	text "Do you know that"
-	line "hugely popular"
-	cont "#MON?"
+	text "Tu connais ce"
+	line "#MON super"
+	cont "populaire?"
 
-	para "The #MON that"
-	line "has a yellow body"
-	cont "and red cheeks."
+	para "Ce #MON qui a"
+	line "un corps jaune et"
+	cont "des joues rouges<...>"
 
-	para "I would love to"
-	line "see what it looks"
-
-	para "like before it"
-	line "evolves."
+	para "J'aimerais tant le"
+	line "voir avant qu'il"
+	cont "n'évolue."
 	done
 ; 0x189b42
 
 Text_gardendoorlocked:
-	text "It's locked<...>"
+	text "C'est fermé<...>"
 	done
 
 BillsHouse_MapEventHeader: ; 0x189b42

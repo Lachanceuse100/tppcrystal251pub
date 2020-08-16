@@ -189,136 +189,137 @@ ItemFragment_0x1aa5e4: ; 0x1aa5e4
 ; 0x1aa5e6
 
 TeacherColetteSeenText: ; 0x1aa5e6
-	text "Have you forgotten"
-	line "anything?"
+	text "Tu n'as rien"
+	line "oublié?"
 	done
 ; 0x1aa604
 
 TeacherColetteBeatenText: ; 0x1aa604
-	text "Kyaaah!"
+	text "Kiyaaah!"
 	done
 ; 0x1aa60d
 
 UnknownText_0x1aa60d: ; 0x1aa60d
-	text "Before I became a"
-	line "teacher, I used to"
-
-	para "forget a lot of"
-	line "things."
+	text "Avant de devenir"
+	line "enseignante, j'ou-"
+	cont "bliais beaucoup de"
+	cont "choses."
 	done
 ; 0x1aa64b
 
 TeacherHillarySeenText: ; 0x1aa64b
-	text "On sunny days, I"
-	line "think that the"
+	text "Quand il fait"
+	line "beau, je pense que"
 
-	para "kids would rather"
-	line "be playing in the"
-
-	para "schoolyard than"
-	line "studying in class."
+	para "les enfants pré-"
+	line "fèrent jouer"
+	cont "qu'étudier."
 	done
 ; 0x1aa6b3
 
 TeacherHillaryBeatenText: ; 0x1aa6b3
-	text "I didn't want to"
-	line "lose<...>"
+	text "Je ne voulais pas"
+	line "perdre<...>"
 	done
 ; 0x1aa6ca
 
 UnknownText_0x1aa6ca: ; 0x1aa6ca
-	text "Studying is impor-"
-	line "tant, but exercise"
-	cont "is just as vital."
+	text "Etudier est impor-"
+	line "tant, mais jouer"
+	cont "est tout aussi"
+	cont "vital."
 	done
 ; 0x1aa703
 
 SchoolboyKippSeenText: ; 0x1aa703
-	text "Hang on. I have to"
-	line "phone my mom."
+	text "Attends, je dois"
+	line "appeler ma maman."
 	done
 ; 0x1aa725
 
 SchoolboyKippBeatenText: ; 0x1aa725
-	text "Sorry, Mom!"
-	line "I was beaten!"
+	text "Désolé, maman"
+	line "J'ai été battu."
 	done
 ; 0x1aa740
 
 UnknownText_0x1aa740: ; 0x1aa740
-	text "My mom worries so"
-	line "much about me, I"
+	text "Ma mère s'inquiète"
+	line "tellement pour moi"
 
-	para "have to phone her"
-	line "all the time."
+	para "que je dois tout"
+	line "le temps lui"
+	cont "téléphoner."
 	done
 ; 0x1aa784
 
 SchoolboyTommySeenText: ; 0x1aa784
-	text "Let's battle."
-	line "I won't lose!"
+	text "Battons-nous."
+	line "Je vais gagner!"
 	done
 ; 0x1aa79f
 
 SchoolboyTommyBeatenText: ; 0x1aa79f
-	text "I forgot to do my"
-	line "homework!"
+	text "J'ai oublié de"
+	line "faire mes devoirs!"
 	done
 ; 0x1aa7bc
 
 UnknownText_0x1aa7bc: ; 0x1aa7bc
-	text "Sayonara! I just"
-	line "learned that in my"
-	cont "Japanese class."
+	text "Sayonara! J'ai"
+	line "appris ça en cours"
+	cont "de Japonais."
 	done
 ; 0x1aa7f1
 
 SchoolboyJohnnySeenText: ; 0x1aa7f1
-	text "We're on a field"
-	line "trip to LAVENDER"
+	text "Nous faisons une"
+	line "sortie à la TOUR"
 
-	para "RADIO TOWER for"
-	line "social studies."
+	para "RADIO de LAVAN-"
+	line "VILLE."
 	done
 ; 0x1aa833
 
 SchoolboyJohnnyBeatenText: ; 0x1aa833
-	text "You're wickedly"
-	line "tough!"
+	text "T'es pas super"
+	line "sympa."
 	done
 ; 0x1aa84a
 
 UnknownText_0x1aa84a: ; 0x1aa84a
-	text "I'm tired of walk-"
-	line "ing. I need to"
-	cont "take a break."
+	text "C'est épuisant de"
+	line "marcher. J'ai be-"
+	cont "soin d'une pause<...>"
 	done
 ; 0x1aa87a
 
 SchoolboyBillySeenText: ; 0x1aa87a
-	text "My favorite class"
-	line "is gym!"
+	text "Moi j'aime le"
+	line "sport!"
 	done
 ; 0x1aa895
 
 SchoolboyBillyBeatenText: ; 0x1aa895
-	text "Oh, no!"
-	line "How could I lose?"
+	text "Oh, non! J'ai"
+	line "perdu!"
 	done
 ; 0x1aa8b0
 
 UnknownText_0x1aa8b0: ; 0x1aa8b0
-	text "If #MON were a"
-	line "subject at school,"
-	cont "I'd be the best!"
+	text "Si il y avais un"
+	line "cours de #MON"
+	cont "à l'école, c'est"
+	cont "moi qui donnerait"
+	cont "le cours!"
 	done
 ; 0x1aa8e3
 
 UnknownText_0x1aa8e3: ; 0x1aa8e3
 	text "ROUTE 15"
 
-	para "FUCHSIA CITY -"
-	line "LAVENDER TOWN"
+	para "PARMANIE -"
+	line "LAVANVILLE"
 	done
 ; 0x1aa90a
 

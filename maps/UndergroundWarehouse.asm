@@ -376,7 +376,7 @@ UnknownText_0x7dc8d: ; 0x7dc8d
 	para "Tu es mon seul"
 	line "espoir."
 
-	para "Sauve la TOUR RADIO"
+	para "Sauve la TOUR"
 	line "RADIO<...>"
 
 	para "Sauve tous les"

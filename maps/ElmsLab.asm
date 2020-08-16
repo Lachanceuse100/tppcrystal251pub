@@ -1294,8 +1294,8 @@ ElmGiveMasterBallText1: ; 0x79cd0
 	text "ORME: <PLAY_G>!"
 
 	para "Grâce à toi, mes"
-	para "recherches avan-"
-	line "cent bien!"
+	line "recherches avan-"
+	cont "cent bien!"
 
 	para "Prends ceci pour"
 	line "te remercier."
@@ -1333,8 +1333,9 @@ ElmGiveTicketText1: ; 0x79df3
 	para "C'est un PASSE"
 	line "BATEAU."
 
-	para "Now you can catch"
-	line "#MON in KANTO."
+	para "Tu vas pouvoir"
+	line "attraper des #-"
+	cont "MON à KANTO."
 	done
 ; 0x79e6f
 

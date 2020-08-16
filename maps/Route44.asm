@@ -498,10 +498,6 @@ UnknownText_0x19daa8: ; 0x19daa8
 ; 0x19daf7
 
 UnknownText_0x19daa8_Metric: ; 0x19daa8
-	text "That POLIWAG that"
-	line "got away<...>"
-	cont "It was huge."
-
 	text "Ce PTITARD était"
 	line "énorme."
 
@@ -654,7 +650,7 @@ UnknownText_0x19de66: ; 0x19de66
 ; 0x19deed
 
 CooltrainerfCybilSeenText: ; 0x19deed
-	text "Tu as l'air fort"
+	text "Tu as l'air fort."
 
 	para "Ca te dirait un"
 	line "petit challenge?"

@@ -52,7 +52,7 @@ UnknownText_0x18c73f: ; 0x18c73f
 	line "LUNETTES NOIRES."
 
 	para "Oublie que tu m'as"
-	cont "vu, OK?"
+	line "vu, OK?"
 	done
 ; 0x18c80c
 

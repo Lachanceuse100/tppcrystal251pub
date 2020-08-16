@@ -29,10 +29,13 @@ MapRoute16Signpost0Script: ; 0x1ad32c
 ; 0x1ad32f
 
 UnknownText_0x1ad32f: ; 0x1ad32f
-	text "CYCLING ROAD"
+	text "PISTE CYCLABLE"
 
-	para "BEE WARNING!"
-	line "STAY OUT OF GRASS."
+	para "ATTENTION AUX"
+	line "GUEPES! RESTEZ EN"
+
+	para "DEHORS DES HAUTES"
+	line "HERBES!"
 	done
 ; 0x1ad35c
 

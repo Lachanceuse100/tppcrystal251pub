@@ -63,11 +63,12 @@ WakeSnorlax5:
 	end
 
 UnknownText_0x1adb22: ; 0x1adb22
-	text "The road is closed"
-	line "until the problem"
+	text "La route sera"
+	line "fermée tant que le"
 
-	para "at the POWER PLANT"
-	line "is solved."
+	para "problème à la"
+	line "CENTRALE ne sera"
+	cont "pas résolu."
 	done
 ; 0x1adb66
 
@@ -80,33 +81,34 @@ UnknownText_0x1adb66: ; 0x1adb66
 ; 0x1adb97
 
 UnknownText_0x1adb97: ; 0x1adb97
-	text "What's this?"
+	text "C'est quoi ça?"
 
-	para "House for Sale<...>"
-	line "Nobody lives here."
+	para "Maison à vendre<...>"
+	line "Il n'y a personne."
 	done
 
 Snorlax5WakeyWakeyPrompt:
-	text "SNORLAX is snoring"
-	line "peacefully<...>"
+	text "RONFLEX dort"
+	line "paisiblement<...>"
 
-	para "Play the #"
+	para "Jouer de la #"
 	line "FLUTE?"
 	done
 
 Snorlax5Text:
-	text "SNORLAX is snoring"
-	line "peacefully<...>"
+	text "RONFLEX dort"
+	line "paisiblement<...>"
 	done
 
 Snorlax5WakeText:
-	text "The #GEAR was"
-	line "placed near the"
-	cont "sleeping SNORLAX<...>"
+	text "Vous mettez votre"
+	line "# MATOS près du"
+	cont "RONFLEX endormi<...>"
 
 	para "<...>"
 
-	para "SNORLAX woke up!"
+	para "RONFLEX se"
+	line "réveille!"
 	done
 
 ; 0x1adbc7

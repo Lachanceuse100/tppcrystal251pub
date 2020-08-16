@@ -58,68 +58,67 @@ MapCeladonDeptStore3FSignpost0Script: ; 0x70d50
 ; 0x70d53
 
 UnknownText_0x70d53: ; 0x70d53
-	text "I can't decide"
-	line "which #MON I"
-
-	para "should use this"
-	line "item on<...>"
+	text "Sur quel #MON"
+	line "devrais-je utili-"
+	cont "cet objet<...>"
 	done
 ; 0x70d86
 
 UnknownText_0x70d86: ; 0x70d86
-	text "Uh-oh! I traded my"
-	line "#MON without"
+	text "Oups! J'ai échangé"
+	line "mon #MON sans"
 
-	para "removing the UP-"
-	line "GRADE from it."
+	para "lui enlever mon"
+	line "EVOLUTOR!"
 	done
 ; 0x70dc7
 
 UnknownText_0x70dc7: ; 0x70dc7
-	text "Yeah! I'm finally"
-	line "getting a PORYGON!"
+	text "Ouais! J'ai enfin"
+	line "un PORYGON!"
 
-	para "I'm no good at the"
-	line "slots, so I could"
+	para "Moi j'aime pas les"
+	line "machines à sous."
 
-	para "never get enough"
-	line "coins<...>"
+	para "J'avais jamais"
+	line "assez de jetons<...>"
 
-	para "<...>Huh?"
+	para "<...>Hein?"
 
-	para "The traded PORYGON"
-	line "turned into a dif-"
-	cont "ferent #MON!"
+	para "Le PORYGON s'est"
+	line "transformé en un"
+	cont "autre #MON!"
 	done
 ; 0x70e61
 
 UnknownText_0x70e61: ; 0x70e61
-	text "This store used"
-	;line "to sell TMs,"
-	line "to sell TMs."
+	text "Ce magasin vendait"
+	;line "to sell TMs"
+	line "des CTs avant."
 
 
-	para "I heard they're"
-	line "opening up a new"
+	para "Il parait qu'il"
+	line "vont le réouvrir"
 
 	;para "they only open to"
 	;line "the best trainers"
 	;cont "in KANTO."
 
-	para "TM DEPOT down-"
-	line "stairs."
+	cont "au sous-sol."
 
-	para "I wonder if they'll"
-	line "let me in<...>"
+	para "Je me demande si"
+	line "ils me laisseront"
+	cont "entrer<...>"
 
 	done
 ; 0x70e85
 
 UnknownText_0x70e85: ; 0x70e85
-	text "3F: BATTLE SHOP"
+	text "Renforcez vos"
+	line "#MON!"
 
-	para "Make Your #MON"
-	line "Stronger!"
+	para "2EME: MARCHE DU"
+	line "      COMBAT"
 	done
 ; 0x70eab
 

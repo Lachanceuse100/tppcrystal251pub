@@ -33,27 +33,26 @@ ZubatScript_0x188143: ; 0x188143
 ; 0x18814d
 
 UnknownText_0x18814d: ; 0x18814d
-	text "My husband lives"
-	line "happily with #-"
-	cont "MON he got through"
-	cont "trades."
+	text "Mon mari aime les"
+	line "#MON qu'il a"
+	cont "eu en faisant des"
+	cont "échanges."
 	done
 ; 0x18818a
 
 UnknownText_0x18818a: ; 0x18818a
-	text "Ah<...> I'm so happy<...>"
+	text "Ah<...> Je suis"
+	line "comblé<...>"
 	done
 ; 0x18819c
 
 UnknownText_0x18819c: ; 0x18819c
-	text "KANGASKHAN: Garu"
-	line "garuu."
+	text "KANGOUREX: Kangou!"
 	done
 ; 0x1881b5
 
 UnknownText_0x1881b5: ; 0x1881b5
-	text "PIDGEOTTO:"
-	line "Kurukkoo!"
+	text "ROUCOUPS: Rouuu!"
 	done
 ; 0x1881c9
 

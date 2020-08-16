@@ -136,7 +136,7 @@ BoutiqueStylistText3:
 	;change it
 
 BoutiqueStylistText4:
-	text "Voila! C'est bon!"
+	text "Voilà! C'est bon!"
 	done
 
 BoutiqueStylistTextExit:

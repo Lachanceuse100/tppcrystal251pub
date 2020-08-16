@@ -128,196 +128,200 @@ MapPokemonFanClubSignpost1Script: ; 0x19187e
 ; 0x191881
 
 UnknownText_0x191881: ; 0x191881
-	text "I'm the CHAIRMAN"
-	line "of the #MON FAN"
-	cont "CLUB."
-
-	para "I've raised over"
-	line "150 #MON."
-
-	para "I'm very fussy"
-	line "when it comes to"
+	text "Je suis le prési-"
+	line "dent du fan club"
 	cont "#MON."
 
-	para "Did you visit just"
-	line "to hear about my"
+	para "J'ai collectionné"
+	line "plus de 150"
+	cont "#MON."
+
+	para "Je suis très"
+	line "tatillon quand"
+	cont "il s'agit de"
+	cont "#MON."
+
+	para "Alors<...>"
+
+	para "Es-tu venu m'écou-"
+	line "ter parler de"
 	cont "#MON?"
 	done
 ; 0x191911
 
 UnknownText_0x191911: ; 0x191911
-	text "Good!"
-	line "Then listen up!"
+	text "Bien!"
+	line "Alors écoute!"
 
-	para "So<...> my favorite"
-	line "RAPIDASH<...>"
+	para "Mon favori,"
+	line "GALOPA<...>"
 
-	para "It<...> cute<...> lovely<...>"
-	line "smart<...> unbearably<...>"
-	cont "plus<...> amazing<...> oh<...>"
-	cont "you think so?<...>"
-	cont "Too much<...> wild<...>"
-	cont "beautiful<...> kindly<...>"
-	cont "love it!"
+	para "Il est mignon<...>"
+	line "beau<...> rapide<...>"
+	cont "élégant<...> en feu<...>"
+	cont "Il fait pataclop,"
+	cont "pataclop<...> quand"
+	cont "il court<...> c'est"
+	cont "super non?"
+	cont "Je l'aime!"
 
-	para "Hug it<...> when<...>"
-	line "sleeping<...> warm and"
-	cont "cuddly<...> Oh, and<...>"
-	cont "spectacular<...>"
-	cont "ravishing<...> simply"
-	cont "divine<...>"
-	cont "Oops! Look at the"
-	cont "time! I've kept"
-	cont "you too long!"
+	para "Je lui fais<...> des"
+	line "câlins<...> des"
+	cont "bisous<...> des"
+	cont "gnangnans<...> des"
+	cont "zigouzigoux<...>"
+
+	para "<...> Oups! Regarde"
+	line "l'heure! Je t'ai"
+	cont "trop retenu!"
 	done
 ; 0x191a3d
 
 UnknownText_0x191a3d: ; 0x191a3d
-	text "Thanks for hearing"
-	line "me out. I want you"
-	cont "to have this!"
+	text "Merci de m'avoir"
+	line "écouté. Tiens,"
+	cont "tu peux avoir ça!"
 	done
 ; 0x191a72
 
 UnknownText_0x191a72: ; 0x191a72
-	text "It's a RARE CANDY"
-	line "that makes #MON"
-	cont "stronger."
+	text "C'est un SUPER"
+	line "BONBON qui rend"
+	cont "les #MON plus"
+	cont "forts."
 
-	para "I prefer making my"
-	line "#MON stronger"
+	para "Moi je préfère les"
+	line "renforcer en fai-"
 
-	para "by battling, so"
-	line "you can have it."
+	para "sant des combats?"
+	line "Il est pour toi."
 	done
 ; 0x191ae0
 
 UnknownText_0x191ae0: ; 0x191ae0
-	text "Hello, <PLAY_G>!"
+	text "Bonjour, <PLAYER>!"
 
-	para "Did you come see"
-	line "me about my #-"
-	cont "MON again?"
+	para "Tu reviens"
+	line "m'entendre parler"
+	cont "de #MON?"
 
-	para "No? Oh<...> I had more"
-	line "tales to tell<...>"
+	para "Non? Dommage!"
 	done
 ; 0x191b38
 
 UnknownText_0x191b38: ; 0x191b38
-	text "How disappointing<...>"
-
-	para "Come back if you"
-	line "want to listen."
+	text "Oh<...> Reviens si tu"
+	line "veux entendre d'"
+	cont "autres histoires!"
 	done
 ; 0x191b6d
 
 UnknownText_0x191b6d: ; 0x191b6d
-	text "Our CHAIRMAN is"
-	line "very vocal when it"
-	cont "comes to #MON<...>"
+	text "Notre président"
+	line "adore parler de"
+	cont "#MON."
 	done
 ; 0x191ba0
 
 UnknownText_0x191ba0: ; 0x191ba0
-	text "I love the way"
-	line "CLEFAIRY waggles"
+	text "J'aime quand"
+	line "MELOFEE agite son"
 
-	para "its finger when"
-	line "it's trying to use"
+	para "doigt quand il"
+	line "utilise son"
 
 	para "METRONOME."
-	line "It's so adorable!"
+	line "C'est adorable!"
 	done
 ; 0x191bff
 
 UnknownText_0x191bff: ; 0x191bff
-	text "I love CLEFAIRY,"
-	line "but I could never"
+	text "J'adore MELOFEE,"
+	line "mais je pourrais"
+	cont "jamais en avoir<...>"
 
-	para "catch one. So I'm"
-	line "making do with a"
-
-	para "# DOLL that I"
-	line "found."
+	para "Alors je compense"
+	line "avec la #"
+	cont "POUPEE que j'ai"
+	cont "trouvé."
 	done
 ; 0x191c5a
 
 UnknownText_0x191c5a: ; 0x191c5a
-	text "Oh, I see now. The"
-	line "girl who lost this"
+	text "Oh, je vois. La"
+	line "fille qui a perdu"
 
-	para "# DOLL is sad<...>"
+	para "sa # POUPEE est"
+	line "triste<...>"
 
-	para "OK. Could you take"
-	line "this # DOLL"
+	para "OK. Peux-tu porter"
+	line "cette # POUPEE"
 
-	para "back to that poor"
-	line "little girl?"
+	para "à la pauvre petite"
+	line "fille triste?"
 
-	para "I'll befriend a"
-	line "real CLEFAIRY on"
-
-	para "my own one day."
-	line "No worries!"
+	para "Je trouverai un"
+	line "vrai MELOFEE un"
+	cont "jour!"
 	done
 ; 0x191d0a
 
 UnknownText_0x191d0a: ; 0x191d0a
-	text "<PLAYER> received"
-	line "# DOLL."
+	text "<PLAYER> reçoit"
+	line "# POUPEE."
 	done
 ; 0x191d1e
 
 UnknownText_0x191d1e: ; 0x191d1e
-	text "You watch. I'm"
-	line "going to get a"
+	text "J'attraperai un"
+	line "MELOFEE et il sera"
 
-	para "real CLEFAIRY as"
-	line "my friend."
+	para "mon meilleur ami,"
+	line "tu verras!"
 	done
 ; 0x191d58
 
 UnknownText_0x191d58: ; 0x191d58
-	text "Your PACK is"
-	line "jammed full."
+	text "Ton sac est plein."
 	done
 ; 0x191d73
 
 UnknownText_0x191d73: ; 0x191d73
-	text "Look at my darling"
-	line "BAYLEEF!"
+	text "Regarde mon beau"
+	line "MACRONIUM!"
 
-	para "The leaf on its"
-	line "head is so cute!"
+	para "La feuille sur sa"
+	line "tête est mignonne!"
 	done
 ; 0x191db1
 
 UnknownText_0x191db1: ; 0x191db1
-	text "It's a CLEFAIRY!"
-	line "Huh?"
+	text "C'est un MELOFEE!"
+	line "Hein?"
 
-	para "Oh, right. It's a"
-	line "CLEFAIRY #"
-	cont "DOLL."
+	para "Ah, d'accord."
+	line "C'est une #"
+	cont "POUPEE d'un"
+	cont "MELOFEE."
 	done
 ; 0x191de9
 
 UnknownText_0x191de9: ; 0x191de9
-	text "BAYLEEF: Li liif!"
+	text "MACRONIUM: Niuuu!"
 	done
 ; 0x191dfc
 
 UnknownText_0x191dfc: ; 0x191dfc
-	text "Let's all listen"
-	line "politely to other"
-	cont "trainers."
+	text "Ecoutons poliment"
+	line "les autres"
+	cont "dresseurs!"
 	done
 ; 0x191e29
 
 UnknownText_0x191e29: ; 0x191e29
-	text "If someone brags,"
-	line "brag right back!"
+	text "Si quelqu'un se"
+	line "vante, vante toi"
+	cont "en retour!"
 	done
 ; 0x191e4d
 

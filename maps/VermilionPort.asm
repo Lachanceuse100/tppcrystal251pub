@@ -248,82 +248,86 @@ MovementData_0x74efe: ; 0x74efe
 ; 0x74f06
 
 UnknownText_0x74f06: ; 0x74f06
-	text "We're departing"
-	line "soon. Please get"
-	cont "on board."
+	text "Le départ est"
+	line "proche. Tout le"
+	cont "monde à bord!"
 	done
 ; 0x74f31
 
 UnknownText_0x74f31: ; 0x74f31
-	text "Sorry. You can't"
-	line "board now."
+	text "On ne monte plus"
+	line "à bord."
 	done
 ; 0x74f4d
 
 UnknownText_0x74f4d: ; 0x74f4d
-	text "Welcome to FAST"
-	line "SHIP S.S.AQUA."
+	text "Bienvenue au"
+	line "BATEAU EXPRESS:"
+	cont "L'AQUARIA"
 
-	para "Will you be board-"
-	line "ing today?"
+	para "Allez-vous monter"
+	line "à bord?"
 	done
 ; 0x74f8b
 
 UnknownText_0x74f8b: ; 0x74f8b
-	text "May I see your"
-	line "S.S.TICKET?"
+	text "Puis-je voir votre"
+	line "PASSE BATEAU?"
 	done
 ; 0x74fa7
 
 UnknownText_0x74fa7: ; 0x74fa7
-	text "We hope to see you"
-	line "again!"
+	text "Nous espérons vous"
+	line "revoir bientôt!"
 	done
 ; 0x74fc2
 
 UnknownText_0x74fc2: ; 0x74fc2
-	text "<PLAYER> flashed"
-	line "the S.S.TICKET."
+	text "<PLAYER> montre"
+	line "son PASSE BATEAU."
 
-	para "That's it."
-	line "Thank you!"
+	para "Parfait."
+	line "Merci bien!"
 	done
 ; 0x74ff2
 
 UnknownText_0x74ff2: ; 0x74ff2
-	text "<PLAYER> tried to"
-	line "show the S.S."
-	cont "TICKET<...>"
+	text "<PLAYER> voudrait"
+	line "bien montrer son"
+	cont "PASSE BATEAU<...>"
 
-	para "<...>But no TICKET!"
+	para "<...>Mais ou peut-il"
+	line "bien être?"
 
-	para "Sorry!"
-	line "You may board only"
+	para "Désolé!"
+	line "On ne monte à bord"
 
-	para "if you have an"
-	line "S.S.TICKET."
+	para "que sur présen-"
+	line "tation du PASSE"
+	cont "BATEAU."
 	done
 ; 0x75059
 
 UnknownText_0x75059: ; 0x75059
-	text "The FAST SHIP will"
-	line "sail on Wednesday."
+	text "Le BATEAU EXPRESS"
+	line "partira Mercredi"
+	cont "prochain."
 	done
 ; 0x75080
 
 UnknownText_0x75080: ; 0x75080
-	text "The FAST SHIP will"
-	line "sail next Sunday."
+	text "Le BATEAU EXPRESS"
+	line "partira Dimanche"
+	cont "prochain."
 	done
 ; 0x750a6
 
 UnknownText_0x750a6: ; 0x750a6
-	text "You came from"
-	line "JOHTO?"
+	text "Tu viens de JOHTO?"
 
-	para "I hear many rare"
-	line "#MON live over"
-	cont "there."
+	para "On dit qu'il y a"
+	line "plein de #MON"
+	cont "rares là-bas."
 	done
 ; 0x750e3
 
@@ -393,64 +397,64 @@ SailorScript_ChoseNo:
 	end
 
 MewSailorNoSurgeText:
-	text "Oh, those RESEARCH"
-	line "NOTES have a map"
-	
-	para "in them that leads"
-	line "straight there."
+	text "Oh, ces RECHERCHES"
+	line "indiquent un"
+	cont "endroit sur la"
+	cont "CARTE."
 
-	para "GUYANA is very"
-	line "dangerous though<...>"
+	para "Mais GUYANA est"
+	line "dangereux<...>"
 	
-	para "The wild #MON"
-	line "give even GYM"
-	cont "LEADERS trouble."
+	para "Les #MON sauva-"
+	line "ges mettent même"
+	cont "les CHAMPIONS en"
+	cont "difficulté."	
 	done
 
 MewSailorChallengeText:
-	text "I'll need my old"
-	line "superior LT.SURGE"
+	text "Il va falloir que"
+	line "mon supérieur, le"
 
-	para "to give you the"
-	line "all clear before"
-	cont "we can leave."
+	para "MAJOR BOB, me"
+	line "donne le feu vert"
+	
+	para "avant de t'y"
+	line "emmener."
 	done
 
 MewSailorYesText:
-	text "Good, follow me."
+	text "Bien, suis moi."
 	done
 
 MewSailorNoText:
-	text "Fair enough."
+	text "Très bien."
 	done
 
 MewSailorAskText:
-	text "Want me to take"
-	line "you to GUYANA?"
+	text "Tu veux que je"
+	line "t'emmène à GUYANA?"
 	done
 
 MewSailorLostMapText:
-	text "I once chased a"
-	line "rare #MON to a"
-	cont "nearby island."
+	text "J'ai chassé un"
+	line "#MON rare sur"
+	cont "une île pas loin."
 
-	para "But my only map"
-	line "to it got eaten"
-	cont "by a MAGIKARP<...>"
+	para "Mais ma seule"
+	line "carte à été mangée"
+	cont "par un MAGICARPE<...>"
 	done
 
 MewSailorIntroduceText:
-	text "You managed to"
-	line "beat SURGE?"
+	text "Tu as réussi à"
+	line "battre BOB?"
+	cont "Sans handicap?!"
 
-	para "And he was going"
-	line "all out!?"
+	para "Tu devrais pouvoir"
+	line "encaisser ce voya-"
+	cont "ge alors!"
 
-	para "I guess you're up"
-	line "for this trip"
-	cont "after all."
-
-	para "Ready to set sail?"
+	para "On met les voiles?"
 	done
 
 VermilionPort_MapEventHeader: ; 0x750e3

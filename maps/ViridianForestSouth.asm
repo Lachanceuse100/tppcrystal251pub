@@ -11,10 +11,12 @@ OfficerScript_ViridianSouth: ; 0x197634
 ; 0x197637
 
 Office_ViridianSouth_Text: ; 0x19763a
-	text "VIRIDIAN FOREST is"
-	line "like a maze."
-	cont "Be careful, don't"
-	cont "get lost in there!"
+	text "La FORET DE JADE"
+	line "est un labyrinthe"
+	cont "naturel."
+
+	para "Fais attention à"
+	line "ne pas te perdre!"
 	done
 ; 0x197661
 

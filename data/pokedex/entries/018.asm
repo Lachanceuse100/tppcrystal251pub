@@ -17,5 +17,5 @@
 	next "repérer un"
 	page "MAGICARPE faisant"
 	next "trempette jusqu'à"
-	next "1000 metres.@"
+	next "1000 mètres.@"
 

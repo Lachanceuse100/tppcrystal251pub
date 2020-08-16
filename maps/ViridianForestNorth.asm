@@ -11,12 +11,12 @@ OfficerScript_ViridianNorth: ; 0x197634
 ; 0x197637
 
 Office_ViridianNorth_Text: ; 0x19763a
-	text "VIRIDIAN FOREST"
-	line "has many trees"
-	cont "that form a maze."
+	text "La FORET DE JADE"
+	line "est un labyrinthe"
+	cont "naturel."
 
-	para "People get lost"
-	line "easily here."
+	para "On s'y perds faci-"
+	line "lement là-dedans."
 	done
 ; 0x197661
 

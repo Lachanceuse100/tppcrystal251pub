@@ -431,7 +431,7 @@ UnknownText_0xa4c47: ; 0xa4c47
 ; 0xa4c8c
 
 UnknownText_0xa4c8c: ; 0xa4c8c
-	text "Je sais ! Gardons"
+	text "Je sais! Gardons"
 	line "contact."
 
 	para "J'aurais plus de"
@@ -512,7 +512,7 @@ UnknownText_0xa4e8f: ; 0xa4e8f
 ; 0xa4ed4
 
 UnknownText_0xa4ed4: ; 0xa4ed4
-	text "Hein ? Est-ce que"
+	text "Hein? Est-ce que"
 	line "c'est un #DEX?"
 	
 	para "Tu as rencontré le"
@@ -778,7 +778,7 @@ UnknownText_0xa56b6: ; 0xa56b6
 ; 0xa56e2
 
 UnknownText_0xa56e2: ; 0xa56e2
-	text "Hein ? Ta liste"
+	text "Hein? Ta liste"
 	line "est pleine.."
 
 	para "Un #MANIAC doit"

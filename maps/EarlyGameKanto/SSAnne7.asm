@@ -229,10 +229,9 @@ SSAnne7Text_CaptainSetsSail4:
 	line "à OLIVILLE dans"
 	cont "une semaine."
 
-	para "On pourras t'y"
-	line "arranger un BATEAU"
-	cont "RAPIDE pour"
-	cont "retourner à"
+	para "On pourra t'y"
+	line "arranger l'AQUARIA"
+	cont "pour retourner à"
 	cont "CARMIN SUR MER."
 
 	para "En attendant,"

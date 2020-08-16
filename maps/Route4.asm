@@ -108,60 +108,58 @@ MapRoute4SignpostItem1: ; 0x1ae211
 ; 0x1ae214
 
 Bird_keeperHankSeenText: ; 0x1ae214
-	text "I'm raising my"
-	line "#MON. Want to"
-	cont "battle with me?"
+	text "J'entraîne mes"
+	line "#MON. Un petit"
+	cont "combat?"
 	done
 ; 0x1ae241
 
 Bird_keeperHankBeatenText: ; 0x1ae241
-	text "Ack! I lost that"
-	line "one<...>"
+	text "Ack! Perdu<...>"
 	done
 ; 0x1ae258
 
 UnknownText_0x1ae258: ; 0x1ae258
-	text "If you have a"
-	line "specific #MON"
+	text "Si tu veux entraî-"
+	line "ner un #MON en"
 
-	para "that you want to"
-	line "raise, put it out"
+	para "particulier, mets-"
+	line "le en premier et"
 
-	para "first, then switch"
-	line "it right away."
+	para "change le tout de"
+	line "suite."
 
-	para "But well, I guess"
-	line "you know by now."
+	para "Mais bon, tu dois"
+	line "déjà le savoir."
 	done
 ; 0x1ae2ce
 
 PicnickerHopeSeenText: ; 0x1ae2ce
-	text "I have a feeling"
-	line "that I can win."
+	text "Je sens que je"
+	line "peux gagner."
 
-	para "Let's see if I'm"
-	line "right!"
+	para "Voyons si j'ai"
+	line "raison!"
 	done
 ; 0x1ae306
 
 PicnickerHopeBeatenText: ; 0x1ae306
-	text "Aww, you are too"
-	line "strong."
+	text "Rahhh, bah non."
 	done
 ; 0x1ae320
 
 UnknownText_0x1ae320: ; 0x1ae320
-	text "I heard CLEFAIRY"
-	line "appear at MT.MOON."
+	text "Des MELOFEE appa-"
+	line "raissent au MONT"
 
-	para "But where could"
-	line "they be?"
+	para "SELENITE, mais où"
+	line "exactement?"
 	done
 ; 0x1ae35e
 
 PicnickerSharonSeenText: ; 0x1ae35e
-	text "Um<...>"
-	line "I<...>"
+	text "Euh<...>"
+	line "Je<...>"
 	done
 ; 0x1ae366
 
@@ -171,17 +169,18 @@ PicnickerSharonBeatenText: ; 0x1ae366
 ; 0x1ae369
 
 UnknownText_0x1ae369: ; 0x1ae369
-	text "<...><...>I'll go train"
-	line "some more<...>"
+	text "<...><...>Je retourne"
+	line "m'entraîner<...>"
 	done
 ; 0x1ae384
 
 UnknownText_0x1ae384: ; 0x1ae384
-	text "MT.MOON."
+	text "MONT SELENITE"
 
-	para "The GIFT SHOP is"
-	line "on the other side"
-	cont "of the cave."
+	para "La BOUTIQUE de"
+	line "SOUVENIRS et de"
+	cont "l'autre côté de la"
+	cont "grotte."
 	done
 ; 0x1ae3ab
 

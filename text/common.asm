@@ -353,10 +353,11 @@ YouWantTheBugButPCIsFull:
 
 UnknownText_0x1b070d: ; 0x1b070d
 	text "L'équipe est"
-	line "pleine, #MON"
+	line "pleine."
 
-	para "transféré dans la"
-	line "boîte au PC de LEO"
+	para "Le #MON est"
+	para "transféré au PC"
+	line "de LEO"
 	done
 ; 0x1b074e
 
@@ -470,8 +471,8 @@ UnknownText_0x1b08cc: ; 0x1b08cc
 
 UnknownText_0x1b092a: ; 0x1b092a
 	text "Wouah, toi et ton"
-	line "#MON êtes vraiment"
-	cont "proches!"
+	line "#MON êtes vrai-"
+	cont "ment proches!"
 	done
 ; 0x1b0954
 
@@ -905,7 +906,7 @@ UnknownText_0x1b142d: ; 0x1b142d
 	cont "Je t'appellerais."
 
 	para "N'en attends pas"
-	line "beacuoup, OK?"
+	line "trop, OK?"
 	done
 ; 0x1b14e4
 
@@ -961,7 +962,7 @@ UnknownText_0x1b1607: ; 0x1b1607
 
 	para "Regarde, c'est ça!"
 
-	para "Tu vois ? C'est"
+	para "Tu vois? C'est"
 	line "plutôt joli, non?"
 	done
 ; 0x1b164d
@@ -987,9 +988,8 @@ UnknownText_0x1b1690: ; 0x1b1690
 	line "Donne moi ton"
 	cont "numéro!"
 
-	para "Tu peux être mon"
-	line "partenaire"
-	cont "d'entrainement!"
+	para "On pourrait s'en-"
+	line "traîner ensemble!"
 	done
 ; 0x1b1710
 
@@ -997,9 +997,8 @@ UnknownText_0x1b1710: ; 0x1b1710
 	text "Donne moi ton"
 	line "numéro!"
 
-	para "Tu peux être mon"
-	line "partenaire"
-	cont "d'entrainement!"
+	para "On pourrait s'en-"
+	line "traîner ensemble!"
 	done
 ; 0x1b1755
 

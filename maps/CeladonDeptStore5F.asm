@@ -43,40 +43,43 @@ MapCeladonDeptStore5FSignpost1Script: ; 0x71020
 ; 0x71023
 
 UnknownText_0x71023: ; 0x71023
-	text "I hate it when"
-	line "stores move things"
-	cont "around."
+	text "Je déteste quand"
+	line "ils déplacent les"
+	cont "choses<...>"
 
-	para "They just put"
-	line "stones with"
+	para "Ils ont mis les"
+	line "pierres avec les"
 
-	para "vitamins for some"
-	line "reason<...>"
+	para "vitamines pour je"
+	line "ne sais quelle"
+	cont "raison encore<...>"
 	done
 ; 0x71072
 
 UnknownText_0x71072: ; 0x71072
-	text "I want PP UP, so I"
-	line "can raise the PP"
-	cont "of moves."
+	text "Je voulais un PP"
+	line "PLUS pour monter"
+	cont "les PP d'une"
+	cont "capacité."
 
-	para "But they're only"
-	line "available as pri-"
-	cont "zes from the GAME"
-	cont "CORNER<...>"
+	para "Mais ils ne sont"
+	line "disponibles qu'au"
+	cont "CASINO<...>"
 	done
 ; 0x710b6
 
 UnknownText_0x710b6: ; 0x710b6
-	text "FIRE STONES sell"
-	line "very well here."
+	text "Les PIERRES FEU se"
+	line "vendent bien ici."
 
-	para "I wonder why<...>"
+	para "Je me demande"
+	line "pourquoi<...>"
 	done
 ; 0x71100
 
 UnknownText_0x71100: ; 0x71100
-	text "5F: BUFF BAZAAR"
+	para "4EME: BAZAR"
+	line "      SURVITAMINE"
 	done
 ; 0x71110
 

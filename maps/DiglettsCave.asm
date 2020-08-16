@@ -17,11 +17,11 @@ MapDiglettsCaveSignpostItem0: ; 0x74005
 ; 0x74008
 
 UnknownText_0x74008: ; 0x74008
-	text "A bunch of DIGLETT"
-	line "popped out of the"
+	text "Des TAUPIQUEUR"
+	line "ont surgi du sol"
 
-	para "ground! That was"
-	line "shocking."
+	para "d'un coup! C'était"
+	line "trop flippant."
 	done
 ; 0x74049
 

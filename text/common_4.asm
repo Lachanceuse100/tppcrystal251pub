@@ -726,7 +726,7 @@ UnknownText_0x1c4e46: ; 0x1c4e46
 ; 0x1c4e5f
 
 UnknownText_0x1c4e5f: ; 0x1c4e5f
-	text "Oui ? Besoin de"
+	text "Oui? Besoin de"
 	line "médicaments?"
 	done
 ; 0x1c4e7e
@@ -1451,7 +1451,7 @@ UnknownText_0x1c5b38: ; 0x1c5b38
 	text_from_ram wd050
 	text " est"
 	line "envoyé au"
-	cont "PC de LEO"
+	cont "PC de LEO."
 	prompt
 ; 0x1c5b53
 
@@ -1636,7 +1636,7 @@ UnknownText_0x1c5d97: ; 0x1c5d97
 
 UnknownText_0x1c5db6: ; 0x1c5db6
 	text "Ca n'aura pas"
-	line "d'effets."
+	line "d'effet."
 	prompt
 ; 0x1c5dd0
 

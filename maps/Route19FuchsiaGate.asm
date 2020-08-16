@@ -25,25 +25,27 @@ UnknownScript_0x1ab404: ; 0x1ab404
 ; 0x1ab40a
 
 UnknownText_0x1ab40a: ; 0x1ab40a
-	text "CINNABAR's volcano"
-	line "erupted."
+	text "Le volcan de"
+	line "CRAMOIS'ILE est en"
+	cont "éruption."
 
-	para "It hurled boulders"
-	line "that cut off ROUTE"
-	cont "19 indefinitely."
+	para "Il a craché des"
+	line "rochers bloquant"
+	cont "la ROUTE 19."
 
-	para "I wonder if the"
-	line "people of CINNABAR"
-	cont "are safe<...>"
+	para "J'espère que les"
+	line "habitants de"
+	cont "CRAMOIS'ILE sont"
+	cont "en sécurité<...>"
 	done
 ; 0x1ab48a
 
 UnknownText_0x1ab48a: ; 0x1ab48a
-	text "No CINNABAR citi-"
-	line "zens were injured"
+	text "Bonne nouvelle!"
+	line "Personne n'a été"
 
-	para "by the eruption."
-	line "That's great!"
+	para "blessé lors de"
+	line "l'éruption! Super!"
 	done
 ; 0x1ab4cd
 

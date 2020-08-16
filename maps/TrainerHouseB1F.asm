@@ -122,70 +122,74 @@ MovementData_0x9b41d: ; 0x9b41d
 ; 0x9b420
 
 UnknownText_0x9b420: ; 0x9b420
-	text "Hi. Welcome to our"
-	line "TRAINING HALL."
+	text "Bienvenue au HALL"
+	line "d'ENTRAINEMENT."
 
-	para "You may battle 1"
-	line "trainer per day."
+	para "On peut y affron-"
+	line "ter un adversaire"
+	cont "par jour."
 	done
 ; 0x9b46a
 
 UnknownText_0x9b46a: ; 0x9b46a
 	text_from_ram StringBuffer3
-	text " is your"
-	line "opponent today."
+	text " est"
+	line "l'adversaire du"
+	cont "jour."
 	done
 ; 0x9b487
 
 UnknownText_0x9b487: ; 0x9b487
-	text "Would you like to"
-	line "battle?"
+	text "Voulez-vous com-"
+	line "battre?"
 	done
 ; 0x9b4a2
 
 UnknownText_0x9b4a2: ; 0x9b4a2
-	text "Please go right"
-	line "through."
+	text "Passez s'il vous"
+	line "plaît."
 
-	para "You may begin"
-	line "right away."
+	para "Vous pouvez com-"
+	line "mencer tout de"
+	cont "suite."
 	done
 ; 0x9b4d6
 
 UnknownText_0x9b4d6: ; 0x9b4d6
-	text "Sorry. Only those"
-	line "trainers who will"
+	text "Seuls les dres-"
+	line "seurs allant com-"
 
-	para "be battling are"
-	line "allowed to go in."
+	para "battre sont auto-"
+	line "risés à entrer."
 	done
 ; 0x9b51d
 
 UnknownText_0x9b51d: ; 0x9b51d
-	text "I'm sorry."
-	line "This would be your"
-	cont "second time today."
+	text "Excusez-moi! Ce"
+	line "serait votre 2ème"
+	cont "fois aujourd'hui."
 
-	para "You're allowed to"
-	line "enter once a day."
+	para "Vous ne pouvez"
+	line "entrer qu'une fois"
+	cont "par jour."
 	done
 ; 0x9b578
 
 UnknownText_0x9b578: ; 0x9b578
-	text "I lost<...>"
-	line "Darn<...>"
+	text "Perdu<...>"
+	line "Et zut<...>"
 	done
 ; 0x9b587
 
 UnknownText_0x9b587: ; 0x9b587
-	text "I traveled out"
-	line "here just so I"
-	cont "could battle you."
+	text "J'ai voyagé jus-"
+	line "qu'ici pour t'af-"
+	cont "fronter."
 	done
 ; 0x9b5b8
 
 ADJNNW_Text_1:
-	text "brightbastart"
+	text "bdroitebastart"
 	done
 
 ADJNNW_Text_2:

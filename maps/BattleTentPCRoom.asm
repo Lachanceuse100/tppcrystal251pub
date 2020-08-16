@@ -118,115 +118,121 @@ tppPc_Options_Header: ; 0x56478
 tppPc_Options: ; 0x56480
 	db $80 ; flags
 	db 5 ; items
-	db "ULTIMATE TEAM@"
-	db "YOUR OWN TEAM@"
-	db "SURVIVAL MODE@"
-	db "EXPLANATION@"
-	db "CANCEL@"
+	db "EQUIPE ULTIME@"
+	db "EQUIPE PERSO.@"
+	db "MODE SURVIE@"
+	db "EXPLICATIONS@"
+	db "ANNULER@"
 
 SurvivalModeBattleStartText:
-	text "Now loading battle"
-	line "number @"
+	text "Chargement du com-"
+	line "bat numéro @"
 	deciram wSurvivalModeWinStreak, $25
 	text "<...>"
 	done
 
 SurvivalModeBattleStartText_200plus:
-	text "Now loading the"
-	line "next battle<...>"
+	text "Chargement du"
+	line "combat suivant<...>"
 	done
 
 SurvivalModeExitText:
-	text "You have survived"
-	line "@"
+	text "Vous avez survécu"
+	line "à @"
 	deciram wSurvivalModeWinStreak, $25
-	text " battles."
+	text " combats."
 
-	para "Good job."
+	para "Beau travail."
 	done
 
 SurvivalModeExitText_200plus:
-	text "You have survived"
-	line "over 200 battles."
+	text "Vous avez survécu"
+	line "à plus de 200"
+	cont "combats."
 
-	para "Congratulations!"
+	para "Félicitations!"
 	done
 
 SurvivalModeShutdownText:
-	text "Shutting down<...>"
+	text "Extinction<...>"
 	done
 
 
 tppPcIntroText:
-	text "<PLAY_G> turned"
-	line "on the PC!"
+	text "<PLAY_G> allume le"
+	line "PC!"
 
-	para "#MON LEAGUE"
-	line "BATTLE SIMULATOR"
+	para "LIGUE #MON"
+	line "SIMULATION DE"
+	cont "COMBATS."
 	done
 
 tppPcIntroText2:
-	text "In this software,"
-	line "you can fight a"
+	text "Ce logiciel vous"
+	line "permet d'affronter"
 
-	para "team of the most"
-	line "powerful #MON"
-	cont "known to man."
+	para "une équipe des"
+	line "plus puissants"
+	cont "#MON du monde."
 
-	para "Or, you can battle"
-	line "a copy of your own"
-	cont "party of #MON."
+	para "Ou bien vous pou-"
+	line "vez combattre une"
+	cont "copie de votre"
+	cont "équipe #MON."
 
-	para "For a different"
-	line "challenge, try the"
-	cont "new SURVIVAL MODE,"
+	para "Pour un autre dé-"
+	line "fi, essayez le"
+	cont "nouveau MODE"
+	cont "SURVIE, où vous"
 
-	para "where you battle a"
-	line "horde of randomly-"
-	cont "generated teams"
+	para "pouvez combattre"
+	line "une horde d'équipe"
+	cont "ennemi généré de"
+	cont "manière aléatoire"
 
-	para "until you can no"
-	line "longer fight."
+	para "jusqu'à ce que"
+	line "vous tombiez K.O."
 	done
 
 tppPcIntroText3:
-	text "Please make your"
-	line "selection."
+	text "Veuillez faire"
+	line "votre choix."
 	done
 
 tppPcHealText:
-	text "Before we begin,"
-	line "we will restore"
+	text "Avant de démarrer,"
+	line "nous allons"
 
-	para "your #MON to"
-	line "full health."
+	para "soigner vos"
+	line "#MON."
 	done
 
 tppPcWonText:
-	text "Results: The"
-	line "challenger won."
+	text "Résultat: Le"
+	line "participant à"
+	cont "gagné."
 	done
 
 tppPcLostText:
-	text "Results: The"
-	line "challenger lost."
+	text "Résultat: Le"
+	line "participant à"
+	cont "gagné."
 	done
 
 tppPcBeginUltimateBattleText:
-	text "Now loading the"
-	line "Ultimate Team."
+	text "Chargement de l'"
+	line "équipe ultime."
 	done
 
 tppPcBeginMirrorBattleText:
-	text "Now copying your"
-	line "team to memory."
+	text "Copie en mémoire"
+	line "de votre équipe."
 	done
 
 tppPcLogOffText:
-	text "Terminating"
-	line "execution."
+	text "Fin du programme."
 
-	para "Good bye!"
+	para "Au revoir!"
 	done
 
 BattleTentPCRoom_MapEventHeader:

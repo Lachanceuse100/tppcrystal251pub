@@ -141,104 +141,101 @@ MapBattleTentBattleRoomMovementData9:
 MapBattleTentBattleRoomBillText1:
 	text "Ah, <PLAY_G>!"
 
-	para "Thank goodness"
-	line "you've come!"
+	para "Dieu merci, tu es"
+	line "là!"
 	done
 
 MapBattleTentBattleRoomBillText2:
-	text "I was sent here to"
-	line "do some fixing up."
+	text "On m'a demandé de"
+	line "faire des répara-"
+	cont "tions par ici."
 
-	para "The city plans to"
-	line "reopen this faci-"
-	cont "lity in the near"
-	cont "future."
+	para "La ville prévoit"
+	line "de réouvrir ce bâ-"
+	cont "timent un jour."
 
-	para "But while I was"
-	line "doing repairs in"
+	para "Mais pendant que"
+	line "je travaillais,"
 
-	para "here, the power"
-	line "cut, and the door"
-	cont "locked behind me!"
+	para "il y a eu une cou-"
+	line "pire de courant et"
+	
+	para "la porte s'est"
+	line "vérouillée"
+	cont "derrière moi."
 
-	para "It must have been"
-	line "you who turned the"
+	para "C'est toi qui a"
+	line "rallumé le GENERA-"
+	cont "TEUR?"
 
-	para "GENERATOR back on."
-	line "I owe you one!"
+	para "Je t'en dois une!"
 	done
 MapBattleTentBattleRoomBillText3:
-	text "Hey! While you're"
-	line "here<...>"
+	text "Pendant que tu es"
+	line "ici<...>"
 
-	para "How about a"
-	line "quick battle?"
+	para "Que dirais-tu d'un"
+	line "petit combat?"
 
-	para "This is the BATTLE"
-	line "TENT, after all!"
+	para "Nous sommes à la"
+	line "TENTE de COMBAT"
+	cont "après tout!"
 	done
 
 MapBattleTentBattleRoomBillLossText:
-	text "Whew<...>"
+	text "Wouah<...>"
 	done
 
 MapBattleTentBattleRoomBillText4:
-	text "That was exhilira-"
-	line "ting. Thanks for"
-	cont "that."
+	text "Merci beaucoup."
+	line "C'était exaltant!"
 
-	para "Here, let me give"
-	line "you this."
+	para "Tiens, j'ai trouvé"
+	line "ça par terre."
 
-	para "I found it lying"
-	line "around, but I have"
-
-	para "no use for it my-"
-	line "self."
+	para "Je n'en ai pas"
+	line "besoin, alors"
+	cont "c'est pour toi."
 	done
 
 MapBattleTentBattleRoomBillText5:
-	text "I'm pretty much"
-	line "done with the"
+	text "Ca devrait être"
+	line "bon dans cette"
+	cont "pièce."
 
-	para "repairs in this"
-	line "room."
+	para "Dis, tu te sou-"
+	line "viens de ma maison"
+	cont "à la VILLA DU CAP?"
 
-	para "Hey, you remember"
-	line "my old place, up"
+	para "J'ai vendu cette"
+	line "maison a mon"
+	cont "grand-père en dé-"
+	cont "ménageant à JOHTO."
 
-	para "by CERULEAN CAPE,"
-	line "right?"
+	para "Il l'entretient"
+	line "ainsi que le"
+	cont "jardin derrière."
 
-	para "I sold that house"
-	line "to my GRANDFATHER"
+	para "Tu devrais lui"
+	line "rendre visite, il"
+	cont "doit se sentir"
+	cont "seul!"
 
-	para "when I moved to"
-	line "JOHTO."
-
-	para "He's been taking"
-	line "care of it and the"
-	cont "GARDEN out back."
-
-	para "You should pay him"
-	line "a visit. I'm sure"
-	cont "he gets lonely!"
-
-	para "Whoops! I need to"
-	line "get going! Thanks"
-	cont "again, <PLAY_G>!"
+	para "Oups! Je dois y"
+	line "aller! Merci"
+	cont "encore, <PLAY_G>!"
 	done
 
 
 MapBattleTentBattleRoomBillText7:
 	text "Ah, <PLAY_G>!"
 
-	para "Here's the thing I"
-	line "found."
+	para "Tiens, j'ai trouvé"
+	line "ça par terre."
 	done
 
 MapBattleTentBattleRoomDoorText:
-	text "It's locked<...>"
+	text "C'est fermé<...>"
 	done
 
 BattleTentBattleRoom_MapEventHeader:

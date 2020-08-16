@@ -22,19 +22,19 @@ CooltrainerFScript_0x195cf2: ; 0x195cf2
 ; 0x195cf5
 
 UnknownText_0x195cf5: ; 0x195cf5
-	text "I was hoping to"
-	line "buy some SAFARI"
+	text "Je voulais acheter"
+	line "des souvenirs au"
 
-	para "ZONE souvenirs,"
-	line "but it's closed<...>"
+	para "PARC SAFARI mais"
+	line "c'est fermé<...>"
 	done
 ; 0x195d36
 
 UnknownText_0x195d36: ; 0x195d36
-	text "The SAFARI ZONE"
-	line "WARDEN's grand-"
-	cont "daughter lives in"
-	cont "town."
+	text "La petite-fille du"
+	line "GARDIEN du PARC"
+	cont "SAFARI vit en"
+	cont "ville."
 	done
 ; 0x195d6e
 

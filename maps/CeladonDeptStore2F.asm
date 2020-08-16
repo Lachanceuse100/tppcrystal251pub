@@ -39,36 +39,34 @@ MapCeladonDeptStore2FSignpost1Script: ; 0x70bc6
 ; 0x70bc9
 
 UnknownText_0x70bc9: ; 0x70bc9
-	text "I just recently"
-	line "became a trainer."
+	text "Je suis un dres-"
+	line "seur depuis peu."
 
-	para "My son encouraged"
-	line "me to do it."
+	para "Mon fils m'a un"
+	line "peu poussé."
 
-	para "I'm impressed by"
-	line "the selection of"
-	cont "convenient items."
+	para "C'est dingue tous"
+	line "les objets qui"
+	cont "existent!"
 	done
 ; 0x70c3e
 
 UnknownText_0x70c3e: ; 0x70c3e
-	text "My dad's having a"
-	line "hard time learning"
+	text "Mon père a du mal"
+	line "a retenir tous les"
 
-	para "the names of items"
-	line "and how they are"
-
-	para "supposed to be"
-	line "used<...>"
+	para "objets et leurs"
+	line "fonctions<...>"
 	done
 ; 0x70c9c
 
 UnknownText_0x70c9c: ; 0x70c9c
-	text "Top Grade Items"
-	line "for Trainers!"
+	text "De bons objets"
+	line "pour de bons dres-"
+	cont "seurs!"
 
-	para "2F: TRAINER'S"
-	line "    MARKET"
+	para "1ER:  MARCHE DU"
+	line "      DRESSEUR"
 	done
 ; 0x70cd4
 

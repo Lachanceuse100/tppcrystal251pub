@@ -69,56 +69,57 @@ MapRoute18Signpost0Script: ; 0x1acf59
 ; 0x1acf5c
 
 Bird_keeperBorisSeenText: ; 0x1acf5c
-	text "If you're looking"
-	line "for #MON, you"
+	text "Cherche les #-"
+	line "MON dans les"
+	cont "hautes herbes."
 
-	para "have to look in"
-	line "the tall grass."
+	para "Tu le savais déjà?"
 	done
 ; 0x1acf9c
 
 Bird_keeperBorisBeatenText: ; 0x1acf9c
-	text "Ayieee!"
+	text "Aïe!"
 	done
 ; 0x1acfa5
 
 UnknownText_0x1acfa5: ; 0x1acfa5
-	text "We had a zoo in"
-	line "FUCHSIA before."
+	text "Il y avait un zoo"
+	line "à PARMANIE avant."
 
-	para "Some of its famous"
-	line "#MON can be"
-	cont "found wild here."
+	para "Certains #MON"
+	line "rares pouvaient"
+	cont "être trouvés là-"
+	cont "bas."
 	done
 ; 0x1acfd7
 
 Bird_keeperBobSeenText: ; 0x1acfd7
-	text "If I was a bird<...>"
+	text "Si j'étais un"
+	line "oiseau<...>"
 
-	para "I would fly around"
-	line "all the happy"
-	cont "clouds and trees!"
+	para "Je volerais autour"
+	line "des arbres et des"
+	cont "petits nuages!"
 	done
 ; 0x1ad005
 
 Bird_keeperBobBeatenText: ; 0x1ad005
-	text "<...>Whew!"
+	text "<...>Yipee!"
 	done
 ; 0x1ad00d
 
 UnknownText_0x1ad00d: ; 0x1ad00d
-	text "You can do any-"
-	line "thing you want"
-	cont "to do. This is"
-	cont "your world."
+	text "Tu peux faire ce"
+	line "que tu veux. C'est"
+	cont "ton monde!"
 	done
 ; 0x1ad051
 
 UnknownText_0x1ad051: ; 0x1ad051
 	text "ROUTE 18"
 
-	para "CELADON CITY -"
-	line "FUCHSIA CITY"
+	para "CELADOPOLE -"
+	line "PARMANIE"
 	done
 ; 0x1ad077
 

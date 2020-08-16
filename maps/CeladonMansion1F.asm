@@ -46,37 +46,38 @@ MapCeladonMansion1FSignpost2Script: ; 0x71413
 ; 0x71416
 
 UnknownText_0x71416: ; 0x71416
-	text "My dear #MON"
-	line "keep me company,"
+	text "Mes chers #MON"
+	line "me tiennent compa-"
 
-	para "so I don't ever"
-	line "feel lonely."
+	para "gnie. La solitude,"
+	line "c'est du passé."
 
-	para "MEOWTH even brings"
-	line "money home."
+	para "Mon MIAOUSS me"
+	line "rapporte même de"
+	cont "l'argent."
 	done
 ; 0x71470
 
 UnknownText_0x71470: ; 0x71470
-	text "MEOWTH: Meow!"
+	text "MIAOUSS: Miaou!"
 	done
 ; 0x7147f
 
 UnknownText_0x7147f: ; 0x7147f
-	text "CLEFAIRY: Clef"
-	line "cleff!"
+	text "MELOFEE: Mélo!"
+	line "Méloooo!"
 	done
 ; 0x71496
 
 UnknownText_0x71496: ; 0x71496
-	text "NIDORAN: Kya"
-	line "kyaoo!"
+	text "NIDORAN: Nido"
+	line "Nidooo!"
 	done
 ; 0x714ab
 
 UnknownText_0x714ab: ; 0x714ab
-	text "CELADON MANSION"
-	line "MANAGER'S SUITE"
+	text "MANOIR CELADON"
+	line "SUITE du PATRON"
 	done
 ; 0x714cc
 

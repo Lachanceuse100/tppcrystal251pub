@@ -41,20 +41,22 @@ MovementData_0x73629: ; 0x73629
 ; 0x7362c
 
 UnknownText_0x7362c: ; 0x7362c
-	text "CYCLING ROAD"
-	line "Uphill Starts Here"
+	text "La montée de la"
+	line "PISTE CYCLABLE"
+	cont "commence ici."
 	done
 ; 0x7364d
 
 UnknownText_0x7364d: ; 0x7364d
-	text "Hang on! Don't you"
-	line "have a BICYCLE?"
+	text "Attends! Tu n'as"
+	line "pas de BICYCLETTE?"
 
-	para "The CYCLING ROAD"
-	line "is beyond here."
+	para "C'est la PISTE"
+	line "CYCLABLE ici."
 
-	para "You have to have a"
-	line "BICYCLE to go on."
+	para "Il te faut une"
+	line "BICYCLETTE pour"
+	cont "continuer."
 	done
 ; 0x736b6
 

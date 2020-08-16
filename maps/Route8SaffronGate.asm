@@ -11,11 +11,11 @@ OfficerScript_0x7f416: ; 0x7f416
 ; 0x7f419
 
 UnknownText_0x7f419: ; 0x7f419
-	text "Have you been to"
-	line "LAVENDER TOWN?"
+	text "Tu as fais un tour"
+	line "à LAVANVILLE?"
 
-	para "There's a tall"
-	line "RADIO TOWER there."
+	para "Il y a une grande"
+	line "TOUR RADIO là-bas."
 	done
 ; 0x7f45b
 

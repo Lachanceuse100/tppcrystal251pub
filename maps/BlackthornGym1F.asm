@@ -381,7 +381,7 @@ CooltrainermMikeSeenText: ; 0x19542f
 	line "perdre?"
 
 	para "Même pas un"
-	cont "pour cent!"
+	line "pour cent!"
 	done
 ; 0x19545b
 

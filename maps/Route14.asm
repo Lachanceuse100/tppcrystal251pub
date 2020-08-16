@@ -103,79 +103,84 @@ PokefanmTrevorScript: ; 0x1ad4ba
 ; 0x1ad4c2
 
 PokefanmCarterSeenText: ; 0x1ad4c2
-	text "My son wanted to"
-	line "get some new pets."
+	text "Mon fils voulait"
+	line "des nouveaux"
+	cont "animaux."
 
-	para "We caught some"
-	line "at the route here."
+	para "Nous en avons cap-"
+	line "turé sur la route."
 	done
 ; 0x1ad4ff
 
 PokefanmCarterBeatenText: ; 0x1ad4ff
-	text "SON: Dad, can we"
-	line "keep them, please?"
+	text "FILS: Papa, on"
+	line "peut les garder,"
+	cont "dit?"
 	done
 ; 0x1ad508
 
 UnknownText_0x1ad508: ; 0x1ad508
-	text "Cat, duck, bird<...>"
+	text "Chat, canard,"
+	line "oiseau<...>"
 
-	para "I wonder how they"
-	line "will get along."
+	para "Je me demande si"
+	line "ils s'entendront"
+	cont "bien<...>"
 	done
 ; 0x1ad552
 
 Bird_keeperRoySeenText: ; 0x1ad552
-	text "I'm going to"
-	line "become the king"
-	cont "of the birds!"
+	text "Je deviendrais le"
+	line "roi des oiseaux!"
 	done
 ; 0x1ad581
 
 Bird_keeperRoyBeatenText: ; 0x1ad581
-	text "I only lost"
-	line "because of"
-	cont "horrible luck!"
+	text "J'ai perdu parce"
+	line "que j'ai pas eu"
+	cont "de chance."
 
-	para "I'm actually"
-	line "better than you!"
+	para "Je suis bien meil-"
+	line "leur que toi!"
 	done
 ; 0x1ad5a4
 
 UnknownText_0x1ad5a4: ; 0x1ad5a4
-	text "SLEEP TALK"
-	line "never picks"
-	cont "moves like FLY."
+	text "BLABLA DODO ne"
+	line "marche pas avec"
+	cont "des capacités"
+	cont "comme VOL."
 
-	para "It's something all"
-	line "top trainers know."
+	para "Tous les grands"
+	line "dresseurs le"
+	cont "savent."
 	done
 ; 0x1ad5e4
 
 PokefanmTrevorSeenText: ; 0x1ad5e4
-	text "Hi. Did you know<...>?"
+	text "Le savais-tu?"
 
-	para "#MON get more"
-	line "friendly if you"
+	para "Les #MON sont"
+	line "plus amicaux s'ils"
 
-	para "train them in a"
-	line "place that they"
-	cont "remember."
+	para "sont entraînés"
+	line "dans un endroit"
+	cont "familier."
 	done
 ; 0x1ad640
 
 PokefanmTrevorBeatenText: ; 0x1ad640
-	text "Where did I meet"
-	line "this BUTTERFREE?"
+	text "Ou ai-je rencontré"
+	line "ce PAPILUSION?"
 	done
 ; 0x1ad660
 
 UnknownText_0x1ad660: ; 0x1ad660
-	text "If only there were"
-	line "an easy way to"
+	text "Y a-t-il un moyen"
+	line "de savoir ou l'on"
 
-	para "identify where I"
-	line "got my #MON<...>"
+	para "a trouvé nos"
+	line "#MON?"
 	done
 ; 0x1ad6a1
 

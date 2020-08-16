@@ -371,224 +371,239 @@ MovementData_0x19f000: ; 0x19f000
 ; 0x19f006
 
 UnknownText_0x19f006: ; 0x19f006
-	text "MISTY: Aww! Why"
-	line "did you have to"
+	text "ONDINE: Aaaah!"
+	line "Pourquoi t'es là,"
 
-	para "show up and bug us"
-	line "now?"
+	para "toi? Tu nous as"
+	line "dérangés"
 
-	para "Do you know what"
-	line "they call people"
-	cont "like you?"
+	para "Tu sais comment on"
+	line "appelle les gens"
+	cont "comme toi?"
 
-	para "Pests! You heard"
-	line "me right, pest!"
+	para "Des pestes!"
+
+	para "Tu m'as bien en-"
+	line "tendu, des pestes!"
 
 	para "<...>"
 
-	para "<...>Oh? Those BADGES"
-	line "you have<...> Are they"
-	cont "JOHTO GYM BADGES?"
+	para "<...>Oh? Tes BADGES!"
+	line "Ils viennent des"
+	cont "ARENES de JOHTO?"
 
-	para "If you have eight,"
-	line "you must be good."
+	para "Si tu en as 8,"
+	line "c'est que t'es pas"
+	cont "mal<...>"
 
-	para "OK, then. Come to"
-	line "CERULEAN GYM."
+	para "OK. Viens à"
+	line "l'ARENE d'AZURIA."
 
-	para "I'll be happy to"
-	line "take you on."
+	para "Je te lance un"
+	line "défi."
 
-	para "I'm MISTY, the"
-	line "GYM LEADER in"
-	cont "CERULEAN."
+	para "Je suis ONDINE,"
+	line "la CHAMPIONNE"
+	
+	para "d'AZURIA et je"
+	line "vais te faire"
+
+	para "payer pour mon"
+	line "rencard!"
 	done
 ; 0x19f14d
 
 SchoolboyDudleySeenText: ; 0x19f14d
-	text "Beat the six of us"
-	line "trainers to win a"
-	cont "fabulous prize!"
+	text "Bats les six"
+	line "dresseurs pour"
+	cont "gagner un prix!"
 
-	para "Think you've got"
-	line "what it takes?"
+	para "Tu crois en être"
+	line "capable?"
 	done
 ; 0x19f1a2
 
 SchoolboyDudleyBeatenText: ; 0x19f1a2
-	text "Whoo! Good stuff."
+	text "Whoa! Pas mal."
 	done
 ; 0x19f1b5
 
 UnknownText_0x19f1b5: ; 0x19f1b5
-	text "I did my best."
-	line "I have no regrets."
+	text "J'ai fait de mon"
+	line "mieux. Je n'ai pas"
+	cont "de regrets."
 	done
 ; 0x19f1d8
 
 LassEllenSeenText: ; 0x19f1d8
-	text "I'm second."
-	line "Now it's serious!"
+	text "J'suis deuxième!"
+	line "C'est du sérieux!"
 	done
 ; 0x19f1f5
 
 LassEllenBeatenText: ; 0x19f1f5
-	text "How could I lose?"
+	text "Impossible!"
 	done
 ; 0x19f208
 
 UnknownText_0x19f208: ; 0x19f208
-	text "I did my best."
-	line "I have no regrets."
+	text "J'ai fait de mon"
+	line "mieux. Je n'ai pas"
+	cont "de regrets."
 	done
 ; 0x19f22b
 
 SchoolboyJoeSeenText: ; 0x19f22b
-	text "Here's No. 3!"
-	line "I won't be easy."
+	text "Numéro 3!"
+	line "Tu vas en baver!"
 	done
 ; 0x19f249
 
 SchoolboyJoeBeatenText: ; 0x19f249
-	text "Ow! Stomped flat!"
+	text "Ouille! Perdu!"
 	done
 ; 0x19f25c
 
 UnknownText_0x19f25c: ; 0x19f25c
-	text "I did my best."
-	line "I have no regrets."
+	text "J'ai fait de mon"
+	line "mieux. Je n'ai pas"
+	cont "de regrets."
 	done
 ; 0x19f27f
 
 LassLauraSeenText: ; 0x19f27f
-	text "I'm No. 4!"
-	line "Getting tired?"
+	text "Numéro 4!"
+	line "Tu fatigues?"
 	done
 ; 0x19f299
 
 LassLauraBeatenText: ; 0x19f299
-	text "No!"
+	text "Non!"
 
-	para "My cute babies <...>"
+	para "Mes petits bébés<...>"
 	done
 ; 0x19f2a6
 
 UnknownText_0x19f2a6: ; 0x19f2a6
-	text "I did my best."
-	line "I have no regrets."
+	text "J'ai fait de mon"
+	line "mieux. Je n'ai pas"
+	cont "de regrets."
 	done
 ; 0x19f2c9
 
 CamperLloydSeenText: ; 0x19f2c9
-	text "OK! I'm No. 5."
-	line "I'll stomp you!"
+	text "OK! Numéro 5."
+	line "Je vais t'écraser!"
 	done
 ; 0x19f2e7
 
 CamperLloydBeatenText: ; 0x19f2e7
-	text "Whoa! Too much."
+	text "Whoa! T'es trop!"
 	done
 ; 0x19f2f8
 
 UnknownText_0x19f2f8: ; 0x19f2f8
-	text "I did my best."
-	line "I have no regrets."
+	text "J'ai fait de mon"
+	line "mieux. Je n'ai pas"
+	cont "de regrets."
 	done
 ; 0x19f31b
 
 LassShannonSeenText: ; 0x19f31b
-	text "I'm the last in"
-	line "line, but I tell"
-	cont "you, I'm tough!"
+	text "Dernier rempart!"
+	line "Autant te dire<...>"
+	cont "Ca va être dur!"
 	done
 ; 0x19f34b
 
 LassShannonBeatenText: ; 0x19f34b
-	text "You're kidding."
+	text "Sans blague?"
 	done
 ; 0x19f35b
 
 UnknownText_0x19f35b: ; 0x19f35b
-	text "I did my best."
-	line "I have no regrets."
+	text "J'ai fait de mon"
+	line "mieux. Je n'ai pas"
+	cont "de regrets."
 	done
 ; 0x19f37e
 
 SupernerdPatSeenText: ; 0x19f37e
-	text "Mufufufu<...>"
+	text "Hin hin hin<...>"
 
-	para "I have nothing to"
-	line "do with the six-"
-	cont "pack trainers."
+	para "J'ai rien à voir"
+	line "avec les six"
+	cont "autres dresseurs."
 
-	para "I waited here to"
-	line "beat you when you"
+	para "Je suis là pour te"
+	line "battre au moment"
 
-	para "were tired out by"
-	line "all the battles."
+	para "où tu es le plus"
+	line "à plat."
 	done
 ; 0x19f401
 
 SupernerdPatBeatenText: ; 0x19f401
-	text "Aren't you tired"
-	line "at all?"
+	text "Tu te fatigues"
+	line "jamais?"
 	done
 ; 0x19f41a
 
 UnknownText_0x19f41a: ; 0x19f41a
-	text "I'm sorry<...> I won't"
-	line "cheat anymore<...>"
+	text "Pardon<...> Je ne"
+	line "tricherai plus<...>"
 	done
 ; 0x19f43b
 
 UnknownText_0x19f43b: ; 0x19f43b
-	text "You took on one"
-	line "more battle than"
+	text "Tu as livré un"
+	line "combat de plus que"
 
-	para "you expected, but"
-	line "you won anyway."
+	para "prévu mais tu as"
+	line "quand même gagné."
 
-	para "As promised, you"
-	line "win a prize."
+	para "Tu as bien mérité"
+	line "ton prix."
 	done
 ; 0x19f49d
 
 UnknownText_0x19f49d: ; 0x19f49d
-	text "But after seeing"
-	line "how you battle, I"
+	text "Mais après avoir"
+	line "vu ton combat, je"
 
-	para "want to see how"
-	line "I'll fare."
+	para "voudrais savoir ce"
+	line "que je vaux contre"
+	cont "toi."
 
-	para "How about it? Let"
-	line "me take you on."
+	para "Ca te dit?"
+	line "Alors c'est parti."
 	done
 ; 0x19f4fd
 
 UnknownText_0x19f4fd: ; 0x19f4fd
-	text "I've never had a"
-	line "battle this good!"
+	text "Ouais! C'était un"
+	line "super combat!"
 	done
 ; 0x19f520
 
 UnknownText_0x19f520: ; 0x19f520
-	text "That was a great"
-	line "battle!"
+	text "Quelle belle"
+	line "rencontre!"
 
-	para "You and your #-"
-	line "MON are truly out-"
-	cont "standing!"
+	para "Toi et tes #MON"
+	line "êtes vraiment"
+	cont "impressionnants!"
 	done
 ; 0x19f567
 
 UnknownText_0x19f567: ; 0x19f567
-	text "SEA COTTAGE"
-	line "BILL'S HOUSE"
+	text "VILLA"
+	line "MAISON DE LEO"
 	done
 ; 0x19f581
 
 UnknownText_0x19f581: ; 0x19f581
-	text "BILL'S HOUSE"
+	text "MAISON DE LEO"
 	done
 ; 0x19f58f
 

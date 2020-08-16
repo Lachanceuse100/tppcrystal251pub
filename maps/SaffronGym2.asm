@@ -73,70 +73,67 @@ MapSaffronGym2Signpost0Script: ; 0x189ccf
 	jumpstd gymstatue2
 
 SabrinaBeforeRematchText:
-	text "SABRINA: I can"
-	line "sense great"
-	cont "ambition in you."
+	text "MORGANE: Je sens"
+	line "une grande ambi-"
+	cont "tion en toi."
 
-	para "I know this"
-	line "because I train"
-	cont "psychic #MON."
+	para "Je le sais car"
+	line "j'entraîne des"
+	cont "#MON PSY."
 
-	para "If I go all out I"
-	line "predict that you"
+	para "Si je donne tout,"
+	line "je te battrais"
+	cont "facilement."
 
-	para "will be defeated"
-	line "easily."
-
-	para "Let us test my"
-	line "prediction and see"
-	cont "if I am right."
-
-	para "Shall we?"
+	para "Je te propose de"
+	line "mettre ma prédic-"
+	cont "tion à l'épreuve."
 
 	done
 
 SabrinaRematchBeatenText:
-	text "Was what I saw<...>"
-	line "wrong?"
+	text "Ma prédiction<...>"
+	line "était fausse?"
 	done
 
 SabrinaAfterRematchText:
-	text "SABRINA: <...>"
-	line "Your victory<...>"
+	text "MORGANE: <...>"
+	line "Ta victoire<...>"
 
-	para "It's exactly as I"
-	line "foresaw, actually."
+	para "C'est bien ce que"
+	line "j'avais prédis."
 
-	para "But I wanted to"
-	line "turn that future"
+	para "Mais je voulais"
+	line "savoir si j'étais"
 
-	para "on its head with"
-	line "my conviction as"
-	cont "a trainer."
+	para "assez forte pour"
+	line "changer le futur."
 
 	done
 
 SaffronGym2GuyText:
-	text "Yo, CHAMP!"
+	text "Salut, MAITRE!"
 
-	para "A trainer as"
-	line "skilled as you"
+	para "Un dresseur aussi"
+	line "balèze que toi n'a"
 
-	para "doesn't need to be"
-	line "told how to deal"
+	para "pas besoin qu'on"
+	line "lui dise comment"
 
-	para "with this tele-"
-	line "porter maze right?"
+	para "s'occuper de ce"
+	line "labyrinthe, pas"
+	cont "vrai?"
 
-	para "I expect great"
-	line "things from you!"
+	para "J'espère que ce"
+	line "n'est pas trop"
+	cont "t'en demander."
 
-	para "Good luck!"
+	para "Bonne chance!"
 	done
 
 SaffronGym2GuyWinText:
-	text "That was another"
-	line "fantastic battle!"
+	text "Encore un combat"
+	line "fantastique!"
 	done
 
 SabrinaPostgameRematchScript:
@@ -156,33 +153,36 @@ SabrinaPostgameRematchScript:
     end
 	
 SabrinaPostgameRematchText:
-	text "SABRINA: <PLAYER>."
+	text "MORGANE: <PLAYER>."
 
-	para "I knew you would"
-	line "return here."
+	para "Je savais que tu"
+	line "reviendrais."
 
-	para "You are wishing to"
-	line "battle again?"
+	para "Pour un autre"
+	line "combat, je pré-"
+	cont "sume?"
 	done
 	
 SabrinaPostgameBeatenText:
 	text "<...>"
 	
-	para "I still cannot"
-	line "read you clearly<...>"
+	para "Tu es toujours si"
+	line "illisible<...>"
 	done
 	
 SabrinaPostgameAfterText:
 
-	text "SABRINA: <...>I knew"
-	line "the outcome of"
-	cont "this battle."
+	text "MORGANE: <...>J'avais"
+	line "prédis l'issue de"
+	cont "ce combat"
 
-	para "I simply wanted to"
-	line "test my skills."
+	para "Je souhatais seu-"
+	line "lement tester mes"
+	cont "talents de"
+	cont "dresseur."
 	
-	para "Thank you. I hope"
-	line "you return soon."
+	para "Merci. J'espère"
+	line "que tu reviendras."
 	done
 	
 SaffronGym2_MapEventHeader:

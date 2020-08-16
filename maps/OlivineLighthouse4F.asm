@@ -91,7 +91,7 @@ UnknownText_0x5b584: ; 0x5b584
 
 LassConnie1SeenText: ; 0x5b5c5
 	text "Je viens du nord"
-	line "de JOHTO"
+	line "de JOHTO."
 
 	para "Il fait très froid"
 	line "là-bas!"

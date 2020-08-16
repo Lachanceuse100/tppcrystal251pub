@@ -23,7 +23,7 @@ MapRoute10NorthSignpost1Script: ; 0x1b2083
 ; 0x1b2086
 
 UnknownText_0x1b2086: ; 0x1b2086
-	text "KANTO POWER PLANT"
+	text "CENTRALE DE KANTO."
 	done
 ; 0x1b2099
 

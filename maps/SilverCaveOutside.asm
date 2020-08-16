@@ -87,21 +87,23 @@ MapSilverCaveOutsideSignpostItem2: ; 0x1b2051
 
 ; 0x1b2054
 SilverCaveOutsideCooltrainerMText:
-	text "The #MON in"
-	line "this cave are im-"
-	cont "mensely powerful."
+	text "Les #MON de"
+	line "cette cave sont"
+	cont "affreusement"
+	cont "puissants."
 
-	para "Only true #MON"
-	line "MASTERs may enter."
+	para "Seuls les MAITRES"
+	line "#MON peuvent"
+	cont "entrer."
 
-	para "Only the GAMEFREAK"
-	line "DIRECTOR can cer-"
-	cont "tify you as a"
-	cont "#MON MASTER."
+	para "Seul le DIRECTEUR"
+	line "de GAMEFREAK peut"
+	cont "certifier tes"
+	cont "aptitudes #MON."
 	done
 
 UnknownText_0x1b2054: ; 0x1b2054
-	text "MT.SILVER"
+	text "MONT ARGENT."
 	done
 ; 0x1b205f
 

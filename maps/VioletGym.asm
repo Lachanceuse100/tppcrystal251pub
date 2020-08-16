@@ -119,8 +119,8 @@ FalknerRejectText:
 
 	para "Trouve les oiseaux"
 	line "légendaires et"
-	cont "attrape les ou ils"
-	cont "se perchent!"
+	cont "attrape les là ou"
+	cont "ils se perchent!"
 
 	para "Une fois cette"
 	line "tâche accomplie,"

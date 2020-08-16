@@ -319,7 +319,7 @@ UnknownText_0x9d78a: ; 0x9d78a
 	line "Je sais!"
 
 	para "Allez, en position"
-	line "pour la bataille!"
+	line "pour le combat!"
 	done
 ; 0x9d7f6
 
@@ -368,7 +368,7 @@ UnknownText_0x9d7f6: ; 0x9d7f6
 
 UnknownText_0x9d835: ; 0x9d835
 	text "<PLAYER> reçoit"
-	line "le BADGE CHOC"
+	line "le BADGE CHOC."
 	done
 ; 0x9d84d
 
@@ -456,7 +456,7 @@ BlackbeltNobSeenText: ; 0x9da8a
 	line "inutiles."
 
 	para "Nos poings parle-"
-	cont "ront pour nous!"
+	line "ront pour nous!"
 	done
 ; 0x9dabd
 

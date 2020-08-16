@@ -185,12 +185,12 @@ MovementData_0x74555: ; 0x74555
 UnknownText_0x7455f: ; 0x7455f
 	text "Minute."
 
-	para "<...>Vas-tu relever le"
-	line "défi de la LIGUE"
-	cont "#MON?"
+	para "<...> Vas-tu relever"
+	line "le défi de la"
+	cont "LIGUE #MON?"
 
-	para "<...>Ne me fais pas"
-	line "rire."
+	para "Ne me fais pas"
+	line "rire!"
 
 	para "Tu ne vaux rien"
 	line "face à moi."
@@ -210,7 +210,7 @@ UnknownText_0x7455f: ; 0x7455f
 ; 0x7463d
 
 UnknownText_0x7463d: ; 0x7463d
-	text "<...>Je n'ai pas pu"
+	text "Je n'ai pas pu"
 	line "gagner<...>"
 
 	para "J'ai donné tout ce"

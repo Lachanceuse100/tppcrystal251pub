@@ -39,47 +39,48 @@ UnknownScript_0x7f4ac: ; 0x7f4ac
 ; 0x7f4af
 
 UnknownText_0x7f4af: ; 0x7f4af
-	text "I'm the FISHING"
-	line "GURU's younger"
-	cont "brother."
+	text "Je suis le petit"
+	line "frère du MAITRE"
+	cont "PECHEUR."
 
-	para "I can see that you"
-	line "like fishing."
+	para "Tu aimes la pêche,"
+	line "toi! Ca se voit."
 
-	para "There's no doubt"
-	line "in my mind at all!"
+	para "Je n'ai aucun"
+	line "doute là-dessus."
 
-	para "So? I know I'm"
-	line "right."
+	para "Alors? Je sais que"
+	line "j'ai raison."
 	done
 ; 0x7f52f
 
 UnknownText_0x7f52f: ; 0x7f52f
-	text "Yes, yes. Just as"
-	line "I thought!"
+	text "Héhé, je me trompe"
+	line "jamais!"
 
-	para "Here, fishing fan!"
-	line "Take this--it's a"
-	cont "SUPER ROD."
+	para "Tiens, prends ça,"
+	line "c'est la MEGA"
+	cont "CANNE."
 	done
 ; 0x7f57c
 
 UnknownText_0x7f57c: ; 0x7f57c
-	text "Try your hand at"
-	line "fishing wherever"
-	cont "there is water."
+	text "Essaie de pêcher"
+	line "un peu partout où"
+	cont "il y a de l'eau."
 
-	para "Remember--you can"
-	line "catch different"
+	para "Souviens-toi: tu"
+	line "peux attraper plu-"
 
-	para "#MON using"
-	line "different RODS."
+	para "sieurs #MON"
+	line "grâce à différen-"
+	cont "tes CANNES."
 	done
 ; 0x7f5ec
 
 UnknownText_0x7f5ec: ; 0x7f5ec
-	text "Huh? My own eyes"
-	line "deceived me?"
+	text "Hein? J'ai été"
+	line "trompé?"
 	done
 ; 0x7f60b
 

@@ -483,7 +483,7 @@ UnknownText_0x18cd82: ; 0x18cd82
 	line "demeure de notre"
 
 	para "MAITRE, chef du"
-	line "cla, des dragons."
+	line "clan des dragons."
 
 	para "Tu n'as pas le"
 	line "droit d'entrer!"

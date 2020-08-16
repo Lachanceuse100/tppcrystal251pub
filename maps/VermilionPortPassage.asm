@@ -11,10 +11,9 @@ TeacherScript_0x7701a: ; 0x7701a
 ; 0x7701d
 
 UnknownText_0x7701d: ; 0x7701d
-	text "The FAST SHIP"
-	line "sails on Wednes-"
-	cont "days and Sundays"
-	cont "every week."
+	text "Le BATEAU EXPRESS"
+	line "vogue le mercredi"
+	cont "et le dimanche."
 	done
 ; 0x7705a
 

@@ -251,81 +251,85 @@ MapVermilionCitySignpostItem7: ; 0x1aaa12
 ; 0x1aaa15
 
 UnknownText_0x1aaa15: ; 0x1aaa15
-	text "VERMILION PORT is"
-	line "KANTO's seaside"
-	cont "gateway."
+	text "Le port de CARMIN"
+	line "SUR MER est la"
+	cont "porte de KANTO"
+	cont "verrs l'océan."
 
-	para "Luxury liners from"
-	line "around the world"
-	cont "dock here."
+	para "Les paquebots de"
+	line "luxe du monde"
+	cont "entier viennent y"
+	cont "jeter l'ancre."
 	done
 ; 0x1aaa6f
 
 UnknownText_0x1aaa6f: ; 0x1aaa6f
-	text "My #MON is"
-	line "preparing the land"
-	cont "for construction."
+	text "Mon #MON pré-"
+	line "pare le terrain"
+	cont "pour construire."
 
-	para "But I have no"
-	line "money to start the"
-	cont "project<...>"
+	para "Mais je n'ai pas"
+	line "d'argent pour com-"
+	cont "mencer le projet."
 	done
 ; 0x1aaaca
 
 UnknownText_0x1aaaca: ; 0x1aaaca
-	text "MACHOP: Guooh"
-	line "gogogoh!"
+	text "MACHOC: Maaaa!"
+	line "Choc!"
 	done
 ; 0x1aaae2
 
 UnknownText_0x1aaae2: ; 0x1aaae2
-	text "A MACHOP is growl-"
-	line "ing while stomping"
-	cont "the ground flat."
+	text "Un MACHOC grogne"
+	line "en aplatissant le"
+	cont "sol."
 	done
 ; 0x1aab1a
 
 UnknownText_0x1aab1a: ; 0x1aab1a
-	text "There are eight"
-	line "GYMS in KANTO."
+	text "Il y a huit arènes"
+	line "à KANTO."
 
-	para "That big building"
-	line "is VERMILION's"
-	cont "#MON GYM."
+	para "Ce grand bâtiment"
+	line "est l'ARENE #-"
+	cont "MON de CARMIN SUR"
+	cont "MER."
 	done
 ; 0x1aab64
-SnorlaxVermWakeyWakeyPrompt:
-	text "SNORLAX is snoring"
-	line "peacefully<...>"
 
-	para "Play the #"
+SnorlaxVermWakeyWakeyPrompt:
+	text "RONFLEX ronfle"
+	line "paisiblement<...>"
+
+	para "Jouer la #"
 	line "FLUTE?"
 	done
 
 
 UnknownText_0x1aab64: ; 0x1aab64
-	text "SNORLAX is snoring"
-	line "peacefully<...>"
+	text "RONFLEX ronfle"
+	line "paisiblement<...>"
 	done
 ; 0x1aab84
 
 UnknownText_0x1aab84: ; 0x1aab84
-	text "The #GEAR was"
-	line "placed near the"
-	cont "sleeping SNORLAX<...>"
+	text "Vous placez le"
+	line "#MATOS près du"
+	cont "RONFLEX endormi<...>"
 
 	para "<...>"
 
-	para "SNORLAX woke up!"
+	para "RONFLEX se"
+	line "réveille!"
 	done
 ; 0x1aabc8
 
 VermilionCitySimonText1:
-	text "Hey!"
+	text "Hé!"
 
-	para "Why'd you follow"
-	line "me all the way"
-	cont "out here, huh?"
+	para "Mais tu m'as suivi"
+	line "jusqu'ici toi?"
 	done
 
 VermilionCitySimonLossText:
@@ -333,114 +337,124 @@ VermilionCitySimonLossText:
 	done
 
 VermilionCitySimonText2:
-	text "Ah, well, it can't"
-	line "be helped."
+	text "Raah<...>"
 
-	para "Here, you can have"
-	line "this. I think it"
+	para "Bon, pas grave."
 
-	para "suits me better,"
-	line "but whatever."
+	para "Tu peux prendre"
+	line "ça."
+
+	para "Ce serait mieux"
+	line "pour moi mais bon,"
+	cont "tant pis."
 	done
 
 VermilionCitySimonText3:
-	text "Buh-bye!"
+	text "Tchao-tchao!"
 	done
 
 UnknownText_0x1aabc8: ; 0x1aabc8
-	text "Skilled trainers"
-	line "gather in KANTO."
+	text "Les grands dres-"
+	line "seurs se rassem-"
+	cont "blent à KANTO."
 
-	para "GYM LEADERS are"
-	line "especially strong."
+	para "Les CHAMPIONS d'"
+	line "ARENE sont vrai-"
+	cont "ment costaud."
 
-	para "They won't be easy"
-	line "to defeat."
+	para "Ils ne seront pas"
+	line "facile à battre!"
 	done
 ; 0x1aac2b
 
 UnknownText_0x1aac2b: ; 0x1aac2b
-	text "You've started to"
-	line "collect KANTO GYM"
-	cont "BADGES?"
+	text "Tu as commencé la"
+	line "collection des"
+	cont "BADGES de KANTO?"
 
-	para "Don't you agree"
-	line "that the trainers"
-	cont "here are tough?"
+	para "Alors, que penses-"
+	line "tu des dresseurs"
+	cont "par ici?"
+
+	para "Pas de la tarte,"
+	line "hein?"
 	done
 ; 0x1aac88
 
 UnknownText_0x1aac88: ; 0x1aac88
-	text "I guess you'll be"
-	line "finished with your"
+	text "On dirait que tu"
+	line "bientôt fini ta"
 
-	para "conquest of KANTO"
-	line "GYMS soon."
+	para "conquête des ARE-"
+	line "NES de KANTO."
 
-	para "Let me know if"
-	line "you get all eight"
-	cont "BADGES."
+	para "Fais moi savoir"
+	line "quand tu auras les"
+	cont "huit BADGES."
 	done
 ; 0x1aacf3
 
 UnknownText_0x1aacf3: ; 0x1aacf3
-	text "Congratulations!"
+	text "Félicitations!"
 
-	para "You got all the"
-	line "KANTO GYM BADGES."
+	para "Tu as tous les"
+	line "BADGES de KANTO"
 
-	para "I've got a reward"
-	line "for your efforts."
+	para "Voilà une récom-"
+	line "pense pour toi!"
 	done
 ; 0x1aad4a
 
 UnknownText_0x1aad4a: ; 0x1aad4a
-	text "Having a variety"
-	line "of #MON types"
+	text "Avoir des #MON"
+	line "aux types variés"
 
-	para "should give you an"
-	line "edge in battle."
+	para "te donnera l'avan-"
+	line "tage en combat."
 
-	para "I'm sure the KANTO"
-	line "GYM BADGES will"
-	cont "help you."
+	para "Ca te sera d'une"
+	line "grande aide dans"
+	cont "ta quête aux"
+	cont "BADGES!"
 	done
 ; 0x1aadb9
 
 UnknownText_0x1aadb9: ; 0x1aadb9
-	text "VERMILION CITY"
+	text "CARMIN SUR MER"
 
-	para "The Port of"
-	line "Exquisite Sunsets"
+	para "Le port aux cou-"
+	line "chers de soleil."
 	done
 ; 0x1aade7
 
 UnknownText_0x1aade7: ; 0x1aade7
-	text "VERMILION CITY"
-	line "#MON GYM"
-	cont "LEADER: LT.SURGE"
+	text "CARMIN SUR MER"
+	line "ARENE #MON"
 
-	para "The Lightning"
-	line "American"
+	para "CHAMPION:"
+	line "MAJOR BOB"
+
+	para "L'américain"
+	line "survolté."
 	done
 ; 0x1aae28
 
 UnknownText_0x1aae28: ; 0x1aae28
-	text "#MON FAN CLUB"
+	text "FAN CLUB #MON"
 
-	para "All #MON Fans"
-	line "Welcome!"
+	para "Fans de #MON"
+	line "bienvenus!"
 	done
 ; 0x1aae4e
 
 UnknownText_0x1aae4e: ; 0x1aae4e
-	text "DIGLETT'S CAVE"
+	text "CAVE TAUPIQUEUR"
 	done
 ; 0x1aae5e
 
 UnknownText_0x1aae5e: ; 0x1aae5e
-	text "VERMILION PORT"
-	line "ENTRANCE"
+	text "PORT de CARMIN SUR"
+	line "MER: ENTREE"
 	done
 ; 0x1aae77
 

@@ -56,99 +56,96 @@ MovementData_0x1ac9d0: ; 0x1ac9d0
 
 
 UnknownText_0x1ac9d2: ; 0x1ac9d2
-	text "Who are you?"
+	text "T'es qui toi?"
 
-	para "Well, it's plain"
-	line "to see that you're"
-	cont "a trainer<...>"
+	para "Oui, ça se voit"
+	line "que t'es dresseur<...>"
 
-	para "My name's BLUE."
+	para "Moi c'est BLUE."
 
-	para "I was once the"
-	line "CHAMPION, although"
+	para "J'ai été un MAITRE"
+	line "pendant un temps."
 
-	para "it was for only a"
-	line "short time<...>"
+	para "Enfin, quelques"
+	line "minutes<...>"
 
-	para "That meddling"
-	line "<RED> did me in<...>"
+	para "Juste ave que"
+	line "<RED> me batte<...>"
 
-	para "Anyway, what do"
-	line "you want? You want"
+	para "Bref, tu veux"
+	line "quoi? Te battre?"
 
-	para "to challenge me or"
-	line "something?"
+	para "Désolé mais j'ai"
+	line "pas la tête à ça."
 
-	para "<...>I hate to say"
-	line "it, but I'm not in"
+	para "Regarde autour de"
+	line "toi<...>"
 
-	para "the mood for a"
-	line "battle now."
+	para "Un volcan explose"
+	line "et une ville"
 
-	para "Take a good look"
-	line "around you<...>"
+	para "disparaît de la"
+	line "carte, juste comme"
+	cont "ça<...>"
 
-	para "A volcano erupts,"
-	line "and just like"
+	para "On peut gagner ou"
+	line "perdre à #MON<...>"
 
-	para "that, a whole town"
-	line "disappears."
+	para "Mais on peut se"
+	line "faire balayer par"
 
-	para "We can go on win-"
-	line "ning and losing in"
-
-	para "#MON. But if"
-	line "nature so much as"
-
-	para "twitches, we can"
-	line "lose in a second."
+	para "une catastrophe"
+	line "naturelle à tout"
+	cont "moment."
 
 	para "<...>"
 
-	para "That's the way it"
-	line "is<...>"
+	para "C'est comme ça."
+	line "On y peut rien<...>"
 
-	para "But, anyway, I'm"
-	line "still a trainer."
+	para "Mais bon. Je reste"
+	line "un dresseur."
 
-	para "If I see a strong"
-	line "opponent, it makes"
-	cont "me want to battle."
+	para "Et quand je vois"
+	line "quelqu'un de"
+	cont "balèze, j'ai envie"
+	cont "de me battre!"
 
-	para "If you want to"
-	line "battle me, come to"
-	cont "the VIRIDIAN GYM."
+	para "Si tu cherches un"
+	line "bon combat, viens"
+	cont "à l'ARENE de"
+	cont "JADIELLE."
 
-	para "I'll take you on"
-	line "then."
+	para "Je t'y ferais ta"
+	line "fête."
 	done
 ; 0x1acc73
 
 UnknownText_0x1acc73: ; 0x1acc73
-	text "There's a notice"
-	line "here<...>"
+	text "Il y a un mot<...>"
 
-	para "CINNABAR GYM has"
-	line "relocated to SEA-"
-	cont "FOAM ISLANDS."
+	para "l'ARENE de CRAMOI-"
+	line "S'ILE est déplacée"
+	cont "aux ILES ECUME."
 
-	para "BLAINE"
+	para "AUGUSTE"
 	done
 ; 0x1accc2
 
 UnknownText_0x1accc2: ; 0x1accc2
-	text "CINNABAR ISLAND"
+	text "CRAMOIS'ILE"
 
-	para "The Fiery Town of"
-	line "Burning Desire"
+	para "La ville des"
+	line "désirs brûlants."
 	done
 ; 0x1accf4
 
 EnteiCaveSign: ; 0x1accc2
-	text "You try hard to"
-    line "read the sign<...>"
-    para "But it is too"
-    line "charred to read."
+	text "Vous essayez de"
+    line "lire le panneau<...>"
+
+    para "Mais il est"
+    line "carbonisé<...>"
     done
 
 CinnabarIsland_MapEventHeader: ; 0x1accf4

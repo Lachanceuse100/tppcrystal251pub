@@ -36,88 +36,82 @@ RocketScript_0x1adbfa: ; 0x1adbfa
 ; 0x1adc2e
 
 UnknownText_0x1adc2e: ; 0x1adc2e
-	text "Hey, kid! Me am a"
-	line "TEAM ROCKET member"
-	cont "kind of guy!"
+	text "Hé toi! Moi yé"
+	line "souis dé la TEAM"
+	cont "ROCKET!"
 
-	para "Come from another"
-	line "country, a trainer"
-	cont "number one, me!"
+	para "Yé souis de oune"
+	line "autre pays. Mé moi"
+	cont "numéro un!"
 
-	para "Think I did, if"
-	line "stop the energy,"
+	para "Si arrété énérgie"
+	line "ici pas bien pour"
+	cont "lé amis à moi!"
 
-	para "be big panic for"
-	line "here people!"
+	para "Ma mission cé oune"
+	line "sécré alors pas"
+	cont "té dire!"
 
-	para "Secret it is my"
-	line "mission, so tell"
-	cont "you I not!"
+	para "Mé! Si toi mé"
+	line "gagné, cé dé"
 
-	para "But! If win you do"
-	line "versus me, a man I"
+	para "l'honor de té dire"
+	line "lé secret à moi."
 
-	para "be and mine secret"
-	line "to you I tell."
-
-	para "Hey, kid! Battle"
-	line "begin we do!"
+	para "Hé gamin, cé"
+	line "parti!"
 	done
 ; 0x1add67
 
 UnknownText_0x1add67: ; 0x1add67
-	text "Ayieeeh! No, no,"
-	line "no, believe it I"
-	cont "can't!"
+	text "Ayiéééé! No, no,"
+	line "no, yé lé crois"
+	cont "pas!"
 
-	para "Strong very much"
-	line "be you! Match I am"
-	cont "not to you!"
+	para "Té qui toi, no?"
+	line "Yé souis pas dé"
+	cont "la hauteur!"
 	done
 ; 0x1addc0
 
 UnknownText_0x1addc0: ; 0x1addc0
-	text "OK. Tell you mine"
-	line "secret will I."
+	text "OK. Moi lé dire"
+	line "la secret."
 
-	para "MACHINE PART steal"
-	line "by me, hide it I"
+	para "PARTIE MACH. jé la"
+	line "volé moi."
 
-	para "did in GYM of the"
-	line "CERULEAN."
+	para "La planqué aussi"
+	line "dans ARENE AZURIA"
 
-	para "Inside water put"
-	line "it I did. Look for"
+	para "Dans l'eau té la"
+	line "cherches au"
+	cont "milieu."
 
-	para "in water center of"
-	line "GYM at."
+	para "Ma toi oublies"
+	line "pas moi!"
 
-	para "But you forget me"
-	line "not!"
+	para "TEAM ROCKET té"
+	line "battre!"
 
-	para "Beat you for sure"
-	line "will TEAM ROCKET."
+	para "Ils viennent de"
+	line "JOHTO mes amis et"
 
-	para "Come from JOHTO"
-	line "will they, mine"
-
-	para "friends, yes. Will"
-	line "revenge they are."
+	para "té tête té la"
+	line "cassent, oh oui."
 	done
 ; 0x1adee1
 
 UnknownText_0x1adee1: ; 0x1adee1
 	text "<...>"
 
-	para "You say what? TEAM"
-	line "ROCKET bye-bye a"
+	para "Qué dit? TEAM"
+	line "ROCKET cassé?"
 
-	para "go-go? Broken it"
-	line "is says you?"
+	cont "Par toi en plous?"
 
-	para "Oh, no! Should I"
-	line "do what now on"
-	cont "from, me?"
+	para "Oh, non! Qué yé"
+	line "dois faire moi?"
 	done
 ; 0x1adf50
 

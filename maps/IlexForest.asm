@@ -1005,19 +1005,19 @@ UnknownText_0x6f394: ; 0x6f394
 	cont "forêt<...>"
 
 	para "Oh? Qu'est-ce que"
-	cont "c'est?"
+	line "c'est?"
 
 	para "Il y a un trou."
 	line "On dirait que la"
 	cont "GS BALL y rentre."
 
-	para "Voulez-vous mettre"
-	line "la GS BALL ici?"
+	para "Insérer la GS"
+	line "BALL?"
 	done
 ; 0x6f43b
 
 UnknownText_0x6f43b: ; 0x6f43b
-	text "<PLAYER> dépose la"
+	text "<PLAYER> insère la"
 	line "GS BALL."
 	done
 ; 0x6f452

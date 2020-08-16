@@ -36,86 +36,89 @@ UnknownScript_0x71b25: ; 0x71b25
 ; 0x71b27
 
 UnknownText_0x71b27: ; 0x71b27
-	text "Let me recount a"
-	line "terrifying tale<...>"
+	text "Je vais te racon-"
+	line "ter une histoire<...>"
 	done
 ; 0x71b4a
 
 UnknownText_0x71b4a: ; 0x71b4a
-	text "Then again, it's"
-	line "not as scary while"
+	text "Mais ce n'est pas"
+	line "marrant si il y a"
 
-	para "it's still light"
-	line "outside."
+	para "encore de la lu-"
+	line "mière dehors."
 
-	para "Come back after"
-	line "sunset, OK?"
+	para "Reviens cette"
+	line "nuit, d'accord?"
 	done
 ; 0x71ba3
 
 UnknownText_0x71ba3: ; 0x71ba3
-	text "Once upon a time,"
-	line "there was a little"
+	text "Il était une fois,"
+	line "un petit garçon"
 
-	para "boy who was given"
-	line "a new BICYCLE<...>"
+	para "qui reçut une nou-"
+	line "velle BICYCLETTE."
 
-	para "He wanted to try"
-	line "it right away<...>"
+	para "Il voulut l'essa-"
+	line "yer tout de suite."
 
-	para "He was having so"
-	line "much fun that he"
+	para "Il s'amusait et"
+	line "n'avait pas remar-"
 
-	para "didn't notice the"
-	line "sun had set<...>"
+	para "qué que le soleil"
+	line "s'était couché<...>"
 
-	para "While riding home"
-	line "in the pitch-black"
+	para "Tout en pédalant"
+	line "dans la nuit, la"
 
-	para "night, the bike"
-	line "suddenly slowed!"
+	para "BICYCLETTE commen-"
+	line "çait soudainement"
+	cont "à ralentir."
 
-	para "The pedals became"
-	line "heavy!"
+	para "Les pédales devin-"
+	line "rent lourdes!"
 
-	para "When he stopped"
-	line "pedaling, the bike"
+	para "Et quand il s'ar-"
+	line "rêta de pédaler,"
 
-	para "began slipping"
-	line "backwards!"
+	para "la BICYCLETTE se"
+	line "mit à rouler vers"
+	cont "l'arrière!"
 
-	para "It was as if the"
-	line "bike were cursed"
+	para "Il lui semblait"
+	line "que le vélo était"
 
-	para "and trying to drag"
-	line "him into oblivion!"
+	para "maudit et tentait"
+	line "de l'entraîner"
+	cont "vers les ténèbres!"
 
 	para "<...>"
 
 	para "<...>"
 
-	para "SHRIEEEEK!"
+	para "CRIIIIIIC!"
 
-	para "The boy had been"
-	line "riding uphill on"
-	cont "CYCLING ROAD!"
+	para "Il montait en fait"
+	line "la pente de la"
+	cont "PISTE CYCLABLE!"
 
 	para "<...>"
 	line "Ba-dum ba-dum!"
 
-	para "For listening so"
-	line "patiently, you may"
-	cont "take this--TM30!"
+	para "Pour m'avoir écou-"
+	line "té patiemment, je"
+	cont "veux t'offrir ça,"
+	cont "la CT30."
 	done
 ; 0x71db3
 
 UnknownText_0x71db3: ; 0x71db3
-	text "TM30 is"
-	line "SHADOW BALL."
+	text "CT30: BALL'OMBRE."
 
-	para "It's a terrifying"
-	line "move that strikes"
-	cont "with spookiness."
+	para "Une capacité ter-"
+	line "rifiante qui fait"
+	cont "peur!"
 	done
 ; 0x71e03
 

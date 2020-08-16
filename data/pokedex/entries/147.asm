@@ -5,7 +5,7 @@
 	db   "En grandissant, il"
 	next "perd beaucoup de"
 	next "peau."
-	page "Il se protege"
+	page "Il se protège"
 	next "alors derriere une"
 	next "cascade.@"
 ; 0x1cc7dc

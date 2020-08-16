@@ -248,157 +248,156 @@ ElmText_ShoutPlayerName:
 	done
 
 ElmText_SawBird:
-	text "That bird that"
-	line "just flew off<...>"
+	text "Cet oiseau qui"
+	line "s'est envolé<...>"
 
-	para "Could that have"
-	line "been a #MON?!"
+	para "Est-ce que c'était"
+	line "un #MON?!"
 
-	para "It seems there are"
-	line "new things to dis-"
-	cont "cover every day."
+	para "On dirait que l'on"
+	line "en apprends tous"
+	cont "les jours."
 	done
 
 ElmText_MtSilverRuinsFinalBattleIntro
-	text "<PLAYER>, I didn't"
-	line "expect to see you"
-	cont "here<...>"
+	text "<PLAYER>, Je ne"
+	line "m'attendais pas à"
+	cont "te voir ici<...>"
 
-	para "I felt a small"
-	line "EARTHQUAKE while"
+	para "J'ai senti un"
+	line "léger SEISME en"
 
-	para "I was outside"
-	line "doing research and"
+	para "faisant mes"
+	line "recherches dehors,"
 
-	para "came to check it"
-	line "out<...>"
+	para "alors je suis venu"
+	line "voir<...>"
 
-	para "It seems I might"
-	line "have interrupted"
-	cont "a very rare event<...>"
+	para "On dirait que j'ai"
+	line "interrompu un"
+	cont "évènement unique<...>"
 
-	para "Oh, that's right."
+	para "Ah, tant que j'y"
+	line "pense."
 
-	para "<PLAYER>, I wanted"
-	line "to ask you some-"
-	cont "thing."
+	para "<PLAYER>, je"
+	line "voulais te deman-"
+	cont "der quelque chose."
 
-	para "It would be better"
-	line "if we were in my"
-	cont "LAB<...>"
+	para "Ce serait mieux"
+	line "dans mon LABO-"
+	cont "RATOIRE<...>"
 
-	para "But this is a good"
-	line "place for it too,"
+	para "Mais puisque notre"
+	line "mystérieux ami"
 
-	para "as our mysterious"
-	line "friend seems to"
-
-	para "have set up an"
-	line "area for us<...>"
+	para "nous a préparé le"
+	line "terrain, autant"
+	cont "en profiter."
 	done
 
 ElmContinueText_MtSilverRuins:
-	text"<PLAYER>!"
+	text "<PLAYER>!"
 
-	para "You've caught every"
-	line "#MON out there,"
+	para "Tu as attrapé tous"
+	line "les #MON et"
 
-	para "and defeated the"
-	line "greatest trainers."
+	para "battu les plus"
+	line "grands dresseurs."
 
-	para "That's why I want"
-	line "to challenge you,"
+	para "C'est pourquoi je"
+	line "veux te défier,"
 	cont "<PLAY_G>."
 
-	para "To help me see"
-	line "just how far away"
-	cont "I really am."
+	para "Pour constater"
+	line "tout le retard que"
+	cont "j'ai pris."
 	done
 
 ElmWinText_MtSilverRuins:
-	text "Well done!"
+	text "Bravo!"
 
-	para "In all my life I"
-	line "have never seen"
+	para "Je n'ai jamais vu"
+	line "et encore moins"
 
-	para "such an intense"
-	line "battle, let alone"
+	para "participé à un"
+	line "combat aussi"
+	cont "intense."
 
-	para "participated in"
-	line "one."
+	para "Je n'ai plus rien"
+	line "à dire."
 
-	para "I have nothing"
-	line "more to say."
-
-	para "You <PLAY_G>, are a"
-	line "#MON MASTER!"
+	para "<PLAY_G>, tu es un"
+	line "vrai MAITRE"
+	cont "#MON!"
 	done
 
 ElmLossText_MtSilverRuins:
 	text "Ah!"
 
-	para "It would seem my"
-	line "skills haven't"
-	cont "grown rusty."
+	para "Je vois que je ne"
+	line "suis pas rouillé."
 
-	para "Still, that was"
-	line "exhilarating."
+	para "Tout de même,"
+	line "ce fut intense."
 
-	para "I haven't had such"
-	line "a good fight in a"
-	cont "long time."
+	para "Il y a longtemps"
+	line "que je n'ai pas"
+	cont "mené un tel"
+	cont "combat."
 
-	para "I have nothing"
-	line "more to say."
+	para "Je n'ai plus rien"
+	line "à dire."
 
-	para "You <PLAY_G>, are a"
-	line "#MON MASTER!"
+	para "<PLAY_G>, tu es un"
+	line "vrai MAITRE"
+	cont "#MON!"
 	done
 
 ElmText_MtSilverRuinsFinalBattleAfter_Part1:
-	text "<...>Whew."
+	text "<...>Pfoui."
 
-	para "<PLAYER>, you've"
-	line "certainly been"
-	cont "through a lot."
+	para "<PLAYER>, tu as"
+	line "traversé tant"
+	cont "d'épreuves."
 
-	para "When I first met"
-	line "you in NEW BARK,"
+	para "Quand je t'ai ren-"
+	line "contré à BOURG"
+	cont "GEON<...>"
 
-	para "I knew you wanted"
-	line "to become the best"
-	cont "#MON TRAINER<...>"
+	para "Je savais que tu"
+	line "voulais être le"
+	cont "meilleur dresseur."
 
-	para "To catch all"
-	line "species of #MON"
-	cont "was your quest"
-	cont "too - was it not?"
+	para "Tu t'es battu sans"
+	line "répit<...>"
 
-	para "But to train them<...>"
-
-	para "That was your"
-	line "cause all along."
+	para "Et haut la main,"
+	line "tu as gagné tous"
+	cont "les défis."
 	done
 ElmText_MtSilverRuinsFinalBattleAfter_Part2:
-	text "You've traveled"
-	line "across regions,"
+	text "Tu as parcouru la"
+	line "terre entière,"
 
-	para "searching - both"
-	line "far and wide."
+	para "traquant les"
+	line "#MON et leurs"
+	cont "mystères."
 
-	para "And now, having"
-	line "battled with you,"
+	para "Et aujourd'hui,"
+	line "après t'avoir"
+	cont "combattu<...>"
 
-	para "I see the power"
-	line "that you hold"
-	cont "inside."
+	para "Je comprends"
+	line "mieux le secret"
+	cont "de ton pouvoir."
 
 	;POKEMON! Gotta Catch em-- oh wait
 
 	para "<PLAYER>!"
 
-	para "Truly, honestly,"
-	line "congratulations!"
+	para "Toutes mes"
+	line "félicitations!"
 	done
 
 MtSilverRuins_MapEventHeader:
