@@ -277,8 +277,8 @@ SSAnne5TextAfter:
 
 	para "Personne, pas même"
 	line "un gamin, ne défie"
-	cont "la TEAM ROCKET et"
-	cont "s'en sort indemme!"
+	cont "la TEAM ROCKET"
+	cont "sans être puni!"
 	done
 
 SSAnne10Text_WontGetAwayWithThis:
@@ -308,7 +308,7 @@ _SSAnne5Text2:
 	done
 
 _SSAnne5Text3:
-	text "Urh. Je me sens"
+	text "Beuh<...> Je me sens"
 	line "malade."
 
 	para "Je suis sorti"

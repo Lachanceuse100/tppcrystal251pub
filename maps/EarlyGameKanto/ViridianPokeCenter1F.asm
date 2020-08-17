@@ -27,7 +27,7 @@ _ViridianPokeCenterText1:
 
 	para "C'est l'hôtesse"
 	line "qui me l'a dit."
-	cont "Elle est cool."
+	cont "Elle est cool!"
 	done
 
 _ViridianPokeCenterText3:

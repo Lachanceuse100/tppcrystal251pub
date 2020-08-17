@@ -10,7 +10,7 @@ Route2GateRBScientistScript:
 	jumptextfaceplayer Route2GateRBScientistText
 
 Route2GateRBScientistText:
-	text "Bonjour, je suis "
+	text "Bonjour, je suis"
 	line "un objet non"
 	cont "utilisé."
 

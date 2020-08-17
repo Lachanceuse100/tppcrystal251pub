@@ -264,8 +264,8 @@ SSAnne7Text_RocketsText:
 	line "mutinerie!"
 
 	para "Restez calme ou"
-	line "vous connaîtrez un"
-	cont "monde de douleur!"
+	line "nous vous feront"
+	cont "souffrir!"
 	done
 
 SSAnne7Text_CaptainConfused:

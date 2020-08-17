@@ -381,11 +381,12 @@ Route3RBRocketsText6:
 
 	para "<...>"
 
-	para "<...> Enfin, je dis"
+	para "Enfin, je dis"
 	line "ça mais tu nous as"
-	cont "allumés là. On"
-	cont "se souviendra de"
-	cont "toi."
+	cont "allumés là<...>
+
+	para "On t'oubliera"
+	line "pas!"
 	done
 
 Route3RBLassTextBeforeRockets:

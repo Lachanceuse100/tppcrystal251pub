@@ -187,12 +187,12 @@ _SSAnne9BattleText4:
 	done
 
 _SSAnne9EndBattleText4:
-	text "T'énèrves pas!"
+	text "T'énèrve pas!"
 	done
 
 _SSAnne9AfterBattleText4:
 	text "Oh, j'adore ton"
-	line "#MON fort!"
+	line "#MON!"
 	done
 
 
