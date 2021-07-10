@@ -49561,7 +49561,7 @@ PrintTempMonStats: ; 50b7b
 .StatNames: ; 50bb5
 	db   "ATTAQUE"
 	next "DEFENSE"
-	next "ATK.SPE."
+	next "ATQ.SPE."
 	next "DEF.SPE."
 	next "VITESSE"
 	next "@"
