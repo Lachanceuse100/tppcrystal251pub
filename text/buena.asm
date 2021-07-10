@@ -437,7 +437,7 @@ UnknownText_0xa19b1: ; 0xa19b1
 ; 0xa1ac0
 
 UnknownText_0xa1ac0: ; 0xa1ac0
-	text "Tu savais?"
+	text "Le savais-tu?"
 
 	para "BEN et FERN ont"
 	line "parlé des heures"

@@ -1033,7 +1033,7 @@ UnknownText_0x1bccb1: ; 0x1bccb1
 
 UnknownText_0x1bccc3: ; 0x1bccc3
 	text ""
-	line "is précoce."
+	line "est précoce."
 	done
 ; 0x1bccd4
 
@@ -1579,7 +1579,7 @@ _UseAnotherRepelText:
 	text "Le REPOUSSE"
 	line "s'estompe."
 
-	para "En utiliser un?"
+	para "En utiliser un"
 	line "autre?"
 	done
 
@@ -1970,8 +1970,8 @@ UnknownText_0x1bda7e: ; 0x1bda7e
 ; 0x1bda90
 
 UnknownText_0x1bda90: ; 0x1bda90
-	text "Just do what"
-	line "you can."
+	text "Fais ce que tu"
+	line "peux."
 	done
 ; 0x1bdaa7
 

@@ -53,8 +53,7 @@ UnknownText_0x640e6: ; 0x640e6
 ; 0x6416d
 
 UnknownText_0x6416d: ; 0x6416d
-	text "J'ai entendu, j'ai"
-	line "entendu!"
+	text "J'ai tout entendu!"
 
 	para "Tu as écrasé la"
 	line "cachette de la"
@@ -64,15 +63,14 @@ UnknownText_0x6416d: ; 0x6416d
 	line "héros comme dans"
 	cont "les films!"
 
-	para "Mais euh<...> C'était"
+	para "Mais euh<...> C'est"
 	line "quoi la TEAM"
 	cont "ROCKET?"
 	done
 ; 0x641e8
 
 UnknownText_0x641e8: ; 0x641e8
-	text "J'ai entendu, j'ai"
-	line "entendu!"
+	text "J'ai tout entendu!"
 
 	para "Tes actions hé-"
 	line "roïques a la TOUR"
@@ -83,7 +81,7 @@ UnknownText_0x641e8: ; 0x641e8
 ; 0x64247
 
 UnknownText_0x64247: ; 0x64247
-	text "J'ai vu, j'ai vu!"
+	text "J'ai tout vu!"
 
 	para "Je t'ai vu allé"
 	line "dans l'ANTRE DU"
@@ -128,7 +126,7 @@ UnknownText_0x642bb: ; 0x642bb
 ; 0x643d4
 
 UnknownText_0x643d4: ; 0x643d4
-	text "J'ai vu, j'ai vu!"
+	text "J'ai tout vu!"
 
 	para "Tu marchais sur un"
 	line "bateau, ", $14, "!"
@@ -141,7 +139,7 @@ UnknownText_0x643d4: ; 0x643d4
 ; 0x64448
 
 UnknownText_0x64448: ; 0x64448
-	text "J'ai entendu!"
+	text "J'ai tout entendu!"
 
 	para "Tu as eu un PASSE"
 	line "TRAIN!"
@@ -171,7 +169,7 @@ UnknownText_0x64448: ; 0x64448
 ; 0x6455b
 
 UnknownText_0x6455b: ; 0x6455b
-	text "J'ai vu, j'ai vu!"
+	text "J'ai tout vu!"
 
 	para "Tu as réveillé"
 	line "RONFLEX!"
@@ -195,10 +193,7 @@ UnknownText_0x6455b: ; 0x6455b
 UnknownText_0x645ff: ; 0x645ff
 	text "J'ai entendu tant"
 	line "de rumeurs sur"
-	cont "toi."
-
-	para "Ca me fait soupirer,"
-	line $14, "."
+	cont "toi!"
 
 	para "Comment es-tu deve-"
 	line "nu si fort?"
@@ -221,8 +216,7 @@ UnknownText_0x646a3: ; 0x646a3
 ; 0x646df
 
 UnknownText_0x646df: ; 0x646df
-	text "J'ai vu, j'ai"
-	cont "entendu!"
+	text "J'ai tout vu!"
 
 	para "Tu as battu MORTI-"
 	line "MER à ROSALIA!"
@@ -250,7 +244,7 @@ UnknownText_0x646df: ; 0x646df
 
 UnknownText_0x647d8: ; 0x647d8
 	text $14, ","
-	cont "j'ai entendu!"
+	cont "j'ai tout entendu!"
 
 	para "Tu fais parler de"
 	line "toi à KANTO!"
@@ -280,7 +274,7 @@ UnknownText_0x64881: ; 0x64881
 	cont "de même!"
 
 	para "Je crois qu'on"
-	line "s'entends vraiment"
+	line "s'entend vraiment"
 	cont "bien!"
 	done
 ; 0x648dc
@@ -290,13 +284,13 @@ UnknownText_0x648dc: ; 0x648dc
 
 	para "Tu fais quoi?"
 
-	para "Ou es-tu?"
+	para "T'es où?"
 
-	para "Combien de BADGES"
-	line "as-tu?"
+	para "T'as combien de"
+	line "BADGES?"
 
-	para "Combien de sous tu"
-	line "as épargné?"
+	para "T'as des sous sur"
+	line "ton épargne?"
 
 	para "Comment va ta"
 	cont "MAMAN?"
@@ -309,9 +303,8 @@ UnknownText_0x648dc: ; 0x648dc
 
 	para "Raaah, Il y a trop"
 	line "de choses dont j'"
-
-	para "aimerais discuter."
-	line "Ca ne va nul part!"
+	cont "aimerais parler"
+	cont "avec toi!"
 	done
 ; 0x649dc
 
@@ -341,8 +334,8 @@ UnknownText_0x64a13: ; 0x64a13
 ; 0x64a71
 
 UnknownText_0x64a71: ; 0x64a71
-	text "Je me demandais,"
-	line "si tu avais un"
+	text "Dis-moi, est-ce"
+	line "que tu as un"
 	cont "@"
 	text_from_ram StringBuffer4
 	text "?"
@@ -403,8 +396,8 @@ UnknownText_0x64bc6: ; 0x64bc6
 	para "#MON rares ces"
 	cont "temps-ci!"
 
-	para "But I know they're"
-	line "out there!"
+	para "Mais je sais qu'"
+	line "ils sont là!"
 	done
 ; 0x64c13
 
@@ -434,7 +427,7 @@ UnknownText_0x64c5a: ; 0x64c5a
 UnknownText_0x64cbd: ; 0x64cbd
 	text "Mon @"
 	text_from_ram StringBuffer4
-	text "'s"
+	text " "
 	line "est devenu plus"
 	cont "fort, comme je"
 
@@ -481,7 +474,7 @@ UnknownText_0x64da4: ; 0x64da4
 	text "."
 
 	para "Tu veux venir"
-	line "faure un combat?"
+	line "faire un combat?"
 	done
 ; 0x64e1f
 
@@ -554,17 +547,15 @@ UnknownText_0x64f74: ; 0x64f74
 ; 0x64fb2
 
 UnknownText_0x64fb2: ; 0x64fb2
-	text "It took only an"
-	line "instant to KO a"
-	cont "wild @"
+	text "J'ai mis KO un"
+	line "@"
 	text_from_ram StringBuffer4
-	text "."
+	text " "
+	cont "sauvage!"
 
-	para "It must be because"
-	line "you gave me some"
-
-	para "battling tips last"
-	line "time."
+	para "Ca doit être grâce"
+	line "a tes conseils de"
+	cont "la dernière fois!"
 	done
 ; 0x6501c
 
@@ -712,7 +703,7 @@ UnknownText_0x65399: ; 0x65399
 	para "Pendant longtemps"
 	line "j'ai voulu"
 
-	para "observer"
+	para "observer un"
 	line "@"
 	text_from_ram StringBuffer4
 	text ". Zut<...>"
@@ -822,7 +813,7 @@ UnknownText_0x6569b: ; 0x6569b
 	line "généraux."
 
 	para "C'est vraiment un"
-	line "grand homme."
+	line "grand homme!"
 	done
 ; 0x6574a
 
@@ -841,8 +832,8 @@ UnknownText_0x6574a: ; 0x6574a
 	line "tance de LULA l'a"
 	cont "convaincu."
 
-	para "Remercions LULA"
-	line "pour ça!"
+	para "On peut dire merci"
+	line "à LULA!"
 	done
 ; 0x65810
 
@@ -874,7 +865,7 @@ UnknownText_0x658c6: ; 0x658c6
 	line "thé chaque jour"
 
 	para "à 3 heures de"
-	line "l'après-midi"
+	line "l'après-midi."
 
 	para "J'aimerais la re-"
 	line "joindre pour son"
@@ -885,7 +876,7 @@ UnknownText_0x658c6: ; 0x658c6
 ; 0x65969
 
 UnknownText_0x65969: ; 0x65969
-	text "Tu savais? Le"
+	text "Le savais-tu? Le"
 	line "PROF.CHEN a voyagé"
 
 	para "tout autour du"
@@ -917,10 +908,10 @@ UnknownText_0x65a23: ; 0x65a23
 ; 0x65a63
 
 UnknownText_0x65a63: ; 0x65a63
-	text "Tu te souviens"
-	line "de notre combat?"
+	text "Tu as oublié"
+	line "notre combat ?"
 
-	para "L'endroit est à"
+	para "Je suis à"
 	line "@"
 	text_from_ram StringBuffer5
 	text "."
@@ -932,7 +923,7 @@ UnknownText_0x65a63: ; 0x65a63
 
 UnknownText_0x65ab2: ; 0x65ab2
 	text "Ecoute ça."
-	line "on @"
+	line "Mon @"
 	text_from_ram StringBuffer4
 	text $51
 	db "souris quand je"
@@ -1076,7 +1067,7 @@ UnknownText_0x65e42: ; 0x65e42
 	line "que tu ne peux"
 	
 	para "pas deviner par le"
-	line "téléphone"
+	line "téléphone."
 	done
 ; 0x65eac
 
@@ -1093,7 +1084,7 @@ UnknownText_0x65eac: ; 0x65eac
 	line "que tu ne peux"
 	
 	para "pas deviner par le"
-	line "téléphone"
+	line "téléphone."
 	done
 ; 0x65f17
 
@@ -1146,7 +1137,7 @@ UnknownText_0x65ff2: ; 0x65ff2
 ; 0x66043
 
 UnknownText_0x66043: ; 0x66043
-	text "Oui, TULLY ici<...>"
+	text "Oui, c'est TULLY<...>"
 
 	para $14, "? Quoi?"
 	line "Tu es perdu?"
@@ -1207,7 +1198,7 @@ UnknownText_0x6618c: ; 0x6618c
 	line "mière fois, mais"
 
 	para "je n'avais aucune"
-	line "# BALLS<...>"
+	line "# BALL<...>"
 
 	para "Est-ce que LEO"
 	line "se moquera de moi?"
@@ -1239,7 +1230,7 @@ UnknownText_0x662a9: ; 0x662a9
 ; 0x662bc
 
 UnknownText_0x662bc: ; 0x662bc
-	text "Tu savais<...>?"
+	text "Le savais-tu?"
 	line "Le père de LEO"
 
 	para "est supposé être"
@@ -1248,7 +1239,7 @@ UnknownText_0x662bc: ; 0x662bc
 ; 0x662fc
 
 UnknownText_0x662fc: ; 0x662fc
-	text "Tu savais<...>?"
+	text "Le savais-tu?"
 	line "Apparamment le"
 
 	para "grandpère de LEO"
@@ -1258,7 +1249,7 @@ UnknownText_0x662fc: ; 0x662fc
 ; 0x66335
 
 UnknownText_0x66335: ; 0x66335
-	text "Tu savais<...>?"
+	text "Le savais-tu?"
 	line "LEO habitait"
 
 	para "autrefois à"
@@ -1267,14 +1258,14 @@ UnknownText_0x66335: ; 0x66335
 ; 0x66366
 
 UnknownText_0x66366: ; 0x66366
-	text "Tu savais<...>?"
+	text "Le savais-tu?"
 	line "LEO habite à ROU-"
 	cont "TE 25 dans KANTO."
 	done
 ; 0x663a1
 
 UnknownText_0x663a1: ; 0x663a1
-	text "Tu savais<...>?"
+	text "Le savais-tu?"
 	line "ABRA est le pre-"
 
 	para "mier #MON que"
@@ -1283,7 +1274,7 @@ UnknownText_0x663a1: ; 0x663a1
 ; 0x663e6
 
 UnknownText_0x663e6: ; 0x663e6
-	text "Tu savais<...>?"
+	text "Le savais-tu?"
 	line "La petite soeur de"
 
 	para "LEO ne peux pas"
@@ -1292,7 +1283,7 @@ UnknownText_0x663e6: ; 0x663e6
 ; 0x66421
 
 UnknownText_0x66421: ; 0x66421
-	text "Tu savais<...>?"
+	text "Le savais-tu?"
 	line "Apparamment LEO"
 
 	para "déteste le lait"
@@ -1301,7 +1292,7 @@ UnknownText_0x66421: ; 0x66421
 ; 0x6645f
 
 UnknownText_0x6645f: ; 0x6645f
-	text "Tu savais<...>?"
+	text "Le savais-tu?"
 	line "LEO n'est pas très"
 
 	para "bon en combat."
@@ -1309,7 +1300,7 @@ UnknownText_0x6645f: ; 0x6645f
 ; 0x6649b
 
 UnknownText_0x6649b: ; 0x6649b
-	text "Tu savais<...>?"
+	text "Le savais-tu?"
 	line "LEO a l'air"
 
 	para "d'aimer la dame de"
@@ -1319,7 +1310,7 @@ UnknownText_0x6649b: ; 0x6649b
 ; 0x664dd
 
 UnknownText_0x664dd: ; 0x664dd
-	text "Tu savais<...>?"
+	text "Le savais-tu?"
 	line "Il parait que la"
 
 	para "mère de LEO est"
@@ -1472,7 +1463,7 @@ UnknownText_0x66882: ; 0x66882
 ; 0x668a3
 
 UnknownText_0x668a3: ; 0x668a3
-	text "Ca ne vas pas?"
+	text "Ca ne va pas?"
 	line "Tu ne peux pas"
 	cont "venir?"
 
@@ -1491,7 +1482,7 @@ UnknownText_0x668a3: ; 0x668a3
 ; 0x6691d
 
 UnknownText_0x6691d: ; 0x6691d
-	text "Ca ne vas pas?"
+	text "Ca ne va pas?"
 	line "Tu ne peux pas"
 	cont "venir?"
 
@@ -1523,8 +1514,8 @@ UnknownText_0x669b2: ; 0x669b2
 	text_from_ram StringBuffer4
 	text "!"
 
-	para "<...>Hein? Toi aussi?"
-	line "C'est pas génial?"
+	para "Hein? Toi aussi?"
+	line "Trop génial!"
 	done
 ; 0x669ed
 

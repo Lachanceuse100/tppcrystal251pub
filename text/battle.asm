@@ -571,7 +571,7 @@ ClampedByText: ; 0x80e59
 
 StoringEnergyText: ; 0x80e6e
 	text $5a
-	line "emmagasine de"
+	line "emmagazine de"
 	cont "l'énergie!"
 	prompt
 ; 0x80e84

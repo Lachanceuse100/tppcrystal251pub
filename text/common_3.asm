@@ -1633,8 +1633,7 @@ _OakRating17: ; 1c18f7
 _OakRating18: ; 1c1932
 	text "Ton #DEX est"
 	line "génial. Quel"
-
-	para "professionnalisme!"
+	cont "professionnalisme!"
 	done
 ; 1c196b
 

@@ -56,7 +56,7 @@ UnknownText_0x174165: ; 0x174165
 	para "Si j'étais mieux"
 	line "informé, je l'au-"
 
-	para "rais sûrement eu<...>"
+	cont "rais sûrement eu<...>"
 	done
 ; 0x1741e1
 
@@ -83,7 +83,7 @@ UnknownText_0x174251: ; 0x174251
 ; 0x174261
 
 UnknownText_0x174261: ; 0x174261
-	text "Tu savais?"
+	text "Le savais-tu?"
 
 	para "Quand il pleut,"
 	line "FATAL-FOUDRE"
@@ -92,7 +92,7 @@ UnknownText_0x174261: ; 0x174261
 ; 0x17429d
 
 UnknownText_0x17429d: ; 0x17429d
-	text "Tu savais?"
+	text "Le savais-tu?"
 
 	para "En utilisant BOUL'"
 	line "ARMURE, la pui-"
@@ -103,7 +103,7 @@ UnknownText_0x17429d: ; 0x17429d
 ; 0x1742ee
 
 UnknownText_0x1742ee: ; 0x1742ee
-	text "Tu savais?"
+	text "Le savais-tu?"
 
 	para "Un grand soleil"
 	line "permet a LANCE-"
@@ -115,7 +115,7 @@ UnknownText_0x1742ee: ; 0x1742ee
 ; 0x174340
 
 UnknownText_0x174340: ; 0x174340
-	text "Tu savais<...>?"
+	text "Le savais-tu?"
 
 	para "Si l'adversaire"
 	line "utilise LILIPUT,"
@@ -126,7 +126,7 @@ UnknownText_0x174340: ; 0x174340
 ; 0x174391
 
 UnknownText_0x174391: ; 0x174391
-	text "Tu savais?"
+	text "Le savais-tu?"
 
 	para "Si l'adversaire"
 	line "est en VOL,"
@@ -137,7 +137,7 @@ UnknownText_0x174391: ; 0x174391
 ; 0x1743e3
 
 UnknownText_0x1743e3: ; 0x1743e3
-	text "Tu savais?"
+	text "Le savais-tu?"
 
 	para "Si l'adversaire"
 	line "est en VOL,"
@@ -148,29 +148,29 @@ UnknownText_0x1743e3: ; 0x1743e3
 ; 0x174433
 
 UnknownText_0x174433: ; 0x174433
-	text "Tu savais?"
+	text "Le savais-tu?"
 
 	para "Si l'adversaire"
 	line "est sous terre,"
 
-	para "EARTHQUAKE est"
-	line "pluis puissant."
+	para "SEISME est"
+	line "plus puissant."
 	done
 ; 0x174485
 
 UnknownText_0x174485: ; 0x174485
-	text "Tu savais?"
+	text "Le savais-tu?"
 
 	para "Si l'adversaire"
 	line "est sous terre,"
 
 	para "AMPLEUR est"
-	line "pluis puissant."
+	line "plus puissant."
 	done
 ; 0x1744d6
 
 UnknownText_0x1744d6: ; 0x1744d6
-	text "Tu savais?"
+	text "Le savais-tu?"
 
 	para "Les types ROCHE,"
 	line "SOL et ACIER ne"
@@ -181,7 +181,7 @@ UnknownText_0x1744d6: ; 0x1744d6
 ; 0x174522
 
 UnknownText_0x174522: ; 0x174522
-	text "Tu savais?"
+	text "Le savais-tu?"
 
 	para "Sous un fort so-"
 	line "leil, les capaci-"
@@ -192,7 +192,7 @@ UnknownText_0x174522: ; 0x174522
 ; 0x174571
 
 UnknownText_0x174571: ; 0x174571
-	text "Tu savais?"
+	text "Le savais-tu?"
 
 	para "Quand il pleut,"
 	line "les capacités FEU"
@@ -266,8 +266,8 @@ UnknownText_0x174734: ; 0x174734
 
 	para "@"
 	text_from_ram StringBuffer4
-	text ". Ca m'a"
-	line "déçu."
+	text "."
+	line "Quelle déception<...>"
 	done
 ; 0x1747ac
 
@@ -412,7 +412,7 @@ UnknownText_0x174a80: ; 0x174a80
 UnknownText_0x174b2d: ; 0x174b2d
 	text "Tout à l'heure,"
 	line "j'ai failli avoir un"
-	cont "un@"
+	cont "un @"
 	text_from_ram StringBuffer4
 	text "."
 
@@ -576,7 +576,7 @@ UnknownText_0x174f2f: ; 0x174f2f
 	text ""
 
 	para "a cet arôme déli-"
-	line "cieux qui ouvre."
+	line "cieux qui ouvre"
 
 	para "mon appétit!"
 	done
@@ -697,7 +697,7 @@ UnknownText_0x17529c: ; 0x17529c
 	text "Ca ne va pas?"
 
 	para "Tu ne veux pas"
-	line "ce cadeau?"
+	line "mon cadeau?"
 
 	para "Rattrape moi sur"
 	line "@"
@@ -1102,7 +1102,7 @@ UnknownText_0x175d40: ; 0x175d40
 	line "super!"
 
 	para "Pour un gosse, tu"
-	line "es plutôt agréable"
+	line "es plutôt sympa!"
 
 	para "@"
 	text_from_ram StringBuffer5

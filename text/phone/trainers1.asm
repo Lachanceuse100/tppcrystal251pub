@@ -63,10 +63,10 @@ UnknownText_0x1b4ecd: ; 0x1b4ecd
 	para "Mon @"
 	TX_RAM StringBuffer4
 	text ""
-	line "est si curieux,"
+	line "est si curieux!"
 
-	para "c'est un problème"
-	line "Il est comme moi<...>"
+	para "Il me ressemble"
+	line "beaucoup<...>"
 	done
 
 UnknownText_0x1b4f21: ; 0x1b4f21
@@ -182,8 +182,8 @@ UnknownText_0x1b50e9: ; 0x1b50e9
 	done
 
 UnknownText_0x1b511a: ; 0x1b511a
-	text "Yo, ", $52, "! You"
-	line "free right now?"
+	text "Yo, ", $52, "! T'es"
+	line "libre là?"
 
 	para "C'est moi, @"
 	TX_RAM StringBuffer3
@@ -238,10 +238,10 @@ UnknownText_0x1b5270: ; 0x1b5270
 	text "Allo, c'est"
 	line "@"
 	TX_RAM StringBuffer3
-	text " speaking<...>"
+	text " à l'appareil<...>"
 
 	para "Salut, ", $14, "!"
-	line "Bonne matinée!"
+	line "Bonne matinée?"
 	done
 
 UnknownText_0x1b52a5: ; 0x1b52a5
@@ -257,7 +257,7 @@ UnknownText_0x1b52cc: ; 0x1b52cc
 	text "Allo, c'est"
 	line "@"
 	TX_RAM StringBuffer3
-	text " speaking<...>"
+	text " à l'appareil<...>"
 
 	para "Salut, ", $14, "!"
 	line "Bon soir!"
@@ -297,7 +297,7 @@ UnknownText_0x1b5393: ; 0x1b5393
 	para "Mon @"
 	TX_RAM StringBuffer4
 	text ""
-	line "vont toujours"
+	line "va toujours"
 	cont "aussi bien."
 
 	para "Gardons la forme"
@@ -311,7 +311,7 @@ UnknownText_0x1b53f7: ; 0x1b53f7
 	TX_RAM StringBuffer3
 	db $0, ".", $51
 	db "Oh, ", $14, ".", $4f
-	db "Bonne matinée!", $51
+	db "Bonne matinée?", $51
 	db $57
 
 UnknownText_0x1b5424: ; 0x1b5424

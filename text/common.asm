@@ -155,7 +155,7 @@ UnknownText_0x1b0378: ; 0x1b0378
 ; 0x1b03a3
 
 UnknownText_0x1b03a3: ; 0x1b03a3
-	text "Magasines #MON<...>"
+	text "Magazines #MON<...>"
 	line "Copain #MON,"
 
 	para "Manuel #MON,"

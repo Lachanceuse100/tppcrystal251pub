@@ -44,7 +44,7 @@ UnknownText_0x1ec0c4: ; 0x1ec0c4
 UnknownText_0x1ec0e1: ; 0x1ec0e1
 	text "Prépare toi à mon"
 	line "attaque sans" 
-	cont "relache!"
+	cont "relâche!"
 	done
 ; 0x1ec108
 
@@ -184,7 +184,7 @@ UnknownText_0x1ec3ad: ; 0x1ec3ad
 
 UnknownText_0x1ec3c5: ; 0x1ec3c5
 	text "Wahahaha! Je n'ai"
-	line "meme pas suer!"
+	line "même pas suer!"
 	done
 ; 0x1ec3e5
 
