@@ -264,8 +264,8 @@ SSAnne7Text_RocketsText:
 	line "mutinerie!"
 
 	para "Restez calme ou"
-	line "nous vous feront"
-	cont "souffrir!"
+	line "ça va mal se"
+	cont "passer!"
 	done
 
 SSAnne7Text_CaptainConfused:
@@ -282,7 +282,7 @@ _SSAnne7Text3:
 	text "Conquérir le"
 	line "mal de mer<...>"
 	para "Le CAPITAINE"
-	line "lisait ça!"
+	line "lisait ça?"
 	done
 
 SSAnne7_MapEventHeader:

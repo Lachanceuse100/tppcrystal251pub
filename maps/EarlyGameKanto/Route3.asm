@@ -330,11 +330,12 @@ Route3RBRocketsText1:
 	done
 
 Route3RBRocketsText2:
-	text "Ouais, j'ai pas"
-	line "compris non plus."
+	text "Ouais, je ne sais"
+	line "pas."
 
-	para "On dirait qu'il"
-	line "les vénère."
+	para "Il parle que de ça"
+	line "comme si ils"
+	cont "étaient important."
 	done
 
 Route3RBRocketsText3:
@@ -344,11 +345,11 @@ Route3RBRocketsText3:
 	done
 
 Route3RBRocketsText4:
-	text "Oh! Tu nous"
+	text "Hein? Tu nous"
 	line "écoutais?"
 
 	para "T'en a trop"
-	line "entendu, avorton."
+	line "entendu, toi."
 
 	para "Prépare toi à la"
 	line "colère de la"
@@ -381,9 +382,9 @@ Route3RBRocketsText6:
 
 	para "<...>"
 
-	para "Enfin, je dis"
-	line "ça mais tu nous as"
-	cont "allumés là<...>
+	para "Enfin, je dis ça,"
+	line "mais tu nous as"
+	cont "allumés là<...>"
 
 	para "On t'oubliera"
 	line "pas!"

@@ -278,7 +278,8 @@ SSAnne5TextAfter:
 	para "Personne, pas même"
 	line "un gamin, ne défie"
 	cont "la TEAM ROCKET"
-	cont "sans être puni!"
+	cont "sans se prendre"
+	cont "une raclée!"
 	done
 
 SSAnne10Text_WontGetAwayWithThis:

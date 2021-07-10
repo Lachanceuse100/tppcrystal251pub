@@ -196,12 +196,12 @@ _Route25AfterBattleText5:
 _Route25BattleText6:
 	text "Mon ami a un"
 	line "#MON mignon."
-	cont "Je suis jaloux!"
+	cont "Je suis jalouse!"
 	done
 
 _Route25EndBattleText6:
 	text "Je suis pas"
-	line "si jaloux!"
+	line "si jalouse!"
 	done
 
 _Route25AfterBattleText6:

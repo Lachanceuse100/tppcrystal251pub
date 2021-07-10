@@ -177,12 +177,12 @@ _SSAnne10AfterBattleText4:
 	cont "fond marins."
 
 	para "Tu auras besoin"
-	line "d'une CANNE"
+	line "d'une CANNE."
 	done
 
 _SSAnne10BattleText5:
 	text "Si tu perds, on"
-	line "te balanche aux"
+	line "te balance aux"
 	cont "requins!"
 	done
 

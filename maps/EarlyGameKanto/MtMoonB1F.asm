@@ -105,7 +105,7 @@ Item_MtMoonB1FRBTMSunnyDay:
 _MtMoon1BattleText2:
 	text "WOAH! Tu m'as sur-"
 	line "pris! Oh mais t'es"
-	cont "just un gosse!"
+	cont "juste un gosse!"
 	done
 
 _MtMoon1EndBattleText2:

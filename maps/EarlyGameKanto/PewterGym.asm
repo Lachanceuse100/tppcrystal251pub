@@ -139,7 +139,7 @@ PewterGymRB_GotBadgeText:
 
 PewterGymRB_BrockCongratsText:
 
-	text "BROCK: Merci,"
+	text "PIERRE: Merci,"
 	line "<PLAY_G>. J'ai aimé"
 	cont "me battre avec toi"
 	cont "même si j'ai"

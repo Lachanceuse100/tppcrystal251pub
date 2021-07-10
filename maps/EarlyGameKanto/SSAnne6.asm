@@ -127,7 +127,7 @@ _SSAnne6Text_6180c:
 
 _SSAnne6Text_61811:
 	text "Anguilles au"
-	line "barbecue"
+	line "barbecue!"
 
 	para "Ca sent la"
 	line "mutinerie<...>"
