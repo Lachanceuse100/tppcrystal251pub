@@ -285,7 +285,7 @@ UnknownText_0x19b427: ; 0x19b427
 	para "Il n'y a pas que"
 	line "toi qui te sois"
 	cont "entraîné sans"
-	cont "relache!"
+	cont "relâche!"
 	done
 ; 0x19b4a2
 
@@ -396,8 +396,8 @@ UnknownText_0x19b859: ; 0x19b859
 	line "vail sur le #-"
 	
 	para "DEX, les recher-"
-	para "ches du PROF ont"
-	line "bien progressé."
+	line "ches du PROF ont"
+	cont "bien progressé."
 	done
 ; 0x19b8a7
 

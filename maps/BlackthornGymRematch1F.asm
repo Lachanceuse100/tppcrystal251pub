@@ -183,7 +183,7 @@ CooltrainermPaulSeenRematchText: ; 0x195396
 
 	para "Mais je vais te"
 	line "montrer leur"
-	cont "vrai force!"
+	cont "véritable force!"
 	done
 ; 0x1953db
 

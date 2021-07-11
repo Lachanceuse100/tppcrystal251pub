@@ -115,8 +115,8 @@ BrockRematchBeatenText:
 	done
 
 BrockAfterRematchText:
-	text "BROCK: J'ai encore"
-	line "perdu<...>"
+	text "PIERRE: J'ai"
+	line "encore perdu<...>"
 
 	para "On dirait que ton"
 	line "aventure te fait"
@@ -182,18 +182,15 @@ UnknownScript_0x1a28c9: ; 0x1a28c9
 
 UnknownText_0x1a28d0: ; 0x1a28d0
 	text "PIERRE: Tiens?"
-	line "Ce n'est pas tous"
+	line "Voilà un visage"
+	cont "bien familier!"
 
-	para "les jours que nous"
-	line "avons quelqu'un de"
-	cont "JOH-"
+	para "Que me vaut ta"
+	line "visite, <PLAYER>?"
 
 	para "<...>"
-
-	para "Ah, tu es de"
-	line "BOURG PALETTE,"
 	
-	para "mais tu as perdu"
+	para "Ah, on t'a volé"
 	line "ton BADGE ROCHE<...>"
 
 	para "Je pourrais faci-"

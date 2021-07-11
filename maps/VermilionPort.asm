@@ -402,8 +402,8 @@ MewSailorNoSurgeText:
 	cont "endroit sur la"
 	cont "CARTE."
 
-	para "Mais GUYANA est"
-	line "dangereux<...>"
+	para "Mais la JUNGLE X"
+	line "est dangereuse<...>"
 	
 	para "Les #MON sauva-"
 	line "ges mettent même"
@@ -432,7 +432,8 @@ MewSailorNoText:
 
 MewSailorAskText:
 	text "Tu veux que je"
-	line "t'emmène à GUYANA?"
+	line "t'emmène à la"
+	cont "JUNGLE X?"
 	done
 
 MewSailorLostMapText:

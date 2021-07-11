@@ -319,7 +319,7 @@ WhitneyRematchTextBefore:
 	cont "du chemin à faire!"
 
 	para "Je me suis entraî-"
-	line "né et je suis"
+	line "née et je suis"
 	cont "prête pour un"
 	cont "deuxième match!"
 

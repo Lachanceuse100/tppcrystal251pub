@@ -304,7 +304,7 @@ CopycatPhase2MaleText: ; 0x18b064
 	para "<PLAYER>: Je vais"
 	line "la chercher."
 
-	para "Tu l'as perdue en"
+	para "Tu l'as perdu en"
 	line "allant à CARMIN"
 	cont "SUR MER?"
 	done
@@ -405,7 +405,7 @@ CopycatPhase2FemaleText: ; 0x18b366
 	para "<PLAYER>: Je vais"
 	line "la chercher."
 
-	para "Tu l'as perdue en"
+	para "Tu l'as perdu en"
 	line "allant à CARMIN"
 	cont "SUR MER?"
 	done

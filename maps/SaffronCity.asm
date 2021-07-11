@@ -205,7 +205,7 @@ UnknownText_0x1995fc: ; 0x1995fc
 	line "du tatouin à la"
 	cont "CENTRALE."
 
-	text "Mâche<...> Mâche<...>"
+	para "Mâche<...> Mâche<...>"
 	done
 ; 0x19964b
 

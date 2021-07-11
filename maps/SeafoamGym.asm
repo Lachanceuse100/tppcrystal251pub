@@ -173,8 +173,8 @@ BlaineAfterRematchText:
 	para "pour te remercier,"
 	line "je vais te parta-"
 	
-	para "fer une CARTE de"
-	line "GUYANA."
+	para "ger une CARTE de"
+	line "la JUNGLE X."
 
 	para "D'après mes nom-"
 	line "breuses recher-"
@@ -325,7 +325,7 @@ SeafoamGymGuyWinText: ; 0x1ab759
 	para "Mince!"
 
 	para "L'ARENE DE CRAMOI-"
-	line "S'ILE était fermé"
+	line "S'ILE était fermée"
 
 	para "alors je ne savais"
 	line "pas où te trouver."

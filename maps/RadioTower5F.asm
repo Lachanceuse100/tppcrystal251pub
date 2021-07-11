@@ -478,7 +478,7 @@ UnknownText_0x608be: ; 0x608be
 ; 0x608e0
 
 UnknownText_0x608e0: ; 0x608e0
-	para "4EME BUREAU"
+	text "4EME BUREAU"
 	line "     DIRECTION"
 	done
 ; 0x608f9

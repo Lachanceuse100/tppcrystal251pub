@@ -254,7 +254,7 @@ UnknownText_0x1aaa15: ; 0x1aaa15
 	text "Le port de CARMIN"
 	line "SUR MER est la"
 	cont "porte de KANTO"
-	cont "verrs l'océan."
+	cont "vers l'océan."
 
 	para "Les paquebots de"
 	line "luxe du monde"

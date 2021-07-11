@@ -44,7 +44,7 @@ UnknownText_0x18a798: ; 0x18a798
 UnknownText_0x18a7bb: ; 0x18a7bb
 	text "CT29: PSYKO"
 
-	para "Il peux baisser la"
+	para "Il peut baisser la"
 	line "DEFENSE SPECIALE"
 	cont "de l'ennemi."
 	done

@@ -22,14 +22,15 @@ SuperNerdScript_0x1a2dd5: ; 0x1a2dd5
 ; 0x1a2dd8
 
 UnknownText_0x1a2dd8: ; 0x1a2dd8
-	text "Hi! Check out my"
-	line "GYARADOS!"
+	text "Mate un peu mon"
+	line "LEVIATOR!"
 
-	para "I raised it from a"
-	line "MAGIKARP. I can't"
+	para "C'était un MAGI-"
+	line "CARPE avant. C'est"
 
-	para "believe how strong"
-	line "it has become."
+	para "dingue a quel"
+	line "point il est"
+	cont "devenu fort!"
 	done
 ; 0x1a2e3a
 

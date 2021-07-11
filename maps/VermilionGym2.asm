@@ -233,7 +233,7 @@ SurgeAfterRematchTextChallenge:
 
 	para "T'as ma permission"
 	line "pour te rendre à"
-	cont "GUYANA!"
+	cont "la JUNGLE X!"
 
 	done
 

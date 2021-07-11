@@ -208,7 +208,7 @@ MapBattleTentBattleRoomBillText5:
 	cont "à la VILLA DU CAP?"
 
 	para "J'ai vendu cette"
-	line "maison a mon"
+	line "maison à mon"
 	cont "grand-père en dé-"
 	cont "ménageant à JOHTO."
 

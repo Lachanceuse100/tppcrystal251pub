@@ -247,7 +247,7 @@ SupernerdSamBeatenText: ; 0x6c1f3
 ; 0x6c219
 
 UnknownText_0x6c219: ; 0x6c219
-	text "Il y a une étang"
+	text "Il y a un étang"
 	line "plein de TADMORV!"
 
 	para "Je suis tombé<...>"

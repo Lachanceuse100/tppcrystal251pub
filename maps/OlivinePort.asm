@@ -400,8 +400,9 @@ UnknownText_0x74c35: ; 0x74c35
 	line "as-tu?"
 
 	para "Des CANNES diffé-"
-	line "rentes attrapent"
-	cont "#MON."
+	line "rentes attirent"
+	cont "différents"
+	cont "#MONs."
 	done
 ; 0x74c76
 

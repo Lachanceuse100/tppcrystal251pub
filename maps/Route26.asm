@@ -470,7 +470,7 @@ CooltrainerfBeth1SeenText: ; 0x1a5136
 
 	para "Ca m'a inspiré"
 	line "pour devenir"
-	cont "dresseur."
+	cont "dresseuse."
 
 	para "Je n'ai pas com-"
 	line "plété mon équipe,"

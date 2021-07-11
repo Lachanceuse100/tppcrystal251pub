@@ -414,13 +414,25 @@ TextBranchFirstMisty
 	done
 
 TextBranchSecondMisty:
-	text "Quoi? On t'a volé"
-	line "ton badge?"
+	text "Hé! Mais je te"
+	line "reconnais!"
 
-	para "Pas d'excuses!"
-	line "Si t'en veux un"
-	cont "autre, il faudra"
-	cont "le gagner!"
+	para "T'as pas déjà eu"
+	line "ton badge il y a 3"
+	cont "mois?"
+
+	para "<...>"
+
+	para "Comment ça on te"
+	line "l'a volé?"
+
+	para "Et ben pour la"
+	line "peine, faudra le"
+	cont "regagner!"
+
+	para "Punition pour"
+	line "avoir gâché mon"
+	cont "rencard!"
 	done
 
 ; 0x18870c

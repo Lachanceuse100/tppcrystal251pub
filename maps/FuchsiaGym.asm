@@ -397,7 +397,7 @@ UnknownText_0x19626b: ; 0x19626b
 
 FuchsiaGymGuyText: ; 0x196299
 	text "Salut, champion en"
-	cont "herbe!"
+	line "herbe!"
 
 	para "Regarde autour de"
 	line "toi: tous les"

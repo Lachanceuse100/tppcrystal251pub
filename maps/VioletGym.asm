@@ -105,8 +105,8 @@ FalknerRejectText:
 	para "Dompter ces #-"
 	line "MON oiseaux légen-"
 	cont "daires est le test"
-	cont "utile de puissance"
-	cont "dans ma famille"
+	cont "ultime de puissan-"
+	cont "ce dans ma famille"
 	cont "depuis des généra-"
 	cont "tions."
 	

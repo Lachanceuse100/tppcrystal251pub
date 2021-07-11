@@ -362,7 +362,7 @@ UnknownText_0x19750d: ; 0x19750d
 
 UnknownText_0x197543: ; 0x197543
 	text "Il y a plein de"
-	line "magasines d'une"
+	line "magazines d'une"
 	cont "langue étrange."
 
 	para "Je ne lis même pas"

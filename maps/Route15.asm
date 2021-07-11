@@ -238,8 +238,8 @@ SchoolboyKippSeenText: ; 0x1aa703
 ; 0x1aa725
 
 SchoolboyKippBeatenText: ; 0x1aa725
-	text "Désolé, maman"
-	line "J'ai été battu."
+	text "Désolé maman,"
+	line "j'ai été battu."
 	done
 ; 0x1aa740
 

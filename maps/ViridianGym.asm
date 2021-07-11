@@ -346,7 +346,7 @@ UnknownText_0x9ac27: ; 0x9ac27
 	line "ils t'ouvrent le"
 	cont "BAZAR à CT."
 
-	para "Je te battarais"
+	para "Je te battrais"
 	line "un jour."
 
 	para "Oublie-pas!"
@@ -373,7 +373,7 @@ ViridianGymGuyText: ; 0x9acee
 	line "celui qui a com-"
 	
 	para "battu le MAITRE il"
-	line "y a trois ans."
+	line "y a trois mois."
 
 	para "C'est pas un"
 	line "tendre."

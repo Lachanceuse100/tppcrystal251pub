@@ -209,7 +209,7 @@ FuchsiaGym2GuyText: ; 0x196299
 	line "rinthe invisible!"
 
 	para "Elle est totale-"
-	line "ment camouflé!"
+	line "ment camouflée!"
 	done
 ; 0x196325
 

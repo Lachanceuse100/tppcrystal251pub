@@ -238,9 +238,9 @@ UnknownText_0x1ad293: ; 0x1ad293
 	line "l'année est hor-"
 	cont "rible."
 
-	para "On se divertit"
-	line "avec nos blagues"
-	cont "à 2 franc."
+	para "Alors on se diver-"
+	line "tit avec nos"
+	cont "blagues a 2 balls."
 	done
 ; 0x1ad2c5
 

@@ -66,7 +66,7 @@ UnknownText_0x7edb1: ; 0x7edb1
 ; 0x7eddb
 
 UnknownText_0x7eddb: ; 0x7eddb
-	text "Les #MON que"
+	text "Les #MON que"
 	line "j'ai perdu<...>"
 
 	para "Je les aimais com-"

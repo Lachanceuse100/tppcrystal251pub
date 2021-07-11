@@ -145,7 +145,7 @@ UnknownText_0x54ad1_2: ; 0x54ad1
 ; 0x54b04
 
 UnknownText_0x54b04: ; 0x54b04
-	text "je ne fais que"
+	text "Je ne fais que"
 	line "perdre les combats"
 
 	para "avec mes #MON,"

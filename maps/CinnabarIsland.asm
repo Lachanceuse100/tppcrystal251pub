@@ -69,7 +69,7 @@ UnknownText_0x1ac9d2: ; 0x1ac9d2
 	para "Enfin, quelques"
 	line "minutes<...>"
 
-	para "Juste ave que"
+	para "Juste avant que"
 	line "<RED> me batte<...>"
 
 	para "Bref, tu veux"

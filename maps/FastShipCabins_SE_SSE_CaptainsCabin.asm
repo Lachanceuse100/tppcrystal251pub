@@ -394,8 +394,8 @@ UnknownText_0x760ae: ; 0x760ae
 	line "jours pas ma"
 	cont "petite-fille."
 
-	para "Elle à beaucoup"
-	line "d'énrgie, j'espère"
+	para "Elle à beaucoup d'"
+	line "énergie, j'espère"
 	
 	para "qu'elle n'embête"
 	line "personne<...>"

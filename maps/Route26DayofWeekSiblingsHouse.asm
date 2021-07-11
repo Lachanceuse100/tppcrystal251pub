@@ -51,7 +51,7 @@ UnknownText_0x7b222: ; 0x7b222
 ; 0x7b2b9
 
 UnknownText_0x7b2b9: ; 0x7b2b9
-	text "Lundie, LUCIE"
+	text "Lundi, LUCIE"
 	line "ROUTE 40"
 
 	para "Mardi, MARIE"

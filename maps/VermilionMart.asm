@@ -34,7 +34,7 @@ UnknownText_0x191f8b: ; 0x191f8b
 UnknownText_0x191fca: ; 0x191fca
 	text "J'aimerais faire"
 	line "du shopping à"
-	cont "SAFFRANIA."
+	cont "SAFRANIA."
 	done
 ; 0x191ff8
 

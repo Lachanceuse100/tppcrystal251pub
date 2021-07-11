@@ -172,7 +172,7 @@ MortyRejectTowerOpen:
 	para "Le #MON arc-en-"
 	line "ciel est revenu!"
 
-	para "But<...>"
+	para "Mais<...>"
 
 	para "J'admet que je ne"
 	line "suis pas celui qui"
@@ -190,7 +190,7 @@ MortyRejectTowerOpen:
 	cont "sûrement devant"
 	cont "toi!"
 
-	para "Pars a la TOUR"
+	para "Pars à la TOUR"
 	line "FERAILLE!"
 
 	para "Accomplis le rêve"
